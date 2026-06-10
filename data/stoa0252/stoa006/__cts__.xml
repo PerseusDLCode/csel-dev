@@ -1,4 +1,5 @@
-<ti:work xml:lang="lat" xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:latinLit:stoa0252" urn="urn:cts:latinLit:stoa0252.stoa006">
+<?xml version='1.0' encoding='UTF-8'?>
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" xml:lang="lat" groupUrn="urn:cts:latinLit:stoa0252" urn="urn:cts:latinLit:stoa0252.stoa006">
   <ti:title xml:lang="lat">Epistola ad Macedonium</ti:title>
   <ti:edition workUrn="urn:cts:latinLit:stoa0252.stoa006" urn="urn:cts:latinLit:stoa0252.stoa006.opp-lat1">
     <ti:label xml:lang="lat">Epistola ad Macedonium</ti:label>
@@ -10,4 +11,4 @@
     <ti:description xml:lang="mul">Sedulius.  Sedulii Opera omnia (Corpus Scriptorum Ecclesiasticorum Latinorum, Volume 10).
       Huemer, Johann, editor. Vienna: Gerold, 1885.</ti:description>
   </ti:edition>
-</ti:work>
+<ti:genre confidence="high">prose-epistolary</ti:genre></ti:work>
