@@ -1,103 +1,115 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader xml:lang="eng">
-    <fileDesc>
-      <titleStmt>
-        <title xml:lang="lat">Contra Gaudentium Donatistarum Episcopum</title>
-        <author>Augustine</author>
-        <editor>Michael Petschenig</editor>
-        <sponsor>University of Leipzig</sponsor>
-        <funder>European Social Fund Saxony</funder>
-        <principal>Gregory Crane</principal>
-        <respStmt>
-          <persName xml:id="Jouve">Jouve</persName>
-          <resp>OCR-ed, corrected and encoded the text</resp>
-        </respStmt>
-        <respStmt>
-          <persName>Greta Franzini</persName>
-          <resp>Project Manager (University of Leipzig)</resp>
-        </respStmt>
-        <respStmt>
-          <persName>Simona Stoyanova</persName>
-          <resp>Project Assistant (University of Leipzig)</resp>
-        </respStmt>
-        <respStmt>
-          <persName>Bruce Robertson</persName>
-          <resp>Technical Advisor (Mount Allison University)</resp>
-        </respStmt>
-        <respStmt>
-          <persName>Uvius Fonticola</persName>
-          <resp>Technical Advisor (Ludwig Maximilians University Munich)</resp>
-        </respStmt>
-      </titleStmt>
-      
-      <publicationStmt>
-        <authority>University of Leipzig</authority>
-        <idno type="filename">stoa0040.stoa025.opp-lat1.xml</idno>
-        <availability>
-          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
-        </availability>
-        <date>2014</date>
-        <publisher>University of Leipzig</publisher>
-        <pubPlace>Germany</pubPlace>
-      </publicationStmt>
-      
-      <sourceDesc>
-        <listBibl>
-          <biblStruct>
-            <monogr>
-              <editor>
-                <persName>
-                  <name>Michael Petschenig</name>
-                </persName>
-              </editor> 
-              <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040">Augustine</author>  
-              <title xml:lang="lat">Sancti Aureli Augustini Opera</title>
-              <imprint>
-                <publisher>F. Tempsky</publisher>
-                <publisher>G. Freytag</publisher>
-                <pubPlace>Prague</pubPlace>
-                <pubPlace>Vienna</pubPlace>
-                <pubPlace>Leipzig</pubPlace>
-                <date>1910</date>
-              </imprint>
-              <biblScope unit="volume" xml:lang="lat">Sectio VII, Pars 3</biblScope>
-            </monogr>
-            <series>
-              <title level="s" xml:lang="lat">Corpus scriptorum ecclesiasticorum Latinorum</title>
-              <biblScope unit="volume">53</biblScope>
-            </series>
-            <ref target="https://archive.org/details/CSEL53/page/n301/mode/2up">Internet Archive</ref>            
-          </biblStruct>
-        </listBibl>
-      </sourceDesc>
-      
-    </fileDesc>
-    <encodingDesc>
-      <p>The following text is encoded in accordance with EpiDoc standards and with the
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/PerseusDLCode/perseus-schemas/main/perseus_prose.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="eng">
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="lat">Contra Gaudentium Donatistarum Episcopum</title>
+            <author>Augustine</author>
+            <editor>Michael Petschenig</editor>
+            <sponsor>University of Leipzig</sponsor>
+            <funder>European Social Fund Saxony</funder>
+            <principal>Gregory Crane</principal>
+            <respStmt>
+               <persName xml:id="Jouve">Jouve</persName>
+               <resp>OCR-ed, corrected and encoded the text</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Greta Franzini</persName>
+               <resp>Project Manager (University of Leipzig)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Simona Stoyanova</persName>
+               <resp>Project Assistant (University of Leipzig)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Bruce Robertson</persName>
+               <resp>Technical Advisor (Mount Allison University)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Uvius Fonticola</persName>
+               <resp>Technical Advisor (Ludwig Maximilians University Munich)</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>University of Leipzig</authority>
+            <idno type="filename">stoa0040.stoa025.opp-lat1.xml</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
+            </availability>
+            <date>2014</date>
+            <publisher>University of Leipzig</publisher>
+            <pubPlace>Germany</pubPlace>
+            <idno type="CTS">urn:cts:latinLit:stoa0040.stoa025.opp-lat1</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <name>Michael Petschenig</name>
+                        </persName>
+                     </editor>
+                     <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040">Augustine</author>
+                     <title xml:lang="lat">Sancti Aureli Augustini Opera</title>
+                     <imprint>
+                        <publisher>F. Tempsky</publisher>
+                        <publisher>G. Freytag</publisher>
+                        <pubPlace>Prague</pubPlace>
+                        <pubPlace>Vienna</pubPlace>
+                        <pubPlace>Leipzig</pubPlace>
+                        <date>1910</date>
+                     </imprint>
+                     <biblScope unit="volume" xml:lang="lat">Sectio VII, Pars 3</biblScope>
+                  </monogr>
+                  <series>
+                     <title level="s" xml:lang="lat">Corpus scriptorum ecclesiasticorum Latinorum</title>
+                     <biblScope unit="volume">53</biblScope>
+                  </series>
+                  <ref target="https://archive.org/details/CSEL53/page/n301/mode/2up">Internet Archive</ref>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>The following text is encoded in accordance with EpiDoc standards and with the
         CTS/CITE Architecture. 
 </p>
-      <refsDecl n="CTS">
-        <cRefPattern n="section" matchPattern="(.+).(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1']/tei:div[@n='$2'])"/>
-        <cRefPattern n="book" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1'])"/>
-      </refsDecl>
-    </encodingDesc>
-    
-    <profileDesc>
-      <langUsage>
-        <language ident="lat">Latin</language>
-      </langUsage>
-    </profileDesc>
-    
-</teiHeader>
-<text>
-<body>
-<div type="edition" xml:lang="lat" n="urn:cts:latinLit:stoa0040.stoa025.opp-lat1">
-<div n="1" subtype="book" type="textpart">            
-          <ab>
-            <title type="sub">LIBER PRIMUS. </title>
-          </ab>
-  <div n="1" subtype="section" type="textpart">  
-          <p><milestone n="1" unit="altchapter"/>Gaudentius Donatistarum Tamugadensis episcopus <lb/>
+         <refsDecl n="CTS">
+            <cRefPattern n="section"
+                         matchPattern="(.+).(.+)"
+                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1']/tei:div[@n='$2'])"/>
+            <cRefPattern n="book"
+                         matchPattern="(.+)"
+                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1'])"/>
+         </refsDecl>
+         <refsDecl n="CTS">
+            <citeStructure match="/TEI/text/body" use="@xml:base">
+               <citeStructure unit="book" delim=":" match="div[@type='book']" use="@n">
+                  <citeStructure unit="section" delim="." match="div[@type='section']" use="@n"/>
+               </citeStructure>
+            </citeStructure>
+         </refsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <catRef scheme="#perseus-genre" target="#prose-book-section"/>
+         </textClass>
+         <langUsage>
+            <language ident="lat">Latin</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body xml:base="urn:cts:latinLit:stoa0040.stoa025.opp-lat1">
+         <div n="1" type="book">
+            <ab>
+               <title type="sub">LIBER PRIMUS. </title>
+            </ab>
+            <div n="1" type="section">
+               <p>
+                  <milestone n="1" unit="altchapter"/>Gaudentius Donatistarum Tamugadensis episcopus <lb/>
             cum se ipsum in ecclesia quibusdam sibi adiunctis perditis <lb/>
             incendere minaretur, uiro spectabili tribuno et notario Dulcitio, <lb/>
             cui piissimus imperator leges suas exsequendas cura perficiendae <lb n="5"/>
@@ -122,34 +134,35 @@
             Habent aut eos, quibus sua scripta innotescere cupiunt, tale
 
 <note type="footnote"> Augustini contra Gaudentium donatistarum epm lib. 1\'. <hi rend="italic">A</hi> 2 Tba- <lb/>
-            <hi rend="italic">mugadensia v, ut Parm. II 4, 8; at cf. Retract. II 85</hi> (59), Tamogadiensi <lb/>
-            <hi rend="italic">Cresc. III 29, 33,</hi> Tamtigadensis <hi rend="italic">epist. 108, 5,</hi> Tamugadi <hi rend="italic">It. Ant. p. 34,</hi> <lb/>
-            Tamogaziensis <hi rend="italic">NoLprou. Num. 77</hi> 3 quibusdam-4 spectabili <hi rend="italic">om. A</hi> <lb/>
-            9 altera <hi rend="italic">A</hi> uero <hi rend="italic">om. fv</hi> 17 autem <hi rend="italic">et</hi> uerba <hi rend="italic">om. fv</hi> 19 cominus <hi rend="italic">Afv</hi> <lb/>
-            20 <hi rend="italic">alt</hi>. non <hi rend="italic">om. d</hi> 21 audiui* <hi rend="italic">A</hi> 24 sua <hi rend="italic">om. f</hi> scripta sua <hi rend="italic">v</hi> </note> <lb/>
-             
-<pb n="202"/>
+                     <hi rend="italic">mugadensia v, ut Parm. II 4, 8; at cf. Retract. II 85</hi> (59), Tamogadiensi <lb/>
+                     <hi rend="italic">Cresc. III 29, 33,</hi> Tamtigadensis <hi rend="italic">epist. 108, 5,</hi> Tamugadi <hi rend="italic">It. Ant. p. 34,</hi>
+                     <lb/>
+            Tamogaziensis <hi rend="italic">NoLprou. Num. 77</hi> 3 quibusdam-4 spectabili <hi rend="italic">om. A</hi>
+                     <lb/>
+            9 altera <hi rend="italic">A</hi> uero <hi rend="italic">om. fv</hi> 17 autem <hi rend="italic">et</hi> uerba <hi rend="italic">om. fv</hi> 19 cominus <hi rend="italic">Afv</hi>
+                     <lb/>
+            20 <hi rend="italic">alt</hi>. non <hi rend="italic">om. d</hi> 21 audiui* <hi rend="italic">A</hi> 24 sua <hi rend="italic">om. f</hi> scripta sua <hi rend="italic">v</hi>
+                  </note>
+                  <lb/>
+                  <pb n="202"/>
             cor habere opinantur? sed etiam talibus hic satisfaciamus <lb/>
             et, quando ponimus uerba Gaudentii, non dicamus \'Gaudentius <lb/>
             dixit&gt;, sed uerba epistulae\', et quando respondemus, non dicamus <lb/>
             \'Augustinus respondit\', sed sed haec responsio\'. sic ergo <lb/>
             incipiamus refellere Gaudentii epistulam priorem atque breuiorem.<lb n="5"/>
-            </p>
-          
-</div>
-
-<div n="2" subtype="section" type="textpart">
-<p>Uerba epistulae: <hi rend="italic">Honorabili ac nimium nobis, si sic <lb/>
+               </p>
+            </div>
+            <div n="2" type="section">
+               <p>Uerba epistulae: <hi rend="italic">Honorabili ac nimium nobis, si sic <lb/>
             uolueris, desiderando Dulcitio tribuno et notario Gaudentius <lb/>
             episcopus</hi>. ad haec responsio: Non debemus etiam ista discutere, <lb/>
             ne propemodum in superfluis immoremur, cum sint<lb n="10"/>
             loca necessaria, quae nos aliquanto diutius loqui cogant. 
 </p>
-          
-</div>
-
-<div n="3" subtype="section" type="textpart">
-<p><milestone n="2" unit="altchapter"/> Uerba epistulae: <hi rend="italic">Religionis tuae scripta percepi per <lb/>
+            </div>
+            <div n="3" type="section">
+               <p>
+                  <milestone n="2" unit="altchapter"/> Uerba epistulae: <hi rend="italic">Religionis tuae scripta percepi per <lb/>
             eos, quos et moribus et instituto suo cunctis caros esse manifestum <lb/>
             est</hi>. ad haec responsio: Neque hoc discutiam, quomodo <lb/>
             dixeris \'religionis tuae\' homini, quem potius inreligiosum <lb n="15"/>
@@ -158,11 +171,10 @@
             ad te dedit, quam catholicus haereticum debuit, putans tuam <lb/>
             mentem tali fieri sermocinatione sanabilem. 
 </p>
-          
-</div>
-
-<div n="4" subtype="section" type="textpart">
-<p><milestone n="3" unit="altchapter"/> Uerba epistulae: <hi rend="italic">In quibus tam multa,</hi> inquit, <hi rend="italic">a<lb n="20"/>
+            </div>
+            <div n="4" type="section">
+               <p>
+                  <milestone n="3" unit="altchapter"/> Uerba epistulae: <hi rend="italic">In quibus tam multa,</hi> inquit, <hi rend="italic">a<lb n="20"/>
             tua dignatione dicta sunt, quae nunc interim conticesco. sed <lb/>
             quoniam ingenii tui acumen minus aduertit, quod nos in <lb/>
             eodem scripto nec innocentes plenos nec reos asserere potuisti</hi>. <lb/>
@@ -178,9 +190,9 @@
             23 plene <hi rend="italic">fv</hi> 24 aseruit J dixit <hi rend="italic">fv</hi> 25 quod] quum <hi rend="italic">f</hi> cum v <lb/>
             26 nefande <hi rend="italic">Aml</hi> 27 <hi rend="italic">pro</hi> te] te in te <hi rend="italic">Af</hi> quae] quanta <hi rend="italic">10</hi> 28 desperando-poena] <lb/>
             iudicio desperatio <hi rend="italic">fo</hi> poterint permanere J 29 exortatus <lb/>
-            J </note> <lb n="30"/>
-             
-<pb n="203"/>
+            J </note>
+                  <lb n="30"/>
+                  <pb n="203"/>
             haereseos te ad unam et ueram dei conferas fidem? uerumtamen <lb/>
             nos non tribuni uerba defendere, sed haeretici refutare <lb/>
             suscepimus. si quid ergo iste noster tamquam laicus militaris <lb/>
@@ -190,22 +202,20 @@
             quae apud Carthaginem facta est, sex aliis adiunctum etiam <lb/>
             defensorem suae diuisionis edidit. 
 </p>
-          
-</div>
-
-<div n="5" subtype="section" type="textpart">
-<p><milestone n="4" unit="altchapter"/> Uerba epistulae: <hi rend="italic">Quodsi criminosos,</hi> inquit, <hi rend="italic">existimas, <lb/>
+            </div>
+            <div n="5" type="section">
+               <p>
+                  <milestone n="4" unit="altchapter"/> Uerba epistulae: <hi rend="italic">Quodsi criminosos,</hi> inquit, <hi rend="italic">existimas, <lb/>
             fugienda est uobis damnanda societas</hi>. ad haec responsio: <lb n="10"/>
             Plane fugienda est societas criminosorum, sed non respuenda <lb/>
             est correctorum. illud ergo ita salubriter deuitamus, ut hoc <lb/>
             misericorditer uelimus optemus instemus. 
 </p>
-          
-</div>
-
-<div n="6" subtype="section" type="textpart">
-<p><milestone n="5" unit="altchapter"/> Uerba epistulae: <hi rend="italic">Si uero innocentes putas,</hi> inquit. <lb/>
-            <hi rend="italic">quod etiam ipse dixisti, persecutores nos in fide Christi<lb n="15"/>
+            </div>
+            <div n="6" type="section">
+               <p>
+                  <milestone n="5" unit="altchapter"/> Uerba epistulae: <hi rend="italic">Si uero innocentes putas,</hi> inquit. <lb/>
+                  <hi rend="italic">quod etiam ipse dixisti, persecutores nos in fide Christi<lb n="15"/>
              constituti sustinere gaudemus</hi>. ad haec responsio: Consideraui <lb/>
             litteras tribuni ad te datas et nusquam in eis legi, quod te <lb/>
             dixerit innocentem, sed ab aliis audisse uel cognouisse prudentem. <lb/>
@@ -223,26 +233,25 @@
             sit potius pro hominibus liberandis persecutio uitiorum,
 
 <note type="footnote">6 cf. Breuic. 1 4 22 cf. Gen. 3, 1 </note>
-
-<note type="footnote"> 2 nos <hi rend="italic">om. fv</hi> 5 praedicandum J 7 cartaginem J 8 elidit <hi rend="italic">A; an</hi> <lb/>
-            elegit? <hi rend="italic">cf</hi>. delegissent <hi rend="italic">Breuic. l. c</hi>. 9 quo si criminosus inquid <hi rend="italic">J</hi> <lb/>
+                  <note type="footnote"> 2 nos <hi rend="italic">om. fv</hi> 5 praedicandum J 7 cartaginem J 8 elidit <hi rend="italic">A; an</hi>
+                     <lb/>
+            elegit? <hi rend="italic">cf</hi>. delegissent <hi rend="italic">Breuic. l. c</hi>. 9 quo si criminosus inquid <hi rend="italic">J</hi>
+                     <lb/>
             10 est <hi rend="italic">om. f</hi> 11 est respuenda <hi rend="italic">fv</hi> 12 <hi rend="italic">aalubriter ita fv</hi> 14 nos <lb/>
-            putas <hi rend="italic">10</hi> 15 nos <hi rend="italic">om. fv</hi> 27 persecutioiem <hi rend="italic">J</hi> </note> <lb n="30"/>
-
-             
-<pb n="204"/>
+            putas <hi rend="italic">10</hi> 15 nos <hi rend="italic">om. fv</hi> 27 persecutioiem <hi rend="italic">J</hi>
+                  </note>
+                  <lb n="30"/>
+                  <pb n="204"/>
             qualem facit aegris etiam diligentia medicorum. quamuis etsi <lb/>
             essetis innocentes, hinc efficeremini nocentes, -quia occidere <lb/>
             cupitis innocentes. qui enim se innocentes conantur asserere <lb/>
             et tamen uitae suae nolunt parcere, quid aliud quam innocentes <lb/>
             conuincuntur occidere? <lb n="5"/>
-            
-</p>
-          
-</div>
-
-<div n="7" subtype="section" type="textpart">
-<p><milestone n="6" unit="altchapter"/> Uerba epistulae: <hi rend="italic">In hac autem ecclesia,</hi> inquit, <hi rend="italic">in<lb/>
+               </p>
+            </div>
+            <div n="7" type="section">
+               <p>
+                  <milestone n="6" unit="altchapter"/> Uerba epistulae: <hi rend="italic">In hac autem ecclesia,</hi> inquit, <hi rend="italic">in<lb/>
              qua dei nomen et Christi, eius! ut etiam ipse dixisti, in <lb/>
             ueritate semper est frequentatum, nos aut uiui, quamdiu<lb/>
              deo placuerit, permanemus aut, ut dignum. est dei familia, <lb/>
@@ -269,24 +278,27 @@
             disponitis? si autem illud non uos fecistis, hoc certe
 
 <note type="footnote">17 Rom. 1, 18 </note>
-
-<note type="footnote"> 2 nocentes] innocentes <hi rend="italic">J</hi> 6 inquid <hi rend="italic">J</hi> 7 nomen dei <hi rend="italic">fv</hi> 8 semper <lb/>
-            <hi rend="italic">om. f</hi> uiui] ueri <hi rend="italic">f</hi> 10 terminabimus <hi rend="italic">f</hi> 14 inuocatum in ueritate <hi rend="italic">10</hi> <lb/>
-            15 si <hi rend="italic">om. A</hi> 16 nestram <hi rend="italic">Aml</hi> 17 qui <hi rend="italic">ex</hi> que J 18 et <hi rend="italic"><foreign xml:lang="grc">ό</foreign>m.f nos Aml</hi> <lb/>
-            19 in <hi rend="italic">om. Af</hi> 24 paras <hi rend="italic">f</hi> 25 moribus <hi rend="italic">f</hi> 29 zelando] uolendo <hi rend="italic">/</hi> <lb/>
-            30 uos non <hi rend="italic">fo</hi> _<hi rend="italic">;</hi>: </note> <lb n="30"/>
-             
-<pb n="205"/>
+                  <note type="footnote"> 2 nocentes] innocentes <hi rend="italic">J</hi> 6 inquid <hi rend="italic">J</hi> 7 nomen dei <hi rend="italic">fv</hi> 8 semper <lb/>
+                     <hi rend="italic">om. f</hi> uiui] ueri <hi rend="italic">f</hi> 10 terminabimus <hi rend="italic">f</hi> 14 inuocatum in ueritate <hi rend="italic">10</hi>
+                     <lb/>
+            15 si <hi rend="italic">om. A</hi> 16 nestram <hi rend="italic">Aml</hi> 17 qui <hi rend="italic">ex</hi> que J 18 et <hi rend="italic">
+                        <foreign xml:lang="grc">ό</foreign>m.f nos Aml</hi>
+                     <lb/>
+            19 in <hi rend="italic">om. Af</hi> 24 paras <hi rend="italic">f</hi> 25 moribus <hi rend="italic">f</hi> 29 zelando] uolendo <hi rend="italic">/</hi>
+                     <lb/>
+            30 uos non <hi rend="italic">fo</hi> _<hi rend="italic">;</hi>: </note>
+                  <lb n="30"/>
+                  <pb n="205"/>
             furiosius est quod uos facere praeparatis. sed dixisti: <hi rend="italic">si uis<lb/>
              fuerit operata</hi> et adiunxisti: <hi rend="italic">nemo est enim tam demens, qui<lb/>
              nullo impellente festinet ad mortem:</hi> quanto est ergo dementior, <lb/>
             qui, cum impellatur ad uitam, festinat ad mortem! 
 </p>
-          
-</div>
-
-<div n="8" subtype="section" type="textpart">
-<p><milestone n="7" unit="altchapter"/> Uerba epistulae: <hi rend="italic">Eos autem qui nobiscum sunt,</hi> <lb n="5"/>
+            </div>
+            <div n="8" type="section">
+               <p>
+                  <milestone n="7" unit="altchapter"/> Uerba epistulae: <hi rend="italic">Eos autem qui nobiscum sunt,</hi>
+                  <lb n="5"/>
             inquit, <hi rend="italic">testem deum facio eiusque omnia sacramenta, quod <lb/>
             exhortatus sum et impensissime persuasi, ut, qui haberet <lb/>
             uoluntatem egredi, securus publice fateretur. nec nos enim <lb/>
@@ -297,49 +309,42 @@
             est? an forte quam malum sit et ipse intellegis atque id te <lb/>
             facturum magis ut terreas quam ut impleas comminaris, aut <lb/>
             mentiendo infidelis aut uerum dicendo crudelis ? <lb n="15"/>
-            
-</p>
-          
-</div>
-
-<div n="9" subtype="section" type="textpart">
-<p><milestone n="8" unit="altchapter"/> Uerba epistulae: <hi rend="italic">(et alia manu:) Opto te incolumem <lb/>
+               </p>
+            </div>
+            <div n="9" type="section">
+               <p>
+                  <milestone n="8" unit="altchapter"/> Uerba epistulae: <hi rend="italic">(et alia manu:) Opto te incolumem <lb/>
             in rei publicae actibus florentem et a christianorum inquietudine <lb/>
             recedentem</hi>. ad haec responsio: Possumus eum et nos <lb/>
             optare et incolumem et in rei publicae actibus florentem, sed <lb/>
             non ab haereticorum correctione quiescentem. <lb n="20"/>
-            
-</p>
-          
-</div>
-
-<div n="10" subtype="section" type="textpart">
-<p><milestone n="9" unit="altchapter"/> Uerba posterioris epistulae: <hi rend="italic">Honorabili et omni<lb/>
+               </p>
+            </div>
+            <div n="10" type="section">
+               <p>
+                  <milestone n="9" unit="altchapter"/> Uerba posterioris epistulae: <hi rend="italic">Honorabili et omni<lb/>
              affectu desiderando Dulcitio Gaudentius episcopus</hi>. ad haec <lb/>
             responsio: Si omni affectu desideras hominem, quare cum illo <lb/>
             tenere Christi respuis unitatem? an reddendo malum quasi <lb/>
             pro malo, quem tuum persecutorem putas, rebaptizare <lb n="25"/>
             desideras? -
 </p>
-          
-</div>
-
-<div n="11" subtype="section" type="textpart">
-<p><milestone n="10" unit="altchapter"/> Uerba epistulae: <hi rend="italic">Solent sibi,</hi> inquit, <hi rend="italic">sola fama noti<lb/>
+            </div>
+            <div n="11" type="section">
+               <p>
+                  <milestone n="10" unit="altchapter"/> Uerba epistulae: <hi rend="italic">Solent sibi,</hi> inquit, <hi rend="italic">sola fama noti<lb/>
              cupere aut inserto inuicem aspectu uerba miscere aut incogniti <lb/>
             saltem non horrere praesentiam. tua uero censura, quod</hi>
-
-<note type="footnote"> 1. 2 pag. 204, 11—12 </note>
-
-<note type="footnote"> 1 paratis / sed],Et J 2 enim <hi rend="italic">om. f</hi> 3 festinent J quando <lb/>
-            <hi rend="italic">per comp. J</hi> clementior J 4 festinet fv 7 exortatus J 8 enimj <lb/>
+                  <note type="footnote"> 1. 2 pag. 204, 11—12 </note>
+                  <note type="footnote"> 1 paratis / sed],Et J 2 enim <hi rend="italic">om. f</hi> 3 festinent J quando <lb/>
+                     <hi rend="italic">per comp. J</hi> clementior J 4 festinet fv 7 exortatus J 8 enimj <lb/>
             non, <hi rend="italic">sed deJ. J</hi> , 9 fidem J 12 fateris / 13 facturum te <hi rend="italic">fv 19 pr</hi>. <lb/>
             et <hi rend="italic">om. fv</hi> incolumen / 20 quiescentem. Incipiunt uerba posterioris <lb/>
             epie eiusdem dpnatistarum episcopi ad eQdem J Libri primi finis ./ <lb/>
-            21 Verba epistolae secundae v 27 sibi] igitur f 28 incerto v </note> <lb/>
-             
-<pb n="206"/>
-            <hi rend="italic">absentem me inueneris gratulatum te, quod autem redierim<lb/>
+            21 Verba epistolae secundae v 27 sibi] igitur f 28 incerto v </note>
+                  <lb/>
+                  <pb n="206"/>
+                  <hi rend="italic">absentem me inueneris gratulatum te, quod autem redierim<lb/>
              contristatum, litteris intimasti</hi>. ad haec responsio: Non omnes, <lb/>
             qui sibi sola fama noti sunt, uidere inuicem uolunt, sed quos <lb/>
             bene ipsa fama commendat. mirum est autem re uera quod <lb/>
@@ -349,14 +354,12 @@
             sed hoc unde, nisi quia te potius eorum persecutorem uoluit <lb/>
             intellegi, quorum in Christo salutem tua praesentia credidit <lb/>
             impediri? <lb n="10"/>
-            
-</p>
-          
-</div>
-
-<div n="12" subtype="section" type="textpart">
-<p><milestone n="11" unit="altchapter"/> Uerba epistulae: <hi rend="italic">Sed quoniam praeterita die,</hi> inquit, <lb/>
-            <hi rend="italic">ne epistulari responso siluissem, propter moram portantium <lb/>
+               </p>
+            </div>
+            <div n="12" type="section">
+               <p>
+                  <milestone n="11" unit="altchapter"/> Uerba epistulae: <hi rend="italic">Sed quoniam praeterita die,</hi> inquit, <lb/>
+                  <hi rend="italic">ne epistulari responso siluissem, propter moram portantium <lb/>
             certa quaeque strictim ac breuiter intirnaui, nunc mihi dignationis <lb/>
             tuae scriptis sacrosanctae legis diuinae uerbis est <lb/>
             respondendum. dominus dicit: innocentem et iustum non<lb n="15"/>
@@ -375,15 +378,19 @@
             iniustis, cur etiam falso uoluistis de Caeciliani exilio in nostra
 
 <note type="footnote"> 15 Ex. 23, 7 28 cf. Breuic. III 20, 38 sqq. </note>
-
-<note type="footnote"> <hi rend="italic">1 te om. f</hi> 2 insinuasti <hi rend="italic">/ 3 nolant A 7 et om. f 11 dies</hi> <lb/>
-            inquid J 12 ne in <hi rend="italic">fv</hi> 13 atque <hi rend="italic">fv</hi> insinuani <hi rend="italic">f</hi> 15 dixit <hi rend="italic">fv</hi> <lb/>
+                  <note type="footnote">
+                     <hi rend="italic">1 te om. f</hi> 2 insinuasti <hi rend="italic">/ 3 nolant A 7 et om. f 11 dies</hi>
+                     <lb/>
+            inquid J 12 ne in <hi rend="italic">fv</hi> 13 atque <hi rend="italic">fv</hi> insinuani <hi rend="italic">f</hi> 15 dixit <hi rend="italic">fv</hi>
+                     <lb/>
             16 et <hi rend="italic">om. fv</hi> 17 pari] pan <hi rend="italic">J</hi> deuinctum <hi rend="italic">/</hi> 19 erat <hi rend="italic">f</hi> a te] <lb/>
             ante <hi rend="italic">A</hi> Gabiniua <hi rend="italic">scripsi</hi> gabiius <hi rend="italic">J</hi> Gabinus <hi rend="italic">fv</hi> caeteri. <hi rend="italic">J</hi> 20 fidefragi <lb/>
-            <hi rend="italic">fv</hi> lapsui <hi rend="italic">A</hi> 23 uelud <hi rend="italic">J</hi> 24 et <hi rend="italic">om. f</hi> 28 iniustis <hi rend="italic">om. f</hi> <lb/>
-            falsa <hi rend="italic">f</hi> uostra <hi rend="italic">A</hi> uestra <hi rend="italic">/</hi> </note> <lb/>
-             
-<pb n="207"/>
+                     <hi rend="italic">fv</hi> lapsui <hi rend="italic">A</hi> 23 uelud <hi rend="italic">J</hi> 24 et <hi rend="italic">om. f</hi> 28 iniustis <hi rend="italic">om. f</hi>
+                     <lb/>
+            falsa <hi rend="italic">f</hi> uostra <hi rend="italic">A</hi> uestra <hi rend="italic">/</hi>
+                  </note>
+                  <lb/>
+                  <pb n="207"/>
             conlatione gloriari, quo eum missum uestris maioribus instantibus <lb/>
             a Constantino imperatore dixistis? iste autem tribunus <lb/>
             ad quem scribis, cui legum pro unitate latarum cura mandata <lb/>
@@ -392,11 +399,10 @@
             Christi pace uult uiuere, tu in parte Donati te quaeris occidere: <lb/>
             quis uestrum sit tuus persecutor agnosce. 
 </p>
-          
-</div>
-
-<div n="13" subtype="section" type="textpart">
-<p><milestone n="12" unit="altchapter"/> Gabinius autem iam noster, qui fuit aliquando <lb/>
+            </div>
+            <div n="13" type="section">
+               <p>
+                  <milestone n="12" unit="altchapter"/> Gabinius autem iam noster, qui fuit aliquando <lb/>
             uester, et alii quam plurimi, qui ex uobis ad nos considerata <lb/>
             catholica ueritate transierunt, non ideo tibi uideantur a uestra <lb n="10"/>
             contagione non fuisse purgati, quia non sunt a nobis rebaptizati. <lb/>
@@ -414,26 +420,26 @@
             non possunt — nec uos innocentes occidimus, quos etiam <lb/>
             reos uiuere uolumus. 
 </p>
-          
-</div>
-
-<div n="14" subtype="section" type="textpart">
-<p><milestone n="13" unit="altchapter"/> Sed tu, qui testimonium diuinae uocis bene recolis <lb n="25"/>
+            </div>
+            <div n="14" type="section">
+               <p>
+                  <milestone n="13" unit="altchapter"/> Sed tu, qui testimonium diuinae uocis bene recolis <lb n="25"/>
             et nobis obicis deum dixisse: <hi rend="italic">innocentem et iustum non <lb/>
             occides,</hi> si innocens et iustus es, quare te occidis? nos te <lb/>
             innocentem et iustum non dicimus et tamen nolumus occidaris: <lb/>
             tu te innocentem et iustum arbitraris et innocenti iustoque
 
 <note type="footnote"> 16 I Petro 4, 8 26 pag. 206, 15 (Ex. 23, 7) </note>
-
-<note type="footnote"> 3 pro unitate latarum] promulgatarum <hi rend="italic">/</hi> 5 constitui <hi rend="italic">fv</hi> 8 Gabinus <hi rend="italic">fc</hi> <lb/>
+                  <note type="footnote"> 3 pro unitate latarum] promulgatarum <hi rend="italic">/</hi> 5 constitui <hi rend="italic">fv</hi> 8 Gabinus <hi rend="italic">fc</hi>
+                     <lb/>
             noster <hi rend="italic">om. J</hi> 9 uester] noster ur ux <hi rend="italic">(sic) A</hi> 10 ibi A 11 uobis /J <lb/>
             12 hii A 13 abluntur A 15 indertore A 16 caracterem A sicut] <lb/>
-            <hi rend="italic">quod JD</hi> 19 intus inesse <hi rend="italic">fv</hi> 21 uellld <hi rend="italic">J</hi> 27 es et iustus <hi rend="italic">fo</hi> est <lb/>
-            <hi rend="italic">Aml</hi> occidisti <hi rend="italic">J</hi> nos] non <hi rend="italic">Amlf</hi> 28 non <hi rend="italic">om. f</hi> nolumus] <hi rend="italic">add</hi>. <lb/>
-            at <hi rend="italic">Iv</hi> 29 arbitrararis J iustoque] et insto <hi rend="italic">fo</hi> </note> <lb/>
-             
-<pb n="208"/>
+                     <hi rend="italic">quod JD</hi> 19 intus inesse <hi rend="italic">fv</hi> 21 uellld <hi rend="italic">J</hi> 27 es et iustus <hi rend="italic">fo</hi> est <lb/>
+                     <hi rend="italic">Aml</hi> occidisti <hi rend="italic">J</hi> nos] non <hi rend="italic">Amlf</hi> 28 non <hi rend="italic">om. f</hi> nolumus] <hi rend="italic">add</hi>. <lb/>
+            at <hi rend="italic">Iv</hi> 29 arbitrararis J iustoque] et insto <hi rend="italic">fo</hi>
+                  </note>
+                  <lb/>
+                  <pb n="208"/>
             non parcis. certe ipse dixisti: <hi rend="italic">in dei iudicio pari crimine<lb/>
              parique reatu esse deuinctos, qui reum absoluerit et qui <lb/>
             occiderit innocentem</hi>. quare ergo absoluisti Felicianum Maximianistam <lb/>
@@ -458,28 +464,30 @@
             non eras, non erit, si te occideris, tuae iniquitatis ini-, <lb/>
             tium, sed augmentum. 
 </p>
-          
-</div>
-
-<div n="15" subtype="section" type="textpart">
-<p><milestone n="14" unit="altchapter"/> Uerba epistulae: <hi rend="italic">Nam de sancto Emerito, inquit,<lb/>
+            </div>
+            <div n="15" type="section">
+               <p>
+                  <milestone n="14" unit="altchapter"/> Uerba epistulae: <hi rend="italic">Nam de sancto Emerito, inquit,<lb/>
             Caesariensi falsa ad nos pro merito fama peruenit. quod si <lb n="25"/>
              (sic) esset, audi apostolum dicentem: si exciderunt a fide <lb/>
             quidam illorum, numquid infidelitas illorum fidem</hi>
-
-<note type="footnote"> 1 pag. 206, 17 26 Rom. 3, 3-4 </note>
-
-<note type="footnote"> 1 certe] certum est igitur ut <hi rend="italic">(om. v) fv</hi> 2 deuinctum <hi rend="italic">/</hi> 3 innocentem <lb/>
-            (iustum <hi rend="italic">/)</hi> occiderit <hi rend="italic">fv, cf. p. 206, 18</hi> 10 <hi rend="italic">pr</hi>. occidendo <hi rend="italic">Aml</hi> <lb/>
-            12 te <hi rend="italic">post</hi> modis <hi rend="italic">tr. Iv</hi>. 14 tuo <hi rend="italic">scripsi</hi> suo <hi rend="italic">J, om. fv</hi> innocentem <hi rend="italic">dm2</hi> <lb/>
+                  <note type="footnote"> 1 pag. 206, 17 26 Rom. 3, 3-4 </note>
+                  <note type="footnote"> 1 certe] certum est igitur ut <hi rend="italic">(om. v) fv</hi> 2 deuinctum <hi rend="italic">/</hi> 3 innocentem <lb/>
+            (iustum <hi rend="italic">/)</hi> occiderit <hi rend="italic">fv, cf. p. 206, 18</hi> 10 <hi rend="italic">pr</hi>. occidendo <hi rend="italic">Aml</hi>
+                     <lb/>
+            12 te <hi rend="italic">post</hi> modis <hi rend="italic">tr. Iv</hi>. 14 tuo <hi rend="italic">scripsi</hi> suo <hi rend="italic">J, om. fv</hi> innocentem <hi rend="italic">dm2</hi>
+                     <lb/>
             15 memo <hi rend="italic">Aml</hi> conuincit <hi rend="italic">A</hi> 17- nullus innocens occidatur <hi rend="italic">fv</hi> 18 se <lb/>
-            <hi rend="italic">ow. J</hi> ipsum <hi rend="italic">f</hi> 19 spoliatur <hi rend="italic">/</hi> non <hi rend="italic">om. J</hi> 20 te] tibi <hi rend="italic">ptf\'J <lb/>
-            comp. A</hi> occideres, praeparares <hi rend="italic">ut f</hi> 25 Caesareensi <hi rend="italic">Av, item infra,</hi> <lb/>
-            nos <hi rend="italic">scripsi</hi> uos <hi rend="italic">Afv</hi>. pro certo <hi rend="italic">ff)</hi> 26 sic <hi rend="italic">addidi</hi> audi <hi rend="italic">coni. xr</hi> <lb/>
-            ad <hi rend="italic">d</hi> apud <hi rend="italic">fv</hi> 27 nunquid <hi rend="italic">J</hi> </note> <lb/>
-             
-<pb n="209"/>
-            <hi rend="italic">dei euacuauit? absit</hi>. ad haec responsio: Dicendum est de <lb/>
+                     <hi rend="italic">ow. J</hi> ipsum <hi rend="italic">f</hi> 19 spoliatur <hi rend="italic">/</hi> non <hi rend="italic">om. J</hi> 20 te] tibi <hi rend="italic">ptf\'J <lb/>
+            comp. A</hi> occideres, praeparares <hi rend="italic">ut f</hi> 25 Caesareensi <hi rend="italic">Av, item infra,</hi>
+                     <lb/>
+            nos <hi rend="italic">scripsi</hi> uos <hi rend="italic">Afv</hi>. pro certo <hi rend="italic">ff)</hi> 26 sic <hi rend="italic">addidi</hi> audi <hi rend="italic">coni. xr</hi>
+                     <lb/>
+            ad <hi rend="italic">d</hi> apud <hi rend="italic">fv</hi> 27 nunquid <hi rend="italic">J</hi>
+                  </note>
+                  <lb/>
+                  <pb n="209"/>
+                  <hi rend="italic">dei euacuauit? absit</hi>. ad haec responsio: Dicendum est de <lb/>
             Emerito Caesariensi quod tu dicere timuisti. falsa quidem de <lb/>
             illo fama iactata est, quod catholicus factus sit, sed quemadmodum <lb/>
             hoc audistis, ita totum quod factum est nosse potuistis. <lb/>
@@ -509,18 +517,20 @@
             persecutionis humana infirmitate cessisse. si denique captus <lb/>
             adduceretur inuitus, non inopia respondendi, sed euadendi
 
-<note type="footnote"> 1 euacuabitur <hi rend="italic">A, cf. p. 210, 21</hi> 2 merito <hi rend="italic">A</hi> dicere <hi rend="italic">tu fv</hi> 5 coeepi <hi rend="italic">A</hi> <lb/>
-            6 oiw <hi rend="italic">A</hi> 8 eius laudibus <hi rend="italic">fv</hi> 15 seu] <hi rend="italic">add</hi>. pro <hi rend="italic">/</hi> 16 uoluit <hi rend="italic">A</hi> <lb/>
-            17 potuit <hi rend="italic">om. f</hi> 18 catholica <hi rend="italic">fo alt</hi>. pro <hi rend="italic">om. A, sed in ras</hi>. p <hi rend="italic">cernitur</hi> <lb/>
+<note type="footnote"> 1 euacuabitur <hi rend="italic">A, cf. p. 210, 21</hi> 2 merito <hi rend="italic">A</hi> dicere <hi rend="italic">tu fv</hi> 5 coeepi <hi rend="italic">A</hi>
+                     <lb/>
+            6 oiw <hi rend="italic">A</hi> 8 eius laudibus <hi rend="italic">fv</hi> 15 seu] <hi rend="italic">add</hi>. pro <hi rend="italic">/</hi> 16 uoluit <hi rend="italic">A</hi>
+                     <lb/>
+            17 potuit <hi rend="italic">om. f</hi> 18 catholica <hi rend="italic">fo alt</hi>. pro <hi rend="italic">om. A, sed in ras</hi>. p <hi rend="italic">cernitur</hi>
+                     <lb/>
             19 sapitis <hi rend="italic">fv</hi> potuit salubrius <hi rend="italic">/</hi> 20 contra uos <hi rend="italic">/</hi> non uenisset] <lb/>
-            conaenisse <hi rend="italic">A</hi> 21 cur <hi rend="italic">scripsi</hi> ut <hi rend="italic">Afv</hi> 22 inueniret <hi rend="italic">Aml</hi> 24 noluisse <hi rend="italic">A</hi> <lb/>
+            conaenisse <hi rend="italic">A</hi> 21 cur <hi rend="italic">scripsi</hi> ut <hi rend="italic">Afv</hi> 22 inueniret <hi rend="italic">Aml</hi> 24 noluisse <hi rend="italic">A</hi>
+                     <lb/>
             25 ipse <hi rend="italic">om. f</hi> 27 non <hi rend="italic">ex</hi> in <hi rend="italic">Aml</hi> 28 cessise J </note>
-
-<note type="footnote"> Lm Auguet. o. Don. III. </note>
-
-<note type="footnote"> 14 </note> <lb/>
-             
-<pb n="210"/>
+                  <note type="footnote"> Lm Auguet. o. Don. III. </note>
+                  <note type="footnote"> 14 </note>
+                  <lb/>
+                  <pb n="210"/>
             consilio tacuisse pro uestro arbitrio iactaretis. nunc uero <lb/>
             quando quidem ultro uenit, profecto quod tacuit non lingua, <lb/>
             sed causa defecit, quod autem transire in unitatem catholicam <lb/>
@@ -535,11 +545,10 @@
             nostra contra uos testis idoneus Emeritus ille, ille, inquam, <lb/>
             Emeritus et inimicus et mutus? 
 </p>
-          
-</div>
-
-<div n="16" subtype="section" type="textpart">
-<p><milestone n="15" unit="altchapter"/> Sed bene tibi uisus es uestros auctoritate uidelicet <lb/>
+            </div>
+            <div n="16" type="section">
+               <p>
+                  <milestone n="15" unit="altchapter"/> Sed bene tibi uisus es uestros auctoritate uidelicet <lb/>
             apostolica consolari. non propter Emeritum, qui non potuit<lb n="15"/>
             plus facere pro uobis, quam quod non inueniens, quid loqueretur <lb/>
             pro uobis, non tamen discessit a uobis, sed propter <lb/>
@@ -557,26 +566,26 @@
             habere, qui in uerbis hominum remanserint. ubi est ergo, quod
 
 <note type="footnote"> 20 Rom. 3, 3-4; cf. pag. 208, 26 23 Gen. 22, 18 </note>
-
-<note type="footnote"> 8 uiderent f 9 fidem <hi rend="italic">om. ft)</hi> 10 pro nobis <hi rend="italic">om. fv</hi> damnare <hi rend="italic">f</hi> <lb/>
+                  <note type="footnote"> 8 uiderent f 9 fidem <hi rend="italic">om. ft)</hi> 10 pro nobis <hi rend="italic">om. fv</hi> damnare <hi rend="italic">f</hi>
+                     <lb/>
             11 ernt (— <hi rend="italic">cras.) J</hi> 12 nostra <hi rend="italic">scripsi</hi> nestra A uestra causa <hi rend="italic">fo</hi> uos <lb/>
-            <hi rend="italic">scripsi</hi> nos <hi rend="italic">Afo</hi> Emeritus, inquam <hi rend="italic">fv</hi> 14 est <hi rend="italic">f</hi> 17 abscessit <hi rend="italic">fv</hi> <lb/>
+                     <hi rend="italic">scripsi</hi> nos <hi rend="italic">Afo</hi> Emeritus, inquam <hi rend="italic">fv</hi> 14 est <hi rend="italic">f</hi> 17 abscessit <hi rend="italic">fv</hi>
+                     <lb/>
             19 inmutati <hi rend="italic">scrij)si</hi> inuuitati A mutati <hi rend="italic">fv</hi> 23 et fidem <hi rend="italic">fv</hi> 24 dixit <lb/>
-            deus <hi rend="italic">fv</hi> 28 a fide <hi rend="italic">iml</hi> babere dei <hi rend="italic">fv</hi>. 29 remanserunt <hi rend="italic">fv</hi> </note> <lb/>
-             
-<pb n="211"/>
+            deus <hi rend="italic">fv</hi> 28 a fide <hi rend="italic">iml</hi> babere dei <hi rend="italic">fv</hi>. 29 remanserunt <hi rend="italic">fv</hi>
+                  </note>
+                  <lb/>
+                  <pb n="211"/>
             huic sententiae abs te commemoratae continuo subiecit apostolus: <lb/>
             est autem deus uerax, omnis autem homo <lb/>
             mendax, si a fide exciderunt, qui credunt quod dixit deus <lb/>
             dominus uerax, et in fide. persistunt, qui credunt quod dixit <lb/>
             homo mendax? <lb n="5"/>
-            
-</p>
-          
-</div>
-
-<div n="17" subtype="section" type="textpart">
-<p><milestone n="16" unit="altchapter"/> Uerba epistulae: <hi rend="italic">Fugam mihi,</hi> inquit, <hi rend="italic">quasi ex <lb/>
+               </p>
+            </div>
+            <div n="17" type="section">
+               <p>
+                  <milestone n="16" unit="altchapter"/> Uerba epistulae: <hi rend="italic">Fugam mihi,</hi> inquit, <hi rend="italic">quasi ex <lb/>
             lege persuades, sed factor legis tantum debet audiri, quia <lb/>
             Paulus apostolus dicit: non auditores legis iusti sunt <lb/>
             apud deum, sed factores legis iustificabuntur. nam <lb/>
@@ -602,16 +611,16 @@
 
 <note type="footnote"> 2 Rom. 3, 4 8 Rom. 2, 13 10 Ioh. 10, 11-12 15 cf. Act. <lb/>
             9, 25 20 Ioh. 10, 10 </note>
-
-<note type="footnote"> 1 commemorata e <hi rend="italic">A</hi> subiungit <hi rend="italic">fv 2 alt</hi>. autem <hi rend="italic">om. A</hi> 3 deus <lb/>
+                  <note type="footnote"> 1 commemorata e <hi rend="italic">A</hi> subiungit <hi rend="italic">fv 2 alt</hi>. autem <hi rend="italic">om. A</hi> 3 deus <lb/>
             dominus <hi rend="italic">om. f</hi> 4 dominus <hi rend="italic">om. v</hi> 8 sunt s. <hi rend="italic">1. Aml</hi> 10 bonus pastor <lb/>
-            <hi rend="italic">fv</hi> 11 mercenarius <hi rend="italic">sie A praeter lin. 28</hi> et <hi rend="italic">om. fv</hi> 13 dispergunt <hi rend="italic">A</hi> <lb/>
+                     <hi rend="italic">fv</hi> 11 mercenarius <hi rend="italic">sie A praeter lin. 28</hi> et <hi rend="italic">om. fv</hi> 13 dispergunt <hi rend="italic">A</hi>
+                     <lb/>
             16 sportam summissus <hi rend="italic">/</hi> 17 eos quos <hi rend="italic">/</hi> domini dicas <hi rend="italic">scripsi</hi> dominicas <lb/>
-            <hi rend="italic">Afv</hi> 18 intimant <hi rend="italic">A</hi> 20 que principem <hi rend="italic">om. f</hi> 26 ut] aut <hi rend="italic">Af</hi> </note>
-
-<note type="footnote"> 14* </note> <lb/>
-             
-<pb n="212"/>
+                     <hi rend="italic">Afv</hi> 18 intimant <hi rend="italic">A</hi> 20 que principem <hi rend="italic">om. f</hi> 26 ut] aut <hi rend="italic">Af</hi>
+                  </note>
+                  <note type="footnote"> 14* </note>
+                  <lb/>
+                  <pb n="212"/>
             corpore, sed animo fugit, quando deserit timore iustitiam, <lb/>
             sicut fugit Secundus uester Tigisitanus, quando Purpurium <lb/>
             Liniatensem de homicidio confessum magisque terribilem, ne <lb/>
@@ -626,11 +635,10 @@
             auditores legis iusti sunt apud deum, sed factores <lb/>
             legis iustificabuntur</hi>. 
 </p>
-          
-</div>
-
-<div n="18" subtype="section" type="textpart">
-<p><milestone n="17" unit="altchapter"/> Quid in aliam sententiam uerba manifesta conuertitis? <lb/>
+            </div>
+            <div n="18" type="section">
+               <p>
+                  <milestone n="17" unit="altchapter"/> Quid in aliam sententiam uerba manifesta conuertitis? <lb/>
             auditores legis et non factores apud deum iustos<lb n="15"/>
             negauit: ab hominibus, quando uerum dicunt, audiri non prohibuit, <lb/>
             ne, sicut tu, loqueretur contra dominum suum dicentem <lb/>
@@ -648,14 +656,16 @@
 
 <note type="footnote"> 2 cf. Optat. I 14. Cresc. III 27, 30. Breuic. III 15, 27 11 Rom. <lb/>
             2, 13 18 Matth. 23, 3 25 Ps. 49, 16 </note>
-
-<note type="footnote"> 2 purpuraum <hi rend="italic">A</hi> 3 Limatensem <hi rend="italic">fv</hi> 4 perderet uel episcopatum <hi rend="italic">fv</hi> <lb/>
+                  <note type="footnote"> 2 purpuraum <hi rend="italic">A</hi> 3 Limatensem <hi rend="italic">fv</hi> 4 perderet uel episcopatum <hi rend="italic">fv</hi>
+                     <lb/>
             6 relinquerunt <hi rend="italic">Aml</hi> 7 tu <hi rend="italic">om. f</hi> prior <hi rend="italic">f</hi> inperium J 16 non <lb/>
-            <hi rend="italic">om. A</hi> 17 tu <hi rend="italic">om. J</hi> 19 nolite facere <hi rend="italic">fv</hi> 20 etiam] et <hi rend="italic">fv</hi> 21 ac] <lb/>
-            et <hi rend="italic">fv</hi> eam <hi rend="italic">ex</hi> eas J 22 eius <hi rend="italic">om. f</hi> 25 deus <hi rend="italic">fv</hi> iustitias <hi rend="italic">fv</hi> <lb/>
-            26 assummis testamtum <hi rend="italic">J</hi> 27 quia <hi rend="italic">om. f</hi> ille <hi rend="italic">J</hi> 28 etiam <hi rend="italic">om. f</hi> </note> <lb/>
-             
-<pb n="213"/>
+                     <hi rend="italic">om. A</hi> 17 tu <hi rend="italic">om. J</hi> 19 nolite facere <hi rend="italic">fv</hi> 20 etiam] et <hi rend="italic">fv</hi> 21 ac] <lb/>
+            et <hi rend="italic">fv</hi> eam <hi rend="italic">ex</hi> eas J 22 eius <hi rend="italic">om. f</hi> 25 deus <hi rend="italic">fv</hi> iustitias <hi rend="italic">fv</hi>
+                     <lb/>
+            26 assummis testamtum <hi rend="italic">J</hi> 27 quia <hi rend="italic">om. f</hi> ille <hi rend="italic">J</hi> 28 etiam <hi rend="italic">om. f</hi>
+                  </note>
+                  <lb/>
+                  <pb n="213"/>
             quod audit facit. non est quidem speciosa laus in ore peccatoris, <lb/>
             sed speciosa est in uita moribusque factoris, etiamsi <lb/>
             hanc ex ore audierit peccatoris. quantumlibet ergo existima <lb/>
@@ -675,11 +685,10 @@
             pastorem esse gloriaris, tamen, quia de ouili dominico existi, <lb/>
             haedos tuos pascis, non oues Christi.,
 </p>
-          
-</div>
-
-<div n="19" subtype="section" type="textpart">
-<p><milestone n="18" unit="altchapter"/> Uerba epistulae: <hi rend="italic">Deinde,</hi> inquit, <hi rend="italic">quae loca erunt, <lb/>
+            </div>
+            <div n="19" type="section">
+               <p>
+                  <milestone n="18" unit="altchapter"/> Uerba epistulae: <hi rend="italic">Deinde,</hi> inquit, <hi rend="italic">quae loca erunt, <lb/>
             quae in hac persecutionis procella undique perturbatos tranquillitati <lb n="20"/>
             seruandos tamquam in portum recipiant sacerdotes, <lb/>
             quando dominus dixerit: cum uos persequi coeperint in<lb/>
@@ -692,14 +701,15 @@
 
 <note type="footnote"> 1 cf. Eccli. 15, 9 6.9 Matth. 10, 23 .14 Caut. 1, 7 22 Matth. <lb/>
             10,23 </note>
-
-<note type="footnote"> 1 laus] salus J 2 est <hi rend="italic">om. f</hi> 3 audierit ex ore <hi rend="italic">ft)</hi> 11 descendam <hi rend="italic">A</hi> <lb/>
+                  <note type="footnote"> 1 laus] salus J 2 est <hi rend="italic">om. f</hi> 3 audierit ex ore <hi rend="italic">ft)</hi> 11 descendam <hi rend="italic">A</hi>
+                     <lb/>
             eat persecutor <hi rend="italic">fo, utp. 214, 6</hi> 12 adiutor <hi rend="italic">A</hi> 13 pr. et <hi rend="italic">om. fv</hi> 15 gregum <lb/>
             tuorum <hi rend="italic">fv</hi> 18 aedes <hi rend="italic">A</hi> 20 perturbata tranquillitate <hi rend="italic">fv</hi> 22 quando] <lb/>
             qn <hi rend="italic">(sic) A</hi> 23 ciuitatem <hi rend="italic">seclusi, om. fl)</hi> 24 apostolum A 25 proscriptoribus <lb/>
-            <hi rend="italic">f</hi> 26 recipiciunt <hi rend="italic">A</hi> 28 <hi rend="italic">alt</hi>. uos <hi rend="italic">om. f</hi> non uos <hi rend="italic">v</hi> </note> <lb/>
-             
-<pb n="214"/>
+                     <hi rend="italic">f</hi> 26 recipiciunt <hi rend="italic">A</hi> 28 <hi rend="italic">alt</hi>. uos <hi rend="italic">om. f</hi> non uos <hi rend="italic">v</hi>
+                  </note>
+                  <lb/>
+                  <pb n="214"/>
             corrigitis doleo. quid enim hac tua professione manifestius, <lb/>
             qua satis declaras non uos ad eorum pertinere consortium, <lb/>
             quibus dominus ait: si uos. persecuti fuerint in una <lb/>
@@ -730,24 +740,27 @@
             uestra fugietis et coniungemini eis, qui ut uos liberent
 
 <note type="footnote"> 3. 10 Matth. 10, 23. 5 pag. 213, 11 25 cf. Sap. 11,21 </note>
-
-<note type="footnote"> 2 declaras satis <hi rend="italic">fo</hi> 4 alia <hi rend="italic">J</hi> 5 dixi* <hi rend="italic">J</hi> 6 auditor sum Christi <hi rend="italic">fo</hi> <lb/>
-            7 hoc apertissime <hi rend="italic">fv</hi> 9 non-ciuitates <hi rend="italic">ante</hi> quandocumque-fuerint <hi rend="italic">tr. fv</hi> <lb/>
+                  <note type="footnote"> 2 declaras satis <hi rend="italic">fo</hi> 4 alia <hi rend="italic">J</hi> 5 dixi* <hi rend="italic">J</hi> 6 auditor sum Christi <hi rend="italic">fo</hi>
+                     <lb/>
+            7 hoc apertissime <hi rend="italic">fv</hi> 9 non-ciuitates <hi rend="italic">ante</hi> quandocumque-fuerint <hi rend="italic">tr. fv</hi>
+                     <lb/>
             10 quascunque <hi rend="italic">f</hi> 12 enim <hi rend="italic">om. fv</hi> consumabitis <hi rend="italic">J</hi> 20 inuenietis J <lb/>
-            21 ille <hi rend="italic">fv</hi> 23 <hi rend="italic">pr</hi>. est <hi rend="italic">om. fv</hi> 25 passi sint <hi rend="italic">fv</hi> 26 persequuntur <hi rend="italic">/</hi> <lb/>
-            28 ut <hi rend="italic">bis A</hi> uos <hi rend="italic">om. f</hi> </note> <lb/>
-             
-<pb n="215"/>
+            21 ille <hi rend="italic">fv</hi> 23 <hi rend="italic">pr</hi>. est <hi rend="italic">om. fv</hi> 25 passi sint <hi rend="italic">fv</hi> 26 persequuntur <hi rend="italic">/</hi>
+                     <lb/>
+            28 ut <hi rend="italic">bis A</hi> uos <hi rend="italic">om. f</hi>
+                  </note>
+                  <lb/>
+                  <pb n="215"/>
             persequuntur uestros persecutores; non enim nisi uestros persequuntur <lb/>
             errores. 
 </p>
-          
-</div>
-
-<div n="20" subtype="section" type="textpart">
-<p><milestone n="19" unit="altchapter"/> Uerba epistulae: <hi rend="italic">Per opificem,</hi> inquit, <hi rend="italic">rerum <lb/>
+            </div>
+            <div n="20" type="section">
+               <p>
+                  <milestone n="19" unit="altchapter"/> Uerba epistulae: <hi rend="italic">Per opificem,</hi> inquit, <hi rend="italic">rerum <lb/>
             omnium dominum Christum omnipotens deus fabricatum<lb/>
-            </hi><hi rend="italic">hominem ut deo similem libero dimisit arbitrio. scriptum est<lb n="5"/>
+                  </hi>
+                  <hi rend="italic">hominem ut deo similem libero dimisit arbitrio. scriptum est<lb n="5"/>
              enim: fecit deus hominem et dimisit eum in manu <lb/>
             arbitrii sui. quid mihi nunc humano imperio eripitur, <lb/>
             quod largitus est deus? aduerte, uir summe, quanta in deum <lb/>
@@ -774,14 +787,16 @@
             sunt timori bono operi, sed malo. uis autem non
 
 <note type="footnote"> 6 Eccli. 15, 14 23 Rom. 13, 1-4 </note>
-
-<note type="footnote"> <hi rend="italic">7 arbitri A mihi ex me A 10 id facere om. f</hi> iact* (e s. c <lb/>
-            <hi rend="italic">add.) J</hi> 14 fallacissimas <hi rend="italic">fv</hi> 16 nul <hi rend="italic">(del.)</hi> nullia <hi rend="italic">A</hi> 17 laciuiendi A <lb/>
+                  <note type="footnote">
+                     <hi rend="italic">7 arbitri A mihi ex me A 10 id facere om. f</hi> iact* (e s. c <lb/>
+                     <hi rend="italic">add.) J</hi> 14 fallacissimas <hi rend="italic">fv</hi> 16 nul <hi rend="italic">(del.)</hi> nullia <hi rend="italic">A</hi> 17 laciuiendi A <lb/>
             bachetur A 19. non] nec <hi rend="italic">fv</hi> 20 nimis A 22 ut et <hi rend="italic">A</hi> 25 sunt, a <lb/>
-            deo] a deo sunt <hi rend="italic">fv</hi> 26 ordinata <hi rend="italic">Alv, correxi</hi> potestatij uoluntati <hi rend="italic">A</hi> <lb/>
-            29 boni operis, sed mali <hi rend="italic">fv</hi> </note> <lb/>
-             
-<pb n="216"/>
+            deo] a deo sunt <hi rend="italic">fv</hi> 26 ordinata <hi rend="italic">Alv, correxi</hi> potestatij uoluntati <hi rend="italic">A</hi>
+                     <lb/>
+            29 boni operis, sed mali <hi rend="italic">fv</hi>
+                  </note>
+                  <lb/>
+                  <pb n="216"/>
             timere potestatem? bonum fac, et habebis laudem <lb/>
             ex illa; dei enim minister est uindex in ira ei qui <lb/>
             male agit. delete ista, si potestis, aut ista, sicut facitis, si <lb/>
@@ -813,25 +828,24 @@
 
 <note type="footnote"> 10. 28 pag. 215, 10 19 Eccli. 15, 14 et pag. 215, 6 26 cf. <lb/>
             Dan. 3, 29 (96) </note>
-
-<note type="footnote"> 2 iram <hi rend="italic">fv, cf. Parm. I 8, 13</hi> 3 au aut <hi rend="italic">Aml</hi> sicut ista <hi rend="italic">A</hi> 6 auditis <lb/>
-            <hi rend="italic">A</hi> 7 puniantur homicidia <hi rend="italic">om. A</hi> 9 uere <hi rend="italic">f</hi> 11 existlmat <hi rend="italic">A</hi> <lb/>
+                  <note type="footnote"> 2 iram <hi rend="italic">fv, cf. Parm. I 8, 13</hi> 3 au aut <hi rend="italic">Aml</hi> sicut ista <hi rend="italic">A</hi> 6 auditis <lb/>
+                     <hi rend="italic">A</hi> 7 puniantur homicidia <hi rend="italic">om. A</hi> 9 uere <hi rend="italic">f</hi> 11 existlmat <hi rend="italic">A</hi>
+                     <lb/>
             12 iudicare <hi rend="italic">A</hi> 13 hominis potestas <hi rend="italic">fv</hi> 17 leuissime <hi rend="italic">f</hi> 18 tu nunc <lb/>
-            <hi rend="italic">scripsi</hi> tunc J tu <hi rend="italic">fv</hi> doctor <hi rend="italic">fv</hi> 19 inuidiossime <hi rend="italic">J</hi> 23 arbitrium <lb/>
+                     <hi rend="italic">scripsi</hi> tunc J tu <hi rend="italic">fv</hi> doctor <hi rend="italic">fv</hi> 19 inuidiossime <hi rend="italic">J</hi> 23 arbitrium <lb/>
             tibi <hi rend="italic">fv</hi> 24 nabugodonosor <hi rend="italic">J</hi> 26 misaac <hi rend="italic">J</hi> et Abdenago <hi rend="italic">fv, cf. <lb/>
-            Petil. II 92, 211. Ep. c. Don. 20, 54</hi> 28 defensatur <hi rend="italic">f</hi> </note> <lb/>
-             
-<pb n="217"/>
-            <hi rend="italic">quid de deo aestimat qui eum uiolentia uult defendere, nisi <lb/>
+            Petil. II 92, 211. Ep. c. Don. 20, 54</hi> 28 defensatur <hi rend="italic">f</hi>
+                  </note>
+                  <lb/>
+                  <pb n="217"/>
+                  <hi rend="italic">quid de deo aestimat qui eum uiolentia uult defendere, nisi <lb/>
             quia non ualet suas ipse iniurias uindicare</hi>? haec uerba tua <lb/>
             prorsus etiam illi dicere potuerunt et fortasse dixerunt, etsi <lb/>
             non eadem libertate, non dissimili uanitate. 
 </p>
-          
-</div>
-
-<div n="21" subtype="section" type="textpart">
-<p>Datum est igitur homini, quando creatus est, liberum <lb n="5"/>
+            </div>
+            <div n="21" type="section">
+               <p>Datum est igitur homini, quando creatus est, liberum <lb n="5"/>
             arbitrium, sed ut, si esset male faciens, fieret patiens. denique <lb/>
             illi primi homines, cum peccassent, morte damnati sunt, et <lb/>
             priusquam mors eis extrema etiam corporis suppleretur, in <lb/>
@@ -860,12 +874,12 @@
             et minora recipitis, si non uobis ultro quod imperator non
 
 <note type="footnote"> 17 Rom. 13, 3 26 Ps. 71, 8 </note>
-
-<note type="footnote"> 5 ergo <hi rend="italic">fv</hi> 11 considantes <hi rend="italic">J</hi> 13 aditis <hi rend="italic">f</hi> 15 uult <hi rend="italic">J</hi> 21 isti <lb/>
+                  <note type="footnote"> 5 ergo <hi rend="italic">fv</hi> 11 considantes <hi rend="italic">J</hi> 13 aditis <hi rend="italic">f</hi> 15 uult <hi rend="italic">J</hi> 21 isti <lb/>
             laudem passionis <hi rend="italic">add. mg. v, om. LIft</hi> 31 recipitis <hi rend="italic">scripai</hi> recipis <hi rend="italic">A</hi> recepistis <lb/>
-            <hi rend="italic">fv pr</hi>. non] nobis <hi rend="italic">J</hi> ultio <hi rend="italic">A</hi> non imperator <hi rend="italic">fv</hi> c <hi rend="italic">(del.)</hi> n <hi rend="italic">J</hi> </note> <lb/>
-             
-<pb n="218"/>
+                     <hi rend="italic">fv pr</hi>. non] nobis <hi rend="italic">J</hi> ultio <hi rend="italic">A</hi> non imperator <hi rend="italic">fv</hi> c <hi rend="italic">(del.)</hi> n <hi rend="italic">J</hi>
+                  </note>
+                  <lb/>
+                  <pb n="218"/>
             constituit ingeratis, et nolite ad impunitatem licentiosam liberum <lb/>
             arbitrium uobis ab hominibus uelle concedi, ne in ipsius dei <lb/>
             manus infelicius incidatis. nam et maiores uestri iudicauerunt <lb/>
@@ -874,11 +888,10 @@
             malam, Caecilianum tamen episcopum persequendo usque ad <lb/>
             imperatoris Constantini iudicium perduxerunt. 
 </p>
-          
-</div>
-
-<div n="22" subtype="section" type="textpart">
-<p><milestone n="20" unit="altchapter"/> Uerba epistulae: <hi rend="italic">Nostram uero fidem,</hi> inquit, <hi rend="italic">quam<lb/>
+            </div>
+            <div n="22" type="section">
+               <p>
+                  <milestone n="20" unit="altchapter"/> Uerba epistulae: <hi rend="italic">Nostram uero fidem,</hi> inquit, <hi rend="italic">quam<lb/>
              dominus Christus apostolis dereliquit, solae nobis istae persecutiones <lb/>
             gratissimam reddunt. felices, inquit, eritis, cum<lb n="10"/>
             uos persecuti fuerint homines et maledixerint et<lb/>
@@ -903,15 +916,19 @@
             quam dominus Christus apostolis dereliquit? an usque adeo
 
 <note type="footnote"> 10 Matth. 5, 11-12 18 II Tim. 3, 12 20 Ioh. 16, 2-3 </note>
-
-<note type="footnote"> 2 nobis <hi rend="italic">om. f</hi> in <hi rend="italic">om. J</hi> 4 huius mundi J 6 itn J perse- </note> <note type="margin"> <hi rend="italic">def. <foreign xml:lang="grc">Δ</foreign></hi> <lb/>
-             </note>
-
-<note type="footnote"> quendam <hi rend="italic">/</hi> 7 costantini <hi rend="italic">J</hi> 8 <hi rend="italic">uerba</hi> inquit quam dominus <hi rend="italic">usque ad<lb/>
-             cap</hi>. 36, 46 non dixit stabunt <hi rend="italic">desunt in J</hi> 10 gratissimam <hi rend="italic">scripsi</hi> <lb/>
-            grauissimam <hi rend="italic">fv</hi> 17 et <hi rend="italic">om. f</hi> </note> <lb n="30"/>
-             
-<pb n="219"/>
+                  <note type="footnote"> 2 nobis <hi rend="italic">om. f</hi> in <hi rend="italic">om. J</hi> 4 huius mundi J 6 itn J perse- </note>
+                  <note type="margin">
+                     <hi rend="italic">def. <foreign xml:lang="grc">Δ</foreign>
+                     </hi>
+                     <lb/>
+                  </note>
+                  <note type="footnote"> quendam <hi rend="italic">/</hi> 7 costantini <hi rend="italic">J</hi> 8 <hi rend="italic">uerba</hi> inquit quam dominus <hi rend="italic">usque ad<lb/>
+             cap</hi>. 36, 46 non dixit stabunt <hi rend="italic">desunt in J</hi> 10 gratissimam <hi rend="italic">scripsi</hi>
+                     <lb/>
+            grauissimam <hi rend="italic">fv</hi> 17 et <hi rend="italic">om. f</hi>
+                  </note>
+                  <lb n="30"/>
+                  <pb n="219"/>
             caecos et surdos uultis esse homines, ut non legant, non <lb/>
             audiant euangelium, ubi nouerint, quam fidem de sua ecclesia <lb/>
             dominus Christus apostolis dereliquit? ex qua diuisi atque <lb/>
@@ -944,14 +961,18 @@
             praesentabis [et quando] regnum Israel? at ille: <lb n="30"/>
             non est, inquit, uestrum nosse temp ora [uel momenta]
 
-<note type="footnote"> 12 Luc. 24, 44-47 25 Ps. 95, 1 29 Act. 1, 6-9 </note> <note type="margin"> <hi rend="italic">def. A</hi> </note>
-
-<note type="footnote"> 10 sepulcrum <hi rend="italic">v</hi> 17 tertia <hi rend="italic">August. passim</hi> tertiofv 20 itemque <hi rend="italic">etc</hi>. <lb/>
-            avaxoXoufl-ov 30 praesentabis (ajroxaO-tctavst?) <hi rend="italic">scripsi</hi> praesentaberis <hi rend="italic">fv</hi> <lb/>
+<note type="footnote"> 12 Luc. 24, 44-47 25 Ps. 95, 1 29 Act. 1, 6-9 </note>
+                  <note type="margin">
+                     <hi rend="italic">def. A</hi>
+                  </note>
+                  <note type="footnote"> 10 sepulcrum <hi rend="italic">v</hi> 17 tertia <hi rend="italic">August. passim</hi> tertiofv 20 itemque <hi rend="italic">etc</hi>. <lb/>
+            avaxoXoufl-ov 30 praesentabis (ajroxaO-tctavst?) <hi rend="italic">scripsi</hi> praesentaberis <hi rend="italic">fv</hi>
+                     <lb/>
             et quando <hi rend="italic">deleui</hi> 31 uel momenta <hi rend="italic">deleui colI. Petil. II</hi> 38, <hi rend="italic">91. Ep. <lb/>
-             c. Don. 11, 27</hi> </note> <lb/>
-             
-<pb n="220"/>
+             c. Don. 11, 27</hi>
+                  </note>
+                  <lb/>
+                  <pb n="220"/>
             quae pater posuit in sua potestate, sed accipietis <lb/>
             uirtutem superuenientis spiritus sancti in uos, et <lb/>
             eritis mihi testes in Hierusalem et in totam Iudaeam <lb/>
@@ -972,11 +993,9 @@
             filium hominis pati persecutionem felicitatis esse dicebat, se <lb/>
             ipsum ille sponsus, non adulterum praedicabat. 
 </p>
-          
-</div>
-
-<div n="23" subtype="section" type="textpart">
-<p>Et nos confitemur, ut dicitis, non solis apostolis esse<lb n="20"/>
+            </div>
+            <div n="23" type="section">
+               <p>Et nos confitemur, ut dicitis, non solis apostolis esse<lb n="20"/>
             dictum: beati eritis, cum uos persecuti fuerint <lb/>
             homines. ad omnes enim hoc pertinet, non qui post illos <lb/>
             quamlibet persecutionem passi sunt siue patiuntur siue qui <lb/>
@@ -989,12 +1008,15 @@
             cui praemium debeatur, non demonstratis. quin immo e contrario <lb n="30"/>
             etiam pro iniquitate patimini, minus ab aliis, plus a
 
-<note type="footnote"> 21 Mattb. 5, 11 25 Matth. 5, 10 </note> <note type="margin"> <hi rend="italic">def. J</hi> </note>
-
-<note type="footnote"> 5 his <hi rend="italic">addidi</hi> 7 hanc—commendauit <hi rend="italic">delenda censeo</hi> 8 fidem <hi rend="italic">addendum <lb/>
-            esse cens. v, om. fv</hi> 30 primi debeatis <hi rend="italic">f</hi> </note> <lb/>
-             
-<pb n="221"/>
+<note type="footnote"> 21 Mattb. 5, 11 25 Matth. 5, 10 </note>
+                  <note type="margin">
+                     <hi rend="italic">def. J</hi>
+                  </note>
+                  <note type="footnote"> 5 his <hi rend="italic">addidi</hi> 7 hanc—commendauit <hi rend="italic">delenda censeo</hi> 8 fidem <hi rend="italic">addendum <lb/>
+            esse cens. v, om. fv</hi> 30 primi debeatis <hi rend="italic">f</hi>
+                  </note>
+                  <lb/>
+                  <pb n="221"/>
             uobis, ut ante dei iudicium quod futurum est etiam ipsi <lb/>
             uobis quod meremini ex aliqua parte reddatis. unde quia tu <lb/>
             ipse dixisti non hoc solis apostolis, sed omnibus dictum, ne <lb/>
@@ -1017,12 +1039,11 @@
             ueraces martyres, sed haereticos uos esse fallaces. quid uobis <lb n="20"/>
             ulterius dicamus, quando lingua uestra uos uincit? 
 </p>
-          
-</div>
-
-<div n="24" subtype="section" type="textpart">
-<p><milestone n="21" unit="altchapter"/> Nam et illud quod addidisti dixisse apostolum: <lb/>
-            <hi rend="italic">omnes, qui in Christo pie uiuere uolunt, persecutionem <lb/>
+            </div>
+            <div n="24" type="section">
+               <p>
+                  <milestone n="21" unit="altchapter"/> Nam et illud quod addidisti dixisse apostolum: <lb/>
+                  <hi rend="italic">omnes, qui in Christo pie uiuere uolunt, persecutionem <lb/>
             patiantur necesse est,</hi> non quidem ille dixit: \'necesse <lb/>
             est\\ sed: omnes, ait, qui uolunt in Christo pie uiuere <lb n="25"/>
             persecutionem patientur. sed uos ad istos non pertinere <lb/>
@@ -1033,11 +1054,14 @@
             et exire non uultis. quam persecutionem patimini nisi a uobis? <lb/>
             diligit uos persecutor uester et persequitur uos furor uester:
 
-<note type="footnote"> 7 Matth. 10, 23 23 pag. 218, 18 25 II Tim. 3, 12 </note> <note type="margin"> <hi rend="italic">def. J</hi> </note>
-
-<note type="footnote"> 23 persecutionem <hi rend="italic">scripsi</hi> persecutiones <hi rend="italic">fv</hi> </note> <lb/>
-             
-<pb n="222"/>
+<note type="footnote"> 7 Matth. 10, 23 23 pag. 218, 18 25 II Tim. 3, 12 </note>
+                  <note type="margin">
+                     <hi rend="italic">def. J</hi>
+                  </note>
+                  <note type="footnote"> 23 persecutionem <hi rend="italic">scripsi</hi> persecutiones <hi rend="italic">fv</hi>
+                  </note>
+                  <lb/>
+                  <pb n="222"/>
             ille ut fugiatis cupit, iste ut pereatis impellit. sic autem <lb/>
             intellegitis quod ait apostolus: omnes qui uolunt in <lb/>
             Christo pie uiuere persecutionem patientur, ut <lb/>
@@ -1057,11 +1081,9 @@
             uincant. quos autem comprehensos captiuosque iam possidet, <lb/>
             non ut obtineat persequitur, sed quia obtinet utitur. 
 </p>
-          
-</div>
-
-<div n="25" subtype="section" type="textpart">
-<p>Porro si persequi tantummodo ille dicendus est, qui <lb/>
+            </div>
+            <div n="25" type="section">
+               <p>Porro si persequi tantummodo ille dicendus est, qui <lb/>
             dolore aliquo excruciat seu uult tenere ut excruciet, non tibi<lb n="20"/>
             uideatur excruciator cordis leuior esse quam corporis, et considera, <lb/>
             qualem persecutionem patiebatur qui dicebat in psalmo: <lb/>
@@ -1072,16 +1094,20 @@
             turpes et ante suae domus iniuriam sine magno cordis cruciatu <lb/>
             uidere non poterat. 
 </p>
-          <p><milestone n="22" unit="altchapter"/>Unde inter suas persecutiones etiam talia commemorat <lb/>
+               <p>
+                  <milestone n="22" unit="altchapter"/>Unde inter suas persecutiones etiam talia commemorat <lb/>
             apostolus Paulus, dicens: quis infirmatur et ego non <lb n="30"/>
             infirmor? quis scandalizatur et ego non uror?
 
 <note type="footnote"> 2. 14 II Tim. 3, 12 10 Hiob 7, 1 23 Ps. 118, 158 24 cf. Gen. 19 <lb/>
-            30 II Cor. 11, 29 </note> <note type="margin"> <hi rend="italic">def. J</hi> </note>
-
-<note type="footnote"> 20 seuj qui se <hi rend="italic">f</hi> 24 Lot <hi rend="italic">v</hi> 27 iniuriam) ianuam <hi rend="italic">non bene coni. v</hi> </note> <lb/>
-             
-<pb n="223"/>
+            30 II Cor. 11, 29 </note>
+                  <note type="margin">
+                     <hi rend="italic">def. J</hi>
+                  </note>
+                  <note type="footnote"> 20 seuj qui se <hi rend="italic">f</hi> 24 Lot <hi rend="italic">v</hi> 27 iniuriam) ianuam <hi rend="italic">non bene coni. v</hi>
+                  </note>
+                  <lb/>
+                  <pb n="223"/>
             proinde quanto maior est in nobis caritas Christi, tanto maiore <lb/>
             cum dolore animi uos uidemus habere sacramenta Christi et <lb/>
             separari a membris Christi et rebellare contra pacem Christi. <lb/>
@@ -1117,9 +1143,9 @@
             in illa persecutione, qua in nos saeuitis, cum laude gaudemus, <lb/>
             in hac autem, qua uos peritis, si gauisi fuerimus, uobiscum
 
-<note type="footnote"> 9 cf. II Reg. 18 18 II Tim. 3, 12 </note> <lb/>
-             
-<pb n="224"/>
+<note type="footnote"> 9 cf. II Reg. 18 18 II Tim. 3, 12 </note>
+                  <lb/>
+                  <pb n="224"/>
             perimus. sed quamdiu in hac carne uiuitis, de nobis desperare <lb/>
             non possumus; cum uero in hac impietate morimini, maxime <lb/>
             cum uos ipsos horrenda caecitate furoris occiditis, amarissimam <lb/>
@@ -1134,11 +1160,10 @@
             pie uiuere persecutionem patiantur, aut impiorum malitiam <lb/>
             sustinendo cum in noxia uiuunt, aut eos dolendo cum pereunt. 
 </p>
-          
-</div>
-
-<div n="26" subtype="section" type="textpart">
-<p><milestone n="23" unit="altchapter"/> Nolite itaque falli, quod nobis dictum sit: <lb/>
+            </div>
+            <div n="26" type="section">
+               <p>
+                  <milestone n="23" unit="altchapter"/> Nolite itaque falli, quod nobis dictum sit: <lb/>
             ueniet hora, quando qui uos occiderint putent<lb n="15"/>
             se officium facere deo aut, sicut tu hoc testimonium <lb/>
             posuisti: <hi rend="italic">putent se uictimam dare deo</hi>. non quidem hoc <lb/>
@@ -1158,12 +1183,15 @@
             occidi, qui putamus nos, ut dicitis, cum id facimus, officium <lb/>
             deo facere. nunc uero cum festinatis ad mortem, ne a nostris
 
-<note type="footnote"> 15 Ioh. 16, 2; cf. pag. 218, 20 </note> <note type="margin"> <hi rend="italic">def. J</hi> </note>
-
-<note type="footnote"> 10 ecclesia <hi rend="italic">/</hi> 13 iu noxia <hi rend="italic">scripsi</hi> innoxie <hi rend="italic">It)</hi> 14 sit] est <hi rend="italic">f</hi> 16 hoc <lb/>
-            <hi rend="italic">scripsi hic fo</hi> 31 facimus] facitis <hi rend="italic">v</hi> </note> <lb/>
-             
-<pb n="225"/>
+<note type="footnote"> 15 Ioh. 16, 2; cf. pag. 218, 20 </note>
+                  <note type="margin">
+                     <hi rend="italic">def. J</hi>
+                  </note>
+                  <note type="footnote"> 10 ecclesia <hi rend="italic">/</hi> 13 iu noxia <hi rend="italic">scripsi</hi> innoxie <hi rend="italic">It)</hi> 14 sit] est <hi rend="italic">f</hi> 16 hoc <lb/>
+                     <hi rend="italic">scripsi hic fo</hi> 31 facimus] facitis <hi rend="italic">v</hi>
+                  </note>
+                  <lb/>
+                  <pb n="225"/>
             teneamini, uiuere metuitis, non occidi, quia erubescitis corrigi <lb/>
             aut de uestro (errore) conuinci. an forte uos estis ad quos <lb/>
             utrumque pertineat, quia, cum occidimini et uos a uobis, <lb/>
@@ -1176,11 +1204,10 @@
             dicentem: non occides, nec filium cognouistis), quem <lb n="10"/>
             non audistis dicentem: fugite. 
 </p>
-          
-</div>
-
-<div n="27" subtype="section" type="textpart">
-<p><milestone n="24" unit="altchapter"/> Uerba epistulae: <hi rend="italic">Sed belliferae, inquit, pacis <lb/>
+            </div>
+            <div n="27" type="section">
+               <p>
+                  <milestone n="24" unit="altchapter"/> Uerba epistulae: <hi rend="italic">Sed belliferae, inquit, pacis <lb/>
             cruentaeque unitatis se incolas iactant. audiant dominum<lb/>
              dicentem: pacem meam do nobis, pacem relinquo uobis; <lb/>
             non sicut saeculum dat ego do nobis. saeculi enim pax <lb n="15"/>
@@ -1201,18 +1228,19 @@
             ipsa nouitate turbati, et ipsi paulatim ab hac infirmitate
 
 <note type="footnote"> 6 Ioh. 16, 3; cf. pag. 218, 22 10 Ex. 20, 13 11 Matth. 10, 23 <lb/>
-            14 Ioh. 14, 27 </note> <note type="margin"> <hi rend="italic">ief.4</hi> </note>
-
-<note type="footnote"> 1 metuitis] <hi rend="italic">metuimus v</hi> 2 uestro] uitio <hi rend="italic">f errore addidi</hi> 3 occidimur <lb/>
+            14 Ioh. 14, 27 </note>
+                  <note type="margin">
+                     <hi rend="italic">ief.4</hi>
+                  </note>
+                  <note type="footnote"> 1 metuitis] <hi rend="italic">metuimus v</hi> 2 uestro] uitio <hi rend="italic">f errore addidi</hi> 3 occidimur <lb/>
             et nos <hi rend="italic">f</hi> 4 nobis <hi rend="italic">/</hi> 9 quem—10 cognouistis <hi rend="italic">suppl. mg. v, sed<lb/>
              scr</hi>. prohibentem; <hi rend="italic">ego</hi> dicentem <hi rend="italic">praetuli coli. Petil. II 16, 36 ext,..;<lb/>
-             om. fv 27 uidetis f</hi> </note>
-
-<note type="footnote"> LIII. Augugt. c. Don. III. </note>
-
-<note type="footnote"> 15 </note> <lb n="30"/>
-             
-<pb n="226"/>
+             om. fv 27 uidetis f</hi>
+                  </note>
+                  <note type="footnote"> LIII. Augugt. c. Don. III. </note>
+                  <note type="footnote"> 15 </note>
+                  <lb n="30"/>
+                  <pb n="226"/>
             sanantur. et si ficti aliqui perseuerant, non utique propter <lb/>
             ipsos non fuerant colligendi quos uidemus ueraces, quorum <lb/>
             quidam in regionibus uestris etiam quibusdam nostris maiores <lb/>
@@ -1226,11 +1254,10 @@
             nostis, quemadmodum scopis diligentiae frumentum simul etiam <lb/>
             cum terra trahitur, quando in aream reuocatur. 
 </p>
-          
-</div>
-
-<div n="28" subtype="section" type="textpart">
-<p><milestone n="25" unit="altchapter"/> Quod autem uobis uidetur inuitos ad ueritatem <lb/>
+            </div>
+            <div n="28" type="section">
+               <p>
+                  <milestone n="25" unit="altchapter"/> Quod autem uobis uidetur inuitos ad ueritatem <lb/>
             non esse cogendos, erratis nescientes scripturas neque uirtutem <lb/>
             dei, qui eos uolentes facit, dum coguntur inuiti. numquid<lb n="15"/>
             enim paenitentiam Niniuitae inuiti egerunt, quia hoc rege suo <lb/>
@@ -1251,12 +1278,15 @@
             et uicos ciuitatis, et pauperes ac debiles et <lb/>
             caecos et claudos introduc huc. et ait seruus:
 
-<note type="footnote"> 6 cf. Matth. 22, 10 17 cf. Ion. 3 30 Luc. 14, 21-23 </note> <note type="margin"> <hi rend="italic">def. J</hi> </note>
-
-<note type="footnote"> 3 uestris] nostris <hi rend="italic">f</hi> nostris] uestris nostri <hi rend="italic">f</hi> 11 nostris <hi rend="italic">f</hi> 24 est <lb/>
-            <hi rend="italic">addidi</hi> </note> <lb/>
-             
-<pb n="227"/>
+<note type="footnote"> 6 cf. Matth. 22, 10 17 cf. Ion. 3 30 Luc. 14, 21-23 </note>
+                  <note type="margin">
+                     <hi rend="italic">def. J</hi>
+                  </note>
+                  <note type="footnote"> 3 uestris] nostris <hi rend="italic">f</hi> nostris] uestris nostri <hi rend="italic">f</hi> 11 nostris <hi rend="italic">f</hi> 24 est <lb/>
+                     <hi rend="italic">addidi</hi>
+                  </note>
+                  <lb/>
+                  <pb n="227"/>
             domine, factum est ut imperasti, et adhuc locus <lb/>
             est. et ait dominus seruo: exi in uias et saepes, <lb/>
             et compelle intrare, ut impleatur domus mea. intellegimus <lb/>
@@ -1266,11 +1296,10 @@
             fame moritur, quisquis ad istam cenam nec libenter <lb/>
             introductus nec uiolenter impulsus ingreditur? 
 </p>
-          
-</div>
-
-<div n="29" subtype="section" type="textpart">
-<p><milestone n="26" unit="altchapter"/> Uerba epistulae: <hi rend="italic">Odio,</hi> inquit, <hi rend="italic">saeculi ga-udemzts. <lb/>
+            </div>
+            <div n="29" type="section">
+               <p>
+                  <milestone n="26" unit="altchapter"/> Uerba epistulae: <hi rend="italic">Odio,</hi> inquit, <hi rend="italic">saeculi ga-udemzts. <lb/>
             in eius pressuris non succumbimus, sed laetamur. mundus <lb n="10"/>
             hic non potest seruos Christi diligere, qui Christum cognoscitur<lb/>
              non amasse, domino ipso dicente: si saeculum uos <lb/>
@@ -1295,21 +1324,21 @@
             in aliam, quod uos non facitis. illis dixit, ad quas ciuitates <lb/>
             confugerent usque in finem saeculi non defuturas, quas uos
 
-<note type="footnote"> 12. 27 lob. 15, 18. 20 29 cf. Matth. 10, 23 </note> <note type="margin"> <hi rend="italic">tltf. A</hi> </note>
-
-<note type="footnote"> 1 domine (xopie) <hi rend="italic">scripsi</hi> domino <hi rend="italic">fv</hi> 10 eis <hi rend="italic">f</hi> 15 quomodo] quo v </note>
-
-<note type="footnote"> 15* </note> <lb/>
-             
-<pb n="228"/>
+<note type="footnote"> 12. 27 lob. 15, 18. 20 29 cf. Matth. 10, 23 </note>
+                  <note type="margin">
+                     <hi rend="italic">tltf. A</hi>
+                  </note>
+                  <note type="footnote"> 1 domine (xopie) <hi rend="italic">scripsi</hi> domino <hi rend="italic">fv</hi> 10 eis <hi rend="italic">f</hi> 15 quomodo] quo v </note>
+                  <note type="footnote"> 15* </note>
+                  <lb/>
+                  <pb n="228"/>
             querimini uobis iam deesse nec uultis fateri eos, quibus haec <lb/>
             dicta sunt, uos non esse. 
 </p>
-          
-</div>
-
-<div n="30" subtype="section" type="textpart">
-<p><milestone n="27" unit="altchapter"/> Uerba epistulae: <hi rend="italic">Sed etsi persecutio conquiescat, <lb/>
+            </div>
+            <div n="30" type="section">
+               <p>
+                  <milestone n="27" unit="altchapter"/> Uerba epistulae: <hi rend="italic">Sed etsi persecutio conquiescat, <lb/>
             inquit, unde martyrum numerus adimpletur, Iohanne dicente: <lb/>
             uidi, inquit, animas occisorum sub ara dei exclamantium<lb n="5"/>
             et dicentium: quamdiu, domine, non iudicas et <lb/>
@@ -1337,20 +1366,20 @@
             fusus est: numquid in aliis? ac per hoc uindicabitur uester <lb/>
             in uobis. 
 </p>
-          
-</div>
-
-<div n="31" subtype="section" type="textpart">
-<p>Quid est autem stultius quam quod putatis prophetiam <lb n="30"/>
+            </div>
+            <div n="31" type="section">
+               <p>Quid est autem stultius quam quod putatis prophetiam <lb n="30"/>
             istam de martyribus, qui futuri praedicti sunt, non nisi in
 
 <note type="footnote"> 5 Apoc. 6, 9-11 15 cf. Matth. 17, 15 17 cf. Matth. 8, 32 <lb/>
-            18 cf. Matth. 4, 5-6 25 Apoc. 6, 10 </note> <note type="margin"> <hi rend="italic">def. A</hi> </note>
-
-<note type="footnote"> 10 ipsorum <hi rend="italic">ed. Lugdnnensis</hi> uestrorum <hi rend="italic">fv, cf. pag. 229, 12</hi> 17 et <lb/>
-            ipse et f </note> <lb/>
-             
-<pb n="229"/>
+            18 cf. Matth. 4, 5-6 25 Apoc. 6, 10 </note>
+                  <note type="margin">
+                     <hi rend="italic">def. A</hi>
+                  </note>
+                  <note type="footnote"> 10 ipsorum <hi rend="italic">ed. Lugdnnensis</hi> uestrorum <hi rend="italic">fv, cf. pag. 229, 12</hi> 17 et <lb/>
+            ipse et f </note>
+                  <lb/>
+                  <pb n="229"/>
             Donatistis esse completam, quasi, posteaquam hoc scripsit <lb/>
             beatus Iohannes, nulli martyres sint occisi, quo usque exsurgeret <lb/>
             pars Donati, qui si quando alios non possunt se ipsos <lb/>
@@ -1383,20 +1412,21 @@
             damnauerit uos? quomodo enim uindicetur, nisi qui eum <lb n="30"/>
             ausus est trucidare damnetur? in hac ergo uoce non estis <lb/>
             nisi accusatores uestri, quia uos estis rei sanguinis uestri, <lb/>
-            nec deus nisi uos damnabit, quando a uobis uel collisum uel <note type="margin"> <hi rend="italic">def. J</hi> </note>
-
-<note type="footnote"> 2 exurgeret <hi rend="italic">f</hi> 5 uendicant <hi rend="italic">f 23 sed] sed ut f</hi> 27 etiam <lb/>
-            <hi rend="italic">addidi</hi> </note> <lb/>
-             
-<pb n="230"/>
+            nec deus nisi uos damnabit, quando a uobis uel collisum uel <note type="margin">
+                     <hi rend="italic">def. J</hi>
+                  </note>
+                  <note type="footnote"> 2 exurgeret <hi rend="italic">f</hi> 5 uendicant <hi rend="italic">f 23 sed] sed ut f</hi> 27 etiam <lb/>
+                     <hi rend="italic">addidi</hi>
+                  </note>
+                  <lb/>
+                  <pb n="230"/>
             suffocatum uel exustum uel quocumque pacto trucidatum <lb/>
             uel, si hoc elegeritis, effusum sanguinem uestrum uindicabit. 
 </p>
-          
-</div>
-
-<div n="32" subtype="section" type="textpart">
-<p><milestone n="28" unit="altchapter"/> Uerba epistulae: <hi rend="italic">An non ista, inquit, persecutio <lb/>
+            </div>
+            <div n="32" type="section">
+               <p>
+                  <milestone n="28" unit="altchapter"/> Uerba epistulae: <hi rend="italic">An non ista, inquit, persecutio <lb/>
             est, quae tot milia innocentum martyrum artauit ad mortem? <lb/>
             christiani enim secundum euangelium spiritu prompti, sed<lb n="5"/>
             carne infirmi a sacrilega contaminatione caminorum reperto <lb/>
@@ -1415,7 +1445,8 @@
             iustis legibus puniuntur, non dicendi sunt persecutionem pati <lb/>
             nisi ab ipsis factis suis. sed nunc plane cum parcente uobis<lb n="20"/>
             mansuetudine christiana ita in uos saeuit uestra dementia, <lb/>
-            ut, quemadmodum dicis, <hi rend="italic">caminorum reperto compendio uestras</hi> <lb/>
+            ut, quemadmodum dicis, <hi rend="italic">caminorum reperto compendio uestras</hi>
+                  <lb/>
             animas rapiatis, omni modo uos a uobis ipsis pati persecutionem <lb/>
             nimia est impudentia si negatis, quando uos utrumque <lb/>
             completis, et unde iuste pereatis et quod peritis. sic autem<lb n="25"/>
@@ -1427,12 +1458,14 @@
             quando isti paganorum armis festa sua frequentantium
 
 <note type="footnote">5 cf. Matth. 26, 41 7 cf. II Mach. 14, 41 sqq. 15 cf. Sap. 11, 21 <lb/>
-            et pag. 214, 25 . </note> <note type="margin"> <hi rend="italic">def. J</hi> </note>
-
-<note type="footnote"> 3 non <hi rend="italic">om. f</hi> 8 Machabaeorum <hi rend="italic">v</hi> .9 in <hi rend="italic">om. f</hi> 27 sint <hi rend="italic">f</hi> 29 solebant <lb/>
-            <hi rend="italic">scripsi</hi> solent <hi rend="italic">fo</hi> 31 frequentantium <hi rend="italic">scripsi</hi> frequentantibus <hi rend="italic">fv</hi> . </note> <lb/>
-             
-<pb n="231"/>
+            et pag. 214, 25 . </note>
+                  <note type="margin">
+                     <hi rend="italic">def. J</hi>
+                  </note>
+                  <note type="footnote"> 3 non <hi rend="italic">om. f</hi> 8 Machabaeorum <hi rend="italic">v</hi> .9 in <hi rend="italic">om. f</hi> 27 sint <hi rend="italic">f</hi> 29 solebant <lb/>
+                     <hi rend="italic">scripsi</hi> solent <hi rend="italic">fo</hi> 31 frequentantium <hi rend="italic">scripsi</hi> frequentantibus <hi rend="italic">fv</hi> . </note>
+                  <lb/>
+                  <pb n="231"/>
             irruebant. uouebant autem pagani iuuenes idolis suis quis quot <lb/>
             occideret. at isti gregatim hinc atque inde confluentes tamquam <lb/>
             in amphitheatro a uenatoribus more immanium bestiarum <lb/>
@@ -1448,13 +1481,11 @@
             agris uacans et uictus sui causa cellas circumiens rusticanas, <lb/>
             unde et circumcellionum nomen accepit. uniuerso mundo <lb/>
             paene famosissimum Africani erroris opprobrium? <lb n="15"/>
-            
-</p>
-          
-</div>
-
-<div n="33" subtype="section" type="textpart">
-<p><milestone n="29" unit="altchapter"/> Ex hoc igitur genere quis ignorat quam multi <lb/>
+               </p>
+            </div>
+            <div n="33" type="section">
+               <p>
+                  <milestone n="29" unit="altchapter"/> Ex hoc igitur genere quis ignorat quam multi <lb/>
             antea per diuersas mortes ibant et peribant, et nunc in illorum <lb/>
             comparatione quam pauci suis ignibus ardeant? sed si putas <lb/>
             moueri nos oportere, quia isto modo tot milia moriuntur, <lb/>
@@ -1471,12 +1502,14 @@
             quorum innumerabiles ex Donatistarum nefaria dissensione <lb n="30"/>
             in pacem Christi ueram et catholicam transeunt! isti quippe, <lb/>
             qui se incendunt, nec tot homines sunt quot loca sunt <lb/>
-            populis plena, qui ab exitiali peste erroris illius et furoris <note type="margin"> <hi rend="italic">def. ?</hi> </note>
-
-<note type="footnote"> 4 aenabulis se oppositis <hi rend="italic">ante</hi> more <hi rend="italic">(lin. 3) transponenda uidentur</hi> inserebant <lb/>
-            <hi rend="italic">f</hi> 12 ab aquis <hi rend="italic">f</hi> 24 saltem] saluti <hi rend="italic">/</hi> 33 qui <hi rend="italic">scripsi</hi> quae <hi rend="italic">fv</hi> </note> <lb/>
-             
-<pb n="232"/>
+            populis plena, qui ab exitiali peste erroris illius et furoris <note type="margin">
+                     <hi rend="italic">def. ?</hi>
+                  </note>
+                  <note type="footnote"> 4 aenabulis se oppositis <hi rend="italic">ante</hi> more <hi rend="italic">(lin. 3) transponenda uidentur</hi> inserebant <lb/>
+                     <hi rend="italic">f</hi> 12 ab aquis <hi rend="italic">f</hi> 24 saltem] saluti <hi rend="italic">/</hi> 33 qui <hi rend="italic">scripsi</hi> quae <hi rend="italic">fv</hi>
+                  </note>
+                  <lb/>
+                  <pb n="232"/>
             per hanc instantiam perficiendae unitatis eruuntur. numquidnam. <lb/>
             obsecro, sanum misericordiae potest esse consilium, ut simul <lb/>
             cum illis isti omnes aeternis gehennarum suppliciis seruentur, <lb/>
@@ -1486,11 +1519,10 @@
             furorem fieri non potest, saltem ut non omnes cum diabolo <lb/>
             pereant laborandum est. 
 </p>
-          
-</div>
-
-<div n="34" subtype="section" type="textpart">
-<p><milestone n="30" unit="altchapter"/> Sane de scripturis sanctis sagacissime inquirens, <lb/>
+            </div>
+            <div n="34" type="section">
+               <p>
+                  <milestone n="30" unit="altchapter"/> Sane de scripturis sanctis sagacissime inquirens, <lb/>
             si quid proferre posses pro ista spontaneae mortis sententia<lb n="10"/>
             insana, inuenisse te aliquid putas, quia scriptum est in euangelio: <lb/>
             spiritus quidem promptus est, caro autem <lb/>
@@ -1515,12 +1547,15 @@
             sustinere, credant catholici, non credant Donatistae, et ne
 
 <note type="footnote"> 12. 19 Matth. 26, 41; cf. pag. 2$0, 5 16 Eccli. 2, 16 18 Luc. <lb/>
-            21, 19 23 I Cor. 10, 13 </note> <note type="margin"> <hi rend="italic">def. 1</hi> </note>
-
-<note type="footnote"> 1 nunquid non <hi rend="italic">/</hi> 3 seruentur] eruantur f 14 <hi rend="italic">punctum post</hi> est <lb/>
-            <hi rend="italic">habent fv, correxi</hi> 16 his <hi rend="italic">scripsi</hi> iis <hi rend="italic">fv</hi> </note> <lb/>
-             
-<pb n="233"/>
+            21, 19 23 I Cor. 10, 13 </note>
+                  <note type="margin">
+                     <hi rend="italic">def. 1</hi>
+                  </note>
+                  <note type="footnote"> 1 nunquid non <hi rend="italic">/</hi> 3 seruentur] eruantur f 14 <hi rend="italic">punctum post</hi> est <lb/>
+                     <hi rend="italic">habent fv, correxi</hi> 16 his <hi rend="italic">scripsi</hi> iis <hi rend="italic">fv</hi>
+                  </note>
+                  <lb/>
+                  <pb n="233"/>
             semper ista non credant, non sint Donatistae. quando enim <lb/>
             desperatur in quibusque passionibus a domino impetranda <lb/>
             patientia et ideo quaeritur compendium caminorum, ubi se <lb/>
@@ -1530,11 +1565,9 @@
             sua, qui non dicunt de adiutorio domini: quoniam ab ipso <lb/>
             patientia mea. 
 </p>
-          
-</div>
-
-<div n="35" subtype="section" type="textpart">
-<p>Certe sanctus Iob, quando a capite usque ad pedes <lb/>
+            </div>
+            <div n="35" type="section">
+               <p>Certe sanctus Iob, quando a capite usque ad pedes <lb/>
             intolerabili uulnere putrescebat et doloribus excruciabatur <lb n="10"/>
             immanibus, hoc uestrum compendium habebat in promptu, <lb/>
             quo se ab huiusmodi uita horrendis calamitatibus plena, in <lb/>
@@ -1559,12 +1592,15 @@
             multa in suis doloribus loquebatur, rogare ut hoc sibi fieret
 
 <note type="footnote"> 4 cf. Ps.-Cypr. De laude martyrii c. 21 7 Ps. 61, 6 15 Hiob 30, 24 <lb/>
-            18 Gal. 4, 15 23 Gen. 19, 22 </note> <note type="margin"> <hi rend="italic">dtf. J</hi> </note>
-
-<note type="footnote"> 3 patientia <hi rend="italic">scripsi</hi> sapientia <hi rend="italic">fv</hi> 14 sinebat] desinebat <hi rend="italic">Amerb</hi>. deserebat <lb/>
-            <hi rend="italic">f 22 Lot v</hi> </note> <lb/>
-             
-<pb n="234"/>
+            18 Gal. 4, 15 23 Gen. 19, 22 </note>
+                  <note type="margin">
+                     <hi rend="italic">dtf. J</hi>
+                  </note>
+                  <note type="footnote"> 3 patientia <hi rend="italic">scripsi</hi> sapientia <hi rend="italic">fv</hi> 14 sinebat] desinebat <hi rend="italic">Amerb</hi>. deserebat <lb/>
+                     <hi rend="italic">f 22 Lot v</hi>
+                  </note>
+                  <lb/>
+                  <pb n="234"/>
             aliquem posset? neque enim, ut dolenti et putrescenti manus <lb/>
             defuit ad perimendum, et lingua defuit ad rogandum. certe <lb/>
             uel ipsam coniugem suam poterat hoc rogare. quae tamen <lb/>
@@ -1598,17 +1634,18 @@
             qui eam sibi faciunt propter iniustitiam.
 
 <note type="footnote"> 4 cf. Hiob 2, 9 14 Hiob 30, 24 26 Matth. 26, 39 30 cf. <lb/>
-            Matth. 5, 10 </note> <note type="margin"> <hi rend="italic">def. A</hi> </note>
-
-<note type="footnote"> 1 ut <hi rend="italic">scripsi</hi> non <hi rend="italic">fo</hi> 4 suggessisset <hi rend="italic">v</hi> 6 <hi rend="italic">dicens addidi</hi> </note> 
-<pb n="235"/>
-            
-</p>
-          
-</div>
-
-<div n="36" subtype="section" type="textpart">
-<p><milestone n="31" unit="altchapter"/> Proinde etiam senior ille Razias, quem sibi isti <lb/>
+            Matth. 5, 10 </note>
+                  <note type="margin">
+                     <hi rend="italic">def. A</hi>
+                  </note>
+                  <note type="footnote"> 1 ut <hi rend="italic">scripsi</hi> non <hi rend="italic">fo</hi> 4 suggessisset <hi rend="italic">v</hi> 6 <hi rend="italic">dicens addidi</hi>
+                  </note>
+                  <pb n="235"/>
+               </p>
+            </div>
+            <div n="36" type="section">
+               <p>
+                  <milestone n="31" unit="altchapter"/> Proinde etiam senior ille Razias, quem sibi isti <lb/>
             exemplis sui sceleris destituti de Machabaeorum libris tamquam <lb/>
             imitandum se inuenisse gloriantur, hoc facere debuit, <lb/>
             quod in eisdem litteris leguntur septem illi fratres etiam <lb/>
@@ -1642,11 +1679,14 @@
             promptus, caro autem infirma? cuius non solum spiritus
 
 <note type="footnote"> 2 cf. II Mach. 14, 41 sqq. 4 cf. II Mach. 7, 1 sqq. 10 cf. epist. <lb/>
-            204, 6-7 20 Matth. 10, 23 24 Matth. 26, 41; cf. pag. 230, 5 </note> <note type="margin"> <hi rend="italic">itf. A</hi> </note>
-
-<note type="footnote"> 18 itaque <hi rend="italic">f</hi> 19 uiuere non <hi rend="italic">f</hi> deum <hi rend="italic">f</hi> 20 Raziam <hi rend="italic">v</hi> </note> <lb/>
-             
-<pb n="236"/>
+            204, 6-7 20 Matth. 10, 23 24 Matth. 26, 41; cf. pag. 230, 5 </note>
+                  <note type="margin">
+                     <hi rend="italic">itf. A</hi>
+                  </note>
+                  <note type="footnote"> 18 itaque <hi rend="italic">f</hi> 19 uiuere non <hi rend="italic">f</hi> deum <hi rend="italic">f</hi> 20 Raziam <hi rend="italic">v</hi>
+                  </note>
+                  <lb/>
+                  <pb n="236"/>
             tam promptus apparuit, sed etiam caro tam firma, ut uix <lb/>
             credibile sit eum facere uoluisse ac ualuisse quae fecit. itaque <lb/>
             uobis oportet iste displiceat, qui rationem uestrae infirmitatis <lb/>
@@ -1659,11 +1699,9 @@
             reus, quod sibi intulit mortem, quam comprehenso inimicus<lb n="10"/>
             iam fuerat illaturus. 
 </p>
-          
-</div>
-
-<div n="37" subtype="section" type="textpart">
-<p>At enim sanctarum scripturarum auctoritate laudatus <lb/>
+            </div>
+            <div n="37" type="section">
+               <p>At enim sanctarum scripturarum auctoritate laudatus <lb/>
             est Razias\'. quomodo laudatus? quia fuit amator ciuitatis: hoc <lb/>
             potuit et carnaliter, ciuitatis uidelicet illius terrenae Hierusalem <lb/>
             quae seruit cum filiis suis, non autem illius quae sursum,<lb n="15"/>
@@ -1686,11 +1724,14 @@
             nec tunc aliquid poposcit, quo boni discernuntur a malis.
 
 <note type="footnote"> 13 cf. II Mach. 14, 37 14 cf. Gal. 4, 25 16 cf. II Mach. 14, 38 <lb/>
-            17 cf. Phil. 3, 8 19 cf. II Mach. 14, 37 </note> <note type="margin"> <hi rend="italic">def. J</hi> </note>
-
-<note type="footnote"> 8 autem <hi rend="italic">scripsi</hi> enim <hi rend="italic">fv</hi> 17 at <hi rend="italic">scripsi</hi> et <hi rend="italic">fv</hi> </note> <lb/>
-             
-<pb n="237"/>
+            17 cf. Phil. 3, 8 19 cf. II Mach. 14, 37 </note>
+                  <note type="margin">
+                     <hi rend="italic">def. J</hi>
+                  </note>
+                  <note type="footnote"> 8 autem <hi rend="italic">scripsi</hi> enim <hi rend="italic">fv</hi> 17 at <hi rend="italic">scripsi</hi> et <hi rend="italic">fv</hi>
+                  </note>
+                  <lb/>
+                  <pb n="237"/>
             reddet enim haec deus et his qui male egerunt non in resurrectione <lb/>
             uitae aeternae, sed in resurrectione indicii aeterni. <lb/>
             laudatus est itaque iste Razias amator ciuitatis ut ualde bene <lb/>
@@ -1701,13 +1742,10 @@
             laudauit. nostrum est autem, sicut apostolus admonet, omnia <lb/>
             probare, quae bona sunt tenere, ab omni specie mala nos <lb/>
             abstinere. <lb n="10"/>
-            
-</p>
-          
-</div>
-
-<div n="38" subtype="section" type="textpart">
-<p>Et hanc quidem scripturam, quae appellatur Macchabaeorum, <lb/>
+               </p>
+            </div>
+            <div n="38" type="section">
+               <p>Et hanc quidem scripturam, quae appellatur Macchabaeorum, <lb/>
             non habent Iudaei sicut legem et prophetas et psalmos, <lb/>
             quibus dominus testimonium perhibet tamquam testibus suis, <lb/>
             dicens: oportebat impleri omnia quae scripta sunt <lb/>
@@ -1730,12 +1768,13 @@
             ideo ille certat per patientiam, hic autem peccat per
 
 <note type="footnote">8 cr. I Thess. 5, 21-22 14 Luc. 24, 44 19 cf. De ciu. dei 18, <lb/>
-            36. De doctr. christ. 2, 5. De cura pro mortuis gerenda c. 1 Rom. 8, 18 </note> <note type="margin"> Uf. A </note>
-
-<note type="footnote"> 7 est <hi rend="italic">scripsi</hi> esset <hi rend="italic">fv</hi> 11 Machabaeorum <hi rend="italic">v</hi> 15 <hi rend="italic">alt</hi>. in <hi rend="italic">alias deest;<lb/>
-             deleui</hi> 17 Machabaeos <hi rend="italic">v</hi> </note> <lb/>
-             
-<pb n="238"/>
+            36. De doctr. christ. 2, 5. De cura pro mortuis gerenda c. 1 Rom. 8, 18 </note>
+                  <note type="margin"> Uf. A </note>
+                  <note type="footnote"> 7 est <hi rend="italic">scripsi</hi> esset <hi rend="italic">fv</hi> 11 Machabaeorum <hi rend="italic">v</hi> 15 <hi rend="italic">alt</hi>. in <hi rend="italic">alias deest;<lb/>
+             deleui</hi> 17 Machabaeos <hi rend="italic">v</hi>
+                  </note>
+                  <lb/>
+                  <pb n="238"/>
             impatientiam. non itaque debemus, quidquid in scripturis etiam <lb/>
             dei testimonio laudatos homines fecisse legerimus, consentiendo <lb/>
             approbare, sed considerando discernere, adhibentes iudicium <lb/>
@@ -1749,12 +1788,10 @@
             sibi quis inferat mortem, maxime cui conceditur uel potius <lb/>
             qui compellitur uiuere, in eis sit factis, quae nec poterunt <lb/>
             umquam recta esse nec potuerunt, sicut satis iam demonstrauimus? <lb/>
-            </p>
-          
-</div>
-
-<div n="39" subtype="section" type="textpart">
-<p>Proinde quomodolibet accipiatur a uobis huius Raziae<lb n="15"/>
+               </p>
+            </div>
+            <div n="39" type="section">
+               <p>Proinde quomodolibet accipiatur a uobis huius Raziae<lb n="15"/>
             uita laudata, non habet mors eius laudatricem sapientiam, <lb/>
             quia non habet dignam dei famulis patientiam, potiusque huic <lb/>
             uox illa sapientiae, quae non laudis, sed detestationis est, competit: <lb/>
@@ -1773,12 +1810,15 @@
             reprehensus audiuit: uade post me, satanas; non enim
 
 <note type="footnote"> 19 Eccli. 2, 16 21 cf. II Reg. 11 25 cf. III Reg. 11 28 Matth. <lb/>
-            16, 16 31 Matth. 16, 23 </note> <note type="margin"> <hi rend="italic">def. J</hi> </note>
-
-<note type="footnote"> 12 poterunt <hi rend="italic">coni</hi>. v, poterant <hi rend="italic">in textu, item f</hi> 19 iis <hi rend="italic">fo</hi> 23 imitandum <lb/>
-            <hi rend="italic">addidi</hi> 30 in eo <hi rend="italic">coni. v</hi> ideo <hi rend="italic">fo</hi> </note> <lb/>
-             
-<pb n="239"/>
+            16, 16 31 Matth. 16, 23 </note>
+                  <note type="margin">
+                     <hi rend="italic">def. J</hi>
+                  </note>
+                  <note type="footnote"> 12 poterunt <hi rend="italic">coni</hi>. v, poterant <hi rend="italic">in textu, item f</hi> 19 iis <hi rend="italic">fo</hi> 23 imitandum <lb/>
+                     <hi rend="italic">addidi</hi> 30 in eo <hi rend="italic">coni. v</hi> ideo <hi rend="italic">fo</hi>
+                  </note>
+                  <lb/>
+                  <pb n="239"/>
             . sapis quae dei sunt, sed quae hominum? atque ut <lb/>
             haec taceam, quae uoce apertissima sancta ecclesiae scriptura <lb/>
             culpauit, et ea dicam, quae tantummodo ibi narrata atque <lb/>
@@ -1803,11 +1843,9 @@
             quod deo iubente fuit oboedientia, deo non iubente quid <lb/>
             fuisset nisi dementia? 
 </p>
-          
-</div>
-
-<div n="40" subtype="section" type="textpart">
-<p>His sacris litteris eruditus beatus Cyprianus in confessione <lb/>
+            </div>
+            <div n="40" type="section">
+               <p>His sacris litteris eruditus beatus Cyprianus in confessione <lb/>
             sua dixit disciplinam prohibere ne quis se offerat. uidete, . <lb n="25"/>
             quantum mali faciatis, cum uos uultis occidere, qui essetis <lb/>
             indisciplinati, etiam si uos aliis hoc uobis facere cupientibus <lb/>
@@ -1817,12 +1855,16 @@
             ista persecutio, quae tot milia innocentum artauit ad mortem</hi>?
 
 <note type="footnote">7 cf. Gen. 9, 21 10 cf. Gen. 38 14 cf. Iud. 16 21 cf. <lb/>
-            Gen. 22 25 cf. Act. procons. c. 1 30 pag. 230, 3 </note> <note type="margin"> <hi rend="italic">def.J</hi> </note>
-
-<note type="footnote"> 4 alterutram <hi rend="italic">scripsi</hi> alteram <hi rend="italic">fo</hi> 12 Sampson <hi rend="italic">f</hi> 23 fuisset <hi rend="italic">scripsi</hi> <lb/>
-            fuit <hi rend="italic">fv</hi> 26 essetis <hi rend="italic">scripsi</hi> estis <hi rend="italic">fv</hi> 30 est <hi rend="italic">om. f</hi> 31 innocentium <hi rend="italic">/</hi> </note> <lb/>
-             
-<pb n="240"/>
+            Gen. 22 25 cf. Act. procons. c. 1 30 pag. 230, 3 </note>
+                  <note type="margin">
+                     <hi rend="italic">def.J</hi>
+                  </note>
+                  <note type="footnote"> 4 alterutram <hi rend="italic">scripsi</hi> alteram <hi rend="italic">fo</hi> 12 Sampson <hi rend="italic">f</hi> 23 fuisset <hi rend="italic">scripsi</hi>
+                     <lb/>
+            fuit <hi rend="italic">fv</hi> 26 essetis <hi rend="italic">scripsi</hi> estis <hi rend="italic">fv</hi> 30 est <hi rend="italic">om. f</hi> 31 innocentium <hi rend="italic">/</hi>
+                  </note>
+                  <lb/>
+                  <pb n="240"/>
             ostendite, quomodo sitis innocentes, qui Christum diuiditis et <lb/>
             uos occiditis. ostendite, quomodo artemini ad mortem, quibus <lb/>
             fuga et diuinitus iubetur et humanitus relaxatur. ostendite, <lb/>
@@ -1833,13 +1875,11 @@
             fugere; si et ipsum Razian interrogare possetis, responderet <lb/>
             nobis: (ego\' non potui fugere.\' uos ergo nec Christum saluatorem <lb/>
             nec tribunum persecutorem nec Razian auctorem habetis. <lb n="10"/>
-            
-</p>
-          
-</div>
-
-<div n="41" subtype="section" type="textpart">
-<p><milestone n="32" unit="altchapter"/> Quod autem dixisti, ut se ipsos uestri occiderent, <lb/>
+               </p>
+            </div>
+            <div n="41" type="section">
+               <p>
+                  <milestone n="32" unit="altchapter"/> Quod autem dixisti, ut se ipsos uestri occiderent, <lb/>
             non eos frustra timuisse, quoniam quisquis in nostras <lb/>
             uel nostrorum manus incidit non euasit, quid (non) euaserit <lb/>
             quaero. si mortem, cur eam uobis infertis manibus uestris, <lb/>
@@ -1861,12 +1901,17 @@
             apertissimae ueritati perseueranter resistentes et discedentes <lb n="30"/>
             latere arbitratus es. sed Emerito fecisti secundum uos
 
-<note type="footnote"> 1 cf. I Cor. 1, 13 11 cf. 28, 32 init. 28 pag. 230, 9 </note> <note type="margin"> <hi rend="italic">def. J</hi> </note>
-
-<note type="footnote"> <hi rend="italic">8 et</hi> 10 Raziam <hi rend="italic">v</hi> 12 in <hi rend="italic">om. f</hi> 13 non <hi rend="italic">addidi</hi> 18 in <hi rend="italic">om. f</hi> <lb/>
-            25 quiquis <hi rend="italic">f</hi> 27 dum <hi rend="italic">Engelbrecht</hi> </note> <lb/>
-             
-<pb n="241"/>
+<note type="footnote"> 1 cf. I Cor. 1, 13 11 cf. 28, 32 init. 28 pag. 230, 9 </note>
+                  <note type="margin">
+                     <hi rend="italic">def. J</hi>
+                  </note>
+                  <note type="footnote">
+                     <hi rend="italic">8 et</hi> 10 Raziam <hi rend="italic">v</hi> 12 in <hi rend="italic">om. f</hi> 13 non <hi rend="italic">addidi</hi> 18 in <hi rend="italic">om. f</hi>
+                     <lb/>
+            25 quiquis <hi rend="italic">f</hi> 27 dum <hi rend="italic">Engelbrecht</hi>
+                  </note>
+                  <lb/>
+                  <pb n="241"/>
             grauissimam iniuriam, qui perdidit apud te duritiae suae laudem. <lb/>
             tamquam frustra esse uoluerit inter paucos ueritati non consentientes, <lb/>
             quia deputari (non) meruit inter latentes. quis nostrum <lb/>
@@ -1882,11 +1927,10 @@
             qua Christi unitati resistitis, sed etiam nos praecipue, qui <lb/>
             huic tanto sceleri uestro etiam mortes addere festinatis? 
 </p>
-          
-</div>
-
-<div n="42" subtype="section" type="textpart">
-<p><milestone n="33" unit="altchapter"/> Uerba epistulae: <hi rend="italic">Sed quoniam prudentiam <lb n="15"/>
+            </div>
+            <div n="42" type="section">
+               <p>
+                  <milestone n="33" unit="altchapter"/> Uerba epistulae: <hi rend="italic">Sed quoniam prudentiam <lb n="15"/>
             tuam,</hi> inquit, <hi rend="italic">exsecutoris officium non decebat, quaeso paucis <lb/>
             aduerte. alia est ut reor solida ueritas, alia effigies ueritatis. <lb/>
             quoniam ueritas robore suo firmata constat, idolum siue <lb/>
@@ -1905,16 +1949,18 @@
             uniuerso terrarum orbe diffusam, sequitur et adiungit: et qui
 
 <note type="footnote"> 11 cf. pag. 230, 10 21 cf. pag. 206, 21 sqq. 29 Esai. 54, 5 <lb/>
-            31 ibid. </note> <note type="margin"> <hi rend="italic">It!. J</hi> </note>
-
-<note type="footnote"> 3 non <hi rend="italic">addidi</hi> 9 in <hi rend="italic">om. f</hi> 18 constit <hi rend="italic">(sic) f</hi> 19 simulachrum <hi rend="italic">f</hi> <lb/>
-            21 simulachrorum <hi rend="italic">f</hi> 24 Gabinium <hi rend="italic">scripsi</hi> Gabinum <hi rend="italic">fv</hi> </note>
-
-<note type="footnote"> LIII. August. c. Don. III. </note>
-
-<note type="footnote"> 16 </note> <lb/>
-             
-<pb n="242"/>
+            31 ibid. </note>
+                  <note type="margin">
+                     <hi rend="italic">It!. J</hi>
+                  </note>
+                  <note type="footnote"> 3 non <hi rend="italic">addidi</hi> 9 in <hi rend="italic">om. f</hi> 18 constit <hi rend="italic">(sic) f</hi> 19 simulachrum <hi rend="italic">f</hi>
+                     <lb/>
+            21 simulachrorum <hi rend="italic">f</hi> 24 Gabinium <hi rend="italic">scripsi</hi> Gabinum <hi rend="italic">fv</hi>
+                  </note>
+                  <note type="footnote"> LIII. August. c. Don. III. </note>
+                  <note type="footnote"> 16 </note>
+                  <lb/>
+                  <pb n="242"/>
             eruit te ipse deus Israel uniuersae terrae uocabitur. <lb/>
             hoc euidentissimum dei opus humanum dicitis esse figmentum <lb/>
             nec uos respicitis, quod ab ista ecclesia, quam se promisit <lb/>
@@ -1938,11 +1984,9 @@
             gnum, ecce humanum figmentum, ecce quod colitis, ecce cui <lb/>
             seruitis, ecce propter quod rebellatis insanitis ardetis. 
 </p>
-          
-</div>
-
-<div n="43" subtype="section" type="textpart">
-<p>Gabinius uero et ceteri, qui hanc ecclesiam cognouerunt <lb/>
+            </div>
+            <div n="43" type="section">
+               <p>Gabinius uero et ceteri, qui hanc ecclesiam cognouerunt <lb/>
             elegerunt tenuerunt, non humanum figmentum, sed diuinum <lb/>
             promissum praedictum et impletum cum fidelibus habere<lb n="25"/>
             cupientes, ulterius pro humano figmento ipsas humanas molestias <lb/>
@@ -1953,11 +1997,14 @@
             quisquis autem pro parte Donati uel fimbriam uestimenti perdiderit, <lb/>
             cor non habet. quid ergo mirum, si homines sapientes,
 
-<note type="footnote">6 Gen. 22, 18 8 Esai. 54, 5 20 Ps. 63, 6 </note><note type="margin"><hi rend="italic">def. J</hi> </note>
-
-<note type="footnote">1 erui <hi rend="italic">f</hi> 19 uestra <hi rend="italic">f</hi> 23 Gabinius <hi rend="italic">scripsi</hi> Gabinus <hi rend="italic">fv</hi> </note> <lb/>
-             
-<pb n="243"/>
+<note type="footnote">6 Gen. 22, 18 8 Esai. 54, 5 20 Ps. 63, 6 </note>
+                  <note type="margin">
+                     <hi rend="italic">def. J</hi>
+                  </note>
+                  <note type="footnote">1 erui <hi rend="italic">f</hi> 19 uestra <hi rend="italic">f</hi> 23 Gabinius <hi rend="italic">scripsi</hi> Gabinus <hi rend="italic">fv</hi>
+                  </note>
+                  <lb/>
+                  <pb n="243"/>
             cum uiderunt contra obduratae consuetudinis pertinacissimam <lb/>
             uetustatem proposita sibi esse damna et exilia, considerauerunt, <lb/>
             utrum pro parte Donati contra ecclesiam catholicam, hoc est <lb/>
@@ -1972,11 +2019,10 @@
             decet quam ut in ea causa, in qua perpendit quibusnam uos <lb/>
             uultis esse deceptio, multis ipse fiat corrigendis saluatio? 
 </p>
-          
-</div>
-
-<div n="44" subtype="section" type="textpart">
-<p><milestone n="34" unit="altchapter"/> Uerba epistulae: <hi rend="italic">Ad docendum,</hi> inquit, <hi rend="italic">populum <lb/>
+            </div>
+            <div n="44" type="section">
+               <p>
+                  <milestone n="34" unit="altchapter"/> Uerba epistulae: <hi rend="italic">Ad docendum,</hi> inquit, <hi rend="italic">populum <lb/>
             Israel omnipotens deus prophetis praeconium dedit, non <lb n="15"/>
             regibus imperauit. saluator animarum dominus Christus ad <lb/>
             insinuandam fidem piscatores, non milites misit</hi>. ad haec <lb/>
@@ -1996,23 +2042,22 @@
             et non timebitis christianum regem succensentem uobis hanc <lb/>
             ecclesiam blasphemantibus, quae, sicut a rege prophetata est,
 
-<note type="footnote"> 7 Prou. 9, 9 10 pag. 241, 15 20 cap. 25, 28 29 Ps. 71, 8 </note> <note type="margin"> def. A </note>
-
-<note type="footnote"> 13 deceptio] exitio <hi rend="italic">male coni. v</hi> 22 prophetae <hi rend="italic">add. mg. v, om. fv</hi> </note>
-
-<note type="footnote"> 16* </note> <lb/>
-             
-<pb n="244"/>
+<note type="footnote"> 7 Prou. 9, 9 10 pag. 241, 15 20 cap. 25, 28 29 Ps. 71, 8 </note>
+                  <note type="margin"> def. A </note>
+                  <note type="footnote"> 13 deceptio] exitio <hi rend="italic">male coni. v</hi> 22 prophetae <hi rend="italic">add. mg. v, om. fv</hi>
+                  </note>
+                  <note type="footnote"> 16* </note>
+                  <lb/>
+                  <pb n="244"/>
             exhibetur usque ad terminos orbis terrae, quia et rex Nabuchodonosor, <lb/>
             quamuis propheta non fuerit, eos tamen, qui <lb/>
             blasphemarent deum Sidrac Misac [et] Abdenago, religiosa <lb/>
             seueritate coercuit. 
 </p>
-          
-</div>
-
-<div n="45" subtype="section" type="textpart">
-<p><milestone n="35" unit="altchapter"/> Verba epistulae: <hi rend="italic">Mundanae,</hi> inquit, <hi rend="italic">militiae<lb n="5"/>
+            </div>
+            <div n="45" type="section">
+               <p>
+                  <milestone n="35" unit="altchapter"/> Verba epistulae: <hi rend="italic">Mundanae,</hi> inquit, <hi rend="italic">militiae<lb n="5"/>
             numquam deus expectauit auxilium, qui solus potest de uiuis <lb/>
             et mortuis iudicare</hi>. ad haec reponsio: Non mundanae militiae <lb/>
             deus expectat auxilium, quando regibus largitur potius beneficium, <lb/>
@@ -2027,11 +2072,10 @@
             rebelles circumcelliones et insanos eorum siue participes siue <lb/>
             principes nisi per subditos milites? 
 </p>
-          
-</div>
-
-<div n="46" subtype="section" type="textpart">
-<p><milestone n="36" unit="altchapter"/> Uerba epistulae: <hi rend="italic">Sed hoc non sciunt, inquit, <lb/>
+            </div>
+            <div n="46" type="section">
+               <p>
+                  <milestone n="36" unit="altchapter"/> Uerba epistulae: <hi rend="italic">Sed hoc non sciunt, inquit, <lb/>
             alienarum rerum incubatores, qui nec deum. audiunt dicentem:<lb n="20"/>
             non concupiscas rem proximi tui nec per Salomonem <lb/>
             spiritum sanctum dicentem: tunc stabunt iusti in magna <lb/>
@@ -2043,16 +2087,18 @@
             habuimus in derisum et in similitudinem <lb/>
             improperii. nos insensati uitam illorum existimabamus<lb/>
             insaniam et finem illorum sine honore. quomodo</hi>
-
-<note type="footnote"> 3 cf. Dan. 3, 29 (96) 10 Ps. 2, 10-11 21 Ex. 20, 17 22 Sap. <lb/>
-            5, 1-9 </note> <note type="margin"> <hi rend="italic">def. J</hi> </note>
-
-<note type="footnote"> 3 Sidrach <hi rend="italic">fv</hi> Misach <hi rend="italic">v</hi> et <hi rend="italic">seclusi, cf. 19, 20. Petil. II 92, 211. Ep. <lb/>
+                  <note type="footnote"> 3 cf. Dan. 3, 29 (96) 10 Ps. 2, 10-11 21 Ex. 20, 17 22 Sap. <lb/>
+            5, 1-9 </note>
+                  <note type="margin">
+                     <hi rend="italic">def. J</hi>
+                  </note>
+                  <note type="footnote"> 3 Sidrach <hi rend="italic">fv</hi> Misach <hi rend="italic">v</hi> et <hi rend="italic">seclusi, cf. 19, 20. Petil. II 92, 211. Ep. <lb/>
             c. Don. 20, 54</hi> 11 iudicetis <hi rend="italic">f</hi> 16 ad reges <hi rend="italic">om. f</hi> sunt] <hi rend="italic">add</hi>. <lb/>
-            reges <hi rend="italic">f 22 in om. f</hi> </note> <lb n="30"/>
-             
-<pb n="245"/>
-            <hi rend="italic">computati sunt inter filios dei et inter sanctos sors <lb/>
+            reges <hi rend="italic">f 22 in om. f</hi>
+                  </note>
+                  <lb n="30"/>
+                  <pb n="245"/>
+                  <hi rend="italic">computati sunt inter filios dei et inter sanctos sors <lb/>
             illorum est? ergo errauimus a uia ueritatis et iustitiae <lb/>
             lumen non illuxit nobis. lassati sumus in iniquitatis <lb/>
             et perditionis uia et ambulauimus solitudines difficiles,<lb/>
@@ -2085,12 +2131,13 @@
             clausis uos in crudeles angustias coartatis, ut et qui uoluerit
 
 <note type="footnote">10 Sap. 5, 1 14 Mattli. 5, 10 </note>
-
-<note type="footnote"> 7 omnia illa <hi rend="italic">p. 252, 4</hi> 13 omnes qui] <hi rend="italic">hinc pergit A</hi> 15 persecutione <lb/>
-            d 16 pacientiam <hi rend="italic">Aml</hi> 18 scriptam <hi rend="italic">dml</hi> 27 quisquis <hi rend="italic">Aml</hi> <lb/>
-            30 sic <hi rend="italic">scripsi</hi> si A, <hi rend="italic">om. fv</hi> 31 credeles <hi rend="italic">Aml</hi> </note> <lb/>
-             
-<pb n="246"/>
+                  <note type="footnote"> 7 omnia illa <hi rend="italic">p. 252, 4</hi> 13 omnes qui] <hi rend="italic">hinc pergit A</hi> 15 persecutione <lb/>
+            d 16 pacientiam <hi rend="italic">Aml</hi> 18 scriptam <hi rend="italic">dml</hi> 27 quisquis <hi rend="italic">Aml</hi>
+                     <lb/>
+            30 sic <hi rend="italic">scripsi</hi> si A, <hi rend="italic">om. fv</hi> 31 credeles <hi rend="italic">Aml</hi>
+                  </note>
+                  <lb/>
+                  <pb n="246"/>
             subuenire non possit intrare et qui uoluerit euadere non possit <lb/>
             exire. absit, absit ut stent cum magna constantia, cum stabunt <lb/>
             cum tam mala conscientia. nisi forte arbitramini propterea <lb/>
@@ -2108,11 +2155,10 @@
             maiores uestros potius fuisse traditores, quia mortem imitamini<lb n="15"/>
             traditoris? 
 </p>
-          
-</div>
-
-<div n="47" subtype="section" type="textpart">
-<p><milestone n="37" unit="altchapter"/> Ergo, quod in collatione contentiose negare <lb/>
+            </div>
+            <div n="47" type="section">
+               <p>
+                  <milestone n="37" unit="altchapter"/> Ergo, quod in collatione contentiose negare <lb/>
             noluistis, etiam hinc uera esse gesta firmatis, in quibus confessis <lb/>
             traditoribus qui tunc primae sedis episcopus in Numidia <lb/>
             fuit Secundus Tigisitanus ignouit et, quibus crimina traditionis<lb n="20"/>
@@ -2128,14 +2174,14 @@
 
 <note type="footnote">17 cf. Breuic. III 17, 31 25 Gesta concilii Cirtensis; cf. Cresc. <lb/>
             III 27, 30 </note>
-
-<note type="footnote"> 1 subuenire-uoluerit <hi rend="italic">om</hi>. J 3 ni <hi rend="italic">A</hi> 5 unde se <hi rend="italic">f</hi> 6 grauidae <lb/>
-            <hi rend="italic">om. f</hi> se miserunt] demiserunt <hi rend="italic">f</hi> 7 etiam] et <hi rend="italic">fv</hi> 9 deum uindicaturum <lb/>
-            <hi rend="italic">fv</hi> 11 et <hi rend="italic">onto f</hi> 12 quo] quia <hi rend="italic">fv</hi> 15 immittamini 11 <lb/>
-            20 tigisitanusus J 22 kartaginem <hi rend="italic">A</hi> 24 purpur»*»rio (rio <hi rend="italic">eras.) A</hi> <lb/>
-            Limatensi <hi rend="italic">fv</hi> 25 purpurrius J qui] quando <hi rend="italic">fo, cf. Cresc. l. c</hi>. </note> <lb/>
-             
-<pb n="247"/>
+                  <note type="footnote"> 1 subuenire-uoluerit <hi rend="italic">om</hi>. J 3 ni <hi rend="italic">A</hi> 5 unde se <hi rend="italic">f</hi> 6 grauidae <lb/>
+                     <hi rend="italic">om. f</hi> se miserunt] demiserunt <hi rend="italic">f</hi> 7 etiam] et <hi rend="italic">fv</hi> 9 deum uindicaturum <lb/>
+                     <hi rend="italic">fv</hi> 11 et <hi rend="italic">onto f</hi> 12 quo] quia <hi rend="italic">fv</hi> 15 immittamini 11 <lb/>
+            20 tigisitanusus J 22 kartaginem <hi rend="italic">A</hi> 24 purpur»*»rio (rio <hi rend="italic">eras.) A</hi>
+                     <lb/>
+            Limatensi <hi rend="italic">fv</hi> 25 purpurrius J qui] quando <hi rend="italic">fo, cf. Cresc. l. c</hi>. </note>
+                  <lb/>
+                  <pb n="247"/>
             quas uos ipsi protulistis atque recitastis, sine ambiguitate <lb/>
             confessus est quod non tradidit, sed quod ad eum peruenerint <lb/>
             a curatore et ordine missi persecutores quos ei Purpurius <lb/>
@@ -2164,23 +2210,21 @@
             potuistis, ubi et Petilianus fuit, qui persecutionis tempore <lb/>
             nec duodecim conuenire potuisse clamabat. 
 </p>
-          
-</div>
-
-<div n="48" subtype="section" type="textpart">
-<p>Porro in ipso concilio statuistis, ut, qui nobis inuiti <lb/>
+            </div>
+            <div n="48" type="section">
+               <p>Porro in ipso concilio statuistis, ut, qui nobis inuiti <lb/>
             communicauerunt uel episcoporum uel presbyterorum, tantum
 
 <note type="footnote"> 1 cf. Breuic. III 13, 25 14. 26 cf. Breuic. III 17, 32-33 24. 28 <lb/>
             circiter annos 418-419 </note>
-
-<note type="footnote"> 2 <hi rend="italic">tradiderit fv, cf. e. gr. p. 210, 28</hi> qui-secuti sunt et qui-remanserint <lb/>
+                  <note type="footnote"> 2 <hi rend="italic">tradiderit fv, cf. e. gr. p. 210, 28</hi> qui-secuti sunt et qui-remanserint <lb/>
             4 Limatensisfv ab <hi rend="italic">om. A</hi> 5 et <hi rend="italic">ona. f</hi> 6 eisque <hi rend="italic">coni. v</hi> eique <hi rend="italic">Afv</hi> 8 retentum <lb/>
-            <hi rend="italic">/ 9 nullisque f 14 clamabitis Anil 17 ubi] nisi f</hi> 18 et pro] proque <lb/>
-            <hi rend="italic">Iv 19 relinquerunt A 20 dicentes scripsi dicitis A dixistis/i;</hi> 21 tamen] <lb/>
-            cum <hi rend="italic">It)</hi> 29 <hi rend="italic">pr</hi>. uel <hi rend="italic">om. v</hi> episcopi uel presbyteri <hi rend="italic">/</hi> prespiterorum <hi rend="italic">A</hi> </note> <lb/>
-             
-<pb n="248"/>
+                     <hi rend="italic">/ 9 nullisque f 14 clamabitis Anil 17 ubi] nisi f</hi> 18 et pro] proque <lb/>
+                     <hi rend="italic">Iv 19 relinquerunt A 20 dicentes scripsi dicitis A dixistis/i;</hi> 21 tamen] <lb/>
+            cum <hi rend="italic">It)</hi> 29 <hi rend="italic">pr</hi>. uel <hi rend="italic">om. v</hi> episcopi uel presbyteri <hi rend="italic">/</hi> prespiterorum <hi rend="italic">A</hi>
+                  </note>
+                  <lb/>
+                  <pb n="248"/>
             si sacrificium non obtulerint aut in populo non tractauerint, <lb/>
             ad ueniam pertineant et in suis recipiantur honoribus, ac sic <lb/>
             totas calumniarum uestrarum uires etiam ipsi hoc decreto <lb/>
@@ -2204,11 +2248,9 @@
             temet ipsum condemnas; eadem enim agis qui <lb/>
             iudicas. 
 </p>
-          
-</div>
-
-<div n="49" subtype="section" type="textpart">
-<p>Quapropter quoniam Donatistae se ipsos occidere semper <lb/>
+            </div>
+            <div n="49" type="section">
+               <p>Quapropter quoniam Donatistae se ipsos occidere semper <lb/>
             amauerunt et ipsi ab initio traditores fuerunt, quid mirum, si <lb/>
             traditoris mortem etiam suos posteros amare docuerunt? sed<lb n="25"/>
             uitandae huius similitudinis causa uel numquam uel difficillime <lb/>
@@ -2216,15 +2258,16 @@
             id facere compulit, qui et illum puerum, quem sanauit
 
 <note type="footnote">20 Rom. 2, 1 28 cf. Matth. 17, 14 </note>
-
-<note type="footnote"> 2 et <hi rend="italic">om. f</hi> honoribus recipiantur <hi rend="italic">fv</hi> sic <hi rend="italic">scripsi</hi> si <hi rend="italic">A/v</hi> 4 anputastis <lb/>
+                  <note type="footnote"> 2 et <hi rend="italic">om. f</hi> honoribus recipiantur <hi rend="italic">fv</hi> sic <hi rend="italic">scripsi</hi> si <hi rend="italic">A/v</hi> 4 anputastis <lb/>
             A 6 impugnauerunt <hi rend="italic">/</hi> 10 obtalerunt A 13 <hi rend="italic">post</hi> inuiti <hi rend="italic">del. <lb/>
              est</hi> fecerint <hi rend="italic">in A</hi> obtulerunt <hi rend="italic">A</hi> 14 estis <hi rend="italic">Af</hi> 17 traditoribus <lb/>
             (traditoriis <hi rend="italic">f)</hi> ueris <hi rend="italic">fl)</hi> in eadem <hi rend="italic">fv</hi> 19 facientibus <hi rend="italic">f</hi> 21 -met <lb/>
-            <hi rend="italic">om. fv</hi> qui <hi rend="italic">scripsi (Gr</hi>. 6 Y.ptvwv) que <hi rend="italic">A</hi> quae <hi rend="italic">fv</hi> 23 semet <hi rend="italic">fv</hi> <lb/>
-            24 intio <hi rend="italic">A</hi> 25 traditores <hi rend="italic">J</hi> </note> <lb/>
-             
-<pb n="249"/>
+                     <hi rend="italic">om. fv</hi> qui <hi rend="italic">scripsi (Gr</hi>. 6 Y.ptvwv) que <hi rend="italic">A</hi> quae <hi rend="italic">fv</hi> 23 semet <hi rend="italic">fv</hi>
+                     <lb/>
+            24 intio <hi rend="italic">A</hi> 25 traditores <hi rend="italic">J</hi>
+                  </note>
+                  <lb/>
+                  <pb n="249"/>
             dominus, in aquam et ignem saepe deiecit et gregem porcorum in <lb/>
             mare praecipitauit et ipsi domino praecipitium de pinna templi <lb/>
             audaci praesumptione suggessit. quamuis itaque diuersis <lb/>
@@ -2237,11 +2280,9 @@
             uestrae mortes uindicabuntur, non nisi in uobis ipsis iustissime <lb n="10"/>
             uindicentur. 
 </p>
-          
-</div>
-
-<div n="50" subtype="section" type="textpart">
-<p>Qui sunt autem labores uestri, quos a uobis iactatis <lb/>
+            </div>
+            <div n="50" type="section">
+               <p>Qui sunt autem labores uestri, quos a uobis iactatis <lb/>
             auferri? an iniustum est, ut ecclesiae quae fuerunt uestrae, <lb/>
             cum in pacem catholicam transeunt, cum suis rebus transeant? <lb/>
             illis enim ad nos transeuntibus si res earum uultis tenere, <lb n="15"/>
@@ -2262,13 +2303,14 @@
             feruemus; haec nos accendit, ut non solum non concupiscamus
 
 <note type="footnote"> 1 cf. Matth. 8, 32 2 cf. Matth. 4, 5-6 17 II Cor. 12, 14 </note>
-
-<note type="footnote">8 magistro <hi rend="italic">Aml</hi> didicistis <hi rend="italic">om. J</hi> iam] cum <hi rend="italic">fv</hi> 10 iudicabun- <lb/>
-            <hi rend="italic">tur A ipsis om. f</hi> 18 anne <hi rend="italic">/c 15 illis] his f</hi> eorum <hi rend="italic">f 20 alt. quod <lb/>
-            8. 1. A</hi> 21 uobiscum <hi rend="italic">A</hi> 22 conmunionem <hi rend="italic">J</hi> 28 unitatem <hi rend="italic">fv</hi> <lb/>
-            sociare <hi rend="italic">fv</hi> 29 ut] ne <hi rend="italic">et post</hi> timeamua <hi rend="italic">punctum fv</hi> nestris <hi rend="italic">Aml</hi> </note> <lb n="30"/>
-             
-<pb n="250"/>
+                  <note type="footnote">8 magistro <hi rend="italic">Aml</hi> didicistis <hi rend="italic">om. J</hi> iam] cum <hi rend="italic">fv</hi> 10 iudicabun- <lb/>
+                     <hi rend="italic">tur A ipsis om. f</hi> 18 anne <hi rend="italic">/c 15 illis] his f</hi> eorum <hi rend="italic">f 20 alt. quod <lb/>
+            8. 1. A</hi> 21 uobiscum <hi rend="italic">A</hi> 22 conmunionem <hi rend="italic">J</hi> 28 unitatem <hi rend="italic">fv</hi>
+                     <lb/>
+            sociare <hi rend="italic">fv</hi> 29 ut] ne <hi rend="italic">et post</hi> timeamua <hi rend="italic">punctum fv</hi> nestris <hi rend="italic">Aml</hi>
+                  </note>
+                  <lb n="30"/>
+                  <pb n="250"/>
             res uestras, sed nobiscum optemus possideatis et nostras. agnoscite <lb/>
             et uenite et perire nolite. aut si ultro uenire erubescitis, <lb/>
             seruimus infirmitati, ne quid pereat caritati. ecce uolumus <lb/>
@@ -2277,11 +2319,10 @@
             et ad cenam tanti patris familias, si sponte non uultis <lb/>
             intrare, compellimus. 
 </p>
-          
-</div>
-
-<div n="51" subtype="section" type="textpart">
-<p><milestone n="38" unit="altchapter"/> De iustitia certamen est, non de pecunia. <lb/>
+            </div>
+            <div n="51" type="section">
+               <p>
+                  <milestone n="38" unit="altchapter"/> De iustitia certamen est, non de pecunia. <lb/>
             cauete itaque, ne forte, dum putatis ad uos pertinere quod <lb/>
             scriptum est: tunc stabunt iusti in magna constantia<lb n="10"/>
             aduersus eos, qui se angustiauerunt et abstulerunt <lb/>
@@ -2304,15 +2345,18 @@
             eisque multa, quantum fieri potest, correctis reddenda seruantur,
 
 <note type="footnote"> 1,0 Sap. 5, 1 13 Sap. 10, 19 23 cf. III Reg. 21 </note>
-
-<note type="footnote"> <hi rend="italic">1 uobiscum A</hi> et] ut J <hi rend="italic">4 arderere A 6 et om. f</hi> 8 pecunia] <lb/>
-            pocnitentia/ 9 itaque] <hi rend="italic">ergo fo</hi> 10 ma*gna. (n <hi rend="italic">eras.) A</hi> 13 sed] <hi rend="italic">et I</hi> <lb/>
+                  <note type="footnote">
+                     <hi rend="italic">1 uobiscum A</hi> et] ut J <hi rend="italic">4 arderere A 6 et om. f</hi> 8 pecunia] <lb/>
+            pocnitentia/ 9 itaque] <hi rend="italic">ergo fo</hi> 10 ma*gna. (n <hi rend="italic">eras.) A</hi> 13 sed] <hi rend="italic">et I</hi>
+                     <lb/>
             illud quod <hi rend="italic">fv</hi> alio loco] alibi <hi rend="italic">fv</hi> 14 maxianiste (ni s. <hi rend="italic">I.) A</hi> 17 construxistis <lb/>
-            <hi rend="italic">fo post</hi> stabunt <hi rend="italic">eras. uid</hi>. adstabunt <hi rend="italic">in A</hi> 18 aduersus <hi rend="italic">If)</hi> <lb/>
+                     <hi rend="italic">fo post</hi> stabunt <hi rend="italic">eras. uid</hi>. adstabunt <hi rend="italic">in A</hi> 18 aduersus <hi rend="italic">If)</hi>
+                     <lb/>
             nos symponiaci <hi rend="italic">A</hi> 19 scabellas <hi rend="italic">Aml</hi> 20 <hi rend="italic">et</hi> 22 aduersusfv 23 Nabutbaeus <lb/>
-            (NaPooaai) <hi rend="italic">scripsi</hi> nabutheus <hi rend="italic">A</hi> Naboth <hi rend="italic">ft)</hi> nacab <hi rend="italic">d</hi> 24 auferet <hi rend="italic">A</hi> </note> <lb/>
-             
-<pb n="251"/>
+            (NaPooaai) <hi rend="italic">scripsi</hi> nabutheus <hi rend="italic">A</hi> Naboth <hi rend="italic">ft)</hi> nacab <hi rend="italic">d</hi> 24 auferet <hi rend="italic">A</hi>
+                  </note>
+                  <lb/>
+                  <pb n="251"/>
             sed stabunt catholici non solum aduersus gentiles, a quibus <lb/>
             ueri martyres exspoliati sunt, uerum etiam aduersus circumcelliones <lb/>
             Donatistarum, quia et ipsi abstulerunt labores eorum. <lb/>
@@ -2322,11 +2366,9 @@
             uestem fructus uasa rura tecta uestrorum: uos quomodo nobis <lb/>
             reddituri estis membra nostrorum? 
 </p>
-          
-</div>
-
-<div n="52" subtype="section" type="textpart">
-<p>Nempe aliquando expergiscimini et cernitis nec uos <lb/>
+            </div>
+            <div n="52" type="section">
+               <p>Nempe aliquando expergiscimini et cernitis nec uos <lb/>
             esse de quibus dicatur nec nos a quibus dicatur: hi sunt <lb n="10"/>
             quos aliquando habuimus in risum, cum potius uos <lb/>
             habeamus in fletum; nec uos computabimini inter filios dei, <lb/>
@@ -2347,17 +2389,20 @@
             uobis, lassamini a uia iniquitatis et perditionis et ambulatis
 
 <note type="footnote"> 10 Sap. 5, 3 16 Sap. 5, 4 23 Sap. 5, 6 </note>
-
-<note type="footnote"> 2 martyres ueri <hi rend="italic">II)</hi> exspoliatione <hi rend="italic">J</hi> etiam <hi rend="italic">bis A</hi> 3 donastistarum <lb/>
-            <hi rend="italic">Aml</hi> 4 pecuniaribus <hi rend="italic">scripsi</hi> peniniaribus <hi rend="italic">J</hi> pecuniariis <hi rend="italic">10</hi> 5 <hi rend="italic">uerba</hi> <lb/>
+                  <note type="footnote"> 2 martyres ueri <hi rend="italic">II)</hi> exspoliatione <hi rend="italic">J</hi> etiam <hi rend="italic">bis A</hi> 3 donastistarum <lb/>
+                     <hi rend="italic">Aml</hi> 4 pecuniaribus <hi rend="italic">scripsi</hi> peniniaribus <hi rend="italic">J</hi> pecuniariis <hi rend="italic">10</hi> 5 <hi rend="italic">uerba</hi>
+                     <lb/>
             ecce cotidie-fecerit <hi rend="italic">in Afo ante</hi> cum etiam-transeunt <hi rend="italic">posita huc transtulit<lb/>
              mg. v</hi> 6 facit <hi rend="italic">fl)</hi> 9 exspergiscimini <hi rend="italic">J</hi> cernite <hi rend="italic">fo, cf. II 4, 4 <lb/>
-            init</hi>. 10 hii <hi rend="italic">A</hi> 11 derisum <hi rend="italic">fv, ut p. 244, 28</hi> 12 computamini <hi rend="italic">II)</hi> <lb/>
+            init</hi>. 10 hii <hi rend="italic">A</hi> 11 derisum <hi rend="italic">fv, ut p. 244, 28</hi> 12 computamini <hi rend="italic">II)</hi>
+                     <lb/>
             13 ut hanc <hi rend="italic">J</hi> 14 est <hi rend="italic">om. f</hi> 15 dicturus <hi rend="italic">Aml</hi> 16 putabis <hi rend="italic">/</hi> existimabamus <lb/>
-            <hi rend="italic">fo, ut p. 244, 29</hi> 18 modo <hi rend="italic">om. f</hi> 25 <hi rend="italic">pr</hi>. nostra <hi rend="italic">f</hi> et <hi rend="italic">om. f</hi> <lb/>
-            27 a] in <hi rend="italic">fo, ut p. 245, 3</hi> iniquitatis uia <hi rend="italic">10</hi> </note> <lb/>
-             
-<pb n="252"/>
+                     <hi rend="italic">fo, ut p. 244, 29</hi> 18 modo <hi rend="italic">om. f</hi> 25 <hi rend="italic">pr</hi>. nostra <hi rend="italic">f</hi> et <hi rend="italic">om. f</hi>
+                     <lb/>
+            27 a] in <hi rend="italic">fo, ut p. 245, 3</hi> iniquitatis uia <hi rend="italic">10</hi>
+                  </note>
+                  <lb/>
+                  <pb n="252"/>
             solitudines difficiles, uiam uero domini ignoratis. quae autem <lb/>
             sequuntur: quid nobis profuit superbia aut quid <lb/>
             diuitiarum iactantia contulit nobis? transierunt <lb/>
@@ -2368,13 +2413,12 @@
             malus error hortatur, non ut libenter pro deo, sicut dicis, in <lb/>
             ista persecutione moriamini, sed ut nequiter pro Donato factis <lb/>
             persecutionem patiamini. <lb n="10"/>
-            
-</p>
-          
-</div>
-
-<div n="53" subtype="section" type="textpart">
-<p><milestone n="39" unit="altchapter"/> Uerba epistulae: <hi rend="italic">(et alia manu:) Opto te,</hi> <lb/>
+               </p>
+            </div>
+            <div n="53" type="section">
+               <p>
+                  <milestone n="39" unit="altchapter"/> Uerba epistulae: <hi rend="italic">(et alia manu:) Opto te,</hi>
+                  <lb/>
             inquit, <hi rend="italic">incolumem ueritate perspecta animum lenire et ab <lb/>
             innocentium exitibus temperare</hi>. ad haec responsio: Uos potius <lb/>
             ueritate perspecta lenite animum uestrum, ne sic saeuiat, ut <lb/>
@@ -2394,15 +2438,17 @@
             ut deceptoribus parcat et innocentes decipi inpune permittat:
 
 <note type="footnote"> 2 Sap. 5, 8-9 8 pag. 245, 8 </note>
-
-<note type="footnote"> 5 dicere poterit] diceret <hi rend="italic">fv</hi> , euenientius <hi rend="italic">J</hi> 6 discesaor (is <hi rend="italic">del.) J</hi> <lb/>
+                  <note type="footnote"> 5 dicere poterit] diceret <hi rend="italic">fv</hi> , euenientius <hi rend="italic">J</hi> 6 discesaor (is <hi rend="italic">del.) J</hi>
+                     <lb/>
             putare uos <hi rend="italic">v</hi> putare uos esse <hi rend="italic">f</hi> 8 ut non <hi rend="italic">v</hi> 9 ut <hi rend="italic">om.. v</hi> factis <lb/>
-            uestris <hi rend="italic">fv</hi> 10 persecutione <hi rend="italic">J</hi> 13 innocentum <hi rend="italic">fv</hi> 15 haec] quidem <hi rend="italic">/</hi> <lb/>
+            uestris <hi rend="italic">fv</hi> 10 persecutione <hi rend="italic">J</hi> 13 innocentum <hi rend="italic">fv</hi> 15 haec] quidem <hi rend="italic">/</hi>
+                     <lb/>
             16 nos <hi rend="italic">/</hi> 17 agere <hi rend="italic">om. f</hi> 18 nos mites / immanitatis A 20 consueuerunt <lb/>
-            <hi rend="italic">fv</hi> et hominum-22 dilectores <hi rend="italic">om. f</hi> 22 innocentum <hi rend="italic">fv</hi> <lb/>
-            25 exuia J 26 igitur] ergo <hi rend="italic">fo</hi> 27 imperalium J-</note> <lb/>
-             
-<pb n="253"/>
+                     <hi rend="italic">fv</hi> et hominum-22 dilectores <hi rend="italic">om. f</hi> 22 innocentum <hi rend="italic">fv</hi>
+                     <lb/>
+            25 exuia J 26 igitur] ergo <hi rend="italic">fo</hi> 27 imperalium J-</note>
+                  <lb/>
+                  <pb n="253"/>
             quid ergo aliud, nisi ut ille, cui te bene arbitraris optare, nec <lb/>
             deo nec imperatori suo seruet fidem, quia scilicet per iustitiam <lb/>
             non ueram sed uestram ad imperatorum curam pertinere causae <lb/>
@@ -2423,11 +2469,9 @@
             quod — utinam et tibi! — tamen aliquibus ex uobis <lb/>
             esse profuturum domino miserante confidimus. 
 </p>
-          
-</div>
-
-<div n="54" subtype="section" type="textpart">
-<p>Ad haec autem si respondere aliquid praeparas, lege <lb n="20"/>
+            </div>
+            <div n="54" type="section">
+               <p>Ad haec autem si respondere aliquid praeparas, lege <lb n="20"/>
             etiam illa, quae cum Emerito acta sunt, quibus ipse respondere <lb/>
             non potuit, ne forte tu possis, sicut iam superius ut <lb/>
             experireris ammonui. de causa etiam Maximianistarum cum <lb/>
@@ -2439,15 +2483,17 @@
 
 <note type="footnote"> 10 cf. Dan. 6, 22 13 cf. Prou. 21, 1 22 pag. 241, 6 23 cf. <lb/>
             Em. 9 </note>
-
-<note type="footnote"> <hi rend="italic">1 bene om. A 2 seruet fidem om. A</hi> 3 imperatorem f causam <lb/>
+                  <note type="footnote">
+                     <hi rend="italic">1 bene om. A 2 seruet fidem om. A</hi> 3 imperatorem f causam <lb/>
             huius.modi (us s. <hi rend="italic">l.)</hi> J 4 ut <hi rend="italic">om</hi>. J 7 imperalem J pertineant <lb/>
-            <hi rend="italic">scripsi</hi> pertineat <hi rend="italic">Afl)</hi> 10 uero** J 11 parcat <hi rend="italic">fv</hi> 16 deorum <hi rend="italic">Jml</hi> <lb/>
+                     <hi rend="italic">scripsi</hi> pertineat <hi rend="italic">Afl)</hi> 10 uero** J 11 parcat <hi rend="italic">fv</hi> 16 deorum <hi rend="italic">Jml</hi>
+                     <lb/>
             satis iam <hi rend="italic">fv 19 profuturum esse deo fv 21 ipse] ille fv</hi> 23 experieris <lb/>
-            <hi rend="italic">A</hi> 24 a <hi rend="italic">om. Aml</hi> 26 responderitis <hi rend="italic">v</hi> 28 percusisti J <lb/>
-            <hi rend="italic">date A Dathan f chore Afv</hi> </note> <lb/>
-             
-<pb n="254"/>
+                     <hi rend="italic">A</hi> 24 a <hi rend="italic">om. Aml</hi> 26 responderitis <hi rend="italic">v</hi> 28 percusisti J <lb/>
+                     <hi rend="italic">date A Dathan f chore Afv</hi>
+                  </note>
+                  <lb/>
+                  <pb n="254"/>
             ministrum, quos pro scelere schismatis uiuos terra deglutiuit, <lb/>
             non polluerit consortes schismatis sui, quibus ut ad uestram <lb/>
             communionem redirent dilationem dedistis, non polluerit Afer <lb/>
@@ -2478,14 +2524,18 @@
             a mortuo quid proficit in lauacro suo?, inter
 
 <note type="footnote"> 3 cf. Em. 11 extr. 27 Eccli. 34, 30 </note>
-
-<note type="footnote"> 1 quos] quo J 4 notus <hi rend="italic">om. A</hi> 7 murtiani J 8 assurritani <hi rend="italic">A</hi> <lb/>
-            quos] quod J 9 dampnatis <hi rend="italic">J</hi> 10 littigastis J 13 suo <hi rend="italic">om. f</hi> <lb/>
-            14 dampnator J 16 nobisque J 18 accusantibus <hi rend="italic">om. f</hi> iter <hi rend="italic">Aml</hi> <lb/>
-            19 non <hi rend="italic">om. J</hi> 20 dapnatus J uobis <hi rend="italic">om</hi>. J 24 praetexatus <hi rend="italic">J</hi> <lb/>
-            longum <hi rend="italic">om. J</hi> 25 dapnatos J 27 est intelligendum <hi rend="italic">fv</hi> 28 in <hi rend="italic">om. v</hi> </note> <lb/>
-             
-<pb n="255"/>
+                  <note type="footnote"> 1 quos] quo J 4 notus <hi rend="italic">om. A</hi> 7 murtiani J 8 assurritani <hi rend="italic">A</hi>
+                     <lb/>
+            quos] quod J 9 dampnatis <hi rend="italic">J</hi> 10 littigastis J 13 suo <hi rend="italic">om. f</hi>
+                     <lb/>
+            14 dampnator J 16 nobisque J 18 accusantibus <hi rend="italic">om. f</hi> iter <hi rend="italic">Aml</hi>
+                     <lb/>
+            19 non <hi rend="italic">om. J</hi> 20 dapnatus J uobis <hi rend="italic">om</hi>. J 24 praetexatus <hi rend="italic">J</hi>
+                     <lb/>
+            longum <hi rend="italic">om. J</hi> 25 dapnatos J 27 est intelligendum <hi rend="italic">fv</hi> 28 in <hi rend="italic">om. v</hi>
+                  </note>
+                  <lb/>
+                  <pb n="255"/>
             illos isti iacebant quando baptizabant, de quibus uestra Bagaitana <lb/>
             sententia tanto strepitu insonuit: Aegyptiorum admodum <lb/>
             exemplo pereuntium funeribus plena sunt <lb/>
@@ -2505,19 +2555,17 @@
             inquisistis. de corde uestro enim nobis dicitis: \'quare quaeritis <lb/>
             tot tantorumque reos criminum?\' sed de libro dei uobis respondemus: <lb/>
             quia caritas cooperit multitudinem peccatorum. <lb/>
-            <lb n="20"/>
-            
-</p>
-
-</div>
-
-</div>
-<div n="2" subtype="book" type="textpart">  
-          <ab>
-            <title type="sub">LIBER SECUNDUS. </title>
-          </ab>
-  <div n="1" subtype="section" type="textpart">  
-          <p><milestone n="1" unit="altchapter"/>
+                  <lb n="20"/>
+               </p>
+            </div>
+         </div>
+         <div n="2" type="book">
+            <ab>
+               <title type="sub">LIBER SECUNDUS. </title>
+            </ab>
+            <div n="1" type="section">
+               <p>
+                  <milestone n="1" unit="altchapter"/>
           Accepi, Gaudenti, responsionem tuam, si tamen responsio <lb/>
             ista dicenda est, quam mihi propterea referre uoluisti, ne, <lb/>
             si tacuisses, diceremus te esse conuictum. sed non hoc est <lb/>
@@ -2526,15 +2574,16 @@
 
 <note type="footnote">2 Sententia concilii Bagaiensis 14 et 17] cf. c. 4, 5 init. 19 I <lb/>
             Petro 4, 8 </note>
-
-<note type="footnote"> 1 Bagaitana] Bagaiensis <hi rend="italic">/, om. A, cf. II 7, 7 init</hi>. 2 egiptiorum J <lb/>
-            admodum <hi rend="italic">om. A</hi> 5 extortam u <hi rend="italic">Aml</hi> ulceribus <hi rend="italic">J</hi> 7 morrimini <hi rend="italic">A</hi> <lb/>
+                  <note type="footnote"> 1 Bagaitana] Bagaiensis <hi rend="italic">/, om. A, cf. II 7, 7 init</hi>. 2 egiptiorum J <lb/>
+            admodum <hi rend="italic">om. A</hi> 5 extortam u <hi rend="italic">Aml</hi> ulceribus <hi rend="italic">J</hi> 7 morrimini <hi rend="italic">A</hi>
+                     <lb/>
             11 quod] quomodo <hi rend="italic">fv</hi> . 12 minime <hi rend="italic">fv</hi> 13 consueuistis <hi rend="italic">fv</hi> 14 esse <lb/>
-            <hi rend="italic">om. f</hi> 17 enim uestro <hi rend="italic">fv</hi> 19 quia] qui <hi rend="italic">J</hi> peccatorum. Exp* lib. 1\'. <lb/>
-            Incipit lib. scd\'s aug\'tini contra gaudentiu epm. J 22 gaudentii <hi rend="italic">A</hi> <lb/>
-            26 hii A </note> <lb/>
-             
-<pb n="256"/>
+                     <hi rend="italic">om. f</hi> 17 enim uestro <hi rend="italic">fv</hi> 19 quia] qui <hi rend="italic">J</hi> peccatorum. Exp* lib. 1\'. <lb/>
+            Incipit lib. scd\'s aug\'tini contra gaudentiu epm. J 22 gaudentii <hi rend="italic">A</hi>
+                     <lb/>
+            26 hii A </note>
+                  <lb/>
+                  <pb n="256"/>
             sperare, nouerint te non inuenisse, quid respondere deberes, et <lb/>
             tamen respondisse, ne taceres. itaque cum caueres, ne uictus <lb/>
             dicereris, fecisti ut ostendereris. ad quod ostendendum tua <lb/>
@@ -2544,11 +2593,10 @@
             prolixior disputatio necessaria est, quam quidem aggrediar, si <lb/>
             opus fuerit dominusque uoluerit. 
 </p>
-          
-</div>
-
-<div n="2" subtype="section" type="textpart">
-<p><milestone n="2" unit="altchapter"/> Nunc interim, quoniam uos potius esse catholicos <lb/>
+            </div>
+            <div n="2" type="section">
+               <p>
+                  <milestone n="2" unit="altchapter"/> Nunc interim, quoniam uos potius esse catholicos <lb/>
             testimonio beati Cypriani affirmare conatus es, attende paululum,<lb n="10"/>
             quam ecclesiam dixerit ille catholicam, cum eius defenderet <lb/>
             unitatem. ecclesia, inquit, domini luce perfusa <lb/>
@@ -2572,13 +2620,15 @@
             linguam inueni, qua doceas <sic>xao</sic> ?  <sic>oXov</sic> non per totum\' siue
 
 <note type="footnote"> 12 Cypr. De cath. eccl. unitate c. 5 . </note>
-
-<note type="footnote"> 5 comparantur J 7 ingrediar <hi rend="italic">/</hi> 9 uos <hi rend="italic">om. Af</hi> 13 totum orbem <hi rend="italic">fv</hi> <lb/>
+                  <note type="footnote"> 5 comparantur J 7 ingrediar <hi rend="italic">/</hi> 9 uos <hi rend="italic">om. Af</hi> 13 totum orbem <hi rend="italic">fv</hi>
+                     <lb/>
             17 latius] largius <hi rend="italic">Jf</hi> pandit <hi rend="italic">Cypr. codd. WGm2Mm1 et Hartel</hi> capud <lb/>
-            <hi rend="italic">A</hi> 24 holon <hi rend="italic">Jf</hi> 26 <hi rend="italic">et</hi> 30 catholon <hi rend="italic">Af</hi> 27 dismulas <hi rend="italic">J</hi> <lb/>
-            28 qoqueris <hi rend="italic">Aml</hi> </note> <lb n="30"/>
-             
-<pb n="257"/>
+                     <hi rend="italic">A</hi> 24 holon <hi rend="italic">Jf</hi> 26 <hi rend="italic">et</hi> 30 catholon <hi rend="italic">Af</hi> 27 dismulas <hi rend="italic">J</hi>
+                     <lb/>
+            28 qoqueris <hi rend="italic">Aml</hi>
+                  </note>
+                  <lb n="30"/>
+                  <pb n="257"/>
             (secundum totum) uel \'secundum uniuersum) significari, et recede <lb/>
             a testimonio Cypriani. ille namque contra te loquitur, qui <lb/>
             uides quid dicat. per orbem totum dicit et per uniuersam <lb/>
@@ -2586,11 +2636,10 @@
             definitioni consentiens. tu aliud tenere sentire dicere reperiris <lb n="5"/>
             et, dura Cypriano teste inniteris, Cypriano teste mentiris. 
 </p>
-          
-</div>
-
-<div n="3" subtype="section" type="textpart">
-<p><milestone n="3" unit="altchapter"/> Ab hac ergo uera germanaque catholica, quae domini <lb/>
+            </div>
+            <div n="3" type="section">
+               <p>
+                  <milestone n="3" unit="altchapter"/> Ab hac ergo uera germanaque catholica, quae domini <lb/>
             luce perfusa per orbem totum radios suos porrigit, ramos <lb/>
             suos per uniuersam terram copia ubertatis extendit, quae <lb/>
             causa uobis fuerit exeundi cum interrogamini, nihil iustum <lb n="10"/>
@@ -2617,17 +2666,17 @@
 <note type="footnote"> 14 Prou. 24, 35 (30, 12) 16 I Ioh. 2, 19 20 cf. Matth. 13, <lb/>
             38 sqq. 21 cf. Matth. 3, 12 et II Tim. 2, 20 22 cf. Matth. 13, 47 sqq. <lb/>
             27 cf. Breuic. III 8, 11 29 Cypr. epist. 54, 3 </note>
-
-<note type="footnote"> <hi rend="italic">1 significare fv, cf. Farm. II 4, 8 post init. 5 diffinitioni Af aliut A</hi> <lb/>
+                  <note type="footnote">
+                     <hi rend="italic">1 significare fv, cf. Farm. II 4, 8 post init. 5 diffinitioni Af aliut A</hi>
+                     <lb/>
             repereris <hi rend="italic">df</hi> 8 inch <hi rend="italic">A</hi> 12 probababilis <hi rend="italic">Aml</hi> 19 dapnare <hi rend="italic">A</hi> 20 tol- <lb/>
-            <hi rend="italic">lerare A</hi> 21 a.rea A <hi rend="italic">24 ab*luere A sententias om. A</hi> 26 testimonium <lb/>
-            <hi rend="italic">fv</hi> 28 maximianum <hi rend="italic">A</hi> </note>
-
-<note type="footnote"> LIII. August. c. l)on. III. </note>
-
-<note type="footnote"> 17 </note> <lb/>
-             
-<pb n="258"/>
+                     <hi rend="italic">lerare A</hi> 21 a.rea A <hi rend="italic">24 ab*luere A sententias om. A</hi> 26 testimonium <lb/>
+                     <hi rend="italic">fv</hi> 28 maximianum <hi rend="italic">A</hi>
+                  </note>
+                  <note type="footnote"> LIII. August. c. l)on. III. </note>
+                  <note type="footnote"> 17 </note>
+                  <lb/>
+                  <pb n="258"/>
             ecclesia esse zizania, non tamen impediri debet aut <lb/>
             fides aut caritas nostra, ut quoniam zizania esse <lb/>
             in ecclesia cernimus ipsi de ecclesia recedamus. <lb/>
@@ -2653,26 +2702,28 @@
             et dum se insolenter extollunt, ipso suo <lb/>
             tumore caecati ueritatis lumen amittunt. 
 </p>
-          
-</div>
-
-<div n="4" subtype="section" type="textpart">
-<p><milestone n="4" unit="altchapter"/> Nempe nunc saltem uides aduersus sanctum Cyprianum<lb n="25"/>
+            </div>
+            <div n="4" type="section">
+               <p>
+                  <milestone n="4" unit="altchapter"/> Nempe nunc saltem uides aduersus sanctum Cyprianum<lb n="25"/>
             uos in nostra collatione clamasse eique contentionibus <lb/>
             restitisse, quibus asserebatis agrum Christi, de quo ait: ager <lb/>
             est mundus, non esse ecclesiam, sed mundum praeter
 
 <note type="footnote">8 II Tim. 2, 20 13 cf. Ps. 2, 9 14 cf. Ioh. 13, 16 27 Matth. <lb/>
             13, 38. cf. Breuic. III 8, 10. 9, 15 </note>
-
-<note type="footnote"> 2 ut <hi rend="italic">om. J</hi> quoniam cur (cur 8. <hi rend="italic">I.) J</hi> esse <hi rend="italic">om. f</hi> 5 cum <hi rend="italic">om. J</hi> <lb/>
+                  <note type="footnote"> 2 ut <hi rend="italic">om. J</hi> quoniam cur (cur 8. <hi rend="italic">I.) J</hi> esse <hi rend="italic">om. f</hi> 5 cum <hi rend="italic">om. J</hi>
+                     <lb/>
             6 orreis <hi rend="italic">J</hi> frumentum J 8 magna autem J 10 quaedam inhonorata <lb/>
-            <hi rend="italic">om. J</hi> quaedam uero inhonorata <hi rend="italic">fv</hi> 13 soli <hi rend="italic">domino Iv</hi> 16 uendicarit <hi rend="italic">J/, <lb/>
-            cf. 13,14</hi> 17 paleam <hi rend="italic">Af</hi> uel uentilabrum <hi rend="italic">om. v Cypr</hi>. iam ferre iam <hi rend="italic">A</hi> <lb/>
-            ferre iam <hi rend="italic">v</hi> 20 pranusu (is <hi rend="italic">eras.) d</hi> 21 quidam plus] aliquid amplius <hi rend="italic">Af</hi> <lb/>
-            26 temptationibus J 28 hic mundus <hi rend="italic">v, cf. Kp. c. Don. 14, 35</hi> </note> <lb/>
-             
-<pb n="259"/>
+                     <hi rend="italic">om. J</hi> quaedam uero inhonorata <hi rend="italic">fv</hi> 13 soli <hi rend="italic">domino Iv</hi> 16 uendicarit <hi rend="italic">J/, <lb/>
+            cf. 13,14</hi> 17 paleam <hi rend="italic">Af</hi> uel uentilabrum <hi rend="italic">om. v Cypr</hi>. iam ferre iam <hi rend="italic">A</hi>
+                     <lb/>
+            ferre iam <hi rend="italic">v</hi> 20 pranusu (is <hi rend="italic">eras.) d</hi> 21 quidam plus] aliquid amplius <hi rend="italic">Af</hi>
+                     <lb/>
+            26 temptationibus J 28 hic mundus <hi rend="italic">v, cf. Kp. c. Don. 14, 35</hi>
+                  </note>
+                  <lb/>
+                  <pb n="259"/>
             ecclesiam, ut ea quae cernerentur posset habere zizania. nam in <lb/>
             ecclesia dicebatis manifesta zizania esse non posse, quotiens <lb/>
             hoc testimonium Cypriani posuimus, et nec aperte illi resistere <lb/>
@@ -2704,17 +2755,18 @@
 
 <note type="footnote">5 Cypr. epist. 54, 3 16 cf. Gaud. epist. ad August. 18 cf. <lb/>
             Ios. 7 26 cf. Breuic. III 8, 14 sqq. </note>
-
-<note type="footnote"> 3 hoc] hic <hi rend="italic">f</hi> hinc <hi rend="italic">v</hi> 5 in ecclesia <hi rend="italic">Otn</hi>. J/ 9 ergo uos <hi rend="italic">ft)</hi> 10 discisione <lb/>
-            (ci 8. <hi rend="italic">l.)</hi> J discessione <hi rend="italic">f</hi> 11 eat <hi rend="italic">om. I)</hi> 13 propterea <hi rend="italic">om. f</hi> <lb/>
-            14 discedi <hi rend="italic">scripsi</hi> discedere <hi rend="italic">Jfv</hi> 15 te more] timore J tumore <hi rend="italic">f</hi> <lb/>
+                  <note type="footnote"> 3 hoc] hic <hi rend="italic">f</hi> hinc <hi rend="italic">v</hi> 5 in ecclesia <hi rend="italic">Otn</hi>. J/ 9 ergo uos <hi rend="italic">ft)</hi> 10 discisione <lb/>
+            (ci 8. <hi rend="italic">l.)</hi> J discessione <hi rend="italic">f</hi> 11 eat <hi rend="italic">om. I)</hi> 13 propterea <hi rend="italic">om. f</hi>
+                     <lb/>
+            14 discedi <hi rend="italic">scripsi</hi> discedere <hi rend="italic">Jfv</hi> 15 te more] timore J tumore <hi rend="italic">f</hi>
+                     <lb/>
             17 perisse <hi rend="italic">J</hi> potuisse perire <hi rend="italic">il)</hi> 19 nesciente J 22 aliquid J 24 in <lb/>
             hoc J ut hoc <hi rend="italic">fo</hi> ut peccatis <hi rend="italic">fl)</hi> etiam <hi rend="italic">(om</hi>. ne) <hi rend="italic">fv</hi> 26 nec] ne J <lb/>
-            saltem <hi rend="italic">om. f</hi> 27 dicere <hi rend="italic">addidi</hi> </note>
-
-<note type="footnote"> 17* </note> <lb/>
-             
-<pb n="260"/>
+            saltem <hi rend="italic">om. f</hi> 27 dicere <hi rend="italic">addidi</hi>
+                  </note>
+                  <note type="footnote"> 17* </note>
+                  <lb/>
+                  <pb n="260"/>
             malos in dominicis retibus a piscatoribus ignorari, ne uidelicet <lb/>
             perirent eorum contagione, si scirent. nonne tibi uenit in <lb/>
             mentem, cum de palea dominicae areae, id est ecclesiae, usque <lb/>
@@ -2744,21 +2796,21 @@
             cognitis tuis factis perisse te intellegis, propter hoc alienis <lb/>
             incognitis perire non metuis? 
 </p>
-          
-</div>
-
-<div n="5" subtype="section" type="textpart">
-<p><milestone n="5" unit="altchapter"/> Quid tibi optem, nisi ut te nobis liceat inuenire, ne <lb/>
+            </div>
+            <div n="5" type="section">
+               <p>
+                  <milestone n="5" unit="altchapter"/> Quid tibi optem, nisi ut te nobis liceat inuenire, ne <lb/>
             libeat te perire? quid enim spei remanebit non solum nobis,
 
-<note type="footnote"><hi rend="italic">6 non legis areana]</hi> cf. ad pag. 64, 19 7 cf. Matth. 3, 12 </note>
-
-<note type="footnote"> 3 cum <hi rend="italic">om. fo</hi> 4 permixistione <hi rend="italic">Llml</hi> tolleranda <hi rend="italic">A</hi> disputabamus <lb/>
-            <hi rend="italic">scripsi</hi> disputantibus <hi rend="italic">Afv</hi> 5 emeritis <hi rend="italic">J</hi> 6 amoneretur <hi rend="italic">J</hi> 11 haereticam <lb/>
+<note type="footnote">
+                     <hi rend="italic">6 non legis areana]</hi> cf. ad pag. 64, 19 7 cf. Matth. 3, 12 </note>
+                  <note type="footnote"> 3 cum <hi rend="italic">om. fo</hi> 4 permixistione <hi rend="italic">Llml</hi> tolleranda <hi rend="italic">A</hi> disputabamus <lb/>
+                     <hi rend="italic">scripsi</hi> disputantibus <hi rend="italic">Afv</hi> 5 emeritis <hi rend="italic">J</hi> 6 amoneretur <hi rend="italic">J</hi> 11 haereticam <lb/>
             uel schismaticam <hi rend="italic">fv</hi> 12 peruerssitatem <hi rend="italic">Llml</hi> 15 hic <hi rend="italic">fv</hi> 16 ia <lb/>
-            bonorum J 19 prohibet J 20 tollerati <hi rend="italic">A</hi> </note> <lb n="30"/>
-             
-<pb n="261"/>
+            bonorum J 19 prohibet J 20 tollerati <hi rend="italic">A</hi>
+                  </note>
+                  <lb n="30"/>
+                  <pb n="261"/>
             qui domino Christo prophetis apostolis sanctoque Cypriano <lb/>
             consentimus etiam cognitos malos, si eos nec corrigere possumus <lb/>
             nec punire, pro unitatis uinculo sustinendos, uerum <lb/>
@@ -2792,12 +2844,12 @@
             esse in ecclesia cernimus ipsi de ecclesia
 
 <note type="footnote">25 Cypr. epist. 54, 8 29 ibid. </note>
-
-<note type="footnote"> 1 apostolisq <hi rend="italic">Jml</hi> 4 mesis J 12 ipsi <hi rend="italic">om. f</hi> tollerabilius J <lb/>
-            <hi rend="italic">17 incogniitis dml alt. atque]</hi> ac <hi rend="italic">fv</hi> 18 prospicuis J <hi rend="italic">19 n quod Aml</hi> <lb/>
-            20 beatissimus ille <hi rend="italic">10</hi> 29 inquid J </note> <lb/>
-             
-<pb n="262"/>
+                  <note type="footnote"> 1 apostolisq <hi rend="italic">Jml</hi> 4 mesis J 12 ipsi <hi rend="italic">om. f</hi> tollerabilius J <lb/>
+                     <hi rend="italic">17 incogniitis dml alt. atque]</hi> ac <hi rend="italic">fv</hi> 18 prospicuis J <hi rend="italic">19 n quod Aml</hi>
+                     <lb/>
+            20 beatissimus ille <hi rend="italic">10</hi> 29 inquid J </note>
+                  <lb/>
+                  <pb n="262"/>
             recedamus. non ait (suspicamur putamus credimus opinamur\', sed <lb/>
             (cernimus). ea quippe etiam illi non operta credebant, sed <lb/>
             aperta cernebant, qui dixerunt patri familias: uis imus et <lb/>
@@ -2813,11 +2865,10 @@
             euangelium in uniuerso mundo et tunc ueniat finis, quod <lb/>
             futurum esse dominus sine ulla ambiguitate praedixit. 
 </p>
-          
-</div>
-
-<div n="6" subtype="section" type="textpart">
-<p><milestone n="6" unit="altchapter"/> Uides ecclesiam testimonio Cypriani et a toto catholicam<lb n="15"/>
+            </div>
+            <div n="6" type="section">
+               <p>
+                  <milestone n="6" unit="altchapter"/> Uides ecclesiam testimonio Cypriani et a toto catholicam<lb n="15"/>
             dictam et non esse sine manifestis malis, propter quos <lb/>
             tamen ammonet non relinquendam. in ea sunt boni per se <lb/>
             ipsos multi, in comparatione autem zizaniorum uel paleae <lb/>
@@ -2831,23 +2882,23 @@
             filius hominis et inueniet fidem in terra?, non de <lb/>
             apostasia totius orbis, sicut tu peruersissime intellegis. 
 </p>
-          
-</div>
-
-<div n="7" subtype="section" type="textpart">
-<p><milestone n="7" unit="altchapter"/> Porro de baptismo, quem non putas esse nisi in <lb/>
+            </div>
+            <div n="7" type="section">
+               <p>
+                  <milestone n="7" unit="altchapter"/> Porro de baptismo, quem non putas esse nisi in <lb/>
             ecclesia et ideo nos arguis, quod ex haeresibus uenientes, si <lb/>
             V
 
 <note type="footnote"> 3 Matth. 13, 28 4 Matth. 13, 26 6 Matth. 13, 29 7 Matth. <lb/>
             13, 30 8. 27. 28 cf. Gaud. epist. ad August. 12 cf. Matth. 24, 14 <lb/>
             20 Matth. 24, 12 22 Matth. 10, 22 23 cf. Matth. 17, 20 25 Luc. 18, 8 </note>
-
-<note type="footnote"> 5 et zizania <hi rend="italic">fv, cf. Parm. II 23, 43</hi> 17 amonet J 19 illa] ea <hi rend="italic">fv</hi> <lb/>
+                  <note type="footnote"> 5 et zizania <hi rend="italic">fv, cf. Parm. II 23, 43</hi> 17 amonet J 19 illa] ea <hi rend="italic">fv</hi>
+                     <lb/>
             20 habuudauit <hi rend="italic">J</hi> abundabit <hi rend="italic">f</hi> 26 inuenit J 27 apostolica <hi rend="italic">(sic) f <lb/>
-            totus A</hi> </note> <lb/>
-             
-<pb n="263"/>
+            totus A</hi>
+                  </note>
+                  <lb/>
+                  <pb n="263"/>
             iam baptizati sunt, iterum non esse baptizandos censemus, <lb/>
             sufficit quod respondere minime potuisti, quomodo damnatus <lb/>
             baptizare potuerit Felicianus foris a uestra ecclesia constitutus, <lb/>
@@ -2880,20 +2931,19 @@
 
 <note type="footnote"> 4 cf. Gaud. epist. ad August. 9. 22 Sententia concilii Bagaienais <lb/>
             27 cf. I 39, 54 </note>
-
-<note type="footnote"> <hi rend="italic">1 baptizandos om. A</hi> 3 poterit A 5 uagaitanam A 6 illis] in <lb/>
-            illos <hi rend="italic">v</hi> 10 carbaianensem A Martianum <hi rend="italic">All)</hi> 11 Baianensem <hi rend="italic">v</hi> <lb/>
+                  <note type="footnote">
+                     <hi rend="italic">1 baptizandos om. A</hi> 3 poterit A 5 uagaitanam A 6 illis] in <lb/>
+            illos <hi rend="italic">v</hi> 10 carbaianensem A Martianum <hi rend="italic">All)</hi> 11 Baianensem <hi rend="italic">v</hi>
+                     <lb/>
             12 reodorum A 13 iggenem J asuritanum A 14 menbressitanum A <lb/>
             Membresitanum <hi rend="italic">II)</hi> 15 marcialem A 17 glutinauerunt <hi rend="italic">fo</hi> 19 facinori] <lb/>
-            fauori <hi rend="italic">Af</hi> 20 dei] de A 25 traxerunt <hi rend="italic">J</hi> 26 quidf 28 quisque J </note> 
-<pb n="264"/>
-            
-</p>
-          
-</div>
-
-<div n="8" subtype="section" type="textpart">
-<p><milestone n="8" unit="altchapter"/> Frustra itaque tibi uidetur Agrippini et Cypriani <lb/>
+            fauori <hi rend="italic">Af</hi> 20 dei] de A 25 traxerunt <hi rend="italic">J</hi> 26 quidf 28 quisque J </note>
+                  <pb n="264"/>
+               </p>
+            </div>
+            <div n="8" type="section">
+               <p>
+                  <milestone n="8" unit="altchapter"/> Frustra itaque tibi uidetur Agrippini et Cypriani <lb/>
             concilia in hac quaestione esse sectanda, cum uos ea neglexeritis, <lb/>
             quando extra uestram communionem baptizatos a damnatis, <lb/>
             contra quos de basilicis excludendos litigabatis, sine <lb/>
@@ -2926,21 +2976,21 @@
             * ■
 
 <note type="footnote"> 1. 18 cf. Gaud. epist. ad August. </note>
-
-<note type="footnote"> 4 littigabatis J 5 scientia J 7 baptizari <hi rend="italic">scripsi</hi> baptizare <hi rend="italic">Jfv</hi> <lb/>
+                  <note type="footnote"> 4 littigabatis J 5 scientia J 7 baptizari <hi rend="italic">scripsi</hi> baptizare <hi rend="italic">Jfv</hi>
+                     <lb/>
             10 Carthaginensis <hi rend="italic">Jfo</hi> 13 ecclesie J 14 baptismum <hi rend="italic">Jml</hi> 19 paricida. <lb/>
-            J 20 idololatra <hi rend="italic">fv</hi> 21 seu <hi rend="italic">seripsi</hi> n <hi rend="italic">in</hi> J <hi rend="italic">erns</hi>. sed <hi rend="italic">fv</hi> <lb/>
-            24 bapisrno J 28 non <hi rend="italic">om. J</hi> </note> <lb/>
-             
-<pb n="265"/>
+            J 20 idololatra <hi rend="italic">fv</hi> 21 seu <hi rend="italic">seripsi</hi> n <hi rend="italic">in</hi> J <hi rend="italic">erns</hi>. sed <hi rend="italic">fv</hi>
+                     <lb/>
+            24 bapisrno J 28 non <hi rend="italic">om. J</hi>
+                  </note>
+                  <lb/>
+                  <pb n="265"/>
             quaeso, ut ab ea se tamquam malorum communionem deuitans <lb/>
             pars Donati separaret quae dementia persuasit. 
 </p>
-          
-</div>
-
-<div n="9" subtype="section" type="textpart">
-<p>Absit autem ut, quoniam beatissimus Cyprianus de baptismo <lb/>
+            </div>
+            <div n="9" type="section">
+               <p>Absit autem ut, quoniam beatissimus Cyprianus de baptismo <lb/>
             aliter sensit quam ueritas et antea consuetudine et <lb/>
             postea perspecta diligentius ratione monstrauit, propterea quisquam <lb n="5"/>
             nostrum, qui hoc quod ille non sapimus, ei se audeat <lb/>
@@ -2960,11 +3010,10 @@
             salubri ammonitione correctus utilius posteris humilitatis praebuit <lb n="20"/>
             exemplum, quam si nihil in illo existeret corrigendum. 
 </p>
-          
-</div>
-
-<div n="10" subtype="section" type="textpart">
-<p><milestone n="9" unit="altchapter"/> In hac ergo ecclesia constituti, quae malorum <lb/>
+            </div>
+            <div n="10" type="section">
+               <p>
+                  <milestone n="9" unit="altchapter"/> In hac ergo ecclesia constituti, quae malorum <lb/>
             siue occultorum siue etiam manifestorum nec potuit nec poterit <lb/>
             perire contagio, nullas de quibuslibet hominibus calumnias <lb/>
             formidamus. si enim mali sunt, procul dubio eos aut ignorant <lb n="25"/>
@@ -2974,14 +3023,15 @@
             solum inreprehensibiliter, uerum etiam laudabiliter tolerant
 
 <note type="footnote"> 13 Ioh. 15, 2 17 cf. Gal. 2, 14 </note>
-
-<note type="footnote"> 5 perfecta <hi rend="italic">f</hi> 8 colHgir- nlacatissimus <hi rend="italic">f</hi> 10 sacramentum <hi rend="italic">A</hi> <lb/>
+                  <note type="footnote"> 5 perfecta <hi rend="italic">f</hi> 8 colHgir- nlacatissimus <hi rend="italic">f</hi> 10 sacramentum <hi rend="italic">A</hi>
+                     <lb/>
             14 fructu J 16 uostruira^/^^^ ulorum <hi rend="italic">J</hi> 24 <hi rend="italic">ante</hi> caluunias <hi rend="italic">(sic)<lb/>
-             (lel</hi>. uestras <hi rend="italic">in ∆, quod <unclear>habet</unclear> 26 indiciis scripsi iudi-</hi> <lb/>
+             (lel</hi>. uestras <hi rend="italic">in ∆, quod <unclear>habet</unclear> 26 indiciis scripsi iudi-</hi>
+                     <lb/>
             ciis <hi rend="italic">Afo</hi> manifestatos <unclear>∆</unclear> 27 etiam eo si <hi rend="italic">∆m1</hi> nouerint <lb/>
-            f 28 dapnare ∆<unclear>nensibiliter</unclear> ∆ <hi rend="italic">J</hi> tollerant ∆ </note> <lb/>
-             
-<pb n="266"/>
+            f 28 dapnare ∆<unclear>nensibiliter</unclear> ∆ <hi rend="italic">J</hi> tollerant ∆ </note>
+                  <lb/>
+                  <pb n="266"/>
             nec se propter pisces malos ruptis dominicis retibus ante <lb/>
             tempus litoris damnabiliter separant. si enim hoc facere uelint, <lb/>
             exceptis diuinarum scripturarum innumerabilibus testimoniis, <lb/>
@@ -3013,14 +3063,14 @@
 
 <note type="footnote"> 6 Cypr. epist. 54, 3 10 cf. Cypr. De lapsis c. 6 13 cf. Col. 3, Õ <lb/>
             19 II Cor. 6, 17, cf. Esai. 52, 11 24 Esai. 65, 5 </note>
-
-<note type="footnote"> 2 littoris <hi rend="italic">Ao</hi> 10 inuidioaos <hi rend="italic">/</hi> 11 usuras multiplicantes <hi rend="italic">Af</hi> 12 aliquid <lb/>
+                  <note type="footnote"> 2 littoris <hi rend="italic">Ao</hi> 10 inuidioaos <hi rend="italic">/</hi> 11 usuras multiplicantes <hi rend="italic">Af</hi> 12 aliquid <lb/>
             J 13 intellegit <hi rend="italic">scripsi, cf. De bapt. IIII</hi> 9, 12 <hi rend="italic">sub fin</hi>. intelligi <lb/>
             J intellexit <hi rend="italic">fv</hi> 14 tales] talis <hi rend="italic">Af</hi> 17 colligendos J 18 ysaiam <lb/>
             J Isaiam <hi rend="italic">v</hi> 20 alia <hi rend="italic">scripsi</hi> talia <hi rend="italic">Afl)</hi> 23 damnantur <hi rend="italic">scripsi</hi> dominantur <lb/>
-            <hi rend="italic">Afo</hi> 24 nolite <hi rend="italic">fo, cf. Post gesta 5, 7</hi> 27 manifestata <hi rend="italic">v</hi> </note> <lb/>
-             
-<pb n="267"/>
+                     <hi rend="italic">Afo</hi> 24 nolite <hi rend="italic">fo, cf. Post gesta 5, 7</hi> 27 manifestata <hi rend="italic">v</hi>
+                  </note>
+                  <lb/>
+                  <pb n="267"/>
             putas et nos in uerbo reprehendis, una eademque societas <lb/>
             perditorum (non) simul et schisma et haeresis esset, non <lb/>
             dixisset beatissimus Cyprianus in hac ipsa epistula, unde hoc <lb/>
@@ -3035,11 +3085,10 @@
             uidetur eligere, cum et schismaticus sis sacrilega discessione <lb/>
             et haereticus sacrilego dogmate. 
 </p>
-          
-</div>
-
-<div n="11" subtype="section" type="textpart">
-<p><milestone n="10" unit="altchapter"/> Nec uobis blandiamini, quod baptismum non rescindimus <lb/>
+            </div>
+            <div n="11" type="section">
+               <p>
+                  <milestone n="10" unit="altchapter"/> Nec uobis blandiamini, quod baptismum non rescindimus <lb/>
             uestrum. non est hoc uestrum, sed catholicae ecclesiae <lb n="15"/>
             quam tenemus, unde illum quando discessistis non quidem <lb/>
             ad salutem, sed ad perniciem uestram uobiscum tulistis. nam <lb/>
@@ -3057,13 +3106,15 @@
 
 <note type="footnote"> 1 cf. Gaud. epist. ad August. 6 Cypr. epist. 54, 2 19 cf. Dan. 5 <lb/>
             20 cf. I Reg. 4-6 26 cf. I 6, 7 et Breuic. III 8, 12 28 Rora. 1, 18 </note>
-
-<note type="footnote"> 2 non <hi rend="italic">addidi</hi> 3 beatus <hi rend="italic">v</hi> 4 posuit <hi rend="italic">Af</hi> 8 postea quod J 9 et <lb/>
-            haereticus <hi rend="italic">ex Cypriano addidi</hi> 11 minus <hi rend="italic">f</hi> 12 elegere <hi rend="italic">J</hi> scis <hi rend="italic">J</hi> <lb/>
-            13 docmate <hi rend="italic">J</hi> 15 hoc ujurm <hi rend="italic">J</hi> 17 pernciem <hi rend="italic">J</hi> 20 archa <hi rend="italic">J</hi> <lb/>
-            22 sic] si <hi rend="italic">v alt</hi>. aput <hi rend="italic">J</hi> 23 pel\'dere-24 non <hi rend="italic">om. J</hi> 24 per**dunt <hi rend="italic">J</hi> </note> <lb/>
-             
-<pb n="268"/>
+                  <note type="footnote"> 2 non <hi rend="italic">addidi</hi> 3 beatus <hi rend="italic">v</hi> 4 posuit <hi rend="italic">Af</hi> 8 postea quod J 9 et <lb/>
+            haereticus <hi rend="italic">ex Cypriano addidi</hi> 11 minus <hi rend="italic">f</hi> 12 elegere <hi rend="italic">J</hi> scis <hi rend="italic">J</hi>
+                     <lb/>
+            13 docmate <hi rend="italic">J</hi> 15 hoc ujurm <hi rend="italic">J</hi> 17 pernciem <hi rend="italic">J</hi> 20 archa <hi rend="italic">J</hi>
+                     <lb/>
+            22 sic] si <hi rend="italic">v alt</hi>. aput <hi rend="italic">J</hi> 23 pel\'dere-24 non <hi rend="italic">om. J</hi> 24 per**dunt <hi rend="italic">J</hi>
+                  </note>
+                  <lb/>
+                  <pb n="268"/>
             in iniquitate detinent, ita et uos ueritatem baptismi <lb/>
             diuini in iniquitate detinetis erroris humani; quam ueritatem <lb/>
             non uestram propter iniquitatem uestram rescindere utique <lb/>
@@ -3088,27 +3139,24 @@
             uero sacrilegium aut in uestra conuersione rescindimus aut in <lb/>
             uestra pertinacia detestamur. 
 </p>
-          
-</div>
-
-<div n="12" subtype="section" type="textpart">
-<p><milestone n="11" unit="altchapter"/> Quamquam totam quaestionem et totum quod inter <lb/>
+            </div>
+            <div n="12" type="section">
+               <p>
+                  <milestone n="11" unit="altchapter"/> Quamquam totam quaestionem et totum quod inter <lb/>
             nos agitur uno uerbo tribuni satis diligenter exposito omnino<lb n="25"/>
             soluisti. cum enim ego dixissem: neque hoc in tribuni <lb/>
             litteris legitur a te in ueritate inuocatum nomen <lb/>
             dei, quia ipsum prorsus uerbum ibi non legeram, tu respondisti: <lb/>
-            <hi rend="italic">falleris uel potius fallis, nam uerba tribuni sunt: (neue</hi>
-
-<note type="footnote"> 6 cf. Gaud. epist. ad August. 14 Act. 17, 28 26 I 6, 7 <lb/>
+                  <hi rend="italic">falleris uel potius fallis, nam uerba tribuni sunt: (neue</hi>
+                  <note type="footnote"> 6 cf. Gaud. epist. ad August. 14 Act. 17, 28 26 I 6, 7 <lb/>
             29 Gaud. epist. ad August. </note>
-
-<note type="footnote"> 2 <hi rend="italic">et</hi> 5 in iniquitate] Inlquitate J humani* (s <hi rend="italic">eras.)</hi> J 4 non <lb/>
-            <hi rend="italic">om. J</hi> idololatris <hi rend="italic">fv</hi> 8 dapnet J sacrilegium <hi rend="italic">(alt</hi>. i <hi rend="italic">s. I.)</hi> J <lb/>
+                  <note type="footnote"> 2 <hi rend="italic">et</hi> 5 in iniquitate] Inlquitate J humani* (s <hi rend="italic">eras.)</hi> J 4 non <lb/>
+                     <hi rend="italic">om. J</hi> idololatris <hi rend="italic">fv</hi> 8 dapnet J sacrilegium <hi rend="italic">(alt</hi>. i <hi rend="italic">s. I.)</hi> J <lb/>
             11 cognito J philophi (p <hi rend="italic">eras.) J</hi> 16 beatus <hi rend="italic">v</hi> 18 detinebat J <lb/>
-            idololatriae <hi rend="italic">fo</hi> 19 machinamenus J 22 conuersatione <hi rend="italic">Af</hi> 28 ubi J </note> <lb/>
-             
-<pb n="269"/>
-            <hi rend="italic">tantum opus, domus domini, ubi a te saepius dei et Christi <lb/>
+            idololatriae <hi rend="italic">fo</hi> 19 machinamenus J 22 conuersatione <hi rend="italic">Af</hi> 28 ubi J </note>
+                  <lb/>
+                  <pb n="269"/>
+                  <hi rend="italic">tantum opus, domus domini, ubi a te saepius dei et Christi <lb/>
             eius inuocatum nomen est, per religionem tuam ibidem constitutam <lb/>
             concrematum esse dÜ-atur). intellege, quia in ueritate <lb/>
             religio dicitur, in fallacia superstitio nominatur</hi>. quando ego <lb/>
@@ -3117,7 +3165,7 @@
             mei et ideo crede mihi falli me ibi potuisse, non, ut dixisti, <lb/>
             fallere uoluisse in uerbo. itaque tribunus tamquam homo militaris <lb/>
             errauit, ut ei, quem scit uel credit haereticum, diceret: <lb/>
-            <hi rend="italic">per religionem tuam,</hi> cum haeresis non religio, sed superstitio, <lb n="10"/>
+                  <hi rend="italic">per religionem tuam,</hi> cum haeresis non religio, sed superstitio, <lb n="10"/>
             religio autem non in falsitate, sed in ueritate propria locutione <lb/>
             dicatur. proinde secundum hanc expositionem tuam uerus dei <lb/>
             cultus religio, falsus autem superstitio nuncupatur. audi ergo <lb/>
@@ -3139,13 +3187,14 @@
             dicam: te adulando fallebat\'. tu uero, qui eos, contra quos
 
 <note type="footnote"> 16 I 1, 2 18 I 2, 3 </note>
-
-<note type="footnote"> 1 a te] aete <hi rend="italic">(pr</hi>. e s. <hi rend="italic">I.) J</hi> 6 quantuHcum <hi rend="italic">(sic) A</hi> 13 superstio <lb/>
+                  <note type="footnote"> 1 a te] aete <hi rend="italic">(pr</hi>. e s. <hi rend="italic">I.) J</hi> 6 quantuHcum <hi rend="italic">(sic) A</hi> 13 superstio <lb/>
             nunpatur A 15 eumdem <hi rend="italic">J</hi> 16 honorabi <hi rend="italic">J</hi> 17 dulitio <hi rend="italic">J</hi> et <lb/>
-            notario et <hi rend="italic">A</hi> 20 dulcius J 22 per secundum hoc exposionem <hi rend="italic">A</hi> <lb/>
-            24 <hi rend="italic">alt</hi>. tu <hi rend="italic">om. f</hi> </note> <lb/>
-             
-<pb n="270"/>
+            notario et <hi rend="italic">A</hi> 20 dulcius J 22 per secundum hoc exposionem <hi rend="italic">A</hi>
+                     <lb/>
+            24 <hi rend="italic">alt</hi>. tu <hi rend="italic">om. f</hi>
+                  </note>
+                  <lb/>
+                  <pb n="270"/>
             disputas, arguis ex propheta et clamas: <hi rend="italic">uae his qui dicunt <lb/>
             amarum dulce et dulce amarum, qui dicunt lucem <lb/>
             tenebras et tenebras lucem,</hi> si superstitio est, quam <lb/>
@@ -3169,11 +3218,10 @@
             inuicem dixeritis, eligis tamen ipsum potius falsum dixisse <lb/>
             quam te. 
 </p>
-          
-</div>
-
-<div n="13" subtype="section" type="textpart">
-<p><milestone n="12" unit="altchapter"/> Quamobrem secundum hoc tuum uerissimum testimonium <lb/>
+            </div>
+            <div n="13" type="section">
+               <p>
+                  <milestone n="12" unit="altchapter"/> Quamobrem secundum hoc tuum uerissimum testimonium <lb/>
             et tuam uerissimam expositionem quoniam religio est <lb/>
             quam Dulcitius tribunus tenet, profecto religio est qua te<lb n="25"/>
             ad nostram communionem praeceptum imperatoris impellit. <lb/>
@@ -3184,12 +3232,13 @@
 
 <note type="footnote"> , 1 Gaud. epist. ad August. et Esai. 5, 20. cf. Parm. II 1, 1 sqq. <lb/>
             12 cf. ad pag. 169, 6 13 Esai. 66, 5 </note>
-
-<note type="footnote"> 4 dulticius <hi rend="italic">J (et sic deinceps)</hi> 5 heretiam J 7 maximum <hi rend="italic">Llml</hi> <lb/>
+                  <note type="footnote"> 4 dulticius <hi rend="italic">J (et sic deinceps)</hi> 5 heretiam J 7 maximum <hi rend="italic">Llml</hi>
+                     <lb/>
             9 uerbo J 14 oderint J 15 destantur <hi rend="italic">J</hi> 17 dedisse J 23 nerissimam <lb/>
-            hoc tuum <hi rend="italic">fo</hi> 25 profecto] profiteor <hi rend="italic">J</hi> </note> <lb n="30"/>
-             
-<pb n="271"/>
+            hoc tuum <hi rend="italic">fo</hi> 25 profecto] profiteor <hi rend="italic">J</hi>
+                  </note>
+                  <lb n="30"/>
+                  <pb n="271"/>
             quid legeris populo de agenda paenitentia non mandasse dixisti; <lb/>
             haec enim uerba tua sunt ad me: <hi rend="italic">quid,</hi> inquis, <hi rend="italic">miseros decipis?<lb/>
              Ionae deus praecepit, prophetam dominus ad populum <lb/>
@@ -3222,12 +3271,12 @@
             deum sunt, religioso timore iubentibus quisquis obtemperat,
 
 <note type="footnote"> 2 Gaud. epist. ad August. 6 Ion. 3, 3—S </note>
-
-<note type="footnote"> 1 agendo penitentie J 3 *ad J 5 nisi tibi <hi rend="italic">mg. v</hi> tibi <hi rend="italic">(sic!)</hi> J <lb/>
-            tibi <hi rend="italic">fv</hi> 7 in Niniuem <hi rend="italic">fv</hi> 21 aduersus J 23 regum curam <hi rend="italic">fv</hi> <lb/>
-            27 regis magis <hi rend="italic">l</hi> 28 osteridis <hi rend="italic">v</hi> 30 religio J quisque <hi rend="italic">v</hi> obteperat J </note> <lb n="30"/>
-             
-<pb n="272"/>
+                  <note type="footnote"> 1 agendo penitentie J 3 *ad J 5 nisi tibi <hi rend="italic">mg. v</hi> tibi <hi rend="italic">(sic!)</hi> J <lb/>
+            tibi <hi rend="italic">fv</hi> 7 in Niniuem <hi rend="italic">fv</hi> 21 aduersus J 23 regum curam <hi rend="italic">fv</hi>
+                     <lb/>
+            27 regis magis <hi rend="italic">l</hi> 28 osteridis <hi rend="italic">v</hi> 30 religio J quisque <hi rend="italic">v</hi> obteperat J </note>
+                  <lb n="30"/>
+                  <pb n="272"/>
             a timore incipiens et ad dilectionem proficiens a domino accipit <lb/>
             pacem, non sicut pacem dat saeculum, quoniam saeculum <lb/>
             pacem dat propter temporalem utilitatem, dominus autem <lb/>
@@ -3238,11 +3287,10 @@
             huius religio, superstitio est quod erga ista curam reprehendis <lb/>
             imperatoris, quam suscepit exequendam huius religio. 
 </p>
-          
-</div>
-
-<div n="14" subtype="section" type="textpart">
-<p><milestone n="13" unit="altchapter"/> Itaque quia uerbo tuo causa finita est, obsecro<lb n="10"/>
+            </div>
+            <div n="14" type="section">
+               <p>
+                  <milestone n="13" unit="altchapter"/> Itaque quia uerbo tuo causa finita est, obsecro<lb n="10"/>
             per deum religionis, deum ueritatis, ut etiam tuus error aliquando <lb/>
             finiatur. ipsa est, frater, ecclesia Christi quae hoc <lb/>
             tempore toto terrarum orbe crescendo dilatatur, continens et <lb/>
@@ -3265,13 +3313,15 @@
 
 <note type="footnote"> 1 cf. 1 Tim. 4, 18 2 cf. Ioh. 14, 27 16 Cypr. De cath. eccl. <lb/>
             unitate c. 5 19 Cypr. epist. 54, 3 26 II Tim. 2, 20 </note>
-
-<note type="footnote"> 1 a timore <hi rend="italic">scripsi</hi> amore <hi rend="italic">J</hi> timore <hi rend="italic">fv</hi> accepit <hi rend="italic">A</hi> 3 dat pacem <hi rend="italic">v</hi> <lb/>
+                  <note type="footnote"> 1 a timore <hi rend="italic">scripsi</hi> amore <hi rend="italic">J</hi> timore <hi rend="italic">fv</hi> accepit <hi rend="italic">A</hi> 3 dat pacem <hi rend="italic">v</hi>
+                     <lb/>
             6 superstio <hi rend="italic">J</hi> superstitio-8 religio <hi rend="italic">om. f</hi> 8 imperatoris reprehendis <lb/>
-            <hi rend="italic">fv</hi> 9 exquendam <hi rend="italic">d</hi> 10 tua <hi rend="italic">J</hi> 18 copiam J 23 possumus <hi rend="italic">J</hi> <lb/>
-            25 fructum] frumentum <hi rend="italic">J</hi> 29 uero inhonorata <hi rend="italic">fv</hi> </note> <lb/>
-             
-<pb n="273"/>
+                     <hi rend="italic">fv</hi> 9 exquendam <hi rend="italic">d</hi> 10 tua <hi rend="italic">J</hi> 18 copiam J 23 possumus <hi rend="italic">J</hi>
+                     <lb/>
+            25 fructum] frumentum <hi rend="italic">J</hi> 29 uero inhonorata <hi rend="italic">fv</hi>
+                  </note>
+                  <lb/>
+                  <pb n="273"/>
             quantum possumus laboremus, ut uas aureum uel argenteum <lb/>
             simus. ceterum fictilia uasa confringere domino <lb/>
             soli concessum est cui et uirga ferrea data <lb/>
@@ -3305,16 +3355,18 @@
 <note type="footnote">3 cf. Ps. 2, 9 4 cf. Ioh. 13, 16 15 cap. 2 init</note>.
 
 <note type="footnote"> 5 uendicarit <hi rend="italic">Af</hi> 6 se putet <hi rend="italic">fv Cypr</hi>. 7 paleam <hi rend="italic">Af</hi> uel uentilabrum <lb/>
-            <hi rend="italic">om. Ao</hi> se <hi rend="italic">hoc loco om. fo Cyprsed cxtat in 6 codd. Cypriani</hi> <lb/>
-            8 a <hi rend="italic">om. J</hi> 9 superare <hi rend="italic">f</hi> 10 praesuptio <hi rend="italic">A</hi> prauos <hi rend="italic">f</hi> assumpsit <hi rend="italic">A</hi> <lb/>
-            11 quidam plus] aliquid amplius / 22 tolleremus <hi rend="italic">A</hi> 26 consolatio <hi rend="italic">A</hi> <lb/>
-            27 iusta <hi rend="italic">A</hi> 28 ut] in <hi rend="italic">A</hi> 29 minutam <hi rend="italic">A</hi> </note>
-
-<note type="footnote"> LIII. Âugullt. c. Don. III. </note>
-
-<note type="footnote"> 18 </note> <lb/>
-             
-<pb n="274"/>
+                     <hi rend="italic">om. Ao</hi> se <hi rend="italic">hoc loco om. fo Cyprsed cxtat in 6 codd. Cypriani</hi>
+                     <lb/>
+            8 a <hi rend="italic">om. J</hi> 9 superare <hi rend="italic">f</hi> 10 praesuptio <hi rend="italic">A</hi> prauos <hi rend="italic">f</hi> assumpsit <hi rend="italic">A</hi>
+                     <lb/>
+            11 quidam plus] aliquid amplius / 22 tolleremus <hi rend="italic">A</hi> 26 consolatio <hi rend="italic">A</hi>
+                     <lb/>
+            27 iusta <hi rend="italic">A</hi> 28 ut] in <hi rend="italic">A</hi> 29 minutam <hi rend="italic">A</hi>
+                  </note>
+                  <note type="footnote"> LIII. Âugullt. c. Don. III. </note>
+                  <note type="footnote"> 18 </note>
+                  <lb/>
+                  <pb n="274"/>
             ponamus, cum, etiamsi illos malos manifestissime uideremus <lb/>
             nec iam separare a sacramentis ecclesiae ualeremus, non tamen <lb/>
             impediri deberet aut fides aut caritas nostra, ut, quoniam et <lb/>
@@ -3326,25 +3378,22 @@
             uel potius quam nihil egeris, si necessarium uisum fuerit <lb/>
             dominusque donauerit, opere alio diligentius demonstrabo.
 
-<note type="footnote"> 3 karitas <hi rend="italic">J</hi> 4 cernemus <hi rend="italic">d</hi> 10 <hi rend="italic">nihil subscriptum in A</hi></note> <lb n="10"/>
-            
-</p>
-        
-</div>
-
-</div>
-
-<pb n="275"/>
-        
-  <div n="retractationes" subtype="book" type="textpart">
-          <head>
-            <title type="main">AVGVSTINI RETRACTATIONVM LIB. CAP. LXXXV (LVIIII) (PAG. 198, 1 ED. KNOELL). </title>
-          </head>
-          <ab>
-            <title type="sub">CONTRA GAUDENTIUM DONATISTARUM EPISCOPUM, LIBRI II. </title>
-          </ab>
-  <div n="1" subtype="section" type="textpart">  
-          <p>Per idem tempus Dulcitius tribunus et notarius hic erat <lb n="5"/>
+<note type="footnote"> 3 karitas <hi rend="italic">J</hi> 4 cernemus <hi rend="italic">d</hi> 10 <hi rend="italic">nihil subscriptum in A</hi>
+                  </note>
+                  <lb n="10"/>
+               </p>
+            </div>
+         </div>
+         <pb n="275"/>
+         <div n="retractationes" type="book">
+            <head>
+               <title type="main">AVGVSTINI RETRACTATIONVM LIB. CAP. LXXXV (LVIIII) (PAG. 198, 1 ED. KNOELL). </title>
+            </head>
+            <ab>
+               <title type="sub">CONTRA GAUDENTIUM DONATISTARUM EPISCOPUM, LIBRI II. </title>
+            </ab>
+            <div n="1" type="section">
+               <p>Per idem tempus Dulcitius tribunus et notarius hic erat <lb n="5"/>
             in Africa executor imperialium iussionum contra Donatistas <lb/>
             datarum. qui cum dedisset litteras ad Gaudentium Tamugadensem, <lb/>
             Donatistarum episcopum, unum illorum septem, quos <lb/>
@@ -3365,29 +3414,23 @@
             tamen sine rescripto relinquere, quidquid illud fuit. hinc factum <lb/>
             est, ut hi nostri ad illum duo libri essent. 
 </p>
-          
-</div>
-
-<div n="2" subtype="section" type="textpart">
-<p>Hoc opus sic incipit: <hi rend="italic">Gaudentius, Donatistarum Tamugadensis <lb n="25"/>
+            </div>
+            <div n="2" type="section">
+               <p>Hoc opus sic incipit: <hi rend="italic">Gaudentius, Donatistarum Tamugadensis <lb n="25"/>
             episcopus</hi>.
 
 <note type="footnote"> 8 sq.] cf. pag. 203, 6-8 </note>
-
-<note type="footnote"> 18* </note> 
-<pb n="276"/>
-            
-</p>
-
-</div>
-
-</div>
-  <div n="appendix" subtype="book" type="textpart">
-          <ab>
-            <title type="sub">SENTENTIAE CONCILII BAGAIENSIS QVAE SUPERSUNT EX UARIIS AUGUSTINI LOCIS COLLECTA. </title>
-          </ab>
-<div n="1" subtype="section" type="textpart">
-          <p> Cum omnipotentis dei et Christi eius saluatoris nostri uoluntate <lb/>
+                  <note type="footnote"> 18* </note>
+                  <pb n="276"/>
+               </p>
+            </div>
+         </div>
+         <div n="appendix" type="book">
+            <ab>
+               <title type="sub">SENTENTIAE CONCILII BAGAIENSIS QVAE SUPERSUNT EX UARIIS AUGUSTINI LOCIS COLLECTA. </title>
+            </ab>
+            <div n="1" type="section">
+               <p> Cum omnipotentis dei et Christi eius saluatoris nostri uoluntate <lb/>
             ex uniuersis prouinciis Africae uenientes in ecclesia sancta <lb/>
             Bagaiensi concilium gereremus Gamalius Primianus Pontius Secundianus<lb n="5"/>
             Ianuarianus Saturninus Felix Pegasius Rufinus Fortunius <lb/>
@@ -3395,9 +3438,9 @@
             trecenti decem, placuit spiritui sancto qui in nobis est pacem  <lb/>
             firmare perpetuam et schismata resecare sacrilega ... 
 </p>
-
-</div>
-<div n="2" subtype="section" type="textpart"><p>.... optata <lb/>
+            </div>
+            <div n="2" type="section">
+               <p>.... optata <lb/>
             quidem pacis et concordiae est iuncta germanitas, sicut scriptum<lb n="10"/>
             est: iustitia et pax osculatae sunt inuicem. sed ueridica <lb/>
             unda in asperos scopulos nonnullorum naufraga proiecta sunt <lb/>
@@ -3406,9 +3449,9 @@
             post extortam aquis ultricibus animam nec ipsam inueniunt sepulturam <lb n="15"/>
             .... 
 </p>
-
-</div>
-<div n="3" subtype="section" type="textpart"><p>.... licet enim uiperei seminis noxios partus uenenati <lb/>
+            </div>
+            <div n="3" type="section">
+               <p>.... licet enim uiperei seminis noxios partus uenenati <lb/>
             uteri alueus diu texerit et concepti sceleris uda coagula in aspidum <lb/>
             membra tardo se calore uaporauerint, tamen conceptum <lb/>
             uirus euanescenti umbraculo occultari non potuit. nam etsi sero <lb/>
@@ -3420,21 +3463,24 @@
             fuerat —, dum clementiae dimittimus lineam, inuenit causa. quos  <lb n="25"/>
             puniat ..... 
 </p>
-
-</div>
-<div n="4" subtype="section" type="textpart"><p>.... loquamur, carissimi fratres, schismatis causas,
+            </div>
+            <div n="4" type="section">
+               <p>.... loquamur, carissimi fratres, schismatis causas,
 
 <note type="footnote"> 3 Cum-9 sacrilega] <hi rend="italic">Creac. III 53, 59. IIII10, 12</hi> 9 optata- <lb/>
             15 sepulturam] <hi rend="italic">Gresc. IIII16, 18</hi> 11 Ps. 84, 11 ueridica-15 sepulturam] <lb/>
-            <hi rend="italic">Petil. 110,11</hi> 13 Aegyptiorum-15 sepulturam] <hi rend="italic">Petil. II 7, 16. <lb/>
+                     <hi rend="italic">Petil. 110,11</hi> 13 Aegyptiorum-15 sepulturam] <hi rend="italic">Petil. II 7, 16. <lb/>
              Gaud. I</hi> 39, <hi rend="italic">54</hi>. Aegyptiorum—14 litora] <hi rend="italic">Parm. II 10, 20. Cresc. III <lb/>
             24, 27</hi> 16 licet-26 puniat] <hi rend="italic">Em. 10</hi>. licet-20 pepererunt] <hi rend="italic">Parm. II <lb/>
-            3, 7. Cresc. IIII 2, 2</hi> 16 uiperei-18 uaporarunt] <hi rend="italic">Petil. I 19, 21</hi> <lb/>
-            21 Ps. 7, 15 26 loquamur-p. 277, 7 uiuis] <hi rend="italic">Em. 10</hi> <lb/>
+            3, 7. Cresc. IIII 2, 2</hi> 16 uiperei-18 uaporarunt] <hi rend="italic">Petil. I 19, 21</hi>
+                     <lb/>
+            21 Ps. 7, 15 26 loquamur-p. 277, 7 uiuis] <hi rend="italic">Em. 10</hi>
+                     <lb/>
             9 et <hi rend="italic">deest Cresc. IIII10, 12</hi> 19 euanescente <hi rend="italic">Em. 10</hi> celari <lb/>
-            <hi rend="italic">Parm. II 3, 7</hi> </note> <lb/>
-             
-<pb n="277"/>
+                     <hi rend="italic">Parm. II 3, 7</hi>
+                  </note>
+                  <lb/>
+                  <pb n="277"/>
             quia iam non possumus tacere personas. Maximianum fidei aemulum, <lb/>
             ueritatis adulterum, ecclesiae matris inimicum, Dathae, Corae <lb/>
             et Abiron ministrum de pacis gremio sententiae fulmen excussit, <lb/>
@@ -3443,9 +3489,9 @@
             lucrauerat funeris; usuras nunc grauioris colligit faenoris, cum <lb/>
             mortuus interest uiuis.. 
 </p>
-
-</div>
-<div n="5" subtype="section" type="textpart"><p> nec solum hunc sceleris sui mors iusta <lb/>
+            </div>
+            <div n="5" type="section">
+               <p> nec solum hunc sceleris sui mors iusta <lb/>
             condemnat; trahit etiam ad consortium criminis plurimos catena <lb/>
             sacrilegii, de quibus scriptum est: uenenum aspidum sub <lb/>
             labiis eorum quorum os maledictione et amaritudine <lb n="10"/>
@@ -3459,9 +3505,9 @@
             stilens inrepat uirus, ut conpendioso dolore natum decidat uulnus. <lb/>
  . 
 </p>
-
-</div>
-<div n="6" subtype="section" type="textpart"><p>           famosi ergo crimims reos Uictonanum Carcabianensem, Marcianum <lb/>
+            </div>
+            <div n="6" type="section">
+               <p>           famosi ergo crimims reos Uictonanum Carcabianensem, Marcianum <lb/>
             Sullectinum, Beianum Beianensem, Saluium Ausafensem, Theodorum <lb n="20"/>
             Usulensem, Donatum Sabratensem, Miggenem Elefantariensem, <lb/>
             Praetextatum Adsuritanum, Saluium Membresitanum, Ualerium <lb/>
@@ -3480,20 +3526,23 @@
             sacrilegii] <hi rend="italic">Crcsc. III 53, 59. IIII10, 12</hi> 8 trahit-9 sacrilegii] <hi rend="italic">Post <lb/>
             gesta 19, 25</hi> 9 uenenum-13 cognouerunt] <hi rend="italic">Petil. I 19, 21</hi> Ps. 13, 3 <lb/>
             17 inuenta-18 uulnus] <hi rend="italic">Cresc. IIII 55, 65</hi> 19 famosi—28 cognoscite] <lb/>
-            <hi rend="italic">Cresc. III 53, 59. IIII32, 39. Gaud. II 7, 7</hi> 24 qui funesto-p. 278,2 <lb/>
-            permisimus] <hi rend="italic">Em. 11</hi>. qui funesto-26 praebuerunt] <hi rend="italic">Cresc. III 22, 25</hi> <lb/>
+                     <hi rend="italic">Cresc. III 53, 59. IIII32, 39. Gaud. II 7, 7</hi> 24 qui funesto-p. 278,2 <lb/>
+            permisimus] <hi rend="italic">Em. 11</hi>. qui funesto-26 praebuerunt] <hi rend="italic">Cresc. III 22, 25</hi>
+                     <lb/>
             27 dei-28 cognoscite] <hi rend="italic">Cresc. III 25, 28</hi> 28 eos-p. 278, 2 permisimus] <lb/>
-            <hi rend="italic">Cresc. III 17, 20. 54, 60. IIII 32, 39. 34, 41. Gaud. II 7, 7</hi> <lb/>
-            5 suamj sui <hi rend="italic">Em. 10</hi> 12 contribulatio et calamitas <hi rend="italic">Cresc. IIII 4, 5</hi> </note> <lb/>
-             
-<pb n="278"/>
+                     <hi rend="italic">Cresc. III 17, 20. 54, 60. IIII 32, 39. 34, 41. Gaud. II 7, 7</hi>
+                     <lb/>
+            5 suamj sui <hi rend="italic">Em. 10</hi> 12 contribulatio et calamitas <hi rend="italic">Cresc. IIII 4, 5</hi>
+                  </note>
+                  <lb/>
+                  <pb n="278"/>
             plantaria, hoc est qui a Maximiani capite proprias manus uerecundo <lb/>
             fidei pudore retraxerunt, ad matrem ecclesiam redire permisimus. <lb/>
            . 
 </p>
-
-</div>
-<div n="7" subtype="section" type="textpart"><p> quanto enim de reorum morte purgamur, tanto de innocentium  <lb/>
+            </div>
+            <div n="7" type="section">
+               <p> quanto enim de reorum morte purgamur, tanto de innocentium  <lb/>
             reditu gratulamur. ac ne angustum redeuntibus tempus spem <lb/>
             salutis artatae diei pressura subducat, agnoscentibus quibus licet,<lb n="5"/>
             manentibus praecedentibus statutis, uniuersis usque in diem octauum <lb/>
@@ -3505,16 +3554,15 @@
             fixa paenitentia .......
 
 <note type="footnote"> 3 quanto-4 gratulamur] <hi rend="italic">Cresc. IIII 35, 42</hi> 4 ac ne—12 paenitentia] <lb/>
-            <hi rend="italic">Cresc. III 54, 60</hi>. ac ne—10 subductam] <hi rend="italic">Cresc. IIII</hi> 38, 45 <lb/>
-            1 id est <hi rend="italic">Cresc. III 54, 60</hi> 2 pudore fidei <hi rend="italic">Cresc. III 54, 60</hi> <lb/>
-            3 quantum <hi rend="italic">Cresc. IIII 4, 5</hi> 6 in] ad <hi rend="italic">Cresc. IIII 4, 5</hi> </note> 
-<pb n="279"/>
-            
-</p>
- 
-</div>
-       
-</div></div>
-</body>
-</text>
+                     <hi rend="italic">Cresc. III 54, 60</hi>. ac ne—10 subductam] <hi rend="italic">Cresc. IIII</hi> 38, 45 <lb/>
+            1 id est <hi rend="italic">Cresc. III 54, 60</hi> 2 pudore fidei <hi rend="italic">Cresc. III 54, 60</hi>
+                     <lb/>
+            3 quantum <hi rend="italic">Cresc. IIII 4, 5</hi> 6 in] ad <hi rend="italic">Cresc. IIII 4, 5</hi>
+                  </note>
+                  <pb n="279"/>
+               </p>
+            </div>
+         </div>
+      </body>
+   </text>
 </TEI>

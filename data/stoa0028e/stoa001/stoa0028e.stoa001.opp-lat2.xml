@@ -1,99 +1,108 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-    <fileDesc>
-      <titleStmt>
-          <title xml:lang="lat">Itinerarium</title>
-          <author>Anonymous pilgrim of Piacenza</author>
-          <editor>Paul Geyer</editor>
-        <sponsor>University of Leipzig</sponsor>
-        <funder>European Social Fund Saxony</funder>
-        <principal>Gregory Crane</principal>
-        <respStmt>
-          <persName xml:id="Jouve">Jouve</persName>
-          <resp>OCR-ed, corrected and encoded the text</resp>
-        </respStmt>
-        <respStmt>
-          <persName>Greta Franzini</persName>
-          <resp>Project Manager (University of Leipzig)</resp>
-        </respStmt>
-        <respStmt>
-          <persName>Simona Stoyanova</persName>
-          <resp>Project Assistant (University of Leipzig)</resp>
-        </respStmt>
-        <respStmt>
-          <persName>Bruce Robertson</persName>
-          <resp>Technical Advisor (Mount Allison University)</resp>
-        </respStmt>
-        <respStmt>
-          <persName>Uvius Fonticola</persName>
-          <resp>Technical Advisor (Ludwig Maximilians University Munich)</resp>
-        </respStmt>
-      </titleStmt>
-      
-      <publicationStmt>
-        <authority>University of Leipzig</authority>
-        <idno type="filename">stoa0028e.stoa001.opp-lat2.xml</idno>
-        <availability>
-          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
-        </availability>
-        <date>2014</date>
-        <publisher>University of Leipzig</publisher>
-        <pubPlace>Germany</pubPlace>
-      </publicationStmt>
-      
-      <sourceDesc>
-        <listBibl>
-          <biblStruct>
-            <monogr>
-              <title xml:lang="lat">Itinera hierosolymitana saecvli IIII-VIII</title>              
-              <editor>
-                <persName>
-                  <name>Paul Geyer</name>
-                </persName>
-              </editor> 
-              <author>Anonymous pilgrim of Piacenza</author>  
-              <imprint>
-                <publisher>F. Tempsky</publisher>
-                <publisher>G. Freytag</publisher>
-                <pubPlace>Prague</pubPlace>
-                <pubPlace>Vienna</pubPlace>
-                <pubPlace>Leipzig</pubPlace>
-                <date>1898</date>
-              </imprint>
-            </monogr> 
-            <series>
-              <title level="s" xml:lang="lat">Corpus scriptorum ecclesiasticorum Latinorum</title>
-              <biblScope unit="volume">39</biblScope>
-            </series>
-            <ref target="http://archive.org/stream/corpusscriptoru17wissgoog#page/n9/mode/2up">Internet Archive</ref>            
-          </biblStruct>
-        </listBibl>
-      </sourceDesc>
-      
-    </fileDesc>
-    <encodingDesc>
-      <p>The following text is encoded in accordance with EpiDoc standards and with the
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/PerseusDLCode/perseus-schemas/main/perseus_prose.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="lat">Itinerarium</title>
+            <author>Anonymous pilgrim of Piacenza</author>
+            <editor>Paul Geyer</editor>
+            <sponsor>University of Leipzig</sponsor>
+            <funder>European Social Fund Saxony</funder>
+            <principal>Gregory Crane</principal>
+            <respStmt>
+               <persName xml:id="Jouve">Jouve</persName>
+               <resp>OCR-ed, corrected and encoded the text</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Greta Franzini</persName>
+               <resp>Project Manager (University of Leipzig)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Simona Stoyanova</persName>
+               <resp>Project Assistant (University of Leipzig)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Bruce Robertson</persName>
+               <resp>Technical Advisor (Mount Allison University)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Uvius Fonticola</persName>
+               <resp>Technical Advisor (Ludwig Maximilians University Munich)</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>University of Leipzig</authority>
+            <idno type="filename">stoa0028e.stoa001.opp-lat2.xml</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
+            </availability>
+            <date>2014</date>
+            <publisher>University of Leipzig</publisher>
+            <pubPlace>Germany</pubPlace>
+            <idno type="CTS">urn:cts:latinLit:stoa0028e.stoa001.opp-lat2</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <monogr>
+                     <title xml:lang="lat">Itinera hierosolymitana saecvli IIII-VIII</title>
+                     <editor>
+                        <persName>
+                           <name>Paul Geyer</name>
+                        </persName>
+                     </editor>
+                     <author>Anonymous pilgrim of Piacenza</author>
+                     <imprint>
+                        <publisher>F. Tempsky</publisher>
+                        <publisher>G. Freytag</publisher>
+                        <pubPlace>Prague</pubPlace>
+                        <pubPlace>Vienna</pubPlace>
+                        <pubPlace>Leipzig</pubPlace>
+                        <date>1898</date>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s" xml:lang="lat">Corpus scriptorum ecclesiasticorum Latinorum</title>
+                     <biblScope unit="volume">39</biblScope>
+                  </series>
+                  <ref target="http://archive.org/stream/corpusscriptoru17wissgoog#page/n9/mode/2up">Internet Archive</ref>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>The following text is encoded in accordance with EpiDoc standards and with the
         CTS/CITE Architecture. 
 </p>
-      <refsDecl n="CTS">
-        <cRefPattern n="section" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1'])"/>
-      </refsDecl>
-    </encodingDesc>
-    
-    <profileDesc>
-      <langUsage>
-        <language ident="lat">Latin</language>
-      </langUsage>
-    </profileDesc>
-    
-</teiHeader>
-<text>
-<body>
-<div type="edition" xml:lang="lat" n="urn:cts:latinLit:stoa0028e.stoa001.opp-lat2">
-<div n="1" subtype="section" type="textpart"><ab>
-            <title type="sub">DE LOCIS SANCTIS, QVOS PERAMBULAVIT BEATVS ANTONINVS MARTVR. </title>
-          </ab>
-          <p><milestone n="1a" unit="alt"/> Procedente beato Antonino martyre una cum collega suo,  <lb/>
+         <refsDecl n="CTS">
+            <cRefPattern n="section"
+                         matchPattern="(.+)"
+                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1'])"/>
+         </refsDecl>
+         <refsDecl n="CTS">
+            <citeStructure match="/TEI/text/body" use="@xml:base">
+               <citeStructure unit="chapter" delim="." match="div[@type='chapter']" use="@n"/>
+            </citeStructure>
+         </refsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <catRef scheme="#perseus-genre" target="#prose-chapter"/>
+         </textClass>
+         <langUsage>
+            <language ident="lat">Latin</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body xml:base="urn:cts:latinLit:stoa0028e.stoa001.opp-lat2">
+         <div n="1" type="section">
+            <ab>
+               <title type="sub">DE LOCIS SANCTIS, QVOS PERAMBULAVIT BEATVS ANTONINVS MARTVR. </title>
+            </ab>
+            <p>
+               <milestone n="1a" unit="alt"/> Procedente beato Antonino martyre una cum collega suo,  <lb/>
             ei eo quod ciuitatem Placentiam egressus est, in quibus <lb/>
             locis per regnum conatus est ire, uestigia Christi sequentes <lb n="5"/>
             et miracula sanctorum prophetarum prouidere coeperunt. Ita <lb/>
@@ -101,17 +110,18 @@
             in ciuitate Constantia, in qua requiescit sanctus Epiphanius. <lb/>
             Ciuitas pulchra, dilitiosa, ornata palmis dactalorum. Dein <lb/>
             uenimus partibus Syriae in insula Santaritus ad Tirum. <lb n="10"/>
-            
+            </p>
+            <p>
+               <milestone n="2b" unit="alt"/>Tunc uenimus Tholomaida, ciuitate onesta, monasteria bona. 
 </p>
-          <p><milestone n="2b" unit="alt"/>Tunc uenimus Tholomaida, ciuitate onesta, monasteria bona. 
-</p></div>
-
-<div n="2" subtype="section" type="textpart"><p> <lb/>
-            
-</p>
-</div>
-
-<div n="3" subtype="section" type="textpart"><p>Tholomaida permanet contra ciuitatem milia sei in castm  <lb/>
+         </div>
+         <div n="2" type="section">
+            <p>
+               <lb/>
+            </p>
+         </div>
+         <div n="3" type="section">
+            <p>Tholomaida permanet contra ciuitatem milia sei in castm  <lb/>
             Samaritanorum, miliario a Sugamina. Sub monte Carmelo super <lb/>
             ipsa castra miliario semis monasterium Helysaei prophetae, <lb/>
             ubi ei occurrit mulier, cuius filium suscitauit in monte Carmelo. <lb n="15"/>
@@ -120,25 +130,29 @@
             ut, si suspensa fuerit mulieri uel cuicumque animali, iactum <lb/>
             numquam faciet, et a ciuitate sex aut septem milia personat. 
 </p>
-          </div>
-
-<div n="4" subtype="section" type="textpart"><p rend="script">De Tholomaide maritima uenimus in finibus Galileae in ciuitatem,  <lb n="20"/>
+         </div>
+         <div n="4" type="section">
+            <p rend="script">De Tholomaide maritima uenimus in finibus Galileae in ciuitatem,  <lb n="20"/>
             quae uocatur Neocesarea. In qua adorauimus amola et <lb/>
             canestellum sanctae Mariae. In quo loco erat cathedra, ubi
 
-<note rend="script" type="footnote"> <hi rend="italic">Titulus deest B</hi> 6 sanctorum <hi rend="italic">om. B</hi> 7 constantinopoli <hi rend="italic">litt</hi>. m <lb/>
-            <hi rend="italic">erasa Br</hi> insulam cyprum <hi rend="italic">B</hi> 8 ciuitatem constantinam <hi rend="italic">B</hi> epyphanius <lb/>
-            <hi rend="italic">Br</hi> 9 pnlcra deliciosa <hi rend="italic">B</hi> dactilarum <hi rend="italic">B</hi> Deinde <hi rend="italic">B</hi> 10 in <lb/>
-            partes siriae <hi rend="italic">B</hi> in insulam <hi rend="italic">B</hi> tyrum <hi rend="italic">B</hi> 11 ptholomaidam <hi rend="italic">B</hi> <lb/>
-            ciuitatem honestam et <hi rend="italic">B</hi> 12 ptholomaida manet <hi rend="italic">B</hi> miliaria <hi rend="italic">B</hi> <lb/>
+<note rend="script" type="footnote">
+                  <hi rend="italic">Titulus deest B</hi> 6 sanctorum <hi rend="italic">om. B</hi> 7 constantinopoli <hi rend="italic">litt</hi>. m <lb/>
+                  <hi rend="italic">erasa Br</hi> insulam cyprum <hi rend="italic">B</hi> 8 ciuitatem constantinam <hi rend="italic">B</hi> epyphanius <lb/>
+                  <hi rend="italic">Br</hi> 9 pnlcra deliciosa <hi rend="italic">B</hi> dactilarum <hi rend="italic">B</hi> Deinde <hi rend="italic">B</hi> 10 in <lb/>
+            partes siriae <hi rend="italic">B</hi> in insulam <hi rend="italic">B</hi> tyrum <hi rend="italic">B</hi> 11 ptholomaidam <hi rend="italic">B</hi>
+                  <lb/>
+            ciuitatem honestam et <hi rend="italic">B</hi> 12 ptholomaida manet <hi rend="italic">B</hi> miliaria <hi rend="italic">B</hi>
+                  <lb/>
             castris <hi rend="italic">B</hi> 13 cannell/lo <hi rend="italic">B</hi> 14 ipsum castrum <hi rend="italic">B</hi> elysei <hi rend="italic">B</hi> 15 occurrit <lb/>
-            ei <hi rend="italic">B</hi> 16 est <hi rend="italic">om. B</hi> 17 uirtus est <hi rend="italic">B</hi> 18 supensus <hi rend="italic">B</hi> <lb/>
+            ei <hi rend="italic">B</hi> 16 est <hi rend="italic">om. B</hi> 17 uirtus est <hi rend="italic">B</hi> 18 supensus <hi rend="italic">B</hi>
+                  <lb/>
             aut <hi rend="italic">B</hi> 19 milaria <hi rend="italic">B</hi> 20 ptholomaida <hi rend="italic">B</hi> fines <hi rend="italic">B</hi> 21 neocessarea <lb/>
-            <hi rend="italic">B</hi> amula <hi rend="italic">B</hi> 22 canistellum <hi rend="italic">B</hi> </note>
-
-<note type="footnote"> 13* </note> <lb/>
-             
-<pb n="196"/>
+                  <hi rend="italic">B</hi> amula <hi rend="italic">B</hi> 22 canistellum <hi rend="italic">B</hi>
+               </note>
+               <note type="footnote"> 13* </note>
+               <lb/>
+               <pb n="196"/>
             sedebat, quando ad eam angelus uenit. Deinde milia III uenimus <lb/>
             in Chana, ubi Dominus fuit ad nuptias, et accubuimus <lb/>
             in ipso accubitu. Ubi ego indignus parentum meorum nomina <lb/>
@@ -146,7 +160,8 @@
             et protuli ex ea uinum et in humero plena leuaui et obtuli<lb n="5"/>
             ad altare, et in ipso fonte pro benedictione leuauimus. 
 </p>
-          <p><milestone n="1b" unit="alt"/> Et inde uenimus in partibus Syriae, ubi requiescit sanctus <lb/>
+            <p>
+               <milestone n="1b" unit="alt"/> Et inde uenimus in partibus Syriae, ubi requiescit sanctus <lb/>
             Leontius, quae ciuitas tempore Iustiniani imperatoris subuersa <lb/>
             est a terrae motu cum aliis ciuitatibus. Venimus exinde Bibolo, <lb/>
             quae et ipsa ciuitas cum hominibus subuersa est. Exin in ciuitate<lb n="10"/>
@@ -155,9 +170,9 @@
             quae ciuitas subuersa fuit. Dicente nobis episcopo ciuitatis, <lb/>
             quia cognitae fuerant personae excepto peregrinis, qui ibi <lb/>
             perierant. Ipsa ciuitas iacet sub montana Libani. <lb n="15"/>
-            
-</p>
-          <p><milestone n="2a" unit="alt"/> A Berito uenimus Sidonem, quae ex parte ruit et ipsa adheret <lb/>
+            </p>
+            <p>
+               <milestone n="2a" unit="alt"/> A Berito uenimus Sidonem, quae ex parte ruit et ipsa adheret <lb/>
             Libano, homines in ea pessimi; illic currit fluuius Asclepius, et <lb/>
             fons, unde surgit, stat. De Sydone uenimus Sareptha, quae <lb/>
             ciuitas modica et ualde christiana est; in qua est caenaculum <lb/>
@@ -169,21 +184,24 @@
             pessima, tanta luxuria, quae dici non potest. Ginetia publica,<lb n="25"/>
             olosericum et diuersa genera telarum. 
 </p>
-          </div>
-
-<div n="5" subtype="section" type="textpart"><p> At uero de Tyro uenimus in ciuitatem Nazareth, in qua
+         </div>
+         <div n="5" type="section">
+            <p> At uero de Tyro uenimus in ciuitatem Nazareth, in qua
 
 <note type="footnote"> 1 miliario III <hi rend="italic">B</hi> 2 acubnimus <hi rend="italic">B</hi> 3 acubitu <hi rend="italic">B</hi> 4 Ex quibus <hi rend="italic">om. B<lb/>
              idriae B ibi om. B 5 humerura plenam B</hi> optuliB 6 lauimusB 7 Ex- <lb/>
-            <hi rend="italic">inde B partes B 9 a 0111. B bibilo B 10 Exin-est om, B</hi> 11 ciuitatem <lb/>
-            aplendidiasimus ab eritho <hi rend="italic">B</hi> 13 fuit] est <hi rend="italic">B</hi> 14 cui cognitae <hi rend="italic">B</hi> <lb/>
-            quae <hi rend="italic">B</hi> 16 beritho <hi rend="italic">B</hi> sydonem <hi rend="italic">B</hi> 18 inde <hi rend="italic">B</hi> stat <hi rend="italic">om. B</hi> <lb/>
+                  <hi rend="italic">inde B partes B 9 a 0111. B bibilo B 10 Exin-est om, B</hi> 11 ciuitatem <lb/>
+            aplendidiasimus ab eritho <hi rend="italic">B</hi> 13 fuit] est <hi rend="italic">B</hi> 14 cui cognitae <hi rend="italic">B</hi>
+                  <lb/>
+            quae <hi rend="italic">B</hi> 16 beritho <hi rend="italic">B</hi> sydonem <hi rend="italic">B</hi> 18 inde <hi rend="italic">B</hi> stat <hi rend="italic">om. B</hi>
+                  <lb/>
             sareptam <hi rend="italic">B</hi> 19 in qua cen. <hi rend="italic">B</hi> 20 helyae <hi rend="italic">B</hi> 21 loco uiitutes multae <lb/>
             fiunt et illuc multa offeruntur <hi rend="italic">B</hi> 22 sarepta <hi rend="italic">B</hi> 23 ciuitatem <hi rend="italic">B</hi> sareptam <lb/>
-            <hi rend="italic">B</hi> continua miliaria <hi rend="italic">B</hi> 24 habet homines <hi rend="italic">B</hi> 25 tantae luxuriae <lb/>
-            quantae <hi rend="italic">B</hi> genetia puplica <hi rend="italic">B</hi> 27 <hi rend="italic">post</hi> Tyro <hi rend="italic">magna lacuna in cod. B</hi> </note> <lb/>
-             
-<pb n="197"/>
+                  <hi rend="italic">B</hi> continua miliaria <hi rend="italic">B</hi> 24 habet homines <hi rend="italic">B</hi> 25 tantae luxuriae <lb/>
+            quantae <hi rend="italic">B</hi> genetia puplica <hi rend="italic">B</hi> 27 <hi rend="italic">post</hi> Tyro <hi rend="italic">magna lacuna in cod. B</hi>
+               </note>
+               <lb/>
+               <pb n="197"/>
             sunt multe uirtutes. Ibi etiam pendit thomus, in quo Dominus <lb/>
             a b c habuit impositum. In qua etiam synagoga posita <lb/>
             est trauis, ubi cum aliis sedebat infantibus. Quae trauis a <lb/>
@@ -199,11 +217,10 @@
             sed praecellit in uino et oleo et poma melliumque, sed et <lb/>
             milium extra natura altum nimis super statum hominis talea <lb/>
             grossa. <lb n="15"/>
-            
-</p>
-          </div>
-
-<div n="6" subtype="section" type="textpart"><p>De Nazareth uenimus in monte Tabor, qui mons exiit in  <lb/>
+            </p>
+         </div>
+         <div n="6" type="section">
+            <p>De Nazareth uenimus in monte Tabor, qui mons exiit in  <lb/>
             medio campestri, terra uiua, tenens circuitum milia VI, ascensum <lb/>
             milia Illa, sursum ad unum miliarium planum, in quo sunt <lb/>
             tres ecclesiae-, ubi dictum a discipulo est: Faciamus hic tria <lb/>
@@ -215,9 +232,9 @@
             puteus est ante cancellos altaris et situla, de qua dicitur, quod <lb n="25"/>
             Dominus biberit, et multi aegri ibi ueniunt et sanantur. 
 </p>
-          </div>
-
-<div n="7" subtype="section" type="textpart"><p>Deinde uenimus in ciuitate Tyberiade, in qua sunt termae  <lb/>
+         </div>
+         <div n="7" type="section">
+            <p>Deinde uenimus in ciuitate Tyberiade, in qua sunt termae  <lb/>
             salsae. Nam aqua maris ipsius dulcis est, quae mare circat milia <lb/>
             VIII. Deinde uenimus in Capharnaum in domo beati Petri, quae <lb/>
             est modo basilica. Inde transeuntes per castra uel uicos aut <lb n="30"/>
@@ -225,10 +242,10 @@
             in unum confluunt et uocitatur Iordanis. Paruus ingreditur
 
 <note type="footnote"> 18 Matth. 17, 4 Marc. 9, 5 Luc. 9, 33 </note>
-
-<note type="footnote"> 8 <hi rend="italic">nt* om. Br</hi> non <hi rend="italic">om. Br</hi> 18 miliarium. Planum <hi rend="italic">Br</hi> </note> <lb/>
-             
-<pb n="198"/>
+               <note type="footnote"> 8 <hi rend="italic">nt* om. Br</hi> non <hi rend="italic">om. Br</hi> 18 miliarium. Planum <hi rend="italic">Br</hi>
+               </note>
+               <lb/>
+               <pb n="198"/>
             mare et pertransit totum maris pelagum usque alio litore <lb/>
             maris. Reuertentes post nos uenimus ad locum, ubi Iordanis <lb/>
             de mare egreditur, transiuimus Iordanem in ipso loco et uenimus <lb/>
@@ -246,9 +263,9 @@
             fluuius calidus, qui uocatur Gaddera, descendit torrens et<lb n="15"/>
             intrat in Iordanem et ex ipso ampliatur Iordanis et maior fit. 
 </p>
-          </div>
-
-<div n="8" subtype="section" type="textpart"><p> Et tunc descendimus per Galileam iuxta Iordanen transeuntes <lb/>
+         </div>
+         <div n="8" type="section">
+            <p> Et tunc descendimus per Galileam iuxta Iordanen transeuntes <lb/>
             multas ciuitates, quae leguntur, uenimus in ciuitate metropoli <lb/>
             Galileae, quae uocatur Scitopolis, in monte posita, ubi sanctus <lb/>
             multas operatur uirtutes. Exinde descendimus per alia loca <lb n="20"/>
@@ -266,16 +283,16 @@
 
 <note type="footnote"> 3 transiuiaimuB, <hi rend="italic">sed ead. m. corr. Br</hi> 26 Attamen. <hi rend="italic">Hic denuo incipit<lb/>
              B</hi> ut <hi rend="italic">om. B</hi> non tangas <hi rend="italic">post</hi> des <hi rend="italic">coll. B</hi> 27-conparaberis <lb/>
-            <hi rend="italic">B</hi> 28 foris uico habent <hi rend="italic">om. B</hi> comdoma <hi rend="italic">B</hi> 30 accipiunt <lb/>
-            <hi rend="italic">B</hi> aquam <hi rend="italic">B</hi> 31 Tn uero <hi rend="italic">B </hi>. </note> <lb/>
-             
-<pb n="199"/>
+                  <hi rend="italic">B</hi> 28 foris uico habent <hi rend="italic">om. B</hi> comdoma <hi rend="italic">B</hi> 30 accipiunt <lb/>
+                  <hi rend="italic">B</hi> aquam <hi rend="italic">B</hi> 31 Tn uero <hi rend="italic">B </hi>. </note>
+               <lb/>
+               <pb n="199"/>
             autem expueris, scandalizabuntur. Sero autem purificant se in <lb/>
             aquam et sic ingrediuntur in uico aut in ciuitatem. 
 </p>
-          </div>
-
-<div n="9" subtype="section" type="textpart"><p>Deinde uenimus in loco, ubi Dominus de quinque panibus  <lb/>
+         </div>
+         <div n="9" type="section">
+            <p>Deinde uenimus in loco, ubi Dominus de quinque panibus  <lb/>
             et duobus piscibus quinque milia hominum satiauit extra <lb/>
             paruulis et mulieribus, extensa campania, oliueta et palmeta. <lb n="5"/>
             Exinde uenimus ad locum, ubi baptizatus est Dominus. In <lb/>
@@ -295,9 +312,9 @@
             est Helyas, quando ei coruus deferebat panem et carnes. In <lb n="20"/>
             circuitu autem uallis ipsius multitudo heremitarum. 
 </p>
-          </div>
-
-<div n="10" subtype="section" type="textpart"><p>Et ibi prope est ciuitas, quae uocatur Salamiada, ubi remanserunt  <lb/>
+         </div>
+         <div n="10" type="section">
+            <p>Et ibi prope est ciuitas, quae uocatur Salamiada, ubi remanserunt  <lb/>
             duo semis tribus Israel, priusquam transirent Iordanem, <lb/>
             in quo loco sunt termae ex se leuantes, quae uocantur termae <lb/>
             Moysi. Ubi etiam et leprosi mundantur, et ibi est dulcissimus <lb n="25"/>
@@ -305,16 +322,17 @@
             Non longe a mare salinarum, in qua Iordanis ingreditur
 
 <note type="footnote"> 9 Psalm. 41, 7 17 Psalm. 132, 3 </note>
-
-<note type="footnote"> 2 ingredientur, <hi rend="italic">corr. ead. m. B</hi> uicum <hi rend="italic">B</hi> 3 locum <hi rend="italic">B</hi> 4 exclptis <hi rend="italic">B <lb/>
+               <note type="footnote"> 2 ingredientur, <hi rend="italic">corr. ead. m. B</hi> uicum <hi rend="italic">B</hi> 3 locum <hi rend="italic">B</hi> 4 exclptis <hi rend="italic">B <lb/>
             5 ibi sunt oliueta B 6 Et in B 7 loco om. B 8 helyas B</hi> 9 mons <lb/>
             est <hi rend="italic">B</hi> modicus <hi rend="italic">om. B</hi> 11 et ierosolimam ueniet <hi rend="italic">B</hi> 12 sanctam <lb/>
             sophiam <hi rend="italic">B</hi> 13 haec loca <hi rend="italic">B</hi> 14 ea <hi rend="italic">B</hi> ex ipso coquuntur <hi rend="italic">B</hi> 16 ipse <lb/>
             est enim ros <hi rend="italic">om. B</hi> 19 iordanem miliaria <hi rend="italic">B</hi> 24 thermae <hi rend="italic">B</hi> ex <lb/>
-            se leuantes <hi rend="italic">om. B</hi> thermae <hi rend="italic">B</hi> 25 et <hi rend="italic">om. B</hi> et <hi rend="italic">om. B</hi> 26 qui <hi rend="italic">B</hi> <lb/>
-            pro catartico <hi rend="italic">B</hi> 27 autem mare <hi rend="italic">B</hi> in quod <hi rend="italic">B</hi> </note> <lb/>
-             
-<pb n="200"/>
+            se leuantes <hi rend="italic">om. B</hi> thermae <hi rend="italic">B</hi> 25 et <hi rend="italic">om. B</hi> et <hi rend="italic">om. B</hi> 26 qui <hi rend="italic">B</hi>
+                  <lb/>
+            pro catartico <hi rend="italic">B</hi> 27 autem mare <hi rend="italic">B</hi> in quod <hi rend="italic">B</hi>
+               </note>
+               <lb/>
+               <pb n="200"/>
             subtus Sodoma et Gomorra, ad cuius litus bitumen et sulphur <lb/>
             colligitur. In quo mare mense Iulio et Augusto et usque <lb/>
             medio Septembrio tota die iacent leprosi, ad uesperum autem <lb/>
@@ -327,9 +345,9 @@
             Segor, in quibus locis multi heremitae. Vidimus et ibi monumentum<lb n="10"/>
             Absalon, filii Dauid. 
 </p>
-          </div>
-
-<div n="11" subtype="section" type="textpart"><p> Tenuimus theophania iuxta Iordane, et ibi fiunt mirabilia, ubi <lb/>
+         </div>
+         <div n="11" type="section">
+            <p> Tenuimus theophania iuxta Iordane, et ibi fiunt mirabilia, ubi <lb/>
             baptizatus est Dominus, in ipsa nocte. Est ibi tumulus cancellis <lb/>
             circumdatus, et in loco, ubi redundat aqua in alueum suum, <lb/>
             posita est crux lignea intus in aquam ex utraque parte marmoris.<lb n="15"/>
@@ -347,16 +365,17 @@
             antequam incipiant baptizare, fundunt illos colaphos in fluuium
 
 <note type="footnote"> 23 Psalm. 113, 3 </note>
-
-<note type="footnote"> 1 subtus-Gomorra <hi rend="italic">om. B</hi> 2 mare <hi rend="italic">orn. B</hi> 3 medium septembrem <hi rend="italic">B</hi> <lb/>
+               <note type="footnote"> 1 subtus-Gomorra <hi rend="italic">om. B</hi> 2 mare <hi rend="italic">orn. B</hi> 3 medium septembrem <hi rend="italic">B</hi>
+                  <lb/>
             4 lauantur in ipsis thermis <hi rend="italic">B</hi> 5 parmitia <hi rend="italic">B</hi> 6 lingua <hi rend="italic">B</hi> natare <lb/>
             possnnt <hi rend="italic">B</hi> neque-potelt <hi rend="italic">om. B</hi> 7 in illud proicitnr <hi rend="italic">B</hi> 9 miliaria <lb/>
-            <hi rend="italic">B</hi> a <hi rend="italic">om. B</hi> 10 heremite multi <hi rend="italic">B</hi> 12 theophaniam <hi rend="italic">B</hi> iordanem <lb/>
-            <hi rend="italic">B</hi> mirabilia multa <hi rend="italic">B</hi> 15 aqua <hi rend="italic">B</hi> 16 grades <hi rend="italic">Br</hi> 19 diuum <lb/>
-            <hi rend="italic">B</hi> 20 hora <hi rend="italic">B</hi> 21 rugitu] strepitu <hi rend="italic">B</hi> 23 uidit <hi rend="italic">om. B</hi> 25 nanee <lb/>
-            suos <hi rend="italic">(sic) B</hi> 26 Et <hi rend="italic">om. B</hi> benedixerunt <hi rend="italic">B</hi> </note> <lb/>
-             
-<pb n="201"/>
+                  <hi rend="italic">B</hi> a <hi rend="italic">om. B</hi> 10 heremite multi <hi rend="italic">B</hi> 12 theophaniam <hi rend="italic">B</hi> iordanem <lb/>
+                  <hi rend="italic">B</hi> mirabilia multa <hi rend="italic">B</hi> 15 aqua <hi rend="italic">B</hi> 16 grades <hi rend="italic">Br</hi> 19 diuum <lb/>
+                  <hi rend="italic">B</hi> 20 hora <hi rend="italic">B</hi> 21 rugitu] strepitu <hi rend="italic">B</hi> 23 uidit <hi rend="italic">om. B</hi> 25 nanee <lb/>
+            suos <hi rend="italic">(sic) B</hi> 26 Et <hi rend="italic">om. B</hi> benedixerunt <hi rend="italic">B</hi>
+               </note>
+               <lb/>
+               <pb n="201"/>
             et tollunt aquam benedictam et exinde faciunt aquam sparsionis <lb/>
             in suis nauibus, antequam exeant ad nauigandum. Baptismo <lb/>
             completo descendunt omnes in fluuium pro benedictione induti <lb/>
@@ -365,9 +384,9 @@
             alueo. Nam unde surgit Iordanis a mare Tyberiadis, usque ad <lb/>
             mare salinarum, ubi deficit, sunt milia CXXX. 
 </p>
-          </div>
-
-<div n="12" subtype="section" type="textpart"><p>In illa uero ripa Iordanis est spelunca. in qua sunt cellulae  <lb/>
+         </div>
+         <div n="12" type="section">
+            <p>In illa uero ripa Iordanis est spelunca. in qua sunt cellulae  <lb/>
             VII cum septem puellis, que ibi infantulae mittuntur. Et cum <lb/>
             aliqua ex eis mortua fuerit, in ipsa cellula sepelitur. Et alia <lb n="10"/>
             cellula inciditur et mittitur ibi alia puella, ut numerus stet, <lb/>
@@ -380,9 +399,9 @@
             per loca submontana inueniuntur serpentes, de quibus conficitur <lb/>
             tyriaca; inde uenimus ad Iordanem. 
 </p>
-          </div>
-
-<div n="13" subtype="section" type="textpart"><p>De Iordane usque Hiericho milia VI; Hiericho autem in  <lb n="20"/>
+         </div>
+         <div n="13" type="section">
+            <p>De Iordane usque Hiericho milia VI; Hiericho autem in  <lb n="20"/>
             oculis hominum ita uidetur ut paradisus. A terre motu muri <lb/>
             diruti; domus Raab stat et est sinodochium, sed et cubiculum, <lb/>
             de quo exploratores deposuit, oratorium est sanctae Mariae. <lb/>
@@ -397,19 +416,21 @@
             illuc <hi rend="italic">B</hi> 11 ibi] in eam <hi rend="italic">B</hi> 12 et <hi rend="italic">om. B</hi> preparant <hi rend="italic">B</hi> In quem <lb/>
             locum <hi rend="italic">B</hi> cum magno timore <hi rend="italic">B</hi> 14 uidimus in ipso loco. Dicitur <lb/>
             ibi esse <hi rend="italic">B</hi> 15 Non longe multum, ubi baptizatus est dominus in iordane <lb/>
-            <hi rend="italic">B</hi> 18 inuenientur <hi rend="italic">B</hi> 19 tiryaca <hi rend="italic">B</hi> 20 miliaria <hi rend="italic">B</hi> autem <lb/>
-            <hi rend="italic">om. B</hi> 21 esse ut paradysus <hi rend="italic">B</hi> 24 israhel <hi rend="italic">B</hi> 25 Hiericho <hi rend="italic">om, B</hi> <lb/>
-            26 basilicam <hi rend="italic">B</hi> campus <hi rend="italic">om. B</hi> 27 satis <hi rend="italic">B</hi> </note> <lb/>
-             
-<pb n="202"/>
+                  <hi rend="italic">B</hi> 18 inuenientur <hi rend="italic">B</hi> 19 tiryaca <hi rend="italic">B</hi> 20 miliaria <hi rend="italic">B</hi> autem <lb/>
+                  <hi rend="italic">om. B</hi> 21 esse ut paradysus <hi rend="italic">B</hi> 24 israhel <hi rend="italic">B</hi> 25 Hiericho <hi rend="italic">om, B</hi>
+                  <lb/>
+            26 basilicam <hi rend="italic">B</hi> campus <hi rend="italic">om. B</hi> 27 satis <hi rend="italic">B</hi>
+               </note>
+               <lb/>
+               <pb n="202"/>
             colligitur et numquam seritur, sed ex se profert semen. Colligitur <lb/>
             autem mense Februario et inde communicantur in pascha. <lb/>
             Cum collectum fuerit, aratur et iterum cum reliquas messes <lb/>
             colligitur. 
 </p>
-          </div>
-
-<div n="14" subtype="section" type="textpart"><p> : At uero fons aquae, quem indulcauit Heliseus propheta,<lb n="5"/>
+         </div>
+         <div n="14" type="section">
+            <p> : At uero fons aquae, quem indulcauit Heliseus propheta,<lb n="5"/>
             inrigat omnem Hiericho, ubi nascitur uinum potiscon, qui <lb/>
             febricitantibus datur; ibi nascitur dactalum de libra, ex quibus <lb/>
             mecum in prouintia adduxi et dedi inde unum domno Paterio <lb/>
@@ -418,9 +439,9 @@
             Domini plenas cistras racemis in monte Oliueti uenales sunt <lb/>
             et inde pentecosten mixtum exinde plena colata proponuntur. 
 </p>
-          </div>
-
-<div n="15" subtype="section" type="textpart"><p> Exeuntibus nobis de Hiericho uenimus contra Hierusolimam; <lb/>
+         </div>
+         <div n="15" type="section">
+            <p> Exeuntibus nobis de Hiericho uenimus contra Hierusolimam; <lb/>
             non longe a Hiericho est illa arbor, in qua Zacheus ascendit, <lb/>
             ut uideret Dominum. Quae arbor infra oratorium inclusa est<lb n="15"/>
             et per tectum desuper sicca uidetur. Igitur exeuntes de Hiericho <lb/>
@@ -430,37 +451,43 @@
             de uxore Loth, eo quod lingendo ab animalibus minuatur, <lb n="20"/>
             mendacium est, sed stat in statu, quo fuit. 
 </p>
-          </div>
-
-<div n="16" subtype="section" type="textpart"><p rend="script"> Ascendentes de montana Hierusolimorum uenimus Baoridem. <lb/>
+         </div>
+         <div n="16" type="section">
+            <p rend="script"> Ascendentes de montana Hierusolimorum uenimus Baoridem. <lb/>
             Inde reuertentes ad sinistram ad oppida montis Oliueti uenimus <lb/>
             in Bethania ad monumentum Lazari. Nam respicientes ualles <lb/>
             illas et perambulantes monasteria multa mirabiliorum loca <lb n="25"/>
             uidimus clausam multitudinem in monte Oliueti uirorum ac
 
-<note rend="script" type="footnote"> 2 mense <hi rend="italic">om. B</hi> 3 reliquiis <hi rend="italic">(sic)</hi> messibus <hi rend="italic">B</hi> 6 potissimum quod <hi rend="italic">B</hi> <lb/>
-            7 de libra <hi rend="italic">om. B</hi> 8 in prouincia duxi <hi rend="italic">B</hi> inde <hi rend="italic">om. B</hi> 9 patricio <hi rend="italic">B</hi> <lb/>
-            de libras quadraginta <hi rend="italic">om. B</hi> 10 fassiola duorum pedum longa <hi rend="italic">B</hi> <lb/>
-            . 11 plenae canistrae racemis <hi rend="italic">B</hi> 12 et in pentecosten <hi rend="italic">B</hi> plana <hi rend="italic">B</hi> <lb/>
+<note rend="script" type="footnote"> 2 mense <hi rend="italic">om. B</hi> 3 reliquiis <hi rend="italic">(sic)</hi> messibus <hi rend="italic">B</hi> 6 potissimum quod <hi rend="italic">B</hi>
+                  <lb/>
+            7 de libra <hi rend="italic">om. B</hi> 8 in prouincia duxi <hi rend="italic">B</hi> inde <hi rend="italic">om. B</hi> 9 patricio <hi rend="italic">B</hi>
+                  <lb/>
+            de libras quadraginta <hi rend="italic">om. B</hi> 10 fassiola duorum pedum longa <hi rend="italic">B</hi>
+                  <lb/>
+            . 11 plenae canistrae racemis <hi rend="italic">B</hi> 12 et in pentecosten <hi rend="italic">B</hi> plana <hi rend="italic">B</hi>
+                  <lb/>
             un <lb/>
-            proponitur, <hi rend="italic">sed corr. ead. m, B</hi> 13 hierosolimam <hi rend="italic">B</hi> 14 a hierico <hi rend="italic">Br</hi> <lb/>
+            proponitur, <hi rend="italic">sed corr. ead. m, B</hi> 13 hierosolimam <hi rend="italic">B</hi> 14 a hierico <hi rend="italic">Br</hi>
+                  <lb/>
             ab hiericho <hi rend="italic">B</hi> 15 dominum] iesum-B est inclusa <hi rend="italic">B</hi> 17 occidentem in <lb/>
-            sinistram manam <hi rend="italic">B</hi> ualles <hi rend="italic">B</hi> 18 quam prouinciam <hi rend="italic">B</hi> 20 eo <hi rend="italic">om. B</hi> <lb/>
+            sinistram manam <hi rend="italic">B</hi> ualles <hi rend="italic">B</hi> 18 quam prouinciam <hi rend="italic">B</hi> 20 eo <hi rend="italic">om. B</hi>
+                  <lb/>
             muniatur <hi rend="italic">Br</hi> 22 montanis <hi rend="italic">B</hi> hierosolimorum <hi rend="italic">B post</hi> Baoridem <lb/>
-            <hi rend="italic">erasurn est</hi> ponte <hi rend="italic">B</hi> 23 ad sinistram <hi rend="italic">om. B</hi> opida <hi rend="italic">B</hi> 24 in <lb/>
-            bethaniam <hi rend="italic">B</hi> 25 et mirabiliorum <hi rend="italic">B</hi> et <hi rend="italic">expunxit Br</hi> 26 oliuarum <hi rend="italic">B</hi></note> <lb/>
-             
-<pb n="203"/>
+                  <hi rend="italic">erasurn est</hi> ponte <hi rend="italic">B</hi> 23 ad sinistram <hi rend="italic">om. B</hi> opida <hi rend="italic">B</hi> 24 in <lb/>
+            bethaniam <hi rend="italic">B</hi> 25 et mirabiliorum <hi rend="italic">B</hi> et <hi rend="italic">expunxit Br</hi> 26 oliuarum <hi rend="italic">B</hi>
+               </note>
+               <lb/>
+               <pb n="203"/>
             mulierum. Et rursum in monte, unde Dominus ascendit ad <lb/>
             patrem, ubi et iudicare ueniet, uidimus copiosa et cellula, ubi <lb/>
             inclusa fuit uel iacet in corpore sancta Pelagia. Et in ipso <lb/>
             monte iacet Iacobus Zebedaei et Cleophas et multa sanctorum <lb/>
             corpora. <lb n="5"/>
-            
-</p>
-          </div>
-
-<div n="17" subtype="section" type="textpart"><p>Descendentes de monte Oliueti uenimus in uillam Gethsemani  <lb/>
+            </p>
+         </div>
+         <div n="17" type="section">
+            <p>Descendentes de monte Oliueti uenimus in uillam Gethsemani  <lb/>
             in loco, ubi traditus est Dominus. In quo sunt tria <lb/>
             accubita, in quae ille accubuit et nos pro benedictione accubuimus, <lb/>
             et in ipsa ualle est domus sanctae Mariae, de qua <lb/>
@@ -470,11 +497,10 @@
             hoc est ad portam Hierusalem. Cuius taleas stat munita <lb/>
             petris; porta ciuitatis, quae coherit portae speciosae, quae fuit <lb/>
             templi, cuius liminare et tribulatio stat. <lb n="15"/>
-            
-</p>
-          </div>
-
-<div n="18" subtype="section" type="textpart"><p>Clinantes proni in terram ingressi sumus in sanctam ciuitatem,  <lb/>
+            </p>
+         </div>
+         <div n="18" type="section">
+            <p>Clinantes proni in terram ingressi sumus in sanctam ciuitatem,  <lb/>
             in qua adorantes Domini monumentum; quoniam ipsud <lb/>
             monumentum, in quo corpus Domini positum fuit, in naturale <lb/>
             excisus est petra. Lucerna hydria, quae illo tempore ad caput <lb/>
@@ -488,24 +514,28 @@
             crucifixus est Dominus. Petra uero monumenti uelut molaris <lb/>
             et est infinitae ornata; uirgis ferreis pendentes brachialia,
 
-<note type="footnote"> 2 copiosam multitudinem et cellulam <hi rend="italic">B</hi> 4 corpora sanctorum <hi rend="italic">B</hi> <lb/>
-            6 gessemani <hi rend="italic">B</hi> 7 in locum ubi dominus traditus est <hi rend="italic">B</hi> 8 acubita <hi rend="italic">B</hi> <lb/>
+<note type="footnote"> 2 copiosam multitudinem et cellulam <hi rend="italic">B</hi> 4 corpora sanctorum <hi rend="italic">B</hi>
+                  <lb/>
+            6 gessemani <hi rend="italic">B</hi> 7 in locum ubi dominus traditus est <hi rend="italic">B</hi> 8 acubita <hi rend="italic">B</hi>
+                  <lb/>
             acnbuit <hi rend="italic">B</hi> in quibus <hi rend="italic">B</hi> 9 uillae <hi rend="italic">B</hi> 10 geasemani <hi rend="italic">B</hi> 11 uocatus <lb/>
-            est <hi rend="italic">B</hi> in dextra parte <hi rend="italic">B</hi> 13 tale adstat munitae <hi rend="italic">B</hi> 14 coheret <hi rend="italic">B</hi> <lb/>
+            est <hi rend="italic">B</hi> in dextra parte <hi rend="italic">B</hi> 13 tale adstat munitae <hi rend="italic">B</hi> 14 coheret <hi rend="italic">B</hi>
+                  <lb/>
             16 Inclinantes nos <hi rend="italic">B</hi> 17 quG ipsum <hi rend="italic">B</hi> 18 in naturali excisum est <lb/>
             petra <hi rend="italic">B</hi> 19 ydriae <hi rend="italic">B</hi> 21 eam <hi rend="italic">B</hi> 22 ingredientes deforis benedictionem <lb/>
             portantB <hi rend="italic">23 ipsum est ante monumentum itlud B</hi> 24 de petra GolgothaB <lb/>
-            26 in <hi rend="italic">ante</hi> postmodum <hi rend="italic">om. B</hi> 28 in fine ornata ex auro et gemmis <hi rend="italic">B</hi> </note> <lb/>
-             
-<pb n="204"/>
+            26 in <hi rend="italic">ante</hi> postmodum <hi rend="italic">om. B</hi> 28 in fine ornata ex auro et gemmis <hi rend="italic">B</hi>
+               </note>
+               <lb/>
+               <pb n="204"/>
             dextroceria, murenas, monilia, anuli, capitulares, cingella, irata, <lb/>
             baltei, coronas. Imperium ex auro uel gemmis et ornamenta <lb/>
             plurima. Et ipsud monumentum in modum aedae coopertum <lb/>
             ex argento et ante monumentum altare positum. 
 </p>
-          </div>
-
-<div n="19" subtype="section" type="textpart"><p> A monumento usque Golgotha sunt gressi LXXXta. Ab una<lb n="5"/>
+         </div>
+         <div n="19" type="section">
+            <p> A monumento usque Golgotha sunt gressi LXXXta. Ab una<lb n="5"/>
             parte ascenditur per gradus, unde Dominus ascendit ad crucifigendum. <lb/>
             Nam et in loco, ubi fuit crucifixus, apparet cruor <lb/>
             sanguinis, et in ipso latere petrae est altare patriarchae <lb/>
@@ -519,9 +549,9 @@
             est miliarium. Nam Hierusolima aquam uiuam non habet <lb/>
             praeter in Solua fonte. 
 </p>
-          </div>
-
-<div n="20" subtype="section" type="textpart"><p> De Golgotha usque ubi inuenta est crux sunt gressi L; <lb/>
+         </div>
+         <div n="20" type="section">
+            <p> De Golgotha usque ubi inuenta est crux sunt gressi L; <lb/>
             in basilica Constantini coherentem circa monumentum uel <lb/>
             Golgotha in atrio ipsius basilicae est cubiculum, ubi lignum <lb n="20"/>
             crucis reconditum est, quem adorauimus et osculauimus. Nam <lb/>
@@ -531,18 +561,22 @@
             sancta cruce ad adorandum de cubiculo suo et ueniente in <lb n="20"/>
             atrio, ubi adoratur, eadem ora apparet in caelo stella et uenit
 
-<note type="footnote"> 1 murena <hi rend="italic">B</hi> 2 belthei <hi rend="italic">B</hi> 3 Ipsum <hi rend="italic">omisso</hi> et <hi rend="italic">B</hi> aedae] medie <hi rend="italic">B</hi> <lb/>
+<note type="footnote"> 1 murena <hi rend="italic">B</hi> 2 belthei <hi rend="italic">B</hi> 3 Ipsum <hi rend="italic">omisso</hi> et <hi rend="italic">B</hi> aedae] medie <hi rend="italic">B</hi>
+                  <lb/>
             5 A monumento uero <hi rend="italic">B</hi> 6 per ascenditur gradus <hi rend="italic">B</hi> hubi <hi rend="italic">B</hi> 7 ubi <lb/>
-            <hi rend="italic">om. B</hi> 8 petri <hi rend="italic">B</hi> 9 in quod <hi rend="italic">B</hi> 10 obtulit <hi rend="italic">B</hi> 11 amalec <hi rend="italic">B</hi> 12 Abraa <lb/>
-            <hi rend="italic">om. B post decimationem rasura complur, litt. B</hi> illud <hi rend="italic">B</hi> 18 9 <lb/>
+                  <hi rend="italic">om. B</hi> 8 petri <hi rend="italic">B</hi> 9 in quod <hi rend="italic">B</hi> 10 obtulit <hi rend="italic">B</hi> 11 amalec <hi rend="italic">B</hi> 12 Abraa <lb/>
+                  <hi rend="italic">om. B post decimationem rasura complur, litt. B</hi> illud <hi rend="italic">B</hi> 18 9 <lb/>
             ponis, <hi rend="italic">sed exp. I</hi>. a <hi rend="italic">B</hi> 14 aut aliud quod <hi rend="italic">B</hi> uades <hi rend="italic">B</hi> siloam <lb/>
             fontem <hi rend="italic">B</hi> 15 suscipies <hi rend="italic">B</hi> syna] siloam <hi rend="italic">B</hi> 16 esse <hi rend="italic">B</hi> 17 praeter <lb/>
-            siloam fontem <hi rend="italic">B</hi> 18 usque ad locum <hi rend="italic">B</hi> gressus <hi rend="italic">B</hi> 19 basilicae <hi rend="italic">B</hi> <lb/>
+            siloam fontem <hi rend="italic">B</hi> 18 usque ad locum <hi rend="italic">B</hi> gressus <hi rend="italic">B</hi> 19 basilicae <hi rend="italic">B</hi>
+                  <lb/>
             20 otrio <hi rend="italic">Br</hi> 21 osculabimus <hi rend="italic">B</hi> 22 capud <hi rend="italic">B</hi> positus] pot <hi rend="italic">Br</hi> 28 in <lb/>
-            manu <hi rend="italic">B</hi> 24 de nucis <hi rend="italic">B</hi> 26 atrium <hi rend="italic">B</hi> hora <hi rend="italic">B</hi> stella in caelo <hi rend="italic">B</hi> <lb/>
-            ueniet <hi rend="italic">B</hi> </note> <lb/>
-             
-<pb n="205"/>
+            manu <hi rend="italic">B</hi> 24 de nucis <hi rend="italic">B</hi> 26 atrium <hi rend="italic">B</hi> hora <hi rend="italic">B</hi> stella in caelo <hi rend="italic">B</hi>
+                  <lb/>
+            ueniet <hi rend="italic">B</hi>
+               </note>
+               <lb/>
+               <pb n="205"/>
             super locum, ubi crux residet. Et dum adoratur crux, stat <lb/>
             super eam stella. Et affertur oleum ad benedicendum ampullas <lb/>
             medias. Hora uero, qua tetigerit lignum crucis has ampullas, <lb/>
@@ -556,9 +590,9 @@
             quo utebatur in capite. Et ibi sunt septem cathedrae marmoreae <lb/>
             seniorum. 
 </p>
-          </div>
-
-<div n="21" subtype="section" type="textpart"><p>Inde ascendimus in turre Dauid, ubi decantauit psalterium,:  <lb/>
+         </div>
+         <div n="21" type="section">
+            <p>Inde ascendimus in turre Dauid, ubi decantauit psalterium,:  <lb/>
             magna ualde in caenaculis singulis. Quae turris quadrangulis <lb/>
             et opus scalptum non habens tectum. In qua et christiani <lb n="15"/>
             pro deuotione ad mansionem ascendunt, et circa medio noctis <lb/>
@@ -566,9 +600,9 @@
             ualle Iosaphat contra Iordanem ad loca, quae respiciunt contra <lb/>
             Sodoma et Gomorra. 
 </p>
-          </div>
-
-<div n="22" subtype="section" type="textpart"><p rend="script">Deinde uenimus in basilica santa Syon, ubi sunt mirabilia  <lb n="20"/>
+         </div>
+         <div n="22" type="section">
+            <p rend="script">Deinde uenimus in basilica santa Syon, ubi sunt mirabilia  <lb n="20"/>
             multa. Inter quibus, quod legitur de lapide angulare, <lb/>
             qui reprobatus est ab aedificantibus. Domino ingrediente <lb/>
             in ipsa ecclesia, quae fuit domus sancti Iacobi, inuenit <lb/>
@@ -579,17 +613,22 @@
 
 <note rend="script" type="footnote"> 1 crux <hi rend="italic">post</hi> adoratur <hi rend="italic">om. B</hi> 4 foras oleum <hi rend="italic">B</hi> Et nisi-foras <hi rend="italic">haec <lb/>
             uerba supra omissa in margine inferiore ead. m. ascripsit B</hi> 5 in locum <lb/>
-            <hi rend="italic">sunmB 6 reclusam B lestom.B 13 uenimus B turrem B</hi> 14 singulis <lb/>
-            <hi rend="italic">om. B</hi> quadrangula <hi rend="italic">B</hi> 15 sculptum <hi rend="italic">B</hi> in quam <hi rend="italic">B</hi> et <hi rend="italic">om. B</hi> <lb/>
+                  <hi rend="italic">sunmB 6 reclusam B lestom.B 13 uenimus B turrem B</hi> 14 singulis <lb/>
+                  <hi rend="italic">om. B</hi> quadrangula <hi rend="italic">B</hi> 15 sculptum <hi rend="italic">B</hi> in quam <hi rend="italic">B</hi> et <hi rend="italic">om. B</hi>
+                  <lb/>
             16 medium noctis spatium <hi rend="italic">B</hi> 18 iosaphath <hi rend="italic">B</hi> contra sodomam et <lb/>
-            gomorram <hi rend="italic">B</hi> 20 basilicam sancti sion <hi rend="italic">B</hi> 21 inter quos legitur <hi rend="italic">B</hi> <lb/>
-            de <hi rend="italic">illo B lapite Br</hi> 23 in ipsam <hi rend="italic">ecclesiam B</hi> domus sancti iacobi <hi rend="italic">fuit B</hi> <lb/>
+            gomorram <hi rend="italic">B</hi> 20 basilicam sancti sion <hi rend="italic">B</hi> 21 inter quos legitur <hi rend="italic">B</hi>
+                  <lb/>
+            de <hi rend="italic">illo B lapite Br</hi> 23 in ipsam <hi rend="italic">ecclesiam B</hi> domus sancti iacobi <hi rend="italic">fuit B</hi>
+                  <lb/>
             n <lb/>
-            iacobi. Innenit <hi rend="italic">Br</hi> 25 angulum <hi rend="italic">B</hi> tenęs <hi rend="italic">corr. 2. m. Br</hi> leues <hi rend="italic">B</hi> <lb/>
+            iacobi. Innenit <hi rend="italic">Br</hi> 25 angulum <hi rend="italic">B</hi> tenęs <hi rend="italic">corr. 2. m. Br</hi> leues <hi rend="italic">B</hi>
+                  <lb/>
             manus <hi rend="italic">B</hi> pones <hi rend="italic">B</hi> 26 in ipsum angulum <hi rend="italic">B</hi> 27 columna <hi rend="italic">B</hi> ubicolumna <lb/>
-            <hi rend="italic">p. 206, 1 om. Br</hi> </note> <lb/>
-             
-<pb n="206"/>
+                  <hi rend="italic">p. 206, 1 om. Br</hi>
+               </note>
+               <lb/>
+               <pb n="206"/>
             Dominus flagellatus est, in qua columna tale est signum, ut dum <lb/>
             eam amplexus fuisset, in ipsa pectus eius adhaesit, et apparent <lb/>
             in ea palmae et digiti, ita ut per singulis languoribus tollatur <lb/>
@@ -605,11 +644,10 @@
             hominis inclusam in loculo aureo ornata gemmis, quae <lb/>
             dicunt esse capud martyris Theodote. In qua multi aquam <lb/>
             pro benedictione bibebant et ego bibi. <lb n="15"/>
-            
-</p>
-          </div>
-
-<div n="23" subtype="section" type="textpart"><p rend="script"> De Sion uero usque in basilica sancte Marie, ubi est congregatio <lb/>
+            </p>
+         </div>
+         <div n="23" type="section">
+            <p rend="script"> De Sion uero usque in basilica sancte Marie, ubi est congregatio <lb/>
             magna monachorum et mulierum, mensas i.nnumerabiles, <lb/>
             lecta languentium, sunt tria miliaria et orauimus in pretorio, ubi <lb/>
             auditus est Dominus, et modo est basilica sancte Sophie. Ante <lb/>
@@ -624,24 +662,28 @@
             uiuente et pedibus ambulante depicta est et posita in ipso
 
 <note rend="script" type="footnote"> 1 signum est <hi rend="italic">B</hi> 2 ea <hi rend="italic">Br</hi> 3 ea] ipsa <hi rend="italic">B</hi> per <hi rend="italic">om. B</hi> mensura <lb/>
-            tollatur <hi rend="italic">B</hi> 4 habeant et sanatur <hi rend="italic">B</hi> et <hi rend="italic">om. B</hi> 5 ungebantur <hi rend="italic">B</hi> <lb/>
+            tollatur <hi rend="italic">B</hi> 4 habeant et sanatur <hi rend="italic">B</hi> et <hi rend="italic">om. B</hi> 5 ungebantur <hi rend="italic">B</hi>
+                  <lb/>
             6 regnum <hi rend="italic">B</hi> et <hi rend="italic">post</hi> est <hi rend="italic">om. B</hi> 7 fuit dominus coronatus <hi rend="italic">B</hi> 8 de <lb/>
             quibus lapidatus est <hi rend="italic">B</hi> 9 posita est <hi rend="italic">B</hi> ubi] in qua <hi rend="italic">B</hi> 10 percussus <lb/>
             est <hi rend="italic">B</hi> 11 celebrarum <hi rend="italic">Br</hi> celebrabant <hi rend="italic">B</hi> 12 reloco <hi rend="italic">Br</hi> et monasterium <lb/>
-            <hi rend="italic">B</hi> 13 ornatam <hi rend="italic">B</hi> 14 capud <hi rend="italic">om. B</hi> 16 basilicam <hi rend="italic">B</hi> hic <lb/>
-            <hi rend="italic">magnam lacunam exhibet Br a uocabulo</hi> Marie <hi rend="italic">usque ad</hi> in ipso pretorio <lb/>
+                  <hi rend="italic">B</hi> 13 ornatam <hi rend="italic">B</hi> 14 capud <hi rend="italic">om. B</hi> 16 basilicam <hi rend="italic">B</hi> hic <lb/>
+                  <hi rend="italic">magnam lacunam exhibet Br a uocabulo</hi> Marie <hi rend="italic">usque ad</hi> in ipso pretorio <lb/>
             no <lb/>
-            <hi rend="italic">p. 207, 1</hi> 17 menses inmerabiles <hi rend="italic">B</hi> 19 et modo ę.\\lQ.itųş <hi rend="italic">B</hi> 20 sup <hi rend="italic">B</hi> </note> <lb/>
-             
-<pb n="207"/>
+                  <hi rend="italic">p. 207, 1</hi> 17 menses inmerabiles <hi rend="italic">B</hi> 19 et modo ę.\\lQ.itųş <hi rend="italic">B</hi> 20 sup <hi rend="italic">B</hi>
+               </note>
+               <lb/>
+               <pb n="207"/>
             pretorio. Nam de ipsa petra multae fiunt uirtutes; tollentes <lb/>
             mensuram de ipsa uestigia et ligant per singulos languores <lb/>
             et sanantur, et ipsa petra ornata est ex auro et argento. 
 </p>
-          <p>Inde uenimus ad arcum, ubi fuit antiquitus porta ciuitatis. 
-</p></div>
-
-<div n="24" subtype="section" type="textpart"><p> <lb/>
+            <p>Inde uenimus ad arcum, ubi fuit antiquitus porta ciuitatis. 
+</p>
+         </div>
+         <div n="24" type="section">
+            <p>
+               <lb/>
             In ipso loco sunt aquae putridae, in quas missus est Hieremias <lb n="5"/>
             propheta. Ab arcu illo descendentibus nobis ad fontes <lb/>
             Siloa per gradus multos. Est ibi basilica uolubilis, desub <lb/>
@@ -656,9 +698,9 @@
             fluuio. Ubi Iordanis deficit in mare salinarum subtus <lb/>
             Sodoma et Gomorra. 
 </p>
-          </div>
-
-<div n="25" subtype="section" type="textpart"><p>Nam modo et ipse fons buoa infra ciuitatem inclusa est,  <lb/>
+         </div>
+         <div n="25" type="section">
+            <p>Nam modo et ipse fons buoa infra ciuitatem inclusa est,  <lb/>
             quia Eudoxia augusta, uxor Iustiniani imperatoris, addidit muros <lb/>
             in ciuitate Hierusalem, et ipsa muniuit sepulchrum et basilicam <lb n="20"/>
             sancti Stephani et ipsa suum habet sepulchrum iuxta sepulchrum <lb/>
@@ -670,17 +712,23 @@
             dicebatur Azotus, in qua requiescit sanctus Georgius <lb/>
             martyr. In ipsa uia non longe a ciuitate stat columna
 
-<note type="footnote"> <hi rend="italic">1 Hic denuo incipit Br p. 61, sed alia scriptura et peiore pergamena</hi> <lb/>
+<note type="footnote">
+                  <hi rend="italic">1 Hic denuo incipit Br p. 61, sed alia scriptura et peiore pergamena</hi>
+                  <lb/>
             2 ipso uestigio <hi rend="italic">B</hi> 4 aream <hi rend="italic">Br</hi> 6 fontem Byloa <hi rend="italic">B</hi> 7 per gradus—surgit <lb/>
-            Syloa <hi rend="italic">l. 8 om. B</hi> 9 Et inter-mulieres <hi rend="italic">1.10 om. B</hi> 13 illis <hi rend="italic">om. B oris B</hi> <lb/>
+            Syloa <hi rend="italic">l. 8 om. B</hi> 9 Et inter-mulieres <hi rend="italic">1.10 om. B</hi> 13 illis <hi rend="italic">om. B oris B</hi>
+                  <lb/>
             14 inrigat <hi rend="italic">B</hi> 15 iosaphad <hi rend="italic">B</hi> iessemani <hi rend="italic">B</hi> in <hi rend="italic">om. B</hi> iordanem <lb/>
-            fluuium <hi rend="italic">B</hi> 16 id est ad mare salinarum. Subtus est <hi rend="italic">B</hi> 18 syloa <hi rend="italic">B</hi> <lb/>
+            fluuium <hi rend="italic">B</hi> 16 id est ad mare salinarum. Subtus est <hi rend="italic">B</hi> 18 syloa <hi rend="italic">B</hi>
+                  <lb/>
             inclusus <hi rend="italic">B</hi> 19 eodixia <hi rend="italic">Br</hi> eodoxia <hi rend="italic">B</hi> 21 et ipsa Buum habet-etephani <lb/>
-            <hi rend="italic">in marg. inf. B</hi> 22 aepalcrum, <hi rend="italic">sed corr. ead. m. B</hi> 24 unoque <hi rend="italic">corr. ex</hi> <lb/>
+                  <hi rend="italic">in marg. inf. B</hi> 22 aepalcrum, <hi rend="italic">sed corr. ead. m. B</hi> 24 unoque <hi rend="italic">corr. ex</hi>
+                  <lb/>
             unoquo <hi rend="italic">Br</hi> unaqueque porta modo <hi rend="italic">B</hi> 25 in uia <hi rend="italic">B</hi> 26 iopem et cessaream <lb/>
-            <hi rend="italic">B</hi> diospoli <hi rend="italic">B</hi> </note> <lb/>
-             
-<pb n="208"/>
+                  <hi rend="italic">B</hi> diospoli <hi rend="italic">B</hi>
+               </note>
+               <lb/>
+               <pb n="208"/>
             marmorea, in qua Dominus prius ducebatur ad flagellandum, Quae <lb/>
             fugiens leuata est ad nubes et deposita in ipso loco. Et ita <lb/>
             in tantum cognoscitur uerum esse, quia non habet basidem, ubi <lb/>
@@ -690,18 +738,18 @@
             ibi mundantur. Nam et in ipsa prouincia beatus Georgius <lb/>
             martyr. 
 </p>
-          </div>
-
-<div n="26" subtype="section" type="textpart"><p>  Itaque exeuntes a Syloa fonte uenimus in agrum, qui comparatus <lb/>
+         </div>
+         <div n="26" type="section">
+            <p>  Itaque exeuntes a Syloa fonte uenimus in agrum, qui comparatus <lb/>
             est de precio sanguinis Domini, qui uocatur Acheldemach,<lb n="10"/>
             hoc est ager sanguinis, in quo sepeliuntur omnes <lb/>
             peregrini, et inter ipsa sepulchra cellulae seruorum dei, ubi <lb/>
             fiunt multae uirtutes. Et per loca infra ipsa sepulchra sunt <lb/>
             uineae et poma. 
 </p>
-          </div>
-
-<div n="27" subtype="section" type="textpart"><p> Reuertentibus nobis in ciuitatem uenimus ad piscinam natatoria,<lb n="15"/>
+         </div>
+         <div n="27" type="section">
+            <p> Reuertentibus nobis in ciuitatem uenimus ad piscinam natatoria,<lb n="15"/>
             quae quinque porticus habet; et in uno earum est basilica <lb/>
             sanctae Mariae, ubi multae fiunt uirtutes. Ipsa uero piscina <lb/>
             modo iactata est in stercore. Et ibi lauantur omnia, quae <lb/>
@@ -711,30 +759,35 @@
             Ysicius. Ibi etiam erogantur pauperibus panes, quos deputauit <lb/>
             beata Helena. 
 </p>
-          </div>
-
-<div n="28" subtype="section" type="textpart"><p> Via, quae ducit Bethleem, miliario tertio ab Hierusalem <lb/>
+         </div>
+         <div n="28" type="section">
+            <p> Via, quae ducit Bethleem, miliario tertio ab Hierusalem <lb/>
             iacet Rachel uxor Iacob, mater scilicet Ioseph. Et Beniamin <lb n="25"/>
             iacet in finibus Rama. In ipso loco in media uia uidi aquam <lb/>
             surgere, quasi sextarios septem. Unde complent omnes satietatem <lb/>
             bibendi, et nec minuitur nec augetur. Et est suauis ad <lb/>
             potandum. Et dicunt, quod fugiens beata Maria in Aegyptum
 
-<note type="footnote"> 1 ad quam <hi rend="italic">B</hi> decebatur <hi rend="italic">Br</hi> 2 ita <hi rend="italic">om. B</hi> 3 basitem <hi rend="italic">Br</hi> basim <hi rend="italic">B</hi> <lb/>
+<note type="footnote"> 1 ad quam <hi rend="italic">B</hi> decebatur <hi rend="italic">Br</hi> 2 ita <hi rend="italic">om. B</hi> 3 basitem <hi rend="italic">Br</hi> basim <hi rend="italic">B</hi>
+                  <lb/>
             ubi-fundata <hi rend="italic">om. B</hi> 5 ferea <hi rend="italic">B</hi> rursum <hi rend="italic">Br</hi> scalam <hi rend="italic">B</hi> 6 et fiunt] <lb/>
             effiunt B 9 a] de <hi rend="italic">B</hi> 10 de <hi rend="italic">om, B</hi> sanguinis <hi rend="italic">O;</hi>! acheldemac <lb/>
-            <hi rend="italic">B</hi> 13 sunt <hi rend="italic">om. B</hi> 15 nobis <hi rend="italic">om. B</hi> natatoriam v 17 multi <hi rend="italic">B</hi> <lb/>
-            ipse <hi rend="italic">Br</hi> 19 catenam ferream <hi rend="italic">B</hi> 20 Iaqueauet iudas infelix <hi rend="italic">B</hi> <lb/>
-            21 ioram <hi rend="italic">B</hi> 22 ysitius <hi rend="italic">B</hi> 24 bethlehem <hi rend="italic">B</hi> 26 iacet] requiescit <hi rend="italic">B</hi> <lb/>
-            27 ad satietatem <hi rend="italic">B</hi> </note> <lb/>
-             
-<pb n="209"/>
+                  <hi rend="italic">B</hi> 13 sunt <hi rend="italic">om. B</hi> 15 nobis <hi rend="italic">om. B</hi> natatoriam v 17 multi <hi rend="italic">B</hi>
+                  <lb/>
+            ipse <hi rend="italic">Br</hi> 19 catenam ferream <hi rend="italic">B</hi> 20 Iaqueauet iudas infelix <hi rend="italic">B</hi>
+                  <lb/>
+            21 ioram <hi rend="italic">B</hi> 22 ysitius <hi rend="italic">B</hi> 24 bethlehem <hi rend="italic">B</hi> 26 iacet] requiescit <hi rend="italic">B</hi>
+                  <lb/>
+            27 ad satietatem <hi rend="italic">B</hi>
+               </note>
+               <lb/>
+               <pb n="209"/>
             et sederit ibi cum puero et sitiens orauit et continuo ipsa <lb/>
             aqua emanauit. Et in ipso loco modo ecclesia constructa est. 
 </p>
-          </div>
-
-<div n="29" subtype="section" type="textpart"><p>Inde usque Bethleem milia tria. Bethleem locus splendidis- 
+         </div>
+         <div n="29" type="section">
+            <p>Inde usque Bethleem milia tria. Bethleem locus splendidis- 
   simus, serui dei multi. Ibi est spelunca, ubi natus est Dominus, <lb/>
             et presepium ex auro et argento ornatum, et iugiter ibi fiunt <lb n="5"/>
             luminaria. Os uero ipsius speluncae angustus. Hieronimus <lb/>
@@ -749,9 +802,9 @@
             Ante Bethleem est monasterium muro cinctus, in quo multitudo <lb n="15"/>
             est monachorum. 
 </p>
-          </div>
-
-<div n="30" subtype="section" type="textpart"><p>De Bethleem usque ad ilicem Mambres milia XXHII. In quo  <lb/>
+         </div>
+         <div n="30" type="section">
+            <p>De Bethleem usque ad ilicem Mambres milia XXHII. In quo  <lb/>
             loco requiescunt Abraham, Isaac, Iacob et Sarra, simul et <lb/>
             Ioseph ossa. Est basilica in quadriporticus, atrium in medio <lb/>
             discoopertum et per medio cancellum; ex uno latere intrant <lb n="20"/>
@@ -760,29 +813,29 @@
             Domini deuotissime ab omnibus celebratur, ita ut ex omni <lb/>
             terra Iudeorum conueniat innumerabilis multitudo, incensa <lb/>
             ferentes uel luminaria et dantes munera ac seruientes ibidem. <lb n="25"/>
-            
-</p>
-          </div>
-
-<div n="31" subtype="section" type="textpart"><p rend="script">Item reuertentes in Hierusalem descendimus in uia, quae  <lb/>
+            </p>
+         </div>
+         <div n="31" type="section">
+            <p rend="script">Item reuertentes in Hierusalem descendimus in uia, quae  <lb/>
             uadit ad Gazam et Ascalon milia XX. De Hierusolima uenimus <lb/>
             in monte Gelboe, ubi occidit Dauid Goliam gygantem. Et
 
 <note rend="script" type="footnote"> 1 sederet <hi rend="italic">B</hi> et <hi rend="italic">ante</hi> sitieus <hi rend="italic">om. B</hi> 3 miliaria <hi rend="italic">B</hi> spendidisBimas <lb/>
-            <hi rend="italic">Br</hi> 4 Est ibi <hi rend="italic">B</hi> 5 iugitur <hi rend="italic">Br</hi> 7 pspiter <hi rend="italic">B</hi> praeclaras <hi rend="italic">B</hi> 8 petram <lb/>
+                  <hi rend="italic">Br</hi> 4 Est ibi <hi rend="italic">B</hi> 5 iugitur <hi rend="italic">Br</hi> 7 pspiter <hi rend="italic">B</hi> praeclaras <hi rend="italic">B</hi> 8 petram <lb/>
             scalpsit <hi rend="italic">B</hi> 10 suburbano <hi rend="italic">B</hi> iacent <hi rend="italic">B</hi> 13 una <hi rend="italic">B</hi> 14 monu- <lb/>
             0 <lb/>
             menta] <hi rend="italic">sepulcra B</hi> illorum] <hi rend="italic">eorum Ji 15 cintus corr. ead. m. B</hi> 16 monachorum <lb/>
-            <hi rend="italic">est B</hi> 17 hylicem <hi rend="italic">Br</hi> mambreae <hi rend="italic">B</hi> sunt miliaria <hi rend="italic">B</hi> 18 sara <hi rend="italic">B</hi> <lb/>
+                  <hi rend="italic">est B</hi> 17 hylicem <hi rend="italic">Br</hi> mambreae <hi rend="italic">B</hi> sunt miliaria <hi rend="italic">B</hi> 18 sara <hi rend="italic">B</hi>
+                  <lb/>
             19 baailica edificata in medio atrio quadriporticus discooperta <hi rend="italic">B</hi> 20 per<lb/>
-             medium caitoe}lendum <hi rend="italic">B</hi> 21 alia <hi rend="italic">B</hi> multas <hi rend="italic">Br</hi> 26 uiam <hi rend="italic">B</hi> <lb/>
-            27 ducit <hi rend="italic">B</hi> 28 montem gelboae <hi rend="italic">B</hi> gigantem <hi rend="italic">B</hi> </note>
-
-<note type="footnote"> XXXVIUI ltln. Hleroaol. </note>
-
-<note type="footnote"> 14 </note> <lb/>
-             
-<pb n="210"/>
+             medium caitoe}lendum <hi rend="italic">B</hi> 21 alia <hi rend="italic">B</hi> multas <hi rend="italic">Br</hi> 26 uiam <hi rend="italic">B</hi>
+                  <lb/>
+            27 ducit <hi rend="italic">B</hi> 28 montem gelboae <hi rend="italic">B</hi> gigantem <hi rend="italic">B</hi>
+               </note>
+               <note type="footnote"> XXXVIUI ltln. Hleroaol. </note>
+               <note type="footnote"> 14 </note>
+               <lb/>
+               <pb n="210"/>
             ibi mortui sunt Saul et filius eius lonathas. Iacet ibi Goliat <lb/>
             in media uia, ligneum ad caput aceruum. Et super eum <lb/>
             congeries magna petrarum. Ita ut a XX milia non possis <lb/>
@@ -793,9 +846,9 @@
             maledixit. Et nocturnis horis secreto ibi uidentur uolui inmundi <lb/>
             spiritus tamquam uellora lanae uel undae maris. 
 </p>
-          </div>
-
-<div n="32" subtype="section" type="textpart"><p> Deinde deuiantes ad latus uenimus in ciuitatem, quae dicitur<lb n="10"/>
+         </div>
+         <div n="32" type="section">
+            <p> Deinde deuiantes ad latus uenimus in ciuitatem, quae dicitur<lb n="10"/>
             Heliuteropolis, in loco, ubi Samson ille fortissimus cum <lb/>
             maxilla asini mille occidit uiros. Ex qua maxilla ipso orante <lb/>
             aqua profluxit. Qui fons loca ipsa usque in hodiernum diem <lb/>
@@ -811,24 +864,25 @@
             fons, in quo Philippus baptizauit eunuchum. In ipsis locis <lb/>
             sunt putei, quos foderunt Abraham scilicet et Iacob, quos <lb/>
             appellarunt calumnia. <lb n="25"/>
-            
-</p>
-          </div>
-
-<div n="33" subtype="section" type="textpart"><p> inde ingressi sumus Ascalon; ibi est puteus pacis in modum <lb/>
+            </p>
+         </div>
+         <div n="33" type="section">
+            <p> inde ingressi sumus Ascalon; ibi est puteus pacis in modum <lb/>
             theatri factus, in quo usque ad aquam descenditur per gradus, <lb/>
             ubi requiescunt tres fratres martyres; propria quidem habent
 
 <note type="footnote"> 1 ionathan filius eius <hi rend="italic">B</hi> golias <hi rend="italic">B</hi> 2 habens ligneum <hi rend="italic">B</hi> 3 congeries <lb/>
             petrarum multa <hi rend="italic">B</hi> infra XX miliaria <hi rend="italic">B</hi> 4 moueri <hi rend="italic">BrB</hi> possit, <hi rend="italic">sed corr,<lb/>
-             cad. m. Br</hi> 5 quotiescumque <hi rend="italic">B</hi> ibi] illuc <hi rend="italic">B</hi> ternos <hi rend="italic">B</hi> 6 eos <hi rend="italic">B</hi> <lb/>
+             cad. m. Br</hi> 5 quotiescumque <hi rend="italic">B</hi> ibi] illuc <hi rend="italic">B</hi> ternos <hi rend="italic">B</hi> 6 eos <hi rend="italic">B</hi>
+                  <lb/>
             7 eis dauid <hi rend="italic">B</hi> 8 ubi <hi rend="italic">Br</hi> 9 uellera <hi rend="italic">B</hi> 11 hely uteropolia <hi rend="italic">B locum B <lb/>
             11 samson ubi B 12 uiros occidit B ipse B 14 Deinde B</hi> 15 ibi requie- <lb/>
-            <hi rend="italic">scit B 16 ibi om. B 17 esaias B sectus B 18 decursum B</hi> 20 Deinde <lb/>
-            <hi rend="italic">B</hi> locum <hi rend="italic">B</hi> deferebat <hi rend="italic">B</hi> 24 et <hi rend="italic">om. B</hi> 25 quas appellauerunt <lb/>
-            calumniam <hi rend="italic">B</hi> 26 ingresi <hi rend="italic">Br</hi> egressi uenimus <hi rend="italic">B</hi> 27 teatri <hi rend="italic">B</hi> grad <hi rend="italic">Br</hi> </note> <lb/>
-             
-<pb n="211"/>
+                  <hi rend="italic">scit B 16 ibi om. B 17 esaias B sectus B 18 decursum B</hi> 20 Deinde <lb/>
+                  <hi rend="italic">B</hi> locum <hi rend="italic">B</hi> deferebat <hi rend="italic">B</hi> 24 et <hi rend="italic">om. B</hi> 25 quas appellauerunt <lb/>
+            calumniam <hi rend="italic">B</hi> 26 ingresi <hi rend="italic">Br</hi> egressi uenimus <hi rend="italic">B</hi> 27 teatri <hi rend="italic">B</hi> grad <hi rend="italic">Br</hi>
+               </note>
+               <lb/>
+               <pb n="211"/>
             nomina, sed uulgariter Aegyptii uocantur. Miliario a ciuitate <lb/>
             Sarafia est ciuitas Mazom Ascalonites. Inde uenimus in ciuitatem <lb/>
             Mazomates, in qua requiescit sanctus Victor martyr. <lb/>
@@ -837,9 +891,9 @@
             amatores peregrinorum. Inde miliario secundo requiescit sanctus <lb/>
             pater Hilarion. 
 </p>
-          </div>
-
-<div n="34" subtype="section" type="textpart"><p rend="script">Et inde uenimus in ciuitate Eluahal in capite heremi, qui  <lb/>
+         </div>
+         <div n="34" type="section">
+            <p rend="script">Et inde uenimus in ciuitate Eluahal in capite heremi, qui  <lb/>
             uadit ad Syna monte, in qua etiam ex reuelatione episcopi <lb/>
             ipsius ciuitatis unum audiuimus, quod silere non oportet, <lb n="10"/>
             miraculum. Puella quedam nobilissima nomine Maria cum <lb/>
@@ -863,18 +917,21 @@
 <note rend="script" type="footnote"> i <lb/>
             1 uulgaliter aegiptii <hi rend="italic">B</hi> 2 mazona <hi rend="italic">B</hi> ascolantes <hi rend="italic">corr. ead. <lb/>
              tll, B</hi> 3 mazoma//tes <hi rend="italic">B</hi> 4 maona, <hi rend="italic">l</hi>. z <hi rend="italic">ead. m. ascripta B</hi> autem <lb/>
-            est <hi rend="italic">B</hi> 5 splendidissima <hi rend="italic">B</hi> diliciosa <hi rend="italic">B</hi> docori <hi rend="italic">Br</hi> 7 pater <hi rend="italic">om. B</hi> <lb/>
-            8 Deinde <hi rend="italic">B</hi> ciuitatem eluaha <hi rend="italic">B</hi> que <hi rend="italic">B</hi> 9 montem syna <hi rend="italic">B</hi> <lb/>
-            10 audiuimus miraculum <hi rend="italic">B</hi> 11 miraculum <hi rend="italic">om. B</hi> 15 ueate <hi rend="italic">B</hi> <lb/>
+            est <hi rend="italic">B</hi> 5 splendidissima <hi rend="italic">B</hi> diliciosa <hi rend="italic">B</hi> docori <hi rend="italic">Br</hi> 7 pater <hi rend="italic">om. B</hi>
+                  <lb/>
+            8 Deinde <hi rend="italic">B</hi> ciuitatem eluaha <hi rend="italic">B</hi> que <hi rend="italic">B</hi> 9 montem syna <hi rend="italic">B</hi>
+                  <lb/>
+            10 audiuimus miraculum <hi rend="italic">B</hi> 11 miraculum <hi rend="italic">om. B</hi> 15 ueate <hi rend="italic">B</hi>
+                  <lb/>
             n <lb/>
             16 tras <hi rend="italic">corr. ead. tn. Br</hi> trans Iordanen <hi rend="italic">om. B</hi> 17 uel] <hi rend="italic">et B</hi> antc, <lb/>
-            <hi rend="italic">sed lineola expuncta Br,</hi> antem <hi rend="italic">B</hi> 19 que <hi rend="italic">Br</hi> qui <hi rend="italic">B</hi> 20 deportabant Br <lb/>
+                  <hi rend="italic">sed lineola expuncta Br,</hi> antem <hi rend="italic">B</hi> 19 que <hi rend="italic">Br</hi> qui <hi rend="italic">B</hi> 20 deportabant Br <lb/>
             21 adpropinquassemus <hi rend="italic">B</hi> 23 ipsius <hi rend="italic">B</hi> 25 et <hi rend="italic">om. B</hi> solidis ex <lb/>
-            solidos, <hi rend="italic">corr. ead. m. Br</hi> 27 tunicas <hi rend="italic">B</hi> </note>
-
-<note type="footnote"> 14* </note> <lb/>
-             
-<pb n="212"/>
+            solidos, <hi rend="italic">corr. ead. m. Br</hi> 27 tunicas <hi rend="italic">B</hi>
+               </note>
+               <note type="footnote"> 14* </note>
+               <lb/>
+               <pb n="212"/>
             ipsae nobis dixerunt de uirtutibus Mariae, cuius superius <lb/>
             mentionem fecimus, quae ambulauerat in heremo sola portans <lb/>
             legumina et sportellas plenas uel tonicas, quas ei cupiebant <lb/>
@@ -884,9 +941,9 @@
             Sed tantum sepius dicebat flens: Ye mihi miserae, cuius causa <lb/>
             me christiana dico? 
 </p>
-          </div>
-
-<div n="35" subtype="section" type="textpart"><p> Froficiscentes de ciuitate Heulatia intrauimus heremum <lb/>
+         </div>
+         <div n="35" type="section">
+            <p> Froficiscentes de ciuitate Heulatia intrauimus heremum <lb/>
             miliario XXO. In quo est castrum, ubi est synodochium sancti<lb n="10"/>
             Georgii. In quo habent transeuntes uel heremitae refugium <lb/>
             uel stipendia. Inde intrantes in interiorem heremum uenimus <lb/>
@@ -898,9 +955,9 @@
             pedes anulos missos. Interrogauimus, quare sic. Qui dixerunt: <lb/>
             Quia Troianus imperator signum hoc nobis reliquid. 
 </p>
-          </div>
-
-<div n="36" subtype="section" type="textpart"><p rend="script"> Ambulantes per heremum dies VI camelis nobis aquam <lb n="20"/>
+         </div>
+         <div n="36" type="section">
+            <p rend="script"> Ambulantes per heremum dies VI camelis nobis aquam <lb n="20"/>
             portantibus sestarium mane et sestarium uespere cotidie dabatur <lb/>
             per hominem. Amarescente aqua in utres in modum <lb/>
             fellis mittebamus in ea harenam et indulcabatur. Familia autem <lb/>
@@ -909,30 +966,36 @@
             transeuntibus. Et ueniebant uiri ipsarum de interiore parte
 
 <note type="footnote"> 13 Paalm. 106, 34 </note>
-
-<note rend="script" type="footnote"> 1 ipsi <hi rend="italic">B</hi> 3 de legumimbus sportellas <hi rend="italic">B</hi> et spontellas <hi rend="italic">Br</hi> tunicas <hi rend="italic">B</hi> <lb/>
+               <note rend="script" type="footnote"> 1 ipsi <hi rend="italic">B</hi> 3 de legumimbus sportellas <hi rend="italic">B</hi> et spontellas <hi rend="italic">Br</hi> tunicas <hi rend="italic">B</hi>
+                  <lb/>
             y <lb/>
-            cupiebant ci <hi rend="italic">B</hi> 4 anferre <hi rend="italic">B</hi> de eis <hi rend="italic">B</hi> 6 affliccionem <hi rend="italic">B</hi> proratu <hi rend="italic">Br</hi> <lb/>
-            7 dicebant, <hi rend="italic">sed l</hi>. n <hi rend="italic">expuncta B</hi> \' misera <hi rend="italic">Br</hi> misere <hi rend="italic">B</hi> 8 christianam <hi rend="italic">B</hi> <lb/>
+            cupiebant ci <hi rend="italic">B</hi> 4 anferre <hi rend="italic">B</hi> de eis <hi rend="italic">B</hi> 6 affliccionem <hi rend="italic">B</hi> proratu <hi rend="italic">Br</hi>
+                  <lb/>
+            7 dicebant, <hi rend="italic">sed l</hi>. n <hi rend="italic">expuncta B</hi> \' misera <hi rend="italic">Br</hi> misere <hi rend="italic">B</hi> 8 christianam <hi rend="italic">B</hi>
+                  <lb/>
             9 <hi rend="italic">A uerbis</hi> de ciuitate <hi rend="italic">incipit M</hi> enlatia <hi rend="italic">B</hi> 10 qua <hi rend="italic">ex</hi> quo <hi rend="italic">corr. 2. <lb/>
             m. B 12 siue stipendium B transeuntes B 13 loca Aflocum BrB</hi> de <lb/>
-            quo <hi rend="italic">B</hi> terram fructiferam <hi rend="italic">B</hi> salsuginem <hi rend="italic">B</hi> 14 amaritudinem <hi rend="italic">B</hi> <lb/>
-            15 rascia <hi rend="italic">Br</hi> camelis <hi rend="italic">B</hi> 16 ethyopia <hi rend="italic">M</hi> 17 spissas <hi rend="italic">B</hi> 20 septem <hi rend="italic">B</hi> <lb/>
-            21 sextarius <hi rend="italic">B</hi> cottidie <hi rend="italic">B</hi> 22 utribuB <hi rend="italic">B</hi> 23 eam <hi rend="italic">B</hi> haerena <hi rend="italic">Br</hi> <lb/>
-            arenam <hi rend="italic">B</hi> 24 saracenorum <hi rend="italic">B</hi> heremo <hi rend="italic">B</hi> 25 lamentatio <hi rend="italic">BrJl</hi> <lb/>
-            sedentes in uia <hi rend="italic">B</hi> panes <hi rend="italic">B</hi> 26 ipsarum uiri <hi rend="italic">B</hi></note> <lb/>
-             
-<pb n="213"/>
+            quo <hi rend="italic">B</hi> terram fructiferam <hi rend="italic">B</hi> salsuginem <hi rend="italic">B</hi> 14 amaritudinem <hi rend="italic">B</hi>
+                  <lb/>
+            15 rascia <hi rend="italic">Br</hi> camelis <hi rend="italic">B</hi> 16 ethyopia <hi rend="italic">M</hi> 17 spissas <hi rend="italic">B</hi> 20 septem <hi rend="italic">B</hi>
+                  <lb/>
+            21 sextarius <hi rend="italic">B</hi> cottidie <hi rend="italic">B</hi> 22 utribuB <hi rend="italic">B</hi> 23 eam <hi rend="italic">B</hi> haerena <hi rend="italic">Br</hi>
+                  <lb/>
+            arenam <hi rend="italic">B</hi> 24 saracenorum <hi rend="italic">B</hi> heremo <hi rend="italic">B</hi> 25 lamentatio <hi rend="italic">BrJl</hi>
+                  <lb/>
+            sedentes in uia <hi rend="italic">B</hi> panes <hi rend="italic">B</hi> 26 ipsarum uiri <hi rend="italic">B</hi>
+               </note>
+               <lb/>
+               <pb n="213"/>
             heremi adducebantque utres cum aqua frigida et accipiebant <lb/>
             sibi panes. Et adducebant restes cum radices, quarum odor <lb/>
             suauissimus super aromata et dies suos festos celebrabant. <lb/>
             Populus autem, qui per ipsum maiorem heremum ingrediebatur, <lb/>
             ad explorandum numero XII milia sexcenti. <lb n="5"/>
-            
-</p>
-          </div>
-
-<div n="37" subtype="section" type="textpart"><p>Qui perambulantes heremum octaua die uenimus ad montem  <lb/>
+            </p>
+         </div>
+         <div n="37" type="section">
+            <p>Qui perambulantes heremum octaua die uenimus ad montem  <lb/>
             dei Choreb. Et inde mouentes, ut ascenderemus monte Syna, <lb/>
             ecce multitudo monachorum heremitarum cum cruces psallentes <lb/>
             obuiauerunt nobis, prostrati in terram adorauerunt nos. <lb/>
@@ -952,23 +1015,28 @@
             deuotione tondent capillos suos et barbas. Nam et ego ibi <lb/>
             tetigi barbam meam. 
 </p>
-          </div>
-
-<div n="38" subtype="section" type="textpart"><p>Mons uero Syna petrosus est, raro habet terram, et in  <lb n="25"/>
+         </div>
+         <div n="38" type="section">
+            <p>Mons uero Syna petrosus est, raro habet terram, et in  <lb n="25"/>
             circuitu eius cellulae multae seruorum dei, similiter et in <lb/>
             Choreb. Et in parte ipsius montis habent Sarraceni idolum
 
-<note type="footnote"> <hi rend="italic">2 redices Br radicibus B 3 festos suos B</hi> 4 maiorem haeremum <lb/>
-            <hi rend="italic">Br</hi> heremum maiorem <hi rend="italic">B</hi> 5 explorandam <hi rend="italic">B</hi> XII sexcenti <hi rend="italic">B</hi> 6 hpremum <lb/>
-            <hi rend="italic">Br</hi> octaba <hi rend="italic">B</hi> 7 oreb <hi rend="italic">B</hi> montem syna <hi rend="italic">B</hi> 8 baremitarum <lb/>
-            <hi rend="italic">Br</hi> et heremitarom <hi rend="italic">B</hi> uenientes cum crucibus <hi rend="italic">B</hi> 11 pedem <hi rend="italic">B</hi> <lb/>
-            13 infra ipsum <hi rend="italic">B</hi> 14 latina greca syra et aegyptiaca et bessa <hi rend="italic">M</hi> <lb/>
+<note type="footnote">
+                  <hi rend="italic">2 redices Br radicibus B 3 festos suos B</hi> 4 maiorem haeremum <lb/>
+                  <hi rend="italic">Br</hi> heremum maiorem <hi rend="italic">B</hi> 5 explorandam <hi rend="italic">B</hi> XII sexcenti <hi rend="italic">B</hi> 6 hpremum <lb/>
+                  <hi rend="italic">Br</hi> octaba <hi rend="italic">B</hi> 7 oreb <hi rend="italic">B</hi> montem syna <hi rend="italic">B</hi> 8 baremitarum <lb/>
+                  <hi rend="italic">Br</hi> et heremitarom <hi rend="italic">B</hi> uenientes cum crucibus <hi rend="italic">B</hi> 11 pedem <hi rend="italic">B</hi>
+                  <lb/>
+            13 infra ipsum <hi rend="italic">B</hi> 14 latina greca syra et aegyptiaca et bessa <hi rend="italic">M</hi>
+                  <lb/>
             15 persam <hi rend="italic">B</hi> 16 belyas <hi rend="italic">BM</hi> fugit ante <hi rend="italic">BM</hi> 17 gezabel <hi rend="italic">B</hi> ipsam <lb/>
             speluncam <hi rend="italic">B</hi> 18 inrigat <hi rend="italic">B</hi> summum cacumen <hi rend="italic">B</hi> 22 ipsi] <lb/>
-            ibi <hi rend="italic">MB</hi> 28 nam <hi rend="italic">om. B</hi> 24 tetigi uel totondi <hi rend="italic">B</hi> 25 sina <hi rend="italic">B</hi> <lb/>
-            27 oreb <hi rend="italic">B</hi> Et <hi rend="italic">om. B</hi> </note> <lb/>
-             
-<pb n="214"/>
+            ibi <hi rend="italic">MB</hi> 28 nam <hi rend="italic">om. B</hi> 24 tetigi uel totondi <hi rend="italic">B</hi> 25 sina <hi rend="italic">B</hi>
+                  <lb/>
+            27 oreb <hi rend="italic">B</hi> Et <hi rend="italic">om. B</hi>
+               </note>
+               <lb/>
+               <pb n="214"/>
             suum positum marmoreum, candidum tamquam nix. Ibi etiam <lb/>
             permanet sacerdos ipsorum indutus dalmaticam et pallium <lb/>
             lineum. Et quando uenit tempus festiuitatis illorum praecurrente <lb/>
@@ -978,9 +1046,9 @@
             festiuitatis reuertitur iterum in pristino colore. Unde ualde <lb/>
             ammiratus sum. 
 </p>
-          </div>
-
-<div n="39" subtype="section" type="textpart"><p> Inter Syna et Choreb est uallis, in qua certis temporibus <lb/>
+         </div>
+         <div n="39" type="section">
+            <p> Inter Syna et Choreb est uallis, in qua certis temporibus <lb/>
             descendit ros de caelo, quem manna appellant, et coagulatur<lb n="10"/>
             et fit tamquam grano masticis et habent inde plenos doleos. <lb/>
             Et dant aliis pro benedictione. Et nobis dederunt sestarios <lb/>
@@ -992,9 +1060,9 @@
             heremum, per quo ingressi sumus. Alii per Aegyptum, alii <lb/>
             per Arabiam reuerterentur in sanctam ciuitatem. 
 </p>
-          </div>
-
-<div n="40" subtype="section" type="textpart"><p> 1 De monte Syna usque in Arabiam ciuitatem, quae uocatur<lb n="20"/>
+         </div>
+         <div n="40" type="section">
+            <p> 1 De monte Syna usque in Arabiam ciuitatem, quae uocatur<lb n="20"/>
             Abela, sunt mansiones VII. In Abela autem descendentes <lb/>
             naues de India cum diuersis aromatibus. Visum est nobis per <lb/>
             Aegyptum reuerti. Et uenimus in ciuitatem, in qua pugnauit <lb/>
@@ -1005,15 +1073,19 @@
             in manibus portantes et ampullas cum rafano oleo; prostratae
 
 <note type="footnote"> 1 tanquam <hi rend="italic">M</hi> sicut <hi rend="italic">B</hi> 2 dalmatica et palleo lineo <hi rend="italic">B</hi> 4 ipsorum. Incipit <lb/>
-            <hi rend="italic">Br</hi> 6 sicut <hi rend="italic">B</hi> 7 pristinum colorem <hi rend="italic">B</hi> ualle <hi rend="italic">Br</hi> 9 quam <hi rend="italic">B</hi> 10 coago- <lb/>
-            <hi rend="italic">latur B</hi> 11 <hi rend="italic">tanquam B maticis Br</hi> granum <hi rend="italic">martyris B1, marcycis B 2</hi> <lb/>
-            et inde habent <hi rend="italic">B</hi> 12 sextarios-dederunt <hi rend="italic">l. 13 om. B</hi> 14 Nam <hi rend="italic">om. M</hi> <lb/>
+                  <hi rend="italic">Br</hi> 6 sicut <hi rend="italic">B</hi> 7 pristinum colorem <hi rend="italic">B</hi> ualle <hi rend="italic">Br</hi> 9 quam <hi rend="italic">B</hi> 10 coago- <lb/>
+                  <hi rend="italic">latur B</hi> 11 <hi rend="italic">tanquam B maticis Br</hi> granum <hi rend="italic">martyris B1, marcycis B 2</hi>
+                  <lb/>
+            et inde habent <hi rend="italic">B</hi> 12 sextarios-dederunt <hi rend="italic">l. 13 om. B</hi> 14 Nam <hi rend="italic">om. M</hi>
+                  <lb/>
             nam et in <hi rend="italic">B</hi> capraeae <hi rend="italic">Br</hi> 15 purdones <hi rend="italic">B</hi> leditnr <hi rend="italic">B</hi> 16 heremi <lb/>
-            <hi rend="italic">et sic saepe Br</hi> 17 hysmahelytarum <hi rend="italic">M</hi> ismahelitarum <hi rend="italic">B</hi> 18 per quem <hi rend="italic">B</hi> <lb/>
+                  <hi rend="italic">et sic saepe Br</hi> 17 hysmahelytarum <hi rend="italic">M</hi> ismahelitarum <hi rend="italic">B</hi> 18 per quem <hi rend="italic">B</hi>
+                  <lb/>
             aegiptum <hi rend="italic">B</hi> 21 nouem <hi rend="italic">B</hi> 24 aratorium <hi rend="italic">Br</hi> positum <hi rend="italic">B</hi> 25 subposuerunt <lb/>
-            <hi rend="italic">B</hi> 26 ualde sterilis <hi rend="italic">B</hi> 28 tenentes <hi rend="italic">B</hi> raphano <hi rend="italic">B</hi> prostrati <hi rend="italic">B</hi> </note> <lb/>
-             
-<pb n="215"/>
+                  <hi rend="italic">B</hi> 26 ualde sterilis <hi rend="italic">B</hi> 28 tenentes <hi rend="italic">B</hi> raphano <hi rend="italic">B</hi> prostrati <hi rend="italic">B</hi>
+               </note>
+               <lb/>
+               <pb n="215"/>
             pedibus nostris ungebant plantas nostras et capita lingua <lb/>
             aegyptiaca psallentes antiphonam: Benedicti uos a Domino et <lb/>
             benedictus aduentus uester. Osanna in excelsis\'. Ipsa est terra <lb/>
@@ -1022,9 +1094,9 @@
             )militantes in publico cum uxoribus suis, annonam et uestes <lb/>
             accipientes ex Aegypto. 
 </p>
-          </div>
-
-<div n="41" subtype="section" type="textpart"><p rend="script">De quibus locis uenimus Magdalo et Soccoth et a&lt; d) septuaginta  <lb/>
+         </div>
+         <div n="41" type="section">
+            <p rend="script">De quibus locis uenimus Magdalo et Soccoth et a&lt; d) septuaginta  <lb/>
             duas palmas et duodecim fontes et applicuimus ibi dies <lb/>
             duos, fatigati post tantum laborem et heremi uastitatem. In <lb n="10"/>
             quo loco est castellum modicum, qui uocatur Surandala. Est <lb/>
@@ -1041,26 +1113,31 @@
             Pharaonis et omnia arma in marmore mutata uidentur. Ibi <lb/>
             accepimus nuces uirides, quae de India uenerunt, quas de <lb/>
             paradiso credunt homines esse, et qui ex eis gustauerit, satiatur. <lb/>
-            
-</p>
-</div>
-
-<div n="42" subtype="section" type="textpart"><p>Intus autem in ipso pelago modica est insula, in qua est <lb n="25"/>
+            </p>
+         </div>
+         <div n="42" type="section">
+            <p>Intus autem in ipso pelago modica est insula, in qua est <lb n="25"/>
             petra uiua, ubi pendent molles ut carnei in modum dactalorum,  <lb/>
             qui fundent unguentum, quod oleum petrinum appellant, qui
 
-<note rend="script" type="footnote"> , 2 antyphonam <hi rend="italic">B</hi> 4 et inhabitantes <hi rend="italic">B</hi> ciuitate <hi rend="italic">B</hi> autem] enim <hi rend="italic">B</hi> <lb/>
-            5 socero <hi rend="italic">BrM</hi> octingentos <hi rend="italic">B</hi> 6 puplico <hi rend="italic">B</hi> 7 de ggipto <hi rend="italic">B</hi> <lb/>
+<note rend="script" type="footnote"> , 2 antyphonam <hi rend="italic">B</hi> 4 et inhabitantes <hi rend="italic">B</hi> ciuitate <hi rend="italic">B</hi> autem] enim <hi rend="italic">B</hi>
+                  <lb/>
+            5 socero <hi rend="italic">BrM</hi> octingentos <hi rend="italic">B</hi> 6 puplico <hi rend="italic">B</hi> 7 de ggipto <hi rend="italic">B</hi>
+                  <lb/>
             C <lb/>
-            8 ma dolo et sochot et ad LXXII dalmas <hi rend="italic">B</hi> 9 fuimus ibi duos dies <hi rend="italic">B</hi> <lb/>
-            10 tantam <hi rend="italic">B</hi> 11 quod <hi rend="italic">B</hi> surandal\'7/ <hi rend="italic">Br</hi> 12 sinodocbio <hi rend="italic">B</hi> <lb/>
+            8 ma dolo et sochot et ad LXXII dalmas <hi rend="italic">B</hi> 9 fuimus ibi duos dies <hi rend="italic">B</hi>
+                  <lb/>
+            10 tantam <hi rend="italic">B</hi> 11 quod <hi rend="italic">B</hi> surandal\'7/ <hi rend="italic">Br</hi> 12 sinodocbio <hi rend="italic">B</hi>
+                  <lb/>
             13 transierunt <hi rend="italic">B</hi> 14 rubrum et castra <hi rend="italic">B</hi> 15 sinodochio <hi rend="italic">B</hi> 16 haeliae <lb/>
-            <hi rend="italic">Br</hi> transeuntes <hi rend="italic">M</hi> ad locum <hi rend="italic">B</hi> 17 et <hi rend="italic">om. M</hi> 18 disina <lb/>
+                  <hi rend="italic">Br</hi> transeuntes <hi rend="italic">M</hi> ad locum <hi rend="italic">B</hi> 17 et <hi rend="italic">om. M</hi> 18 disina <lb/>
             quo <hi rend="italic">B</hi> 19 fluuius <hi rend="italic">B</hi> 20 intul <hi rend="italic">Br</hi> milibus <hi rend="italic">om. B</hi> quia Jt <lb/>
-            22 marmorem <hi rend="italic">B</hi> 23 uirides Duces <hi rend="italic">B</hi> de <hi rend="italic">om. Br</hi> indj a <hi rend="italic">BrM</hi> <lb/>
-            24 paradyso <hi rend="italic">M</hi> ex eas <hi rend="italic">M</hi> 26 dactilorum <hi rend="italic">B</hi> </note> <lb/>
-             
-<pb n="216"/>
+            22 marmorem <hi rend="italic">B</hi> 23 uirides Duces <hi rend="italic">B</hi> de <hi rend="italic">om. Br</hi> indj a <hi rend="italic">BrM</hi>
+                  <lb/>
+            24 paradyso <hi rend="italic">M</hi> ex eas <hi rend="italic">M</hi> 26 dactilorum <hi rend="italic">B</hi>
+               </note>
+               <lb/>
+               <pb n="216"/>
             pro maxima benedictione tollitur. Vas, in quo portatur, si impletus <lb/>
             fuerit et uolueris reiterare ad tollendum, iam non eum <lb/>
             capit. In quo loco quanticumque egroti maximeque egroti <lb/>
@@ -1071,11 +1148,10 @@
              per duo milia. Infra ciuitate ipsa, quae dicitur Clysma, <lb/>
             intus in basilica uidimus loculos ligneos sanctorum heremitarum <lb/>
             patrum XIIII. <lb n="10"/>
-            
-</p>
-          </div>
-
-<div n="43" subtype="section" type="textpart"><p> Et inde uenimus per heremum ad speluncam beati Pauli <lb/>
+            </p>
+         </div>
+         <div n="43" type="section">
+            <p> Et inde uenimus per heremum ad speluncam beati Pauli <lb/>
             heremitae, quae uocatur syracumba. Qui fons locum ipsum irrigat. <lb/>
             Exinde pergentes uenimus ad ca<add>et</add>ractas Nili, ubi ascendit <lb/>
             aqua ad signum manu hominis facta, et habet gradus XII. <lb/>
@@ -1085,9 +1161,9 @@
             ciuitate et Antino, in qua residebat pharao, ex qua filii Israhel <lb/>
             exierunt. In ipsis locis sunt orrea XII Ioseph plena. 
 </p>
-          </div>
-
-<div n="44" subtype="section" type="textpart"><p> In Nymphy fuit templum, quae est modo ecclesia, cuius<lb n="20"/>
+         </div>
+         <div n="44" type="section">
+            <p> In Nymphy fuit templum, quae est modo ecclesia, cuius<lb n="20"/>
             una porta se clausit ante Dominum nostrum, quando beata <lb/>
             Maria cum ipso fuit in Aegyptum, et adhuc non potest aperiri. <lb/>
             Ibi uidimus pallium lineum, in quo dicunt illum tempore illo <lb/>
@@ -1098,19 +1174,23 @@
 
 <note type="footnote"> 1 pro maxima] proxima <hi rend="italic">Br</hi> in qua <hi rend="italic">B</hi> impletur <hi rend="italic">B</hi> 3 maximeque <lb/>
             egroti <hi rend="italic">om. B</hi> 5 clisma <hi rend="italic">B</hi> 6 misceatur <hi rend="italic">B</hi> adulteretur <hi rend="italic">Br</hi> quia <lb/>
-            semper ipsam faceret uirtutem <hi rend="italic">B</hi> 8 ciuitatem ipsam <hi rend="italic">B</hi> clisma <hi rend="italic">B</hi> <lb/>
-            10 XIII <hi rend="italic">BM</hi> 11 Exinde <hi rend="italic">B cum uoce</hi> speluncam\' <hi rend="italic">desinit M</hi> <lb/>
+            semper ipsam faceret uirtutem <hi rend="italic">B</hi> 8 ciuitatem ipsam <hi rend="italic">B</hi> clisma <hi rend="italic">B</hi>
+                  <lb/>
+            10 XIII <hi rend="italic">BM</hi> 11 Exinde <hi rend="italic">B cum uoce</hi> speluncam\' <hi rend="italic">desinit M</hi>
+                  <lb/>
             12 haeremitae <hi rend="italic">Br</hi> totum locum <hi rend="italic">B</hi> inrigat <hi rend="italic">B</hi> 16 et <hi rend="italic">om. B</hi> 17 babilonia <lb/>
-            dicitur <hi rend="italic">B</hi> campesthaneos <hi rend="italic">B</hi> nimphi <hi rend="italic">B</hi> 19 horrea <hi rend="italic">B</hi> 20 nimfl <hi rend="italic">B</hi> <lb/>
-            quod <hi rend="italic">B</hi> 21 eclesiae porta <hi rend="italic">B</hi> 22 fugit B aegiptum <hi rend="italic">semper B</hi> <lb/>
+            dicitur <hi rend="italic">B</hi> campesthaneos <hi rend="italic">B</hi> nimphi <hi rend="italic">B</hi> 19 horrea <hi rend="italic">B</hi> 20 nimfl <hi rend="italic">B</hi>
+                  <lb/>
+            quod <hi rend="italic">B</hi> 21 eclesiae porta <hi rend="italic">B</hi> 22 fugit B aegiptum <hi rend="italic">semper B</hi>
+                  <lb/>
             23 palleum <hi rend="italic">B</hi> cum quo <hi rend="italic">B</hi> illo tempore <hi rend="italic">B</hi> 24 eius uestigia ibi <lb/>
-            remansisse <hi rend="italic">B</hi> 25 et <hi rend="italic">om. Br</hi> 26 in eant <hi rend="italic">B</hi> 27 inmutatur <hi rend="italic">B</hi> </note> 
-<pb n="217"/>
-             
-</p>
-          </div>
-
-<div n="45" subtype="section" type="textpart"><p>Descendentes per Aegyptum uenimus in ciuitatem Athlepi ad  <lb/>
+            remansisse <hi rend="italic">B</hi> 25 et <hi rend="italic">om. Br</hi> 26 in eant <hi rend="italic">B</hi> 27 inmutatur <hi rend="italic">B</hi>
+               </note>
+               <pb n="217"/>
+            </p>
+         </div>
+         <div n="45" type="section">
+            <p>Descendentes per Aegyptum uenimus in ciuitatem Athlepi ad  <lb/>
             sanctum Mennatum, qui multas uirtutes ibi operatur. Inde per <lb/>
             stagnum nauigantes Alexandriam uenimus. In ipso stagno uidimus <lb/>
             multitudinem corcodrillorum. Alexandria, ciuitas pulchra, <lb/>
@@ -1122,9 +1202,9 @@
             sanctus Faustus et sanctus Epymachius et sanctus Antonius <lb n="10"/>
             uel sanctus Maurus et alia multa sanctorum corpora. 
 </p>
-          </div>
-
-<div n="46" subtype="section" type="textpart"><p rend="script">Iterum uenientes Hierusolima, ubi ego egrotus per multum  <lb/>
+         </div>
+         <div n="46" type="section">
+            <p rend="script">Iterum uenientes Hierusolima, ubi ego egrotus per multum  <lb/>
             tempus iacui, usquedum uidi per uisionem sanctum Antonium <lb/>
             et beatam Eufemiam, qui me pariter sanauerunt. Egressi de <lb/>
             Hierusolima ueni Ioppen, ubi iacet sancta Thabita, quae dicitur <lb n="15"/>
@@ -1142,20 +1222,22 @@
             est omnis nobilitas Syrorum.
 
 <note rend="script" type="footnote"> 2 mennanum <hi rend="italic">B</hi> ibi <hi rend="italic">om. B</hi> 3 stannum <hi rend="italic">B</hi> stanno <hi rend="italic">B</hi> 7 praecon <lb/>
-            <lb/>
+                  <lb/>
             sbeterium <hi rend="italic">Br</hi> presbiterum <hi rend="italic">B</hi> 9 staotii imperatoris stantini helenae <lb/>
             filio <hi rend="italic">(cum uocabulo</hi> stantini\' noua <hi rend="italic">pagina incipit) B</hi> 10 epimachus <lb/>
-            et s. maurus <hi rend="italic">B</hi> 12 hierosolimam <hi rend="italic">B</hi> 13 antoninum <hi rend="italic">B</hi> 15 uenimus <hi rend="italic">B</hi> <lb/>
+            et s. maurus <hi rend="italic">B</hi> 12 hierosolimam <hi rend="italic">B</hi> 13 antoninum <hi rend="italic">B</hi> 15 uenimus <hi rend="italic">B</hi>
+                  <lb/>
             16 dorcas <hi rend="italic">B</hi> cesaream <hi rend="italic">B</hi> statonis <hi rend="italic">Br</hi> 17 cessarea <hi rend="italic">B</hi> requiescunt <lb/>
-            <hi rend="italic">B</hi> 18 pamplius <hi rend="italic">Br</hi> 20 ibi eBt <hi rend="italic">B</hi> 21 uico <hi rend="italic">B</hi> uocatus est <hi rend="italic">B</hi> <lb/>
+                  <hi rend="italic">B</hi> 18 pamplius <hi rend="italic">Br</hi> 20 ibi eBt <hi rend="italic">B</hi> 21 uico <hi rend="italic">B</hi> uocatus est <hi rend="italic">B</hi>
+                  <lb/>
             22 ibi multae uirtutes fiunt <hi rend="italic">B</hi> uenimus eliopoli <hi rend="italic">B</hi> 24 et uidimus <lb/>
-            ibi <hi rend="italic">B</hi> 25 arissam et aristosam et epiphaniam <hi rend="italic">B hic desinit B</hi> </note> 
-<pb n="218"/>
-             
-</p>
-          </div>
-
-<div n="47" subtype="section" type="textpart"><p> Inde exeuntes uenimus Antiochia maiore, in qua requiescit <lb/>
+            ibi <hi rend="italic">B</hi> 25 arissam et aristosam et epiphaniam <hi rend="italic">B hic desinit B</hi>
+               </note>
+               <pb n="218"/>
+            </p>
+         </div>
+         <div n="47" type="section">
+            <p> Inde exeuntes uenimus Antiochia maiore, in qua requiescit <lb/>
             sanctus B&lt;ab&gt;yllas episcopus et tres paruuli et sancta Iustina et <lb/>
             sanctus lulianus et fratres Machabei, hoc est septem sepulchra, <lb/>
             et super uniuscuiusque sepulchrum scripta sunt passiones <lb/>
@@ -1168,9 +1250,9 @@
             et sanctus Georgius. Sed sanctus Georgius in ciuitate Tyro <lb/>
             requiescit. 
 </p>
-          </div>
-
-<div n="48" subtype="section" type="textpart"><p> Tunc per tanta et talia uidimus loca in miraculis posita. <lb/>
+         </div>
+         <div n="48" type="section">
+            <p> Tunc per tanta et talia uidimus loca in miraculis posita. <lb/>
             Reuersi post nos per multa castella, per plateas, uicos, uillas <lb/>
             uel ciuitates, fatigati ex tam longo itinere, coepimus iter carpere;<lb n="15"/>
             transeuntes mare uenimus Italiam propriam regionem, adiuuante <lb/>
@@ -1183,26 +1265,22 @@
             ciuitate nostra, posita super fluuio, qui dicitur Padus, infra <lb/>
             iam dicta Italia. 
 </p>
-          <p>EXPLICIT FELICITER. AMEN.
+            <p>EXPLICIT FELICITER. AMEN.
 
 <note type="footnote"> 11 <hi rend="italic">tyra Br</hi> 15 iter] ita <hi rend="italic">Br</hi> 16 regionem. Adiunante <hi rend="italic">Br</hi> 23 par- <lb/>
-            Jus <hi rend="italic">Br</hi></note> <lb n="25"/>
-            
-</p>
-        
-</div>
-        
-<pb n="219"/>
-        
-<pb n="220"/>
-        
-<pb n="221"/>
-        
-        <div subtype="chapter" type="textpart">
-          <head>
-            <title type="main">PRAEFATIO. </title>
-          </head>
-          <p>Arculfus sanctus episcopus gente Gallus diuersorum longe <lb/>
+            Jus <hi rend="italic">Br</hi>
+               </note>
+               <lb n="25"/>
+            </p>
+         </div>
+         <pb n="219"/>
+         <pb n="220"/>
+         <pb n="221"/>
+         <div type="chapter">
+            <head>
+               <title type="main">PRAEFATIO. </title>
+            </head>
+            <p>Arculfus sanctus episcopus gente Gallus diuersorum longe <lb/>
             remotorum peritus locorum uerax index et satis idoneus in <lb/>
             Hierosolymitana ciuitate per menses nouem hospitatus et loca <lb/>
             sancta cotidianis uisitationibus peragrans mihi Adamnano haec <lb n="5"/>
@@ -1211,9 +1289,7 @@
             narratione dictauit, quae nunc in membranis breui textu <lb/>
             scribuntur. 
 </p>
-
-
-</div></div>
-</body>
-</text>
+         </div>
+      </body>
+   </text>
 </TEI>

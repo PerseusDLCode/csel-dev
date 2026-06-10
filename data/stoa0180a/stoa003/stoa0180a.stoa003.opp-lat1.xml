@@ -1,98 +1,104 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title xml:lang="lat">De Regibus Apostaticis</title>
-        <author>Lucifer, Bishop of Cagliari</author>
-        <editor>Wilhelm von Hartel</editor>
-        <sponsor>University of Leipzig</sponsor>
-        <funder>European Social Fund Saxony</funder>
-        <principal>Gregory Crane</principal>
-        <respStmt>
-          <persName xml:id="Jouve">Jouve</persName>
-          <resp>OCR-ed, corrected and encoded the text</resp>
-        </respStmt>
-        <respStmt>
-          <persName>Greta Franzini</persName>
-          <resp>Project Manager (University of Leipzig)</resp>
-        </respStmt>
-        <respStmt>
-          <persName>Simona Stoyanova</persName>
-          <resp>Project Assistant (University of Leipzig)</resp>
-        </respStmt>
-        <respStmt>
-          <persName>Bruce Robertson</persName>
-          <resp>Technical Advisor (Mount Allison University)</resp>
-        </respStmt>
-        <respStmt>
-          <persName>Uvius Fonticola</persName>
-          <resp>Technical Advisor (Ludwig Maximilians University Munich)</resp>
-        </respStmt>
-      </titleStmt>
-      
-      <publicationStmt>
-        <authority>University of Leipzig</authority>
-        <idno type="filename">stoa0180a.stoa003.opp-lat1.xml</idno>
-        <availability>
-          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
-        </availability>
-        <date>2014</date>
-        <publisher>University of Leipzig</publisher>
-        <pubPlace>Germany</pubPlace>
-      </publicationStmt>
-      
-      <sourceDesc>
-        <listBibl>
-          <biblStruct>
-            <monogr>
-              <editor>
-                <persName>
-                  <name>Wilhelm von Hartel</name>
-                </persName>
-              </editor> 
-              <author xml:lang="lat">Lucifer Calaritanus</author>  
-              <title xml:lang="lat">Luciferi Calaritani Opuscula</title>
-              <imprint>
-                <publisher xml:lang="deu">Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
-                <pubPlace  xml:lang="deu">Wien, Österreich</pubPlace>
-                <date>1886</date>
-              </imprint>              
-            </monogr>
-            <series>
-              <title level="s" xml:lang="lat">Corpus scriptorum ecclesiasticorum Latinorum</title>
-              <biblScope unit="volume">14</biblScope>
-            </series>
-            <ref target="http://archive.org/stream/corpusscriptoru03wissgoog#page/n4/mode/2up">Internet Archive</ref>
-            
-          </biblStruct>
-        </listBibl>
-      </sourceDesc>
-      
-    </fileDesc>
-    <encodingDesc>
-      <p>The following text is encoded in accordance with EpiDoc standards and with the
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/PerseusDLCode/perseus-schemas/main/perseus_prose.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="lat">De Regibus Apostaticis</title>
+            <author>Lucifer, Bishop of Cagliari</author>
+            <editor>Wilhelm von Hartel</editor>
+            <sponsor>University of Leipzig</sponsor>
+            <funder>European Social Fund Saxony</funder>
+            <principal>Gregory Crane</principal>
+            <respStmt>
+               <persName xml:id="Jouve">Jouve</persName>
+               <resp>OCR-ed, corrected and encoded the text</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Greta Franzini</persName>
+               <resp>Project Manager (University of Leipzig)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Simona Stoyanova</persName>
+               <resp>Project Assistant (University of Leipzig)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Bruce Robertson</persName>
+               <resp>Technical Advisor (Mount Allison University)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Uvius Fonticola</persName>
+               <resp>Technical Advisor (Ludwig Maximilians University Munich)</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>University of Leipzig</authority>
+            <idno type="filename">stoa0180a.stoa003.opp-lat1.xml</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
+            </availability>
+            <date>2014</date>
+            <publisher>University of Leipzig</publisher>
+            <pubPlace>Germany</pubPlace>
+            <idno type="CTS">urn:cts:latinLit:stoa0180a.stoa003.opp-lat1</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <name>Wilhelm von Hartel</name>
+                        </persName>
+                     </editor>
+                     <author xml:lang="lat">Lucifer Calaritanus</author>
+                     <title xml:lang="lat">Luciferi Calaritani Opuscula</title>
+                     <imprint>
+                        <publisher xml:lang="deu">Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
+                        <pubPlace xml:lang="deu">Wien, Österreich</pubPlace>
+                        <date>1886</date>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s" xml:lang="lat">Corpus scriptorum ecclesiasticorum Latinorum</title>
+                     <biblScope unit="volume">14</biblScope>
+                  </series>
+                  <ref target="http://archive.org/stream/corpusscriptoru03wissgoog#page/n4/mode/2up">Internet Archive</ref>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>The following text is encoded in accordance with EpiDoc standards and with the
         CTS/CITE Architecture. 
 </p>
-      <refsDecl n="CTS">
-        <cRefPattern n="chapter" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1'])"/>
-      </refsDecl>
-    </encodingDesc>
-    
-    <profileDesc>
-      <langUsage>
-        <language ident="lat">Latin</language>
-      </langUsage>
-    </profileDesc>
-    
-</teiHeader>
-<text>
-<body>
-<div type="edition" xml:lang="lat" n="urn:cts:latinLit:stoa0180a.stoa003.opp-lat1">
-<head>
+         <refsDecl n="CTS">
+            <cRefPattern n="chapter"
+                         matchPattern="(.+)"
+                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1'])"/>
+         </refsDecl>
+         <refsDecl n="CTS">
+            <citeStructure match="/TEI/text/body" use="@xml:base">
+               <citeStructure unit="chapter" delim="." match="div[@type='chapter']" use="@n"/>
+            </citeStructure>
+         </refsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <catRef scheme="#perseus-genre" target="#prose-chapter"/>
+         </textClass>
+         <langUsage>
+            <language ident="lat">Latin</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body xml:base="urn:cts:latinLit:stoa0180a.stoa003.opp-lat1">
+         <head>
             <title type="main">II. DE REGIBUS APOSTATICIS. </title>
-          </head>
-          <div n="1" subtype="chapter" type="textpart">
-<p>Vsitatum quia habere dignaris uerbum, quod enim nisi <lb/>
+         </head>
+         <div n="1" type="chapter">
+            <p>Vsitatum quia habere dignaris uerbum, quod enim nisi <lb/>
             et integre crederes et haec quae geris circa nos deo essent <lb/>
             placita, iam fuisses extinctus, paucorum tibi in apostasia atque <lb n="5"/>
             crudelitate aequalium regum facta desideraui reserare, quo <lb/>
@@ -115,17 +121,15 @@
             ad mille septingentos siclos praeter bracchialia et torques et <lb/>
             operimenta et purpuram, quae super reges Madiam erant, et <lb/>
             praeter torques aureas, quae in collo camellorum aduersariorum,</hi>
-
-<note type="footnote">14 Iudic. 6, 14 15 ib. 6, 16 21 ib. 8, 24-27 </note>
-
-<note rend="script" type="footnote">IWCIPIT De ReeiB. APOSTATICIS Lb I. 6 regum (e <hi rend="italic">in ras.)</hi> 11 men- <lb/>
-            <lb/>
-            <hi rend="italic">tionem////// (tionem eras.)</hi> 14 <hi rend="intraline">dic</hi>ettum 18 at <hi rend="italic">ex</hi> ad hubi <lb/>
-            \' 21 data 23 brachalia <hi rend="italic">v</hi> 25 que camelorum <hi rend="italic">v</hi> </note>
-
-<note type="footnote">3* </note> <lb n="25"/>
-             
-<pb n="36"/>
+               <note type="footnote">14 Iudic. 6, 14 15 ib. 6, 16 21 ib. 8, 24-27 </note>
+               <note rend="script" type="footnote">IWCIPIT De ReeiB. APOSTATICIS Lb I. 6 regum (e <hi rend="italic">in ras.)</hi> 11 men- <lb/>
+                  <lb/>
+                  <hi rend="italic">tionem////// (tionem eras.)</hi> 14 <hi rend="intraline">dic</hi>ettum 18 at <hi rend="italic">ex</hi> ad hubi <lb/>
+            \' 21 data 23 brachalia <hi rend="italic">v</hi> 25 que camelorum <hi rend="italic">v</hi>
+               </note>
+               <note type="footnote">3* </note>
+               <lb n="25"/>
+               <pb n="36"/>
             quid dicit fecisse Gedeonem sacra scriptura? <hi rend="italic">et fecit illa <lb/>
             Gedeon in Ephod, et statuit illud in ciuitate sua Epkrath; <lb/>
             et fornicati sunt filii Israel ibi et factum est Gedeoni et domui <lb/>
@@ -156,18 +160,21 @@
             Madiae annis septem, et praeualuit manus Madiae ualde super <lb/>
             Israel. et fecerunt sibi Israel ante faciem Madiae cryptas in <lb/>
             montibus et speluncas et monumenta. et factum est quando</hi>
-
-<note type="footnote"> 1 ludie. 8, 27 7 ib. 6, 16 10 ib. 6, 12. 18 26 ib. 6, 1-10 </note>
-
-<note rend="script" type="footnote"> 1 Gedeon qui et Ierobabel fecit Ephod <hi rend="italic">v</hi> 2 Ephrath <hi rend="italic">v,</hi> ingofera <hi rend="italic">V</hi> <lb/>
-            4 debus 6 fuisset <hi rend="italic">Latinius,</hi> fecisset <hi rend="italic">Vv</hi> 8 baal (h <hi rend="italic">m. rec.)</hi> <lb/>
-            11 ut quid <hi rend="italic">fort</hi>. 18 nonne <hi rend="italic">Latinius,</hi> nunc <hi rend="italic">v</hi> 17 ad <hi rend="italic">m. 1</hi> <lb/>
-            20 pariter] pa///riret 21 traditos <hi rend="italic">m. 1</hi> deum] ideo <hi rend="italic">uel</hi> a deo <hi rend="italic">fort.,</hi> <lb/>
-            enim <hi rend="italic">(uel</hi> deum — attulisse <hi rend="italic">uel</hi> propter deum — accidisse) <hi rend="italic">coni. Coleti</hi> <lb/>
-            26 inquid 29 criptas </note> <lb n="30"/>
-             
-<pb n="37"/>
-            <hi rend="italic">seminabat Israel, ascendebant Madiam et Amalech et filii<lb/>
+               <note type="footnote"> 1 ludie. 8, 27 7 ib. 6, 16 10 ib. 6, 12. 18 26 ib. 6, 1-10 </note>
+               <note rend="script" type="footnote"> 1 Gedeon qui et Ierobabel fecit Ephod <hi rend="italic">v</hi> 2 Ephrath <hi rend="italic">v,</hi> ingofera <hi rend="italic">V</hi>
+                  <lb/>
+            4 debus 6 fuisset <hi rend="italic">Latinius,</hi> fecisset <hi rend="italic">Vv</hi> 8 baal (h <hi rend="italic">m. rec.)</hi>
+                  <lb/>
+            11 ut quid <hi rend="italic">fort</hi>. 18 nonne <hi rend="italic">Latinius,</hi> nunc <hi rend="italic">v</hi> 17 ad <hi rend="italic">m. 1</hi>
+                  <lb/>
+            20 pariter] pa///riret 21 traditos <hi rend="italic">m. 1</hi> deum] ideo <hi rend="italic">uel</hi> a deo <hi rend="italic">fort.,</hi>
+                  <lb/>
+            enim <hi rend="italic">(uel</hi> deum — attulisse <hi rend="italic">uel</hi> propter deum — accidisse) <hi rend="italic">coni. Coleti</hi>
+                  <lb/>
+            26 inquid 29 criptas </note>
+               <lb n="30"/>
+               <pb n="37"/>
+               <hi rend="italic">seminabat Israel, ascendebant Madiam et Amalech et filii<lb/>
              Orientis et ascendebant super eum et committebant cum eis <lb/>
             et corrumpebant fines terrae, usque dum uenias Gasam, et <lb/>
             non relinquebant ad uitam huic Israel ouem nec uitulum nec<lb/>
@@ -199,13 +206,16 @@
             etenim quieuisse Israelitas quadraginta annis nec aduersarios <lb n="30"/>
             in eos omnino permissos nec ullum eisdem fuisse dominatum
 
-<note type="footnote"> 3 uenirent <hi rend="italic">Sabatier</hi> 7 locustae <hi rend="italic">v</hi> 9 faciae <hi rend="italic">fere semper</hi> <lb/>
+<note type="footnote"> 3 uenirent <hi rend="italic">Sabatier</hi> 7 locustae <hi rend="italic">v</hi> 9 faciae <hi rend="italic">fere semper</hi>
+                  <lb/>
             10 et factum — ad dominum <hi rend="italic">om. v</hi> 11 madian 17 dafeos amorreorum <lb/>
-            18 uocem meam <hi rend="italic">v</hi> 20 uidit <hi rend="italic">Latinius; cf. I. 23</hi> <lb/>
-            22 israhelitarum 26 hic s. <hi rend="italic">l, m. 1</hi> 29 regnumque suum <hi rend="italic">exspectes</hi> <lb/>
-            31 eis idem v </note> <lb/>
-             
-<pb n="38"/>
+            18 uocem meam <hi rend="italic">v</hi> 20 uidit <hi rend="italic">Latinius; cf. I. 23</hi>
+                  <lb/>
+            22 israhelitarum 26 hic s. <hi rend="italic">l, m. 1</hi> 29 regnumque suum <hi rend="italic">exspectes</hi>
+                  <lb/>
+            31 eis idem v </note>
+               <lb/>
+               <pb n="38"/>
             ex alienigenis, propterea quod exclamassent ad deum, scriptura <lb/>
             loquitur sacra. talia circa consacrilegos tuos fecit bona deus, <lb/>
             ostendens se quidem totum potentem, illos tamen indignos ad <lb/>
@@ -231,29 +241,25 @@
             non iam sanctae suae ecclesiae extinctis uobis Arrianis tribuat <lb/>
             plenam securitatem pacis, est causa illa, quia sit dignum te <lb/>
             aduersario saeuiente ad omnium ueniri probationem. <lb n="25"/>
-            
-</p>
-          </div>
-
-<div n="2" subtype="chapter" type="textpart">
-
-<p rend="script">Dicis: <hi rend="italic">si male fecissem, si haeresim tenerem, iam in me<lb/>
+            </p>
+         </div>
+         <div n="2" type="chapter">
+            <p rend="script">Dicis: <hi rend="italic">si male fecissem, si haeresim tenerem, iam in me<lb/>
              deus uindicasset</hi>. audis sacram loquentem scripturam etiam <lb/>
             alienigenae diu pepercisse dominum, et tamen postea con- <lb/>
             . secutos merita factorum suorum. <hi rend="italic">dixit Samuhel ad Saul: misit <lb/>
             me dominus, ut ungerem te super Israel in regem, et nunc <lb n="30"/>
              audi uocem uerbi domini: haec dicit dominus omnipotens:</hi>
-
-<note type="footnote"> 29 I Reg. 15, 1-3 </note>
-
-<note rend="script" type="footnote"> 4 <lb/>
+               <note type="footnote"> 29 I Reg. 15, 1-3 </note>
+               <note rend="script" type="footnote"> 4 <lb/>
             1 quo 6 ierahelitae 8 idolatriam temporum <hi rend="italic">v</hi> 17 negas <lb/>
             nec <hi rend="italic">scripsi,</hi> negne <hi rend="italic">V,</hi> necne <hi rend="italic">v</hi> 18 sciam] etiam <hi rend="italic">Lugdun</hi>. 25 uenire <lb/>
-            <hi rend="italic">uel</hi> inueniri <hi rend="italic">Latinius falso;</hi> ad o. veniri probationem <hi rend="italic">idem significat quod</hi> <lb/>
-            omnes probari </note> <lb/>
-             
-<pb n="39"/>
-            <hi rend="italic">nunc defendam quae fecit Amalec tibi, Israel, quemadmodum <lb/>
+                  <hi rend="italic">uel</hi> inueniri <hi rend="italic">Latinius falso;</hi> ad o. veniri probationem <hi rend="italic">idem significat quod</hi>
+                  <lb/>
+            omnes probari </note>
+               <lb/>
+               <pb n="39"/>
+               <hi rend="italic">nunc defendam quae fecit Amalec tibi, Israel, quemadmodum <lb/>
             obuiauit tibi in uia quam ascendisti de Aegypto. et nunc<lb/>
              uade et percuties Amalec et omnia ipsius, et non concupisces<lb/>
              ex illis aliquid, sed exterminabis illum et anathematisabis<lb/>
@@ -284,16 +290,14 @@
             ad Samuhelem dicens: paenitet me quod constituerim regem <lb/>
             Saul, quoniam auersus est a me et uerba mea non statuit. <lb n="30"/>
             et contristatus est Samuhel et clamauit ad deum tota nocte</hi>
-
-<note type="footnote"> 7 I Beg. 15, 5-8 20 ib. 15, 11 24 ib. 15, 9-12 </note>
-
-<note rend="script" type="footnote"> 1 nunc Amalech 4 illud 8 cineum 11 cineus <lb/>
+               <note type="footnote"> 7 I Beg. 15, 5-8 20 ib. 15, 11 24 ib. 15, 9-12 </note>
+               <note rend="script" type="footnote"> 1 nunc Amalech 4 illud 8 cineum 11 cineus <lb/>
             20 penitet 23 paenitus <hi rend="italic">fere semper</hi> 25 gregum <hi rend="italic">Sabatier,</hi> rSgum <lb/>
-            <hi rend="italic">V</hi> 29 penitet <hi rend="italic">fere semper</hi> mę </note> <lb/>
-             
-<pb n="40"/>
-            <hi rend="italic">et ante lucem, et Samuhel abiit in obuiam israel</hi>. et infra: <lb/>
-            <hi rend="italic">et uenit Samuhel ad Saul, et ecce Saul offerebat holocaustum <lb/>
+                  <hi rend="italic">V</hi> 29 penitet <hi rend="italic">fere semper</hi> mę </note>
+               <lb/>
+               <pb n="40"/>
+               <hi rend="italic">et ante lucem, et Samuhel abiit in obuiam israel</hi>. et infra: <lb/>
+               <hi rend="italic">et uenit Samuhel ad Saul, et ecce Saul offerebat holocaustum <lb/>
             domino et initia praedarum quae attulit ex Amalec. et peruenit<lb/>
              Samuhel ad Saul, et dixit illi Saul: benedictus es tu<lb/>
              domino, statui omnia quae locutus est dominus. et dixit Samuhel:<lb n="5"/>
@@ -323,17 +327,16 @@
             mecum, adorabo dominum deum tuum. et dixit Samuhel<lb/>
             ad illum: disrumpet dominus regnum tuum ex Israel de manu <lb n="30"/>
             tua hodie, et dabit illud proximo tuo meliori te</hi>. et infra: <hi rend="italic">et</hi>
-
-<note type="footnote"> 2 I Reg. 15, 13—28 31 ib. 15, 35 — 16, 1 </note>
-
-<note type="footnote"> 6 *meia 9 deo <hi rend="italic">om. v</hi> regi <hi rend="italic">exp. Latinius</hi> 11 tribus <lb/>
+               <note type="footnote"> 2 I Reg. 15, 13—28 31 ib. 15, 35 — 16, 1 </note>
+               <note type="footnote"> 6 *meia 9 deo <hi rend="italic">om. v</hi> regi <hi rend="italic">exp. Latinius</hi> 11 tribus <lb/>
             uncxit 12 <hi rend="italic">et</hi> 16 uiam <hi rend="italic">v</hi> 21 exaudi*re (d <hi rend="italic">eras.)</hi> 22 dicto audientia <lb/>
-            <hi rend="italic">V,</hi> dico <hi rend="italic">(uel</hi> dicito): audientia <hi rend="italic">v</hi> 28 aufer <hi rend="italic">v</hi> 29 deum <hi rend="italic">8. I</hi>. m. <hi rend="italic">1</hi> <lb/>
-            31 illut </note> <lb/>
-             
-<pb n="41"/>
-             <lb/>
-            <hi rend="italic">non adiecit Samuhel amplius uidere Saul usque ad diem mortis<lb/>
+                  <hi rend="italic">V,</hi> dico <hi rend="italic">(uel</hi> dicito): audientia <hi rend="italic">v</hi> 28 aufer <hi rend="italic">v</hi> 29 deum <hi rend="italic">8. I</hi>. m. <hi rend="italic">1</hi>
+                  <lb/>
+            31 illut </note>
+               <lb/>
+               <pb n="41"/>
+               <lb/>
+               <hi rend="italic">non adiecit Samuhel amplius uidere Saul usque ad diem mortis<lb/>
              suae, quoniam lugebat Samuhel in Saul, et dominum paenituit<lb/>
              quoniam regem fecit Saul super Israel. et dixit dominus ad<lb/>
              Samuhel: quousque luges tu in Saul? ecce ego expello illum<lb/>
@@ -357,11 +360,10 @@
             est, circa te, cuius adeo ingentia sunt scelera, ut etiam in <lb/>
             sacrilegii uenires reatum. 
 </p>
-          </div>
-
-<div n="3" subtype="chapter" type="textpart">
-
-<p rend="script"><hi rend="italic">Si male,</hi> inquis, <hi rend="italic">egissem, si quomodo dicit Lucifer, <lb/>
+         </div>
+         <div n="3" type="chapter">
+            <p rend="script">
+               <hi rend="italic">Si male,</hi> inquis, <hi rend="italic">egissem, si quomodo dicit Lucifer, <lb/>
             essem haereticus, iam mihi abstulisset deus regnum</hi>. accipe <lb n="25"/>
             etiam Salomonem superuixisse post idololatriam commissam <lb/>
             et intellegere dignare te quoque talem esse, qualis ille post <lb/>
@@ -369,18 +371,17 @@
              Ader Idumaeum et Esrom filium Anadeth in Bemathad, <lb/>
             Adragas regem Saba dominum eius. et congregati sunt super<lb n="30"/>
              eum uiri, et erat princeps congregationis, et praeoccupauit</hi>
-
-<note type="footnote"> 28 m Reg. 11, 14 </note>
-
-<note rend="script" type="footnote"> 6 iessae bethleem andioij uidi <hi rend="italic">Lucifer in l. I pro s. Atha-</hi> <lb/>
+               <note type="footnote"> 28 m Reg. 11, 14 </note>
+               <note rend="script" type="footnote"> 6 iessae bethleem andioij uidi <hi rend="italic">Lucifer in l. I pro s. Atha-</hi>
+                  <lb/>
             a <lb/>
-            <hi rend="italic">nasio</hi> 8 reprobatua — destinatus <hi rend="italic">Vv; emendaui</hi> 11 persequedi <lb/>
+                  <hi rend="italic">nasio</hi> 8 reprobatua — destinatus <hi rend="italic">Vv; emendaui</hi> 11 persequedi <lb/>
             12 allegerat <hi rend="italic">m. 1</hi> 14 diligebat] eum <hi rend="italic">add. V, exp. v</hi> 16 uindictam<lb/>
-             24 egisse 26 <hi rend="italic">et</hi> 28 idolatriam 29 remahad m. 1 </note> <lb/>
-             
-<pb n="42"/>
+             24 egisse 26 <hi rend="italic">et</hi> 28 idolatriam 29 remahad m. 1 </note>
+               <lb/>
+               <pb n="42"/>
             • <lb/>
-            <hi rend="italic">Damasic ciuitatem et sedit in ea et regnauit in Damasic, <lb/>
+               <hi rend="italic">Damasic ciuitatem et sedit in ea et regnauit in Damasic, <lb/>
             et erant satanae Salomoni et Israel omnibus diebus Salomonis</hi>. <lb/>
             probauimus tibi etiam Salomonem aliquot annis regnasse post <lb/>
             idololatriam, et utique iam non deo sed diabolo seruientem, <lb/>
@@ -401,7 +402,7 @@
             cum patribus suis in ciuitate Dauid; et regnauit filius eius <lb/>
             Roboam pro eo in Hierusalem, et erat sedecim annorum cum <lb n="20"/>
             regnaret, et uiginti annis regnauit in Hierusalem</hi>. et infra: <lb/>
-            <hi rend="italic">et fecit malignum ante conspectum domini et non abiit in uia <lb/>
+               <hi rend="italic">et fecit malignum ante conspectum domini et non abiit in uia <lb/>
             Dauid patris sui</hi>. ut igitur tam Salomon, ex quo idolis semet <lb/>
             dignatus est mancipare, quam eius filius Roboam, qui semper <lb/>
             idolis fuit seruiens, cum non ambulauerint in Dauid itineribus, <lb n="25"/>
@@ -412,22 +413,25 @@
             etiam Hieroboam domini religionem funditus uertere, ut tu,
 
 <note type="footnote"> 18 m Reg. 12, inter 24 et 25 22 ib. (cf. 14, 22) ,. </note>
-
-<note rend="script" type="footnote"> 1 demasic <hi rend="italic">v</hi> dęmasic 4 seraientem (m <hi rend="italic">add. m. 1)</hi> unde <hi rend="italic">V,</hi> <lb/>
+               <note rend="script" type="footnote"> 1 demasic <hi rend="italic">v</hi> dęmasic 4 seraientem (m <hi rend="italic">add. m. 1)</hi> unde <hi rend="italic">V,</hi>
+                  <lb/>
             seruiente mando <hi rend="italic">v,</hi> sernientem, mundo <hi rend="italic">Col</hi>. 8 derelinquerit <lb/>
-            11 aput 14 plaudaa <hi rend="italic">v</hi> 16 idolatriam 18 domiuit <hi rend="italic">m. 1</hi> <lb/>
-            22 babiit 24 Roboam <hi rend="italic">v,</hi> roboas <hi rend="italic">V</hi> 25 ambulauerit 27 tu <hi rend="italic">F,</hi> <lb/>
-            te <hi rend="italic">v</hi> 30 funditis m. 1 </note> <lb n="30"/>
-             
-<pb n="43"/>
+            11 aput 14 plaudaa <hi rend="italic">v</hi> 16 idolatriam 18 domiuit <hi rend="italic">m. 1</hi>
+                  <lb/>
+            22 babiit 24 Roboam <hi rend="italic">v,</hi> roboas <hi rend="italic">V</hi> 25 ambulauerit 27 tu <hi rend="italic">F,</hi>
+                  <lb/>
+            te <hi rend="italic">v</hi> 30 funditis m. 1 </note>
+               <lb n="30"/>
+               <pb n="43"/>
             fuisse conatum, et tamen superuixerit annis quam plurimis et <lb/>
             quidem in eo scelere manens, sicut scriptum est: <hi rend="italic">et erat homo<lb/>
              ex monte Ephraem seruus Salomonis, et nomen ei erat Hieroboam, <lb/>
-            et nomen matris eius erat Sariram, mulier fornicaria,</hi> <lb/>
+            et nomen matris eius erat Sariram, mulier fornicaria,</hi>
+               <lb/>
             et alio loco: <hi rend="italic">et factum est ut audiuit omnis Israel, quoniam <lb n="5"/>
             reuersus est Hieroboas ex Aegypto, et miserunt et uocauerunt <lb/>
             eum in synagoga et regnificauerunt eum in Israel,</hi> et infra: <lb/>
-            <hi rend="italic">et dixit Hieroboas in corde suo: nunc reuertetur regnum Dauid. <lb/>
+               <hi rend="italic">et dixit Hieroboas in corde suo: nunc reuertetur regnum Dauid. <lb/>
             si ascenderit populus hic sacrificium offerre in domo domini<lb/>
             in Hierusalem, et conuertetur cor populi ad dominum suum <lb n="10"/>
             Roboam regem Iuda. tunc igitur Hieroboas cogitauit et abiit. <lb/>
@@ -445,11 +449,9 @@
             quod fecit in quinto decimo die mense octauo in die festo quem <lb/>
             finxit a corde suo, et fecit diem festum filiis Israel</hi>. 
 </p>
-          </div>
-
-<div n="4" subtype="chapter" type="textpart">
-
-<p rend="script">Nolo ergo glorieris quod, cum idololatriam sis gerens, <lb n="25"/>
+         </div>
+         <div n="4" type="chapter">
+            <p rend="script">Nolo ergo glorieris quod, cum idololatriam sis gerens, <lb n="25"/>
             tamen uiuas regni possidens gloriam, quando uideas hunc <lb/>
             Hieroboam uitulas fecisse aureas, populum Israelitarum conuertisse <lb/>
             ad idololatriam et tamen non solum non statim ut <lb/>
@@ -459,12 +461,12 @@
             exaltemini, tamen ipsum qui uos exaltat non solum
 
 <note type="footnote"> 2 m Reg. ib. (cf. 11, 26) 5 ib. 12, 20 8 ib. 12, 26-52 </note>
-
-<note type="footnote"> 3 ephrem 11 habiit 20 quot 27 israhelitarum 28 idolatriam <lb/>
-            <hi rend="italic">prius</hi> non <hi rend="italic">s. I. m. 1</hi> 30 idololatres <hi rend="italic">V,</hi> idololatras v <lb/>
-            32 obliniscamini (a <hi rend="italic">inter scribendum ex</hi> i <hi rend="italic">corr.)</hi> </note> <lb/>
-             
-<pb n="44"/>
+               <note type="footnote"> 3 ephrem 11 habiit 20 quot 27 israhelitarum 28 idolatriam <lb/>
+                  <hi rend="italic">prius</hi> non <hi rend="italic">s. I. m. 1</hi> 30 idololatres <hi rend="italic">V,</hi> idololatras v <lb/>
+            32 obliniscamini (a <hi rend="italic">inter scribendum ex</hi> i <hi rend="italic">corr.)</hi>
+               </note>
+               <lb/>
+               <pb n="44"/>
             obliuiscamini, sed et adhuc eundem in semis eius persequamini, <lb/>
             religionem eius tollere cupientes e medio. quod ita esse ei <lb/>
             istius regis cognosce facto Hieroboae, qui cum fuerit filius <lb/>
@@ -495,16 +497,15 @@
             ciuitatem, quam elegi ex omnibus tribubus Israel, pro quibus<lb/>
              dereliquit me Salomon, et fecit Astarte idolo inmundo Sydoniorum <lb/>
             et Cama idolo Moab et regi eorum religioni filiorum</hi>
-
-<note type="footnote">19 m Reg. 11, 29—38 </note>
-
-<note rend="script" type="footnote">6 delinquens Vv, derelinquens <hi rend="italic">Latinius,</hi> delinquens in <hi rend="italic">Col.,</hi> relinquens <lb/>
-            <hi rend="italic">fort</hi>. 13 ortor <hi rend="italic">m. 1</hi> 15 prodecessores <hi rend="italic">V, em. v</hi> 17 exempla <hi rend="italic">uel</hi> <lb/>
+               <note type="footnote">19 m Reg. 11, 29—38 </note>
+               <note rend="script" type="footnote">6 delinquens Vv, derelinquens <hi rend="italic">Latinius,</hi> delinquens in <hi rend="italic">Col.,</hi> relinquens <lb/>
+                  <hi rend="italic">fort</hi>. 13 ortor <hi rend="italic">m. 1</hi> 15 prodecessores <hi rend="italic">V, em. v</hi> 17 exempla <hi rend="italic">uel</hi>
+                  <lb/>
             fc; <lb/>
-            <hi rend="italic">tale quid exciaisse uidetur</hi> 24 heroboam <hi rend="italic">m. 1</hi> 28 omni </note> <lb n="30"/>
-             
-<pb n="45"/>
-            <hi rend="italic">Ammon, et non abiit in uias meas, ut faceret quod rectum <lb/>
+                  <hi rend="italic">tale quid exciaisse uidetur</hi> 24 heroboam <hi rend="italic">m. 1</hi> 28 omni </note>
+               <lb n="30"/>
+               <pb n="45"/>
+               <hi rend="italic">Ammon, et non abiit in uias meas, ut faceret quod rectum <lb/>
             est coram me, sicut fecit Dauid pater eius. et non accipiam <lb/>
             regnum totum de manu eius in diebus uitae eius propter Dauid <lb/>
             seruum meum quem elegi, quoniam contra faciam illi per <lb/>
@@ -526,11 +527,9 @@
             quomodo fuisset deus derelictus ab omnibus cultoribus suis, <lb n="20"/>
             opera est data per Hieroboam? 
 </p>
-          </div>
-
-<div n="5" subtype="chapter" type="textpart">
-
-<p>Dicitur tibi a nobis, quod nisi te correxeris, nisi in uiis <lb/>
+         </div>
+         <div n="5" type="chapter">
+            <p>Dicitur tibi a nobis, quod nisi te correxeris, nisi in uiis <lb/>
             deo placitis esse coeperis, sis nouo periturus exemplo; et tu <lb/>
             in tua manens es iniquitate, in tuo es perseuerans sacrilegio. <lb/>
             non nouum, siquidem isti Hieroboae regi et deus per hominem suum <lb n="25"/>
@@ -539,16 +538,15 @@
             audierit futura, et tamen cum ea quae sibi fuerant etiam <lb/>
             mala promissa uideret impleri, ille magis atque magis contra <lb/>
             deum fecerit, dei uoluerit destrui domum. <hi rend="italic">et homo,</hi> inquit, <lb n="30"/>
-            <hi rend="italic">erat ex Silo et nomen ei Achiab, et hic erat sexaginta an-</hi>
-
-<note type="footnote">30 m Reg. 12,ainter 24 et 25 (14, 2—11) </note>
-
-<note type="footnote">15 hortus 24 <hi rend="italic">prius</hi> es B. <hi rend="italic">l. m. 1</hi> 25 quod et deus <hi rend="italic">coni. Col</hi>. <lb/>
+               <hi rend="italic">erat ex Silo et nomen ei Achiab, et hic erat sexaginta an-</hi>
+               <note type="footnote">30 m Reg. 12,ainter 24 et 25 (14, 2—11) </note>
+               <note type="footnote">15 hortus 24 <hi rend="italic">prius</hi> es B. <hi rend="italic">l. m. 1</hi> 25 quod et deus <hi rend="italic">coni. Col</hi>. <lb/>
             31 ex Silo <hi rend="italic">coni. TUius in notis,</hi> exilon <hi rend="italic">V,</hi> exilis <hi rend="italic">v et Sabat.,</hi> in Silo- <lb/>
-            <hi rend="italic">Latinim</hi> Achiab, et hic <hi rend="italic">coni. Tilius,</hi> achiabeth <hi rend="italic">Vv</hi> </note> <lb/>
-             
-<pb n="46"/>
-            <hi rend="italic">norum et uerbum domini erat cum illo. et dixit Hieroboam <lb/>
+                  <hi rend="italic">Latinim</hi> Achiab, et hic <hi rend="italic">coni. Tilius,</hi> achiabeth <hi rend="italic">Vv</hi>
+               </note>
+               <lb/>
+               <pb n="46"/>
+               <hi rend="italic">norum et uerbum domini erat cum illo. et dixit Hieroboam <lb/>
             ad uxorem suam: surge et accipe in manu tua homini dei <lb/>
             panes et collyrides filiis eius et uuas et uas mellis. et surrexit <lb/>
             mulier et fecit sicut dixit ei uir eius. et Achiab homo senex <lb/>
@@ -559,7 +557,7 @@
              et noli stare, quoniam haec dicit dominus: dura ego mitto<lb/>
              in te. et intrauit Anna ad hominem dei, et dixit ei Achiab:<lb n="10"/>
             ut quid mihi adtulisti panes et uuam et collyrides et</hi> uas <lb/>
-            <hi rend="italic">mellis? haec dicit dominus: ecce tu ibis a me, et erit cum <lb/>
+               <hi rend="italic">mellis? haec dicit dominus: ecce tu ibis a me, et erit cum <lb/>
             intraueris portam ciuitatis Arira, et puellae tuae exient in <lb/>
             obuiam et dicent tibi: puer mortuus est. quoniam haec dicit <lb/>
             dominus: ecce ego disperdo huius Hieroboam mingentem ad<lb n="15"/>
@@ -581,12 +579,11 @@
             pericula, ille tamen, ut semel statuerat, diabolo seruire maluit.
 
 <note type="footnote"> 28 m Reg. 14, 2. S </note>
-
-<note type="footnote"> 3 collirides 6 baria <hi rend="italic">Vv, ∑<foreign xml:lang="grc">αριρά</foreign> LXX et Latinius</hi> 11 collirides<lb/>
+               <note type="footnote"> 3 collirides 6 baria <hi rend="italic">Vv, ∑<foreign xml:lang="grc">αριρά</foreign> LXX et Latinius</hi> 11 collirides<lb/>
              12 erit <hi rend="italic">V,</hi> ecce v 13 Sarira <hi rend="italic">Lat</hi>. 16 pariemtem <lb/>
-            23 derelinquisset 30 cuncta </note> <lb/>
-             
-<pb n="47"/>
+            23 derelinquisset 30 cuncta </note>
+               <lb/>
+               <pb n="47"/>
             ad hominem dei sciscitandum mittit de futuris, et eum ad <lb/>
             cuius hominem mittit despuit et facit in contumeliam maiestatis <lb/>
             eius uitulas et has adorare secum facit populum. haec <lb/>
@@ -619,15 +616,15 @@
             est pinguedo eius a sacrario secundum prodigium quod dixit. <lb n="30"/>
             homo dei in uerbo domini. et respondit rex et dixit homini <lb/>
             dei: roga faciem domini dei tui, ut reuertatur manus mea</hi>
-
-<note type="footnote"> 10 m Reg. 12, 32 - 13, 7 </note>
-
-<note type="footnote"> 8 fecit <hi rend="italic">v</hi> 12 sacrificium] <hi rend="italic">cf. p. 43, 20</hi> 18 sacrificaret] <hi rend="italic">cf. ib</hi>. <lb/>
-            22 in te <hi rend="italic">v,</hi> inter <hi rend="italic">V; xai <foreign xml:lang="grc">ϑὑσει έπὶ</foreign> ah rovg <foreign xml:lang="grc">ὶερει̃ς</foreign></hi><hi rend="italic">LXX</hi> 26 quae t7, <lb/>
-            <hi rend="italic">quod V betel m. 1</hi>\' </note> <lb/>
-             
-<pb n="48"/>
-            <hi rend="italic">ad me. et rogauit homo dei faciem domini, et reuersa est <lb/>
+               <note type="footnote"> 10 m Reg. 12, 32 - 13, 7 </note>
+               <note type="footnote"> 8 fecit <hi rend="italic">v</hi> 12 sacrificium] <hi rend="italic">cf. p. 43, 20</hi> 18 sacrificaret] <hi rend="italic">cf. ib</hi>. <lb/>
+            22 in te <hi rend="italic">v,</hi> inter <hi rend="italic">V; xai <foreign xml:lang="grc">ϑὑσει έπὶ</foreign> ah rovg <foreign xml:lang="grc">ὶερει̃ς</foreign>
+                  </hi>
+                  <hi rend="italic">LXX</hi> 26 quae t7, <lb/>
+                  <hi rend="italic">quod V betel m. 1</hi>\' </note>
+               <lb/>
+               <pb n="48"/>
+               <hi rend="italic">ad me. et rogauit homo dei faciem domini, et reuersa est <lb/>
             manus regis ad eum, et facta est quemadmodum primum</hi>. <lb/>
             inpleta cum uiderit et prodigia quae fuerant ore hominis <lb/>
             prolata dei et brachium impium porrectum ad dei hominis <lb/>
@@ -647,11 +644,9 @@
             uerbum in peccatum in domum Hieroboam et in interitum <lb/>
             et in exterminium a facie terrae</hi>. 
 </p>
-          </div>
-
-<div n="6" subtype="chapter" type="textpart">
-
-<p rend="script">Quae ne dicantur etiam de te, quaeso temet eripias a <lb n="20"/>
+         </div>
+         <div n="6" type="chapter">
+            <p rend="script">Quae ne dicantur etiam de te, quaeso temet eripias a <lb n="20"/>
             nefando Arrianorum coetu, quaeso sis Christianus ut ante <lb/>
             eras ex Arriano, nec nobis indigneris quod actus tuos et <lb/>
             Hieroboae aequemus; sed magis obsecro conspicias has omnes <lb/>
@@ -665,13 +660,13 @@
             totidem et idololatriam gerentem in eodem defunctum scelere,
 
 <note type="footnote">14 m Reg. 18, 38. 34 </note>
-
-<note type="footnote"> 3 et <hi rend="italic">V,</hi> haec <hi rend="italic">v,</hi> ea <hi rend="italic">fort</hi>. 4 <hi rend="italic">post</hi> dei <hi rend="italic">spatium fere 15 litterarum</hi> <lb/>
+               <note type="footnote"> 3 et <hi rend="italic">V,</hi> haec <hi rend="italic">v,</hi> ea <hi rend="italic">fort</hi>. 4 <hi rend="italic">post</hi> dei <hi rend="italic">spatium fere 15 litterarum</hi>
+                  <lb/>
             5 metum <hi rend="italic">m. 1</hi> 7 quem <hi rend="italic">v,</hi> quod <hi rend="italic">V</hi> 28 aequaemus 28 cultorem <lb/>
-            31 idolatriam </note> <lb/>
-             
-<pb n="49"/>
-            <lb/>
+            31 idolatriam </note>
+               <lb/>
+               <pb n="49"/>
+               <lb/>
             item eius filium Abiud, de quo scriptum inuenio: <hi rend="italic">et abiit in <lb/>
             peccatis patris sui, quae fecit in conspectu eius, et non erat<lb/>
              cor eius consummatum cum domino deo suo, sicut erat cor <lb/>
@@ -693,7 +688,7 @@
             nec illorum qui iam iudicati fuerint terreri exemplo, conuerti <lb/>
             ad deum. scriptum est etiam de Iambre. rege: <hi rend="italic">et fecit malignum <lb n="20"/>
             in conspectu domini, et maligne fecit super- omnes</hi> qui <lb/>
-            <hi rend="italic">fuerunt</hi> ante <hi rend="italic">eum</hi> et <hi rend="italic">abiit in omnem uiam Hieroboam filii <lb/>
+               <hi rend="italic">fuerunt</hi> ante <hi rend="italic">eum</hi> et <hi rend="italic">abiit in omnem uiam Hieroboam filii <lb/>
             Nabath in peccatis eius ;</hi> et tamen hic quii dicitur super omnes <lb/>
             peccasse, qui ante illum fuerant reges, non statim ut dereliquit <lb/>
             deum exstinctus est nec per aliquam grauem ualitudinem <lb n="25"/>
@@ -705,16 +700,14 @@
             diuinitus inrogatur poenarum, post descensum semper torque-.
 
 <note type="footnote"> 1 m Reg. 15, 8 18 ib. 15, 34 20 ib. 16, 25. 26 </note>
-
-<note type="footnote"> 1 Abia- <hi rend="italic">Latinius</hi> abia m. <hi rend="italic">1</hi> 5 sant dignatbte <hi rend="italic">m. 1</hi> <lb/>
+               <note type="footnote"> 1 Abia- <hi rend="italic">Latinius</hi> abia m. <hi rend="italic">1</hi> 5 sant dignatbte <hi rend="italic">m. 1</hi>
+                  <lb/>
             6 plagdas v 8 bene s. <hi rend="italic">Z. m. 1-</hi> 11 Baasan <hi rend="italic">Latinius</hi> 18 posntis <lb/>
-            <hi rend="italic">Latinius</hi> 19 territi <hi rend="italic">Latinius falso</hi> 25 aliquem </note>
-
-<note type="footnote"> XIIII. </note>
-
-<note type="footnote"> 4 </note> <lb/>
-             
-<pb n="50"/>
+                  <hi rend="italic">Latinius</hi> 19 territi <hi rend="italic">Latinius falso</hi> 25 aliquem </note>
+               <note type="footnote"> XIIII. </note>
+               <note type="footnote"> 4 </note>
+               <lb/>
+               <pb n="50"/>
             antur, tamen tu si in summa uiuens felicitate fueris hinc <lb/>
             raptus, aduerte qualiter in te uindicta sit processura, qui in <lb/>
             tanto inueniaris scelere. ne hinc itaque quicquam tibi adscripseris <lb/>
@@ -746,18 +739,16 @@
             Hela regis Sidoniorum. et abiit et seruiuit Baali et adorauit <lb/>
             eum et statuit sacrarium Baali in domo religionum suarum, <lb n="30"/>
             quam aedificauit in Samaria; et fecit Achab lucum, ut faceret</hi>
-
-<note type="footnote"> 9 m Reg. 22, 43. 44 (cf. ib. 16, 28 et H Paral. 20, 82. 33) <lb/>
+               <note type="footnote"> 9 m Reg. 22, 43. 44 (cf. ib. 16, 28 et H Paral. 20, 82. 33) <lb/>
             25 m Beg. 16, 30-33. </note>
-
-<note rend="script" type="footnote"> 3 quidcumque <hi rend="italic">v</hi> 7 Asa <hi rend="italic">Latinius,</hi> basa <hi rend="italic">Y</hi> 18 idolatriam <lb/>
+               <note rend="script" type="footnote"> 3 quidcumque <hi rend="italic">v</hi> 7 Asa <hi rend="italic">Latinius,</hi> basa <hi rend="italic">Y</hi> 18 idolatriam <lb/>
             fc <lb/>
             18 concupiuerit v 21 exemtum 22 inpmiae 24 acap 25 acap <lb/>
             28 zezabel basan 29 Hela] Ethbaal <hi rend="italic">Latinius</hi> habiit <lb/>
-            bahali 80 sacrario bahali regionum <hi rend="italic">m</hi>. 1 \' </note> <lb/>
-             
-<pb n="51"/>
-            <hi rend="italic">exacerbationem, ut exacerbaret deum et animam suam disperderet,<lb/>
+            bahali 80 sacrario bahali regionum <hi rend="italic">m</hi>. 1 \' </note>
+               <lb/>
+               <pb n="51"/>
+               <hi rend="italic">exacerbationem, ut exacerbaret deum et animam suam disperderet,<lb/>
              et malignum fecit super omnes reges Israel qui <lb/>
             fuerunt ante eum</hi>. noli adhuc te sinere esse apud Arrianos, <lb/>
             sed fac transitum ad nos Christianos, quibus sunt ita cunctae <lb/>
@@ -766,11 +757,9 @@
             immolabant; per hanc haeresim tuam mihi crede quod talis <lb/>
             sis nostris temporibus, qualis fuerit et Achab. 
 </p>
-          </div>
-
-<div n="7" subtype="chapter" type="textpart">
-
-<p>Ne tibi itaque placeas, quod non statim tibi reddiderit <lb/>
+         </div>
+         <div n="7" type="chapter">
+            <p>Ne tibi itaque placeas, quod non statim tibi reddiderit <lb/>
             deus, quando uideas huic Achab et uxori eius Iezabel, qui <lb n="10"/>
             etiam prophetas occiderint domini, qui in tanto scelere fuisse <lb/>
             inueniantur uersati, ut nullum in terra Israel dei se hominem <lb/>
@@ -798,12 +787,12 @@
             quonam modo deus fuisset inimicos Israelitarum ad <lb/>
             nihilum redacturus. obsederat enim filius Ader rex Samariam
 
-<note type="footnote">7 quot 8 acab 20 apnt 21 adhoc <hi rend="italic">(pro</hi> adhuc) <hi rend="italic">Latinius</hi> <lb/>
+<note type="footnote">7 quot 8 acab 20 apnt 21 adhoc <hi rend="italic">(pro</hi> adhuc) <hi rend="italic">Latinius</hi>
+                  <lb/>
             31 bahal 34 inimicus-\' </note>
-
-<note type="footnote"> 4* </note> <lb n="35"/>
-             
-<pb n="52"/>
+               <note type="footnote"> 4* </note>
+               <lb n="35"/>
+               <pb n="52"/>
             cum aliis triginta duobus regibus, iaotitans adeo tamquam <lb/>
             nihil se habere Israelitas, ut unum se hominem omnem multitudinem <lb/>
             Israelitarum superaturum. hunc alienigenam fecit nihil <lb/>
@@ -815,9 +804,9 @@
             aequum tandem corrigeret errores suos. mox ut aedificare <lb/>
             aduersarius coepit obsidionem ad ciuitatem Israelitarum, <hi rend="italic">et<lb n="10"/>
              ecce,</hi> inquit scriptura sacra, <hi rend="italic">prophetes</hi> unus accessit <hi rend="italic">ad</hi> regem <lb/>
-            <hi rend="italic">Israel et dixit : haec dicit dominus,</hi> si <hi rend="italic">audisti sonum magnum <lb/>
+               <hi rend="italic">Israel et dixit : haec dicit dominus,</hi> si <hi rend="italic">audisti sonum magnum <lb/>
             istum? ecce ego hodie tradam</hi> eum in manus <hi rend="italic">tuas, et</hi> scies <lb/>
-            <hi rend="italic">quoniam ego sum</hi> dominus. <hi rend="italic">et dixit rex:</hi> in quo?et <hi rend="italic">dixit <lb/>
+               <hi rend="italic">quoniam ego sum</hi> dominus. <hi rend="italic">et dixit rex:</hi> in quo?et <hi rend="italic">dixit <lb/>
             prophetes: in pueris principum regionum, et dixit rex : quis <lb n="15"/>
             committet pugnam? et</hi> dixit <hi rend="italic">prophetes: tu</hi>. et infra: <hi rend="italic">et exierunt <lb/>
             pueri de ciuitate</hi> principum <hi rend="italic">regionum et exercitus qui <lb/>
@@ -825,7 +814,8 @@
             fugerunt Syri, et persecutus est Israel</hi>. quomodo dicis, Constanti <lb/>
             : si <hi rend="italic">non bene seruirem deo, si non recte credens fuissem,<lb n="20"/>
             numquam regnum Romanorum in</hi> mea <hi rend="italic">uidissem potestate <lb/>
-            conlocatum aut sic diu fuissem uiuens</hi><hi rend="italic">in regno</hi>? quando <lb/>
+            conlocatum aut sic diu fuissem uiuens</hi>
+               <hi rend="italic">in regno</hi>? quando <lb/>
             uideas Achab regi Israel more gentilium uiuenti et populum <lb/>
             dei, sicuti et tu auertis, uertenti a deo dictum ab eo, in quem <lb/>
             delinquebat, cuius praecepta docebat pro nihilo: <hi rend="italic">trado. eum <lb n="25"/>
@@ -836,14 +826,14 @@
             ac martyrum, ad hoc ut conicere possis non pro meritis fidei
 
 <note type="footnote">10 m Beg. ?0, 13. 14 1Q ib. 20, 17, 19. 20</note>
-
-<note type="footnote"> 2 israhelitas 3 superaturum] croderet aut diceret <hi rend="italic">add. Coleti falso</hi> <lb/>
+               <note type="footnote"> 2 israhelitas 3 superaturum] croderet aut diceret <hi rend="italic">add. Coleti falso</hi>
+                  <lb/>
             5 bahali 9 cui <hi rend="italic">scripsi,</hi> quia, <hi rend="italic">Yv,</hi> qui <hi rend="italic">Coleti</hi> 9 corrigere exspectes <lb/>
-            <hi rend="italic">sed nihil mutandum enuntiatum</hi> mox ut — Israelitarum <hi rend="italic">uulgo cum <lb/>
+                  <hi rend="italic">sed nihil mutandum enuntiatum</hi> mox ut — Israelitarum <hi rend="italic">uulgo cum <lb/>
             praecedentibus coniungitur</hi>U inquid prophetis 14 et dixit et <lb/>
-            dixit rex <hi rend="italic">m. 1</hi> 20 rectae 27 Aderis <hi rend="italic">Gallandius</hi> 28 perime </note> <lb n="30"/>
-             
-<pb n="53"/>
+            dixit rex <hi rend="italic">m. 1</hi> 20 rectae 27 Aderis <hi rend="italic">Gallandius</hi> 28 perime </note>
+               <lb n="30"/>
+               <pb n="53"/>
             tuae ac uitae tibi uictoriam tributam, quando sis Achab m <lb/>
             omnibus regi similis, sed sic tibi contra merita tua exhibitam <lb/>
             misericordiam ab eo, quem dereliquisti, ut fuerit Achab exhibita. <lb/>
@@ -879,10 +869,11 @@
             mala, et ille magis diligebat eos pseudoprophetas
 
 <note type="footnote">2 exibitam 5 cultorum <hi rend="italic">Vv; em. Tfflus</hi> 7 corrigeris 9 eius <lb/>
-            negans <hi rend="italic">v</hi> 15 iuditio <hi rend="italic">fere semper</hi> auctoritatem 17 haeresim <hi rend="italic">v</hi> <lb/>
-            23 coidololatras <hi rend="italic">v</hi> 26 acha 82 micheas </note> <lb/>
-             
-<pb n="54"/>
+            negans <hi rend="italic">v</hi> 15 iuditio <hi rend="italic">fere semper</hi> auctoritatem 17 haeresim <hi rend="italic">v</hi>
+                  <lb/>
+            23 coidololatras <hi rend="italic">v</hi> 26 acha 82 micheas </note>
+               <lb/>
+               <pb n="54"/>
             quam uerum domini prophetam, ita et tu amas cohaereticos <lb/>
             tuos Arrianos, ipsorum dictis obtemperas, nos omnes domini <lb/>
             sacerdotes execraris, primo omnium, cur dei filium uerum dei <lb/>
@@ -890,11 +881,9 @@
             periculo esse asseueramus et dicamus, nisi te conuerteris ad<lb n="5"/>
             deum, quod sis in aeternam poenam uenturus. 
 </p>
-          </div>
-
-<div n="8" subtype="chapter" type="textpart">
-
-<p rend="script">Et ut credere possis dei semper odio habitos homines <lb/>
+         </div>
+         <div n="8" type="chapter">
+            <p rend="script">Et ut credere possis dei semper odio habitos homines <lb/>
             ab hominibus apostaticis, amatos uero inimicos dei religionis, <lb/>
             hoc est diaboli cultores, accipe quos amauerit Achab et quem <lb/>
             odio habuerit. <hi rend="italic">et dixit Iosafat rex Iuda ad regem Israel:<lb n="10"/>
@@ -922,13 +911,13 @@
 
 <note type="footnote"> 10 m Reg. 22, 5. 6 14 ib. 22, 7. 8 20 ib. 22, 18 <lb/>
             30 ib. 22, 27 </note>
-
-<note rend="script" type="footnote"> 1 et <hi rend="italic">Col.,</hi> ut <hi rend="italic">V</hi> 4 adolemur 5 asseramus <hi rend="italic">fort</hi>. 7 <hi rend="italic">et</hi> 10 hodio <lb/>
-            9 <hi rend="italic">et sic infra</hi> Iosafath 13 galaat 15 prophetes <hi rend="italic">v,</hi> protes <hi rend="italic">V</hi> <lb/>
+               <note rend="script" type="footnote"> 1 et <hi rend="italic">Col.,</hi> ut <hi rend="italic">V</hi> 4 adolemur 5 asseramus <hi rend="italic">fort</hi>. 7 <hi rend="italic">et</hi> 10 hodio <lb/>
+            9 <hi rend="italic">et sic infra</hi> Iosafath 13 galaat 15 prophetes <hi rend="italic">v,</hi> protes <hi rend="italic">V</hi>
+                  <lb/>
             16 acaph 17 hodi 18 postea quem 19 micheas 22 et] ea <lb/>
-            <hi rend="italic">fort</hi>. 25 audebat 29 miheas </note> <lb/>
-             
-<pb n="55"/>
+                  <hi rend="italic">fort</hi>. 25 audebat 29 miheas </note>
+               <lb/>
+               <pb n="55"/>
             dictum reuersus minime est. ita et ipse agis, Constanti; diligis <lb/>
             eos qui trahunt temet secum ad mortem perpetuam, qui ad <lb/>
             omnem interitum tuam ducunt animam, odio habere dignaris <lb/>
@@ -952,7 +941,8 @@
             quod enim sic efficiat hominem tuum interiorem sicuti <lb/>
             et haec, quae conprehenderit hos quos uideas elefantiam <lb/>
             infusos. ne dixeris: <hi rend="italic">nisi bene agerem, numquam tanto tempore <lb/>
-            imperarem, numquam adhuc uiuere fuissem permissus,</hi> <lb/>
+            imperarem, numquam adhuc uiuere fuissem permissus,</hi>
+               <lb/>
             quando et Manassem cernas filium Ezechiae regis regem Iudae \' <lb n="25"/>
             sedecim annorum suscepisse regnum et quinquaginta septem <lb/>
             annis regnasse; de quo quae sint scripta cum audieris, inuenies <lb/>
@@ -964,35 +954,40 @@
 <note rend="script" type="footnote"> 1 resnersus 3 odeo <hi rend="italic">m. 1</hi> 4 obtantes <hi rend="italic">m. 1</hi> 5 gloriaeris <lb/>
             8 narrant <hi rend="italic">v</hi> 9 acab 14 regis <hi rend="italic">scripsi,</hi> regi <hi rend="italic">Vv</hi> 18 quae <hi rend="italic">add. <lb/>
             Latinius;</hi> haec uidelicet <hi rend="italic">coni. Coleti</hi> 19 laeprae 22 elephantia <lb/>
-            <hi rend="italic">Latinius</hi> .25 ezeciae 26 LVII <hi rend="italic">V,</hi> quinquaginta quinque <hi rend="italic">Latinius <lb/>
+                  <hi rend="italic">Latinius</hi> .25 ezeciae 26 LVII <hi rend="italic">V,</hi> quinquaginta quinque <hi rend="italic">Latinius <lb/>
             et sic infra</hi> 30 mannassem crudelitate] <hi rend="italic">cf. p. 59, 11</hi> 31 tanta <lb/>
-            agentem, quod <hi rend="italic">an</hi> regnum ten[ere uol]uerit <hi rend="italic">(sc</hi>. deus) ? </note> <lb/>
-             
-<pb n="56"/>
-            septem annis. <hi rend="italic">et dermiuit, inquit scriptura.Escchias cum</hi> <lb/>
+            agentem, quod <hi rend="italic">an</hi> regnum ten[ere uol]uerit <hi rend="italic">(sc</hi>. deus) ? </note>
+               <lb/>
+               <pb n="56"/>
+            septem annis. <hi rend="italic">et dermiuit, inquit scriptura.Escchias cum</hi>
+               <lb/>
             patribus suis, <hi rend="italic">et sepultus</hi> est in <hi rend="italic">ciuitate</hi> dexid, <hi rend="italic">et regnauit <lb/>
              Manasses filius</hi> eius pro <hi rend="italic">eo</hi>. eum <hi rend="italic">esset rex</hi> sedecim annorum <lb/>
             Manasses cum <hi rend="italic">regnaret,</hi> et quinquaginta septem annis <hi rend="italic">regnauit <lb/>
             in Hierusalem, et nomem erat matris eius Ebsibas. et fecit <lb n="5"/>
-            quod malignum est ante conspectum</hi> domini <hi rend="italic">secundum</hi> <hi rend="italic">abominationes <lb/>
+            quod malignum est ante conspectum</hi> domini <hi rend="italic">secundum</hi>
+               <hi rend="italic">abominationes <lb/>
             gentium, quos</hi> eiecit <hi rend="italic">dominus a faeie</hi> filiorum Israel. <lb/>
-            <hi rend="italic">et</hi> aedificauit <hi rend="italic">excelsa quae destruxerat Escchias</hi> pater <hi rend="italic">ipsius,</hi> <lb/>
+               <hi rend="italic">et</hi> aedificauit <hi rend="italic">excelsa quae destruxerat Escchias</hi> pater <hi rend="italic">ipsius,</hi>
+               <lb/>
             d <hi rend="italic">aedificauit</hi> sacrarium <hi rend="italic">Baal et fecit lucos sicut fecit</hi> Achab <lb/>
-            <hi rend="italic">rex Israel, et adorauit omnem</hi> militiam caeli <hi rend="italic">et</hi> seruiuit illis. <lb n="10"/>
-            <hi rend="italic">et</hi> aedificauit <hi rend="italic">sacrarium</hi> in ducbus aedibus domus domini <hi rend="italic">et <lb/>
+               <hi rend="italic">rex Israel, et adorauit omnem</hi> militiam caeli <hi rend="italic">et</hi> seruiuit illis. <lb n="10"/>
+               <hi rend="italic">et</hi> aedificauit <hi rend="italic">sacrarium</hi> in ducbus aedibus domus domini <hi rend="italic">et <lb/>
             induxit filios suos in ignem et augurabatur et fecit pythones <lb/>
             et diuinos multos, ut faceret quod malignum est im oculis <lb/>
             animae suae, ut exacerbaret dominum</hi> deum. <hi rend="italic">et fecit</hi> sculptilia <lb/>
-            <hi rend="italic">lucorum quae fecit</hi> in <hi rend="italic">domo, quam dixit dominus ad dauid <lb n="15"/>
+               <hi rend="italic">lucorum quae fecit</hi> in <hi rend="italic">domo, quam dixit dominus ad dauid <lb n="15"/>
              et ad Salomonem filium eius:</hi> in <hi rend="italic">domo ista et</hi> i. Hierusalem, <lb/>
-            <hi rend="italic">quam elegi et omnibus tribubus Israel, ponere nomen meum <lb/>
-            i. acternum, et</hi> non <hi rend="italic">adponam pedem in Israd monere a terra</hi> <lb/>
+               <hi rend="italic">quam elegi et omnibus tribubus Israel, ponere nomen meum <lb/>
+            i. acternum, et</hi> non <hi rend="italic">adponam pedem in Israd monere a terra</hi>
+               <lb/>
             quam <hi rend="italic">dedi, sed si audierint me per omnia. quae mandaui eis,<lb/>
              et secundum legem, quam mandauit eis puer</hi> meus <hi rend="italic">Moyses. <lb n="20"/>
              et non audierunt</hi>. et <hi rend="italic">quoniam ualide aspernatus est Manasses <lb/>
-            et seduxit eos Manasses, ut facerent quod malignum est super</hi> <lb/>
+            et seduxit eos Manasses, ut facerent quod malignum est super</hi>
+               <lb/>
             omnes <hi rend="italic">gentes quas abstulit dominus a facie Israel. et</hi> locutus <lb/>
-            <hi rend="italic">est dominus in manu puerorum suorum prophetarum quae<lb/>
+               <hi rend="italic">est dominus in manu puerorum suorum prophetarum quae<lb/>
             fecit Manasses rex Iuda simulacra,</hi> secundum <hi rend="italic">omnia quae <lb n="25"/>
             fecit Amorrhaeus qui erat ante faciem eius, et peccare feeit <lb/>
             Iuda in idolis suis; propter hoc haec dicit dominus deus<lb/>
@@ -1000,16 +995,14 @@
             omnes</hi> qui <hi rend="italic">audierint haec tinnibunt aures eorum utraeque. <lb/>
             et extendam</hi> im <hi rend="italic">Hierusalem</hi> mensuram Samariae <hi rend="italic">et pondus <lb n="30"/>
             domus Achab et deleam Hierusalem quemadmodum deletur</hi>
-
-<note type="footnote"> 1 im Reg. 20, 21 — 21, 18 </note>
-
-<note type="footnote"> 1 inqaid ezecias 3 manases <hi rend="italic">7 quos V, quas v</hi> egecit <lb/>
+               <note type="footnote"> 1 im Reg. 20, 21 — 21, 18 </note>
+               <note type="footnote"> 1 inqaid ezecias 3 manases <hi rend="italic">7 quos V, quas v</hi> egecit <lb/>
             9 bahal 11 dnabus <hi rend="italic">Coleti</hi> 12 phytones 18 et non s. L m. 1<lb/>
              alt. in <hi rend="italic">om. Gallandius</hi> 21 andierint <hi rend="italic">Vv; em. Col</hi>. adspernatus <lb/>
-            23 facia 26 amorrens </note><lb/>
-             
-<pb n="57"/>
-            <hi rend="italic">buxum de poste ante faciem eius. et dabo eos in manus ini* <lb/>
+            23 facia 26 amorrens </note>
+               <lb/>
+               <pb n="57"/>
+               <hi rend="italic">buxum de poste ante faciem eius. et dabo eos in manus ini* <lb/>
             micorum ipsius, et erunt in direptionem et conbustionem<lb/>
              omnibus inimicis eorum, quoniam proiecti sunt de post me, <lb/>
             et erant de post me et erant exacerbantes me, ex qua die <lb/>
@@ -1023,11 +1016,9 @@
              cum patribus suis, et regnauit filius eius pro eo, cum esset<lb/>
              annorum uiginti duo Amos</hi>. 
 </p>
-          </div>
-
-<div n="9" subtype="chapter" type="textpart">
-
-<p>Quid dicis, Constanti, ad haec ? credo iam desinere <lb/>
+         </div>
+         <div n="9" type="chapter">
+            <p>Quid dicis, Constanti, ad haec ? credo iam desinere <lb/>
             te dicere: <hi rend="italic">si non bene agerem, non essem tanto tempore <lb n="15"/>
             regnans,</hi> quando uideas et alterum istum Manassem talia <lb/>
             agentem quinquaginta septem annis regnasse; et quia diximus <lb/>
@@ -1049,11 +1040,14 @@
             percerit et quousque pepercerit, ut scriptum sit dormisse illum
 
 <note type="footnote">9 08 super os <hi rend="italic">Latinius; <foreign xml:lang="grc">στόμα ει̉ς στόμα</foreign> LXX</hi> 10 quod <hi rend="italic">fort</hi>. <lb/>
-            14 qui 16 et <hi rend="italic">scripsi,</hi> te <hi rend="italic">Vv</hi> 22 idolorum] cultor <hi rend="italic">add. Coleti</hi> <lb/>
-            haeresim <hi rend="italic">v</hi> 23 qui] quia <hi rend="italic">Latinius</hi> 24 aput 29 in quas <hi rend="italic">LatinWs,</hi> <lb/>
-            quo <hi rend="italic">fort</hi>. 30 idolatrem <hi rend="italic">V,</hi> idololatram <hi rend="italic">v</hi> </note> <lb/>
-             
-<pb n="58"/>
+            14 qui 16 et <hi rend="italic">scripsi,</hi> te <hi rend="italic">Vv</hi> 22 idolorum] cultor <hi rend="italic">add. Coleti</hi>
+                  <lb/>
+            haeresim <hi rend="italic">v</hi> 23 qui] quia <hi rend="italic">Latinius</hi> 24 aput 29 in quas <hi rend="italic">LatinWs,</hi>
+                  <lb/>
+            quo <hi rend="italic">fort</hi>. 30 idolatrem <hi rend="italic">V,</hi> idololatram <hi rend="italic">v</hi>
+               </note>
+               <lb/>
+               <pb n="58"/>
             cum patribus suis et sepultum in Hierusalem et suscepisse <lb/>
             loco illius regnum filium eius. numquid legis in bello illum <lb/>
             interisse (a)ut aliqua ualitudine praegrauatum ? minime; sed <lb/>
@@ -1088,11 +1082,13 @@
             diabolus et eius filii dicere possunt de unico dei filio: <hi rend="italic">filius<lb/>
              est et non est uerus filius; deus est et non est uerus deus</hi>?
 
-<note type="footnote"> 3 ant <hi rend="italic">scripsi,</hi> ut <hi rend="italic">Vv,</hi> uel <hi rend="italic">coni. Tilius</hi> 4 dices <hi rend="italic">fort</hi>. 5 illi <hi rend="italic">v</hi> <lb/>
+<note type="footnote"> 3 ant <hi rend="italic">scripsi,</hi> ut <hi rend="italic">Vv,</hi> uel <hi rend="italic">coni. Tilius</hi> 4 dices <hi rend="italic">fort</hi>. 5 illi <hi rend="italic">v</hi>
+                  <lb/>
             9 adetun actos 10 manaeses <hi rend="italic">Y,</hi> manaasem <hi rend="italic">v</hi> 13 fundes <lb/>
-            20 illa 28 inermes <hi rend="italic">Y,</hi> uermes <hi rend="italic">v</hi> </note> <lb/>
-             
-<pb n="59"/>
+            20 illa 28 inermes <hi rend="italic">Y,</hi> uermes <hi rend="italic">v</hi>
+               </note>
+               <lb/>
+               <pb n="59"/>
             ergo tu cum dicis, <hi rend="italic">Christianus sum sed non credo deum uerum<lb/>
              habere filium, non credo unam potentiam patris et filii,</hi> cum <lb/>
             dicis filium creaturam, factum illum ex nihilo, cum dicis fuisse, <lb/>
@@ -1100,14 +1096,12 @@
             Manasses, quando filios suos aut per ignem omnibus consecrabat <lb n="5"/>
             daemoniis aut cum concremabat. 
 </p>
-          </div>
-
-<div n="10" subtype="chapter" type="textpart">
-
-<p rend="script">Doleo tibi, imperator, &lt;cur&gt; cum tantae sis insipientiae <lb/>
+         </div>
+         <div n="10" type="chapter">
+            <p rend="script">Doleo tibi, imperator, &lt;cur&gt; cum tantae sis insipientiae <lb/>
             et cum sis tanta faciens mala, digneris tamen dicere: <hi rend="italic">si non <lb/>
             bene facerem, non adhuc in regno essem; iam me deus extinxisset <lb/>
-            </hi>. non conspicis istum Manassem in sacrilegio et in. <lb n="10"/>
+               </hi>. non conspicis istum Manassem in sacrilegio et in. <lb n="10"/>
             crudelitate tibi comparandum, quod quinquaginta septem annis, <lb/>
             ut saepe dixi, regnum tenuerit in Iudaea? hic utique qui <lb/>
             fecerit derelinquere populum deum et seruirė idolis, hic utique <lb/>
@@ -1131,15 +1125,16 @@
              sunt uiae eius in omni tempore; auferuntur iudicia eius a</hi>.
 
 <note type="footnote"> 27 Ps. 9, 24—26 (10, 3-5) </note>
-
-<note type="footnote"> 6 cum] p <hi rend="italic">add. V</hi> 7 cur <hi rend="italic">addidi</hi> 9 extincxisset 10 incredulitate <lb/>
-            <hi rend="italic">v; cf. 58, 12</hi> 12 iudea 18 delinquere populum domini <hi rend="italic">v</hi>. <lb/>
-            17 et <hi rend="italic">(ante</hi> familiam) <hi rend="italic">om. v</hi> 31 auferantur <hi rend="italic">v</hi> </note> <lb/>
-             
-<pb n="60"/>
-            <hi rend="italic">facie eius</hi>. cum igitur tu dicis: bene <hi rend="italic">facimus tollere episcopos<lb/>
+               <note type="footnote"> 6 cum] p <hi rend="italic">add. V</hi> 7 cur <hi rend="italic">addidi</hi> 9 extincxisset 10 incredulitate <lb/>
+                  <hi rend="italic">v; cf. 58, 12</hi> 12 iudea 18 delinquere populum domini <hi rend="italic">v</hi>. <lb/>
+            17 et <hi rend="italic">(ante</hi> familiam) <hi rend="italic">om. v</hi> 31 auferantur <hi rend="italic">v</hi>
+               </note>
+               <lb/>
+               <pb n="60"/>
+               <hi rend="italic">facie eius</hi>. cum igitur tu dicis: bene <hi rend="italic">facimus tollere episcopos<lb/>
              illos qui confitentur se tenere fidem apud Niciam scriptam<lb/>
-             et constituere eos qui confiteantur, sicuti confitebatur Arrius;</hi> <lb/>
+             et constituere eos qui confiteantur, sicuti confitebatur Arrius;</hi>
+               <lb/>
             et illi dicant: <hi rend="italic">recte utique tu es paccator ille qui laudaris <lb/>
             iniuste pro desideriis animae tuae; et tu es</hi> iniquus, <hi rend="italic">qui, cum <lb n="5"/>
             sis derelictus pro blasphemiis tuis a deo, tamen cum adulatoribus <lb/>
@@ -1152,8 +1147,8 @@
             sit laudari </hi>? dicis: <hi rend="italic">nisi bene agerem, non adhuc</hi> mihi <hi rend="italic">pepercisset<lb/>
              deus;</hi> et inuenio dictam ad deum; <hi rend="italic">propterea quod hos<lb/>
              qui exerrarint partibus corripis, et eos qui peccant</hi> admonens<lb n="15"/>
-            <hi rend="italic">adloqueris, ut derelicta mal ilia credant</hi> in <hi rend="italic">te, domine. et</hi> illos <lb/>
-            <hi rend="italic">enim antiquos inhabitatores terrae tuae</hi> odiens, quoniam <hi rend="italic">odibilia <lb/>
+               <hi rend="italic">adloqueris, ut derelicta mal ilia credant</hi> in <hi rend="italic">te, domine. et</hi> illos <lb/>
+               <hi rend="italic">enim antiquos inhabitatores terrae tuae</hi> odiens, quoniam <hi rend="italic">odibilia <lb/>
             tibi opera faciebant per medicamina et sacramenta iniusta,<lb/>
              et filiorum necatores sine misericordia uoluisti perdere<lb/>
              per manus parentum nostrorum, ut dignam percipiat peregrinationem<lb n="20"/>
@@ -1161,7 +1156,7 @@
             sed et his tamquam hominibus pepercisti et misisti antecessores <lb/>
             exercitus uespas, ut illos partibus exterminarent. numquid <lb/>
             inpotens eras inpugnare, impios iustis subicere aut</hi> bestiis <lb/>
-            <hi rend="italic">saeuissimis aut uerbo duro simul perdere ? sed portibus iudicans <lb n="25"/>
+               <hi rend="italic">saeuissimis aut uerbo duro simul perdere ? sed portibus iudicans <lb n="25"/>
             dabas locum paenitentiae, non ignorans quoniam nequam est<lb/>
              natio eorum et naturalis malitia illorum et quoniam non <lb/>
             poterat mutari cogitatio illorum in perpetuo; semen enim erat<lb/>
@@ -1170,21 +1165,18 @@
             contra iudicium tuum </hi>?
 
 <note type="footnote"> 14 Sap. 12, 2—12 </note>
-
-<note rend="script" type="footnote"> f <lb/>
+               <note rend="script" type="footnote"> f <lb/>
             4 rectae 5 iniustae 6 adolatoribus 7 deliqais 11 psalmografum<lb/>
              18 laudare 15 exer///rarint <hi rend="italic">V,</hi> execrarint v partibus <lb/>
-            <hi rend="italic">Tilius in not.,</hi> patribaa <hi rend="italic">Vv</hi> 16 adloquaeris militiae 20 percipiat <lb/>
-            <hi rend="italic">scripsi,</hi> percipiant <hi rend="italic">Vv</hi> peregrinationea <hi rend="italic">V;</hi> em. <hi rend="italic">Tilius</hi> in notis<lb/>
-             29 aliquam v 30 aut quis t1, aut qui <hi rend="italic">V</hi> </note> 
-<pb n="61"/>
-             
-</p>
-          </div>
-
-<div n="11" subtype="chapter" type="textpart">
-
-<p rend="script">Similiter et tibi parcitur, Constanti, ut agas paenitentiam <lb/>
+                  <hi rend="italic">Tilius in not.,</hi> patribaa <hi rend="italic">Vv</hi> 16 adloquaeris militiae 20 percipiat <lb/>
+                  <hi rend="italic">scripsi,</hi> percipiant <hi rend="italic">Vv</hi> peregrinationea <hi rend="italic">V;</hi> em. <hi rend="italic">Tilius</hi> in notis<lb/>
+             29 aliquam v 30 aut quis t1, aut qui <hi rend="italic">V</hi>
+               </note>
+               <pb n="61"/>
+            </p>
+         </div>
+         <div n="11" type="chapter">
+            <p rend="script">Similiter et tibi parcitur, Constanti, ut agas paenitentiam <lb/>
             aat eorum intereas examplo, qui cum. sciti fuissent a deo, quod <lb/>
             non esaent acturi paenitentiam, quod non fuissent semet conuersuri <lb/>
             ad deum, propterea (quod aem$n&gt; fuerit ab initio <lb/>
@@ -1195,7 +1187,8 @@
             suorum uiderent causas et satis pro delicto fecissent deo. <lb/>
             eris ergo et tu, si minime conuersus fueris ad deum, unus <lb n="10"/>
             ex illo maledicto genere, de quo ad deum dicitur: <hi rend="italic">nota ignorans <lb/>
-            quoniam est nequam natio illorum et naturalis malitia eorum</hi> <lb/>
+            quoniam est nequam natio illorum et naturalis malitia eorum</hi>
+               <lb/>
             d <hi rend="italic">quoniam non potuerit mutari cogitatio eorum in perpetuo; <lb/>
             semen enim erat maledictum ab initio</hi>. quam igitur te gloriosum <lb/>
             esse uidebis, quando cum talibus esse coeperis, cum inter <lb n="15"/>
@@ -1208,23 +1201,21 @@
              fides mea, hoc est Arriana, fuisset catholica, si non recte <lb/>
             egissem tollere illos episcopos qui fidem praedicant descriptam <lb/>
             a trecentis apud Niciam et eo amplius, numquam diu regnarem, <lb/>
-            </hi> numquam m <hi rend="italic">eo usque fulgerem in regno, ut, et pauco <lb n="25"/>
+               </hi> numquam m <hi rend="italic">eo usque fulgerem in regno, ut, et pauco <lb n="25"/>
             licet tempore, tamen solus intra limitem Romanum imperassem</hi>. <lb/>
             å ita est, ut dicis. cur dicit iustissimus dei cultor lob ad eos, <lb/>
             qui eius iustitiam falsis allegationibus lacessebant? <hi rend="italic">audite me <lb/>
             quoniam dolores uulneris mei cogunt me loqui: ut quid impii<lb/>
             uiuunt et domus illorum non dissipatae sunt et timor ab illis <lb n="30"/>
             longe est ? uacca illorum numquam abortauit, semper tulit</hi>
-
-<note type="footnote"> 11 Sap. 12, 10. 11 28 Iob 21, 1. 6-20 </note>
-
-<note type="footnote"> 4 qtod samen, <hi rend="italic">addidit Latwwa;</hi> quod fuerint a. L maligni <hi rend="italic">con- <lb/>
+               <note type="footnote"> 11 Sap. 12, 10. 11 28 Iob 21, 1. 6-20 </note>
+               <note type="footnote"> 4 qtod samen, <hi rend="italic">addidit Latwwa;</hi> quod fuerint a. L maligni <hi rend="italic">con- <lb/>
             Tilius</hi> .5 deliquaerunt 8 exibitum 12 nequa (a <hi rend="italic">ex</hi> e) <hi rend="italic">V; <lb/>
             cf. Roensch Itala2 275</hi> 17 itaque v 22 rectae 23 descripta <lb/>
-            24 aput </note> <lb/>
-             
-<pb n="62"/>
-            <hi rend="italic">uentrem suum; ipsi uero permanent tamquam oues in perpetuo<lb/>
+            24 aput </note>
+               <lb/>
+               <pb n="62"/>
+               <hi rend="italic">uentrem suum; ipsi uero permanent tamquam oues in perpetuo<lb/>
              et filii eorum accepto organo ludunt cum delectamento,<lb/>
              ut uitam degerant in bonis, cum dicat dominus: recedite a me, <lb/>
             iniqui, uias illorum nolo nosse, quoniam lucerna impiorum<lb/>
@@ -1255,18 +1246,17 @@
             uenturae essent ante faciem meam. quare ergo, domine, non <lb/>
             potui una hora latere; impii autem transeunt in finibus alienis, <lb n="30"/>
             et greges ouium cum pastoribus rapuerunt et pecora orpha-</hi>
-
-<note type="footnote"> 20 Iob 23. 17 — 24, 11 </note>
-
-<note rend="script" type="footnote"> I <lb/>
-            2 fil 8 ut] et <hi rend="italic">fort</hi>. degerent <hi rend="italic">v</hi> 10 sciret (ci <hi rend="italic">in ras.)</hi> <lb/>
+               <note type="footnote"> 20 Iob 23. 17 — 24, 11 </note>
+               <note rend="script" type="footnote"> I <lb/>
+            2 fil 8 ut] et <hi rend="italic">fort</hi>. degerent <hi rend="italic">v</hi> 10 sciret (ci <hi rend="italic">in ras.)</hi>
+                  <lb/>
             11 oertis] poenis <hi rend="italic">add. Latinvus falso; cf. ind,</hi> 18 quisisse 15 oredo <lb/>
-            <hi rend="italic">V,</hi> crede <hi rend="italic">v</hi> 16 ammoueris 17 amar rianae; <hi rend="italic">cf. p. 26,</hi> &lt;85 <lb/>
+                  <hi rend="italic">V,</hi> crede <hi rend="italic">v</hi> 16 ammoueris 17 amar rianae; <hi rend="italic">cf. p. 26,</hi> &lt;85 <lb/>
             20 desines <hi rend="italic">scripsi,</hi> desinis <hi rend="italic">V,</hi> desine <hi rend="italic">v</hi> . 24 narrauit <hi rend="italic">Coleti</hi> 25 iocundissimae <lb/>
-            31 orfanoram </note> <lb/>
-             
-<pb n="63"/>
-            <hi rend="italic">norum adflixerunt et bouem uiduae pignerauerunt. agrum non <lb/>
+            31 orfanoram </note>
+               <lb/>
+               <pb n="63"/>
+               <hi rend="italic">norum adflixerunt et bouem uiduae pignerauerunt. agrum non <lb/>
             suum ante tempus demessi sunt, et coegerunt homines in uineis<lb/>
              suis gratis operari. et multos despoliauerunt et esurientibus <lb/>
             panem abstulerunt, et in faucibus multis obsederunt, et non <lb/>
@@ -1276,7 +1266,7 @@
              egentiam uenient, et qui remanserint ex illis mala morte<lb/>
              morientur, et uiduis illorum nemo miserebitur, et si collexerint <lb/>
             aurum aut argentum tamquam lutum, haec omnia iusti possidebunt <lb n="10"/>
-            </hi>. ne itaque iam digneris iniuste tibi blandiri, imperator, <lb/>
+               </hi>. ne itaque iam digneris iniuste tibi blandiri, imperator, <lb/>
             quia enim sis talis, qualem adseuerauimus, et arbitreris te <lb/>
             homicidam ac sacrilegum propterea diutissime degere in hac <lb/>
             uita, quod enim tua opera sint deo accepta. talia sunt opera <lb/>
@@ -1286,13 +1276,10 @@
              si audisses mandata mea, facta fuisset ut fluuius pax tua et<lb/>
              iustitia ut fluctus maris, et factum esset sicut arena maris <lb/>
             semen tuum et nati uentris tui</hi>. <lb n="20"/>
-            
-</p>
-          </div>
-
-<div n="12" subtype="chapter" type="textpart">
-
-<p rend="script">Sed, inquis, haec ad Iudaeos dicta sunt, nempe ad eos <lb/>
+            </p>
+         </div>
+         <div n="12" type="chapter">
+            <p rend="script">Sed, inquis, haec ad Iudaeos dicta sunt, nempe ad eos <lb/>
             quorum te fecisti imitatorem. et nunc, ut est crebro dictum, <lb/>
             muta malignas uias tuas, crede ut credit sancta ecclesia, et <lb/>
             in omnibus tibi propitiabitur. dicit enim ipse: <hi rend="italic">reuertimini ad<lb/>
@@ -1303,18 +1290,17 @@
             toto corde tam te grauiter deliquisse colligens; tunc tui miserebitur <lb/>
             ille qui dicit: <hi rend="italic">cum conuersus ingemueris, tunc saluus<lb n="30"/>
              eris et scies ubi fueris</hi>. reminiscere deo dicatum dixisse prophetam: <lb/>
-            <hi rend="italic">nolo mortem morientis, dicit dominus, quantum ut</hi>
-
-<note type="footnote"> 6 Iob. 24,18. 27, 8.14 16 Es. 48,17—19 24 Ioel 2,12.18 <lb/>
+               <hi rend="italic">nolo mortem morientis, dicit dominus, quantum ut</hi>
+               <note type="footnote"> 6 Iob. 24,18. 27, 8.14 16 Es. 48,17—19 24 Ioel 2,12.18 <lb/>
             30 Es. 30, 15 82 Ez. 33, 11 </note>
-
-<note rend="script" type="footnote"> 8 nenient <hi rend="italic">(alt. e ex a corr.)</hi> 12 enim <hi rend="italic">scripsi,</hi> cum <hi rend="italic">Vv</hi> 14 aintj sit <lb/>
+               <note rend="script" type="footnote"> 8 nenient <hi rend="italic">(alt. e ex a corr.)</hi> 12 enim <hi rend="italic">scripsi,</hi> cum <hi rend="italic">Vv</hi> 14 aintj sit <lb/>
             n . <lb/>
-            <hi rend="italic">recte fort</hi>. 19 ut v, ant <hi rend="italic">V</hi> 22 nuc <hi rend="italic">V</hi> 29 miseribitor 81 remi- <lb/>
-            <hi rend="italic">niscere om. v</hi> </note> <lb/>
-             
-<pb n="64"/>
-            <hi rend="italic">reuertatur et uiuat</hi>. noli iam sentire quod, cum mala sint <lb/>
+                  <hi rend="italic">recte fort</hi>. 19 ut v, ant <hi rend="italic">V</hi> 22 nuc <hi rend="italic">V</hi> 29 miseribitor 81 remi- <lb/>
+                  <hi rend="italic">niscere om. v</hi>
+               </note>
+               <lb/>
+               <pb n="64"/>
+               <hi rend="italic">reuertatur et uiuat</hi>. noli iam sentire quod, cum mala sint <lb/>
             opera tua, ut bene te agere existimes, cur non statim pro <lb/>
             factis poenas receperis tuis, sed conspice scriptum dominum <lb/>
             patientem esse. ut paenitearis. <hi rend="italic">ne dixeris: peccaui, et quid<lb/>
@@ -1323,7 +1309,7 @@
             aperientem tibi, quod enim idcirco sit patiens et non <lb/>
             ilico sint repraesentata merita operum tuorum, quia uelit te <lb/>
             tandem a malis emergere per paenitentiam, per ueram satisfactionem. <lb/>
-            <hi rend="italic">numquid sustinentiam bonitatis eius et patientiam <lb n="10"/>
+               <hi rend="italic">numquid sustinentiam bonitatis eius et patientiam <lb n="10"/>
             contemnis, ignorans quoniam bonitas dei ad paenitentiam te<lb/>
              adducit? tu autem secundum duritiam tuam et cor inpaenitens <lb/>
             thesaurizas tibi iram in die irae et reuelationis iusti iudicii<lb/>
@@ -1331,30 +1317,31 @@
             ad deum, contra interni tui hostis latrocinium sume<lb n="15"/>
             paenitentjae arma, fuge adulatorum, qui tibi non fuerint dig.. <lb/>
             nati quae (in) se habent dicere, perniciosam laudem, memento <lb/>
-            ore Isaiae dixisse dominum: <hi rend="italic">qui</hi> uos <hi rend="italic">felices</hi> dicunt in <hi rend="italic">errorem</hi> <lb/>
+            ore Isaiae dixisse dominum: <hi rend="italic">qui</hi> uos <hi rend="italic">felices</hi> dicunt in <hi rend="italic">errorem</hi>
+               <lb/>
             uos <hi rend="italic">mittunt et semitam pedum uestrorum turbant</hi>. crede in <lb/>
             unicum dei filium, accipe ueniam tuorum scelerum, repete <lb n="20"/>
             dicere psalmographum: apud <hi rend="italic">inferos quia confitebitur tibi</hi>? <lb/>
             et iterum: <hi rend="italic">numquid exomologesim faciet tibi puluis</hi>? reuertere <lb/>
             ad deum, ingemesce pro criminibus tuis, per Hieremiam domini <lb/>
-            dicentis audi uocem: <hi rend="italic">numquid</hi> qui cadit non <hi rend="italic">resurget, aut</hi> <lb/>
+            dicentis audi uocem: <hi rend="italic">numquid</hi> qui cadit non <hi rend="italic">resurget, aut</hi>
+               <lb/>
             qui <hi rend="italic">auertitur non conuertetur</hi>? cecidisti die qua negasti dei <lb n="25"/>
             filium; resurges hora qua fueris confessus. quia te plaga <lb/>
             hostilis insedit, trade te curandum medicinae, ipse tibi adhibe <lb/>
-            medellam. uulnerasti temet dicens: <hi rend="italic">non est</hi> uerus <hi rend="italic">dei filius,</hi> <lb/>
+            medellam. uulnerasti temet dicens: <hi rend="italic">non est</hi> uerus <hi rend="italic">dei filius,</hi>
+               <lb/>
             iterum temet sanaturus, si dicas ut nos dicimus et credimus <lb/>
             esse illum uerum dei filium. <hi rend="italic">reuertimini,</hi> dicit Iohel, <hi rend="italic">ad </hi>
-
-<note type="footnote"> 4 Eccli, 4 10 Rom. 2, 4-6 18 Es. 3, 12 21 Ps. 6, 6 <lb/>
+               <note type="footnote"> 4 Eccli, 4 10 Rom. 2, 4-6 18 Es. 3, 12 21 Ps. 6, 6 <lb/>
              22 Ps. 29, 10 24 Hier. 8, 4 30 Ioel 2, 12. 13 </note>
-
-<note type="footnote"> 1 cmn] enim <hi rend="italic">fort</hi>. (an quod <hi rend="italic">abundat?)</hi> 8 recteperis aspice v <lb/>
+               <note type="footnote"> 1 cmn] enim <hi rend="italic">fort</hi>. (an quod <hi rend="italic">abundat?)</hi> 8 recteperis aspice v <lb/>
             4 paenetearis <hi rend="italic">m. 1</hi> 8 ilico (pr. i <hi rend="italic">in ras.)</hi> 10 pacientiam contewpnis<lb/>
              15 iAternae 17 in qddidi pernitiosam 18 orae <lb/>
-            21 psalmografum 22 exhomolongesim </note> <lb n="30"/>
-             
-<pb n="65"/>
-            <hi rend="italic">dominum deum uestrum, quoniam misericors et pius et patiens <lb/>
+            21 psalmografum 22 exhomolongesim </note>
+               <lb n="30"/>
+               <pb n="65"/>
+               <hi rend="italic">dominum deum uestrum, quoniam misericors et pius et patiens <lb/>
             et multae miserationis et qui sententiam flectat aduersus <lb/>
             malitiam inrogatam</hi>. si hanc tibi promissam indulgentiam <lb/>
             funerum tuorum repudiandam duxeris, illic hanc consequi desideraturus, <lb/>
@@ -1365,15 +1352,10 @@
             post</hi> poenarum <hi rend="italic">interrogationis signum ponendum est, an l. 4</hi> duxeris <lb/>
             ■ frustra eris <hi rend="italic">scribendum</hi>? 6 paenarum DE REGiBus APOSTATICIS <lb/>
             LIВER EXPLICIT </note>
-
-<note type="footnote"> xmI. </note>
-
-<note type="footnote"> 5 </note>
-</p>
-       
-</div>
- 
-</div>
-</body>
-</text>
+               <note type="footnote"> xmI. </note>
+               <note type="footnote"> 5 </note>
+            </p>
+         </div>
+      </body>
+   </text>
 </TEI>

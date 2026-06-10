@@ -1,108 +1,112 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader xml:lang="eng">
-    <fileDesc>
-      <titleStmt>
-        <title xml:lang="lat">De duplici Martyrio</title>
-        <author>Pseudo-Cyprian</author>
-        <editor>Wilhelm von Hartel</editor>
-        <sponsor>University of Leipzig</sponsor>
-        <funder>European Social Fund Saxony</funder>
-        <principal>Gregory Crane</principal>
-        <respStmt>
-          <persName xml:id="Jouve">Jouve</persName>
-          <resp>OCR-ed, corrected and encoded the text</resp>
-        </respStmt>
-        <respStmt>
-          <persName>Greta Franzini</persName>
-          <resp>Project Manager (University of Leipzig)</resp>
-        </respStmt>
-        <respStmt>
-          <persName>Simona Stoyanova</persName>
-          <resp>Project Assistant (University of Leipzig)</resp>
-        </respStmt>
-        <respStmt>
-          <persName>Bruce Robertson</persName>
-          <resp>Technical Advisor (Mount Allison University)</resp>
-        </respStmt>
-        <respStmt>
-          <persName>Uvius Fonticola</persName>
-          <resp>Technical Advisor (Ludwig Maximilians University Munich)</resp>
-        </respStmt>
-      </titleStmt>
-      
-      <publicationStmt>
-        <authority>University of Leipzig</authority>
-        <idno type="filename">stoa0104p.stoa006.opp-lat1.xml</idno>
-        <availability>
-          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
-        </availability>
-        <date>2014</date>
-        <publisher>University of Leipzig</publisher>
-        <pubPlace>Germany</pubPlace>
-      </publicationStmt>
-      
-      <sourceDesc>
-        <listBibl>
-          <biblStruct>
-            <monogr>
-              <editor>
-                <persName>
-                  <name>Wilhelm von Hartel</name>
-                </persName>
-              </editor> 
-              <author>Pseudo-Cyprian</author>  
-              <title xml:lang="lat">S. Thasci Caecili Cypriani Opera omnia</title>
-              <imprint>
-                <publisher>Gerold</publisher>
-                <pubPlace>Vienna</pubPlace>
-                <date>1871</date>
-              </imprint>
-              <biblScope unit="volume" xml:lang="lat">Pars III</biblScope>
-            </monogr>
-            <series>
-              <title xml:lang="lat">Corpus Scriptorum Ecclesiasticorum Latinorum</title>
-              <biblScope unit="volume">3.3</biblScope>
-            </series>            
-            <ref target="http://archive.org/stream/corpusscriptoru0swissgoog#page/n7/mode/2up">Internet Archive</ref>
-            
-          </biblStruct>
-        </listBibl>
-      </sourceDesc>
-      
-    </fileDesc>
-    <encodingDesc>
-      <p>The following text is encoded in accordance with EpiDoc standards and with the
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/PerseusDLCode/perseus-schemas/main/perseus_prose.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="eng">
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="lat">De duplici Martyrio</title>
+            <author>Pseudo-Cyprian</author>
+            <editor>Wilhelm von Hartel</editor>
+            <sponsor>University of Leipzig</sponsor>
+            <funder>European Social Fund Saxony</funder>
+            <principal>Gregory Crane</principal>
+            <respStmt>
+               <persName xml:id="Jouve">Jouve</persName>
+               <resp>OCR-ed, corrected and encoded the text</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Greta Franzini</persName>
+               <resp>Project Manager (University of Leipzig)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Simona Stoyanova</persName>
+               <resp>Project Assistant (University of Leipzig)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Bruce Robertson</persName>
+               <resp>Technical Advisor (Mount Allison University)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Uvius Fonticola</persName>
+               <resp>Technical Advisor (Ludwig Maximilians University Munich)</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>University of Leipzig</authority>
+            <idno type="filename">stoa0104p.stoa006.opp-lat1.xml</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
+            </availability>
+            <date>2014</date>
+            <publisher>University of Leipzig</publisher>
+            <pubPlace>Germany</pubPlace>
+            <idno type="CTS">urn:cts:latinLit:stoa0104p.stoa006.opp-lat1</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <name>Wilhelm von Hartel</name>
+                        </persName>
+                     </editor>
+                     <author>Pseudo-Cyprian</author>
+                     <title xml:lang="lat">S. Thasci Caecili Cypriani Opera omnia</title>
+                     <imprint>
+                        <publisher>Gerold</publisher>
+                        <pubPlace>Vienna</pubPlace>
+                        <date>1871</date>
+                     </imprint>
+                     <biblScope unit="volume" xml:lang="lat">Pars III</biblScope>
+                  </monogr>
+                  <series>
+                     <title xml:lang="lat">Corpus Scriptorum Ecclesiasticorum Latinorum</title>
+                     <biblScope unit="volume">3.3</biblScope>
+                  </series>
+                  <ref target="http://archive.org/stream/corpusscriptoru0swissgoog#page/n7/mode/2up">Internet Archive</ref>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>The following text is encoded in accordance with EpiDoc standards and with the
         CTS/CITE Architecture. 
 </p>
-      <refsDecl n="CTS">
-        <cRefPattern n="section" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1'])"/>
-      </refsDecl>
-    </encodingDesc>
-    
-    <profileDesc>
-      <langUsage>
-        <language ident="lat">Latin</language>
-      </langUsage>
-    </profileDesc>
-    
-</teiHeader>
-<text>
-<body>
-<div type="edition" xml:lang="lat" n="urn:cts:latinLit:stoa0104p.stoa006.opp-lat1">
-<head>
+         <refsDecl n="CTS">
+            <cRefPattern n="section"
+                         matchPattern="(.+)"
+                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1'])"/>
+         </refsDecl>
+         <refsDecl n="CTS">
+            <citeStructure match="/TEI/text/body" use="@xml:base">
+               <citeStructure unit="section" delim="." match="div[@type='section']" use="@n"/>
+            </citeStructure>
+         </refsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <catRef scheme="#perseus-genre" target="#prose-section"/>
+         </textClass>
+         <langUsage>
+            <language ident="lat">Latin</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body xml:base="urn:cts:latinLit:stoa0104p.stoa006.opp-lat1">
+         <head>
             <title type="main">XIIII. DE DVPLICI MARTVRIO AD FORTVNATVM. </title>
-          </head>
-          
-
-<div n="1" subtype="section" type="textpart"><p> Multifariam multisque modis ago gratias, Fortunate mihi in Domino <lb/>
+         </head>
+         <div n="1" type="section">
+            <p> Multifariam multisque modis ago gratias, Fortunate mihi in Domino <lb/>
             carissime, diuinae benignitati, quod et tuam pietatem excitauit
 
 <note type="footnote"> 7 Sir. 42, 12. 14 PhiL 4, 8. 9. </note>
-
-<note type="footnote"> 6 frequentantium <hi rend="italic">C</hi> 13 paulus apostolus v 14 inquit om. v. — <lb/>
-            Explicit (liber <hi rend="italic">add. m. 2)</hi> de singalaritate clericorum <hi rend="italic">C</hi>. — </note> <lb/>
-             
-<pb n="221"/>
+               <note type="footnote"> 6 frequentantium <hi rend="italic">C</hi> 13 paulus apostolus v 14 inquit om. v. — <lb/>
+            Explicit (liber <hi rend="italic">add. m. 2)</hi> de singalaritate clericorum <hi rend="italic">C</hi>. — </note>
+               <lb/>
+               <pb n="221"/>
             ad exstimulandum officium meum, ut unico libello commilitonibus <lb/>
             nostris materiam subministrarem, unde sibi gratia spiritus opitulante <lb/>
             munimenta telaque fabricarentur aduersus persecutionum incursus, et <lb/>
@@ -125,10 +129,12 @@
             nisi illo prosperante. sane et uestris precibus et Domini bonitate <lb n="20"/>
             fretus aggrediar. 
 </p>
-          <p>Martyr, ut iis quoque notum est qui Graece nesciunt, testem sonat. 
-</p></div>
-
-<div n="2" subtype="section" type="textpart"><p> <lb/>
+            <p>Martyr, ut iis quoque notum est qui Graece nesciunt, testem sonat. 
+</p>
+         </div>
+         <div n="2" type="section">
+            <p>
+               <lb/>
             quamquam autem post exortam euangelicae ueritatis lucem ecclesiastica <lb/>
             consuetudo cognominis huius honorem proprie tribueret iis qui <lb/>
             in tormentis usque ad mortem perdurarunt in professione nominis <lb n="25"/>
@@ -144,8 +150,7 @@
             qui quidquid uult nutu potest et cui uoluisse fecisse est. et quamquam <lb n="35"/>
             ut dixi ad illam ineffabilem maiestatem nulla pertingit ignominia, <lb/>
             tamen in scripturis ita loquitur, quasi per nos honoretur uel <lb/>
-             
-<pb n="222"/>
+               <pb n="222"/>
             ignominia afficiatur. nam in Deuteronomio cum Moyse expostulat, <lb/>
             quod apud populum ob laticis penuriam murmurantem in Cades deserti <lb/>
             Sin ad aquas contradictionis non sanctificarit ipsum inter filios <lb/>
@@ -153,9 +158,9 @@
             terram promissam ac tot annis exspectatam. sed tantum e montis <lb n="5"/>
             uertice procul aspicere licuit. 
 </p>
-          </div>
-
-<div n="3" subtype="section" type="textpart"><p> Porro quod dictum est sanctificare pro glorificare, qui litteras Hebraeorum <lb/>
+         </div>
+         <div n="3" type="section">
+            <p> Porro quod dictum est sanctificare pro glorificare, qui litteras Hebraeorum <lb/>
             callent, affirmant esse sermonis illius proprietatem. quod <lb/>
             ipsum tamen ex aliis scripturarum locis liquere potest, si minus <lb/>
             illorum testimonio fidimus, quandoquidem et in oratione dominica <lb n="10"/>
@@ -185,9 +190,9 @@
             nomen Dei patris, hoc est ut inclarescat et illustretur apud <lb/>
             homines utique per homines uel potius in hominibus. illustratur
 
-<note type="footnote"> 11 Matth. 6, 9. 24 Leu. 20, 3. 31 Rom. 2, 24. </note> <lb n="35"/>
-             
-<pb n="223"/>
+<note type="footnote"> 11 Matth. 6, 9. 24 Leu. 20, 3. 31 Rom. 2, 24. </note>
+               <lb n="35"/>
+               <pb n="223"/>
             autem, si spiritus illius regnet in nobis et si illius uoluntati obtemperetur <lb/>
             in terris, quemadmodum in caelis nulla est rebellio. quoniam <lb/>
             autem homines ex sese nihil habent uirtutis, quidquid per nos recte <lb/>
@@ -195,9 +200,9 @@
             promit interdum ex uasis fictilibus, ut sublimitas sit uirtutis Dei et <lb n="5"/>
             non ex nobis. 
 </p>
-          </div>
-
-<div n="4" subtype="section" type="textpart"><p>Ergo quamquam omnia piorum uita martyrio suo glorificat Deum  <lb/>
+         </div>
+         <div n="4" type="section">
+            <p>Ergo quamquam omnia piorum uita martyrio suo glorificat Deum  <lb/>
             et Christum filium eius, nullum tamen est illustrius testimonium apud <lb/>
             homines quam sanguinis, hoc est uitae propter Deum contemtae et <lb/>
             mortis fortiter toleratae. reddiderunt et miracula testimonium diuinae <lb n="10"/>
@@ -226,14 +231,14 @@
             quos artissima iungit amicitia propter summum animorum <lb/>
             consensum unus animus esse dicuntur. 
 </p>
-          </div>
-
-<div n="5" subtype="section" type="textpart"><p>Ac iuxta sensum crassiorem haec tria praecipua sunt m homine  <lb n="35"/>
+         </div>
+         <div n="5" type="section">
+            <p>Ac iuxta sensum crassiorem haec tria praecipua sunt m homine  <lb n="35"/>
             uitae argumenta atque etiam instrumenta. quamdiu enim pulmonis
 
-<note type="footnote"> 16 Luc. 11, 15. </note> <lb/>
-             
-<pb n="224"/>
+<note type="footnote"> 16 Luc. 11, 15. </note>
+               <lb/>
+               <pb n="224"/>
             officio attrahitur uicissim ac redditur halitus, certum uitae indicium <lb/>
             est: unde loquendi consuetudine spirare dicuntur qui uiuunt et exspirasse <lb/>
             qui uitam finierunt. quin et anima Latinis flatus dicitur ad <lb/>
@@ -258,9 +263,9 @@
             corpore sua munia peragunt: ac iuxta mysticam philosophiam tunc <lb/>
             demum plurimum ualent cum corpus relinquunt. 
 </p>
-          </div>
-
-<div n="6" subtype="section" type="textpart"><p> Nemo miratus est Dominum humano more spirantem ac respirantem, <lb/>
+         </div>
+         <div n="6" type="section">
+            <p> Nemo miratus est Dominum humano more spirantem ac respirantem, <lb/>
             sed cum in cruce clamore ualido emisisset spiritum, simul <lb n="25"/>
             intellectum est, illum et uerum fuisse hominem et uerum Deum: <lb/>
             hominem quod iuxta naturae ordinem et ubi uitalem flatum emisisset, <lb/>
@@ -273,9 +278,9 @@
             iuxta carnem? sed nihil morte potentius iuxta spiritum. <lb/>
             erat et illud praeter naturae cursum quod e latere exanimati
 
-<note type="footnote"> 31 Marc. 15, 89. </note> <lb n="35"/>
-             
-<pb n="225"/>
+<note type="footnote"> 31 Marc. 15, 89. </note>
+               <lb n="35"/>
+               <pb n="225"/>
             corporis sanguis et aqua profluit, ut absolueretur triplex testimonium. <lb/>
             totum effudit spiritum ut nos respiraremus: quidquid <lb/>
             erat humoris aquei reliquum, expressit ut nos ablueremur: <lb/>
@@ -286,11 +291,10 @@
             quod in hoc scriptura testatur esse uitam animantis, et ob <lb/>
             id a cibis submouebatur edicto legis: praeterea magis est expositus <lb/>
             hominum oculis sanguis quam spiritus ant aqua. <lb n="10"/>
-            
-</p>
-          </div>
-
-<div n="7" subtype="section" type="textpart"><p>Vita Domini, qui summus fuit martyr quique et hodie pugnat et  <lb/>
+            </p>
+         </div>
+         <div n="7" type="section">
+            <p>Vita Domini, qui summus fuit martyr quique et hodie pugnat et  <lb/>
             uincit in martyribus, plurimis fuit offendiculo. non iam loquor de <lb/>
             Pharisaeis et scribis, ipsis etiam cognatis ac fratribus fuit detestabilis, <lb/>
             cum dicerent illum in furorem uersum: sed mors illius non <lb/>
@@ -317,17 +321,14 @@
             qui tollit peccata mundi.
 
 <note type="footnote"> 16 II Cor. 12, 9. 19 Io. 17, 1. 34 Io. 1, 29. 36. </note>
-
-<note type="footnote"> iliA </note>
-
-<note type="footnote"> .15 </note><lb n="35"/>
-             
-<pb n="226"/>
-            
-</p>
-          </div>
-
-<div n="8" subtype="section" type="textpart"><p> Plus est tollere peccatum quam peccata et peccatum non huius aut <lb/>
+               <note type="footnote"> iliA </note>
+               <note type="footnote"> .15 </note>
+               <lb n="35"/>
+               <pb n="226"/>
+            </p>
+         </div>
+         <div n="8" type="section">
+            <p> Plus est tollere peccatum quam peccata et peccatum non huius aut <lb/>
             illius sed mundi. corpus enim peccati mundum uniuersum occuparat: <lb/>
             hoc per Christum esse sublatum sanguis ipsius pro nobis effusus <lb/>
             reddit euidens testimonium, melius pro nobis loquens, ut inquit <lb/>
@@ -344,9 +345,9 @@
             pretium quo te redimit Dei filius. nisi te saluum uoluisset Deus, non <lb n="15"/>
             tradidisset unigenitum suum in mortem. 
 </p>
-          </div>
-
-<div n="9" subtype="section" type="textpart"><p> Nemo maiorem caritatem habet, quam ut animam <lb/>
+         </div>
+         <div n="9" type="section">
+            <p> Nemo maiorem caritatem habet, quam ut animam <lb/>
             suam ponat pro amicis suis. si non est maius eximiae beneuolentiae <lb/>
             testimonium quam si quis uitam impertiat amico, grauius <lb/>
             est dominici sanguinis testimonium qui pro inimicis effusus est. <lb n="20"/>
@@ -366,9 +367,9 @@
             amicos, seruulos suos uocare fratres et coheredes. quemadmodum igitur <lb/>
             ille suo mirabili testimonio clarificauit patrem in hoc mundo
 
-<note type="footnote"> 10 Rom. 8, 16. 17 Io. 15, 13. </note> <lb n="35"/>
-             
-<pb n="227"/>
+<note type="footnote"> 10 Rom. 8, 16. 17 Io. 15, 13. </note>
+               <lb n="35"/>
+               <pb n="227"/>
             atque etiam in caelis: ita testimonium illius quodammodo consummatur <lb/>
             testimonio sanctorum, quasi sit una. passio Domini et seruorum. id. ne <lb/>
             quia existimet parum religiose dictum, beatus Paulus nobis patrocinatur <lb/>
@@ -382,9 +383,9 @@
             et occupans orbem uniuersum quacumque patet ab oriente ad occidentem, <lb/>
             ab aquilone usque ad austrum. 
 </p>
-          </div>
-
-<div n="10" subtype="section" type="textpart"><p>Ecce, fratres dilectissimi, a Domini redemtoris temporibus anni  <lb/>
+         </div>
+         <div n="10" type="section">
+            <p>Ecce, fratres dilectissimi, a Domini redemtoris temporibus anni  <lb/>
             fluxerunt plus minus ducenti quadraginta, iamque huius uitis palmites <lb/>
             paene latius se sparserunt quam Romanum imperium, efferas etiam <lb n="15"/>
             nationes musto spiritus inebriantes et quos nulla ferri uis domare <lb/>
@@ -409,17 +410,16 @@
             consummantur passiones Christi, ita sanguine pastorum confirmantur
 
 <note type="footnote"> 4 CoL 1, 24. 31 Col. 1, 25. </note>
-
-<note type="footnote"> 15 * </note> <lb n="35"/>
-             
-<pb n="228"/>
+               <note type="footnote"> 15 * </note>
+               <lb n="35"/>
+               <pb n="228"/>
             promissa Christi. nullum enim instrumentum indubitabilius, quam <lb/>
             quod tot martyrum sanguine signatum est. hoc nimirum est implere <lb/>
             uerbum Dei, hoc est replere euangelium. 
 </p>
-          </div>
-
-<div n="11" subtype="section" type="textpart"><p> Sed interim grauissimus dolor oboritnr animo meo, dilecti, dom <lb/>
+         </div>
+         <div n="11" type="section">
+            <p> Sed interim grauissimus dolor oboritnr animo meo, dilecti, dom <lb/>
             mecum reputo, cum adhuc recens ille Christi sanguis feruere debeat <lb n="5"/>
             in cordibus fidelium, tam multos esse in quibus refrixit caritas, atque <lb/>
             hoc grauius discrucior, quod tales non paucos pastores habeat ecclesia, <lb/>
@@ -433,9 +433,9 @@
             melius est ut omissis querelis nos inuicem ad officium quod Christo<lb n="15"/>
             debemus exhortemur. 
 </p>
-          </div>
-
-<div n="12" subtype="section" type="textpart"><p> Triplex a Christo testimonium accepimus, triplex illi testimonium <lb/>
+         </div>
+         <div n="12" type="section">
+            <p> Triplex a Christo testimonium accepimus, triplex illi testimonium <lb/>
             reddamus oportet. rudimenta fideliter tradamus baptizandis, perfectiora <lb/>
             baptizatis. confirmemus illos fructibus spiritus ad caelestem <lb/>
             uitam prouocantes, et si res postulet, libenter etiam uitam commisso <lb n="20"/>
@@ -449,19 +449,18 @@
             ieiunia precationes aliaque pietatis exercitamenta simulant etiam <lb/>
             hypocritae: mortem nemo suscepit alacriter, nisi qui certo persuasum <lb/>
             haberet, nihil aduersi posse accidere iis qui persistunt in caritate Dei. <lb n="30"/>
-            
-</p>
-          </div>
-
-<div n="13" subtype="section" type="textpart"><p> Neque tamen statim martyr est qui occiditur, occiduntur et sicarii et <lb/>
+            </p>
+         </div>
+         <div n="13" type="section">
+            <p> Neque tamen statim martyr est qui occiditur, occiduntur et sicarii et <lb/>
             piratae: non supplicium facit martyrem sed causa. quod si qui leguntur <lb/>
             sibi fortiter consciuisse necem, aut infirmitas erat morte quaerens dolorum <lb/>
             finem aut ambitio aut dementia. nec hoc est testimonium praebere <lb/>
             Deo id facere quod et Deo displicet et gentium etiam legibus
 
-<note type="footnote"> 25 Io. 21, 19. </note> <lb n="35"/>
-             
-<pb n="229"/>
+<note type="footnote"> 25 Io. 21, 19. </note>
+               <lb n="35"/>
+               <pb n="229"/>
             prohibetur. plurimum interest inter barbaricam immanitatem et martyrum <lb/>
             modestissimam constantiam in se imbecillem, in Christo fortem. sunt <lb/>
             qui certis artibus corpus stupefaciunt, ne sentiant cruciatus: hoc <lb/>
@@ -482,11 +481,10 @@
             uelut uictores mouerent capita sua amarissimis conuiciis in illum <lb/>
             debacchantes, ille mitissimus clamat: pater ignosce illis, quia <lb/>
             nesciunt quid faciunt. <lb n="20"/>
-            
-</p>
-          </div>
-
-<div n="14" subtype="section" type="textpart"><p>Non igitur mori per se testimonium est, sed sic mori est testimonium  <lb/>
+            </p>
+         </div>
+         <div n="14" type="section">
+            <p>Non igitur mori per se testimonium est, sed sic mori est testimonium  <lb/>
             praebere Deo. Stephanus iuuenis inter homicidas agnus inter <lb/>
             lupos stabat placido angelicoque uultu et ad Domini exemplum orat <lb/>
             pro lapidantibus nec alibi habet oculos quam in caelum. illic uidere <lb/>
@@ -502,9 +500,9 @@
             madescens nostrae naturae in se expressit imbecillitatem, ante testatus <lb/>
             animi taedium ac tristitiam usque ad mortem, ne nos in
 
-<note type="footnote"> 10 Luc. 23, 34. 27 PhiL 1, 21. </note> <lb n="35"/>
-             
-<pb n="230"/>
+<note type="footnote"> 10 Luc. 23, 34. 27 PhiL 1, 21. </note>
+               <lb n="35"/>
+               <pb n="230"/>
             desperationem caderemus, si cum omnia mortem praesentem intentant, <lb/>
             horrorem naturae senserimus. nisi enim adesset sensus dolorum, <lb/>
             nihil haberet admirabile martyrium, sed superare dolorem corona <lb/>
@@ -517,9 +515,9 @@
             transeat hic calix si fieri potest, sed fiat non sicut <lb n="10"/>
             ego uolo, sed sicut tu uis. 
 </p>
-          </div>
-
-<div n="15" subtype="section" type="textpart"><p> Noui ego ac fleui quosdam magna animi fortitudine praeditos, qui <lb/>
+         </div>
+         <div n="15" type="section">
+            <p> Noui ego ac fleui quosdam magna animi fortitudine praeditos, qui <lb/>
             iam coronae proximi defecerunt et quem diu professi fuerant abnegarunt. <lb/>
             quid fuit in causa ? dimouerant oculos suos ab eo qui solus robur <lb/>
             dat infirmis: intermiserant orationem ac coeperant ad humana <lb n="15"/>
@@ -535,9 +533,9 @@
             sit tyranni saeuitia, quanta hominis imbecillitas, sed quanta sit Domini<lb n="25"/>
             uirtus, qui certat ac uicit in membris suis. 
 </p>
-          </div>
-
-<div n="16" subtype="section" type="textpart"><p> Ergo ut a digressione reflectamus ad id quod erat constitutum, <lb/>
+         </div>
+         <div n="16" type="section">
+            <p> Ergo ut a digressione reflectamus ad id quod erat constitutum, <lb/>
             quemadmodum Domini mors potentior erat quam uita, ita uoluit martyrum <lb/>
             suorum mortem esse potentem. quid enim infirmius quam uinciri <lb/>
             damnari caedi cruciari occidi et ad carnificis arbitrium praebere <lb n="30"/>
@@ -547,9 +545,9 @@
             idola: tum apparet quam sit efficax ac potens martyrum sanguis. <lb/>
             praesentia infirma, epistolae graues, audiuit beatissimus
 
-<note type="footnote"> 10 Luc. 22, 42. 35 II Cor. 10, 10. </note> <lb n="35"/>
-             
-<pb n="231"/>
+<note type="footnote"> 10 Luc. 22, 42. 35 II Cor. 10, 10. </note>
+               <lb n="35"/>
+               <pb n="231"/>
             gentium doctor. hoc et ad martyres recte accommodabitur: uita infirma <lb/>
             et contemta, mors grauis ac potens. iam non est par omnium <lb/>
             martyrum in tormentis alacritas, quemadmodum nec omnes eodem genere <lb/>
@@ -573,9 +571,9 @@
             fratres suos. quomodo autem confirmaret? ut sibi diffisi fiduciam <lb/>
             omnem collocarent in Domino. 
 </p>
-          </div>
-
-<div n="17" subtype="section" type="textpart"><p>Sed iam tempus est, ut de altero martyrii genere disseramus caritati  <lb/>
+         </div>
+         <div n="17" type="section">
+            <p>Sed iam tempus est, ut de altero martyrii genere disseramus caritati  <lb/>
             tuae, de quo etiam accuratius est disputandum, quod occultum sit <lb/>
             et omnium temporum commune: neque enim semper saeuiunt Nerones, <lb n="25"/>
             Diocletiani, Decii ac Maximini: numquam tamen cessat diabolus exercere <lb/>
@@ -589,15 +587,15 @@
             angelorum myriades et iustorum cum Christo regnantium innumerabilis <lb/>
             populus applaudunt omnibus, qui sinceram fidem et caritatem
 
-<note type="footnote"> 12 Rom. 14, 8. 15 I Cor. 10, 13. </note> <lb n="35"/>
-             
-<pb n="232"/>
+<note type="footnote"> 12 Rom. 14, 8. 15 I Cor. 10, 13. </note>
+               <lb n="35"/>
+               <pb n="232"/>
             inuictam quam habent erga Dominum Iesum integritate et innocentia <lb/>
             uitae testificantur. 
 </p>
-          </div>
-
-<div n="18" subtype="section" type="textpart"><p> Nec solum professione fidei, quae iuxta Paulum ore fit ad salutem, <lb/>
+         </div>
+         <div n="18" type="section">
+            <p> Nec solum professione fidei, quae iuxta Paulum ore fit ad salutem, <lb/>
             glorificatur Deus: uerumetiam confessione commissorum. haec ne temere <lb/>
             ex nobis ipsis loqui uideamur, adducenda sunt scripturarum testimonia. <lb n="5"/>
             ergo nisi piorum uita cederet in gloriam Dei, Christus non <lb/>
@@ -619,9 +617,9 @@
             Deus redemit nos pretio sanguinis sui, ut semel a peccatis expurgati <lb/>
             deinceps uitam ipso dignam ageremus. 
 </p>
-          </div>
-
-<div n="19" subtype="section" type="textpart"><p> Ac symbolum imperatoris gestamus impressum frontibus nostris. <lb/>
+         </div>
+         <div n="19" type="section">
+            <p> Ac symbolum imperatoris gestamus impressum frontibus nostris. <lb/>
             quid si gerens signum Christi praestet opera Belial, nonne dedecoratur<lb n="25"/>
             ille cuius insignia gerimus ? contra sicut imperator sibi placet de <lb/>
             milite praestrenuo, sic existimans illius uirtutem ipsi decori et ornamento <lb/>
@@ -635,13 +633,11 @@
 
 <note type="footnote"> 7 Matth. 5, 16. <lb/>
             20 I Cor. 6, 20. </note>
-
-<note type="footnote"> 9 Gal. 1, 24. <lb/>
+               <note type="footnote"> 9 Gal. 1, 24. <lb/>
             34 Iob 1, 8. </note>
-
-<note type="footnote"> 13 Bom. 1, 21. </note> <lb/>
-             
-<pb n="233"/>
+               <note type="footnote"> 13 Bom. 1, 21. </note>
+               <lb/>
+               <pb n="233"/>
             num animaduertisti seruum meum Iob, quomodo non sit ei similis <lb/>
             super terram, homo simplex et rectus ac timens Deum <lb/>
             et recedens a malitia? nonne sermonem profert de suo cultore <lb/>
@@ -657,11 +653,10 @@
             pereunt. quomodo glorificatur Deus in his qui salui fiunt? quoniam <lb/>
             in illis illustratur illius misericordia. quomodo in his qui pereunt? <lb/>
             quoniam in his declaratur illius iustitia. <lb n="15"/>
-            
-</p>
-          </div>
-
-<div n="20" subtype="section" type="textpart"><p>Nunc ipse sermonis cursus nos eo deduxit, ut doceamus et peccatorom  <lb/>
+            </p>
+         </div>
+         <div n="20" type="section">
+            <p>Nunc ipse sermonis cursus nos eo deduxit, ut doceamus et peccatorom  <lb/>
             confessione glorificari Deum. hic occurrit protinus ex libro Iesu <lb/>
             Naue Achan, qui quoniam contra diuinum edictum sustulerat ex anathemate <lb/>
             pallium coccineum insigne ac ducentos siclos argenti ac linguam <lb/>
@@ -681,13 +676,12 @@
             interitu salutem animae redimens. non enim iudicat Deus bis in id <lb/>
             ipsum.
 
-<note type="footnote"> 5 II Cor. 2, 14. 21 Ios. 7, 19.\' </note> 
-<pb n="234"/>
-            
-</p>
-          </div>
-
-<div n="21" subtype="section" type="textpart"><p> Sed quae poena manet illos, qui post tantam enangelii lucem et <lb/>
+<note type="footnote"> 5 II Cor. 2, 14. 21 Ios. 7, 19.\' </note>
+               <pb n="234"/>
+            </p>
+         </div>
+         <div n="21" type="section">
+            <p> Sed quae poena manet illos, qui post tantam enangelii lucem et <lb/>
             gratiam, postea quam semel illuminati sunt, gustauerunt etiam donum <lb/>
             caeleste , et participes facti sunt spiritus sancti, gustauerunt aeque <lb/>
             bonum Dei uerbum uirtutesque saeculi uenturi, in multa atque immania <lb/>
@@ -701,7 +695,8 @@
             quod est corporis ac membrorum ipsius. e diuerso, quanta totius <lb/>
             ecclesiae exsultatio, cum qui lapsus est per poenitentiam ecclesiae <lb/>
             reconciliatur? ac ne putemus hoc gaudium apud uos tantum esse, <lb/>
-            Dominum audiamus in euangelio <hi rend="italic"><sic>xara</sic> Lucam loquentem:</hi> ita dico <lb n="15"/>
+            Dominum audiamus in euangelio <hi rend="italic">
+                  <sic>xara</sic> Lucam loquentem:</hi> ita dico <lb n="15"/>
             uobis, quod gaudium erit in caelo super uno peccatore <lb/>
             poenitentiam agente, quam super nonaginta nouem <lb/>
             iustis, qui non indigent poenitentia. nam haec clausula <lb/>
@@ -717,29 +712,27 @@
             uolens Deo gratissimam esse peccatorum conuersionem. non enim <lb/>
             quaerit mortem peccatoris, sed magis ut conuertatur <lb/>
             et uiuat. <lb n="30"/>
-            
-</p>
-          </div>
-
-<div n="22" subtype="section" type="textpart"><p> Atque interdum piorum hominum lapsus quamuis enormes diuina <lb/>
+            </p>
+         </div>
+         <div n="22" type="section">
+            <p> Atque interdum piorum hominum lapsus quamuis enormes diuina <lb/>
             dispensatione uertuntur in summum ecclesiae profectum. sic lapsus <lb/>
             est apostolorum princeps, sic Paulus gentium doctor, sic Maria Magdalene, <lb/>
             quibus nunc ecclesia praecipue gloriatur, quorum lapsus cesserunt <lb/>
             in stabilimentum ac solatium domus Dei. praeterea non hic
 
-<note type="footnote"> 16 Luc. 16, 7. 28 Ez. 18, 32. </note> <lb n="35"/>
-             
-<pb n="235"/>
+<note type="footnote"> 16 Luc. 16, 7. 28 Ez. 18, 32. </note>
+               <lb n="35"/>
+               <pb n="235"/>
             loquitur de uere iustis, sed de iustitia Pharisaica, quemadmodum alibi <lb/>
             dicit: non est opus sanis medico, sed male habentibus. <lb/>
             at non erant sani quibus hoc dicebat Dominus, sed legis qualicumque <lb/>
             obseruatione tumidi sibi uidebantur sani et ideo non desiderabant medicum.\'. <lb/>
-            <lb n="5"/>
-            
-</p>
-          </div>
-
-<div n="23" subtype="section" type="textpart"><p>Haec cum ad hunc habeant modum, desiderate frater, conemur  <lb/>
+               <lb n="5"/>
+            </p>
+         </div>
+         <div n="23" type="section">
+            <p>Haec cum ad hunc habeant modum, desiderate frater, conemur  <lb/>
             assiduis exhortationibus excitare fidelium animos, ut tota etiam uita <lb/>
             martyrium hoc est testimonium reddat Deo: quod adeo negligendum <lb/>
             non est, ut nisi ea praecesserit, martyrium quod sanguine perhibetur <lb/>
@@ -752,9 +745,9 @@
             anteponit, sibi Deum facit, nec possumus duobus seruire dominis: <lb/>
             unus enim est Deus ex toto corde ex tota anima ex totis uiribus diligendus.\' <lb/>
             </p>
-          </div>
-
-<div n="24" subtype="section" type="textpart"><p>Quisquis igitur ore dicit: credo in unum Deum, et seruit auaritiae  <lb/>
+         </div>
+         <div n="24" type="section">
+            <p>Quisquis igitur ore dicit: credo in unum Deum, et seruit auaritiae  <lb/>
             aut libidini aut luxui, sibi mentitur sibique repugnat, aliud lingua. <lb n="20"/>
             sonans, aliud animo celans, uoce tantum testimonium perhibens Deo, <lb/>
             cum uita satanam colat. efficacius autem est uitae quam linguae testimonium. <lb/>
@@ -774,12 +767,10 @@
 
 <note type="footnote"> 2 Matth. 9, 12. <lb/>
             30 cf. Ps. 13, 1; 72, 11. </note>
-
-<note type="footnote">23 Matth. 7, 21. </note>
-
-<note type="footnote"> ,27 Io. 5, 36. </note> <lb n="35"/>
-             
-<pb n="236"/>
+               <note type="footnote">23 Matth. 7, 21. </note>
+               <note type="footnote"> ,27 Io. 5, 36. </note>
+               <lb n="35"/>
+               <pb n="236"/>
             trepidamus metuentes ne Deus iratus fulmen in nos uibret irae suae, ne terra <lb/>
             dehiscens nos absorbeat? ut interdum unius impietas supplicii consortio <lb/>
             multos inuoluat: et sunt scelera tam immania., ut uidisse quoque <lb/>
@@ -802,9 +793,9 @@
             immunditiam libidinem concupiscentiam malamao <lb n="20"/>
             et auaritiam, quae est simulacrorum seruitus. 
 </p>
-          </div>
-
-<div n="25" subtype="section" type="textpart"><p> Execramur eos qui procumbunt ad Dianae simulacrum: quanto iustius <lb/>
+         </div>
+         <div n="25" type="section">
+            <p> Execramur eos qui procumbunt ad Dianae simulacrum: quanto iustius <lb/>
             eos execramur, qui toto pectore seruiunt mammonae, qui illi <lb/>
             quotidie sacrificant? et si auarus est idololatra qui pecuniae studio <lb/>
             tenetur, qui quod hereditate obuenit aut industria partum est recondit <lb n="25"/>
@@ -820,13 +811,11 @@
 
 <note type="footnote"> 6 Tit. 1, 16. <lb/>
             15 Bom. 16, 18. </note>
-
-<note type="footnote">8 I Tim. 6, 8. <lb/>
+               <note type="footnote">8 I Tim. 6, 8. <lb/>
             18 Col. 3, 5. </note>
-
-<note type="footnote">13 PhiL 3, 19. </note> <lb/>
-             
-<pb n="237"/>
+               <note type="footnote">13 PhiL 3, 19. </note>
+               <lb/>
+               <pb n="237"/>
             dicit \'abnega Christum et immola Ioui, et esto amicus noster, aut <lb/>
             morere\', saepe lingua negat corde reclamante et manus adolet tus, cum <lb/>
             animus intus adoret Christum. quamquam hoc quoque grauissimum <lb/>
@@ -863,9 +852,9 @@
             secreto conscientiae cruciatu. haec est esca diaboli, hoc auctoramentum. <lb/>
             stipendium porro quale est? dicat maiore cum fide beatus
 
-<note type="footnote"> 19 Gen. 3, 4. 5. </note> <lb n="35"/>
-             
-<pb n="238"/>
+<note type="footnote"> 19 Gen. 3, 4. 5. </note>
+               <lb n="35"/>
+               <pb n="238"/>
             apostolus: stipendium peccati mors est. quae mors? corporis, <lb/>
             quam solam minitatur et inferre potest tyrannus homo? non, sed <lb/>
             mors gehennae quae finem nescit. plus potest homo tyrannus quam diabolus. <lb/>
@@ -873,9 +862,9 @@
             quam sollicitare: deicere non potest nisi assentiaris, contemsisse uicisse<lb n="5"/>
             est. \'
 </p>
-          </div>
-
-<div n="26" subtype="section" type="textpart"><p> Maior itaque uenia debetur Christum in tormentis abneganti quam <lb/>
+         </div>
+         <div n="26" type="section">
+            <p> Maior itaque uenia debetur Christum in tormentis abneganti quam <lb/>
             sponte assentienti diabolo, cui credidisse est Christum abnegasse. <lb/>
             ille mendax est et omnis mendacii pater, et illius promissa quantumcumque <lb/>
             fronte blandiantur nihil aliud sunt quam praestigiae pellicientes <lb n="10"/>
@@ -898,9 +887,9 @@
             cumque tot uitiis seruias, tibi places quod nondum sis turificatus aut <lb/>
             libellatus. 
 </p>
-          </div>
-
-<div n="27" subtype="section" type="textpart"><p> Si quis miles iuratus in uerba Caesaris profugeret ad Turcam et <lb/>
+         </div>
+         <div n="27" type="section">
+            <p> Si quis miles iuratus in uerba Caesaris profugeret ad Turcam et <lb/>
             ex illius arbitrio faceret ea quae sciret ingratissima Caesari, nonne <lb n="30"/>
             comprehensus ad supplicium raperetur ut desertor, ut periurus, ut <lb/>
             perfuga? quis autem audiret eum ita se defendentem (non sum <lb/>
@@ -908,9 +897,9 @@
             si lingua tacuit? re ipsa abnegasti, et plusquam abnegasti, qui non <lb/>
             solum deserueris militiam, uerum etiam ad tyrannum et hostem
 
-<note type="footnote"> 1 Rom. 6, 23: 14 Matth. 6, M. 21 I Cor. 6, 20. </note> <lb n="35"/>
-             
-<pb n="239"/>
+<note type="footnote"> 1 Rom. 6, 23: 14 Matth. 6, M. 21 I Cor. 6, 20. </note>
+               <lb n="35"/>
+               <pb n="239"/>
             imperatoris tui irreconciliabilem transfugeris\'. merito fidelium aures <lb/>
             abominantur apostatae uocabulum: uerum hoc non ibi tantum execrandum <lb/>
             est, cum incenso tusculo aut scripto libello renuntiatur professioni <lb/>
@@ -928,9 +917,9 @@
             Christi ad Belial? adhaesisse Belial est abnegasse Christum, <lb n="15"/>
             Christum lingua aut habitu Christum profitearis. 
 </p>
-          </div>
-
-<div n="28" subtype="section" type="textpart"><p>De hoc si quis simpliciorum dubitarit, dabo argumentum crassum  <lb/>
+         </div>
+         <div n="28" type="section">
+            <p>De hoc si quis simpliciorum dubitarit, dabo argumentum crassum  <lb/>
             et euidens. fingamus tyrannum ita loqui Christiano incendes tus <lb/>
             Ioui\', nihil addentem nec exigentem ut Christum abneget: si adoleuerit, <lb/>
             nonne cunctis manifestum erit illum hoc ipso Christum abnegasse, <lb n="20"/>
@@ -950,9 +939,9 @@
             rebus pessimis: adeo non pudet aut piget admissorum. et tamen audent <lb/>
             uenire in ecclesiam sanctorum, audent misceri gregi dominico.
 
-<note type="footnote"> 13 II Cor. 6, 14. </note> <lb n="35"/>
-             
-<pb n="240"/>
+<note type="footnote"> 13 II Cor. 6, 14. </note>
+               <lb n="35"/>
+               <pb n="240"/>
             tales interdum tolerat ecclesia, ne prouocati magis etiam perturbent <lb/>
             populum Dei: sed quid prodest non eiici coetu piorum, si merueris <lb/>
             eiici? nam eiici remedium est et gradus ad recuperandam sanitatem: <lb/>
@@ -960,9 +949,9 @@
             sanctorum in templo manufacto, si submotus est a consortio Dei et<lb n="5"/>
             ab uniuerso corpore mystico Christi. 
 </p>
-          </div>
-
-<div n="29" subtype="section" type="textpart"><p> I Oportet autem et illud considerare quantopere Christiani abhorrent <lb/>
+         </div>
+         <div n="29" type="section">
+            <p> I Oportet autem et illud considerare quantopere Christiani abhorrent <lb/>
             ab idolothytis et ab ingressu fanorum atque ab ipsis etiam simulacris. <lb/>
             cum beatus Paulus clamet neque idolum esse aliquid neque idolothytum, <lb/>
             multo minus fanum ex lapidibus constructum est aliquid: et<lb n="10"/>
@@ -992,9 +981,9 @@
             hostias, ueretur ingredi fanum gentium ne contaminetur? proinde <lb/>
             nemo sibi frustra blandiatur, Deus non irridetur: constet sibi nostra
 
-<note type="footnote"> 22 I Cor. 3, 16. 25 I Cor. 6, 19. </note> <lb n="35"/>
-             
-<pb n="241"/>
+<note type="footnote"> 22 I Cor. 3, 16. 25 I Cor. 6, 19. </note>
+               <lb n="35"/>
+               <pb n="241"/>
             religio, nec alios detestemur ipsi grauioribus obnoxii criminibus: nec <lb/>
             alibi simus religiose timidi, alibi impudenter impii. sed Christum <lb/>
             semel professi tota uita reddamus illi testimonium, et undique glorificemus <lb/>
@@ -1002,9 +991,9 @@
             quod uere fidimus illi, quod ex animo diligimus illum et quod <lb n="5"/>
             non simulate ad sacrum lauacrum addiximus nos illius militiae. 
 </p>
-          </div>
-
-<div n="30" subtype="section" type="textpart"><p>Beatus apostolus praedixit nulli pie uiuere nolenti in Christo Iesu  <lb/>
+         </div>
+         <div n="30" type="section">
+            <p>Beatus apostolus praedixit nulli pie uiuere nolenti in Christo Iesu  <lb/>
             defuturam persecutionem. si deest tyrannus, si tortor, si spoliator: <lb/>
             non deerit concupiscentia martyrii materiam quotidianam nobis exhibens. <lb/>
             postremo haec ipsa mala quae secum defert uita mortalium <lb n="10"/>
@@ -1021,9 +1010,9 @@
             cuius autem martyrium audebimus conferre cum his quae passus <lb/>
             est Iob? 
 </p>
-          </div>
-
-<div n="31" subtype="section" type="textpart"><p>Quod si quis adhuc diffidit sermoni nostro, certe beati Pauli uerbis  <lb/>
+         </div>
+         <div n="31" type="section">
+            <p>Quod si quis adhuc diffidit sermoni nostro, certe beati Pauli uerbis  <lb/>
             non poterit diffidere. is scribens ad Hebraeos orsus ab Abel usque <lb/>
             ad Gedeonem ingentem sanctorum catalogum recenset, in quo plures <lb n="25"/>
             sunt qui non defuncti sunt morte uiolenta, immo pauci sunt qui sic <lb/>
@@ -1039,12 +1028,10 @@
             uiuant neque mundo cui semel mortui sunt, sed ei qui pro ipsis est
 
 <note type="footnote"> 26 Hebr. 1, 39. </note>
-
-<note type="footnote"> IDA. </note>
-
-<note type="footnote"> 16 </note> <lb/>
-             
-<pb n="242"/>
+               <note type="footnote"> IDA. </note>
+               <note type="footnote"> 16 </note>
+               <lb/>
+               <pb n="242"/>
             mortuus, martyres sunt nec martyrum corona fraudabuntur: inprimis <lb/>
             autem monachi qui uere monachi sunt ac uirgines quae uere uirgines <lb/>
             sunt. neque enim locus desertus , saccus pro ueste, legumen pro cibo, <lb/>
@@ -1057,9 +1044,9 @@
             quod exercitatio corporalis ad modicum utilis sit,<lb n="10"/>
             pietas ad omnia ualeat. 
 </p>
-          </div>
-
-<div n="32" subtype="section" type="textpart"><p> Non haec dixerim, quod improbandi sint qui talibus modis castigant <lb/>
+         </div>
+         <div n="32" type="section">
+            <p> Non haec dixerim, quod improbandi sint qui talibus modis castigant <lb/>
             corpus suum et in seruitutem redigunt: sed quod satanas mille <lb/>
             instructus artibus nonnumquam illudit incautis, transfigurans se in <lb/>
             angelum lucis et ex huiusmodi corporum exercitamentis inducit illis <lb n="15"/>
@@ -1075,9 +1062,9 @@
             tantum ne sibi uindicet laudem bonorum operum: hoc enim non est <lb n="25"/>
             glorificare Deum, sed clarificare seipsum. 
 </p>
-          </div>
-
-<div n="33" subtype="section" type="textpart"><p> Habet unusquisque fidelium agones suos, habet aduersarium diabolum, <lb/>
+         </div>
+         <div n="33" type="section">
+            <p> Habet unusquisque fidelium agones suos, habet aduersarium diabolum, <lb/>
             habet agonothetam Deum, habet theatrum non solum ecclesiae <lb/>
             et angelorum sed et infidelium, quemadmodum dicit Paulus ad Corinthios: <lb/>
             spectaculum facti sumus mundo et angelis et <lb n="30"/>
@@ -1087,9 +1074,9 @@
             ac Deum contumeliis afficiunt, dicentes: ecce qui iactant se <lb/>
             redemtos a tyrannide satanae, qui praedicant se mortuos mundo,
 
-<note type="footnote"> 10 I Tim. 4, 8. 30 I Cor. 4, 9. </note> <lb n="35"/>
-             
-<pb n="243"/>
+<note type="footnote"> 10 I Tim. 4, 8. 30 I Cor. 4, 9. </note>
+               <lb n="35"/>
+               <pb n="243"/>
             nihilominus uincuntur a cupiditatibus suis quam nos, quos dicunt adhuc <lb/>
             teneri sub regno satanae. quid prodest illis baptismus, quo dicunt <lb/>
             exui ueterem hominem cum actibus suis et indui nonum qui secundum <lb/>
@@ -1104,9 +1091,9 @@
             praecipue pastorum, si quando Christi miles tormentis inferior renuntiauit <lb/>
             imperatori suo? quantus autem ex aduerso satanae triumphus ? 
 </p>
-          </div>
-
-<div n="34" subtype="section" type="textpart"><p>Itaque, fratres dilectissimi, si uere diligimus Deum, si quotidie petimus  <lb/>
+         </div>
+         <div n="34" type="section">
+            <p>Itaque, fratres dilectissimi, si uere diligimus Deum, si quotidie petimus  <lb/>
             ex animo sanctificetur nomen tuum , summo studio aduigilemus, <lb n="15"/>
             necubi polluamus nomen illius, sed et morte et uita glorificemus <lb/>
             illum, iuxta beati Pauli monita uiuentes sine querela ut simplices <lb/>
@@ -1123,9 +1110,9 @@
             conuenit, ut assequamur illam immortalis uitae coronam incorruptibilem <lb/>
             et immarcescibilem in coelis ? 
 </p>
-          </div>
-
-<div n="35" subtype="section" type="textpart"><p>Hic si quis roget, quo pacto quis possit esse martyr sine sanguinis  <lb n="30"/>
+         </div>
+         <div n="35" type="section">
+            <p>Hic si quis roget, quo pacto quis possit esse martyr sine sanguinis  <lb n="30"/>
             effusione: quisquis hoc animo sequitur iustitiam, ut mortem citius admissurus <lb/>
             sit, quam uelit a iustitia deflectere, huic promta uoluntas <lb/>
             pro martyrio deputabitur. Deus enim non aestimat quemquam ex <lb/>
@@ -1133,10 +1120,9 @@
             per quem non stetit quominus martyrium peregerit? ut contra
 
 <note type="footnote"> 23 II Thess. 1, 10; II Tim. 2, 5; I Cor. 9, 25. </note>
-
-<note type="footnote"> 16 * </note> <lb n="35"/>
-             
-<pb n="244"/>
+               <note type="footnote"> 16 * </note>
+               <lb n="35"/>
+               <pb n="244"/>
             mercedem apostatae feret, quisquis hoc animo uiuit, ut Christum negaturus <lb/>
             sit, si iactura bonorum ant corporis cruciatus aut mors sit accipienda. <lb/>
             qui ob paululum pecuniae peierat an is uerebitur abnegare <lb/>
@@ -1151,9 +1137,9 @@
             est, quae pugnat et superat in martyribus: nec quisquam defecit in <lb/>
             tormentis nisi fidei defectu. 
 </p>
-          </div>
-
-<div n="36" subtype="section" type="textpart"><p> Orandus igitur assidue Deus, ut fidem in nobis augeat: est enim <lb/>
+         </div>
+         <div n="36" type="section">
+            <p> Orandus igitur assidue Deus, ut fidem in nobis augeat: est enim <lb/>
             Dei donum et illi debetur omnis uictoriae gloria. ingeramus illorum <lb n="15"/>
             animis et infigamus, quam horrendum crimen sit omnis idololatria, <lb/>
             quam seuere punita sit a Deo sub lege uetere, quot millia trucidarit <lb/>
@@ -1176,14 +1162,13 @@
             auaritiam satanae facit imperata, nec illi soli seruit qui seruit uentri, <lb/>
             qui deditus est huic mundo, qui in prauo positus est.
 
-<note type="footnote"> .28 Dent. 6. 84; 10, 20. </note> <lb n="35"/>
-            
-<pb n="245"/>
-            
-</p>
-          </div>
-
-<div n="37" subtype="section" type="textpart"><p>Eihmci putant plurea esse deos, et hoc tibi uideris perfectus Christiauus,  <lb/>
+<note type="footnote"> .28 Dent. 6. 84; 10, 20. </note>
+               <lb n="35"/>
+               <pb n="245"/>
+            </p>
+         </div>
+         <div n="37" type="section">
+            <p>Eihmci putant plurea esse deos, et hoc tibi uideris perfectus Christiauus,  <lb/>
             quod persuasum habes unum esse Deum? quid magni facis? <lb/>
             idem credunt Iudaei qui quotidie blasphemant in synagogis suis: idem <lb/>
             credunt daemones et contremiscunt. si uere credis in Deum, crede iustum <lb/>
@@ -1195,9 +1180,9 @@
             Spiritum sanctum, unum Deum et ecclesiam sanctam mysticum Christi <lb n="10"/>
             corpus, extra quam non est salus et in qua non est pernicies.,
 </p>
-          </div>
-
-<div n="38" subtype="section" type="textpart"><p>Quisquis in tali petra pedes animi fixerit, aduersus omnes tentationum  <lb/>
+         </div>
+         <div n="38" type="section">
+            <p>Quisquis in tali petra pedes animi fixerit, aduersus omnes tentationum  <lb/>
             incursus stabit immobilis. exempli gratia: lacessitus ea conuicio, <lb/>
             suggerit tibi caro uindictae cupiditatem. priusquam respondeas, sic <lb/>
             cogita tecum: hunc maledicum hominem subornauit diabolus ut me <lb n="15"/>
@@ -1224,12 +1209,10 @@
 
 <note type="footnote"> 17 Matth. 5, 4.\' <lb/>
             30 Matth. 5, 4. </note>
-
-<note type="footnote"> 18 Dent. 32, 35 </note>
-
-<note type="footnote">19 Rom. 12, 19. </note> <lb n="35"/>
-             
-<pb n="246"/>
+               <note type="footnote"> 18 Dent. 32, 35 </note>
+               <note type="footnote">19 Rom. 12, 19. </note>
+               <lb n="35"/>
+               <pb n="246"/>
             animum si saepius inuadat, ac subinde maioribus machinis aggrediatur: <lb/>
             nihil potest aduersus eum qui tecum est. dic illud Ioannis : maior <lb/>
             est qui in nobis est, quam qui in isto mundo. succurrat <lb/>
@@ -1237,9 +1220,9 @@
             his orationibus si Christi miles fuerit exercitatus ad conflictum , in a <lb n="5"/>
             dies comperiet suum antagonistam debiliorem. 
 </p>
-          </div>
-
-<div n="39" subtype="section" type="textpart"><p> Nec tamen remittendae sunt excubiae, si quando hostis simulabit <lb/>
+         </div>
+         <div n="39" type="section">
+            <p> Nec tamen remittendae sunt excubiae, si quando hostis simulabit <lb/>
             tranquillitatem, sed obseruans illius insidias dicat cum beato Abacuc: <lb/>
             super custodiam meam stabo et gradum figam super <lb/>
             petram, omni custodia seruans cor meum, ne qua pateat aditus<lb n="10"/>
@@ -1255,9 +1238,9 @@
             hinc comparanda sunt exempla piorum sed praecipue Christi,<lb n="20"/>
             quibus se quisque uel animet uel consoletur. 
 </p>
-          </div>
-
-<div n="40" subtype="section" type="textpart"><p> Venio nunc ad illa mala quae uel ipsam naturam hominis comitantur <lb/>
+         </div>
+         <div n="40" type="section">
+            <p> Venio nunc ad illa mala quae uel ipsam naturam hominis comitantur <lb/>
             uel fortuito uidentur inferri. haec quoque pius animus et ad <lb/>
             pugnandum instructus sibi uertet in materiam coronae. exemplo faciam <lb/>
             quod dico clarius. excutitur aliquis facultatibus suis siue bello siue<lb n="25"/>
@@ -1273,14 +1256,11 @@
 
 <note type="footnote"> 2 Io. 4, 4. <lb/>
             28 Iob 1, 21. </note>
-
-<note type="footnote">4 Io. 16, 33. </note>
-
-<note type="footnote">9 Afc 2, 1. </note>
-
-<note type="footnote">13 II Tim. 3, 16. </note> <lb/>
-             
-<pb n="247"/>
+               <note type="footnote">4 Io. 16, 33. </note>
+               <note type="footnote">9 Afc 2, 1. </note>
+               <note type="footnote">13 II Tim. 3, 16. </note>
+               <lb/>
+               <pb n="247"/>
             te mors orbat praematura, pestilentia spoliat te carissimis, sponsa <lb/>
             liberis amicis: ferto patienter et dic: \'Domino ita uisum, et sic fortassis <lb/>
             et nobis expediebat et nostris. sit nomen Domini benedictum). <lb/>
@@ -1308,11 +1288,8 @@
             sancti. amen.
 
 <note type="footnote"> - 9 II Reg. 15, 26</note>. <lb n="25"/>
-            
-</p>
-        
-</div>
-        </div>
-</body>
-</text>
+            </p>
+         </div>
+      </body>
+   </text>
 </TEI>

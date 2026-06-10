@@ -1,121 +1,131 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader xml:lang="eng">
-    <fileDesc>
-      <titleStmt>
-        <title xml:lang="lat">Contra Felicem</title>
-        <author>Augustine</author>
-        <editor>Joseph Zycha</editor>        
-        <sponsor>University of Leipzig</sponsor>
-        <funder>European Social Fund Saxony</funder>
-        <principal>Gregory Crane</principal>
-        <respStmt>
-          <persName xml:id="Jouve">Jouve</persName>
-          <resp>OCR-ed, corrected and encoded the text</resp>
-        </respStmt>
-        <respStmt>
-          <persName>Greta Franzini</persName>
-          <resp>Project Manager (University of Leipzig)</resp>
-        </respStmt>
-        <respStmt>
-          <persName>Simona Stoyanova</persName>
-          <resp>Project Assistant (University of Leipzig)</resp>
-        </respStmt>
-        <respStmt>
-          <persName>Bruce Robertson</persName>
-          <resp>Technical Advisor (Mount Allison University)</resp>
-        </respStmt>
-        <respStmt>
-          <persName>Uvius Fonticola</persName>
-          <resp>Technical Advisor (Ludwig Maximilians University Munich)</resp>
-        </respStmt>
-      </titleStmt>
-      
-      <publicationStmt>
-        <authority>University of Leipzig</authority>
-        <idno type="filename">stoa0040.stoa031a.opp-lat1.xml</idno>
-        <availability>
-          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
-        </availability>
-        <date>2014</date>
-        <publisher>University of Leipzig</publisher>
-        <pubPlace>Germany</pubPlace>
-      </publicationStmt>
-      
-      <sourceDesc>
-        <listBibl>
-          <biblStruct>
-              <monogr>
-                <editor>
-                  <persName>
-                    <name>Joseph Zycha</name>
-                  </persName>
-                </editor> 
-                <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040">Augustine</author>  
-                <title xml:lang="lat">Sancti Aureli Augustini Opera</title>
-                <imprint>
-                  <publisher>F. Tempsky</publisher>
-                  <publisher>G. Freytag</publisher>
-                  <pubPlace>Prague</pubPlace>
-                  <pubPlace>Vienna</pubPlace>
-                  <pubPlace>Leipzig</pubPlace>
-                  <date>1892</date>
-                </imprint>
-                <biblScope unit="volume" xml:lang="lat">Sectio VI, Pars II</biblScope>
-              </monogr>
-              <series>
-                <title level="s" xml:lang="lat">Corpus scriptorum ecclesiasticorum Latinorum</title>
-                <biblScope unit="volume">25.2</biblScope>
-              </series>           
-            <ref target="https://archive.org/details/CorpusScriptorumEcclesiasticorumLatin252/page/n101/mode/2up">Internet Archive</ref>            
-          </biblStruct>
-        </listBibl>
-      </sourceDesc>
-      
-    </fileDesc>
-    <encodingDesc>
-      <p>The following text is encoded in accordance with EpiDoc standards and with the
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/PerseusDLCode/perseus-schemas/main/perseus_prose.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="eng">
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="lat">Contra Felicem</title>
+            <author>Augustine</author>
+            <editor>Joseph Zycha</editor>
+            <sponsor>University of Leipzig</sponsor>
+            <funder>European Social Fund Saxony</funder>
+            <principal>Gregory Crane</principal>
+            <respStmt>
+               <persName xml:id="Jouve">Jouve</persName>
+               <resp>OCR-ed, corrected and encoded the text</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Greta Franzini</persName>
+               <resp>Project Manager (University of Leipzig)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Simona Stoyanova</persName>
+               <resp>Project Assistant (University of Leipzig)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Bruce Robertson</persName>
+               <resp>Technical Advisor (Mount Allison University)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Uvius Fonticola</persName>
+               <resp>Technical Advisor (Ludwig Maximilians University Munich)</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>University of Leipzig</authority>
+            <idno type="filename">stoa0040.stoa031a.opp-lat1.xml</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
+            </availability>
+            <date>2014</date>
+            <publisher>University of Leipzig</publisher>
+            <pubPlace>Germany</pubPlace>
+            <idno type="CTS">urn:cts:latinLit:stoa0040.stoa031a.opp-lat1</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <name>Joseph Zycha</name>
+                        </persName>
+                     </editor>
+                     <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040">Augustine</author>
+                     <title xml:lang="lat">Sancti Aureli Augustini Opera</title>
+                     <imprint>
+                        <publisher>F. Tempsky</publisher>
+                        <publisher>G. Freytag</publisher>
+                        <pubPlace>Prague</pubPlace>
+                        <pubPlace>Vienna</pubPlace>
+                        <pubPlace>Leipzig</pubPlace>
+                        <date>1892</date>
+                     </imprint>
+                     <biblScope unit="volume" xml:lang="lat">Sectio VI, Pars II</biblScope>
+                  </monogr>
+                  <series>
+                     <title level="s" xml:lang="lat">Corpus scriptorum ecclesiasticorum Latinorum</title>
+                     <biblScope unit="volume">25.2</biblScope>
+                  </series>
+                  <ref target="https://archive.org/details/CorpusScriptorumEcclesiasticorumLatin252/page/n101/mode/2up">Internet Archive</ref>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>The following text is encoded in accordance with EpiDoc standards and with the
         CTS/CITE Architecture. 
 </p>
-      <refsDecl n="CTS">
-        <cRefPattern n="chapter" matchPattern="(.+).(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1']/tei:div[@n='$2'])"/>
-        <cRefPattern n="book" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1'])"/>
-      </refsDecl>
-    </encodingDesc>
-    
-    <profileDesc>
-      <langUsage>
-        <language ident="lat">Latin</language>
-      </langUsage>
-    </profileDesc>
-    
-</teiHeader>
-<text>
-<body>
-<div type="edition" xml:lang="lat" n="urn:cts:latinLit:stoa0040.stoa031a.opp-lat1">
-<head>VII. CONTRA FELICEM LIBRI DUO.  </head>
-<div n="1" subtype="book" type="textpart">
-<head>LIBER PRIMUS.          </head>
-<div n="1" subtype="chapter" type="textpart">
-          <p>Honorio Augusto sexies consule septimo idus Decembris <lb/>
+         <refsDecl n="CTS">
+            <cRefPattern n="chapter"
+                         matchPattern="(.+).(.+)"
+                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1']/tei:div[@n='$2'])"/>
+            <cRefPattern n="book"
+                         matchPattern="(.+)"
+                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1'])"/>
+         </refsDecl>
+         <refsDecl n="CTS">
+            <citeStructure match="/TEI/text/body" use="@xml:base">
+               <citeStructure unit="book" delim=":" match="div[@type='book']" use="@n">
+                  <citeStructure unit="chapter" delim="." match="div[@type='chapter']" use="@n"/>
+               </citeStructure>
+            </citeStructure>
+         </refsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <catRef scheme="#perseus-genre" target="#prose-book-chapter"/>
+         </textClass>
+         <langUsage>
+            <language ident="lat">Latin</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body xml:base="urn:cts:latinLit:stoa0040.stoa031a.opp-lat1">
+         <head>VII. CONTRA FELICEM LIBRI DUO.  </head>
+         <div n="1" type="book">
+            <head>LIBER PRIMUS.          </head>
+            <div n="1" type="chapter">
+               <p>Honorio Augusto sexies consule septimo idus Decembris <lb/>
             AUGUSTINUS episcopus ecclesiae catholicae Hipponeregiensium <lb/>
             regionum dixit: Hesterno die scis te dixisse, quod possis defendere <lb n="5"/>
             scripturas Manichaei et adserere, quod ueritatem habeant: <lb/>
             si hoc tibi placet et hodie facere aut praesumis te posse, dic. 
 </p>
-          <p>FELIX Manichaeus dixit: Ego non nego me dixisse defendere <lb/>
+               <p>FELIX Manichaeus dixit: Ego non nego me dixisse defendere <lb/>
             legem meam, si proferantur auctores legis meae in medio. 
 </p>
-          <p>Et cum Augustinus episcopus epistulam Manichaei, quam <lb n="10"/>
+               <p>Et cum Augustinus episcopus epistulam Manichaei, quam <lb n="10"/>
             Fundamenti appellant, protulisset, dixit: Si legero ex hoc <lb/>
             codice, quem me uides fen-e, epistulam Manichaei quam Fundamenti <lb/>
             appellatis, potes agnoscere, an ipsa sit? 
 </p>
-          <p>FEL. dixit: Agnosco. 
+               <p>FEL. dixit: Agnosco. 
 </p>
-          <p>AUG. dixit: Accipe tu ipse et lege. <lb n="15"/>
-            
-</p>
-          <p>Et cum accepisset codicem Felix, legit: Manichaeus apostolus <lb/>
+               <p>AUG. dixit: Accipe tu ipse et lege. <lb n="15"/>
+               </p>
+               <p>Et cum accepisset codicem Felix, legit: Manichaeus apostolus <lb/>
             Iesu Christi prouidentia dei patris. haec sunt <lb/>
             salubria uerba ex perenni ac uiuo fonte: quae qui <lb/>
             audierit et iisdem primum crediderit, deinde quae <lb/>
@@ -127,20 +137,20 @@
             AUG. episcopus dixit: Agnouisti certe epistulam Manichaei <lb n="25"/>
             uestri ?.,
 </p>
-          <p>FEL. dixit: Agnoui.
+               <p>FEL. dixit: Agnoui.
 
 <note type="footnote"> 1 Incipit liber primus beati (,beaU <hi rend="italic">om</hi>. SRt sancti P) (aorelii S) aug. <lb/>
             epi <hi rend="italic">(om. SB)</hi> contra felicem manicheum <hi rend="italic">TSPR</hi> 8 septies <hi rend="italic">b</hi> idud <lb/>
             decembritl <hi rend="italic">b</hi> 4 ypponiregiensium <hi rend="italic">P</hi> ypponiregientium <hi rend="italic">R</hi> ipponiregiensiom <lb/>
-            <hi rend="italic">TS</hi> hipponi regiensitl <hi rend="italic">b</hi> S ego om. <hi rend="italic">b</hi> me non nego <hi rend="italic">Rb</hi> 15 dixit <lb/>
-            <hi rend="italic">Oln. b</hi> tu lege <hi rend="italic">PSb</hi> 18 perhenni <hi rend="italic">TSPB</hi> 19 hiisdem <hi rend="italic">TPS</hi> <lb/>
-            hiistem <hi rend="italic">B</hi> et deinde <hi rend="italic">Sli</hi> 24 manebit <hi rend="italic">PSb</hi> </note>
-
-<note type="footnote"> 15* </note> 
-<pb n="802"/>
-            
-</p>
-          <p>, AUG. dixit: Proba nobis ergo, quomodo Manichaeus iste <lb/>
+                     <hi rend="italic">TS</hi> hipponi regiensitl <hi rend="italic">b</hi> S ego om. <hi rend="italic">b</hi> me non nego <hi rend="italic">Rb</hi> 15 dixit <lb/>
+                     <hi rend="italic">Oln. b</hi> tu lege <hi rend="italic">PSb</hi> 18 perhenni <hi rend="italic">TSPB</hi> 19 hiisdem <hi rend="italic">TPS</hi>
+                     <lb/>
+            hiistem <hi rend="italic">B</hi> et deinde <hi rend="italic">Sli</hi> 24 manebit <hi rend="italic">PSb</hi>
+                  </note>
+                  <note type="footnote"> 15* </note>
+                  <pb n="802"/>
+               </p>
+               <p>, AUG. dixit: Proba nobis ergo, quomodo Manichaeus iste <lb/>
             sit apostolus Iesu Christi. non enim eum in euangelio inter <lb/>
             apostolos aliquando legimus et quis fuerit ordinatus in locum <lb/>
             Iudae traditoris, nouimus, id est sanctus Matthias; et quis <lb/>
@@ -149,11 +159,9 @@
             nobis apostolum esse Christi, quod in capite epistulae suae <lb/>
             ausus est ponere. 
 </p>
-          
-</div>
-
-<div n="2" subtype="chapter" type="textpart">
-<p>FEL. dixit: Et sanctitas tua mihi probet, quod in euangelio <lb/>
+            </div>
+            <div n="2" type="chapter">
+               <p>FEL. dixit: Et sanctitas tua mihi probet, quod in euangelio <lb/>
             scriptum est Christo dicente: uado ad patrem; et<lb n="10"/>
             mitto uobis spiritum sanctum paracletum, qui uos <lb/>
             inducat in omnem ueritatem. hoc tu mihi extra scripturam <lb/>
@@ -164,7 +172,7 @@
             spiritus sanctus paracletus ipse in omnem ueritatem inducet — <lb/>
             secundum Christi sermonem ego scripturam Manichaei recuso. 
 </p>
-          <p>AUG. dixit: Quoniam ergo tu probare non potuisti, quomodo <lb/>
+               <p>AUG. dixit: Quoniam ergo tu probare non potuisti, quomodo <lb/>
             sit Manichaeus apostolus Christi, et exigis, ut ego <lb n="20"/>
             probem, quomodo miserit spiritum sanctum paracletum, quem <lb/>
             promisit, ut tunc respuas scripturas Manichaei, si inueneris <lb/>
@@ -174,23 +182,23 @@
             spiritus sanctus, quem Christus promisit. et accedit ad euangelium <lb/>
             et actus apostolorum. 
 </p>
-          
-</div>
-
-<div n="3" subtype="chapter" type="textpart">
-<p>Et cum accepisset codicem euangelii, recitauit: dum <lb/>
+            </div>
+            <div n="3" type="chapter">
+               <p>Et cum accepisset codicem euangelii, recitauit: dum <lb/>
             autem haec loquuntur, stetit Iesus in medio eorum
 
 <note type="footnote"> 3 cf. Act. 1, 26 5 cf. Act. 9, 17 10 Ioh. W, 13 28 Luc. <lb/>
             24, 36 sqq., </note>
-
-<note type="footnote"> 1 iste manicheus <hi rend="italic">PSItb</hi> 2 aliqfl inter <hi rend="italic">b</hi> 3 legimus aliquando <hi rend="italic">B</hi> <lb/>
+                  <note type="footnote"> 1 iste manicheus <hi rend="italic">PSItb</hi> 2 aliqfl inter <hi rend="italic">b</hi> 3 legimus aliquando <hi rend="italic">B</hi>
+                     <lb/>
             4 mathias <hi rend="italic">TP</hi> 9 michi <hi rend="italic">P</hi> 11 mittam <hi rend="italic">PR</hi> (et 17) paraclytum <hi rend="italic">TP <lb/>
-            paraciitum R 12 hec R mihi om. b</hi> 14 reperiatur 6 <hi rend="italic">18 scripta R</hi> <lb/>
+            paraciitum R 12 hec R mihi om. b</hi> 14 reperiatur 6 <hi rend="italic">18 scripta R</hi>
+                     <lb/>
             21 paraciitum <hi rend="italic">P</hi> paraclytum <hi rend="italic">T</hi> 25 ego <hi rend="italic">om. b</hi> prior ego <hi rend="italic">PS</hi> prior <lb/>
-            ipse 27 ad actus <hi rend="italic">b</hi> 29 haec autem <hi rend="italic">PS</hi> iesus stetit <hi rend="italic">PSRb</hi> </note><lb/>
-             
-<pb n="803"/>
+            ipse 27 ad actus <hi rend="italic">b</hi> 29 haec autem <hi rend="italic">PS</hi> iesus stetit <hi rend="italic">PSRb</hi>
+                  </note>
+                  <lb/>
+                  <pb n="803"/>
             et dixit eia: pax uobis; ego sum, nolite timere. et cum <lb/>
             legeret, dixit: hoc post resurrectionem. et cum dixisset, legit: <lb/>
             conturbati uero et conterriti aestimabant se spiritum <lb/>
@@ -224,24 +232,22 @@
             autem, quod modo legi, Lucas euangelista adtestatus est et
 
 <note type="footnote"> .29 lob. 16, 7 </note>
-
-<note type="footnote"> 8 cftlltrabti <hi rend="italic">R</hi> existimabant b 6 pedes meos b 8 haec <hi rend="italic">Sb</hi> <lb/>
+                  <note type="footnote"> 8 cftlltrabti <hi rend="italic">R</hi> existimabant b 6 pedes meos b 8 haec <hi rend="italic">Sb</hi>
+                     <lb/>
             28 mitto P 24 uirtute <hi rend="italic">b</hi> 28 iohannem est <hi rend="italic">b</hi> qu5 P 30 paraclitum <lb/>
-            <hi rend="italic">PR</hi> paraclytum <hi rend="italic">S</hi> </note><lb/>
-             
-<pb n="804"/>
+                     <hi rend="italic">PR</hi> paraclytum <hi rend="italic">S</hi>
+                  </note>
+                  <lb/>
+                  <pb n="804"/>
             consonuit ueritati apostoli Iohannis. uideamus etiam quomodo <lb/>
             perfectum est, quod promisit dominus et quomodo inpletum, <lb/>
             ut cum fuerit ex canonicis libris sanctae ecclesiae expressa <lb/>
             inpletio promissionis domini, paracletum spiritum sanctum <lb/>
             alterum non quaeramus, ne in seductorum laqueos incurramus. <lb n="5"/>
-            
-</p>
-          
-</div>
-
-<div n="4" subtype="chapter" type="textpart">
-<p>Et recitauit ex actibus apostolorum: primum quidem <lb/>
+               </p>
+            </div>
+            <div n="4" type="chapter">
+               <p>Et recitauit ex actibus apostolorum: primum quidem <lb/>
             sermonem feci de omnibus, o Theophile, quae coepit <lb/>
             Iesus facere et docere in die, quo apostolos elegit <lb/>
             per spiritum sanctum et praecepit praedicare euangelium: <lb/>
@@ -268,13 +274,14 @@
             caelum? iste Iesus, qui adsumptus est in caelum a
 
 <note type="footnote"> 6 Act. 1, 1 sqq. </note>
-
-<note type="footnote"> 1 iohannis apostoli <hi rend="italic">b</hi> 6 ex] in P 12 sit <hi rend="italic">b</hi> 13 ierosolimis <hi rend="italic">PB</hi> <lb/>
+                  <note type="footnote"> 1 iohannis apostoli <hi rend="italic">b</hi> 6 ex] in P 12 sit <hi rend="italic">b</hi> 13 ierosolimis <hi rend="italic">PB</hi>
+                     <lb/>
             iherosolymam <hi rend="italic">T</hi> 17 baptizare <hi rend="italic">b</hi> et <hi rend="italic">om. b</hi> 20 in om. <hi rend="italic">b</hi> 24 hierosolimam <lb/>
-            <hi rend="italic">P</hi> iherosolymam <hi rend="italic">T</hi> samaria et iudea <hi rend="italic">B</hi> 29 respicientes <lb/>
-            <hi rend="italic">(sup</hi>. res <hi rend="italic">euperscr</hi>. i a) <hi rend="italic">T</hi> </note><lb n="30"/>
-             
-<pb n="805"/>
+                     <hi rend="italic">P</hi> iherosolymam <hi rend="italic">T</hi> samaria et iudea <hi rend="italic">B</hi> 29 respicientes <lb/>
+                     <hi rend="italic">(sup</hi>. res <hi rend="italic">euperscr</hi>. i a) <hi rend="italic">T</hi>
+                  </note>
+                  <lb n="30"/>
+                  <pb n="805"/>
             uobis, sic ueniet, quemadmodam uidistis eum euntem <lb/>
             in caelum. tunc reuersi sunt Hierosolymam a monte, <lb/>
             qui uocatur Elaeon, qui est iuxta Hierosolymam sabbati <lb/>
@@ -306,14 +313,18 @@
             Iohannis usque in illum diem, quo adsumptus
 
 <note type="footnote"> 1 eum uidistiB <hi rend="italic">P</hi> 8 heleon P eleon <hi rend="italic">TSBb</hi> 5 habitant <hi rend="italic">T</hi> et <lb/>
-            ioh. iacob. et <hi rend="italic">om. b</hi> 6 phylippne <hi rend="italic">T</hi> 7 matheus <hi rend="italic">P</hi> alphei <hi rend="italic">P</hi> <lb/>
-            symon <hi rend="italic">TPB</hi> 10 surrexit b 11 audientium ecrtpsi: dicentium <hi rend="italic">TPSS</hi> <lb/>
-            fratrum <hi rend="italic">b</hi> 12 autem] enim <hi rend="italic">B</hi> 18 uiri fratres b 14 qua dixit <hi rend="italic">R</hi> <lb/>
-            sancti <hi rend="italic">om. B</hi> 16 quoniam] qui <hi rend="italic">b</hi> uos <hi rend="italic">B</hi> 17 igiturl ergo <hi rend="italic">PB</hi> <lb/>
+            ioh. iacob. et <hi rend="italic">om. b</hi> 6 phylippne <hi rend="italic">T</hi> 7 matheus <hi rend="italic">P</hi> alphei <hi rend="italic">P</hi>
+                     <lb/>
+            symon <hi rend="italic">TPB</hi> 10 surrexit b 11 audientium ecrtpsi: dicentium <hi rend="italic">TPSS</hi>
+                     <lb/>
+            fratrum <hi rend="italic">b</hi> 12 autem] enim <hi rend="italic">B</hi> 18 uiri fratres b 14 qua dixit <hi rend="italic">R</hi>
+                     <lb/>
+            sancti <hi rend="italic">om. B</hi> 16 quoniam] qui <hi rend="italic">b</hi> uos <hi rend="italic">B</hi> 17 igiturl ergo <hi rend="italic">PB</hi>
+                     <lb/>
             18 de] ex <hi rend="italic">Pb</hi> 19 diruptu] diuisua <hi rend="italic">B</hi> 21 habitabant <hi rend="italic">b</hi> 22 achaldemach <lb/>
-            <hi rend="italic">PS achelderaac B</hi> 26 accipiet <hi rend="italic">b</hi> 27 super] inter <hi rend="italic">b</hi>\';, </note><lb/>
-             
-<pb n="806"/>
+                     <hi rend="italic">PS achelderaac B</hi> 26 accipiet <hi rend="italic">b</hi> 27 super] inter <hi rend="italic">b</hi>\';, </note>
+                  <lb/>
+                  <pb n="806"/>
             est a nobis, testem resurrectionis eius nobiscum esse. <lb/>
             et statuit duos, Ioseph, qui uocabatur Barsabas, qui <lb/>
             et Iustus, et Matthiam. et precatus dixit: tu, domine. <lb/>
@@ -327,11 +338,9 @@
             paulo ante commemoraui, ne quisquam per fraudem inrepat <lb/>
             in apostolorum numerum et nomine apostolatus fallat ignaros. 
 </p>
-          
-</div>
-
-<div n="5" subtype="chapter" type="textpart">
-<p>Nunc uideamus, quod promisimus, quomodo inpleta <lb/>
+            </div>
+            <div n="5" type="chapter">
+               <p>Nunc uideamus, quod promisimus, quomodo inpleta <lb/>
             sit Christi promissio de spiritu sancto. et cum dixisset legit <lb/>
             in loco: tempore, quo subpletus est dies pentecostes,<lb n="15"/>
             fuerunt omnes simul in uno. et factus est subito de <lb/>
@@ -351,13 +360,16 @@
             sermonem; in quo nati sumus? Parthi, Medi et
 
 <note type="footnote">15 Act. 2, 1 sqq. </note>
-
-<note type="footnote"> 2 nocatnr <hi rend="italic">b</hi> bartvabus <hi rend="italic">(awp</hi>. n a <hi rend="italic">m</hi>. 1 s) <hi rend="italic">T</hi> 8 mathiam <hi rend="italic">TPfi,</hi> <lb/>
-            4 cordium <hi rend="italic">b</hi> 6 ambulari <hi rend="italic">b</hi> 7 suas <hi rend="italic">om. b</hi> 8 simul] similis <hi rend="italic">b</hi> <lb/>
-            12 numero <hi rend="italic">PR</hi> 16 sonus de cęlo <hi rend="italic">B</hi> 20 illorum <hi rend="italic">Pb</hi> 21 c§perant <hi rend="italic">T</hi> <lb/>
-            22 illis <hi rend="italic">b</hi> 25 confusa est <hi rend="italic">b</hi> 27 ammirabantnr <hi rend="italic">PS</hi> 30 et medi <hi rend="italic">PSRb</hi> </note><lb n="30"/>
-             
-<pb n="807"/>
+                  <note type="footnote"> 2 nocatnr <hi rend="italic">b</hi> bartvabus <hi rend="italic">(awp</hi>. n a <hi rend="italic">m</hi>. 1 s) <hi rend="italic">T</hi> 8 mathiam <hi rend="italic">TPfi,</hi>
+                     <lb/>
+            4 cordium <hi rend="italic">b</hi> 6 ambulari <hi rend="italic">b</hi> 7 suas <hi rend="italic">om. b</hi> 8 simul] similis <hi rend="italic">b</hi>
+                     <lb/>
+            12 numero <hi rend="italic">PR</hi> 16 sonus de cęlo <hi rend="italic">B</hi> 20 illorum <hi rend="italic">Pb</hi> 21 c§perant <hi rend="italic">T</hi>
+                     <lb/>
+            22 illis <hi rend="italic">b</hi> 25 confusa est <hi rend="italic">b</hi> 27 ammirabantnr <hi rend="italic">PS</hi> 30 et medi <hi rend="italic">PSRb</hi>
+                  </note>
+                  <lb n="30"/>
+                  <pb n="807"/>
             Elamitae, et qui inhabitant Mesopotamiam, Iudaeam et <lb/>
             Cappadociam, Pontum, Asiam, Phrygiam et Pamphyliam, <lb/>
             Aegyptum et partes Libyae, quae est ad Cyrenem, <lb/>
@@ -370,17 +382,15 @@
             promisit, respuas illam scripturam, quae sub nomine spiritus <lb n="10"/>
             sancti fraudare uoluit uel lectorem uel auditorem. 
 </p>
-          
-</div>
-
-<div n="6" subtype="chapter" type="textpart">
-<p>FEL. dixit: Ego non nego id quod dixi, quia cum probatum <lb/>
+            </div>
+            <div n="6" type="chapter">
+               <p>FEL. dixit: Ego non nego id quod dixi, quia cum probatum <lb/>
             mihi fuerit, quod spiritus sanctus docuerit ueritatem, <lb/>
             quam quaero. illam respuo. hoc enim sanctitas tua mihi legit, <lb/>
             ubi spiritum sanctum apostoli acceperunt. et in ipsis apostolis <lb n="15"/>
             unum quaero, qui me doceat de initio, de medio, de fine. 
 </p>
-          <p>AUG. dixit: Si legeris hoc dixisse dominum: mitto uobis <lb/>
+               <p>AUG. dixit: Si legeris hoc dixisse dominum: mitto uobis <lb/>
             spiritum sanctum, qui uos doceat initium, medium, finem, bene <lb/>
             me astringis, ut ostendam, quos docuerit spiritus sanctus. <lb/>
             FEL. dixit: Quia sanctitas tua hoc dicit, quod apostoli ipsi <lb n="20"/>
@@ -389,39 +399,41 @@
             docuit, aut ipsius doctrinam euacuet, de duodecim quem <lb/>
             uolueris. 
 </p>
-          <p>AUG. dixit: Absit longe a fide apostolorum, ut doctrinam <lb n="25"/>
+               <p>AUG. dixit: Absit longe a fide apostolorum, ut doctrinam <lb n="25"/>
             doceant sacrilegi Manichaei. sed quoniam dicis unum ipsorum <lb/>
             debere euacuare doctrinam Manichaei, modo autem sancti <lb/>
             apostoli non sunt in corpore, ego minimus non solum omnium <lb/>
             apostolorum, sed omnium episcoporum, — nam ad merita
 
 <note type="footnote"> 1 habitabant <hi rend="italic">PS</hi> habitant <hi rend="italic">2ib</hi> mesopothamiam <hi rend="italic">R</hi> iudaeam]<lb/>
-             armeniam <hi rend="italic">b</hi> 2 capadociam <hi rend="italic">T</hi> phrigiamque P phrygiamque <hi rend="italic">b</hi> <lb/>
+             armeniam <hi rend="italic">b</hi> 2 capadociam <hi rend="italic">T</hi> phrigiamque P phrygiamque <hi rend="italic">b</hi>
+                     <lb/>
             frigiam <hi rend="italic">T</hi> panphyliam P pamphiliam <hi rend="italic">T</hi> pamphiriam <hi rend="italic">R</hi> 3 ad] <lb/>
-            circa <hi rend="italic">PRb, (superscr</hi>. t ad) <hi rend="italic">S</hi> cirenen <hi rend="italic">PR</hi> 4 aduenerant b 7 de] a <hi rend="italic">b</hi> <lb/>
-            8 tu <hi rend="italic">om. b</hi> 9 miserit xps (rit <hi rend="italic">in ras.) P</hi> misit <hi rend="italic">b</hi> 16 et flne <hi rend="italic">PRb</hi> <lb/>
-            18 doceat uos <hi rend="italic">b</hi> et finem <hi rend="italic">PRSb</hi> 21 paraclitum P paraclytum <hi rend="italic">T</hi> <lb/>
-            (sic ubique) 25 apostolorum <hi rend="italic">om. M</hi> 26 eorum <hi rend="italic">b</hi> 27 euacuare debere <hi rend="italic">b</hi> </note><lb/>
-             
-<pb n="808"/>
+            circa <hi rend="italic">PRb, (superscr</hi>. t ad) <hi rend="italic">S</hi> cirenen <hi rend="italic">PR</hi> 4 aduenerant b 7 de] a <hi rend="italic">b</hi>
+                     <lb/>
+            8 tu <hi rend="italic">om. b</hi> 9 miserit xps (rit <hi rend="italic">in ras.) P</hi> misit <hi rend="italic">b</hi> 16 et flne <hi rend="italic">PRb</hi>
+                     <lb/>
+            18 doceat uos <hi rend="italic">b</hi> et finem <hi rend="italic">PRSb</hi> 21 paraclitum P paraclytum <hi rend="italic">T</hi>
+                     <lb/>
+            (sic ubique) 25 apostolorum <hi rend="italic">om. M</hi> 26 eorum <hi rend="italic">b</hi> 27 euacuare debere <hi rend="italic">b</hi>
+                  </note>
+                  <lb/>
+                  <pb n="808"/>
             apostolorum quando aspiro? — quantum mihi dominus de <lb/>
             ipso spiritu suo largiri dignatus est, euacuo doctrinam Manichaei, <lb/>
             cum coeperint legi sequentia illius epistulae, quam tu <lb/>
             ipse Manichaei esse non negas. 
 </p>
-          <p>FEL. dixit: Dixisti, quia apostoli de corpore recesserunt;<lb n="5"/>
+               <p>FEL. dixit: Dixisti, quia apostoli de corpore recesserunt;<lb n="5"/>
             scripturae eorum ualent usque nunc . et quia dixit sanctitas <lb/>
             tua et quia dedisti potestatem dicendi, quae uoluerimus sine <lb/>
             ulla formidine, dixisti euacuo legem Manichaei\', et ego dico: <lb/>
             omnis homo mendax, solus deus uerax; scripturae dei <lb/>
             loquuntur. <lb n="10"/>
-            
-</p>
-          
-</div>
-
-<div n="7" subtype="chapter" type="textpart">
-<p>AUG. dixit: Tu quidem et homo es et, sicut res ipsa <lb/>
+               </p>
+            </div>
+            <div n="7" type="chapter">
+               <p>AUG. dixit: Tu quidem et homo es et, sicut res ipsa <lb/>
             modo indicatura est, mendax. et quoniam locutus es, quae <lb/>
             uoluisti, non de scriptura dei, oportet et me loqui quod uolo. <lb/>
             si enim ueritas est Manichaei tui, nec a me destrui poterit; <lb/>
@@ -442,14 +454,18 @@
             abstinere a cibis, quos deus creauit ad
 
 <note type="footnote">9 Fs. 115, 2; Rom. 8, 4 24 I Tim, 4, 1 sqq. </note>
-
-<note type="footnote"> 1 quando (ita <hi rend="italic">marg</hi>. at qfli) <hi rend="italic">b</hi> 3 cępėrint <hi rend="italic">P</hi> 7 dedistij diiisti <hi rend="italic">P</hi> <lb/>
-            (in <hi rend="italic">WUlrg</hi>. signo r <hi rend="italic">app.)</hi> 11 et <hi rend="italic">om. Pb</hi> 16 sint <hi rend="italic">b</hi> 17 acripta <hi rend="italic">b</hi> <lb/>
-            18 in mundo natus <hi rend="italic">PB</hi> fcO nernntamen <hi rend="italic">T</hi> quid <hi rend="italic">PR</hi> 22 qualis <hi rend="italic">b</hi> <lb/>
-            28 pauli apostoli <hi rend="italic">Pb</hi> 24 tbimotheum B 25 quia <hi rend="italic">PPSb 21</hi> hipocribi <hi rend="italic">P</hi> <lb/>
-            ypochrisi <hi rend="italic">R</hi> </note><lb/>
-             
-<pb n="809"/>
+                  <note type="footnote"> 1 quando (ita <hi rend="italic">marg</hi>. at qfli) <hi rend="italic">b</hi> 3 cępėrint <hi rend="italic">P</hi> 7 dedistij diiisti <hi rend="italic">P</hi>
+                     <lb/>
+            (in <hi rend="italic">WUlrg</hi>. signo r <hi rend="italic">app.)</hi> 11 et <hi rend="italic">om. Pb</hi> 16 sint <hi rend="italic">b</hi> 17 acripta <hi rend="italic">b</hi>
+                     <lb/>
+            18 in mundo natus <hi rend="italic">PB</hi> fcO nernntamen <hi rend="italic">T</hi> quid <hi rend="italic">PR</hi> 22 qualis <hi rend="italic">b</hi>
+                     <lb/>
+            28 pauli apostoli <hi rend="italic">Pb</hi> 24 tbimotheum B 25 quia <hi rend="italic">PPSb 21</hi> hipocribi <hi rend="italic">P</hi>
+                     <lb/>
+            ypochrisi <hi rend="italic">R</hi>
+                  </note>
+                  <lb/>
+                  <pb n="809"/>
             percipiendum cum gratiarum actione fidelibus et his qui <lb/>
             cognouerunt ueritatem, quia omnis creatura dei bona <lb/>
             est et nihil abiciendum, quod cum gratiarum actione <lb/>
@@ -469,11 +485,9 @@
             id, quod interrogo: omnis concubitus fornicatio est, an concubitus <lb/>
             cum uxore non est peccatum? 
 </p>
-          
-</div>
-
-<div n="8" subtype="chapter" type="textpart">
-<p>FEL. dixit: Iterum mihi recitetur, quod dixit apostolus. <lb/>
+            </div>
+            <div n="8" type="chapter">
+               <p>FEL. dixit: Iterum mihi recitetur, quod dixit apostolus. <lb/>
             et recitatum est: spiritus autem manifeste dicit quia <lb n="20"/>
             in nouissimis temporibus recedent quidam a fide adtendentes <lb/>
             spiritibus seductoribus, doctrinis daemoniorum <lb/>
@@ -486,22 +500,22 @@
             sanctificatur enim per uerbum dei et orationem.
 
 <note type="footnote"> 20 I Tim. 4, 1 sqq. </note>
-
-<note type="footnote"> 1 biis <hi rend="italic">TPR iis S</hi> 6 praecipiens <hi rend="italic">(in tnarg</hi>. at pponens) <hi rend="italic">b</hi> erit B <lb/>
+                  <note type="footnote"> 1 biis <hi rend="italic">TPR iis S</hi> 6 praecipiens <hi rend="italic">(in tnarg</hi>. at pponens) <hi rend="italic">b</hi> erit B <lb/>
             6 xpi ihil P 8 et—uxore <hi rend="italic">om. b</hi> 10 et expressum <hi rend="italic">om. b</hi> 12 licitum <lb/>
-            esse <hi rend="italic">b</hi> 14 praedicauit et <hi rend="italic">om. b</hi> etj uel <hi rend="italic">PSJt</hi> inueneris <hi rend="italic">b</hi> <lb/>
+            esse <hi rend="italic">b</hi> 14 praedicauit et <hi rend="italic">om. b</hi> etj uel <hi rend="italic">PSJt</hi> inueneris <hi rend="italic">b</hi>
+                     <lb/>
             15 hiis <hi rend="italic">PB</hi> 17 fornicationis <hi rend="italic">P</hi> 19 michi P. 20 dicit et cetera <lb/>
-            quae supra sunt <hi rend="italic">SPHb</hi> </note><lb/>
-             
-<pb n="810"/>
+            quae supra sunt <hi rend="italic">SPHb</hi>
+                  </note>
+                  <lb/>
+                  <pb n="810"/>
             haec praecipiens fratribus bonus eris minister Iesu <lb/>
             Christi. FEL. dixit: Manichaeus non a fide recessit, sicut <lb/>
             dicit Paulus, sicut ceteri recesserunt a fide quasi in sectam <lb/>
             suam; Manichaeus autem a nulla secta recessit, ut dicatur, 5 <lb/>
             quia a fide recessit. <lb n="5"/>
-            
-</p>
-          <p>AUG. dixit: Quoniam te uideo nolle respondere ad quod <lb/>
+               </p>
+               <p>AUG. dixit: Quoniam te uideo nolle respondere ad quod <lb/>
             interrogaris, ne inueniaris uel non tenere spiritum sanctum, <lb/>
             quem iam probauimus missum esse apostolis, uel non esse <lb/>
             in eorum numero, quos futuros Paulus designauit, ubi et <lb/>
@@ -531,21 +545,19 @@
             Fundamenti.\'
 
 <note type="footnote">4 autem <hi rend="italic">om. B</hi> 6 uideo te <hi rend="italic">PB</hi> 9 eorum] eo <hi rend="italic">PR</hi> 12 Manicbaeus-flde <lb/>
-            <hi rend="italic">om. P</hi> 18 non fnit in aliqua fide <hi rend="italic">b</hi> 24 paulo apostolo <hi rend="italic">PR <lb/>
-            29 et om. b illudj id b 32 eius b</hi> </note>
-<pb n="811"/>
-            
-</p>
-          
-</div>
-
-<div n="9" subtype="chapter" type="textpart">
-<p>FEL. dixit: Et ego respondeo ad quod dicit sanctitas <lb/>
+                     <hi rend="italic">om. P</hi> 18 non fnit in aliqua fide <hi rend="italic">b</hi> 24 paulo apostolo <hi rend="italic">PR <lb/>
+            29 et om. b illudj id b 32 eius b</hi>
+                  </note>
+                  <pb n="811"/>
+               </p>
+            </div>
+            <div n="9" type="chapter">
+               <p>FEL. dixit: Et ego respondeo ad quod dicit sanctitas <lb/>
             tua, quia in Paulo uenit spiritus sanctus paracletus. 
 </p>
-          <p>AUG. dixit: Non in solo. 
+               <p>AUG. dixit: Non in solo. 
 </p>
-          <p>FEL. dixit: Ego de ipso ago, quia, si in ipso, et in omnes.. <lb/>
+               <p>FEL. dixit: Ego de ipso ago, quia, si in ipso, et in omnes.. <lb/>
             et si in ipso — Paulus enim in altera epistula dicit: ex <lb n="5"/>
             parte scimus et ex parte prophetamus; cum uenerit <lb/>
             autem quod perfectum est, abolebuntur ea, quae ex <lb/>
@@ -564,11 +576,9 @@
             ubi paracletus loquitur, id est spiritus sanctus, de quo <lb n="20"/>
             uoluero interrogare, et docueris me, credo et renuntio. 
 </p>
-          
-</div>
-
-<div n="10" subtype="chapter" type="textpart">
-<p>AUG. dixit: Dicis ideo te non credere spiritum sanctum <lb/>
+            </div>
+            <div n="10" type="chapter">
+               <p>AUG. dixit: Dicis ideo te non credere spiritum sanctum <lb/>
             paracletum in Paulo apostolo fuisse, quia Paulus apostolus <lb/>
             dixit: ex parte enim scimus et ex parte prophetamus, <lb/>
             et inde putas apostolum per haec uerba praedixisse uelut <lb n="25"/>
@@ -580,12 +590,12 @@
             factus sit mundus, de cursu solis et lunae et de aliis, quae
 
 <note type="footnote"> ó I Cor. 18, 9 . 19 10 Ioh. 16, 7 </note>
-
-<note type="footnote"> 1 ad id quod b 6 prophetamus] prędicamus <hi rend="italic">PR</hi> autem uenerit b <lb/>
-            9 eum] Et <hi rend="italic">b</hi> 11 quia et ipse <hi rend="italic">b</hi> 21 renuncio <hi rend="italic">P</hi> 22 te ideo <hi rend="italic">b</hi> <lb/>
-            23 apostolua <hi rend="italic">om. JPItb</hi> 24 dicit <hi rend="italic">PHSb</hi> 26 ipse <hi rend="italic">b</hi> 31 de aliis) aliis 6 </note><lb/>
-             
-<pb n="812"/>
+                  <note type="footnote"> 1 ad id quod b 6 prophetamus] prędicamus <hi rend="italic">PR</hi> autem uenerit b <lb/>
+            9 eum] Et <hi rend="italic">b</hi> 11 quia et ipse <hi rend="italic">b</hi> 21 renuncio <hi rend="italic">P</hi> 22 te ideo <hi rend="italic">b</hi>
+                     <lb/>
+            23 apostolua <hi rend="italic">om. JPItb</hi> 24 dicit <hi rend="italic">PHSb</hi> 26 ipse <hi rend="italic">b</hi> 31 de aliis) aliis 6 </note>
+                  <lb/>
+                  <pb n="812"/>
             commemorasti, non legitur in euangelio dominum dixisse: <lb/>
             mitto uobis paracletum, qui uos doceat de cursu solis et <lb/>
             lunae. christianos enim facere uolebat, non mathematicos. <lb/>
@@ -614,22 +624,22 @@
             promisi, unde dicebat apostolus: ex parte scimus et ex <lb/>
             parte prophetamus. 
 </p>
-          
-</div>
-
-<div n="11" subtype="chapter" type="textpart">
-<p>Dicebat enim, sicut lectio ipsa mox indicatura est, quia <lb/>
+            </div>
+            <div n="11" type="chapter">
+               <p>Dicebat enim, sicut lectio ipsa mox indicatura est, quia <lb/>
             in ista uita homo cum est, non potest adsequi omnia, <lb/>
             sed ex parte adsequitur in hac uita; ipse autem spiritus <lb n="30"/>
             sanctus, qui ex parte docet in hac uita, post hanc uitam
 
 <note type="footnote">15 Ioh. 16, 13 </note>
-
-<note type="footnote"> 4 scola <hi rend="italic">TPR</hi> 5 hnmanos usus <hi rend="italic">b</hi> 7 aut lunae <hi rend="italic">P</hi> 10 sunt <hi rend="italic">b</hi> <lb/>
-            12 et] ad <hi rend="italic">b</hi> 16 sed si <hi rend="italic">B</hi> 20 ea possum <hi rend="italic">PJR</hi> dicere ea <hi rend="italic">b</hi> <lb/>
-            22 factus sit <hi rend="italic">b</hi> 24 et probaturus <hi rend="italic">H</hi> 26 unde <hi rend="italic">om. b</hi> </note><lb/>
-             
-<pb n="813"/>
+                  <note type="footnote"> 4 scola <hi rend="italic">TPR</hi> 5 hnmanos usus <hi rend="italic">b</hi> 7 aut lunae <hi rend="italic">P</hi> 10 sunt <hi rend="italic">b</hi>
+                     <lb/>
+            12 et] ad <hi rend="italic">b</hi> 16 sed si <hi rend="italic">B</hi> 20 ea possum <hi rend="italic">PJR</hi> dicere ea <hi rend="italic">b</hi>
+                     <lb/>
+            22 factus sit <hi rend="italic">b</hi> 24 et probaturus <hi rend="italic">H</hi> 26 unde <hi rend="italic">om. b</hi>
+                  </note>
+                  <lb/>
+                  <pb n="813"/>
             introducet in omnem ueritatem. quod ut apertissime doceatur, <lb/>
             audi apostolum. et cum diceret, ex apostolo legit: siue autem <lb/>
             prophetiae euacuabuntur siue linguae cessabunt siue <lb/>
@@ -644,17 +654,15 @@
             tempora futura Manichaei praedicebat apostolus, utrum tu <lb/>
             uideas modo deum facie ad faciem. 
 </p>
-          
-</div>
-
-<div n="12" subtype="chapter" type="textpart">
-<p>FEL. dixit: Non tantum ego possum contra tuam uirtutem, <lb/>
+            </div>
+            <div n="12" type="chapter">
+               <p>FEL. dixit: Non tantum ego possum contra tuam uirtutem, <lb/>
             quia mira uirtus est gradus episcopalis, deinde contra <lb n="15"/>
             leges imperatoris. et superius petiui compendiue, ut doceas <lb/>
             me, quid est ueritas; et si docueris me, quid est ueritas, <lb/>
             parebit quod teneo mendacium esse. 
 </p>
-          <p>AUG. dixit: Adparuit te probare non potuisse apostolum <lb/>
+               <p>AUG. dixit: Adparuit te probare non potuisse apostolum <lb/>
             Christi esse Manichaeum; quare autem non potueris, breuiter <lb n="20"/>
             expono. dixisti inde te probare Manichaeum apostolum Christi, <lb/>
             quia paracletum uenturum promisit Christus spiritum sanctum; <lb/>
@@ -669,13 +677,15 @@
             esset, ab ipsis fuisse praedicatam, dixi tamen unum ipsorum
 
 <note type="footnote"> 2 I Cor. 13, 8 sqq </note>
-
-<note type="footnote"> 7 quasi] ut <hi rend="italic">(bis) b</hi> aapiebam] sciebam <hi rend="italic">b</hi> 9 quae] ea quae <hi rend="italic">PSSb</hi> <lb/>
-            10 enigmate <hi rend="italic">TB</hi> enignimate P 12 prgdicebant <hi rend="italic">R</hi> tu modo <hi rend="italic">b</hi> <lb/>
+                  <note type="footnote"> 7 quasi] ut <hi rend="italic">(bis) b</hi> aapiebam] sciebam <hi rend="italic">b</hi> 9 quae] ea quae <hi rend="italic">PSSb</hi>
+                     <lb/>
+            10 enigmate <hi rend="italic">TB</hi> enignimate P 12 prgdicebant <hi rend="italic">R</hi> tu modo <hi rend="italic">b</hi>
+                     <lb/>
             16 imperatorum <hi rend="italic">PRSb</hi> me doceas <hi rend="italic">b</hi> 18 patebit <hi rend="italic">S</hi> mendatium <lb/>
-            <hi rend="italic">P</hi> 24 uero <hi rend="italic">om. PRb</hi> 26 spiritus sanctus apertissime <hi rend="italic">B</hi> </note><lb/>
-             
-<pb n="814"/>
+                     <hi rend="italic">P</hi> 24 uero <hi rend="italic">om. PRb</hi> 26 spiritus sanctus apertissime <hi rend="italic">B</hi>
+                  </note>
+                  <lb/>
+                  <pb n="814"/>
             apostolorum Paulum per spiritum sanctum, qui in omnes <lb/>
             apostolos uenerat. prophetasse etiam de ista uestra doctrina, <lb/>
             quia futura erat, et eam appellasse doctrinam daemoniorum <lb/>
@@ -709,12 +719,14 @@
             tranquillitate disputemus, quemadmodum populus praesens
 
 <note type="footnote"> 9 I Tim. 4, 1 sqq. 22 I Ioh. 3, 3 </note>
-
-<note type="footnote"> 7 cybis <hi rend="italic">P</hi> 11 nos S nos docere b cursus b 12 ego cum <hi rend="italic">PR</hi> <lb/>
-            18 ipstl apostolQ <hi rend="italic">b</hi> 14 et ex parte proph. <hi rend="italic">b</hi> 16 enigmate <hi rend="italic">T</hi> <lb/>
-            23 quod <hi rend="italic">PB</hi> enim] autem <hi rend="italic">PSb</hi> </note><lb/>
-             
-<pb n="815"/>
+                  <note type="footnote"> 7 cybis <hi rend="italic">P</hi> 11 nos S nos docere b cursus b 12 ego cum <hi rend="italic">PR</hi>
+                     <lb/>
+            18 ipstl apostolQ <hi rend="italic">b</hi> 14 et ex parte proph. <hi rend="italic">b</hi> 16 enigmate <hi rend="italic">T</hi>
+                     <lb/>
+            23 quod <hi rend="italic">PB</hi> enim] autem <hi rend="italic">PSb</hi>
+                  </note>
+                  <lb/>
+                  <pb n="815"/>
             nullam tibi uim faciat, nullum terrorem incutiat, sed tranquillissimus <lb/>
             audiat, sicut decet christianos. dixisti etiam <lb/>
             timere leges imperatoris . hoc pro uera fide non timeret, <lb/>
@@ -728,9 +740,9 @@
             non inueneris spiritum paracletum ueritatis, quia et si non <lb/>
             timeres, aliis rebus conuincereris. 
 </p>
-          <p>FEL. dixit: Et apostoli timuerunt. 
+               <p>FEL. dixit: Et apostoli timuerunt. 
 </p>
-          <p>AUG. dixit: Timuerunt, ut cauerent, non ut fidem suam <lb/>
+               <p>AUG. dixit: Timuerunt, ut cauerent, non ut fidem suam <lb/>
             conprehensi edicere dubitarent. tu ante iam hinc timere debuisti, <lb n="15"/>
             ut non hic te inueniremus; iam in medio es . quare <lb/>
             times, nisi quia quod dicas non habes? nam si imperatores <lb/>
@@ -740,44 +752,42 @@
             unde heri leges flagitabas quasi fortis, hodie ueritatem fugis <lb/>
             ut timidus? 
 </p>
-          
-</div>
-
-<div n="13" subtype="chapter" type="textpart">
-<p>FEL. dixit: Non ueritatem fugio. 
+            </div>
+            <div n="13" type="chapter">
+               <p>FEL. dixit: Non ueritatem fugio. 
 </p>
-          <p>AUG. dixit: Dic ergo, si uides deum facie ad faciem secundum <lb/>
+               <p>AUG. dixit: Dic ergo, si uides deum facie ad faciem secundum <lb/>
             polliciationem tuam, quia dixisti apostolum Paulum de <lb n="25"/>
             uobis dixisse, quia tam plenam ueritatem accepturi essetis, <lb/>
             ut intellegamus uel credamus apostolum habuisse ex parte et <lb/>
             te totum. 
 </p>
-          <p>FEL. dixit: Non ueritatem fugio, sed ueritatem quaero. <lb/>
+               <p>FEL. dixit: Non ueritatem fugio, sed ueritatem quaero. <lb/>
             quod tu dicis, quia non teneo, probetur mihi per scripturas <lb n="30"/>
             deificas . hoc quaero iam. 
 </p>
-          <p>. AUG. dixit: Prius profitere te non potuisse probare
+               <p>. AUG. dixit: Prius profitere te non potuisse probare
 
 <note type="footnote">2 audiat] adeat <hi rend="italic">b</hi> 3 timere te <hi rend="italic">b</hi> (et 10) imperatortl b 15 ante] <lb/>
-            autem <hi rend="italic">PRSb</hi> iam om. <hi rend="italic">b</hi> 17 et si <hi rend="italic">PSb</hi> 20 aliquid <hi rend="italic">PltSb</hi> <lb/>
-            25 paulam apofltolum <hi rend="italic">PB</hi> 26 nobis <hi rend="italic">B</hi> </note>
-
-<note type="footnote"> XXV. Aag eett. 6 (pars t}. </note>
-
-<note type="footnote"> 52 </note><lb/>
-             
-<pb n="816"/>
+            autem <hi rend="italic">PRSb</hi> iam om. <hi rend="italic">b</hi> 17 et si <hi rend="italic">PSb</hi> 20 aliquid <hi rend="italic">PltSb</hi>
+                     <lb/>
+            25 paulam apofltolum <hi rend="italic">PB</hi> 26 nobis <hi rend="italic">B</hi>
+                  </note>
+                  <note type="footnote"> XXV. Aag eett. 6 (pars t}. </note>
+                  <note type="footnote"> 52 </note>
+                  <lb/>
+                  <pb n="816"/>
             Manichaeum apostolum Iesu Christi ; . et quantum potuero, cum <lb/>
             omnia exstirpata fuerint contraria de corde tuo per ministerium <lb/>
             meum donante domino, insero tibi quae sit scientia . <lb/>
             ueritatis, quae perducat ad deum initians a fide. 
 </p>
-          <p> FEL. dixit: Quia hoc dicis tu, ut legem meam negem et<lb n="5"/>
+               <p> FEL. dixit: Quia hoc dicis tu, ut legem meam negem et<lb n="5"/>
             alteram accipiam, meliorem dumtaxat, quod quaero ego, non <lb/>
             hoc respondeo, ut legem meam negem, antequam alteram <lb/>
             accipiam. 
 </p>
-          <p>AUG. dixit: Sed prius de uase funditur, quod aduersum <lb/>
+               <p>AUG. dixit: Sed prius de uase funditur, quod aduersum <lb/>
             habet, et sic inpletur, quod bonum est; aut si adhuc dubitas<lb n="10"/>
             fundere, defende, quo plenus es. ostendam enim tibi, quantum <lb/>
             me dominus adiuuat, quanta inmunditia et blasphemiis plena <lb/>
@@ -787,171 +797,163 @@
             cetera legantur, ubi aperte uestra sacrilegia deprehenduntur; <lb/>
             ant si permittis, legantur. 
 </p>
-          <p>FEL. dixit: Permitto, quia dixisti omnia inmunda fundi et <lb/>
+               <p>FEL. dixit: Permitto, quia dixisti omnia inmunda fundi et <lb/>
             sic bona inmitti; hoc enim dictum est sanctitatis tuae. ad <lb/>
             quod et ego dico: nullus aquam fundit, nisi alter adinpleuerit. <lb n="20"/>
-            </p>
-          <p>AUG. dixit: Hoc uide quam inconsiderate dixeris, ut mitius <lb/>
+               </p>
+               <p>AUG. dixit: Hoc uide quam inconsiderate dixeris, ut mitius <lb/>
             loquar et non dicam insane. utique de uase tibi similitudinem <lb/>
             posui; in uas plenum nemo potest aliquid mittere, nisi fundatur <lb/>
             illud, quo plenum erat. <lb n="25"/>
-            
+               </p>
+               <p>FEL. dixit: Unum dixisti et ego dixi duo. 
 </p>
-          <p>FEL. dixit: Unum dixisti et ego dixi duo. 
-</p>
-          <p>AUG. dixit: Si duo uasa dixisti, uis illum parem tuum <lb/>
+               <p>AUG. dixit: Si duo uasa dixisti, uis illum parem tuum <lb/>
             fundimus et inplemus illum, ut possis tu fundere, quod habes ? 
 </p>
-          <p>FEL. dixit: Ambo unam aquam habemus. 
+               <p>FEL. dixit: Ambo unam aquam habemus. 
 </p>
-          <p>AUG. dixit: Cum ergo ambo pleni sitis aqua uestra, quid <lb n="30"/>
+               <p>AUG. dixit: Cum ergo ambo pleni sitis aqua uestra, quid <lb n="30"/>
             inplebimus, ut doceamus uos, nisi aliquis uestrum fuderit, <lb/>
             quod habet? aut si bonum est et ideo debet teneri, ut
 
 <note type="footnote"> 2 fuerint omnia <hi rend="italic">b</hi> 3 scit <hi rend="italic">TPS</hi> 6 accipiam alteram <hi rend="italic">R</hi> 10 est <lb/>
-            <hi rend="italic">om. b</hi> 12 me <hi rend="italic">om. Pb</hi> 14 inicio <hi rend="italic">T</hi> 16 ceteris <hi rend="italic">R</hi> aperta <hi rend="italic">PR</hi> <lb/>
-            20 et <hi rend="italic">om. R</hi> adimpleuit <hi rend="italic">R</hi> impleuerit <hi rend="italic">PSb</hi> , 22 uidej uides <hi rend="italic">SPRb</hi> </note><lb/>
-             
-<pb n="817"/>
+                     <hi rend="italic">om. b</hi> 12 me <hi rend="italic">om. Pb</hi> 14 inicio <hi rend="italic">T</hi> 16 ceteris <hi rend="italic">R</hi> aperta <hi rend="italic">PR</hi>
+                     <lb/>
+            20 et <hi rend="italic">om. R</hi> adimpleuit <hi rend="italic">R</hi> impleuerit <hi rend="italic">PSb</hi> , 22 uidej uides <hi rend="italic">SPRb</hi>
+                  </note>
+                  <lb/>
+                  <pb n="817"/>
             defendatur et legatur illa epistula, uideamus, si uel cetera <lb/>
             possunt defendi, si in ipso initio defecisti; aut si dicis te in <lb/>
             illo non defecisse, proba nobis quomodo sit Manichaeus apostolus <lb/>
             Christi. 
 </p>
-          
-</div>
-
-<div n="14" subtype="chapter" type="textpart">
-<p>FEL. dixit: Christus dixit spiritum sanctum missurum <lb n="5"/>
+            </div>
+            <div n="14" type="chapter">
+               <p>FEL. dixit: Christus dixit spiritum sanctum missurum <lb n="5"/>
             se, qui in omnem ueritatem inducat. 
 </p>
-          <p>AUG. dixit: Si habes illum, adtende, quod te iamdudum <lb/>
+               <p>AUG. dixit: Si habes illum, adtende, quod te iamdudum <lb/>
             interrogaui. dixisti enim ad ipsius doctrinam pertinere etiam <lb/>
             ista mundana cognoscere . dic mihi: quot sunt stellae, si <lb/>
             introductus es in istam omnem ueritatem? <lb n="10"/>
-            
-</p>
-          <p>FEL. dixit: Et ego dico, quia, si paracletus per apostolos <lb/>
+               </p>
+               <p>FEL. dixit: Et ego dico, quia, si paracletus per apostolos <lb/>
             locutus est, et per Paulum; et ego peto sanctitatem tuam, <lb/>
             ut illa mihi ostendas, quae iam dixi. 
 </p>
-          <p>AUG. dixit: Confitere te non potuisse ostendere, quod ego <lb/>
+               <p>AUG. dixit: Confitere te non potuisse ostendere, quod ego <lb/>
             interrogaui, et ostendam secundum scripturas, quod pertineat <lb n="15"/>
             ad fidem christianam. 
 </p>
-          <p>FEL. dixit: Et ego, si ad.tuleris mihi scripturas Manichaei, <lb/>
+               <p>FEL. dixit: Et ego, si ad.tuleris mihi scripturas Manichaei, <lb/>
             quinque auctores, quos tibi dixi, quicquid me interrogaueris, <lb/>
             probo tibi. 
 </p>
-          <p>AUG. dixit: De ipsis quinque auctoribus est ista epistula, <lb n="20"/>
+               <p>AUG. dixit: De ipsis quinque auctoribus est ista epistula, <lb n="20"/>
             cuius aperuimus principium et inuenimus ibi scriptum: Manichaeus <lb/>
             apostolus Christi Iesu . et uideo, quia ipsum <lb/>
             non mihi principium exponis, quia non probas, quomodo sit <lb/>
             Manichaeus apostolus Iesu Christi. 
 </p>
-          <p>FEL. dixit: Si in ista non probo, in secundo probo. <lb n="25"/>
-            
+               <p>FEL. dixit: Si in ista non probo, in secundo probo. <lb n="25"/>
+               </p>
+               <p>AUG. dixit: In quo secundo? 
 </p>
-          <p>AUG. dixit: In quo secundo? 
+               <p>FEL. dixit: In Thesauro. 
 </p>
-          <p>FEL. dixit: In Thesauro. 
-</p>
-          <p rend="script">AUG. dixit: Thesaurum istum, quem ideo tali nomine appellatis, <lb/>
+               <p rend="script">AUG. dixit: Thesaurum istum, quem ideo tali nomine appellatis, <lb/>
             ut miseros seducatis, quis scripsit ? Manichaeus . nolo <lb/>
             mihi ab illo probes: quia ipse Manichaeus mentitur dicendo <lb n="30"/>
             se esse, quod non est.
 
-<note rend="script" type="footnote"> 4 IHV XRI PB 5 raisuram P 7 ad id quod b 10 omnS istft <hi rend="italic">b</hi> <lb/>
+<note rend="script" type="footnote"> 4 IHV XRI PB 5 raisuram P 7 ad id quod b 10 omnS istft <hi rend="italic">b</hi>
+                     <lb/>
             12 loamitus P 16 quid <hi rend="italic">TS</hi> 17 si mihi b 18 tibi <hi rend="italic">om. JB</hi> 21 acriptum <lb/>
             ibi <hi rend="italic">B</hi> manicheus (sic ubique) <hi rend="italic">T</hi> 22 iesu christi <hi rend="italic">b</hi> 23 principium <lb/>
             non mihi <hi rend="italic">PSBb</hi> probat <hi rend="italic">b</hi> 29 scripsit? felix dixit: Manichfus. <lb/>
-            Augnstinus dixit <hi rend="italic">sqq. b</hi> 80 ipse] ille <hi rend="italic">JR om. b</hi> </note>
-
-<note type="footnote"> 52* </note>
-<pb n="818"/>
-            
+            Augnstinus dixit <hi rend="italic">sqq. b</hi> 80 ipse] ille <hi rend="italic">JR om. b</hi>
+                  </note>
+                  <note type="footnote"> 52* </note>
+                  <pb n="818"/>
+               </p>
+               <p>FEL. dixit: Tu mihi proba per alterum. 
 </p>
-          <p>FEL. dixit: Tu mihi proba per alterum. 
+               <p>AUG. dixit: Quid uis tibi probem? 
 </p>
-          <p>AUG. dixit: Quid uis tibi probem? 
+               <p>FEL. dixit: Quia mentitur Manichaeus. 
 </p>
-          <p>FEL. dixit: Quia mentitur Manichaeus. 
-</p>
-          <p>AUG. dixit: Quia tu non potes probare uerum dicere Manichaeum, <lb/>
+               <p>AUG. dixit: Quia tu non potes probare uerum dicere Manichaeum, <lb/>
             oportet, ut ego probem mentitum Manichaeum esse? <lb n="5"/>
-            
-</p>
-          <p>FEL. dixit: Quare non potui probare? numquid prolatae <lb/>
+               </p>
+               <p>FEL. dixit: Quare non potui probare? numquid prolatae <lb/>
             sunt scripturae, quas ego petiui, et non probaui? 
 </p>
-          <p>AUG. dixit: Sed scripturas Manichaei petis, quibus fidem <lb/>
+               <p>AUG. dixit: Sed scripturas Manichaei petis, quibus fidem <lb/>
             non habemus; aliunde proba. ego autem de ipsa scriptura <lb/>
             Manichaei tibi probo mentitum esse Manichaeum et blasphemasse<lb n="10"/>
             Manichaeum. 
 </p>
-          <p>FEL. dixit: Afferantur libri. 
+               <p>FEL. dixit: Afferantur libri. 
 </p>
-          <p>AUG. dixit: Praesens est epistula Manichaei, quam dicitis <lb/>
+               <p>AUG. dixit: Praesens est epistula Manichaei, quam dicitis <lb/>
             Fundamenti. initium nullum est in aedificio, nisi fundamentum <lb/>
             . si eum ostendero in ipso fundamento ruinam fecisse,<lb n="15"/>
             ceteram eius constructionem ut quid quaerimus? 
 </p>
-          
-</div>
-
-<div n="15" subtype="chapter" type="textpart">
-<p>FEL. dixit: Hoc dicis in ipsam ostendens ruinam esse . <lb/>
+            </div>
+            <div n="15" type="chapter">
+               <p>FEL. dixit: Hoc dicis in ipsam ostendens ruinam esse . <lb/>
             et ego dico, da arbitros, quantos et tu habes, et tibi probo, <lb/>
             quia non mentitur. 
 </p>
-          <p>AUG. dixit: Absit a nobis et a genere humano, ut quantos <lb n="20"/>
+               <p>AUG. dixit: Absit a nobis et a genere humano, ut quantos <lb n="20"/>
             hic uides, tantos uideas Manichaeos. 
 </p>
-          <p>FEL. dixit : Da, dixi, quae a te petiui. 
+               <p>FEL. dixit : Da, dixi, quae a te petiui. 
 </p>
-          <p>AUG. dixit: Quos uis ergo, ut dem tibi ? 
+               <p>AUG. dixit: Quos uis ergo, ut dem tibi ? 
 </p>
-          <p>FEL. dixit: Quos tu uolueris. 
+               <p>FEL. dixit: Quos tu uolueris. 
 </p>
-          <p>AUG. dixit: Ego istos do; si habes meliores, pete. <lb n="25"/>
-            
+               <p>AUG. dixit: Ego istos do; si habes meliores, pete. <lb n="25"/>
+               </p>
+               <p>FEL. dixit: Quomodo istos das? 
 </p>
-          <p>FEL. dixit: Quomodo istos das? 
+               <p>AUG. dixit: Praesentes, qui nos audiunt. 
 </p>
-          <p>AUG. dixit: Praesentes, qui nos audiunt. 
+               <p>FEL. dixit: Isti mihi non fauent. 
 </p>
-          <p>FEL. dixit: Isti mihi non fauent. 
-</p>
-          <p>AUG. dixit: Ergo tu tales quaeris, qui tibi faueant, non <lb/>
+               <p>AUG. dixit: Ergo tu tales quaeris, qui tibi faueant, non <lb/>
             qui ueritati ?
 
 <note type="footnote"> 1 proba michi <hi rend="italic">R</hi> 2 quid uis tibi probem? quia mentitur manicheus <lb/>
-            ? felix dixit: quia mentitur manicheus P 5 esae manicheum <hi rend="italic">PSRb</hi> <lb/>
-            6 nunquid <hi rend="italic">TSPR</hi> 7 ego <hi rend="italic">om. b</hi> 10 probo <hi rend="italic">om. R</hi> 13 austinue <hi rend="italic">P</hi> <lb/>
-            14 in adificio nullum est <hi rend="italic">PSRb</hi> 15 cum] enim <hi rend="italic">Rb</hi> 16 et c$teram <hi rend="italic">R</hi> <lb/>
-            17 ipsa <hi rend="italic">R</hi> ostende in ipsa ruinam esse <hi rend="italic">b</hi> 18 et tu] tu <hi rend="italic">P OM. b</hi> </note>
-
-<note type="footnote"> tR </note><lb n="30"/>
-            
-<pb n="819"/>
-            
-</p>
-          <p>FEL dixit: Qui me audiant et non tantum me, sed et ipsam <lb/>
+            ? felix dixit: quia mentitur manicheus P 5 esae manicheum <hi rend="italic">PSRb</hi>
+                     <lb/>
+            6 nunquid <hi rend="italic">TSPR</hi> 7 ego <hi rend="italic">om. b</hi> 10 probo <hi rend="italic">om. R</hi> 13 austinue <hi rend="italic">P</hi>
+                     <lb/>
+            14 in adificio nullum est <hi rend="italic">PSRb</hi> 15 cum] enim <hi rend="italic">Rb</hi> 16 et c$teram <hi rend="italic">R</hi>
+                     <lb/>
+            17 ipsa <hi rend="italic">R</hi> ostende in ipsa ruinam esse <hi rend="italic">b</hi> 18 et tu] tu <hi rend="italic">P OM. b</hi>
+                  </note>
+                  <note type="footnote"> tR </note>
+                  <lb n="30"/>
+                  <pb n="819"/>
+               </p>
+               <p>FEL dixit: Qui me audiant et non tantum me, sed et ipsam <lb/>
             scripturam, ut probetur, an uerum dicit, an mentitur. 
 </p>
-          <p>AUG. dixit: Uides ergo, quia audiunt. legamus cetera, quia <lb/>
+               <p>AUG. dixit: Uides ergo, quia audiunt. legamus cetera, quia <lb/>
             tu istam epistulam Manichaei esse confessus es. 
 </p>
-          <p>FEL. dixit: Non nego. <lb n="5"/>
-            
+               <p>FEL. dixit: Non nego. <lb n="5"/>
+               </p>
+               <p>AUG. dixit: Ergo legatur. 
 </p>
-          <p>AUG. dixit: Ergo legatur. 
-</p>
-          
-</div>
-
-<div n="16" subtype="chapter" type="textpart">
-<p>FEL. dixit: Arbitros non habeo. et adiecit: legatur <lb/>
+            </div>
+            <div n="16" type="chapter">
+               <p>FEL. dixit: Arbitros non habeo. et adiecit: legatur <lb/>
             caput ipsius. et cum legeretur et uentum esset ad locum, <lb/>
             ubi scriptum habet eadem epistula: pax uobis inuisibilis <lb/>
             et ueritatis notitia sit cum fratribus suis et carissimis, <lb n="10"/>
@@ -962,7 +964,7 @@
             ut ipsis oculis uideatis uestras animas, Felix <lb n="15"/>
             dixit: Da scripturam, quae ista redarguat. 
 </p>
-          <p>.AUG. dixit: Adhuc nihil mali audiuimus, nisi quod ausus <lb/>
+               <p>.AUG. dixit: Adhuc nihil mali audiuimus, nisi quod ausus <lb/>
             est Manichaeus apostolum se Christi nominare. nam ea, quae <lb/>
             dixit, adhuc ad tectorium fallaciae pertinent et ad ouinam <lb/>
             pellem, quibus eis prius dicit uerba bona, ut possit introducere <lb n="20"/>
@@ -971,74 +973,76 @@
             erunt et seductoria; si autem aliquid boni in posterioribus <lb/>
             et ueri dixerit, necessitate conprehendemus. permitte ergo <lb/>
             legantur sequentia. <lb n="25"/>
-            
-</p>
-          <p>FEL. dixit: Si ergo adseris, quia in primo bona ponuntur <lb/>
+               </p>
+               <p>FEL. dixit: Si ergo adseris, quia in primo bona ponuntur <lb/>
             et postea mala inmittuntur, quomodo ego tibi possum credere, <lb/>
             cum mihi primo bona dixeris? 
 </p>
-          <p>AUG. dixit: Ego adhuc ista nec bona dixi nec mala. nihil <lb/>
+               <p>AUG. dixit: Ego adhuc ista nec bona dixi nec mala. nihil <lb/>
             mali adhuc audiuimus, dixi; non dixi: iam aliquid boni
 
-<note type="footnote"> 1 adiuuant 22 et <hi rend="italic">om. TSPR</hi> 8 illius <hi rend="italic">PSRb</hi> 9 nbi <hi rend="italic">om. R</hi> <lb/>
-            11 atqae] et b 13 nos <hi rend="italic">R</hi> 14 sancti gps <hi rend="italic">b</hi> uestri pectoris <hi rend="italic">Sb</hi> <lb/>
-            15 animas uestraa <hi rend="italic">b</hi> 18 xpi ae <hi rend="italic">SR</hi> se apostolum xpi <hi rend="italic">b</hi> ea <hi rend="italic">om. b</hi> <lb/>
-            quQ adhuc <hi rend="italic">b</hi> 21 per haec nerba introducere <hi rend="italic">PSb</hi> 23 boni et ueri <hi rend="italic">b</hi> <lb/>
-            24 reprehendimar B 27 ego] ergo <hi rend="italic">STPb</hi> tibi credere <hi rend="italic">b</hi> </note><lb n="30"/>
-             
-<pb n="820"/>
+<note type="footnote"> 1 adiuuant 22 et <hi rend="italic">om. TSPR</hi> 8 illius <hi rend="italic">PSRb</hi> 9 nbi <hi rend="italic">om. R</hi>
+                     <lb/>
+            11 atqae] et b 13 nos <hi rend="italic">R</hi> 14 sancti gps <hi rend="italic">b</hi> uestri pectoris <hi rend="italic">Sb</hi>
+                     <lb/>
+            15 animas uestraa <hi rend="italic">b</hi> 18 xpi ae <hi rend="italic">SR</hi> se apostolum xpi <hi rend="italic">b</hi> ea <hi rend="italic">om. b</hi>
+                     <lb/>
+            quQ adhuc <hi rend="italic">b</hi> 21 per haec nerba introducere <hi rend="italic">PSb</hi> 23 boni et ueri <hi rend="italic">b</hi>
+                     <lb/>
+            24 reprehendimar B 27 ego] ergo <hi rend="italic">STPb</hi> tibi credere <hi rend="italic">b</hi>
+                  </note>
+                  <lb n="30"/>
+                  <pb n="820"/>
             audiuimus. malum enim illud solum dixi, quod ausus est dicere <lb/>
             se apostolum Christi. uerba uero, quae dixit in consequentibus, <lb/>
             tunc erunt mala, si mali aliquid introduxerint; tunc <lb/>
             erunt bona, si boni aliquid introduxerint. permitte ergo, ut <lb/>
             sequentia legantur . quare times? <lb n="5"/>
-            
+               </p>
+               <p>FEL. dixit: Non timeo. 
 </p>
-          <p>FEL. dixit: Non timeo. 
+               <p>AUG. dixit: Permitte ergo, ut legantur. 
 </p>
-          <p>AUG. dixit: Permitte ergo, ut legantur. 
+               <p>FEL. dixit: Legantur. 
 </p>
-          <p>FEL. dixit: Legantur. 
-</p>
-          
-</div>
-
-<div n="17" subtype="chapter" type="textpart">
-<p>Et cum legeretur et uentum esset ad locum, ubi <lb/>
+            </div>
+            <div n="17" type="chapter">
+               <p>Et cum legeretur et uentum esset ad locum, ubi <lb/>
             scriptum habet: ita autem fundata sunt eiusdem splendidissima <lb n="10"/>
             regna super lucidam et beatam terram, ut <lb/>
             a nullo umquam aut moueri aut concuti possint, <lb/>
             Augustinus dixit: Terram istam quam dicit, unde habebat? <lb/>
             fecit eam, an genuit eam, an aequalis et coaeterna illi erat? <lb/>
             istam dico terram, lucidam et beatam quam dicit. <lb n="15"/>
-            
-</p>
-          <p>FEL. dixit: Quomodo scriptum est: in principio fecit <lb/>
+               </p>
+               <p>FEL. dixit: Quomodo scriptum est: in principio fecit <lb/>
             deus caelum et terram et terra erat inuisibilis et <lb/>
             coinquinabilis et incomposita. ego ita intellego: in principio <lb/>
             fecit deus caelum et terram et terra erat, quasi duae <lb/>
             terrae mihi uidentur esse, secundum quod Manichaeus dicit <lb n="20"/>
             duo regna. 
 </p>
-          <p>AUG. dixit: Quia scripturam commemorasti nostram, quam <lb/>
+               <p>AUG. dixit: Quia scripturam commemorasti nostram, quam <lb/>
             soletis blasphemare, ad me pertinet exponere illam et ostendere <lb/>
             tibi sine blasphemia esse illud scriptum et cum ueritate <lb/>
             et non secundum Manichaeum, ut deinde tu uel in secundis <lb n="25"/>
             mihi respondeas, quod interrogaui. 
 </p>
-          <p>FEL. dixit: Respondeo. 
+               <p>FEL. dixit: Respondeo. 
 </p>
-          <p>AUG. dixit: Quod scriptum est: in principio fecit deus <lb/>
+               <p>AUG. dixit: Quod scriptum est: in principio fecit deus <lb/>
             caelum et terram, breuiter conplexa est scriptum, quid <lb/>
             fecerit deus. deinde quia nondum adparebat haec terra, quam <lb n="30"/>
             fecerat, antequam eam distingueret et ornaret, qualem terram <lb/>
             "fecerat deus, secuta scriptura exposuit, qualis terra erat, de
 
-<note type="footnote"> 1 ae dicere <hi rend="italic">b</hi> 3 mati] boni R 4 aliquid boni P 11 snpra <hi rend="italic">SPb</hi> <lb/>
+<note type="footnote"> 1 ae dicere <hi rend="italic">b</hi> 3 mati] boni R 4 aliquid boni P 11 snpra <hi rend="italic">SPb</hi>
+                     <lb/>
             16 quomodo <hi rend="italic">(in marg</hi>. al quod) b 18 ita] ista <hi rend="italic">TS</hi> ista intellego<lb/>
-             ita <hi rend="italic">M</hi> 20 dixit <hi rend="italic">b</hi> SJ4 iUud <hi rend="italic">om.. B</hi> 30 nondum] non solum <hi rend="italic">M</hi> </note><lb/>
-             
-<pb n="821"/>
+             ita <hi rend="italic">M</hi> 20 dixit <hi rend="italic">b</hi> SJ4 iUud <hi rend="italic">om.. B</hi> 30 nondum] non solum <hi rend="italic">M</hi>
+                  </note>
+                  <lb/>
+                  <pb n="821"/>
             qua dixerat: in principio fecit deus caelum et terram; <lb/>
             tamquam, cum audissemus: in principio fecit deus caelum <lb/>
             et terram, quaereremus, qualem terram, subiecit et ait: <lb/>
@@ -1051,9 +1055,9 @@
             unum de tribus, nisi molestum est, sine tergiuersatione <lb n="10"/>
             responde. 
 </p>
-          <p>FEL.. dixit : Ipsa se scriptura interpretatur. 
+               <p>FEL.. dixit : Ipsa se scriptura interpretatur. 
 </p>
-          <p>AUG. dixit: Si ergo nosti esse hic aliquem locum, ubi hoc <lb/>
+               <p>AUG. dixit: Si ergo nosti esse hic aliquem locum, ubi hoc <lb/>
             dicat scriptura, quia illam terram uel genuit deus uel fecit <lb/>
             uel coaeterna illi erat, aperi ad locum, quem nosti, et lege <lb n="15"/>
             mihi.- <lb/>
@@ -1066,169 +1070,158 @@
             genuerit, an coaeterna illi fuerit, qui legisti in nescio quo <lb/>
             libro, ubi esse hoc scriptum dicis. 
 </p>
-          <p>FEL. dixit: Quia modo sanctitas tua interpretata est scripturam <lb n="25"/>
+               <p>FEL. dixit: Quia modo sanctitas tua interpretata est scripturam <lb n="25"/>
             tuam, quomodo uoluisti et acceptaui, et tu sic mihi <lb/>
             . accepta, quicquid dixero. 
 </p>
-          <p>AUG. dixit: Interim quod interrogaui, si nihil me contra <lb/>
+               <p>AUG. dixit: Interim quod interrogaui, si nihil me contra <lb/>
             mouerit, accepto; si autem aliquid mouerit, motum meum <lb/>
             indico tibi, ut ad ipsum respondeas.
 
 <note type="footnote"> 1 Gen. 1, 1 sq. </note>
-
-<note type="footnote"> 1 fecit 41 cęlum P 8 quaereremus-terram <hi rend="italic">om. i2</hi> 6 fuit <hi rend="italic">b</hi> <lb/>
-            12 M <hi rend="italic">om. R</hi> 18 aliqufi eMe <hi rend="italic">b</hi> ubi michi hoc dicat ista <hi rend="italic">PRb</hi> <lb/>
-            17 in ista] ista <hi rend="italic">R</hi> 18 ergol inquit <hi rend="italic">b</hi> 20 si (in <hi rend="italic">marg</hi>. at nisi) <hi rend="italic">b</hi> <lb/>
-            sic nõ <hi rend="italic">b</hi> 5&gt;8 erat <hi rend="italic">b</hi> qui] quod <hi rend="italic">B</hi> in uestro quo <hi rend="italic">b</hi> 24 ibi <hi rend="italic">b</hi> <lb/>
+                  <note type="footnote"> 1 fecit 41 cęlum P 8 quaereremus-terram <hi rend="italic">om. i2</hi> 6 fuit <hi rend="italic">b</hi>
+                     <lb/>
+            12 M <hi rend="italic">om. R</hi> 18 aliqufi eMe <hi rend="italic">b</hi> ubi michi hoc dicat ista <hi rend="italic">PRb</hi>
+                     <lb/>
+            17 in ista] ista <hi rend="italic">R</hi> 18 ergol inquit <hi rend="italic">b</hi> 20 si (in <hi rend="italic">marg</hi>. at nisi) <hi rend="italic">b</hi>
+                     <lb/>
+            sic nõ <hi rend="italic">b</hi> 5&gt;8 erat <hi rend="italic">b</hi> qui] quod <hi rend="italic">B</hi> in uestro quo <hi rend="italic">b</hi> 24 ibi <hi rend="italic">b</hi>
+                     <lb/>
             . i <lb/>
-            25 modo <hi rend="italic">om. R</hi> 26 mihi sic <hi rend="italic">b</hi> 28 interrogan <hi rend="italic">R</hi> </note><lb n="30"/>
-             
-<pb n="822"/>
-            
+            25 modo <hi rend="italic">om. R</hi> 26 mihi sic <hi rend="italic">b</hi> 28 interrogan <hi rend="italic">R</hi>
+                  </note>
+                  <lb n="30"/>
+                  <pb n="822"/>
+               </p>
+               <p>FEL. dixit: Ego non respondi ad tua dicta.-
 </p>
-          <p>FEL. dixit: Ego non respondi ad tua dicta.-
-</p>
-          <p>AUG. dixit: Quia prius est, ut mihi ad id, quod interrogaui, <lb/>
+               <p>AUG. dixit: Quia prius est, ut mihi ad id, quod interrogaui, <lb/>
             respondeas, tamen feci etiam, ut tibi prior respondeam . forte <lb/>
             non te mouit; ideo non respondisti . forte et me non mouebit, <lb/>
             cum responderis. responde ergo ad quod interrogaui. <lb n="5"/>
-            
-</p>
-          
-</div>
-
-<div n="18" subtype="chapter" type="textpart">
-<p>FEL. dixit: Respondeo. et adiecit: dixisti ergo de terra <lb/>
+               </p>
+            </div>
+            <div n="18" type="chapter">
+               <p>FEL. dixit: Respondeo. et adiecit: dixisti ergo de terra <lb/>
             illa, in qua deus habetur, an facta est ab illo, an generauit <lb/>
             illam, an coaeterna illi est. et ego dico, quia, quomodo <lb/>
             deus aeternus est et factura apud illum nulla est, totum <lb/>
             aeternum est.. <lb n="10"/>
-            
+               </p>
+               <p>AUG. dixit: Non illam ergo genuit neque fecit? 
 </p>
-          <p>AUG. dixit: Non illam ergo genuit neque fecit? 
+               <p>FEL. dixit: Non, sed est illi coaeterna. 
 </p>
-          <p>FEL. dixit: Non, sed est illi coaeterna. 
-</p>
-          <p>AUG. dixit: Si autem genuisset illam, non illi esset coaeterna. <lb/>
-            </p>
-          <p>FEL. dixit: Quod nascitur, finem habet; quod innatum est,<lb n="15"/>
+               <p>AUG. dixit: Si autem genuisset illam, non illi esset coaeterna. <lb/>
+               </p>
+               <p>FEL. dixit: Quod nascitur, finem habet; quod innatum est,<lb n="15"/>
             non habet finem. 
 </p>
-          <p>AUG. dixit: Quibus ergo erat ille pater aut cuius erat pater, , <lb/>
+               <p>AUG. dixit: Quibus ergo erat ille pater aut cuius erat pater, , <lb/>
             quem modo patrem nominauit? si enim nihil genuerat, pater <lb/>
             esse non poterat. 
 </p>
-          <p>FEL. dixit: Sed sunt alia, quae generauit. <lb n="20"/>
-            
-</p>
-          <p>AUG. dixit: Illa ergo, quae generauit, non sunt illi coaeterna, <lb/>
+               <p>FEL. dixit: Sed sunt alia, quae generauit. <lb n="20"/>
+               </p>
+               <p>AUG. dixit: Illa ergo, quae generauit, non sunt illi coaeterna, <lb/>
             an et ipsa coaeterna sunt? 
 </p>
-          <p>FEL. dixit: Coaeterna sunt illi quicquid deus generauit. 
+               <p>FEL. dixit: Coaeterna sunt illi quicquid deus generauit. 
 </p>
-          <p>AUG. dixit: Ergo errasti, quod superius dixisti: omne quod <lb/>
+               <p>AUG. dixit: Ergo errasti, quod superius dixisti: omne quod <lb/>
             nascitur, finem habet. <lb n="25"/>
-            
-</p>
-          <p>FEL. dixit: Interim, quia secundum generationem carnis <lb/>
+               </p>
+               <p>FEL. dixit: Interim, quia secundum generationem carnis <lb/>
             locutus sum, erraui. 
 </p>
-          <p>AUG. dixit: Modestissime confessus errorem merearis intellegere <lb/>
+               <p>AUG. dixit: Modestissime confessus errorem merearis intellegere <lb/>
             ueritatem. 
 </p>
-          <p>FEL. dixit: Faciat deus. <lb n="30"/>
-            
-</p>
-          <p>AUG. dixit: Adtende ergo iam, ut incipias cognoscere
+               <p>FEL. dixit: Faciat deus. <lb n="30"/>
+               </p>
+               <p>AUG. dixit: Adtende ergo iam, ut incipias cognoscere
 
 <note type="footnote"> 2 ad interrogata <hi rend="italic">b</hi> 3 tamen] tantam 22 mea tum feci etia b, <lb/>
             prior tibi <hi rend="italic">PRb</hi> 7 habitat <hi rend="italic">b</hi> 8 est illi <hi rend="italic">b</hi> 11 ergo <hi rend="italic">om. M</hi> 16 finem <lb/>
             non habet <hi rend="italic">Sb</hi> 18 quem] quoniam <hi rend="italic">b</hi> 21 ergo quae <hi rend="italic">om. 22</hi> 22 stlt <lb/>
-            coaterna <hi rend="italic">b</hi> 25 nascitur <hi rend="italic">om. R</hi> 27 loquutus P 80 faciat inquit <hi rend="italic">b</hi> </note><lb/>
-             
-<pb n="823"/>
+            coaterna <hi rend="italic">b</hi> 25 nascitur <hi rend="italic">om. R</hi> 27 loquutus P 80 faciat inquit <hi rend="italic">b</hi>
+                  </note>
+                  <lb/>
+                  <pb n="823"/>
             errorem scripturae huius. si quae genuit deus, coaeterna non sunt <lb/>
             illi, melior est terra illa, quam non generauit deus, ubi habitant <lb/>
             omnia, quae generauit deus; quam terram dicis ab eo <lb/>
             non generatam. 
 </p>
-          <p>FEL. dixit: Coaequantur sibi omnia, et quae generauit et <lb n="5"/>
+               <p>FEL. dixit: Coaequantur sibi omnia, et quae generauit et <lb n="5"/>
             quae non generauit, id est terra illa, ubi commorabatur. 
 </p>
-          <p>AUG. dixit: Quid? ipse qui generauit, aequalis est illis <lb/>
+               <p>AUG. dixit: Quid? ipse qui generauit, aequalis est illis <lb/>
             omnibus aut maior est illis ? 
 </p>
-          <p>FEL dixit: Et qui generauit et quos generauit et ubi positi <lb/>
+               <p>FEL dixit: Et qui generauit et quos generauit et ubi positi <lb/>
             sunt, omnia aequalia sunt. <lb n="10"/>
-            
+               </p>
+               <p>AUG. dixit: Unius ergo substantiae sunt? 
 </p>
-          <p>AUG. dixit: Unius ergo substantiae sunt? 
+               <p>FEL. dixit: Unius. 
 </p>
-          <p>FEL. dixit: Unius. 
-</p>
-          <p>AUG. dixit: Hoc quod est deus pater, hoc sunt filii ipsius, <lb/>
+               <p>AUG. dixit: Hoc quod est deus pater, hoc sunt filii ipsius, <lb/>
             hoc et terra illa? 
 </p>
-          <p>FEL dixit: Hoc unum sunt omnes. <lb n="15"/>
-            
+               <p>FEL dixit: Hoc unum sunt omnes. <lb n="15"/>
+               </p>
+               <p>AUG. dixit: Huius ergo terrae non est pater, sed habitator ? 
 </p>
-          <p>AUG. dixit: Huius ergo terrae non est pater, sed habitator ? 
+               <p>FEL. dixit: Etiam. 
 </p>
-          <p>FEL. dixit: Etiam. 
-</p>
-          <p>AUG. dixit: Si nec genuit illam nec fecit illam, quomodo <lb/>
+               <p>AUG. dixit: Si nec genuit illam nec fecit illam, quomodo <lb/>
             ad eum pertineat nisi sola uicinitate, non uideo, quomodo si <lb/>
             habeat aliquis uicinum bonum; et duae iam erunt res ambae <lb n="20"/>
             ingenitae: terra et pater. 
 </p>
-          <p>.FEL. dixit: Immo tres sunt: pater ingenitus, terra ingenita <lb/>
+               <p>.FEL. dixit: Immo tres sunt: pater ingenitus, terra ingenita <lb/>
             et aer ingenitus.\'. 
 </p>
-          <p>AUG. dixit: Hoc totum una substantia est? 
+               <p>AUG. dixit: Hoc totum una substantia est? 
 </p>
-          <p>FEL. dixit: Una. <lb n="25"/>
-            
-</p>
-          <p>AUG. dixit: Et ita fundata, ut a nullo umquam moueri aut <lb/>
+               <p>FEL. dixit: Una. <lb n="25"/>
+               </p>
+               <p>AUG. dixit: Et ita fundata, ut a nullo umquam moueri aut <lb/>
             concuti possit? 
 </p>
-          <p>FEL. dixit: Motio et concussio habet distantiam. 
+               <p>FEL. dixit: Motio et concussio habet distantiam. 
 </p>
-          <p>AUG. dixit: Habeat; sed tamen talia fuerunt, ut a nullo <lb/>
+               <p>AUG. dixit: Habeat; sed tamen talia fuerunt, ut a nullo <lb/>
             umquam moueri aut concuti possent ? <lb n="30"/>
-            
+               </p>
+               <p>FEL. dixit: Est distantia inter moueri et concuti. 
 </p>
-          <p>FEL. dixit: Est distantia inter moueri et concuti. 
+               <p>AUG. dixit: Non inde te interrogo. 
 </p>
-          <p>AUG. dixit: Non inde te interrogo. 
-</p>
-          <p>FEL. dixit: Sed inde me uis tenere.
+               <p>FEL. dixit: Sed inde me uis tenere.
 
 <note type="footnote"> 9 pOlita B 14 illa terra P 16 inhabitator <hi rend="italic">b</hi> 18 ai] eic <hi rend="italic">M</hi> illam<lb/>
              (priw) <hi rend="italic">om. b</hi> 20 iam GWI. <hi rend="italic">R</hi> 28 eommotio B </note>
-<pb n="824"/>
-            
-</p>
-          <p>AUG. dixit: Quomodo uis, accipe "moueri* non poterat <lb/>
+                  <pb n="824"/>
+               </p>
+               <p>AUG. dixit: Quomodo uis, accipe "moueri* non poterat <lb/>
             moueri ? 
 </p>
-          <p>FEL dixit: Non dico, quia non poterat moueri, sed motio <lb/>
+               <p>FEL dixit: Non dico, quia non poterat moueri, sed motio <lb/>
             distantia est. 
 </p>
-          <p>AUG. dixit: Sed ita dixi: nec moueri nec concuti; non dixi:<lb n="5"/>
+               <p>AUG. dixit: Sed ita dixi: nec moueri nec concuti; non dixi:<lb n="5"/>
             moueri quidem potest, sed concuti non potest, aut: concuti <lb/>
             quidem potest, sed moueri non potest. sed ambas res dixi: <lb/>
             non posse nec moueri nec concuti. 
 </p>
-          <p>FEL. dixit: De ambabus rebus distantia est inter moueri <lb/>
+               <p>FEL. dixit: De ambabus rebus distantia est inter moueri <lb/>
             et concuti. <lb n="10"/>
-            
-</p>
-          
-</div>
-
-<div n="19" subtype="chapter" type="textpart">
-<p>AU6. dixit: Legamus ergo sequentia, uideamus, si deus <lb/>
+               </p>
+            </div>
+            <div n="19" type="chapter">
+               <p>AU6. dixit: Legamus ergo sequentia, uideamus, si deus <lb/>
             iste, qui fundata habebat regna super lucidam et beatam <lb/>
             terram, quae a nullo umquam moueri et concuti possunt, neminem <lb/>
             timuit, sicut oportebat, ut neminem timeret, cuius regna <lb/>
@@ -1237,11 +1230,11 @@
             illius ac sanctae terrae. et cum legeret, interrogauit: <lb/>
             quod latus? dextrum aut sinistrum? 
 </p>
-          <p>FEL. dixit: Hanc tibi ego non possum interpretari scripturam <lb/>
+               <p>FEL. dixit: Hanc tibi ego non possum interpretari scripturam <lb/>
             et exponere, quod ibi non est; ipsa sibi interpres est. <lb n="20"/>
             ego non possum dicere, ne forte incurram in peccatum. 
 </p>
-          <p>AUG. dixit: Legatur ergo, quod sequitur. et cum legeret <lb/>
+               <p>AUG. dixit: Legatur ergo, quod sequitur. et cum legeret <lb/>
             et uentum esset ad locum,. ubi habet: lucis uero beatissimae <lb/>
             pater sciens labem magnam ac uastitatem, quae <lb/>
             ex tenebris surgeret, aduersus sua sancta inpendere<lb n="25"/>
@@ -1253,18 +1246,21 @@
             gens tenebrarum, quam uidetur deus timuisse, ne magna labes <lb/>
             et uastitas ex tenebris in regna eius inruerent, nocere poterat
 
-<note type="footnote"> 1 accipe <hi rend="italic">R</hi> 6 potest <hi rend="italic">alt. om. b</hi> 7 <hi rend="italic">sed pr. om. b</hi> 16 unam uero <hi rend="italic">PSRb</hi> <lb/>
+<note type="footnote"> 1 accipe <hi rend="italic">R</hi> 6 potest <hi rend="italic">alt. om. b</hi> 7 <hi rend="italic">sed pr. om. b</hi> 16 unam uero <hi rend="italic">PSRb</hi>
+                     <lb/>
             M autj an <hi rend="italic">b</hi> 22 legatur hoc ergo <hi rend="italic">PSR</hi> ergo hoc <hi rend="italic">b</hi> 27 numen] <lb/>
-            unura <hi rend="italic">R</hi> 28 styrpem <hi rend="italic">T</hi> 29 in occlis ppararetur <hi rend="italic">P</hi> quoniam <hi rend="italic">SR</hi> <lb/>
-            82 irrueret <hi rend="italic">PR</hi> potest <hi rend="italic">R</hi> </note><lb/>
-             
-<pb n="825"/>
+            unura <hi rend="italic">R</hi> 28 styrpem <hi rend="italic">T</hi> 29 in occlis ppararetur <hi rend="italic">P</hi> quoniam <hi rend="italic">SR</hi>
+                     <lb/>
+            82 irrueret <hi rend="italic">PR</hi> potest <hi rend="italic">R</hi>
+                  </note>
+                  <lb/>
+                  <pb n="825"/>
             deo; maxime cuius regna superius dixit ita fundata, ut a <lb/>
             nullo umquam moueri aut concuti possent. quid ergo illi <lb/>
             factura erat gens ista? poterat ei nocere, an non poterat? <lb/>
             responde unum de duobus. 
 </p>
-          <p>FEL. dixit: Et ego respondeo: si nihil contra deum est, <lb n="5"/>
+               <p>FEL. dixit: Et ego respondeo: si nihil contra deum est, <lb n="5"/>
             secundum quod dixit scriptura Manichaei, quia est alterum <lb/>
             regnum, pro qua causa Christus missus est, ut nos liberaret <lb/>
             de laqueo mortis huius? cuius est iste laqueus et mors? si <lb/>
@@ -1272,7 +1268,7 @@
             ut quid eucharistia, ut quid christianitas, si contra deum <lb n="10"/>
             nihil est? 
 </p>
-          <p>AUG. dixit: Quia uideo te nolle respondere, quod te interrogo, <lb/>
+               <p>AUG. dixit: Quia uideo te nolle respondere, quod te interrogo, <lb/>
             et te interrogare, ut tibi respondeam, et hoc non recuso, <lb/>
             dum tamen memineris, quia tibi interroganti ego respondeo, <lb/>
             tu autem mihi interroganti respondere noluisti. sed quia me <lb n="15"/>
@@ -1293,99 +1289,96 @@
             quare proelium agitaret et illud numen, quod dicit, huc <lb n="30"/>
             mitteret.
 
-<note type="footnote"> 1 dixisti <hi rend="italic">R</hi> dixita <hi rend="italic">T\'</hi> 2 aut] ac <hi rend="italic">B</hi> illi ergo <hi rend="italic">B</hi> 8 ei] enim <hi rend="italic">PBb</hi> <lb/>
-            an] aut <hi rend="italic">B</hi> 4 de] e b 5 et ego] ego <hi rend="italic">B</hi> dm<foreign xml:lang="grc">̃</foreign>] dictum <hi rend="italic">B</hi> 6 dicit <hi rend="italic">Bb</hi> <lb/>
+<note type="footnote"> 1 dixisti <hi rend="italic">R</hi> dixita <hi rend="italic">T\'</hi> 2 aut] ac <hi rend="italic">B</hi> illi ergo <hi rend="italic">B</hi> 8 ei] enim <hi rend="italic">PBb</hi>
+                     <lb/>
+            an] aut <hi rend="italic">B</hi> 4 de] e b 5 et ego] ego <hi rend="italic">B</hi> dm<foreign xml:lang="grc">̃</foreign>] dictum <hi rend="italic">B</hi> 6 dicit <hi rend="italic">Bb</hi>
+                     <lb/>
             9 ut qui <hi rend="italic">B</hi> 10 eucaristia P 12 ad id quod <hi rend="italic">b</hi> te interrogo]<lb/>
              interrogo <hi rend="italic">PB</hi> 16 quid <hi rend="italic">B</hi> nosj non <hi rend="italic">R</hi> 17 nos dicimus <hi rend="italic">B</hi> 20 de <lb/>
-            <hi rend="italic">om. PB</hi> 23 antea <hi rend="italic">PR</hi> SO numen] lumen <hi rend="italic">B</hi> hue] ut <hi rend="italic">B</hi> </note>
-<pb n="826"/>
-            
+                     <hi rend="italic">om. PB</hi> 23 antea <hi rend="italic">PR</hi> SO numen] lumen <hi rend="italic">B</hi> hue] ut <hi rend="italic">B</hi>
+                  </note>
+                  <pb n="826"/>
+               </p>
+               <p>FEL. dixit: Dilationem peto, ut possim respondere. 
 </p>
-          <p>FEL. dixit: Dilationem peto, ut possim respondere. 
+               <p>AUG. dixit: Quando? cras intermissus sufficit? 
 </p>
-          <p>AUG. dixit: Quando? cras intermissus sufficit? 
-</p>
-          
-</div>
-
-<div n="20" subtype="chapter" type="textpart">
-<p>FEL. dixit: Intermitte mihi tres dies, id est hodie et <lb/>
+            </div>
+            <div n="20" type="chapter">
+               <p>FEL. dixit: Intermitte mihi tres dies, id est hodie et <lb/>
             cras et perindie aut usque ad diem, qui est post dominicum, <lb/>
             id est pridie idus Decembris. <lb n="5"/>
-            
-</p>
-          <p>AUG. dixit : Uideo te dilationem ad respondendum petisse; <lb/>
+               </p>
+               <p>AUG. dixit : Uideo te dilationem ad respondendum petisse; <lb/>
             humanum est, ut concedatur tibi . sed si respondere non potueris <lb/>
             ad praestitutum diem, quid fiet? 
 </p>
-          <p>FEL. dixit: Ero uictus. 
+               <p>FEL. dixit: Ero uictus. 
 </p>
-          <p>AUG. dixit: Quid? si fugeris. <lb n="10"/>
-            
-</p>
-          <p>FEL. dixit: Reus ero ciuitatis huius et ubique et legis <lb/>
+               <p>AUG. dixit: Quid? si fugeris. <lb n="10"/>
+               </p>
+               <p>FEL. dixit: Reus ero ciuitatis huius et ubique et legis <lb/>
             meae. 
 </p>
-          <p>AUG. dixit: Immo hoc dic: si fugero, sic habear, tamquam <lb/>
+               <p>AUG. dixit: Immo hoc dic: si fugero, sic habear, tamquam <lb/>
             si anathemauero Manichaeum. 
 </p>
-          <p>FEL. dixit: Hoc dicere non possum. <lb n="15"/>
-            
-</p>
-          <p>AUG. dixit: Ergo aperte nobis dic, quia fugere cogitas et <lb/>
+               <p>FEL. dixit: Hoc dicere non possum. <lb n="15"/>
+               </p>
+               <p>AUG. dixit: Ergo aperte nobis dic, quia fugere cogitas et <lb/>
             nemo te tenet. 
 </p>
-          <p>FEL. dixit: Non fugio. 
+               <p>FEL. dixit: Non fugio. 
 </p>
-          <p>AUG. dixit: Ut uideo, non uis quasi uictus abscedere; sed <lb/>
+               <p>AUG. dixit: Ut uideo, non uis quasi uictus abscedere; sed <lb/>
             saltem hoc dic: si fugero. uictus sum. <lb n="20"/>
-            
+               </p>
+               <p>FEL. dixit: Dixi. 
 </p>
-          <p>FEL. dixit: Dixi. 
+               <p>AUG. dixit: Et unde adparebit te fugisse propter gesta? 
 </p>
-          <p>AUG. dixit: Et unde adparebit te fugisse propter gesta? 
+               <p>FEL. dixit: lube, ut quem elegero, cum ipso sim. 
 </p>
-          <p>FEL. dixit: lube, ut quem elegero, cum ipso sim. 
-</p>
-          <p>AUG. dixit: Elige tibi aliquem de praesentibus istis fratribus, <lb/>
+               <p>AUG. dixit: Elige tibi aliquem de praesentibus istis fratribus, <lb/>
             qui ad cancellum stant. <lb n="25"/>
-            
+               </p>
+               <p>,FEL. dixit: Sed cum illo, qui est in medio. 
 </p>
-          <p>,FEL. dixit: Sed cum illo, qui est in medio. 
+               <p>AUG. dixit: Sicut tibi elegisti, usque ad diem cam illo eris. 
 </p>
-          <p>AUG. dixit: Sicut tibi elegisti, usque ad diem cam illo eris. 
+               <p>FEL. dixit: Etiam; et ego hoc consentio. 
 </p>
-          <p>FEL. dixit: Etiam; et ego hoc consentio. 
-</p>
-          <p>BONIFACIUS dixit: Praestabit Christus, ut si cum illo <lb/>
+               <p>BONIFACIUS dixit: Praestabit Christus, ut si cum illo <lb/>
             ueniam, christianus est.
 
 <note type="footnote"> 1 cap. XX b dilectionem tuam peto <hi rend="italic">P</hi> 4 periendie <hi rend="italic">B</hi> 7 poteris <lb/>
-            <hi rend="italic">R</hi> 8 praestitutam <hi rend="italic">R</hi> 13 habear] hat <hi rend="italic">B</hi> 14 anatheinatizauero <lb/>
-            <hi rend="italic">Т2Pb</hi> 19 uictus <hi rend="italic">om. R</hi> 24 istis pr$sentibus <hi rend="italic">Pb</hi> 25 stent <hi rend="italic">R</hi> <lb/>
-            26 Etii et ego consentio; sed <hi rend="italic">sqq. b</hi> 28 felix-consentio <hi rend="italic">om. b</hi> <lb/>
-            29 bonefacius <hi rend="italic">PSR</hi> </note><lb n="30"/>
-            
-<pb n="827"/>
-            
-</p>
-          <p>Augustinus episcopus ecclesiae catholicae Hipponeregiensium <lb/>
+                     <hi rend="italic">R</hi> 8 praestitutam <hi rend="italic">R</hi> 13 habear] hat <hi rend="italic">B</hi> 14 anatheinatizauero <lb/>
+                     <hi rend="italic">Т2Pb</hi> 19 uictus <hi rend="italic">om. R</hi> 24 istis pr$sentibus <hi rend="italic">Pb</hi> 25 stent <hi rend="italic">R</hi>
+                     <lb/>
+            26 Etii et ego consentio; sed <hi rend="italic">sqq. b</hi> 28 felix-consentio <hi rend="italic">om. b</hi>
+                     <lb/>
+            29 bonefacius <hi rend="italic">PSR</hi>
+                  </note>
+                  <lb n="30"/>
+                  <pb n="827"/>
+               </p>
+               <p>Augustinus episcopus ecclesiae catholicae Hipponeregiensium <lb/>
             his in ecclesia coram populo gestis subscripsi. 
 </p>
-          <p>Felix christianus, cultor legis Manichaei, his in ecclesia <lb/>
+               <p>Felix christianus, cultor legis Manichaei, his in ecclesia <lb/>
             coram populo gestis subscripsi. 
 </p>
-</div></div>
-
-<div n="2" subtype="book" type="textpart">
-          <ab>
-            <title type="sub">LIBER SECUNDUS. </title>
-          </ab>
-<div n="1" subtype="chapter" type="textpart">
-          <p>Cum uentum esset ad diem praestitutum, id est ad <lb/>
+            </div>
+         </div>
+         <div n="2" type="book">
+            <ab>
+               <title type="sub">LIBER SECUNDUS. </title>
+            </ab>
+            <div n="1" type="chapter">
+               <p>Cum uentum esset ad diem praestitutum, id est ad <lb/>
             pridie iduum Decembrium, res sic agi coepit in ecclesia Pacis. 
 </p>
-          <p>AUGUSTINUS episcopus ecclesiae catholicae Hipponiregiensium <lb/>
+               <p>AUGUSTINUS episcopus ecclesiae catholicae Hipponiregiensium <lb/>
             regionum dixit: Pridem cum sermonem haberemus, di-. <lb/>
             lationem te petiisse meministi, cum ad ea, quae interrogaueram <lb n="10"/>
             in praesenti respondere non posses. si ergo tam lato temporis <lb/>
@@ -1397,7 +1390,7 @@
             nocere ei poterat, non incorruptibilem deum colitis, qualem <lb/>
             ueritas et apostolica doctrina testatur. 
 </p>
-          <p>FELIX dixit: Ei quo a sanctitate tua recessi, ut ad diem <lb/>
+               <p>FELIX dixit: Ei quo a sanctitate tua recessi, ut ad diem <lb/>
             constitutum reuersus essem, ut responderem tuae interrogationi, <lb n="20"/>
             quaecumque uelles interrogare, uentum est ad diem . <lb/>
             et quia nullam scripturam inter manus habui, quia non mihi sunt <lb/>
@@ -1406,17 +1399,21 @@
             suis chartis litigare — similiter et ego sine mea scriptura <lb n="25"/>
             respondere non possum. 
 </p>
-          <p rend="script">AUG. dixit: Istam tergiuersationem tanto dierum spatio
+               <p rend="script">AUG. dixit: Istam tergiuersationem tanto dierum spatio
 
-<note rend="script" type="footnote"> 1 catholica eccilq <hi rend="italic">b</hi> ipponiregiensis <hi rend="italic">PTS</hi> ypponi regicnsis <hi rend="italic">B</hi> <lb/>
+<note rend="script" type="footnote"> 1 catholica eccilq <hi rend="italic">b</hi> ipponiregiensis <hi rend="italic">PTS</hi> ypponi regicnsis <hi rend="italic">B</hi>
+                     <lb/>
             2 biisR 4 EXPLICIT LIBER PRIMUS SCI AVG CONTRA FELICEM <lb/>
             MANICHEUM INCIPIT SCDS <hi rend="italic">Tl)</hi> fol. 90. S Incipit liber secundns <lb/>
             fol. 4 b <hi rend="italic">i2</hi> 8 Augustinasj aagastinus dixit <hi rend="italic">R</hi> ippone <hi rend="italic">TPSB</hi> 9 pridĮê <lb/>
-            <hi rend="italic">S</hi> prime <hi rend="italic">TJt</hi> 10 petisse <hi rend="italic">PR</hi> 12 spacio P 17 ei nocere <hi rend="italic">b</hi> <lb/>
-            18 doctrina apoat. b 20 interrogationi tuae P 24 meditatos <hi rend="italic">scripsi:</hi> <lb/>
-            nrilitatus <hi rend="italic">TSPJRb</hi> 25 cartis <hi rend="italic">T</hi> potest litigare <hi rend="italic">PR</hi> 27 spacio <hi rend="italic">T</hi> </note><lb/>
-             
-<pb n="828"/>
+                     <hi rend="italic">S</hi> prime <hi rend="italic">TJt</hi> 10 petisse <hi rend="italic">PR</hi> 12 spacio P 17 ei nocere <hi rend="italic">b</hi>
+                     <lb/>
+            18 doctrina apoat. b 20 interrogationi tuae P 24 meditatos <hi rend="italic">scripsi:</hi>
+                     <lb/>
+            nrilitatus <hi rend="italic">TSPJRb</hi> 25 cartis <hi rend="italic">T</hi> potest litigare <hi rend="italic">PR</hi> 27 spacio <hi rend="italic">T</hi>
+                  </note>
+                  <lb/>
+                  <pb n="828"/>
             cogitasti, quae te in causa perdita et errore sacrilego quid <lb/>
             respondeas non habentem adiuuare nihil poterit. notum est <lb/>
             enim omnibus, qui aderant, quos etiam nunc adesse uideo, <lb/>
@@ -1427,42 +1424,44 @@
             uerum hoc longe, antequam peteres dilationem; cum uero <lb/>
             dilationem petisti, codicum tibi reddendorum et inspiciendorum, <lb/>
             ut esse posses instructior, nullam fecisti mentionem. <lb n="10"/>
-            
-</p>
-          <p>FEL. dixit: Modo peto, codices reddantur mihi, et uenio <lb/>
+               </p>
+               <p>FEL. dixit: Modo peto, codices reddantur mihi, et uenio <lb/>
             ad certamen post biduum; et si uictus fuero, quod deliberaueris, <lb/>
             subeo. 
 </p>
-          <p>AUG. dixit: Rudem te in ista scelerata secta non esse puto, <lb/>
+               <p>AUG. dixit: Rudem te in ista scelerata secta non esse puto, <lb/>
             quod et fateris. non te autem habere, quod respondeas, etsi<lb n="15"/>
             tu non fatearis, omnis homo iam uidet. sed quia codices tuos. <lb/>
             repetis, qui sub sigillo publico custodiuntur, quibus inspectis <lb/>
             dicis te instructum uenire posse post biduum, illud, quod iam <lb/>
             constat, obiectis quaestionibus te respondere non potuisse <lb/>
             recole. <lb n="20"/>
-            
-</p>
-          <p>Tolle autem codices tuos, et dic, quid inde uelis tibi proferri, <lb/>
+               </p>
+               <p>Tolle autem codices tuos, et dic, quid inde uelis tibi proferri, <lb/>
             quod modo inspicias et respondeas. 
 </p>
-          <p>FEL. dixit: Omnes scripturas, quae mihi sublatae sunt. ista <lb/>
+               <p>FEL. dixit: Omnes scripturas, quae mihi sublatae sunt. ista <lb/>
             enim epistula Fundamenti est, quod et sanctitas tua bene <lb/>
             scit, quod et ego dixi, quia ipsa continet initium, medium et <lb n="25"/>
             finem. ipsa legatur, et quicquid malum obicitur legi meae, <lb/>
             probetur . et nego illam, si probata fuerint illa crimina, quae <lb/>
             obiciuntur legi meae. 
 </p>
-          <p>AUG. dixit: Quoniam fateris hanc esse epistulam, ubi doctrinae <lb/>
+               <p>AUG. dixit: Quoniam fateris hanc esse epistulam, ubi doctrinae <lb/>
             uestrae initium, medium et finis continetur, hoc initium <lb n="30"/>
             quam sit sacrilegum, ubi deum dicitis pugnasse contra gentem
 
-<note type="footnote"> 4 tanti <hi rend="italic">b</hi> autem] ante <hi rend="italic">B</hi> 5 hiis <hi rend="italic">P</hi> 6 noui] nam <hi rend="italic">PflSSRb</hi> <lb/>
+<note type="footnote"> 4 tanti <hi rend="italic">b</hi> autem] ante <hi rend="italic">B</hi> 5 hiis <hi rend="italic">P</hi> 6 noui] nam <hi rend="italic">PflSSRb</hi>
+                     <lb/>
             8 anteqaam] aliqfli <hi rend="italic">B</hi> 14 sceleratissima <hi rend="italic">R</hi> 16 tu om. <hi rend="italic">b</hi> iam<lb/>
-             omnis homo <hi rend="italic">R</hi> 18 quod <hi rend="italic">om. PRb</hi> 19 obiectisqua P 20 recolere <hi rend="italic">TPRb</hi> <lb/>
-            21 tibi ueliB <hi rend="italic">b</hi> 23 mihi] sibi <hi rend="italic">Ji</hi> 25 ego <hi rend="italic">om. b</hi> et ipaa <hi rend="italic">B</hi> <lb/>
-            insciom <hi rend="italic">P</hi> 28 meaeJ nrg <hi rend="italic">PB</hi> </note><lb/>
-             
-<pb n="829"/>
+             omnis homo <hi rend="italic">R</hi> 18 quod <hi rend="italic">om. PRb</hi> 19 obiectisqua P 20 recolere <hi rend="italic">TPRb</hi>
+                     <lb/>
+            21 tibi ueliB <hi rend="italic">b</hi> 23 mihi] sibi <hi rend="italic">Ji</hi> 25 ego <hi rend="italic">om. b</hi> et ipaa <hi rend="italic">B</hi>
+                     <lb/>
+            insciom <hi rend="italic">P</hi> 28 meaeJ nrg <hi rend="italic">PB</hi>
+                  </note>
+                  <lb/>
+                  <pb n="829"/>
             tenebrarum et miscuisse naturae daemonum polluendam et <lb/>
             ligandam partem suam, quae hoc est quod ipse, tam sacrilegum <lb/>
             est, ut ferri ab audientibus uix possit. hoc obicitur <lb/>
@@ -1476,11 +1475,9 @@
             naturae daemonum commisceret; si autem nocere ei poterat,. <lb/>
             non deum incorruptibilem colitis. 
 </p>
-          
-</div>
-
-<div n="2" subtype="chapter" type="textpart">
-<p>FEL. dixit: Manichaeus dicit duas esse naturas et modo <lb/>
+            </div>
+            <div n="2" type="chapter">
+               <p>FEL. dixit: Manichaeus dicit duas esse naturas et modo <lb/>
             inde culpatur, quia dixit duas esse, bonam et malam. Christus <lb/>
             in euangelio duas dicit esse arbores: arbor bona numquam <lb n="15"/>
             facit fructum malum, et arbor mala numquam facit <lb/>
@@ -1501,12 +1498,16 @@
             aeternum, qui paratus est diabolo et angelis eius.
 
 <note type="footnote"> 15 Matth. 7, 17 18 Matth. 13, 27 sq. 27 Matth. 2\\ 31 aqq. <lb/>
-            2 litigandam <hi rend="italic">li</hi> 3 uix <hi rend="italic">post</hi> ferri <hi rend="italic">b</hi> auditoribus <hi rend="italic">P</hi> 7 obbicitur <hi rend="italic">B</hi> <lb/>
-            9 potuit <hi rend="italic">b</hi> fingis <hi rend="italic">B</hi> 10 causa fuit <hi rend="italic">b</hi> 12 corruptibilem <hi rend="italic">M</hi> <lb/>
-            15 dicit duas <hi rend="italic">b</hi> 17 fructunt nialum bonum <hi rend="italic">B</hi> 18 nonne] nunquid <hi rend="italic">b</hi> <lb/>
-            34 meridiem <hi rend="italic">b</hi> 28 edis P hedis <hi rend="italic">TSR</hi> 29 iniquitatem <hi rend="italic">om. JR</hi> </note><lb/>
-             
-<pb n="830"/>
+            2 litigandam <hi rend="italic">li</hi> 3 uix <hi rend="italic">post</hi> ferri <hi rend="italic">b</hi> auditoribus <hi rend="italic">P</hi> 7 obbicitur <hi rend="italic">B</hi>
+                     <lb/>
+            9 potuit <hi rend="italic">b</hi> fingis <hi rend="italic">B</hi> 10 causa fuit <hi rend="italic">b</hi> 12 corruptibilem <hi rend="italic">M</hi>
+                     <lb/>
+            15 dicit duas <hi rend="italic">b</hi> 17 fructunt nialum bonum <hi rend="italic">B</hi> 18 nonne] nunquid <hi rend="italic">b</hi>
+                     <lb/>
+            34 meridiem <hi rend="italic">b</hi> 28 edis P hedis <hi rend="italic">TSR</hi> 29 iniquitatem <hi rend="italic">om. JR</hi>
+                  </note>
+                  <lb/>
+                  <pb n="830"/>
             qui sunt, qui nomen Christi habent et mittuntur in ignem <lb/>
             aeternum cum diabolo et angelis eius, et ad quam partem <lb/>
             pertinent isti, quibus Christus non permiscetur, et nomen <lb/>
@@ -1530,11 +1531,9 @@
             eos crucifixit, cui mandatum dei non placet, hoc mihi dicat <lb/>
             sanctitas tua, si ad deum pertinet. 
 </p>
-          
-</div>
-
-<div n="3" subtype="chapter" type="textpart">
-<p>AUG. dixit: Scripturas sanctas. quas non intellegendo <lb/>
+            </div>
+            <div n="3" type="chapter">
+               <p>AUG. dixit: Scripturas sanctas. quas non intellegendo <lb/>
             longe a ueritate aberratis, commemorare uoluisti, uelut ex <lb/>
             eis patrocinium adhibens uaniloquiis uestris. inter omnia tamen, <lb n="25"/>
             quae partim sicut uere scripta sunt, partim aliter quam scripta <lb/>
@@ -1543,14 +1542,16 @@
             habeat quietem, partem suam, quae hoc est quod ipse, naturae
 
 <note type="footnote"> 5 Rora. 8, 7 10 II Cor. 4, 4 13 II Cor. 12, 7 aqq. </note>
-
-<note type="footnote"> 1 mittent <hi rend="italic">b</hi> 5 dampnat B damnauit <hi rend="italic">b</hi> et panloa B 10 paulus. <lb/>
+                  <note type="footnote"> 1 mittent <hi rend="italic">b</hi> 5 dampnat B damnauit <hi rend="italic">b</hi> et panloa B 10 paulus. <lb/>
             dixit B 11 fidelium B contemplanda <hi rend="italic">b</hi> 12 ymago B 18 tneae <lb/>
-            <hi rend="italic">om. B</hi> 14 sathana <hi rend="italic">PR</hi> colaphizet <hi rend="italic">Sb</hi> quod] quod ter <hi rend="italic">Sb</hi> <lb/>
-            17 quod <hi rend="italic">Tb</hi> 18 hec <hi rend="italic">b</hi> 19 pngnanit <hi rend="italic">b</hi> 24 a neritate longe <hi rend="italic">Pb</hi> <lb/>
-            20 quae mn. <hi rend="italic">b</hi> 29 quietam <hi rend="italic">b</hi> </note><lb/>
-             
-<pb n="831"/>
+                     <hi rend="italic">om. B</hi> 14 sathana <hi rend="italic">PR</hi> colaphizet <hi rend="italic">Sb</hi> quod] quod ter <hi rend="italic">Sb</hi>
+                     <lb/>
+            17 quod <hi rend="italic">Tb</hi> 18 hec <hi rend="italic">b</hi> 19 pngnanit <hi rend="italic">b</hi> 24 a neritate longe <hi rend="italic">Pb</hi>
+                     <lb/>
+            20 quae mn. <hi rend="italic">b</hi> 29 quietam <hi rend="italic">b</hi>
+                  </note>
+                  <lb/>
+                  <pb n="831"/>
             contrariae daemonum miscens, colligari ab eis et contaminari <lb/>
             fecerit. hoc autem est, quod uobis obicitur. unde quid respondeas <lb/>
             non inueniendo commemorasti diuinarum scripturarum <lb/>
@@ -1576,31 +1577,26 @@
             confitendum uerum de libero arbitrio plus in eo ualuit natura <lb/>
             humana, in qua eum deus effecit, quam fabula sacrilega, <lb/>
             quam sibi ipse confinxit. <lb n="25"/>
-            
-</p>
-          
-</div>
-
-<div n="4" subtype="chapter" type="textpart">
-<p>Audi ergo de libero arbitrio primo ipsum dominum, ubi <lb/>
+               </p>
+            </div>
+            <div n="4" type="chapter">
+               <p>Audi ergo de libero arbitrio primo ipsum dominum, ubi <lb/>
             duas arbores commemorat, quarum mentionem ipse fecisti, <lb/>
             audi dicentem: aut facite arborem bonam et fructum <lb/>
             eius bonum aut facite arborem malam et fructum <lb/>
             eius malum. cum ergo dicit "aut hoc facite aut illud
 
 <note type="footnote">28 Matth. 12. 33 </note>
-
-<note type="footnote"> 3 scriptnrarum <hi rend="italic">om. R</hi> 9 rationabilem <hi rend="italic">PM</hi> et ipsam rationale creatari <lb/>
-            facti 6 11 aellet] ul\'u\'t R 13 sed <hi rend="italic">om. b</hi> 15 hominibus <hi rend="italic">b</hi> <lb/>
+                  <note type="footnote"> 3 scriptnrarum <hi rend="italic">om. R</hi> 9 rationabilem <hi rend="italic">PM</hi> et ipsam rationale creatari <lb/>
+            facti 6 11 aellet] ul\'u\'t R 13 sed <hi rend="italic">om. b</hi> 15 hominibus <hi rend="italic">b</hi>
+                     <lb/>
             17 peccare quemque <hi rend="italic">SRb</hi> 19 probo] tibi probo P 22 solita B <lb/>
             fantasmate <hi rend="italic">TSPR</hi> tantum <hi rend="italic">R</hi> 23 plus ualuit in eo <hi rend="italic">b</hi> 25 ipse <lb/>
             sibi b 26 ipsam primo R 30 illud] id R </note>
-
-<note type="footnote"> XXV. Aag. seet. 6 (pan 8). </note>
-
-<note type="footnote"> 58 </note><lb n="30"/>
-             
-<pb n="832"/>
+                  <note type="footnote"> XXV. Aag. seet. 6 (pan 8). </note>
+                  <note type="footnote"> 58 </note>
+                  <lb n="30"/>
+                  <pb n="832"/>
             facite," potestatem indicat. non naturam. nemo enim nisi <lb/>
             deus facere arborem potest; sed habet unusquisque in uoluntate <lb/>
             aut eligere, quae bona sunt, et esse arbor bona. aut <lb/>
@@ -1618,11 +1614,9 @@
             eius acciperent, si malum eligerent, poenam eius sentirent;<lb n="15"/>
             semper autem ille iustus est aut remunerator aut damnator. 
 </p>
-          
-</div>
-
-<div n="5" subtype="chapter" type="textpart">
-<p>Audi ergo iam, quemadmodum Manichaeus ipse tam <lb/>
+            </div>
+            <div n="5" type="chapter">
+               <p>Audi ergo iam, quemadmodum Manichaeus ipse tam <lb/>
             peruersus, tam superbus, ut aliam introducens naturam ae <lb/>
             aequalem deo faceret. deum ad se ipsum deponeret, confessus <lb/>
             sit tamen esse liberum arbitrium. in Thesauro uestro, cui tale <lb n="20"/>
@@ -1638,12 +1632,13 @@
             non enim dixit: non potuerint sed: noluerint. hoc certe <lb n="30"/>
             quod nolunt seruare legem, non a gente tenebrarum coguntur;
 
-<note type="footnote">4 ipsa mala <hi rend="italic">R</hi> 5 habeant <hi rend="italic">R</hi> 7 atque] et <hi rend="italic">b</hi> 8 quodque <hi rend="italic">seripsx:</hi> <lb/>
+<note type="footnote">4 ipsa mala <hi rend="italic">R</hi> 5 habeant <hi rend="italic">R</hi> 7 atque] et <hi rend="italic">b</hi> 8 quodque <hi rend="italic">seripsx:</hi>
+                     <lb/>
             quoque <hi rend="italic">T om. PSRb</hi> 9 ipsa <hi rend="italic">b</hi> 13 quod <hi rend="italic">b</hi> 16 est <hi rend="italic">om. b</hi> 20 tameny<lb/>
              tantum <hi rend="italic">R</hi> 22 hii <hi rend="italic">PH</hi> 24 permiserunt <hi rend="italic">R</hi> et mandatis <hi rend="italic">b</hi> 26 suo] <lb/>
-            deo <hi rend="italic">b</hi> 26 plenius seruare <hi rend="italic">b</hi> 29 eius est <hi rend="italic">PB</hi>. </note><lb/>
-             
-<pb n="833"/>
+            deo <hi rend="italic">b</hi> 26 plenius seruare <hi rend="italic">b</hi> 29 eius est <hi rend="italic">PB</hi>. </note>
+                  <lb/>
+                  <pb n="833"/>
             si enim coguntur, non nolunt, sed non possunt; si autem <lb/>
             nolunt, non utique coguntur, ut non faciant, sed uoluntate <lb/>
             sua nolunt. hoc ergo, quod in eorum uoluntate est, ut nolint, <lb/>
@@ -1652,11 +1647,9 @@
             et inde uides, unde ueniant omnes culpae, unde merita culparum, <lb/>
             unde distributiones poenarum. 
 </p>
-          
-</div>
-
-<div n="6" subtype="chapter" type="textpart">
-<p>Habetis etiam hoc in scripturis apocryphis, quas canon <lb/>
+            </div>
+            <div n="6" type="chapter">
+               <p>Habetis etiam hoc in scripturis apocryphis, quas canon <lb/>
             quidem catholicus non admittit, uobis autem tanto gratiores <lb/>
             sunt, quanto a catholico canone secluduntur. aliquid etiam <lb n="10"/>
             inde commemorem, cuius ego auctoritate non teneor, sed tu <lb/>
@@ -1674,13 +1667,10 @@
             in eo uero, quod positum est per seductionem\' intellegas <lb/>
             diabolum, non obpressorem inuiti, sed tentatorem <lb/>
             uolentis. <lb n="25"/>
-            
-</p>
-          
-</div>
-
-<div n="7" subtype="chapter" type="textpart">
-<p>Proinde, quia ego respondi et, quantum potui, probaui <lb/>
+               </p>
+            </div>
+            <div n="7" type="chapter">
+               <p>Proinde, quia ego respondi et, quantum potui, probaui <lb/>
             ea, quae scripta sunt in libris sanctis de peccatoribus et de <lb/>
             iustis non ad diuersitatem naturarum, sed ad distinctionem <lb/>
             meritorum pertinere, in quibus meritis non necessitatem natura <lb/>
@@ -1688,12 +1678,14 @@
             interrogaui: si deo nocere nihil poterat, quare partem suam,
 
 <note type="footnote">1 nolunt <hi rend="italic">b</hi> 6 unde <hi rend="italic">ante</hi> merita <hi rend="italic">om. b</hi> 8 apocrifis <hi rend="italic">TSH</hi> 9 graui* <lb/>
-            ores <hi rend="italic">PSRb</hi> 12 cum uiceris <hi rend="italic">S</hi> scriptis <hi rend="italic">M</hi> leuitico <hi rend="italic">R</hi> Lenticio <hi rend="italic">b</hi> <lb/>
+            ores <hi rend="italic">PSRb</hi> 12 cum uiceris <hi rend="italic">S</hi> scriptis <hi rend="italic">M</hi> leuitico <hi rend="italic">R</hi> Lenticio <hi rend="italic">b</hi>
+                     <lb/>
             14 obstentatio <hi rend="italic">R</hi> 16 ex <hi rend="italic">om. b</hi> est <hi rend="italic">om. T</hi> 17 (et 18, 21, 23 i <lb/>
-            seditionera <hi rend="italic">R</hi> 18 dicit <hi rend="italic">b</hi> 24 temptatorem <hi rend="italic">PR</hi> 30 ad <hi rend="italic">om. R</hi> <lb/>
-            53* </note><lb/>
-             
-<pb n="834"/>
+            seditionera <hi rend="italic">R</hi> 18 dicit <hi rend="italic">b</hi> 24 temptatorem <hi rend="italic">PR</hi> 30 ad <hi rend="italic">om. R</hi>
+                     <lb/>
+            53* </note>
+                  <lb/>
+                  <pb n="834"/>
             substantiam suam, hoc quod ipse est, polluendam et. ligandam <lb/>
             daemonibus miscuerit, quod in nulla diuina scriptura canonica <lb/>
             potueris inuenire; si autem nocere ei poterat, non deum incorruptibilem <lb/>
@@ -1726,13 +1718,16 @@
 
 <note type="footnote">41 Tim. 1, 17 7 1 Tim. 6, 16 9 Ps. 38, 6 10 Matth. 5, 8 <lb/>
             3 poterat ei R 4 dicit apostolus <hi rend="italic">P</hi> 7 dicitur <hi rend="italic">Pllb</hi> nunquid <lb/>
-            <hi rend="italic">TPSJRb</hi> 9 numquid-dicitur <hi rend="italic">om. b</hi> 10 <hi rend="italic">ante</hi> beati <hi rend="italic">legitur</hi> et illud <hi rend="italic">b</hi> <lb/>
+                     <hi rend="italic">TPSJRb</hi> 9 numquid-dicitur <hi rend="italic">om. b</hi> 10 <hi rend="italic">ante</hi> beati <hi rend="italic">legitur</hi> et illud <hi rend="italic">b</hi>
+                     <lb/>
             13 enim <hi rend="italic">om. b</hi> ad eam (eum <hi rend="italic">b)</hi> potest <hi rend="italic">Pb</hi> 16 accedere ad habitationem <lb/>
-            dei <hi rend="italic">PSRb</hi> 17 donauerat <hi rend="italic">b</hi> 18 acceperit <hi rend="italic">b</hi> pugnandfl <hi rend="italic">b</hi> <lb/>
+            dei <hi rend="italic">PSRb</hi> 17 donauerat <hi rend="italic">b</hi> 18 acceperit <hi rend="italic">b</hi> pugnandfl <hi rend="italic">b</hi>
+                     <lb/>
             20 accedere J adde <hi rend="italic">R</hi> regno suo <hi rend="italic">b</hi> 21 quod <hi rend="italic">b</hi> 22 sasstantiam 22 <lb/>
-            25 nefas est audire <hi rend="italic">b</hi> 27 in nauej ignaue <hi rend="italic">T</hi> ignaue <hi rend="italic">R</hi> </note><lb/>
-             
-<pb n="835"/>
+            25 nefas est audire <hi rend="italic">b</hi> 27 in nauej ignaue <hi rend="italic">T</hi> ignaue <hi rend="italic">R</hi>
+                  </note>
+                  <lb/>
+                  <pb n="835"/>
             . illic positum deum uirtutes suas conuertere in masculos ad <lb/>
             inritandum concupiscentias daemonum feminarum et eosdem <lb/>
             rursus conuertere in feminas ad inritandum concupiscentias <lb/>
@@ -1752,38 +1747,35 @@
             istam partem suam, cui nihil nocere poterat? aut si potuit, <lb/>
             quomodo sit incorruptibilis. 
 </p>
-          
-</div>
-
-<div n="8" subtype="chapter" type="textpart">
-<p>FEL. dixit: Crudelem adseritis Manichaeum haec dicentem; <lb/>
+            </div>
+            <div n="8" type="chapter">
+               <p>FEL. dixit: Crudelem adseritis Manichaeum haec dicentem; <lb/>
             de Christo quid dicimus, qui dixit: ite in ignem <lb n="20"/>
             aeternum? 
 </p>
-          <p>AUG, dixit: Peccatoribus hoc dixit. 
+               <p>AUG, dixit: Peccatoribus hoc dixit. 
 </p>
-          <p>FEL. dixit: Isti peccatores quare non purgati sunt? 
+               <p>FEL. dixit: Isti peccatores quare non purgati sunt? 
 </p>
-          <p>AU6. dixit: Quia noluerunt. 
+               <p>AU6. dixit: Quia noluerunt. 
 </p>
-          <p>FEL. dixit: Quia noluerunt. hoc dixisti? . <lb n="25"/>
-            
+               <p>FEL. dixit: Quia noluerunt. hoc dixisti? . <lb n="25"/>
+               </p>
+               <p>AUG. dixit: Hoc dixi, quia noluerunt. 
 </p>
-          <p>AUG. dixit: Hoc dixi, quia noluerunt. 
-</p>
-          <p>FEL. dixit: Quare noluerunt? est, qui non uult curari? <lb/>
+               <p>FEL. dixit: Quare noluerunt? est, qui non uult curari? <lb/>
             est, qui non uult purgari ? est, qui non uult inluminari ? quia <lb/>
             infirmus est, qui non uult ad sanitatem uenire? si crudele <lb/>
             est, quod Manichaeus dicit, quia aliqua pars dei, quae se
 
 <note type="footnote"> 20 Matth. 25, 41 </note>
-
-<note type="footnote"> 2 coucopiscentiam P 4 coniciunt <hi rend="italic">R</hi> 5 accensis <hi rend="italic">ed. Maur.:</hi> accensi <lb/>
-            <hi rend="italic">lib. b</hi> 6 fuerat b 7 opprobrium <hi rend="italic">TSltb</hi> 10 eum] unde b 14 ymaginatus <lb/>
-            <hi rend="italic">R</hi> 15 hoc <hi rend="italic">b</hi> 17 noceri <hi rend="italic">PR</hi> 19 haec] hoc <hi rend="italic">PRb</hi> 29 sanitatem] <lb/>
-            salutem <hi rend="italic">PR</hi> 80 dixit <hi rend="italic">.PSRb</hi> </note><lb n="30"/>
-             
-<pb n="836"/>
+                  <note type="footnote"> 2 coucopiscentiam P 4 coniciunt <hi rend="italic">R</hi> 5 accensis <hi rend="italic">ed. Maur.:</hi> accensi <lb/>
+                     <hi rend="italic">lib. b</hi> 6 fuerat b 7 opprobrium <hi rend="italic">TSltb</hi> 10 eum] unde b 14 ymaginatus <lb/>
+                     <hi rend="italic">R</hi> 15 hoc <hi rend="italic">b</hi> 17 noceri <hi rend="italic">PR</hi> 19 haec] hoc <hi rend="italic">PRb</hi> 29 sanitatem] <lb/>
+            salutem <hi rend="italic">PR</hi> 80 dixit <hi rend="italic">.PSRb</hi>
+                  </note>
+                  <lb n="30"/>
+                  <pb n="836"/>
             purgare non potuit. in globo ligata est, hoc crudele non est, <lb/>
             ut Christus, qui dixit: ego propter peccatores ueni, modo ad <lb/>
             ignem aeternum illos mittat, cuius nomen portauerunt? sed <lb/>
@@ -1793,7 +1785,7 @@
             esse, quod Christus non potuit purgare, ad ignem aeternum <lb/>
             mittere. hoc mihi sanctitas tua exponat de ipsa crudelitate. 
 </p>
-          <p>AUG. dixit: Si ea, quae iam dixi, uel intellexisses uel te <lb/>
+               <p>AUG. dixit: Si ea, quae iam dixi, uel intellexisses uel te <lb/>
             intellegere fatereris — fortassis enim non habendo quod dicas<lb n="10"/>
             finxisti te non intellegere, quod apertum est — ista non diceres. <lb/>
             iam enim diximus et probauimus per diuinas scripturas <lb/>
@@ -1818,12 +1810,14 @@
             quod uolunt — unde apostolus dicit: uideo aliam legem
 
 <note type="footnote"> 19 Mattfa. 9, 13 31 Eora. 7, 23 </note>
-
-<note type="footnote"> 3 illum ignem <hi rend="italic">R</hi> 9 intelligisses <hi rend="italic">R</hi> 10 fateris <hi rend="italic">R</hi> quid <hi rend="italic">b</hi> <lb/>
-            11 <hi rend="italic">alt</hi>. non] uero <hi rend="italic">R</hi> 13 antem esse <hi rend="italic">P</hi> iudicem iustum <hi rend="italic">PR</hi> 15 se <hi rend="italic">om. b</hi> <lb/>
-            18 tamS aliud <hi rend="italic">R</hi> 22 peccauimus <hi rend="italic">b</hi> </note><lb/>
-             
-<pb n="837"/>
+                  <note type="footnote"> 3 illum ignem <hi rend="italic">R</hi> 9 intelligisses <hi rend="italic">R</hi> 10 fateris <hi rend="italic">R</hi> quid <hi rend="italic">b</hi>
+                     <lb/>
+            11 <hi rend="italic">alt</hi>. non] uero <hi rend="italic">R</hi> 13 antem esse <hi rend="italic">P</hi> iudicem iustum <hi rend="italic">PR</hi> 15 se <hi rend="italic">om. b</hi>
+                     <lb/>
+            18 tamS aliud <hi rend="italic">R</hi> 22 peccauimus <hi rend="italic">b</hi>
+                  </note>
+                  <lb/>
+                  <pb n="837"/>
             in membris meis repugnantem legi mentis meae et <lb/>
             captiuantem me in legem peccati, quae est in membris <lb/>
             meis — manifestum est hoc uenisse de traduce primi <lb/>
@@ -1849,27 +1843,24 @@
             te, ne moras superfluas faciamus —: si deo nocere nihil poterat, <lb/>
             quare huc nos misit ? si nocere poterat, non est incorruptibilis <lb/>
             deus. <lb n="25"/>
-            
-</p>
-          
-</div>
-
-<div n="9" subtype="chapter" type="textpart">
-<p>FEL. dixit: Si deo nocere nihil poterat, quare huc misit <lb/>
+               </p>
+            </div>
+            <div n="9" type="chapter">
+               <p>FEL. dixit: Si deo nocere nihil poterat, quare huc misit <lb/>
             filium suum ?-
 </p>
-          <p>AUG. dixit: Uide, quemadmodum semper interrogas et ad <lb/>
+               <p>AUG. dixit: Uide, quemadmodum semper interrogas et ad <lb/>
             interrogata respondere non uis. audi, quod interrogasti, memento <lb/>
             tamen te ad ea, quae dico, non respondere, me autem
 
 <note type="footnote"> 16 cf. lac. 4, 6 16 Matth. 25, 41 aqq. </note>
-
-<note type="footnote"> 2 lege <hi rend="italic">PSRb</hi> 4 hodie <hi rend="italic">PSb</hi> 6 ergo] igitUr <hi rend="italic">PB</hi> 7 eontraria<lb/>
-             eoe <hi rend="italic">b</hi> (in marg. at cfitraria ret) 11 sanandos <hi rend="italic">B</hi> 16 deus <hi rend="italic">om. R</hi> <lb/>
+                  <note type="footnote"> 2 lege <hi rend="italic">PSRb</hi> 4 hodie <hi rend="italic">PSb</hi> 6 ergo] igitUr <hi rend="italic">PB</hi> 7 eontraria<lb/>
+             eoe <hi rend="italic">b</hi> (in marg. at cfitraria ret) 11 sanandos <hi rend="italic">B</hi> 16 deus <hi rend="italic">om. R</hi>
+                     <lb/>
             18 patrn mei <hi rend="italic">om. Pb</hi> 24 misit nos R nos b (a* filium suum,<lb/>
-             nocere <hi rend="italic">mn. PM</hi> 26 filiam saam misit <hi rend="italic">PSKb</hi> 29 et quod P </note><lb n="30"/>
-             
-<pb n="838"/>
+             nocere <hi rend="italic">mn. PM</hi> 26 filiam saam misit <hi rend="italic">PSKb</hi> 29 et quod P </note>
+                  <lb n="30"/>
+                  <pb n="838"/>
             respondere. deo nocere nihil potest; sed filium suum misit, <lb/>
             ut carne indueretur et hominibus adpareret, peccatores sanaret, <lb/>
             in ipsa carne pateretur pro nobis, quam sumpsit ex nobis. in <lb/>
@@ -1900,20 +1891,20 @@
             passura erat, non in carne quam non susceperat, quare huc <lb/>
             missa est secundum uestra uaniloquia? 
 </p>
-          
-</div>
-
-<div n="10" subtype="chapter" type="textpart">
-<p>FEL. dixit: Si nihil poterat noceri deo a parte aduersa <lb n="30"/>
+            </div>
+            <div n="10" type="chapter">
+               <p>FEL. dixit: Si nihil poterat noceri deo a parte aduersa <lb n="30"/>
             et Christo nihil poterat noceri ab aduersa natura, ad quam
 
 <note type="footnote"> 4 Ioh. 1, 1 sqq. </note>
-
-<note type="footnote"> 2 apareret <hi rend="italic">R</hi> 14 ergo <hi rend="italic">om. b</hi> 18 uestri nulla] nostri in illa <hi rend="italic">B</hi> <lb/>
-            19 qua <hi rend="italic">b</hi> 20 ligabatur] significabatur <hi rend="italic">R</hi> 22 quanta P 28 natura <hi rend="italic">T</hi> <lb/>
-            24 et] atque <hi rend="italic">Pb</hi> 28 non <hi rend="italic">post</hi> quam <hi rend="italic">om. SPRb</hi> 30 nocere <hi rend="italic">B</hi> 31 anersa <hi rend="italic">b</hi> </note><lb/>
-             
-<pb n="839"/>
+                  <note type="footnote"> 2 apareret <hi rend="italic">R</hi> 14 ergo <hi rend="italic">om. b</hi> 18 uestri nulla] nostri in illa <hi rend="italic">B</hi>
+                     <lb/>
+            19 qua <hi rend="italic">b</hi> 20 ligabatur] significabatur <hi rend="italic">R</hi> 22 quanta P 28 natura <hi rend="italic">T</hi>
+                     <lb/>
+            24 et] atque <hi rend="italic">Pb</hi> 28 non <hi rend="italic">post</hi> quam <hi rend="italic">om. SPRb</hi> 30 nocere <hi rend="italic">B</hi> 31 anersa <hi rend="italic">b</hi>
+                  </note>
+                  <lb/>
+                  <pb n="839"/>
             uenit Christus, ut eam liberaret? quia, ut dicis, propter libertatem <lb/>
             nostram uenit. ergo in captiuitate fuimus. si in captiuitate <lb/>
             tenebamur et propterea Christus uenit, ut nos liberaret, <lb/>
@@ -1936,11 +1927,9 @@
             praecepto — quis est iste ergo, qui maledicit omnem, qui <lb n="20"/>
             pendet in ligno? 
 </p>
-          
-</div>
-
-<div n="11" subtype="chapter" type="textpart">
-<p>AUG. dixit: Quos Christus redemit a diabolo, per consensionem <lb/>
+            </div>
+            <div n="11" type="chapter">
+               <p>AUG. dixit: Quos Christus redemit a diabolo, per consensionem <lb/>
             suam tenebantur a diabolo et in eius condicione <lb/>
             constituti erant per iustum dei iudicium, cui seducenti consenserant <lb/>
             per liberum arbitrium. sicut autem in hominis potestate <lb n="25"/>
@@ -1951,13 +1940,13 @@
             si noluisset, non peccasset et homo, si noluisset, non
 
 <note type="footnote">15 Gal. 8. 13; Dent. 21, 28 </note>
-
-<note type="footnote">5 uirt\' di <hi rend="italic">b</hi> 7 ergo] autem <hi rend="italic">b</hi> 8 qui B 12 eramas <lb/>
+                  <note type="footnote">5 uirt\' di <hi rend="italic">b</hi> 7 ergo] autem <hi rend="italic">b</hi> 8 qui B 12 eramas <lb/>
             constituti B 14 nos <hi rend="italic">post</hi> dl <hi rend="italic">legitur in PSRb</hi> 15 de maledicto] de <lb/>
             aub maledicto <hi rend="italic">TSPb</hi> 17 dixit <hi rend="italic">R</hi> 18 pendet <hi rend="italic">S</hi> 19 aducti B <lb/>
-            ipaios] eius B 20 quia ergo iate est <hi rend="italic">b</hi> 22 quod B 26 fuit <hi rend="italic">om. B</hi> </note><lb n="30"/>
-             
-<pb n="840"/>
+            ipaios] eius B 20 quia ergo iate est <hi rend="italic">b</hi> 22 quod B 26 fuit <hi rend="italic">om. B</hi>
+                  </note>
+                  <lb n="30"/>
+                  <pb n="840"/>
             consensisset. cum autem iam ab illo, cui consenserat; teneretur, <lb/>
             non quia diabolus aliquid potuit, sed quia dei iustum iudicium <lb/>
             fuit dare in potestatem diaboli hominem, qui contempsit <lb/>
@@ -1990,13 +1979,13 @@
             quam sperare. debemus. toleramus autem laboriosam merito
 
 <note type="footnote">2] Rom. 6, t </note>
-
-<note type="footnote"> 1 consensisset <hi rend="italic">M</hi> 2 iustum dei <hi rend="italic">PSRb</hi> 3 dare--dei <hi rend="italic">om. PltSb (sed <lb/>
+                  <note type="footnote"> 1 consensisset <hi rend="italic">M</hi> 2 iustum dei <hi rend="italic">PSRb</hi> 3 dare--dei <hi rend="italic">om. PltSb (sed <lb/>
             in S spatio 2 uers. uacuo.)</hi> 4 et <hi rend="italic">om. P</hi> 5 sic] si <hi rend="italic">R</hi> cum-peccato <lb/>
-            <hi rend="italic">om. Rb</hi> 12 dfri] dl <hi rend="italic">JS om. b</hi> 20 inde <hi rend="italic">Slt</hi> 21 confixus] cruciiixua <lb/>
-            <hi rend="italic">PR</hi> _25 et <hi rend="italic">(prius) om. b</hi> 26 patientiani] penitentiam <hi rend="italic">Pb</hi> </note><lb n="30"/>
-             
-<pb n="841"/>
+                     <hi rend="italic">om. Rb</hi> 12 dfri] dl <hi rend="italic">JS om. b</hi> 20 inde <hi rend="italic">Slt</hi> 21 confixus] cruciiixua <lb/>
+                     <hi rend="italic">PR</hi> _25 et <hi rend="italic">(prius) om. b</hi> 26 patientiani] penitentiam <hi rend="italic">Pb</hi>
+                  </note>
+                  <lb n="30"/>
+                  <pb n="841"/>
             peccati nostri; ille autem ostendit eam in carne sua, non <lb/>
             merito iniquitatis suae. sed. officio misericordiae suae. nam <lb/>
             ut noueris bonam esse legem, quam tu reprehendere uoluisti, <lb/>
@@ -2022,27 +2011,24 @@
             audisti ergo, quod interrogasti, responde, quod interrogo: <lb/>
             nihil nocere poterat gens tenebrarum deo? quare huc misit <lb/>
             partem suam miscendam et polluendam a natura daemonum ? <lb n="25"/>
-            
-</p>
-          
-</div>
-
-<div n="12" subtype="chapter" type="textpart">
-<p>FEL. dixit: Si in arbitrio nostro sumus, nemo neminem <lb/>
+               </p>
+            </div>
+            <div n="12" type="chapter">
+               <p>FEL. dixit: Si in arbitrio nostro sumus, nemo neminem <lb/>
             cogat; quando uoluero, ero christianus. uoluntas nobis subiacet <lb/>
             aut esse christianum aut non esse. 
 </p>
-          <p>AUG. dixit: Quia uoluntas nobis adiacet. manifestum est <lb/>
+               <p>AUG. dixit: Quia uoluntas nobis adiacet. manifestum est <lb/>
             et hoc de diuinis scripturis docui; quod coactus est etiam
 
 <note type="footnote"> 4 Bom. 6, 20 16 Rom. 7. 12 sq. </note>
-
-<note type="footnote"> 5 habundarct <hi rend="italic">B</hi> 6 habundauit <hi rend="italic">R</hi> 7 enpcrhabundaait <hi rend="italic">R</hi> et <lb/>
+                  <note type="footnote"> 5 habundarct <hi rend="italic">B</hi> 6 habundauit <hi rend="italic">R</hi> 7 enpcrhabundaait <hi rend="italic">R</hi> et <lb/>
             gratia <hi rend="italic">b</hi> 8 «Jistribuentibus <hi rend="italic">T</hi> 11 apostolus idem <hi rend="italic">PR</hi> 12 iustum <lb/>
             et sanctum <hi rend="italic">Pb</hi> 15 sibi <hi rend="italic">om. P</hi> proposuit <hi rend="italic">R</hi> 18 mihi operatum <lb/>
-            sst <hi rend="italic">PSJRb</hi> 19 data-apparebnt <hi rend="italic">ont. R</hi> 28 nudi <hi rend="italic">R</hi> </note><lb n="30"/>
-             
-<pb n="842"/>
+            sst <hi rend="italic">PSJRb</hi> 19 data-apparebnt <hi rend="italic">ont. R</hi> 28 nudi <hi rend="italic">R</hi>
+                  </note>
+                  <lb n="30"/>
+                  <pb n="842"/>
             inuitus dicere etiam ille, qui uos in istum induxit errorem. <lb/>
             quod autem dicis: nemo cogatur. quando uoluero, ero <lb/>
             christianus, nemo te plane cogit; quando uolueris. esto, <lb/>
@@ -2058,18 +2044,15 @@
             sunt, ueritate fulta sint, utrum tu ipse in Manichaei uestri <lb/>
             defensione defeceris, sicut adparet, et quando uolueris, esto <lb/>
             quod nondum es, et desine esse quod es. <lb n="15"/>
-            
-</p>
-          
-</div>
-
-<div n="13" subtype="chapter" type="textpart">
-<p>FEL. dixit: Ecce iam compendiue, ut dixit sanctitas <lb/>
+               </p>
+            </div>
+            <div n="13" type="chapter">
+               <p>FEL. dixit: Ecce iam compendiue, ut dixit sanctitas <lb/>
             tua, ne chartas cumulemus: si tibi placet, quod petiui pridem, <lb/>
             huc ueni; ostende mihi ueritatem, ut illud, quod teneo, pareat, <lb/>
             quia ueritas non est, et habes me paratum ad credendum. 
 </p>
-          <p>AUG. dixit: Iam quidem quod tenes, satis adparet, quia <lb n="20"/>
+               <p>AUG. dixit: Iam quidem quod tenes, satis adparet, quia <lb n="20"/>
             ueritas non est. absit enim a cordibus ueritatem quaerentium <lb/>
             uel tenentium, ut credant deum substantiam suam necessitate <lb/>
             coactum mersisse daemonum naturae ligandam atque polluendam; <lb/>
@@ -2083,105 +2066,98 @@
             si quid de cognoscenda fide catholica adhuc mouet, ab initio <lb/>
             fidei poteris erudiri. etenim aptum perceptioni ueritatis
 
-<note type="footnote"> <hi rend="italic">3 plane teb 4 pro tua om. R</hi> 6 mabona R enim] <hi rend="italic">autem b</hi> 7 siue <lb/>
+<note type="footnote">
+                     <hi rend="italic">3 plane teb 4 pro tua om. R</hi> 6 mabona R enim] <hi rend="italic">autem b</hi> 7 siue <lb/>
             uoluntas22 uolunutatem <hi rend="italic">alt.]</hi> uero <hi rend="italic">R om. b</hi> 12 est in te b ab utrum\' <hi rend="italic">tres <lb/>
-            versustnras. P 17 cartas TPRb 20 satis om. b 26 irrigandam R tu-</hi> <lb/>
-            tidib <hi rend="italic">28 ipsis damonib\' mers2 b</hi> 30 patefieri tibid <hi rend="italic">32 perceptione TPSR</hi> </note><lb/>
-             
-<pb n="843"/>
+            versustnras. P 17 cartas TPRb 20 satis om. b 26 irrigandam R tu-</hi>
+                     <lb/>
+            tidib <hi rend="italic">28 ipsis damonib\' mers2 b</hi> 30 patefieri tibid <hi rend="italic">32 perceptione TPSR</hi>
+                  </note>
+                  <lb/>
+                  <pb n="843"/>
             incommutabilis facit pia fides: a qua fide quisquis incipere <lb/>
             noluerit, superbus foris remanebit et ad id, quo tendit uel <lb/>
             quo uult peruenire, perduci non poterit. sed quia iam illa <lb/>
             falsitas manifesta est, anathema falsitatem, ut possis incipere <lb/>
             aptus esse ad cognoscendam ueritatem. <lb n="5"/>
-            
-</p>
-          
-</div>
-
-<div n="14" subtype="chapter" type="textpart">
-<p>FEL. dixit: Cum adparuerit mihi; quia mihi non adparet, <lb/>
+               </p>
+            </div>
+            <div n="14" type="chapter">
+               <p>FEL. dixit: Cum adparuerit mihi; quia mihi non adparet, <lb/>
             quia altera mihi non ostensa est, non possum anathemare. 
 </p>
-          <p>AUG. dixit: Anathemandus est error, qui dicit corruptibilem <lb/>
+               <p>AUG. dixit: Anathemandus est error, qui dicit corruptibilem <lb/>
             deum, an non est anathemandus ? 
 </p>
-          <p>FEL. dixit: Iterum dic. <lb n="10"/>
-            
-</p>
-          <p>AUG. dixit: Anathemandus est error, qui dicit corruptibilem <lb/>
+               <p>FEL. dixit: Iterum dic. <lb n="10"/>
+               </p>
+               <p>AUG. dixit: Anathemandus est error, qui dicit corruptibilem <lb/>
             deum, an non est anathemandus ? 
 </p>
-          <p>FEL. dixit: Quaeratur, si dicit. 
+               <p>FEL. dixit: Quaeratur, si dicit. 
 </p>
-          <p>AUG. dixit: Ego hoc interrogaui: qui dicit corruptibilem <lb/>
+               <p>AUG. dixit: Ego hoc interrogaui: qui dicit corruptibilem <lb/>
             deum, anathemandus est, an non ? <lb n="15"/>
-            
-</p>
-          <p>FEL. dixit: Qui dicit corruptibilem deum, anathemandus <lb/>
+               </p>
+               <p>FEL. dixit: Qui dicit corruptibilem deum, anathemandus <lb/>
             est . hoc mihi obicis? 
 </p>
-          <p>AUG. dixit: Hoc interrogo. 
+               <p>AUG. dixit: Hoc interrogo. 
 </p>
-          <p>FEL. dixit: Corruptibilem deum dicis, non autem quod <lb/>
+               <p>FEL. dixit: Corruptibilem deum dicis, non autem quod <lb/>
             primo dixisti, quia partem suam dedit aduersariis ? <lb n="20"/>
-            
-</p>
-          <p>AUG. dixit: Interim quod interrogo responde: qui dicit <lb/>
+               </p>
+               <p>AUG. dixit: Interim quod interrogo responde: qui dicit <lb/>
             corruptibilem deum esse, anathemandus est, an non? 
 </p>
-          <p>FEL. dixit: Ualde. 
+               <p>FEL. dixit: Ualde. 
 </p>
-          <p>AUG. dixit: Qui dicit corruptibilem esse naturam et substantiam <lb/>
+               <p>AUG. dixit: Qui dicit corruptibilem esse naturam et substantiam <lb/>
             dei, anathemandus est, an non ? <lb n="25"/>
-            
+               </p>
+               <p>FEL. dixit: Non intellexi, quod dixisti. 
 </p>
-          <p>FEL. dixit: Non intellexi, quod dixisti. 
-</p>
-          <p rend="script">AUG. dixit: Hoc dico, quod omnis homo intellegit, qui <lb/>
+               <p rend="script">AUG. dixit: Hoc dico, quod omnis homo intellegit, qui <lb/>
             non se fingit non intellegere: naturam et substantiam dei, id <lb/>
             est illud ipsum, quicquid est deus, qui dicit corruptibilem <lb/>
             esse, anathemandus est, an non ?
 
 <note rend="script" type="footnote"> Ua. <lb/>
             -2 uolncrit (?) <hi rend="italic">B</hi> 3 perduci <hi rend="italic">om. b</hi> 4 anathema <hi rend="italic">T* (ubiqtte</hi> tisa <lb/>
-            <hi rend="italic">fn. 2 superscr.)</hi> 5 cognoscenda <hi rend="italic">b</hi> 6 paret <hi rend="italic">PJB6</hi> 7 non est ost. <hi rend="italic">b</hi> anathematizare<lb/>
-             <hi rend="italic">b (ubtque forma exiens</hi> in <hi rend="italic">tizare)</hi> 10 <hi rend="italic">tres uersus inde a</hi> <lb/>
+                     <hi rend="italic">fn. 2 superscr.)</hi> 5 cognoscenda <hi rend="italic">b</hi> 6 paret <hi rend="italic">PJB6</hi> 7 non est ost. <hi rend="italic">b</hi> anathematizare<lb/>
+                     <hi rend="italic">b (ubtque forma exiens</hi> in <hi rend="italic">tizare)</hi> 10 <hi rend="italic">tres uersus inde a</hi>
+                     <lb/>
             Felix dixit\' <hi rend="italic">usque ad</hi> 4aoatheinandus\' <hi rend="italic">om. R</hi> 22 an] ant <hi rend="italic">T</hi> 27 nisi<lb/>
-             qui se fingit <hi rend="italic">Pb</hi> 29 esse corruptibilem <hi rend="italic">PRb</hi> 30 an nõ 5 <hi rend="italic">b</hi> </note><lb n="30"/>
-            
-<pb n="844"/>
-            
-</p>
-          <p>FEL. dixit: Etiam anathemandus est. si probatum fuerit <lb/>
+             qui se fingit <hi rend="italic">Pb</hi> 29 esse corruptibilem <hi rend="italic">PRb</hi> 30 an nõ 5 <hi rend="italic">b</hi>
+                  </note>
+                  <lb n="30"/>
+                  <pb n="844"/>
+               </p>
+               <p>FEL. dixit: Etiam anathemandus est. si probatum fuerit <lb/>
             esse uerum. 
 </p>
-          <p>AUG. dixit: Nondum tibi dixi. quia Manichaeus dicit corruptibilem <lb/>
+               <p>AUG. dixit: Nondum tibi dixi. quia Manichaeus dicit corruptibilem <lb/>
             naturam dei: sed hoc tibi dixi, quia quicumque <lb/>
             hoc dicit, anathemandus est <lb n="5"/>
-            
+               </p>
+               <p>FEL. dixit: Et ego respondi: etiam. 
 </p>
-          <p>FEL. dixit: Et ego respondi: etiam. 
-</p>
-          
-</div>
-
-<div n="15" subtype="chapter" type="textpart">
-<p>AUG. dixit: Pars illa, quae mixta est genti tenebrarum, <lb/>
+            </div>
+            <div n="15" type="chapter">
+               <p>AUG. dixit: Pars illa, quae mixta est genti tenebrarum, <lb/>
             de dei natura est, an de alia aliqua natura? 
 </p>
-          <p>FEL. dixit: De dei. 
+               <p>FEL. dixit: De dei. 
 </p>
-          <p>AUG. dixit: Quod de dei natura est, hoc est, quod deus<lb n="10"/>
+               <p>AUG. dixit: Quod de dei natura est, hoc est, quod deus<lb n="10"/>
             est, an aliud quid. quod non est deus? 
 </p>
-          <p>FEL dixit: Ita est . quod de deo est. deus est, secundum <lb/>
+               <p>FEL dixit: Ita est . quod de deo est. deus est, secundum <lb/>
             quod et scriptum est: lux lucet in tenebris et tenebrae <lb/>
             eam non conprehenderunt; deus enim lumen est et <lb/>
             tenebrae in eo non sunt. <lb n="15"/>
-            
-</p>
-          <p>AUG. dixit: Bene respondisti, quia et quicquid de dei <lb/>
+               </p>
+               <p>AUG. dixit: Bene respondisti, quia et quicquid de dei <lb/>
             natura est, deus est et deus lux est et tenebrae in eo non <lb/>
             sunt; et talis lux luxit in tenebris et tenebrae eam non conprehenderunt. <lb/>
             uideamus ergo, utrum Manichaeus partem dei <lb/>
@@ -2196,18 +2172,19 @@
             Manichaeus ergo anathemandus, qui dixit, quia <lb/>
             lux tenebrata est in tenebris et tenebrae eam conprehenderunt,. 
 </p>
-          <p>FEL. dixit: Sed et qui polluitur et qui tenetur, liberatur; <lb n="30"/>
+               <p>FEL. dixit: Sed et qui polluitur et qui tenetur, liberatur; <lb n="30"/>
             et nos si polluti sumus, mundamur. 
 </p>
-          <p>AUG. dixit: Sed hoc de dei natura non recte dicitur. sed
+               <p>AUG. dixit: Sed hoc de dei natura non recte dicitur. sed
 
 <note type="footnote"> 18 Ioh. l, 5 </note>
-
-<note type="footnote"> 6 quicQqae hoc dicit: etiam <hi rend="italic">b</hi> 7 quae tenebrarum genti mixta est <hi rend="italic">R</hi> <lb/>
-            8 aliqua alia <hi rend="italic">b</hi> 10 deus egt] deus <hi rend="italic">PSRb</hi> 13 <hi rend="italic">pr</hi>. et <hi rend="italic">om. PR, s. I. S</hi> <lb/>
-            20 dicat esse compreh. <hi rend="italic">PR</hi> 22 hoc li </note><lb/>
-             
-<pb n="845"/>
+                  <note type="footnote"> 6 quicQqae hoc dicit: etiam <hi rend="italic">b</hi> 7 quae tenebrarum genti mixta est <hi rend="italic">R</hi>
+                     <lb/>
+            8 aliqua alia <hi rend="italic">b</hi> 10 deus egt] deus <hi rend="italic">PSRb</hi> 13 <hi rend="italic">pr</hi>. et <hi rend="italic">om. PR, s. I. S</hi>
+                     <lb/>
+            20 dicat esse compreh. <hi rend="italic">PR</hi> 22 hoc li </note>
+                  <lb/>
+                  <pb n="845"/>
             de illa, quae pollui potest, recte dicitur, quia polluitur et <lb/>
             mundatur; de illa uero, quae pollui non potest, uides cum <lb/>
             quanto sacrilegio dicatur polluitur et mundatur\', maxime quia <lb/>
@@ -2216,31 +2193,28 @@
             hoc qui non anathemat, falsum paulo ante respondit, <lb/>
             quia omnis, qui dicit corruptibilem deum, anathemandus est. 
 </p>
-          
-</div>
-
-<div n="16" subtype="chapter" type="textpart">
-<p>FEL. dixit: Hoc, quod dixit sanctitas tua, quia pars, quae <lb/>
+            </div>
+            <div n="16" type="chapter">
+               <p>FEL. dixit: Hoc, quod dixit sanctitas tua, quia pars, quae <lb/>
             se non mundauit ab coinquinatione gentis tenebrarum . et sic <lb/>
             dicit Manichaeus, quia non sunt missi in regnum dei. hoc <lb n="10"/>
             enim adseris tu, quia damnati sunt; sed Manichaeus hoc dicit, <lb/>
             quia non damnati sunt, sed ad custodiam positi sunt illius <lb/>
             gentis tenebrarum. -
 </p>
-          <p>AUG. dixit: De ista parte tecum ago, quam dicis pollutam <lb/>
+               <p>AUG. dixit: De ista parte tecum ago, quam dicis pollutam <lb/>
             purgari: postea, si opus fuerit, de illa, quae figitur in globo <lb n="15"/>
             eius. interim quae purgatur, polluta erat. 
 </p>
-          <p>FEL. dixit: Quae polluitur, et mundatur. 
+               <p>FEL. dixit: Quae polluitur, et mundatur. 
 </p>
-          <p>AUG. dixit: Qui ergo dicit naturam dei et substantiam dei <lb/>
+               <p>AUG. dixit: Qui ergo dicit naturam dei et substantiam dei <lb/>
             et id quod deus est, posse pollui, ligari, inquinari a gente <lb/>
              tenebrarum, non est anathemandus ? <lb n="20"/>
-            
+               </p>
+               <p>FEL. dixit: Christus unde nos mundauit ? unde nos liberauit ? 
 </p>
-          <p>FEL. dixit: Christus unde nos mundauit ? unde nos liberauit ? 
-</p>
-          <p>AUG. dixit: Christus non partem dei, non naturam dei <lb/>
+               <p>AUG. dixit: Christus non partem dei, non naturam dei <lb/>
             liberauit, sed facturam, quam fecit, in peccatum cadentem <lb/>
             per liberum arbitrium sua misericordia liberauit. eam rem <lb/>
             mundauit, quae pollui poterat, eam rem liberauit, quae captiuari <lb n="25"/>
@@ -2248,23 +2222,23 @@
             autem de deo, de natura dei, de substantia dei, de eo, quod <lb/>
             deus est, loquimur . poterat pollui, an non poterat? 
 </p>
-          
-</div>
-
-<div n="17" subtype="chapter" type="textpart">
-<p>FEL. dixit: Anima nostra ex deo est. quae polluta est? <lb/>
+            </div>
+            <div n="17" type="chapter">
+               <p>FEL. dixit: Anima nostra ex deo est. quae polluta est? <lb/>
             si non est ei deo, utquid pro illa Christus crucifixus est ? si <lb/>
             ergo paret, quia Christus propter animam nostram crucifixus <lb/>
             est, paret, quia ex deo est et polluta erat et ipse eam mundauit.
 
 <note rend="script" type="footnote"> 3 mandatur pcfim (?) R 6 quod R 9 non] nunc <hi rend="italic">R</hi> 11 sedsuiit <lb/>
-            <hi rend="italic">om. It</hi> non hoc dicit <hi rend="italic">b</hi> 18 et subntantiam dei <hi rend="italic">om. B</hi> <lb/>
-            21 pr. unde] enim <hi rend="italic">b</hi> 27 eo] deo <hi rend="italic">P22</hi> 28 aa non polluti <hi rend="italic">R</hi> <lb/>
-            30 xpe pro <hi rend="italic">illu PR</hi> 32 quod JS eara] illam <hi rend="italic">PR</hi> </note>
-<pb n="846"/>
-            
-</p>
-          <p>AUG. dixit: Ego non solum animam, sed et corpus nostrum <lb/>
+                     <hi rend="italic">om. It</hi> non hoc dicit <hi rend="italic">b</hi> 18 et subntantiam dei <hi rend="italic">om. B</hi>
+                     <lb/>
+            21 pr. unde] enim <hi rend="italic">b</hi> 27 eo] deo <hi rend="italic">P22</hi> 28 aa non polluti <hi rend="italic">R</hi>
+                     <lb/>
+            30 xpe pro <hi rend="italic">illu PR</hi> 32 quod JS eara] illam <hi rend="italic">PR</hi>
+                  </note>
+                  <pb n="846"/>
+               </p>
+               <p>AUG. dixit: Ego non solum animam, sed et corpus nostrum <lb/>
             et omnem creaturam et spiritalem et corporalem ex deo dico <lb/>
             esse, quia hoc habet catholica fides. sed aliud est, quod de <lb/>
             se deus genuit, quod hoc est, quod ipse; aliud autem, quod <lb/>
@@ -2298,34 +2272,31 @@
             ligatam atque pollutam, ut indigeat solui et mundari.
 
 <note type="footnote"> 8 cf. Ioh. 1, 3 10 cf. Ps. 148, 5 </note>
-
-<note type="footnote"> 1 et <hi rend="italic">om.. b</hi> 2 esse dico <hi rend="italic">b</hi> 10 est anima] examina <hi rend="italic">M</hi> 16 misericordif <lb/>
-            <hi rend="italic">PRb</hi> 19 deprauatum fuerat <hi rend="italic">b</hi> 21 et quid sustinendum <hi rend="italic">om. li</hi> <lb/>
-            30 esse manicheam PSR <hi rend="italic">esse om. b 31 id om.b</hi> huc] hic22 <hi rend="italic">32 et] ac PRb</hi> </note>
-<pb n="847"/>
-            
+                  <note type="footnote"> 1 et <hi rend="italic">om.. b</hi> 2 esse dico <hi rend="italic">b</hi> 10 est anima] examina <hi rend="italic">M</hi> 16 misericordif <lb/>
+                     <hi rend="italic">PRb</hi> 19 deprauatum fuerat <hi rend="italic">b</hi> 21 et quid sustinendum <hi rend="italic">om. li</hi>
+                     <lb/>
+            30 esse manicheam PSR <hi rend="italic">esse om. b 31 id om.b</hi> huc] hic22 <hi rend="italic">32 et] ac PRb</hi>
+                  </note>
+                  <pb n="847"/>
+               </p>
+            </div>
+            <div n="18" type="chapter">
+               <p>FEL. dixit: Hoc tu dixisti de anima, quia ex deo non est? 
 </p>
-          
-</div>
-
-<div n="18" subtype="chapter" type="textpart">
-<p>FEL. dixit: Hoc tu dixisti de anima, quia ex deo non est? 
-</p>
-          <p>AUG. dixit: Non dixi; sed dixi, quia ex deo est, tamquam <lb/>
+               <p>AUG. dixit: Non dixi; sed dixi, quia ex deo est, tamquam <lb/>
             a deo facta, non tamquam de deo nata. 
 </p>
-          <p>FEL. dixit: Dixisti de anima, quia non est ex deo, sed <lb/>
+               <p>FEL. dixit: Dixisti de anima, quia non est ex deo, sed <lb/>
             factura dei, quia sine deo nihil est; hoc enim dicis tu et <lb n="5"/>
             non uis adseuerare, quia ex deo est anima. 
 </p>
-          <p>AUG. dixit: A deo est, sed facta a deo. 
+               <p>AUG. dixit: A deo est, sed facta a deo. 
 </p>
-          <p>FEL. dixit: Aut facta aut missa aut data, ex deo est. ergo <lb/>
+               <p>FEL. dixit: Aut facta aut missa aut data, ex deo est. ergo <lb/>
             si ex deo est et polluta est et uenit Christus liberare eam <lb/>
             de pollutione, quid culpas Manichaeum ? <lb n="10"/>
-            
-</p>
-          <p>AUG. dixit: Quia ego dico animam non naturam dei, sed <lb/>
+               </p>
+               <p>AUG. dixit: Quia ego dico animam non naturam dei, sed <lb/>
             factam a deo per liberum arbitrium peccasse et peccato esse <lb/>
             pollutam et per dei misericordiam in paenitentia liberatam; <lb/>
             tu autem ipsam naturam dei. quod deus est, deum de deo <lb/>
@@ -2334,9 +2305,9 @@
             de se, sed ex nihilo, id est cum omnino non esset, a deo <lb/>
             accepit, ut esset, id est ut institueretur. 
 </p>
-          <p>FEL dixit: Ergo pars dei est. 
+               <p>FEL dixit: Ergo pars dei est. 
 </p>
-          <p>AUG. dixit: Iam tibi dictum est, non est pars dei; et accipe, <lb n="20"/>
+               <p>AUG. dixit: Iam tibi dictum est, non est pars dei; et accipe, <lb n="20"/>
             quomodo intellegas deum omnipotentem factorem. omnia, quae <lb/>
             fiunt et quod quisque facit, aut de se est aut ex aliquo aut <lb/>
             ei nihilo. homo quia non est omnipotens, de se filium facit, <lb/>
@@ -2350,16 +2321,15 @@
             suam in omnibus ualentem. quia de se quod fecit, nec fecisse
 
 <note type="footnote"> 3 a deo nata <hi rend="italic">PSS</hi> ex deo nata <hi rend="italic">b</hi> 7 facta est <hi rend="italic">PRSb</hi> 8 facta 6 aut <lb/>
-            <hi rend="italic">missa S b</hi> 9 eam] <hi rend="italic">illam PSR</hi> eam liberare <hi rend="italic">b</hi> ]2 a] ex <hi rend="italic">TSS</hi> 16 deus <lb/>
-            <hi rend="italic">om. B</hi> 17 de] ex <hi rend="italic">b</hi> 22 de] ex <hi rend="italic">R</hi> 24 archam <hi rend="italic">TR</hi> et ex argento b <lb/>
+                     <hi rend="italic">missa S b</hi> 9 eam] <hi rend="italic">illam PSR</hi> eam liberare <hi rend="italic">b</hi> ]2 a] ex <hi rend="italic">TSS</hi> 16 deus <lb/>
+                     <hi rend="italic">om. B</hi> 17 de] ex <hi rend="italic">b</hi> 22 de] ex <hi rend="italic">R</hi> 24 archam <hi rend="italic">TR</hi> et ex argento b <lb/>
             25 uaeiculQ b 26 facere lignum] lignum <hi rend="italic">P</hi> 27 ullas R 29 genuit <lb/>
-            <hi rend="italic">om. T</hi> 30 exceptionem <hi rend="italic">S</hi> </note>
-
-<note type="footnote"> XXV . Aug. seet. 6 (parb 8). </note>
-
-<note type="footnote"> 54 </note><lb/>
-             
-<pb n="848"/>
+                     <hi rend="italic">om. T</hi> 30 exceptionem <hi rend="italic">S</hi>
+                  </note>
+                  <note type="footnote"> XXV . Aug. seet. 6 (parb 8). </note>
+                  <note type="footnote"> 54 </note>
+                  <lb/>
+                  <pb n="848"/>
             dicendus est, sed genuisse. quod autem ex aliquo, sicut de <lb/>
             terra hominem, non sic fecit hominem de terra, ut alius ei <lb/>
             fecerit ipsam terram, unde faceret hominem. quomodo fecit <lb/>
@@ -2385,47 +2355,45 @@
             sed mutabile. ideo et per liberum arbitrium peccare et pollui <lb/>
             potuit et per eius misericordiam liberari. 
 </p>
-          
-</div>
-
-<div n="19" subtype="chapter" type="textpart">
-<p>FEL. dixit: Dixisti hominem fecisse sibi filium; nihil. <lb n="25"/>
+            </div>
+            <div n="19" type="chapter">
+               <p>FEL. dixit: Dixisti hominem fecisse sibi filium; nihil. <lb n="25"/>
             interest inter patrem et filium. quia hoc ergo protulit sanctitas <lb/>
             tua, et ego respondeo, quia deus et quae facit aequalia sunt sibi. 
 </p>
-          <p>AUG. dixit: Quod intellegere noluisti, quia homo, cum <lb/>
+               <p>AUG. dixit: Quod intellegere noluisti, quia homo, cum <lb/>
             filium facit, non facere proprie dicitur, sed proprie generare <lb/>
             dicitur, sic et deus unicum filium genuit\' dixi tibi, non fecit.
 
 <note type="footnote"> 20 Ex. 3, 14 </note>
-
-<note type="footnote"> 2 aliud <hi rend="italic">R</hi> 3 deus fecit <hi rend="italic">PR</hi> 4 ex argentario <hi rend="italic">R</hi> faceret <hi rend="italic">b</hi> 5 <hi rend="italic">pr</hi>. et <lb/>
+                  <note type="footnote"> 2 aliud <hi rend="italic">R</hi> 3 deus fecit <hi rend="italic">PR</hi> 4 ex argentario <hi rend="italic">R</hi> faceret <hi rend="italic">b</hi> 5 <hi rend="italic">pr</hi>. et <lb/>
             quodjutquodft llipsnmi2 12 oino incommut. b 13 tibi sit5 mutabile <lb/>
             esse <hi rend="italic">SRb</hi> 15 deus fecit <hi rend="italic">b</hi> 16 mutabile] imnutabile <hi rend="italic">R</hi> 17 sacrilegio] proruulio <lb/>
-            (?) <hi rend="italic">R</hi> 19 dixit etiam <hi rend="italic">PR</hi> 21 ipse Incommutabilis <hi rend="italic">PSRb</hi> <lb/>
-            23 <hi rend="italic">pr</hi>. et <hi rend="italic">om. R</hi> 25 et nihil <hi rend="italic">R</hi> 26 ergo hoc <hi rend="italic">b</hi> 29 generare proprie <hi rend="italic">b</hi> <lb/>
-            80 sic] sicut <hi rend="italic">R</hi> filium unicum <hi rend="italic">PSRb</hi>. </note><lb n="30"/>
-             
-<pb n="849"/>
+            (?) <hi rend="italic">R</hi> 19 dixit etiam <hi rend="italic">PR</hi> 21 ipse Incommutabilis <hi rend="italic">PSRb</hi>
+                     <lb/>
+            23 <hi rend="italic">pr</hi>. et <hi rend="italic">om. R</hi> 25 et nihil <hi rend="italic">R</hi> 26 ergo hoc <hi rend="italic">b</hi> 29 generare proprie <hi rend="italic">b</hi>
+                     <lb/>
+            80 sic] sicut <hi rend="italic">R</hi> filium unicum <hi rend="italic">PSRb</hi>. </note>
+                  <lb n="30"/>
+                  <pb n="849"/>
             fecit autem illud, quod aequale ei non est; quod autem genuit, <lb/>
             aequale illi est. itaque elige tibi, utrum uelis dicere mutabilem <lb/>
             dei facturam, an mutabilem dei naturam. 
 </p>
-          <p>FEL. dixit: Quomodo deus inmutabilis est, similiter, quem <lb/>
+               <p>FEL. dixit: Quomodo deus inmutabilis est, similiter, quem <lb/>
             genuit, inmutabilis est, et quod fecit, si de ipsius natura est, <lb n="5"/>
             non mutatur. 
 </p>
-          <p>AUG. dixit: Sed iam tibi dictum est, quia quod fecit, non <lb/>
+               <p>AUG. dixit: Sed iam tibi dictum est, quia quod fecit, non <lb/>
             de ipsius natura est, sed ex nihilo fecit, quia omnipotens est. <lb/>
             non erat, et fecit, non de se, non de aliqua re, quam ipse <lb/>
             non fecerat, sed ex nihilo. <lb n="10"/>
-            
-</p>
-          <p>FEL. dixit: Ego non hoc dixi, sed dixi: quia deus inmutabilis <lb/>
+               </p>
+               <p>FEL. dixit: Ego non hoc dixi, sed dixi: quia deus inmutabilis <lb/>
             est, et quod genuit inmutabile est, et quod fecit inmutabile <lb/>
             est. non dixi, unde illud fecit; non hoc quaesiui, unde fecerit. 
 </p>
-          <p>AUG. dixit: Sed a me audisti, quod non quaesisti, ut iam <lb/>
+               <p>AUG. dixit: Sed a me audisti, quod non quaesisti, ut iam <lb/>
             desineres stulta loqui. omnipotens deus et de se potuit generare <lb n="15"/>
             et de nihilo facere et ex eo, quod iam fecerat, aliquid <lb/>
             formare: de se filium aequalem sibi; de nihilo mundum et <lb/>
@@ -2442,24 +2410,23 @@
             forte non posset, aut anathema illum talia dicentem, <lb/>
             aut tu cum illo anathemandus es et abiciendus. 
 </p>
-          
-</div>
-
-<div n="20" subtype="chapter" type="textpart">
-<p>FEL. dixit: Manichaeus dicit, quia polluta est pars <lb n="30"/>
+            </div>
+            <div n="20" type="chapter">
+               <p>FEL. dixit: Manichaeus dicit, quia polluta est pars <lb n="30"/>
             dei; et Christus dicit. quia polluta est anima, et uenit liberare <lb/>
             illam de pollutione.
 
-<note type="footnote"> 1 et aequale <hi rend="italic">FR</hi> non eat ei <hi rend="italic">P</hi> 2 est illi <hi rend="italic">b</hi> 4 mutabilia <hi rend="italic">B</hi> <lb/>
+<note type="footnote"> 1 et aequale <hi rend="italic">FR</hi> non eat ei <hi rend="italic">P</hi> 2 est illi <hi rend="italic">b</hi> 4 mutabilia <hi rend="italic">B</hi>
+                     <lb/>
             6 mutatoi. Sed de nihilo fecit, quia opus non mntatar <hi rend="italic">b</hi> 8 sed — <lb/>
-            eet om. <hi rend="italic">b</hi> 9 non-fecerat <hi rend="italic">om. R</hi> 20 nec ipse <hi rend="italic">b</hi> ipse est <hi rend="italic">R</hi> illo est <hi rend="italic">R</hi> <lb/>
-            27 hiis <hi rend="italic">PR</hi> peius] penes <hi rend="italic">R</hi> 29 et] aut <hi rend="italic">R</hi> </note>
-
-<note type="footnote"> 54* </note> 
-<pb n="850"/>
-            
-</p>
-          <p>AUG. dixit: Sed anima non est pars dei. nam tu iam confessus <lb/>
+            eet om. <hi rend="italic">b</hi> 9 non-fecerat <hi rend="italic">om. R</hi> 20 nec ipse <hi rend="italic">b</hi> ipse est <hi rend="italic">R</hi> illo est <hi rend="italic">R</hi>
+                     <lb/>
+            27 hiis <hi rend="italic">PR</hi> peius] penes <hi rend="italic">R</hi> 29 et] aut <hi rend="italic">R</hi>
+                  </note>
+                  <note type="footnote"> 54* </note>
+                  <pb n="850"/>
+               </p>
+               <p>AUG. dixit: Sed anima non est pars dei. nam tu iam confessus <lb/>
             es, quia Manichaeus dixit pollutam partem dei; nos <lb/>
             autem pollutam dicimus animam ex uoluntate peccati; non <lb/>
             esse autem animam partem dei, non de deo genitam, sed a <lb/>
@@ -2474,38 +2441,39 @@
             quia polluitur, et non habes, unde euadas. et Manichaeus et <lb/>
             tu dixisti. quia polluitur pars dei. anathema ergo Manichaeum <lb/>
             aut anathemandus es cum Manichaeo. <lb n="15"/>
-            
-</p>
-          <p>FEL. dixit: Ego non a Manichaeo didici, quia polluta est <lb/>
+               </p>
+               <p>FEL. dixit: Ego non a Manichaeo didici, quia polluta est <lb/>
             pars dei, sed a Christo didici. quia propter animam uenit, <lb/>
             quae polluta erat.. 
 </p>
-          <p>AUG. dixit: A Christo non didicisti, quia anima pars dei est. 
+               <p>AUG. dixit: A Christo non didicisti, quia anima pars dei est. 
 </p>
-          <p>FEL. dixit: A Christo didici, quia anima ex deo est. <lb n="20"/>
-            
-</p>
-          <p>AUG. dixit: Et nos didicimus, quia anima ex deo est, sed <lb/>
+               <p>FEL. dixit: A Christo didici, quia anima ex deo est. <lb n="20"/>
+               </p>
+               <p>AUG. dixit: Et nos didicimus, quia anima ex deo est, sed <lb/>
             non" est pars dei." sic est enim anima ex deo, quomodo <lb/>
             factura ex artifice, non de deo, sicut filius de patre. 
 </p>
-          <p>FEL. dixit: De pollutione agimus . si polluta est anima, <lb/>
+               <p>FEL. dixit: De pollutione agimus . si polluta est anima, <lb/>
             quae ex deo est, et potest purgari a Christo, qui pro illa <lb n="25"/>
             uenit, et illa pars dei, quam Manichaeus dicit, pollui potest <lb/>
             et mundari per mandatum ipsius dei. 
 </p>
-          <p>AUG. dixit: Ecce iterum dicis partem dei pollutam purgari <lb/>
+               <p>AUG. dixit: Ecce iterum dicis partem dei pollutam purgari <lb/>
             et paulo ante dixeras anathemandum esse, qui illam dicit <lb/>
             corruptibilem; modo dicis, quia pollui potuit, et dicis, quia <lb n="30"/>
             mundari potest. ut confirmes, quia pollui potuit. hoc nos de
 
-<note type="footnote"> 1 iam tu <hi rend="italic">b</hi> 4 autem esse <hi rend="italic">b</hi> 8 es <hi rend="italic">om. B</hi> 10 anathematizasti <hi rend="italic">b</hi> <lb/>
-            1: ipso] ipsum <hi rend="italic">PSBb</hi> 13 habet <hi rend="italic">b</hi> et manicheus et tu. Dixisti <hi rend="italic">TS</hi> <lb/>
-            15 anathematizandus <hi rend="italic">b</hi> cum eo <hi rend="italic">T</hi> 17 dl] xpi <hi rend="italic">R</hi> 21 dicimus <hi rend="italic">TS</hi> <lb/>
+<note type="footnote"> 1 iam tu <hi rend="italic">b</hi> 4 autem esse <hi rend="italic">b</hi> 8 es <hi rend="italic">om. B</hi> 10 anathematizasti <hi rend="italic">b</hi>
+                     <lb/>
+            1: ipso] ipsum <hi rend="italic">PSBb</hi> 13 habet <hi rend="italic">b</hi> et manicheus et tu. Dixisti <hi rend="italic">TS</hi>
+                     <lb/>
+            15 anathematizandus <hi rend="italic">b</hi> cum eo <hi rend="italic">T</hi> 17 dl] xpi <hi rend="italic">R</hi> 21 dicimus <hi rend="italic">TS</hi>
+                     <lb/>
             28 dixisti <hi rend="italic">PR</hi> 29 anathematizandfl <hi rend="italic">(forma in tizo exiens omn. fere<lb/>
-             loc.) b</hi> 30 et] hoc <hi rend="italic">ti</hi>. </note><lb/>
-             
-<pb n="851"/>
+             loc.) b</hi> 30 et] hoc <hi rend="italic">ti</hi>. </note>
+                  <lb/>
+                  <pb n="851"/>
             parte dei non dicimus, sed de anima dicimus, quae tamquam <lb/>
             opus eius ex ipso est, non tamquam proles de ipso. redi ergo <lb/>
             ad id, quod dicis, et discerne, quod dicimus: anima nec deus <lb/>
@@ -2513,35 +2481,31 @@
             partem dei, quam dicit purgari, ut confirmet, quia polluitur. <lb n="5"/>
             restat ergo, ut eum anathemes aut ista sentiens anathemeris. 
 </p>
-          
-</div>
-
-<div n="21" subtype="chapter" type="textpart">
-<p>PEL. dixit: Pertinet ad deum anima, quae per peccatum <lb/>
+            </div>
+            <div n="21" type="chapter">
+               <p>PEL. dixit: Pertinet ad deum anima, quae per peccatum <lb/>
             coinquinata est, an non ? 
 </p>
-          <p>AUG. dixit: Pertinet, sed non est pars eius. 
+               <p>AUG. dixit: Pertinet, sed non est pars eius. 
 </p>
-          <p>FEL. dixit: Non hoc interrogaui. <lb n="10"/>
-            
+               <p>FEL. dixit: Non hoc interrogaui. <lb n="10"/>
+               </p>
+               <p>AUG. dixit: Et quid interrogasti ? 
 </p>
-          <p>AUG. dixit: Et quid interrogasti ? 
+               <p>FEL. dixit: Pertinet ad deum, an non pertinet? 
 </p>
-          <p>FEL. dixit: Pertinet ad deum, an non pertinet? 
+               <p>AUG. dixit: Iam dixi, et quia pertinet et quomodo pertineat. 
 </p>
-          <p>AUG. dixit: Iam dixi, et quia pertinet et quomodo pertineat. 
+               <p>FEL. dixit: Ego quaero, utrum est ex deo. 
 </p>
-          <p>FEL. dixit: Ego quaero, utrum est ex deo. 
-</p>
-          <p>AUG. dixit: Ex deo, non de deo. <lb n="15"/>
-            
-</p>
-          <p>FEL. dixit: Si nihil peccatum est, quia ex deo est et polluta <lb/>
+               <p>AUG. dixit: Ex deo, non de deo. <lb n="15"/>
+               </p>
+               <p>FEL. dixit: Si nihil peccatum est, quia ex deo est et polluta <lb/>
             est et uenit Christus liberare eam et eam liberauit a <lb/>
             peccato, quid culpamus Manichaeum, qui dicit partem dei <lb/>
             pollutam esse et iterum mundari? 
 </p>
-          <p>AUG. dixit: Quia iam confessus es Manichaeum dixisse <lb n="20"/>
+               <p>AUG. dixit: Quia iam confessus es Manichaeum dixisse <lb n="20"/>
             partem dei esse pollutam et dicis non esse peccatum talem <lb/>
             blasphemiam in deum effundere. nos autem dicimus quidem <lb/>
             peccasse animam per liberum arbitrium et paenitendo purgari <lb/>
@@ -2554,48 +2518,45 @@
             et te dicere manifestum est — quia noluisti. ut esset <lb n="30"/>
             a te anathematus, eris cum illo anathematus. 
 </p>
-          
-</div>
-
-<div n="22" subtype="chapter" type="textpart">
-<p>Post haec cum multis uerbis inter se agerent, FEL. dixit:
+            </div>
+            <div n="22" type="chapter">
+               <p>Post haec cum multis uerbis inter se agerent, FEL. dixit:
 </p>
-          <p>Dic iam, quid uis faciam ?
+               <p>Dic iam, quid uis faciam ?
 
 <note type="footnote"> 1 qllia <hi rend="italic">PRb</hi> 13 et quia] quia R 14 (uere <hi rend="italic">b)</hi> ex deo est <hi rend="italic">PRb</hi> 16 quia] <lb/>
             ei anima <hi rend="italic">b ed. Maur</hi>. 18 dixit <hi rend="italic">Pb</hi> 22 peccasse quide <hi rend="italic">b</hi> 29 naturam <lb/>
-            dei <hi rend="italic">PSRb</hi> 30 et te <hi rend="italic">om. b</hi> a te esset <hi rend="italic">PR</hi> 33 iam] iam tu <hi rend="italic">B</hi> quis <hi rend="italic">R</hi> </note>
-<pb n="852"/>
+            dei <hi rend="italic">PSRb</hi> 30 et te <hi rend="italic">om. b</hi> a te esset <hi rend="italic">PR</hi> 33 iam] iam tu <hi rend="italic">B</hi> quis <hi rend="italic">R</hi>
+                  </note>
+                  <pb n="852"/>
             +
 </p>
-          <p>AUG. dixit: (Ut anathemes Manichaeum, cuius sunt tantae <lb/>
+               <p>AUG. dixit: (Ut anathemes Manichaeum, cuius sunt tantae <lb/>
             istae blasphemiae; sed si ex animo facis, tunc fac . nemo <lb/>
             enim te cogit inuitum. 
 </p>
-          <p>FEL. dixit: Deus uidet, si ex animo facio; non enim homo <lb/>
+               <p>FEL. dixit: Deus uidet, si ex animo facio; non enim homo <lb/>
             potest uidere . sed hoc peto, ut confirmes me. <lb n="5"/>
-            
+               </p>
+               <p>AUG. dixit: In quo uis ut confirmem te? 
 </p>
-          <p>AUG. dixit: In quo uis ut confirmem te? 
+               <p>FEL. dixit: Prior tu anathema, ut et ego postea anathemem. 
 </p>
-          <p>FEL. dixit: Prior tu anathema, ut et ego postea anathemem. 
-</p>
-          <p>AUG. dixit: Ecce manu mea etiam scribo; uolo enim, ut <lb/>
+               <p>AUG. dixit: Ecce manu mea etiam scribo; uolo enim, ut <lb/>
             et tu manu tua scribas. 
 </p>
-          <p>FEL. dixit: Sed sic anathema, ut spiritum ipsum, qui in <lb n="10"/>
-            
+               <p>FEL. dixit: Sed sic anathema, ut spiritum ipsum, qui in <lb n="10"/>
+               </p>
+               <p>Manichaeo fuit et per eum ista locutus est, anathemes. 
 </p>
-          <p>Manichaeo fuit et per eum ista locutus est, anathemes. 
-</p>
-          <p>Augustinus accepta charta scripsit haec uerba: Augustinus <lb/>
+               <p>Augustinus accepta charta scripsit haec uerba: Augustinus <lb/>
             ecclesiae catholicae episcopus iam anathemaui Manichaeum <lb/>
             et doctrinam eius et spiritum, qui per eum tam execrabiles <lb/>
             blasphemias locutus est, quia spiritus seductor erat non ueritatis, <lb n="15"/>
             sed nefandi erroris; et nunc anathemo supra dictum <lb/>
             Manichaeum et spiritum erroris ipsius. 
 </p>
-          <p>Et cum eandem chartam Felici dedisset, etiam ille manu <lb/>
+               <p>Et cum eandem chartam Felici dedisset, etiam ille manu <lb/>
             sua haec uerba scripsit: ego Felix, qui Manichaeo credideram, <lb/>
             nunc anathemo eum et doctrinam ipsius et spiritum seductorem, <lb n="20"/>
             qui in illo fuit, qui dixit deum partem suam genti , <lb/>
@@ -2605,26 +2566,24 @@
             reliquias ipsius suae partis configat in aeternum globo tenebrarum. <lb n="25"/>
             has omnes et ceteras blasphemias Manichaei anathemo. 
 </p>
-          <p>Augustinus episcopus his in ecclesia coram populo gestis <lb/>
+               <p>Augustinus episcopus his in ecclesia coram populo gestis <lb/>
             subscripsi. 
 </p>
-          <p rend="script">Felix his gestis subscripsi.
+               <p rend="script">Felix his gestis subscripsi.
 
 <note rend="script" type="footnote"> 6 Angustinus—confirme<hi rend="italic">m om. R</hi> ut <hi rend="italic">(om. b)</hi> te confirmem <hi rend="italic">PSb</hi> 7 Felix] <lb/>
-            aug\' <hi rend="italic">R</hi> 8 ecce enl mani. mea <hi rend="italic">b</hi> 18 episcopus eccleaiae <hi rend="italic">catholicae PSBb</hi> <lb/>
+            aug\' <hi rend="italic">R</hi> 8 ecce enl mani. mea <hi rend="italic">b</hi> 18 episcopus eccleaiae <hi rend="italic">catholicae PSBb</hi>
+                     <lb/>
             anathematizo <hi rend="italic">b</hi> 15 loquutus P 16 nephandi <hi rend="italic">B</hi> 18 cartam <hi rend="italic">T</hi> et <lb/>
-            ille <hi rend="italic">R</hi> 24 feminina <hi rend="italic">b</hi> demonia <hi rend="italic">T</hi> 27 <hi rend="italic">(et</hi> 29) <hi rend="italic">hiis PR</hi> 28 <hi rend="italic">et</hi> 29 scripsi <hi rend="italic">B</hi> <lb/>
-            29 Ezplicit liber Becundus <hi rend="italic">(om. B)</hi> beati <hi rend="italic">tom. SR,</hi> sci <hi rend="italic">P)</hi> aurelii (om. <hi rend="italic">TPB)</hi> <lb/>
-            augustini epi <hi rend="italic">(om. PSB)</hi> contra felicem manicheum <hi rend="italic">TS fol</hi>. 98 <hi rend="italic">Pfoi</hi>. 8 <hi rend="italic">B</hi> </note>
-</p>
-
-</div>
-
-</div>
-
-
-        
-</div>
-</body>
-</text>
+            ille <hi rend="italic">R</hi> 24 feminina <hi rend="italic">b</hi> demonia <hi rend="italic">T</hi> 27 <hi rend="italic">(et</hi> 29) <hi rend="italic">hiis PR</hi> 28 <hi rend="italic">et</hi> 29 scripsi <hi rend="italic">B</hi>
+                     <lb/>
+            29 Ezplicit liber Becundus <hi rend="italic">(om. B)</hi> beati <hi rend="italic">tom. SR,</hi> sci <hi rend="italic">P)</hi> aurelii (om. <hi rend="italic">TPB)</hi>
+                     <lb/>
+            augustini epi <hi rend="italic">(om. PSB)</hi> contra felicem manicheum <hi rend="italic">TS fol</hi>. 98 <hi rend="italic">Pfoi</hi>. 8 <hi rend="italic">B</hi>
+                  </note>
+               </p>
+            </div>
+         </div>
+      </body>
+   </text>
 </TEI>

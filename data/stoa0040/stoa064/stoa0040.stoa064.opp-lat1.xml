@@ -1,100 +1,109 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-    <fileDesc xml:lang="eng">
-      <titleStmt>
-        <title xml:lang="lat">De Utilitate Credendi</title>
-        <editor>Joseph Zycha</editor>
-        <author>Augustine</author>         
-        <sponsor>University of Leipzig</sponsor>
-        <funder>European Social Fund Saxony</funder>
-        <principal>Gregory Crane</principal>
-        <respStmt>
-          <persName xml:id="Jouve">Jouve</persName>
-          <resp>OCR-ed, corrected and encoded the text</resp>
-        </respStmt>
-        <respStmt>
-          <persName>Greta Franzini</persName>
-          <resp>Project Manager (University of Leipzig)</resp>
-        </respStmt>
-        <respStmt>
-          <persName>Simona Stoyanova</persName>
-          <resp>Project Assistant (University of Leipzig)</resp>
-        </respStmt>
-        <respStmt>
-          <persName>Bruce Robertson</persName>
-          <resp>Technical Advisor (Mount Allison University)</resp>
-        </respStmt>
-        <respStmt>
-          <persName>Uvius Fonticola</persName>
-          <resp>Technical Advisor (Ludwig Maximilians University Munich)</resp>
-        </respStmt>
-      </titleStmt>
-      
-      <publicationStmt>
-        <authority>University of Leipzig</authority>
-        <idno type="filename">stoa0040.stoa064.opp-lat1.xml</idno>
-        <availability>
-          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
-        </availability>
-        <date>2014</date>
-        <publisher>University of Leipzig</publisher>
-        <pubPlace>Germany</pubPlace>
-      </publicationStmt>
-      
-      <sourceDesc>
-        <listBibl>
-          <biblStruct>
-            <monogr>
-              <editor>
-                <persName>
-                  <name>Joseph Zycha</name>
-                </persName>
-              </editor> 
-              <author>Augustine</author>  
-              <title xml:lang="lat">Sancti Aureli Augustini Opera</title>
-              <imprint>
-                <publisher>F. Tempsky</publisher>
-                <publisher>G. Freytag</publisher>
-                <pubPlace>Prague</pubPlace>
-                <pubPlace>Vienna</pubPlace>
-                <pubPlace>Leipzig</pubPlace>
-                <date>1891</date>
-              </imprint>
-              <biblScope unit="volume" xml:lang="lat">Sectio VI, Pars I</biblScope>              
-            </monogr>          
-            <series>
-              <title level="s" xml:lang="lat">Corpus scriptorum ecclesiasticorum Latinorum</title>
-              <biblScope unit="volume">25.1</biblScope>
-            </series>
-            <ref target="https://archive.org/details/corpusscriptoru27wissgoog/page/n9/mode/2up">Internet Archive</ref>            
-          </biblStruct>
-        </listBibl>
-      </sourceDesc>
-      
-    </fileDesc>
-    <encodingDesc>
-      <p>The following text is encoded in accordance with EpiDoc standards and with the
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/PerseusDLCode/perseus-schemas/main/perseus_prose.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:lang="eng">
+         <titleStmt>
+            <title xml:lang="lat">De Utilitate Credendi</title>
+            <editor>Joseph Zycha</editor>
+            <author>Augustine</author>
+            <sponsor>University of Leipzig</sponsor>
+            <funder>European Social Fund Saxony</funder>
+            <principal>Gregory Crane</principal>
+            <respStmt>
+               <persName xml:id="Jouve">Jouve</persName>
+               <resp>OCR-ed, corrected and encoded the text</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Greta Franzini</persName>
+               <resp>Project Manager (University of Leipzig)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Simona Stoyanova</persName>
+               <resp>Project Assistant (University of Leipzig)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Bruce Robertson</persName>
+               <resp>Technical Advisor (Mount Allison University)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Uvius Fonticola</persName>
+               <resp>Technical Advisor (Ludwig Maximilians University Munich)</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>University of Leipzig</authority>
+            <idno type="filename">stoa0040.stoa064.opp-lat1.xml</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
+            </availability>
+            <date>2014</date>
+            <publisher>University of Leipzig</publisher>
+            <pubPlace>Germany</pubPlace>
+            <idno type="CTS">urn:cts:latinLit:stoa0040.stoa064.opp-lat1</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <name>Joseph Zycha</name>
+                        </persName>
+                     </editor>
+                     <author>Augustine</author>
+                     <title xml:lang="lat">Sancti Aureli Augustini Opera</title>
+                     <imprint>
+                        <publisher>F. Tempsky</publisher>
+                        <publisher>G. Freytag</publisher>
+                        <pubPlace>Prague</pubPlace>
+                        <pubPlace>Vienna</pubPlace>
+                        <pubPlace>Leipzig</pubPlace>
+                        <date>1891</date>
+                     </imprint>
+                     <biblScope unit="volume" xml:lang="lat">Sectio VI, Pars I</biblScope>
+                  </monogr>
+                  <series>
+                     <title level="s" xml:lang="lat">Corpus scriptorum ecclesiasticorum Latinorum</title>
+                     <biblScope unit="volume">25.1</biblScope>
+                  </series>
+                  <ref target="https://archive.org/details/corpusscriptoru27wissgoog/page/n9/mode/2up">Internet Archive</ref>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>The following text is encoded in accordance with EpiDoc standards and with the
         CTS/CITE Architecture. 
 </p>
-<refsDecl n="CTS">
-        <cRefPattern n="chapter" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1'])"/>
-      </refsDecl>
-    </encodingDesc>
-    
-    <profileDesc>
-      <langUsage>
-        <language ident="lat">Latin</language>
-      </langUsage>
-    </profileDesc>
-    
-  </teiHeader>
-  <text><body><div type="edition" xml:lang="lat" n="urn:cts:latinLit:stoa0040.stoa064.opp-lat1">
-            
-          <ab>
+         <refsDecl n="CTS">
+            <cRefPattern n="chapter"
+                         matchPattern="(.+)"
+                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1'])"/>
+         </refsDecl>
+         <refsDecl n="CTS">
+            <citeStructure match="/TEI/text/body" use="@xml:base">
+               <citeStructure unit="chapter" delim="." match="div[@type='chapter']" use="@n"/>
+            </citeStructure>
+         </refsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <catRef scheme="#perseus-genre" target="#prose-chapter"/>
+         </textClass>
+         <langUsage>
+            <language ident="lat">Latin</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body xml:base="urn:cts:latinLit:stoa0040.stoa064.opp-lat1">
+         <ab>
             <title type="sub">DE UTILITATE CREDENDI LIBER. </title>
-          </ab>
-<div type="textpart" subtype="chapter" n="1"><milestone unit="altchapter" n="1"/>
-
-          <p rend="script">Si mihi, Honorate, unum atque idem uideretur esse haere. <lb/>
+         </ab>
+         <div n="1" type="chapter">
+            <milestone unit="altchapter" n="1"/>
+            <p rend="script">Si mihi, Honorate, unum atque idem uideretur esse haere. <lb/>
             ticus et credens haereticis homo, tam lingua quam stilo in <lb/>
             hac causa conquiescendum mihi esse arbitrarer. nunc uero <lb n="5"/>
             cum inter haec duo plurimum intersit, quandoquidem haereticus <lb/>
@@ -119,28 +128,29 @@
 <note type="footnote" rend="script"> 1 INC. LIB. BEATI AVG. DE VTL. CREDDI fol. 66 <hi rend="italic">Ch</hi> Incipit <lb/>
             LIBER SCI AVRELI AVGVSTINI EIII DE VTILITATE CREDENDI <lb/>
             p. 9 S INCIP LIB DE VTILITATE CREDENDI AD HONORATVM <lb/>
-            fol. 3 P 38 <hi rend="italic">p</hi> INC LIB SCI AVG DE VTILITATE CREDDI fol. 71 <hi rend="italic">M</hi> <lb/>
-            4 et]atque <hi rend="italic">M</hi> 5 conquiescendum causa <hi rend="italic">M</hi> 6 haec <hi rend="italic">om. SM Vmb</hi> <lb/>
-            '9 eiusmodi <hi rend="italic">S Vm</hi> 12 ueritate] uertenda <hi rend="italic">V</hi> 18 cuius] quum <hi rend="italic">ius Ch</hi> <lb/>
+            fol. 3 P 38 <hi rend="italic">p</hi> INC LIB SCI AVG DE VTILITATE CREDDI fol. 71 <hi rend="italic">M</hi>
+                  <lb/>
+            4 et]atque <hi rend="italic">M</hi> 5 conquiescendum causa <hi rend="italic">M</hi> 6 haec <hi rend="italic">om. SM Vmb</hi>
+                  <lb/>
+            '9 eiusmodi <hi rend="italic">S Vm</hi> 12 ueritate] uertenda <hi rend="italic">V</hi> 18 cuius] quum <hi rend="italic">ius Ch</hi>
+                  <lb/>
             1 lonpc* <lb/>
-            14 est <hi rend="italic">om. Ch</hi> ualde <hi rend="italic">V</hi> 16 putantes se <hi rend="italic">Ch</hi> 18 uolunt <hi rend="italic">V</hi> cum om. <hi rend="italic">Ch</hi> <lb/>
-            19 mortifere et fallacissime <hi rend="italic">Ch</hi> 22 qua <hi rend="italic">b</hi> </note>
-
-<note type="footnote"> l* </note> <lb/>
-             
-<pb n="4"/>
+            14 est <hi rend="italic">om. Ch</hi> ualde <hi rend="italic">V</hi> 16 putantes se <hi rend="italic">Ch</hi> 18 uolunt <hi rend="italic">V</hi> cum om. <hi rend="italic">Ch</hi>
+                  <lb/>
+            19 mortifere et fallacissime <hi rend="italic">Ch</hi> 22 qua <hi rend="italic">b</hi>
+               </note>
+               <note type="footnote"> l* </note>
+               <lb/>
+               <pb n="4"/>
             aut certe nihil obsint omnibusque omnino, quorum in manus <lb/>
             forte deuenerint, et rogaui deum et rogo; et spero ita fore. <lb/>
             si bene mihi conscius sum, quod ad hunc stilum pio et officioso <lb/>
             animo, non uani nominis adpetitione ac negatoriae ostentationis <lb/>
             accessi. <lb n="5"/>
-            
-</p>
-          
-</div>
-
-<div type="textpart" subtype="chapter" n="2">
-<p>Est igitur mihi propositum, ut probem tibi, si possum. <lb/>
+            </p>
+         </div>
+         <div n="2" type="chapter">
+            <p>Est igitur mihi propositum, ut probem tibi, si possum. <lb/>
             quod Manichaei sacrilege ac temere inuehantur in eos. qui <lb/>
             catholicae fidei auctoritatem sequentes, antequam illud uerum, <lb/>
             quod pura mente conspicitur, intueri queant, credendo prae- <lb/>
@@ -168,15 +178,19 @@
 <note type="footnote" rend="script"> 06 <lb/>
             2 decr$uerint <hi rend="italic">V</hi> forte <hi rend="italic">V</hi> 8 huc <hi rend="italic">M</hi> 5 successi b 6 possim <lb/>
             n ••parata <lb/>
-            (e <hi rend="italic">corr. in</hi> i) <hi rend="italic">P</hi> 9 praemunitur <hi rend="italic">Gh</hi> praemuni§ntur <hi rend="italic">V</hi> 12 spata <hi rend="italic">m1</hi> <lb/>
-            mera] mira <hi rend="italic">S MP V mb</hi> 18 audęre <hi rend="italic">V</hi> 14 errori <hi rend="italic">Y</hi> aliud <hi rend="italic">me m</hi> <lb/>
+            (e <hi rend="italic">corr. in</hi> i) <hi rend="italic">P</hi> 9 praemunitur <hi rend="italic">Gh</hi> praemuni§ntur <hi rend="italic">V</hi> 12 spata <hi rend="italic">m1</hi>
+                  <lb/>
+            mera] mira <hi rend="italic">S MP V mb</hi> 18 audęre <hi rend="italic">V</hi> 14 errori <hi rend="italic">Y</hi> aliud <hi rend="italic">me m</hi>
+                  <lb/>
             Mparata <lb/>
             cogebagt <hi rend="italic">V</hi> 15 annos] ad nos <hi rend="italic">Ch</hi> spata m5 sperata <hi rend="italic">V</hi> 16 insita] <lb/>
             lu ' <lb/>
-            instituta <hi rend="italic">Ch</hi> 18 premere] pm,ere <hi rend="italic">(et in mg</hi>. pmittere) m 21 uerum <hi rend="italic">Ch</hi> <lb/>
-            26 auditore <hi rend="italic">M</hi> </note> <lb/>
-             
-<pb n="5"/>
+            instituta <hi rend="italic">Ch</hi> 18 premere] pm,ere <hi rend="italic">(et in mg</hi>. pmittere) m 21 uerum <hi rend="italic">Ch</hi>
+                  <lb/>
+            26 auditore <hi rend="italic">M</hi>
+               </note>
+               <lb/>
+               <pb n="5"/>
             et certos manere? sed de me quid dicam, qui iam catholicus <lb/>
             christianus eram? quae nunc ubera post longissimam sitim <lb/>
             paene exhaustus atque aridus tota auiditate repetiui eaque <lb/>
@@ -197,13 +211,10 @@
             decipiant. obruunt enim et quoquo modo cooperiunt alias quae <lb/>
             circa sunt aquas, uel inde etiam formidolosis molitionibus <lb/>
             deterrent, ut in eorum dolos non electione, sed inopia decidant. , <lb n="20"/>
-            
-</p>
-          
-</div>
-
-<div type="textpart" subtype="chapter" n="3">
-<p>Sed cur non ipse mihi respondeo, quod istae lautae ac <lb/>
+            </p>
+         </div>
+         <div n="3" type="chapter">
+            <p>Sed cur non ipse mihi respondeo, quod istae lautae ac <lb/>
             lepidae similitudines atque huiusmodi reprehensiones in omnes, <lb/>
             qui aliquid docent, a quouis aduersario effundi urbanissime <lb/>
             ac dicacissime possunt? sed ob hoc putaui aliquid tale inserendum <lb/>
@@ -212,18 +223,23 @@
 
 <note type="footnote" rend="script"> •cct« - <lb/>
             2 quae] qui <hi rend="italic">VP</hi> (e <hi rend="italic">in</hi> i <hi rend="italic">corr.)</hi> ubera <hi rend="italic">P</hi> 3 . exauatus <hi rend="italic">Chp</hi> aridus] <lb/>
-            auidus <hi rend="italic">lib. b</hi> 4 manaret <hi rend="italic">Sp</hi> manaret <hi rend="italic">P maneret M m b</hi> man/ret <hi rend="italic">V</hi> <lb/>
-            6 redducendam <hi rend="italic">Ch</hi> 7 hortatll eo <hi rend="italic">Ch</hi> 8 execrauferis <hi rend="italic">M</hi> exsecraueris <hi rend="italic">V</hi> <lb/>
+            auidus <hi rend="italic">lib. b</hi> 4 manaret <hi rend="italic">Sp</hi> manaret <hi rend="italic">P maneret M m b</hi> man/ret <hi rend="italic">V</hi>
+                  <lb/>
+            6 redducendam <hi rend="italic">Ch</hi> 7 hortatll eo <hi rend="italic">Ch</hi> 8 execrauferis <hi rend="italic">M</hi> exsecraueris <hi rend="italic">V</hi>
+                  <lb/>
             uiş II<hi rend="italic">P</hi> 10 ob secro <hi rend="italic">V</hi> 13 esse] esset <hi rend="italic">Ch Ppb</hi> dichici <hi rend="italic">V</hi> 15 arbitrabamns <lb/>
-            <hi rend="italic">ih</hi> 17 propter] prope b 18 et/// quo (quo <hi rend="italic">eras.) Ch</hi> <lb/>
+                  <hi rend="italic">ih</hi> 17 propter] prope b 18 et/// quo (quo <hi rend="italic">eras.) Ch</hi>
+                  <lb/>
             coeperunt <hi rend="italic">Ch</hi> alia <hi rend="italic">Y</hi> 19 formidulosis <hi rend="italic">Ch</hi> 20 electiones <hi rend="italic">Ch</hi> decidant] <lb/>
-            decidat <hi rend="italic">Ch Y</hi> decidatur <hi rend="italic">SMPmpb</hi> 21 respondebo <hi rend="italic">V</hi> iste <hi rend="italic">Ch</hi> <lb/>
+            decidat <hi rend="italic">Ch Y</hi> decidatur <hi rend="italic">SMPmpb</hi> 21 respondebo <hi rend="italic">V</hi> iste <hi rend="italic">Ch</hi>
+                  <lb/>
             d <lb/>
             laute ac lapide <hi rend="italic">Ch</hi> 25 ammoneam <hi rend="italic">Ch</hi> ammoneam P1 26 quemamd <lb/>
-            <lb/>
-            modum <hi rend="italic">Oli p</hi> quemammodum <hi rend="italic">P</hi> </note><lb/>
-             
-<pb n="6"/>
+                  <lb/>
+            modum <hi rend="italic">Oli p</hi> quemammodum <hi rend="italic">P</hi>
+               </note>
+               <lb/>
+               <pb n="6"/>
             res cum re, causa cum causa, ratio cum ratione confligat. <lb/>
             quare desinant dicere illud, quod in ore habent quasi necessarium, <lb/>
             cum eos quisque deseruerit, qui diutius audisset: <lb/>
@@ -244,13 +260,11 @@
             fuisse, cum illa diligerem et his inuolutus tenerer, hominis <lb/>
             est, ut mitissime dicam, minus acute considerantis res, de <lb/>
             I quibus loqui multum amat. sed ueniamus ad causam. si placet. <lb n="20"/>
-            
-</p>
-          
-</div>
-
-<div type="textpart" subtype="chapter" n="4">
-<p><milestone unit="altchapter" n="2"/> Nam bene nosti, quod reprehendentes Manichaei catholicam <lb/>
+            </p>
+         </div>
+         <div n="4" type="chapter">
+            <p>
+               <milestone unit="altchapter" n="2"/> Nam bene nosti, quod reprehendentes Manichaei catholicam <lb/>
             fidem et maxime uetus testamentum discerpentes et dilaniantes <lb/>
             commouent inperitos: qui profecto nesciunt, quatenus sint <lb/>
             accipienda illa et quemadmodum hausta utiliter in uenas <lb/>
@@ -266,10 +280,12 @@
             ra <lb/>
             ea <hi rend="italic">Ch</hi> 9 implicatos <hi rend="italic">Ch</hi> 10 inanite <hi rend="italic">F1</hi> 11 perneciosis S 12 andire <lb/>
             cuperem <hi rend="italic">b</hi> 16 nalitndinem <hi rend="italic">SM Pp m b</hi> 18 cum] quS <hi rend="italic">Ch</hi> ista <hi rend="italic">S <lb/>
-            Mm Pp Vb</hi> 22 discernentes <hi rend="italic">Ch</hi> 23 quatinus (e <hi rend="italic">in</hi> i <hi rend="italic">corr. m</hi>. 2) <hi rend="italic">P</hi> <lb/>
-            24 austa <hi rend="italic">Ch</hi> in uenas] inuenies <hi rend="italic">V</hi> 29 in his <hi rend="italic">S</hi> </note> <lb n="30"/>
-             
-<pb n="7"/>
+            Mm Pp Vb</hi> 22 discernentes <hi rend="italic">Ch</hi> 23 quatinus (e <hi rend="italic">in</hi> i <hi rend="italic">corr. m</hi>. 2) <hi rend="italic">P</hi>
+                  <lb/>
+            24 austa <hi rend="italic">Ch</hi> in uenas] inuenies <hi rend="italic">V</hi> 29 in his <hi rend="italic">S</hi>
+               </note>
+               <lb n="30"/>
+               <pb n="7"/>
             famigerula quaedam in disputatione certamina et ob hoc minime <lb/>
             noti sunt, nisi his, qui eos instantissime requirunt. de hac igitur <lb/>
             Manichaeorum temeritate, qua uetus testamentum et catholicam <lb/>
@@ -295,29 +311,32 @@
             gemitu confitenti. non me ergo deseret, si nihil fingo, si <lb/>
             officio ducor, si ueritatem amo, si amicitiam diligo, si multum <lb/>
             metuo, ne fallaris. <lb n="25"/>
-            
-</p>
-          
-</div>
-
-<div type="textpart" subtype="chapter" n="5">
-<p><milestone unit="altchapter" n="3"/> Omnis igitur scriptura, quae testamentum uetus uocatur, <lb/>
+            </p>
+         </div>
+         <div n="5" type="chapter">
+            <p>
+               <milestone unit="altchapter" n="3"/> Omnis igitur scriptura, quae testamentum uetus uocatur, <lb/>
             diligenter eam nosse cupientibus quadrifariam traditur: secundum <lb/>
             historiam, secundum aetiologiam, secundum analogiam,
 
 <note type="footnote" rend="script"> Bt <lb/>
             10 tenere uobiscum <hi rend="italic">SMPpVbm</hi> sit 8. <hi rend="italic">I. m</hi>. 1 S 11 presamo <hi rend="italic">Ch</hi> pmo 1' <lb/>
-            hanc <hi rend="italic">Ch</hi> 13 et propter] et quoniam propter <hi rend="italic">b P</hi> (quoniam <hi rend="italic">s. I. tn. 2)</hi> <lb/>
-            16 sępe rogo (rogo <hi rend="italic">s. I. m</hi>. 2) <hi rend="italic">P</hi> 18 adueraando (d <hi rend="italic">m. 2 del.) P</hi> quem <hi rend="italic">Ch</hi> <lb/>
+            hanc <hi rend="italic">Ch</hi> 13 et propter] et quoniam propter <hi rend="italic">b P</hi> (quoniam <hi rend="italic">s. I. tn. 2)</hi>
+                  <lb/>
+            16 sępe rogo (rogo <hi rend="italic">s. I. m</hi>. 2) <hi rend="italic">P</hi> 18 adueraando (d <hi rend="italic">m. 2 del.) P</hi> quem <hi rend="italic">Ch</hi>
+                  <lb/>
             a <lb/>
-            19 conatur <hi rend="italic">V</hi> 20 ineffabilem Ch ineffabile// (m <hi rend="italic">ras.) P</hi> 21 quidam <hi rend="italic">P</hi> <lb/>
+            19 conatur <hi rend="italic">V</hi> 20 ineffabilem Ch ineffabile// (m <hi rend="italic">ras.) P</hi> 21 quidam <hi rend="italic">P</hi>
+                  <lb/>
             xne <lb/>
-            bonum animae <hi rend="italic">Sm</hi> 23 nong$P figo <hi rend="italic">Ch</hi> 24 si <hi rend="italic">(ante</hi> uerit.) <hi rend="italic">om. Ch</hi> <lb/>
+            bonum animae <hi rend="italic">Sm</hi> 23 nong$P figo <hi rend="italic">Ch</hi> 24 si <hi rend="italic">(ante</hi> uerit.) <hi rend="italic">om. Ch</hi>
+                  <lb/>
             27 <hi rend="italic">quadrifariaPVMpb</hi> secumdtlp 28 <hi rend="italic">historia (~ add. m. 2) S</hi> aetiologiam] <lb/>
             thy <lb/>
-            ethimologift <hi rend="italic">M m</hi> etymologift <hi rend="italic">b aethymologift SPp V &amp;///mo/logift Ch1</hi> </note><lb/>
-             
-<pb n="8"/>
+            ethimologift <hi rend="italic">M m</hi> etymologift <hi rend="italic">b aethymologift SPp V &amp;///mo/logift Ch1</hi>
+               </note>
+               <lb/>
+               <pb n="8"/>
             secundum allegoriam. ne me ineptum putes graecis nominibus <lb/>
             utentem. primum quia sic accepi nec tibi hoc aliter audeo <lb/>
             intimare quam accepi. deinde tu quoque animaduertis non esse <lb/>
@@ -333,13 +352,10 @@
             uetus et nouum. secundum allegoriam, cum docetur non ad <lb/>
             litteram esse accipienda quaedam, quae scripta sunt, sed figurate <lb/>
             intellegenda. ,<lb n="15"/>
-            
-</p>
-          
-</div>
-
-<div type="textpart" subtype="chapter" n="6">
-<p>His omnibus modis dominus noster Iesus Christus et <lb/>
+            </p>
+         </div>
+         <div n="6" type="chapter">
+            <p>His omnibus modis dominus noster Iesus Christus et <lb/>
             apostoli usi sunt. nam de historia illud sumptum est, cum <lb/>
             obiectum esset, quod die sabbati discipuli eius spicas euulsissent. <lb/>
             non legistis, inquit, quod fecit Dauid, cum esuriret, <lb/>
@@ -354,27 +370,26 @@
             illud a Moyse pro tempore bene permissum sit, ut hoc, quod
 
 <note type="footnote"> 19 Matth. 12, 3 sq. 26 Matth. 19, 8 </note>
-
-<note type="footnote" rend="script"> 2 sic] sit <hi rend="italic">Ch</hi> 3 animaduersis <hi rend="italic">Ch</hi> animaduerteris <hi rend="italic">p</hi> 7 quoquo] <lb/>
+               <note type="footnote" rend="script"> 2 sic] sit <hi rend="italic">Ch</hi> 3 animaduersis <hi rend="italic">Ch</hi> animaduerteris <hi rend="italic">p</hi> 7 quoquo] <lb/>
             quo <hi rend="italic">Ch</hi> erram <hi rend="italic">Ch</hi> inflatu <hi rend="italic">V</hi> 10 <hi rend="italic">(et</hi> 23) ethymologia <hi rend="italic">Ch</hi> ęthimo- <lb/>
-            <hi rend="italic">logiA Mm aahimologia S Pp</hi> 19 legis <hi rend="italic">Ch</hi> 20 quomodo-eis <hi rend="italic">(inf</hi>. <lb/>
+                  <hi rend="italic">logiA Mm aahimologia S Pp</hi> 19 legis <hi rend="italic">Ch</hi> 20 quomodo-eis <hi rend="italic">(inf</hi>. <lb/>
             ro <lb/>
-            <hi rend="italic">text. m. 1 adscr.) p</hi> 21 ppositionis (ro <hi rend="italic">add. et</hi> es <hi rend="italic">in</hi> is <hi rend="italic">mut. m</hi>. 2) <hi rend="italic">P</hi> <lb/>
+                  <hi rend="italic">text. m. 1 adscr.) p</hi> 21 ppositionis (ro <hi rend="italic">add. et</hi> es <hi rend="italic">in</hi> is <hi rend="italic">mut. m</hi>. 2) <hi rend="italic">P</hi>
+                  <lb/>
             -f e <lb/>
             24 xpof <hi rend="italic">Ch</hi> abici nisi] auicinis <hi rend="italic">Ch</hi> 26 moyse$S1 27 quur <hi rend="italic">P (sic <lb/>
-            ubique)</hi> quur <hi rend="italic">(sic ubtgue) p</hi> 28 sit] est <hi rend="italic">V</hi> </note> <lb/>
-             
-<pb n="9"/>
+            ubique)</hi> quur <hi rend="italic">(sic ubtgue) p</hi> 28 sit] est <hi rend="italic">V</hi>
+               </note>
+               <lb/>
+               <pb n="9"/>
             Christus praecipiebat, alia iam tempora demonstrare uideretur. <lb/>
             horum autem temporum uices atque ordinem mira quadam <lb/>
             diuinae prouidentiae dispositione digestum atque conpositum <lb/>
             longum est explanare. 
 </p>
-          
-</div>
-
-<div type="textpart" subtype="chapter" n="7">
-<p>Iam porro analogiam, qua utriusque testamenti congruentia <lb n="5"/>
+         </div>
+         <div n="7" type="chapter">
+            <p>Iam porro analogiam, qua utriusque testamenti congruentia <lb n="5"/>
             perspicitur, quid ego dicam usos fuisse omnes, quorum auctoritati <lb/>
             illi cedunt? cum secum ipsi considerare possunt, quam <lb/>
             multa soleant dicere inmissa esse scripturis diuinis a nescio <lb/>
@@ -401,16 +416,20 @@
             eos offendit, falsum atque inmissum dicere. aut si talis oratio
 
 <note type="footnote" rend="script"> 0 <lb/>
-            1 alio iam tempore <hi rend="italic">S m1</hi> alio m iam tempore <hi rend="italic">V</hi> 5 analogia <hi rend="italic">b</hi> <lb/>
+            1 alio iam tempore <hi rend="italic">S m1</hi> alio m iam tempore <hi rend="italic">V</hi> 5 analogia <hi rend="italic">b</hi>
+                  <lb/>
             6perspicitur]psncHCkususCks7nmPconsideraripI <lb/>
             6 perspicitur] psncit <hi rend="italic">Ch</hi> usus <hi rend="italic">Ch S 7 con P considerari</hi> P1 <lb/>
-            <hi rend="italic">possint P S M m p b</hi> 8 <hi rend="italic">immisa Ch</hi> 9 quae] <hi rend="italic">aquae Ch quidgmP</hi> <lb/>
-            10 audiretCh 11 et nobis] nobisque <hi rend="italic">SM Vm</hi> nobis <hi rend="italic">b</hi> 13 uero <hi rend="italic">om. V</hi> <lb/>
+                  <hi rend="italic">possint P S M m p b</hi> 8 <hi rend="italic">immisa Ch</hi> 9 quae] <hi rend="italic">aquae Ch quidgmP</hi>
+                  <lb/>
+            10 audiretCh 11 et nobis] nobisque <hi rend="italic">SM Vm</hi> nobis <hi rend="italic">b</hi> 13 uero <hi rend="italic">om. V</hi>
+                  <lb/>
             bn <lb/>
             14 moneant eas <hi rend="italic">Ch</hi> 16 aduersarios <hi rend="italic">Ch</hi> 17 his <hi rend="italic">V</hi> 19 extantis <hi rend="italic">S <lb/>
-            extantis M 28 rectior] tectior SM Pp m b</hi> 27 in <hi rend="italic">his Ch</hi> </note> <lb/>
-             
-<pb n="10"/>
+            extantis M 28 rectior] tectior SM Pp m b</hi> 27 in <hi rend="italic">his Ch</hi>
+               </note>
+               <lb/>
+               <pb n="10"/>
             inpudens est, sicuti est, cur in Pauli epistulis, cur in quattuor <lb/>
             euangelii libris ea ualere aliquid putant, in quibus haud scio <lb/>
             an multo plura sint proportione quam in illo libro esse potuerunt, <lb/>
@@ -431,13 +450,10 @@
             sanctum per se missum esse diceret, proferretur. uerum de <lb/>
             spiritu sancto alias planius aliquid eloquemur. nunc ad hoc, <lb/>
             quod intenderam, redeamus. <lb n="20"/>
-            
-</p>
-          
-</div>
-
-<div type="textpart" subtype="chapter" n="8">
-<p>Nam et historiam ueteris testamenti et aetiologiam et <lb/>
+            </p>
+         </div>
+         <div n="8" type="chapter">
+            <p>Nam et historiam ueteris testamenti et aetiologiam et <lb/>
             analogiam in nouo testamento inueniri satis, ut puto, est <lb/>
             demonstratum; de allegoria restat ostendere. ipse liberator noster <lb/>
             in euangelio allegoriam utitur ex uetere testamento. generatio, <lb/>
@@ -447,18 +463,21 @@
             tribus diebus et tribus noctibus erit in corde terrae.
 
 <note type="footnote"> 11 cf. Act. 2, 2 sqq. 24 Matth. 12, 39 sq. </note>
-
-<note type="footnote" rend="script"> c <lb/>
-            2 euangeliis <hi rend="italic">Ch</hi> puter <hi rend="italic">b</hi> haud] aut <hi rend="italic">Ch</hi> 4 interiepta <hi rend="italic">P</hi> <lb/>
+               <note type="footnote" rend="script"> c <lb/>
+            2 euangeliis <hi rend="italic">Ch</hi> puter <hi rend="italic">b</hi> haud] aut <hi rend="italic">Ch</hi> 4 interiepta <hi rend="italic">P</hi>
+                  <lb/>
             k B <lb/>
-            8 spiritum] xpm <hi rend="italic">Ch</hi> 11 ad uentus <hi rend="italic">V</hi> 14 euangeliis <hi rend="italic">V</hi> 15 cupiebat <hi rend="italic">P</hi> <lb/>
+            8 spiritum] xpm <hi rend="italic">Ch</hi> 11 ad uentus <hi rend="italic">V</hi> 14 euangeliis <hi rend="italic">V</hi> 15 cupiebat <hi rend="italic">P</hi>
+                  <lb/>
             hoc aut <hi rend="italic">P</hi> 16 et] ut <hi rend="italic">Ch</hi> potuisse <hi rend="italic">V</hi> 18 dicere <hi rend="italic">V</hi> 21 <hi rend="italic">etthimologift Ch <lb/>
             aahimologii S M Pp m</hi> 24 <hi rend="italic">allegoria SM Pp m b</hi> 25 non] et <lb/>
-            non <hi rend="italic">SMtnb</hi> 26 ionas fuit in uentre <hi rend="italic">m coeti ChS cati M V m</hi> <lb/>
+            non <hi rend="italic">SMtnb</hi> 26 ionas fuit in uentre <hi rend="italic">m coeti ChS cati M V m</hi>
+                  <lb/>
             flllm 11.01. <lb/>
-            28 ita erit in corde terrg r m tribus-noctibus <hi rend="italic">om. V</hi> </note> <lb/>
-             
-<pb n="11"/>
+            28 ita erit in corde terrg r m tribus-noctibus <hi rend="italic">om. V</hi>
+               </note>
+               <lb/>
+               <pb n="11"/>
             nam quid ego de apostolo Paulo dicam. qui etiam ipsam Exodi <lb/>
             historiam futurae christianae plebis allegoriam fuisse significat <lb/>
             ad Corinthios epistula prima? nolo autem uos ignorare, <lb/>
@@ -488,18 +507,22 @@
             habuit.unumdeancilla et unum delibera;sed is quidem,
 
 <note type="footnote"> 3 I. Cor. 10, 1 sqq. 26 Galat. 4, 22 sqq. </note>
-
-<note type="footnote" rend="script"> 5 moyse <hi rend="italic">SVMmb mose//</hi> (n <hi rend="italic">eras.) p</hi> 6 mari] in mari <hi rend="italic">PSMVpmb</hi> <lb/>
+               <note type="footnote" rend="script"> 5 moyse <hi rend="italic">SVMmb mose//</hi> (n <hi rend="italic">eras.) p</hi> 6 mari] in mari <hi rend="italic">PSMVpmb</hi>
+                  <lb/>
             ncfto <lb/>
             et—manducauerunt <hi rend="italic">(in mg.) m</hi> 7 mand.erunt <hi rend="italic">Ch*</hi> 8 enim] <lb/>
             autem <hi rend="italic">S Vm b</hi> 9 consequenti <hi rend="italic">Sm V1</hi> conequente <hi rend="italic">M b</hi> fuit] erat <hi rend="italic">b</hi> 10 pluri- <lb/>
-            <hi rend="italic">miaSVm</hi> 11 sunt enim <hi rend="italic">b</hi> 13 ex ipsisaFm 14 et a.sed. <hi rend="italic">om. SPpMVmb</hi> <lb/>
-            16 una <hi rend="italic">SM Pp Vmb</hi> 17 temptemus <hi rend="italic">SMmPb</hi> 18 temptauerftt <hi rend="italic">b</hi> <lb/>
+                  <hi rend="italic">miaSVm</hi> 11 sunt enim <hi rend="italic">b</hi> 13 ex ipsisaFm 14 et a.sed. <hi rend="italic">om. SPpMVmb</hi>
+                  <lb/>
+            16 una <hi rend="italic">SM Pp Vmb</hi> 17 temptemus <hi rend="italic">SMmPb</hi> 18 temptauerftt <hi rend="italic">b</hi>
+                  <lb/>
             perierunt Sm 21 contigerbant <hi rend="italic">V</hi> contingebat <hi rend="italic">Ch</hi> correctionem <lb/>
-            (c <hi rend="italic">alt. corr. ex p) V</hi> 22 fines deuenerunt <hi rend="italic">Pb</hi> 28 item] autem <hi rend="italic">S Vm</hi> <lb/>
-            allegoria <hi rend="italic">Ch</hi> sana <hi rend="italic">Ch</hi> 25 ostendere <hi rend="italic">b</hi> 26 abraft <hi rend="italic">b</hi> </note> <lb/>
-             
-<pb n="12"/>
+            (c <hi rend="italic">alt. corr. ex p) V</hi> 22 fines deuenerunt <hi rend="italic">Pb</hi> 28 item] autem <hi rend="italic">S Vm</hi>
+                  <lb/>
+            allegoria <hi rend="italic">Ch</hi> sana <hi rend="italic">Ch</hi> 25 ostendere <hi rend="italic">b</hi> 26 abraft <hi rend="italic">b</hi>
+               </note>
+               <lb/>
+               <pb n="12"/>
             qui de ancilla, secundum carnem natus est; qui autem <lb/>
             de libera, per promissionem: quae sunt per allegoriam <lb/>
             dicta. nam haec sunt duo testamenta: unum quidem de <lb/>
@@ -509,11 +532,9 @@
             quae autem sursum est Hierusalem, libera est, quae <lb/>
             est mater omnium nostrum. 
 </p>
-          
-</div>
-
-<div type="textpart" subtype="chapter" n="9">
-<p>Hic igitur illi homines minime mali, dum frustrare legem <lb/>
+         </div>
+         <div n="9" type="chapter">
+            <p>Hic igitur illi homines minime mali, dum frustrare legem <lb/>
             conantur, eas scripturas adprobare nos cogunt. adtendunt<lb n="10"/>
             enim, quod dictum est in seruitute esse eos, qui sub lege <lb/>
             sunt, et id ultimum prae ceteris uentilant: euacuati estis a <lb/>
@@ -534,19 +555,21 @@
             lex enim paedagogus noster erat in Christo. ille igitur
 
 <note type="footnote"> 12 Galat. 5, 4 27 Galat. 3, 24 </note>
-
-<note type="footnote" rend="script"> 2 repmissionê <hi rend="italic">V</hi> 4 acar <hi rend="italic">Ch</hi> 5 enim] autem <hi rend="italic">V nI</hi> qui mP2 ei] et <hi rend="italic">Ch</hi> 6 in <lb/>
+               <note type="footnote" rend="script"> 2 repmissionê <hi rend="italic">V</hi> 4 acar <hi rend="italic">Ch</hi> 5 enim] autem <hi rend="italic">V nI</hi> qui mP2 ei] et <hi rend="italic">Ch</hi> 6 in <lb/>
             n <lb/>
             hyerusalem <hi rend="italic">Ch</hi> 7 sursum <hi rend="italic">om</hi>. est <hi rend="italic">V</hi> 9 minime] minime <hi rend="italic">sed</hi> in <hi rend="italic">mg</hi>. nimigS'i <lb/>
             non <lb/>
             minimailf minime <hi rend="italic">(non add. m. 2)Pnimium Vm</hi> 11 eos esse <hi rend="italic">V</hi> 12 uentilante <lb/>
-            uacuati <hi rend="italic">Ch</hi> 13 a] <hi rend="italic">om. S Mb</hi> 14 nos autem <hi rend="italic">V concedamus V</hi> <lb/>
+            uacuati <hi rend="italic">Ch</hi> 13 a] <hi rend="italic">om. S Mb</hi> 14 nos autem <hi rend="italic">V concedamus V</hi>
+                  <lb/>
             17 cohercendi <hi rend="italic">MChm</hi> cohercendi S 18 ab] <hi rend="italic">as M Tn</hi> 19 cum] <lb/>
             nos <hi rend="italic">b</hi> 20 dampnat <hi rend="italic">V</hi> nos] non <hi rend="italic">Ch</hi> 21 eeruire (a corr. in i) <lb/>
-            <hi rend="italic">S V P*</hi> (re <hi rend="italic">ex</hi> ri <hi rend="italic">corr.)</hi> timori <hi rend="italic">S Pp Vinb</hi> 24 qui S a <hi rend="italic">om. M</hi> <lb/>
-            seruituti <hi rend="italic">b</hi> 27 lex] ex <hi rend="italic">Ch</hi> paedagogus—igitur <hi rend="italic">om. Ch</hi> </note> <lb/>
-             
-<pb n="13"/>
+                  <hi rend="italic">S V P*</hi> (re <hi rend="italic">ex</hi> ri <hi rend="italic">corr.)</hi> timori <hi rend="italic">S Pp Vinb</hi> 24 qui S a <hi rend="italic">om. M</hi>
+                  <lb/>
+            seruituti <hi rend="italic">b</hi> 27 lex] ex <hi rend="italic">Ch</hi> paedagogus—igitur <hi rend="italic">om. Ch</hi>
+               </note>
+               <lb/>
+               <pb n="13"/>
             paedagogum dedit hominibus. quem timerent, qui magistrum <lb/>
             postea, quem diligerent. in quibus tamen legis praeceptis atque <lb/>
             mandatis, quibus nunc christianos uti fas non est, quale uel <lb/>
@@ -572,28 +595,27 @@
             relinquatur. et figurarum tanta secreta, ut omnia, quae interpretando <lb/>
             eruuntur, miseros esse cogant fateri, qui haec uolunt <lb/>
             ante condemnare quam discere. <lb n="25"/>
-            
-</p>
-          
-</div>
-
-<div type="textpart" subtype="chapter" n="10">
-<p><milestone unit="altchapter" n="4"/> Sed ut omissa interim altitudine scientiae sic agam <lb/>
+            </p>
+         </div>
+         <div n="10" type="chapter">
+            <p>
+               <milestone unit="altchapter" n="4"/> Sed ut omissa interim altitudine scientiae sic agam <lb/>
             tecum, quomodo agendum arbitror cum familiari meo, id est <lb/>
             sicut ego possum, non sicut doctissimos uiros posse miratus sum: <lb/>
             tria genera sunt erroris, quibus homines errant, cum aliquid
 
 <note type="footnote"> 8 II Cor. 8, 6 et 14 et 16 </note>
-
-<note type="footnote" rend="script"> <hi rend="italic">1 quijquem V</hi> 5 omnes Ch <hi rend="italic">7autem om.SMmV reelariP,</hi> 10euacuetur £ <lb/>
+               <note type="footnote" rend="script">
+                  <hi rend="italic">1 quijquem V</hi> 5 omnes Ch <hi rend="italic">7autem om.SMmV reelariP,</hi> 10euacuetur £ <lb/>
             13 ad opertum <hi rend="italic">V</hi> 15 non ait enim <hi rend="italic">V</hi> 18 his <hi rend="italic">Ch SM Vpb</hi> iis <lb/>
             d re I. I <lb/>
-            <hi rend="italic">(ex</hi> his <hi rend="italic">m</hi>. 2 <hi rend="italic">corr.) P</hi> 19 turbipe <hi rend="italic">m1</hi> 20 ł4quirunt <hi rend="italic">82</hi> wqrunt m2 ad- <lb/>
+                  <hi rend="italic">(ex</hi> his <hi rend="italic">m</hi>. 2 <hi rend="italic">corr.) P</hi> 19 turbipe <hi rend="italic">m1</hi> 20 ł4quirunt <hi rend="italic">82</hi> wqrunt m2 ad- <lb/>
             11 <lb/>
             quirunt <hi rend="italic">V</hi> 21 ceteris <hi rend="italic">S</hi> 24 eruntur <hi rend="italic">Ch</hi> 26 interi <hi rend="italic">Ch</hi> altitudine] <lb/>
-            multitudine <hi rend="italic">S V</hi> 27 agendo <hi rend="italic">Ch</hi> </note> <lb/>
-             
-<pb n="14"/>
+            multitudine <hi rend="italic">S V</hi> 27 agendo <hi rend="italic">Ch</hi>
+               </note>
+               <lb/>
+               <pb n="14"/>
             legunt. de singulis dicam. primum genus est, in quo id quod <lb/>
             falsum est uerum putatur, cum aliud qui scripsit putauerit. <lb/>
             alterum est, quamuis non tam late patens, non tamen minus <lb/>
@@ -625,15 +647,17 @@
             error non modo humanus est, sed saepe etiam homine dignissimus.
 
 <note type="footnote"> 11 Aen. VI 566 sqq. </note>
-
-<note type="footnote" rend="script"> 2 cum-putauerit <hi rend="italic">in mg. m</hi> 7 inmo <hi rend="italic">V</hi> 10 radamantum <hi rend="italic">ChSPpM</hi> <lb/>
+               <note type="footnote" rend="script"> 2 cum-putauerit <hi rend="italic">in mg. m</hi> 7 inmo <hi rend="italic">V</hi> 10 radamantum <hi rend="italic">ChSPpM</hi>
+                  <lb/>
             nduuatri <lb/>
-            reclamanttt <hi rend="italic">m</hi> reclamantd <hi rend="italic">V</hi> 12 et quod rem <hi rend="italic">V</hi> 13 querit <hi rend="italic">Ch</hi> <lb/>
+            reclamanttt <hi rend="italic">m</hi> reclamantd <hi rend="italic">V</hi> 12 et quod rem <hi rend="italic">V</hi> 13 querit <hi rend="italic">Ch</hi>
+                  <lb/>
             14 sic <hi rend="italic">s. I. S om. M</hi> 15 eosdem <hi rend="italic">Sm</hi> 17 miser est] miseret <hi rend="italic">Ch</hi> si--est <hi rend="italic">infm <lb/>
             text. P</hi> 19 est <hi rend="italic">V</hi> 28 laudant <hi rend="italic">Ch</hi> 24 poauisse-bonum <hi rend="italic">inf. text. <lb/>
-            m. 2 adscr. S</hi> non <hi rend="italic">om. V</hi> quid] quod <hi rend="italic">Ch</hi> 28 hic enim <hi rend="italic">V</hi> </note><lb/>
-             
-<pb n="15"/>
+            m. 2 adscr. S</hi> non <hi rend="italic">om. V</hi> quid] quod <hi rend="italic">Ch</hi> 28 hic enim <hi rend="italic">V</hi>
+               </note>
+               <lb/>
+               <pb n="15"/>
             quid enim? si mihi de aliquo, quem diligerem. nuntiaretur, quod <lb/>
             sibi, cum esset barbatus, pueritiam atque infantiam ita placere <lb/>
             multis audientibus dixerit. ut etiam iurauerit se similiter <lb/>
@@ -654,11 +678,10 @@
             innocentia mihi placeret et homo de homine in re dubia <lb/>
             bene potius existimarem, cum etiam male liceret. 
 </p>
-          
-</div>
-
-<div type="textpart" subtype="chapter" n="11">
-<p><milestone unit="altchapter" n="5"/> Quae cum ita sint, audi etiam earundem scripturarum <lb n="20"/>
+         </div>
+         <div n="11" type="chapter">
+            <p>
+               <milestone unit="altchapter" n="5"/> Quae cum ita sint, audi etiam earundem scripturarum <lb n="20"/>
             totidem condiciones et differentias; nam necesse est totidem <lb/>
             occurrant. aut enim utiliter scripsit quispiam et non utiliter <lb/>
             ab aliquo intellegitur, aut utrumque inutiliter fit, aut utiliter <lb/>
@@ -671,14 +694,17 @@
 
 <note type="footnote" rend="script"> 11 hi Im <lb/>
             2 cum] si <hi rend="italic">in mg. V</hi> 4 <hi rend="italic">uifjere S</hi> mi P pbaretur m2 5 cuipiam <lb/>
-            <hi rend="italic">om. Pp S M V mb</hi> 6 sibi uoluisse <hi rend="italic">S V m</hi> 11 stultius <hi rend="italic">V</hi> <lb/>
+                  <hi rend="italic">om. Pp S M V mb</hi> 6 sibi uoluisse <hi rend="italic">S V m</hi> 11 stultius <hi rend="italic">V</hi>
+                  <lb/>
             13 essetnec <hi rend="italic">Ch</hi> 14 <hi rend="italic">succenseret SM Vmb</hi> 16 quidquod <hi rend="italic">(m</hi>. 2 <hi rend="italic">corr. <lb/>
-             ex</hi> quicquid) S 19 existimare <hi rend="italic">Smb</hi> diceret <hi rend="italic">SP</hi> 20 corundem <hi rend="italic">Ch</hi> <lb/>
+             ex</hi> quicquid) S 19 existimare <hi rend="italic">Smb</hi> diceret <hi rend="italic">SP</hi> 20 corundem <hi rend="italic">Ch</hi>
+                  <lb/>
             i <lb/>
             earundem P (o <hi rend="italic">in</hi> a <hi rend="italic">corr.)</hi> 23 utrum <hi rend="italic">V</hi> fty <hi rend="italic">et</hi> in <hi rend="italic">mg</hi> scpserit M <lb/>
-            26 nam neque] namque <hi rend="italic">S</hi> 28 uidebam <hi rend="italic">V</hi> </note> <lb/>
-             
-<pb n="16"/>
+            26 nam neque] namque <hi rend="italic">S</hi> 28 uidebam <hi rend="italic">V</hi>
+               </note>
+               <lb/>
+               <pb n="16"/>
             scripta sunt et in bonam partem accipiuntur a legentibus. id <lb/>
             quoque tamen adhuc in duo diuiditur; non enim penitus <lb/>
             excludit errorem. nam euenit plerumque, ut cum bene senserit <lb/>
@@ -697,11 +723,9 @@
             tamen bonus creditur, cuius litteris generi humano posteritatique <lb/>
             consultum est. 
 </p>
-          
-</div>
-
-<div type="textpart" subtype="chapter" n="12">
-<p>Quamobrem uellem mihi isti dicerent, in quo genere ponant <lb/>
+         </div>
+         <div n="12" type="chapter">
+            <p>Quamobrem uellem mihi isti dicerent, in quo genere ponant <lb/>
             ecclesiae catholicae quem putant errorem. si in primo, graue <lb/>
             omnino crimen, sed defensionem longam non requirit; satis <lb n="20"/>
             est enim negare ita nos intellegere, ut illi, cum inuehuntur, <lb/>
@@ -716,14 +740,17 @@
             aduersarios absoluere atque olim mortuos, cum quibus nulla
 
 <note type="footnote" rend="script"> 1 accipitur <hi rend="italic">V</hi> 4 senserit <hi rend="italic">Y</hi> 9 mea] in ea <hi rend="italic">b</hi> 11 hominis (es <hi rend="italic">corr. <lb/>
-            in</hi> is) P 13 <hi rend="italic">malas S</hi> 14 absconderem <hi rend="italic">Ch</hi> 16 generi/ (a <hi rend="italic">er.) S</hi> <lb/>
-            18 uellem—quo <hi rend="italic">om. Ch</hi> 20 longinquam <hi rend="italic">SMPpVmb</hi> satis enim est <hi rend="italic">Sm</hi> <lb/>
+            in</hi> is) P 13 <hi rend="italic">malas S</hi> 14 absconderem <hi rend="italic">Ch</hi> 16 generi/ (a <hi rend="italic">er.) S</hi>
+                  <lb/>
+            18 uellem—quo <hi rend="italic">om. Ch</hi> 20 longinquam <hi rend="italic">SMPpVmb</hi> satis enim est <hi rend="italic">Sm</hi>
+                  <lb/>
             .. <lb/>
             26 a] ad <hi rend="italic">Ch</hi> at] ad <hi rend="italic">Ch</hi> a4 <hi rend="italic">P</hi> 27 accipiantur S ad P ad <hi rend="italic">Y</hi> satis] <lb/>
             1 hoc qui <lb/>
-            sasit <hi rend="italic">Ch</hi> 29 tamen sunt <hi rend="italic">V</hi> Qd 6 aliud ^ uiuos m- cum <hi rend="italic">om Ch</hi> </note><lb n="30"/>
-             
-<pb n="17"/>
+            sasit <hi rend="italic">Ch</hi> 29 tamen sunt <hi rend="italic">V</hi> Qd 6 aliud ^ uiuos m- cum <hi rend="italic">om Ch</hi>
+               </note>
+               <lb n="30"/>
+               <pb n="17"/>
             contentio est. accusare? ego quidem illos uiros et omnia utiliter <lb/>
             memoriae mandasse et magnos ac diuinos fuisse et illam legem <lb/>
             dei iussu ac uoluntate promulgatam esse et conditam credo <lb/>
@@ -734,11 +761,10 @@
             potero. nunc autem nonne mihi satis est, quoquo modo se <lb/>
             ista res habeat, deceptum non fuisse? 
 </p>
-          
-</div>
-
-<div type="textpart" subtype="chapter" n="13">
-<p><milestone unit="altchapter" n="6"/> Testor, Honorate, conscientiam meam et puris animis <lb n="10"/>
+         </div>
+         <div n="13" type="chapter">
+            <p>
+               <milestone unit="altchapter" n="6"/> Testor, Honorate, conscientiam meam et puris animis <lb n="10"/>
             inhabitantem deum nihil me existimare prudentius, castius. <lb/>
             religiosius, quam sunt illae scripturae omnes, quas testamenti <lb/>
             ueteris nomine catholica ecclesia retinet. miraris, noui. non <lb/>
@@ -761,18 +787,20 @@
              manichaea quadam femina colendus commendaretur, ut erat <lb n="30"/>
             religiose simplex, concita exiluit et eum locum, quem sol
 
-<note type="footnote" rend="script">2 mandasse memoriae <hi rend="italic">V</hi> 4 id <hi rend="italic">om. V</hi> 5 aecus <hi rend="italic">Ch</hi> et <hi rend="italic">om. Vm (s. I.)</hi> <lb/>
-            . 6 fuerit data <hi rend="italic">V</hi> 7 beneuolarum <hi rend="italic">SMPpm</hi> 15 pleniusq' <hi rend="italic">SM</hi> pleniusq <hi rend="italic">m</hi> <lb/>
+<note type="footnote" rend="script">2 mandasse memoriae <hi rend="italic">V</hi> 4 id <hi rend="italic">om. V</hi> 5 aecus <hi rend="italic">Ch</hi> et <hi rend="italic">om. Vm (s. I.)</hi>
+                  <lb/>
+            . 6 fuerit data <hi rend="italic">V</hi> 7 beneuolarum <hi rend="italic">SMPpm</hi> 15 pleniusq' <hi rend="italic">SM</hi> pleniusq <hi rend="italic">m</hi>
+                  <lb/>
             III <lb/>
-            20 bella m2 bella <hi rend="italic">V</hi> enim <hi rend="italic">om. m</hi> inqufi sibi S 30 machiae a,quada <hi rend="italic">p1</hi> <lb/>
+            20 bella m2 bella <hi rend="italic">V</hi> enim <hi rend="italic">om. m</hi> inqufi sibi S 30 machiae a,quada <hi rend="italic">p1</hi>
+                  <lb/>
             n. <lb/>
-            31 exiliunt <hi rend="italic">M</hi> eiiluaT (ix a m. 2) <hi rend="italic">Ch</hi> eiiliuit <hi rend="italic">Vm</hi> </note>
-
-<note type="footnote"> XXV. Ang. aect. 6. </note>
-
-<note type="footnote"> 2 </note> <lb/>
-             
-<pb n="18"/>
+            31 exiliunt <hi rend="italic">M</hi> eiiluaT (ix a m. 2) <hi rend="italic">Ch</hi> eiiliuit <hi rend="italic">Vm</hi>
+               </note>
+               <note type="footnote"> XXV. Ang. aect. 6. </note>
+               <note type="footnote"> 2 </note>
+               <lb/>
+               <pb n="18"/>
             per fenestram inlustrauerat, crebro pede percutiens: ecce <lb/>
             solem deumque tuum calco' clamare coepit. stulte omnino atque <lb/>
             muliebriter — quis negat? — sed nonne tibi tales uidentur <lb/>
@@ -805,14 +833,17 @@
             Maronis putamus. iam si ad defensionem suam peccatum tanti
 
 <note type="footnote" rend="script"> 4 eunt <hi rend="italic">M</hi> 5 qufi uera dicentibus <hi rend="italic">S Vx,</hi> 6 diuina magno] diuino <lb/>
-            <hi rend="italic">////V9 Ch</hi> 11 non s. <hi rend="italic">I. S2 om. Mb</hi> 12 poscit (corr. <hi rend="italic">ex</hi> possit) S <lb/>
-            16 ex exponendis <hi rend="italic">V</hi> 17 quia sij quasi <hi rend="italic">Ch uirgilitl b</hi> inmo <hi rend="italic">Ok m</hi> <lb/>
-            19 fieret satis <hi rend="italic">Y</hi> 22 expedires <hi rend="italic">Ch</hi> 24 captu-potissimum <hi rend="italic">om. Ch</hi> <lb/>
+                  <hi rend="italic">////V9 Ch</hi> 11 non s. <hi rend="italic">I. S2 om. Mb</hi> 12 poscit (corr. <hi rend="italic">ex</hi> possit) S <lb/>
+            16 ex exponendis <hi rend="italic">V</hi> 17 quia sij quasi <hi rend="italic">Ch uirgilitl b</hi> inmo <hi rend="italic">Ok m</hi>
+                  <lb/>
+            19 fieret satis <hi rend="italic">Y</hi> 22 expedires <hi rend="italic">Ch</hi> 24 captu-potissimum <hi rend="italic">om. Ch</hi>
+                  <lb/>
             MQ <lb/>
             26 peccatg, <hi rend="italic">S</hi> 28 qufstiunculis <hi rend="italic">V</hi> 29 habent <hi rend="italic">Ch</hi> succensemus <lb/>
-            <hi rend="italic">SM Vmb</hi> </note> <lb n="30"/>
-             
-<pb n="19"/>
+                  <hi rend="italic">SM Vmb</hi>
+               </note>
+               <lb n="30"/>
+               <pb n="19"/>
             auctoris adserere uoluerit. uix apud eum discipuli uel datis <lb/>
             mercedibus remanebunt. quantum erat, ut similem beneuolentiam <lb/>
             praeberemus eis, per quos locutum esse sanctum spiritum <lb/>
@@ -826,11 +857,10 @@
             sunt uoce commoti, apud quos falsa pollicitatione rationis <lb/>
             inaudita milia fabularum credere et colere cogeremur. 
 </p>
-          
-</div>
-
-<div type="textpart" subtype="chapter" n="14">
-<p><milestone unit="altchapter" n="7"/> Sed nunc quod institui peragam, si possum, et sic <lb/>
+         </div>
+         <div n="14" type="chapter">
+            <p>
+               <milestone unit="altchapter" n="7"/> Sed nunc quod institui peragam, si possum, et sic <lb/>
             apud te agam, ut fidem catholicam non interim aperiam, sed <lb/>
             ad scrutanda eius magna mysteria eis. quorum animae sibi <lb n="15"/>
             curae sunt, spem diuini fructus et inueniendae ueritatis . <lb/>
@@ -849,28 +879,30 @@
             dico errore ac stultitia inretitam et demersam uiam, si
 
 <note type="footnote" rend="script"> 2 ut similem] utimilg <hi rend="italic">Ch</hi> beniuolentiam <hi rend="italic">S M Pp2 mb</hi> 3 spirir <lb/>
-            <lb/>
-            tum <hi rend="italic">sanctom SPp M Vm b</hi> 5 mirationum <hi rend="italic">ChV</hi> exploratioQes <hi rend="italic">V</hi> <lb/>
-            6 <hi rend="italic">saltim SM Fnt1</hi> 8 <hi rend="italic">eiusmodi b</hi> tam] at <hi rend="italic">Ch</hi> 15 ainime <hi rend="italic">V</hi> <lb/>
+                  <lb/>
+            tum <hi rend="italic">sanctom SPp M Vm b</hi> 5 mirationum <hi rend="italic">ChV</hi> exploratioQes <hi rend="italic">V</hi>
+                  <lb/>
+            6 <hi rend="italic">saltim SM Fnt1</hi> 8 <hi rend="italic">eiusmodi b</hi> tam] at <hi rend="italic">Ch</hi> 15 ainime <hi rend="italic">V</hi>
+                  <lb/>
             o tm <lb/>
-            <hi rend="italic">20///quom V</hi> 21 ac] a Ch <hi rend="italic">28 es Ch</hi> 24 uiderp ms <hi rend="italic">25 hoc om. SpPMVmb</hi> <lb/>
+                  <hi rend="italic">20///quom V</hi> 21 ac] a Ch <hi rend="italic">28 es Ch</hi> 24 uiderp ms <hi rend="italic">25 hoc om. SpPMVmb</hi>
+                  <lb/>
             ee <lb/>
-            26 adepiscatur <hi rend="italic">Ch</hi> 27 (et 28) num] nunc <hi rend="italic">P</hi> 28 te. mere <hi rend="italic">P</hi> <lb/>
+            26 adepiscatur <hi rend="italic">Ch</hi> 27 (et 28) num] nunc <hi rend="italic">P</hi> 28 te. mere <hi rend="italic">P</hi>
+                  <lb/>
             ('Fe c4 <lb/>
-            <hi rend="italic">temedere p me credereS2</hi> te mecum credere T w» te me <hi rend="italic">credere Mtemere om. b</hi> </note>
-
-<note type="footnote">2* </note> <lb/>
-             
-<pb n="20"/>
+                  <hi rend="italic">temedere p me credereS2</hi> te mecum credere T w» te me <hi rend="italic">credere Mtemere om. b</hi>
+               </note>
+               <note type="footnote">2* </note>
+               <lb/>
+               <pb n="20"/>
             qua est, quaerere ueritatis. si hoc in te non est, da ueniam et <lb/>
             participare mecum, quaeso, sapientiam tuam; sin id, quod dico, <lb/>
             agnoscis in te, simul, obsecro, quaeramus uerum. 
 </p>
-          
-</div>
-
-<div type="textpart" subtype="chapter" n="15">
-<p>Puta nos adhuc neminem audisse cuiuspiam religionis <lb/>
+         </div>
+         <div n="15" type="chapter">
+            <p>Puta nos adhuc neminem audisse cuiuspiam religionis <lb/>
             insinuatorem. ecce res noua est a nobis negotiumque susceptum.<lb n="5"/>
             quaerendi sunt, credo, huius rei, si ulla est, professores. <lb/>
             fac nos repperisse alios aliud opinantes et diuersitate opinionum <lb/>
@@ -880,11 +912,9 @@
             nonne prius sunt explorandi, ut, quamdiu erramus, si quidem <lb/>
             homines sumus, cum ipso genere humano errare uideamur? 
 </p>
-          
-</div>
-
-<div type="textpart" subtype="chapter" n="16">
-<p>At enim apud paucos quosdam est ueritas. scis ergo <lb/>
+         </div>
+         <div n="16" type="chapter">
+            <p>At enim apud paucos quosdam est ueritas. scis ergo <lb/>
             iam quae sit, si scis, apud quos sit. nonne dixeram paulo ante, ut <lb/>
             quasi rudes quaereremus? sed si ex ipsa ui ueritatis paucos <lb n="15"/>
             eam tenere coniectas, qui uero sint, nescis, quid? si ita pauci <lb/>
@@ -902,17 +932,20 @@
             quid? si tale quiddam est uera religio. quid? si multitudo
 
 <note type="footnote" rend="script">2 sin id] si in id <hi rend="italic">Ch</hi> si/n id fi <hi rend="italic">er.) P</hi> si non id <hi rend="italic">M</hi> si id m <hi rend="italic">b</hi> si iij <lb/>
-            <hi rend="italic">id S siinid p 4 audiesse Ch 5 a nobis om. Ch p suceptum V</hi> <lb/>
+                  <hi rend="italic">id S siinid p 4 audiesse Ch 5 a nobis om. Ch p suceptum V</hi>
+                  <lb/>
             6 que?re4?ndi Squ§ credcndi Mque credenda fl b 7 alios]alius Ch 8 fame b <lb/>
-            9 ppene <hi rend="italic">S</hi> poene <hi rend="italic">Ch</hi> 12 errante <hi rend="italic">in mg</hi>. 1 errare S 13 at] aut <hi rend="italic">Fx</hi> <lb/>
+            9 ppene <hi rend="italic">S</hi> poene <hi rend="italic">Ch</hi> 12 errante <hi rend="italic">in mg</hi>. 1 errare S 13 at] aut <hi rend="italic">Fx</hi>
+                  <lb/>
             II <lb/>
             15 ueritas <hi rend="italic">8 V</hi> ueritas mt 18 expedire teneant et quasi <hi rend="italic">V</hi> 21 num <lb/>
             ft <lb/>
             qui ia <hi rend="italic">b</hi> 23 ęruci <hi rend="italic">M</hi> erucii <hi rend="italic">b</hi> tullian tf (u <hi rend="italic">corr</hi>. in i) <hi rend="italic">S</hi> npuanda flit <lb/>
             nouanda <hi rend="italic">V</hi> 25 sint <hi rend="italic">V</hi> imperitorum (ra <hi rend="italic">mut. in</hi> ri) <hi rend="italic">S</hi> 28 quidreligio <lb/>
-            om. 1r . similitudo <hi rend="italic">S similitudo M</hi> imperitorum (ra <hi rend="italic">corr. iit ri) S</hi> </note> <lb/>
-             
-<pb n="21"/>
+            om. 1r . similitudo <hi rend="italic">S similitudo M</hi> imperitorum (ra <hi rend="italic">corr. iit ri) S</hi>
+               </note>
+               <lb/>
+               <pb n="21"/>
             inperitorum frequentat ecclesias, sed nullum argumentum est ideo <lb/>
             neminem illis mysteriis factum esse perfectum. et tamen si tam <lb/>
             pauci studerent eloquentiae quam pauci sunt eloquentes, <lb/>
@@ -935,11 +968,9 @@
             ipsa beatae uitae adpetitione, cum his omnes occupentur, <lb n="20"/>
             pauci excellant, nulla deterruit multitudo? 
 </p>
-          
-</div>
-
-<div type="textpart" subtype="chapter" n="17">
-<p>At absurda ibi dici uidebantur. quibus adserentibus? nempe <lb/>
+         </div>
+         <div n="17" type="chapter">
+            <p>At absurda ibi dici uidebantur. quibus adserentibus? nempe <lb/>
             inimicis, qualibet causa, qualibet ratione — non enim hoc <lb/>
             nunc quaeritur — tamen inimicis. cum legerem, per me ipse <lb/>
             cognoui. itane est? nulla inbutus poetica disciplina Terentianum <lb n="25"/>
@@ -948,15 +979,18 @@
             poeta possit intellegi, cuius carmina et theatri plausus <lb/>
             uidentur captare — tu in eos libros, qui quoquo modo se <lb/>
             habeant, sancti tamen diuinarumque rerum pleni prope to <lb n="30"/>
-            <note type="footnote" rend="script">Õ inuitauerit <hi rend="italic">(corr. ex</hi> imitauerit) S 6 imperitord m7 7 adamares <lb/>
-            <hi rend="italic">V</hi> 9 contempnimus <hi rend="italic">Vet]</hi> est <hi rend="italic">Ch</hi> 18 teneritatem <hi rend="italic">Ch</hi> <lb/>
+               <note type="footnote" rend="script">Õ inuitauerit <hi rend="italic">(corr. ex</hi> imitauerit) S 6 imperitord m7 7 adamares <lb/>
+                  <hi rend="italic">V</hi> 9 contempnimus <hi rend="italic">Vet]</hi> est <hi rend="italic">Ch</hi> 18 teneritatem <hi rend="italic">Ch</hi>
+                  <lb/>
             e <lb/>
-            19 oalitudine <hi rend="italic">8 M V m b</hi> y20 occupantur <hi rend="italic">ChpM Y b</hi> occQpantur <hi rend="italic">SP1</hi> <lb/>
+            19 oalitudine <hi rend="italic">8 M V m b</hi> y20 occupantur <hi rend="italic">ChpM Y b</hi> occQpantur <hi rend="italic">SP1</hi>
+                  <lb/>
             v <lb/>
             23 nunc hoc <hi rend="italic">V</hi> 24 inimicis <hi rend="italic">S</hi> inimicis (u <hi rend="italic">corr. in</hi> i) <hi rend="italic">M</hi> 25 es <hi rend="italic">(ex</hi> 8 <hi rend="italic">fact.) . <lb/>
-            SVm</hi> nulla] inilla <hi rend="italic">M</hi> 29 captaret. Ut <hi rend="italic">Ch</hi> q qm <hi rend="italic">rng</hi> quomodo <hi rend="italic">Ch V</hi> </note><lb/>
-             
-<pb n="22"/>
+            SVm</hi> nulla] inilla <hi rend="italic">M</hi> 29 captaret. Ut <hi rend="italic">Ch</hi> q qm <hi rend="italic">rng</hi> quomodo <hi rend="italic">Ch V</hi>
+               </note>
+               <lb/>
+               <pb n="22"/>
             tius generis humani confessione diffamantur, sine duce inruis <lb/>
             et de his sine praeceptore audes ferre sententiam nec si tibi <lb/>
             aliqua occurrunt, quae uideantur absurda, tarditatem tuam <lb/>
@@ -985,29 +1019,33 @@
             sed inperitorum iudicium fugere adfirment, cum sine ullo
 
 <note type="footnote" rend="script"> r et <lb/>
-            1 iųruissęąde <hi rend="italic">81</hi> irmisset de <hi rend="italic">M</hi> inraisse de <hi rend="italic">Ch</hi> irruisset et de <hi rend="italic">b</hi> <lb/>
+            1 iųruissęąde <hi rend="italic">81</hi> irmisset de <hi rend="italic">M</hi> inraisse de <hi rend="italic">Ch</hi> irruisset et de <hi rend="italic">b</hi>
+                  <lb/>
             11 <lb/>
             2 si tibi] sibi <hi rend="italic">Ch</hi> sibi <hi rend="italic">P</hi> 3 uidebantar <hi rend="italic">S V</hi> 4 putre <hi rend="italic">factum S</hi> tabe M <lb/>
             ri <lb/>
-            9 repperiebatur <hi rend="italic">S</hi> repperiebatur <hi rend="italic">M</hi> 12 progrederis S progrederes <hi rend="italic">M</hi> <lb/>
+            9 repperiebatur <hi rend="italic">S</hi> repperiebatur <hi rend="italic">M</hi> 12 progrederis S progrederes <hi rend="italic">M</hi>
+                  <lb/>
             qua ea que <lb/>
-            13 terras qeełl!l qib' illis ma quę ea in quibus <hi rend="italic">V</hi> 15 religione <hi rend="italic">Ch</hi> <lb/>
-            16 loquor (a in o <hi rend="italic">corr.) M</hi> 19 eo ita sint pos-ita <hi rend="italic">V</hi> 20 aborrentes <hi rend="italic">S</hi> <lb/>
+            13 terras qeełl!l qib' illis ma quę ea in quibus <hi rend="italic">V</hi> 15 religione <hi rend="italic">Ch</hi>
+                  <lb/>
+            16 loquor (a in o <hi rend="italic">corr.) M</hi> 19 eo ita sint pos-ita <hi rend="italic">V</hi> 20 aborrentes <hi rend="italic">S</hi>
+                  <lb/>
             C <lb/>
-            <hi rend="italic">22 catamiium V catamictl6</hi> 28 buccolicorumjj bufcolicorumP ef//I//Bitw <lb/>
+                  <hi rend="italic">22 catamiium V catamictl6</hi> 28 buccolicorumjj bufcolicorumP ef//I//Bitw <lb/>
             i CA. <lb/>
-            effulsis <hi rend="italic">V</hi> Ctiuentur m* 24 alexin <hi rend="italic">S</hi> rm 26 imperitorum (ra in ri <hi rend="italic">corr.) S</hi> <lb/>
-            affirmant <hi rend="italic">(in mg. signo</hi> r <hi rend="italic">app.) m V</hi> cum <hi rend="italic">om. V fn</hi> </note> <lb/>
-             
-<pb n="23"/>
+            effulsis <hi rend="italic">V</hi> Ctiuentur m* 24 alexin <hi rend="italic">S</hi> rm 26 imperitorum (ra in ri <hi rend="italic">corr.) S</hi>
+                  <lb/>
+            affirmant <hi rend="italic">(in mg. signo</hi> r <hi rend="italic">app.) m V</hi> cum <hi rend="italic">om. V fn</hi>
+               </note>
+               <lb/>
+               <pb n="23"/>
             sacrilegio poeta uberrimus uideri possit libidinosas cantiunculas <lb/>
             edidisse? 
 </p>
-          
-</div>
-
-<div type="textpart" subtype="chapter" n="18">
-<p>Sed reuera reuocabat nos atque prohibebat a quaerendo <lb/>
+         </div>
+         <div n="18" type="chapter">
+            <p>Sed reuera reuocabat nos atque prohibebat a quaerendo <lb/>
             aut alicuius legis sanctio aut aduersantium potentia aut sacratorum <lb/>
             persona uilis aut fama turpis aut institutionis nouitas <lb n="5"/>
             aut occulta professio? nihil horum est. omnia diuina et humana <lb/>
@@ -1024,11 +1062,9 @@
             necesse est, etiamsi omnium in id gentium uoluntas fauorque <lb/>
             conspiret? . 
 </p>
-          
-</div>
-
-<div type="textpart" subtype="chapter" n="19">
-<p>Quae cum ita sint, fac nos, ut dixi, nunc primum <lb/>
+         </div>
+         <div n="19" type="chapter">
+            <p>Quae cum ita sint, fac nos, ut dixi, nunc primum <lb/>
             quaerere, cuinam religioni animas nostras purgandas instauran dasque <lb n="20"/>
             tradamus. procul dubio a catholica ecclesia sumendum <lb/>
             exordium. plures enim iam christiani sunt, quam si <lb/>
@@ -1042,14 +1078,17 @@
             est. una est catholica, cui haereses aliae diuersa nomina <lb n="30"/>
             e • ito
 
-<note type="footnote">&lt;3 <hi rend="italic">reu$r$4</hi> sacrgrfl <hi rend="italic">S1</hi> 5 personabilis <hi rend="italic">Ch</hi> faJ,'ma (o <hi rend="italic">corr. in</hi> a) <hi rend="italic">S</hi> <lb/>
+<note type="footnote">&lt;3 <hi rend="italic">reu$r$4</hi> sacrgrfl <hi rend="italic">S1</hi> 5 personabilis <hi rend="italic">Ch</hi> faJ,'ma (o <hi rend="italic">corr. in</hi> a) <hi rend="italic">S</hi>
+                  <lb/>
             nouita <hi rend="italic">Ch</hi> 7 iura] natura <hi rend="italic">Ch</hi> 8 si de] sine <hi rend="italic">SVm</hi> 11 quaesita] qng ait antMb <lb/>
-            quasita aut <hi rend="italic">SVm</hi> 15 pię <hi rend="italic">Ch</hi> 16 est] sit <hi rend="italic">SPpMVmb</hi> 17 faborque <hi rend="italic">Ch</hi> <lb/>
+            quasita aut <hi rend="italic">SVm</hi> 15 pię <hi rend="italic">Ch</hi> 16 est] sit <hi rend="italic">SPpMVmb</hi> 17 faborque <hi rend="italic">Ch</hi>
+                  <lb/>
             e <lb/>
             18 conspiceret <hi rend="italic">V</hi> 21 procul] propter <hi rend="italic">V</hi> a <hi rend="italic">om. Ch</hi> 25 nominvntS1 <lb/>
-            nominant <hi rend="italic">M b</hi> 27 nouerint <hi rend="italic">Y</hi> 30 est <hi rend="italic">(post</hi> una) om. <hi rend="italic">V</hi> </note><lb/>
-             
-<pb n="24"/>
+            nominant <hi rend="italic">M b</hi> 27 nouerint <hi rend="italic">Y</hi> 30 est <hi rend="italic">(post</hi> una) om. <hi rend="italic">V</hi>
+               </note>
+               <lb/>
+               <pb n="24"/>
             inponunt, cum ipsae singulae propriis uocabulis, quae negare <lb/>
             non audeant, appellentur. ex quo intellegi datur, iudicantibus <lb/>
             arbitris, quos nulla inpedit gratia, cui sit catholicum nomen, <lb/>
@@ -1064,11 +1103,10 @@
             eius et retentio securissima est: si non potuerit, tum demum <lb/>
             alia quocumque periculo adeunda atque rimanda sunt. 
 </p>
-          
-</div>
-
-<div type="textpart" subtype="chapter" n="20">
-<p><milestone unit="altchapter" n="8"/> His igitur constitutis, quae, ut opinor. ita iusta sunt, <lb/>
+         </div>
+         <div n="20" type="chapter">
+            <p>
+               <milestone unit="altchapter" n="8"/> His igitur constitutis, quae, ut opinor. ita iusta sunt, <lb/>
             ut obtinere apud te istam causam quouis aduersario debeam,<lb n="15"/>
             edam tibi, ut possum, cuiusmodi uiam usus fuerim, cum eo <lb/>
             animo quaererem ueram religionem, quo nunc exposui esse <lb/>
@@ -1088,15 +1126,18 @@
 <note type="footnote" rend="script"> 2 appellantur <hi rend="italic">V</hi> 4 nelJ id (cui <hi rend="italic">er. uid.) S</hi> 6 ipse <hi rend="italic">Ch</hi> 7 gb, <lb/>
             9 innix/os// <hi rend="italic">M</hi> 10 folciendos <hi rend="italic">V</hi> perfecte <hi rend="italic">Ch</hi> 11 poteritaMTm nbi et] <lb/>
             ▼ va <lb/>
-            <hi rend="italic">nbit Ch</hi> 12 poterit Ym 13 alio quocumque ade$nd$m atque irmanda/// <lb/>
+                  <hi rend="italic">nbit Ch</hi> 12 poterit Ym 13 alio quocumque ade$nd$m atque irmanda/// <lb/>
             Iq'. <lb/>
             est p2 pericula <hi rend="italic">M</hi> atque] et 82 16 istft m (.-- m. 2 <hi rend="italic">add.)</hi> ad- <lb/>
             Y <lb/>
-            uereari <hi rend="italic">Ch</hi> 16 eo] sco <hi rend="italic">V</hi> 18 abcessi <hi rend="italic">M V</hi> cunctabundra <hi rend="italic">S</hi> <lb/>
-            22 quasi] quae si <hi rend="italic">Ch</hi> 26 manere <hi rend="italic">Ch SM pIp</hi> 27 esse <hi rend="italic">Ch</hi> esset <hi rend="italic">(«. l.)p</hi> <lb/>
-            amorem <hi rend="italic">(m. corr. add.) Ch</hi> 28 sunt <hi rend="italic">(eras.) P</hi> </note><lb/>
-             
-<pb n="25"/>
+            uereari <hi rend="italic">Ch</hi> 16 eo] sco <hi rend="italic">V</hi> 18 abcessi <hi rend="italic">M V</hi> cunctabundra <hi rend="italic">S</hi>
+                  <lb/>
+            22 quasi] quae si <hi rend="italic">Ch</hi> 26 manere <hi rend="italic">Ch SM pIp</hi> 27 esse <hi rend="italic">Ch</hi> esset <hi rend="italic">(«. l.)p</hi>
+                  <lb/>
+            amorem <hi rend="italic">(m. corr. add.) Ch</hi> 28 sunt <hi rend="italic">(eras.) P</hi>
+               </note>
+               <lb/>
+               <pb n="25"/>
             uidebatur non posse inueniri magnique fluctus cogitationum <lb/>
             mearum in academicorum suffragium ferebantur. saepe rursus <lb/>
             intuens, quantum poteram, mentem humanam tam uiuacem, tam <lb/>
@@ -1125,23 +1166,28 @@
             quae ab ipso Christo per apostolos ad nos usque <lb/>
             manauit et abhinc ad posteros manatura est.
 
-<note type="footnote"> 2 hachademicoram <hi rend="italic">Ch</hi> achademicorum <hi rend="italic">S M V m inchademi corum p</hi> <lb/>
-            ferbantur (r <hi rend="italic">in ras.) Ch</hi> 7 quaenam] nam que <hi rend="italic">Ch</hi> 8 quisquam <hi rend="italic">V</hi> <lb/>
-            9 ineispicabilis <hi rend="italic">V</hi> 10 haec <hi rend="italic">om. V</hi> 12 autem <hi rend="italic">om. V</hi> 14 mirabilib' <hi rend="italic">M</hi> <lb/>
-            mihi] nisi <hi rend="italic">Ch</hi> 17 capere <hi rend="italic">Ch</hi> 18 decreraque (ra <hi rend="italic">corr. ex</hi> ta) <hi rend="italic">m</hi> <lb/>
+<note type="footnote"> 2 hachademicoram <hi rend="italic">Ch</hi> achademicorum <hi rend="italic">S M V m inchademi corum p</hi>
+                  <lb/>
+            ferbantur (r <hi rend="italic">in ras.) Ch</hi> 7 quaenam] nam que <hi rend="italic">Ch</hi> 8 quisquam <hi rend="italic">V</hi>
+                  <lb/>
+            9 ineispicabilis <hi rend="italic">V</hi> 10 haec <hi rend="italic">om. V</hi> 12 autem <hi rend="italic">om. V</hi> 14 mirabilib' <hi rend="italic">M</hi>
+                  <lb/>
+            mihi] nisi <hi rend="italic">Ch</hi> 17 capere <hi rend="italic">Ch</hi> 18 decreraque (ra <hi rend="italic">corr. ex</hi> ta) <hi rend="italic">m</hi>
+                  <lb/>
             decreberamque <hi rend="italic">Ch</hi> 19 tamdiu <hi rend="italic">om. V</hi> cathecuminus <hi rend="italic">Ch S M PI m b <lb/>
-            cathecnminos V caticnminus p 21 opportunissimum SPMb 22 m? do-</hi> <lb/>
-            cilem <hi rend="italic">V</hi> posset si fuisset qui <hi rend="italic">P</hi> (si fuisset m. 2 <hi rend="italic">s. I. scr.)</hi> dicere r <hi rend="italic">m</hi> <lb/>
+            cathecnminos V caticnminus p 21 opportunissimum SPMb 22 m? do-</hi>
+                  <lb/>
+            cilem <hi rend="italic">V</hi> posset si fuisset qui <hi rend="italic">P</hi> (si fuisset m. 2 <hi rend="italic">s. I. scr.)</hi> dicere r <hi rend="italic">m</hi>
+                  <lb/>
             tibi<lb/>
-             23 cura m'2 <hi rend="italic">sit] siSM 24 huiusmundi Ch</hi> 25iamponerer <hi rend="italic">26 ad] a Ch</hi> </note> 
-<pb n="26"/>
-            
-</p>
-          
-</div>
-
-<div type="textpart" subtype="chapter" n="21">
-<p><milestone unit="altchapter" n="9"/> Ridiculum, inquis. istuc est, cum omnes hanc se <lb/>
+             23 cura m'2 <hi rend="italic">sit] siSM 24 huiusmundi Ch</hi> 25iamponerer <hi rend="italic">26 ad] a Ch</hi>
+               </note>
+               <pb n="26"/>
+            </p>
+         </div>
+         <div n="21" type="chapter">
+            <p>
+               <milestone unit="altchapter" n="9"/> Ridiculum, inquis. istuc est, cum omnes hanc se <lb/>
             profiteantur tenere ac docere. profitentur hac omnes haeretici, <lb/>
             negare non possum, sed ita, ut eis, quos inlectant, rationem <lb/>
             se de obscurissimis rebus polliceantur reddituros, eoque <lb/>
@@ -1158,11 +1204,9 @@
             fuerit, adsequatur atque percipiat, et omnino sine quodam<lb n="15"/>
             graui auctoritatis imperio inire recte nullo pacto potest. 
 </p>
-          
-</div>
-
-<div type="textpart" subtype="chapter" n="22">
-<p>Sed quaeris fortasse uel de hoc ipso aliquam accipere <lb/>
+         </div>
+         <div n="22" type="chapter">
+            <p>Sed quaeris fortasse uel de hoc ipso aliquam accipere <lb/>
             rationem, qua tibi persuadeatur non prius ratione quam fide <lb/>
             te esse docendum. quod facile potest, si modo aequum te. <lb/>
             praebeas. sed ut commode fiat, uolo quasi respondeas interroganti <lb n="20"/>
@@ -1180,13 +1224,15 @@
 
 <note type="footnote" rend="script">1 istud <hi rend="italic">SpMVmb</hi> 3 <hi rend="italic">possftt b</hi> 8 maxime M maxime m* <lb/>
             ... <lb/>
-            11 ualitudinemque <hi rend="italic">SMm</hi> 18 uera] uere <hi rend="italic">ChMp uerePS religionis Mpb</hi> <lb/>
+            11 ualitudinemque <hi rend="italic">SMm</hi> 18 uera] uere <hi rend="italic">ChMp uerePS religionis Mpb</hi>
+                  <lb/>
             ni/si (B <hi rend="italic">er.) S</hi> si <hi rend="italic">M p b</hi> 15 assequatur (a <hi rend="italic">ex</hi> i <hi rend="italic">corr.) 8</hi> et om.,b <lb/>
-            sine (ne 8. <hi rend="italic">I. a</hi> m. 2) <hi rend="italic">Ch</hi> 16 grauia <hi rend="italic">Ch</hi> iniri <hi rend="italic">P1 SMpVmb</hi> <lb/>
+            sine (ne 8. <hi rend="italic">I. a</hi> m. 2) <hi rend="italic">Ch</hi> 16 grauia <hi rend="italic">Ch</hi> iniri <hi rend="italic">P1 SMpVmb</hi>
+                  <lb/>
             ft % <lb/>
-            18 que S1 persuadexur <hi rend="italic">Sl</hi>' </note> <lb/>
-             
-<pb n="27"/>
+            18 que S1 persuadexur <hi rend="italic">Sl</hi>' </note>
+               <lb/>
+               <pb n="27"/>
             haec duo quid tibi distare uideatur. id certe respondes. quod <lb/>
             quamuis uterque agatur magna cupiditate noscendi, curiosus <lb/>
             tamen ea requirit. quae nihil ad se adtinent. studiosus <lb/>
@@ -1218,15 +1264,20 @@
 
 <note type="footnote"> 1 respondeas <hi rend="italic">S</hi> respondens <hi rend="italic">Ch</hi> respondebis <hi rend="italic">p</hi> 3 tamen <hi rend="italic">om. Ch. <lb/>
             que Ch studiosis S studiosins M</hi> 4 <hi rend="italic">requiret V</hi> 7 conionx <hi rend="italic">SYb <lb/>
-            8 percunctetur b 9 magnopere SPpMVmb</hi> 11 <hi rend="italic">diffinitionem SMVm</hi> <lb/>
+            8 percunctetur b 9 magnopere SPpMVmb</hi> 11 <hi rend="italic">diffinitionem SMVm</hi>
+                  <lb/>
             I <lb/>
-            18 qui id] quid <hi rend="italic">Ch</hi> quid <hi rend="italic">P</hi> 15 inpemsissime <hi rend="italic">S</hi> impendissime <hi rend="italic">V tn</hi> <lb/>
-            inpensissima <hi rend="italic">M</hi> 18'ad ianclione <hi rend="italic">V</hi> 21 fama bona <hi rend="italic">SMVmb</hi> <lb/>
-            22 <hi rend="italic">refert V</hi> 25 otiose <hi rend="italic">Ch</hi> odiose (c in d <hi rend="italic">mut.)P</hi> ac modestissime <hi rend="italic">om. ClI,</hi> <lb/>
+            18 qui id] quid <hi rend="italic">Ch</hi> quid <hi rend="italic">P</hi> 15 inpemsissime <hi rend="italic">S</hi> impendissime <hi rend="italic">V tn</hi>
+                  <lb/>
+            inpensissima <hi rend="italic">M</hi> 18'ad ianclione <hi rend="italic">V</hi> 21 fama bona <hi rend="italic">SMVmb</hi>
+                  <lb/>
+            22 <hi rend="italic">refert V</hi> 25 otiose <hi rend="italic">Ch</hi> odiose (c in d <hi rend="italic">mut.)P</hi> ac modestissime <hi rend="italic">om. ClI,</hi>
+                  <lb/>
             •« <lb/>
-            26 consessu <hi rend="italic">SP</hi> concessu <hi rend="italic">M</hi> 28 cum] qum <hi rend="italic">P</hi>. audire <hi rend="italic">SMVmb</hi> </note><lb/>
-             
-<pb n="28"/>
+            26 consessu <hi rend="italic">SP</hi> concessu <hi rend="italic">M</hi> 28 cum] qum <hi rend="italic">P</hi>. audire <hi rend="italic">SMVmb</hi>
+               </note>
+               <lb/>
+               <pb n="28"/>
             curiosi definitio ea regula. qua studiosi, emendanda est. uide <lb/>
             igitur, utrum et illa superiora emendanda sint. cur enim non <lb/>
             et suspiciosi nomine indignus sit, qui aliquando aliquid <lb/>
@@ -1235,11 +1286,10 @@
             inter curam habentem atque curiosum, ita inter credentem <lb/>
             et inter credulum plurimum interest. 
 </p>
-          
-</div>
-
-<div type="textpart" subtype="chapter" n="23">
-<p><milestone unit="altchapter" n="10"/> Sed nunc uide, inquies, utrum in religione credere debeamus. <lb/>
+         </div>
+         <div n="23" type="chapter">
+            <p>
+               <milestone unit="altchapter" n="10"/> Sed nunc uide, inquies, utrum in religione credere debeamus. <lb/>
             neque enim si concedimus aliud esse credere, aliud <lb/>
             credulum esse, sequitur, ut nulla culpa sit in religionibus<lb n="10"/>
             credere. quid? si enim et credere et credulum esse uitiosum <lb/>
@@ -1265,14 +1315,19 @@
             1 difinito S difinitio <hi rend="italic">M</hi> diffiniti <hi rend="italic">m</hi> diffiniti <hi rend="italic">V</hi> ea (a <hi rend="italic">corr. ex</hi> i) <hi rend="italic">S</hi> qua] <lb/>
             » <lb/>
             quę <hi rend="italic">SM</hi> qg&lt;? m1 2 sint emendanda <hi rend="italic">V m</hi> emendanda sint (in <hi rend="italic">mg. tn</hi> 2 <lb/>
-            <hi rend="italic">adscr.) S</hi> non <hi rend="italic">om. Ch</hi> 3 <hi rend="italic">elp</hi> et non <hi rend="italic">b</hi> qui-creduli <hi rend="italic">inf. text. tn.2 add.S'</hi> <lb/>
-            7 et inter credulum <hi rend="italic">scripsi:</hi> et incredulum <hi rend="italic">Ch</hi> et credulum <hi rend="italic">SpPMVmb</hi> <lb/>
-            8 nunc] hanc <hi rend="italic">Ch</hi> uides <hi rend="italic">Ch</hi>. 10 sequetur <hi rend="italic">Ch</hi> incredere in religionibus <hi rend="italic">V</hi> <lb/>
-            in credere <hi rend="italic">rel. m1</hi> 11 <hi rend="italic">si 8. I. p</hi> 12 qui] si Tm 13 existimatur <hi rend="italic">Vx,</hi> <lb/>
-            14 turbe <hi rend="italic">V</hi> 17 credendo <hi rend="italic">Ch 19existimet Ch</hi> 22 ficto <hi rend="italic">(a corr. in i) S</hi> <lb/>
-            concedit <hi rend="italic">Ch</hi> 23 <hi rend="italic">culpamdQ Ch</hi> 24 secreta sancta SVm 25 te <hi rend="italic">om</hi>. V </note> <lb/>
-             
-<pb n="29"/>
+                  <hi rend="italic">adscr.) S</hi> non <hi rend="italic">om. Ch</hi> 3 <hi rend="italic">elp</hi> et non <hi rend="italic">b</hi> qui-creduli <hi rend="italic">inf. text. tn.2 add.S'</hi>
+                  <lb/>
+            7 et inter credulum <hi rend="italic">scripsi:</hi> et incredulum <hi rend="italic">Ch</hi> et credulum <hi rend="italic">SpPMVmb</hi>
+                  <lb/>
+            8 nunc] hanc <hi rend="italic">Ch</hi> uides <hi rend="italic">Ch</hi>. 10 sequetur <hi rend="italic">Ch</hi> incredere in religionibus <hi rend="italic">V</hi>
+                  <lb/>
+            in credere <hi rend="italic">rel. m1</hi> 11 <hi rend="italic">si 8. I. p</hi> 12 qui] si Tm 13 existimatur <hi rend="italic">Vx,</hi>
+                  <lb/>
+            14 turbe <hi rend="italic">V</hi> 17 credendo <hi rend="italic">Ch 19existimet Ch</hi> 22 ficto <hi rend="italic">(a corr. in i) S</hi>
+                  <lb/>
+            concedit <hi rend="italic">Ch</hi> 23 <hi rend="italic">culpamdQ Ch</hi> 24 secreta sancta SVm 25 te <hi rend="italic">om</hi>. V </note>
+               <lb/>
+               <pb n="29"/>
             adtinet, doli atque simulationis esse? dices bona tua conscientia <lb/>
             nihil te fingere, quantis poteris id ipsum adserens <lb/>
             uerbis, sed tamen uerbis. non enim animi tui latebras, ita ut <lb/>
@@ -1281,11 +1336,9 @@
             mihi, cum tu beneficium, si aliquid ueri teneo, sis accepturus, <lb/>
             daturus ego? quid respondebimus nisi esse credendum? 
 </p>
-          
-</div>
-
-<div type="textpart" subtype="chapter" n="24">
-<p>Sed, inquis, nonne erat melius, rationem mihi redderes. <lb/>
+         </div>
+         <div n="24" type="chapter">
+            <p>Sed, inquis, nonne erat melius, rationem mihi redderes. <lb/>
             ut ea quocumque me duceret, sine ulla sequerer temeritate? <lb/>
             erat fortasse; sed cum res tanta sit, ut deus tibi ratione <lb n="10"/>
             cognoscendus sit, omnesne putas idoneos esse percipiendis <lb/>
@@ -1304,23 +1357,29 @@
             ducendos? uides plane, quid sit religiosius. neque enim tibi <lb/>
             quiuis homo in rei tantae cupiditate ullo modo deserendus
 
-<note type="footnote" rend="script"> <hi rend="italic">I</hi> S &amp; eque uis <hi rend="italic">m</hi> non <lb/>
+<note type="footnote" rend="script">
+                  <hi rend="italic">I</hi> S &amp; eque uis <hi rend="italic">m</hi> non <lb/>
             4jntimęSMadCk5eaequussf1equeuismnon <lb/>
-            est equi USPJJ n equ$uis <hi rend="italic">V</hi> nonnest (n <hi rend="italic">init. in ras.) Ch</hi> 7 ergo <hi rend="italic">ChP</hi> <lb/>
+            est equi USPJJ n equ$uis <hi rend="italic">V</hi> nonnest (n <hi rend="italic">init. in ras.) Ch</hi> 7 ergo <hi rend="italic">ChP</hi>
+                  <lb/>
             bU <lb/>
-            respondenisi <hi rend="italic">p2</hi> 8 reddere <hi rend="italic">V</hi> 10 cum <hi rend="italic">om. V</hi> ratione tibi <hi rend="italic">Sm</hi> <lb/>
-            11 putes <hi rend="italic">V</hi> ideneos <hi rend="italic">V</hi> percipiendis (os <hi rend="italic">corr. in</hi> is) <hi rend="italic">S</hi> 13 paucos <hi rend="italic">(ante</hi> <lb/>
+            respondenisi <hi rend="italic">p2</hi> 8 reddere <hi rend="italic">V</hi> 10 cum <hi rend="italic">om. V</hi> ratione tibi <hi rend="italic">Sm</hi>
+                  <lb/>
+            11 putes <hi rend="italic">V</hi> ideneos <hi rend="italic">V</hi> percipiendis (os <hi rend="italic">corr. in</hi> is) <hi rend="italic">S</hi> 13 paucos <hi rend="italic">(ante</hi>
+                  <lb/>
             ais) <hi rend="italic">om. Ch</hi> 14 te esse <hi rend="italic">V</hi> cre4?l?dis P tibi respondere <hi rend="italic">V</hi> 15 cre- <lb/>
             1 I <lb/>
             dece (de <hi rend="italic">ex</hi> re) S qdd ipsę facit (qdê ipsę <hi rend="italic">m</hi>. 2 <hi rend="italic">add.) M</hi> 16 bis] uis <lb/>
             i te <lb/>
-            <hi rend="italic">lib</hi>. uix credidisset ibi <hi rend="italic">b</hi> 17 dicendi <hi rend="italic">Ch dicendi p1</hi> de <hi rend="italic">Ch</hi> 18 uella <lb/>
-            <hi rend="italic">SMVb</hi> uelles (s in <hi rend="italic">raa.) m</hi> fac itaj facta M uero] et uero <hi rend="italic">SPpMVmb</hi> <lb/>
+                  <hi rend="italic">lib</hi>. uix credidisset ibi <hi rend="italic">b</hi> 17 dicendi <hi rend="italic">Ch dicendi p1</hi> de <hi rend="italic">Ch</hi> 18 uella <lb/>
+                  <hi rend="italic">SMVb</hi> uelles (s in <hi rend="italic">raa.) m</hi> fac itaj facta M uero] et uero <hi rend="italic">SPpMVmb</hi>
+                  <lb/>
             19 te 8. <hi rend="italic">I. corr. add. Ch</hi> 21 caperę <hi rend="italic">M</hi> 22 an eos in penetralia esse <lb/>
-            dqcendos <hi rend="italic">m (in mg. m 2 add.) V</hi> pedetemtim P pedetemptim <hi rend="italic">SMp</hi> <lb/>
-            24 docendos// <hi rend="italic">Ch</hi> uites <hi rend="italic">Ch</hi> uidens <hi rend="italic">p</hi> 25 cupiditatę <hi rend="italic">M</hi> ullu Ch </note> <lb n="25"/>
-             
-<pb n="30"/>
+            dqcendos <hi rend="italic">m (in mg. m 2 add.) V</hi> pedetemtim P pedetemptim <hi rend="italic">SMp</hi>
+                  <lb/>
+            24 docendos// <hi rend="italic">Ch</hi> uites <hi rend="italic">Ch</hi> uidens <hi rend="italic">p</hi> 25 cupiditatę <hi rend="italic">M</hi> ullu Ch </note>
+               <lb n="25"/>
+               <pb n="30"/>
             aut respuendus uideri potest. sed nonne censes, nisi primo <lb/>
             credat se ad id, quod instituit, peruenturum. mentemque subplicem <lb/>
             praebeat et quibusdam magnis necessariisque praeceptis <lb/>
@@ -1356,11 +1415,13 @@
             enim <hi rend="italic">Ch</hi> esse <hi rend="italic">om. V</hi> 5 ceses <hi rend="italic">p1</hi> 6 te (8. <hi rend="italic">I. a m. 2) p</hi> te esse] de <lb/>
             esse <hi rend="italic">Ch</hi> 7 rationi <hi rend="italic">Ch</hi> 10 nichil sibi <hi rend="italic">V</hi> 18 disperatione <hi rend="italic">S</hi> frangatur] <lb/>
             plangatur <hi rend="italic">Ch</hi> 14 hi <hi rend="italic">ChPpb</hi> 15 inuitamentum <hi rend="italic">SMmb</hi> in uita <lb/>
-            mentum F 17 a beatis (a 8. <hi rend="italic">I.) P</hi> 20 sagrilegam <hi rend="italic">Ch</hi> ne <hi rend="italic">V</hi> 22 assit <hi rend="italic">P</hi> <lb/>
-            hdmo (u <hi rend="italic">am. 2) PV</hi> 23 societati humanae <hi rend="italic">Pp ChSMb</hi> 24 reperire <hi rend="italic">V</hi> <lb/>
-            26 cognitione] ratione (8. <hi rend="italic">l. am. 2) m om. r</hi> esse <hi rend="italic">(«. lam.2)S</hi> 27 probari 1* </note> <lb/>
-             
-<pb n="31"/>
+            mentum F 17 a beatis (a 8. <hi rend="italic">I.) P</hi> 20 sagrilegam <hi rend="italic">Ch</hi> ne <hi rend="italic">V</hi> 22 assit <hi rend="italic">P</hi>
+                  <lb/>
+            hdmo (u <hi rend="italic">am. 2) PV</hi> 23 societati humanae <hi rend="italic">Pp ChSMb</hi> 24 reperire <hi rend="italic">V</hi>
+                  <lb/>
+            26 cognitione] ratione (8. <hi rend="italic">l. am. 2) m om. r</hi> esse <hi rend="italic">(«. lam.2)S</hi> 27 probari 1* </note>
+               <lb/>
+               <pb n="31"/>
             iniquius fieri potest, quam ut dei antistites nobis non fictum <lb/>
             animum pollicentibus credant, nos eis praecipientibus nolimus <lb/>
             credere ? postremo quae potest esse uia salubrior quam idoneum <lb/>
@@ -1370,11 +1431,10 @@
             qua tutissimum est ingredi, quam et tibi esse auctorem <lb/>
             periculi et ceteris temeritatis exemplum. 
 </p>
-          
-</div>
-
-<div type="textpart" subtype="chapter" n="25">
-<p><milestone unit="altchapter" n="11"/> Quare iam superest. ut consideremus, quo pacto hi sequendi <lb/>
+         </div>
+         <div n="25" type="chapter">
+            <p>
+               <milestone unit="altchapter" n="11"/> Quare iam superest. ut consideremus, quo pacto hi sequendi <lb/>
             non sint, qui se pollicentur ratione ducturos. nam quomodo <lb n="10"/>
             sine culpa possimus sequi eos, qui credere iubent, iam dictum <lb/>
             est; ad hos autem sponsores rationis non modo sine uituperatione. <lb/>
@@ -1394,19 +1454,25 @@
             sine uitio est, secundum aliquando cum uitio, tertium numquam <lb/>
             sine uitio. nam intellegere magna et honesta uel etiam
 
-<note type="footnote" rend="script">1 inquius <hi rend="italic">Chp</hi> 2 nolumus <hi rend="italic">V</hi> 8 uiatia <hi rend="italic">Ch</hi> 4 pcipiendae <hi rend="italic">Ch</hi> <lb/>
-            pcip. <hi rend="italic">(uirg. er.) p</hi> ueritatis <hi rend="italic">b</hi> his <hi rend="italic">ChpSMmVb</hi> iis <hi rend="italic">(ex</hi> his <hi rend="italic">corr.) P</hi> <lb/>
-            6 iam <hi rend="italic">om. V</hi> circtlire <hi rend="italic">b</hi> aliquantulum <hi rend="italic">V</hi> 10 docturos <hi rend="italic">SMb</hi> <lb/>
+<note type="footnote" rend="script">1 inquius <hi rend="italic">Chp</hi> 2 nolumus <hi rend="italic">V</hi> 8 uiatia <hi rend="italic">Ch</hi> 4 pcipiendae <hi rend="italic">Ch</hi>
+                  <lb/>
+            pcip. <hi rend="italic">(uirg. er.) p</hi> ueritatis <hi rend="italic">b</hi> his <hi rend="italic">ChpSMmVb</hi> iis <hi rend="italic">(ex</hi> his <hi rend="italic">corr.) P</hi>
+                  <lb/>
+            6 iam <hi rend="italic">om. V</hi> circtlire <hi rend="italic">b</hi> aliquantulum <hi rend="italic">V</hi> 10 docturos <hi rend="italic">SMb</hi>
+                  <lb/>
             k &lt; <lb/>
-            12 os P 13 landeseuenire <hi rend="italic">Ch</hi> nonnulla <hi rend="italic">Pp</hi> 14 duę enl p. in rel. sl <hi rend="italic">b</hi> <lb/>
-            16 eat <hi rend="italic">om. V</hi> 17 iam] etiam <hi rend="italic">SAf om. Y mb</hi> alter <hi rend="italic">Ch</hi> 19 est] et <hi rend="italic">Ch</hi> <lb/>
-            20 eorum] corti <hi rend="italic">Ch</hi> 21 eorum <hi rend="italic">om. V</hi> 25 opinari (re in ri <hi rend="italic">corr.) S</hi> <lb/>
+            12 os P 13 landeseuenire <hi rend="italic">Ch</hi> nonnulla <hi rend="italic">Pp</hi> 14 duę enl p. in rel. sl <hi rend="italic">b</hi>
+                  <lb/>
+            16 eat <hi rend="italic">om. V</hi> 17 iam] etiam <hi rend="italic">SAf om. Y mb</hi> alter <hi rend="italic">Ch</hi> 19 est] et <hi rend="italic">Ch</hi>
+                  <lb/>
+            20 eorum] corti <hi rend="italic">Ch</hi> 21 eorum <hi rend="italic">om. V</hi> 25 opinari (re in ri <hi rend="italic">corr.) S</hi>
+                  <lb/>
             26 uitio. et hoc ad eandem beatitudinem referre debemus. in hac enim <lb/>
             nita quantumque (q?rtic11q;&amp;) id sciatur nondum est beatissimum quoniam <lb/>
             incomparabiliter limge est amplius quod inde nescitur <hi rend="italic">SMVmbpP (m</hi>. 2 <lb/>
-            <hi rend="italic">del. omnia)</hi>. </note> <lb/>
-             
-<pb n="32"/>
+                  <hi rend="italic">del. omnia)</hi>. </note>
+               <lb/>
+               <pb n="32"/>
             diuina, beatissimum est; intellegere autem superflua, nihil <lb/>
             nocet, sed fortasse discere nocuit, cum tempus necessariorum <lb/>
             occuparent. ipsa etiam noxia non intellegere, sed facere aut <lb/>
@@ -1435,17 +1501,20 @@
             opinatur intellegit. haec ergo tria si ad illa quinque hominum <lb/>
             genera, quae paulo ante commemorauimus, referantur, id est
 
-<note type="footnote" rend="script"> 2 docet S1 necessariorfl <hi rend="italic">(corr. ex</hi> necessarius) <hi rend="italic">S</hi> 8 ipse <hi rend="italic">p</hi> ipsa <hi rend="italic">Ch</hi> <lb/>
+<note type="footnote" rend="script"> 2 docet S1 necessariorfl <hi rend="italic">(corr. ex</hi> necessarius) <hi rend="italic">S</hi> 8 ipse <hi rend="italic">p</hi> ipsa <hi rend="italic">Ch</hi>
+                  <lb/>
             etiam] autem <hi rend="italic">M</hi> noxia. <hi rend="italic">Ch</hi> 4 si <hi rend="italic">(8. I. m</hi>. 1) <hi rend="italic">p</hi> 5 a] ac non <hi rend="italic">SPp <lb/>
-            MVbm . 6 est om. Ck 11 cicaronis M atque SMVm 12 certe iSTm</hi> <lb/>
+            MVbm . 6 est om. Ck 11 cicaronis M atque SMVm 12 certe iSTm</hi>
+                  <lb/>
             18 et discere] ediscere <hi rend="italic">SVPtn</hi> ędiscere <hi rend="italic">M</hi> 14 dici <hi rend="italic">Chb</hi> 16 cicęrone M <lb/>
             17 impedia1;ltP 19 menti <hi rend="italic">ChpMVm</hi> menti (s m. 2 <hi rend="italic">add.) P</hi> 20 nidetnr M <lb/>
             teneatur <hi rend="italic">b (in marg. al</hi> uideatur) fama <hi rend="italic">Ch</hi> 22 inteUigimus <hi rend="italic">b</hi> (in <hi rend="italic">marg. <lb/>
-             al</hi>. scimus) igitur <hi rend="italic">om. Ch</hi> 23 opinatur <hi rend="italic">Ch</hi> et qui opinatUr errori <hi rend="italic">V</hi> <lb/>
+             al</hi>. scimus) igitur <hi rend="italic">om. Ch</hi> 23 opinatur <hi rend="italic">Ch</hi> et qui opinatUr errori <hi rend="italic">V</hi>
+                  <lb/>
             24 credit <hi rend="italic">alt. om. Ch</hi> 25 nullus- intellegit <hi rend="italic">om. P (sed ras. quattuor<lb/>
-             uoc.)</hi> 26 haec ergo] hęrgo <hi rend="italic">p</hi>. </note> <lb/>
-             
-<pb n="33"/>
+             uoc.)</hi> 26 haec ergo] hęrgo <hi rend="italic">p</hi>. </note>
+               <lb/>
+               <pb n="33"/>
             duo probanda, quae priora posuimus, et tria reliqua uitiosa: <lb/>
             inuenimus primum beatorum genus ipsi ueritati credere, <lb/>
             secundum autem studiosorum amatorumque ueritatis auctoritati. <lb/>
@@ -1477,27 +1546,28 @@
             4 duorum <hi rend="italic">SPpMVmb</hi> 6 nesciunt V 10 uitaacijtuj) pactuCft <lb/>
             M y <lb/>
             11 probauilia <hi rend="italic">Ch</hi> 12 uoluit <hi rend="italic">S1</hi> 13 credat r 14 sequntur (q <hi rend="italic">ex</hi> c <lb/>
-            <hi rend="italic">fact.) S</hi> sequitur <hi rend="italic">m</hi> secuntur <hi rend="italic">ChM</hi> quare 1 quadere (de <hi rend="italic">m</hi> 2 add.) <hi rend="italic">P</hi> <lb/>
+                  <hi rend="italic">fact.) S</hi> sequitur <hi rend="italic">m</hi> secuntur <hi rend="italic">ChM</hi> quare 1 quadere (de <hi rend="italic">m</hi> 2 add.) <hi rend="italic">P</hi>
+                  <lb/>
             U d <lb/>
-            15 aduersarium <hi rend="italic">Ch</hi> ueriti <hi rend="italic">Ch</hi> 17 contempnant 82 condempnant <hi rend="italic">Mm</hi> <lb/>
-            18 rursus] <hi rend="italic">prorsusCft</hi> 19 quas] quia <hi rend="italic">Ch</hi> 20 operantium <hi rend="italic">Ch</hi> 21 hiJ id <hi rend="italic">Ch</hi> <lb/>
+            15 aduersarium <hi rend="italic">Ch</hi> ueriti <hi rend="italic">Ch</hi> 17 contempnant 82 condempnant <hi rend="italic">Mm</hi>
+                  <lb/>
+            18 rursus] <hi rend="italic">prorsusCft</hi> 19 quas] quia <hi rend="italic">Ch</hi> 20 operantium <hi rend="italic">Ch</hi> 21 hiJ id <hi rend="italic">Ch</hi>
+                  <lb/>
             ant. <lb/>
-            <hi rend="italic">SpMVmb</hi> 22 qpinionis <hi rend="italic">Sm</hi> 23 si diligenter considere//t (n <hi rend="italic">er</hi>. quis m. 8 <lb/>
-            add.) <hi rend="italic">P</hi> 25 erroris <hi rend="italic">SPpMVmb</hi> 26 supeniiae <hi rend="italic">Ch</hi> euitabunt <hi rend="italic">scripsi:</hi> <lb/>
+                  <hi rend="italic">SpMVmb</hi> 22 qpinionis <hi rend="italic">Sm</hi> 23 si diligenter considere//t (n <hi rend="italic">er</hi>. quis m. 8 <lb/>
+            add.) <hi rend="italic">P</hi> 25 erroris <hi rend="italic">SPpMVmb</hi> 26 supeniiae <hi rend="italic">Ch</hi> euitabunt <hi rend="italic">scripsi:</hi>
+                  <lb/>
             euitauit <hi rend="italic">Ch</hi> uitauit <hi rend="italic">SMb</hi> uitabit (b <hi rend="italic">ex</hi> u <hi rend="italic">corr.) V</hi> inuitauit <hi rend="italic">p</hi> uitabunt <lb/>
-            <hi rend="italic">Vtn</hi> </note>
-
-<note type="footnote"> XXV Aii;. iwt. 6. </note>
-
-<note type="footnote"> n </note> 
-<pb n="34"/>
-             
-</p>
-          
-</div>
-
-<div type="textpart" subtype="chapter" n="26">
-<p><milestone unit="altchapter" n="12"/> Quaero enim, si quod nescitur, credendum non est, <lb/>
+                  <hi rend="italic">Vtn</hi>
+               </note>
+               <note type="footnote"> XXV Aii;. iwt. 6. </note>
+               <note type="footnote"> n </note>
+               <pb n="34"/>
+            </p>
+         </div>
+         <div n="26" type="chapter">
+            <p>
+               <milestone unit="altchapter" n="12"/> Quaero enim, si quod nescitur, credendum non est, <lb/>
             quomodo seruiant parentibus liberi eosque mutua pietate diligant, <lb/>
             quos parentes suos esse non credant. non enim ratione <lb/>
             ullo pacto sciri potest, sed interposita matris auctoritate de <lb/>
@@ -1515,11 +1585,9 @@
             humanae societatis incolume remanere, si nihil credere statuerimus, <lb/>
             quod non possumus tenere perceptum. 
 </p>
-          
-</div>
-
-<div type="textpart" subtype="chapter" n="27">
-<p>Sed nunc accipe, quod iam facilius me tibi persuasurum <lb/>
+         </div>
+         <div n="27" type="chapter">
+            <p>Sed nunc accipe, quod iam facilius me tibi persuasurum <lb/>
             esse confido. cum de religione, id est cum de colendo atque <lb/>
             intellegendo deo agitur, ii minus sequendi sunt, qui nos credere <lb n="20"/>
             uetant, rationem promptissime pollicentes. nam nemini <lb/>
@@ -1533,14 +1601,20 @@
             sint. quis mediocriter intellegens non plane uiderit stultis <lb/>
             utilius atque salubrius esse praeceptis obtemperare sapientium
 
-<note type="footnote">1 credendo <hi rend="italic">Ch</hi> 3 cred$nt <hi rend="italic">M</hi> 8 scire <hi rend="italic">ChMlapb</hi> 10 supperuissimum <hi rend="italic">Ch</hi> <lb/>
-            celere <hi rend="italic">Ch</hi> scęlere M 11 putet <hi rend="italic">SPpMVmb</hi> 14 dum ne] nedum ne <hi rend="italic">Ch</hi> <lb/>
-            falso <hi rend="italic">Ppb</hi> 15 auferri <hi rend="italic">Ch</hi> aferri <hi rend="italic">p</hi> 16 humane <hi rend="italic">Ch</hi> incolome <hi rend="italic">SM,,,,</hi> <lb/>
-            20 hi <hi rend="italic">lib. b</hi> 22 aut stultos esse aut sapientes <hi rend="italic">V</hi> 25 firmissimae <hi rend="italic">Ch</hi> <lb/>
-            26 cuius <hi rend="italic">V</hi> cuiusca <hi rend="italic">Ch</hi> 27 uel inerciis <hi rend="italic">V</hi> sint <hi rend="italic">Mm7b</hi> quodlibet <hi rend="italic">p</hi> <lb/>
-            uictu-stul <hi rend="italic">om. Ch</hi> siue inprobandi <hi rend="italic">om. P</hi> </note><lb n="30"/>
-             
-<pb n="35"/>
+<note type="footnote">1 credendo <hi rend="italic">Ch</hi> 3 cred$nt <hi rend="italic">M</hi> 8 scire <hi rend="italic">ChMlapb</hi> 10 supperuissimum <hi rend="italic">Ch</hi>
+                  <lb/>
+            celere <hi rend="italic">Ch</hi> scęlere M 11 putet <hi rend="italic">SPpMVmb</hi> 14 dum ne] nedum ne <hi rend="italic">Ch</hi>
+                  <lb/>
+            falso <hi rend="italic">Ppb</hi> 15 auferri <hi rend="italic">Ch</hi> aferri <hi rend="italic">p</hi> 16 humane <hi rend="italic">Ch</hi> incolome <hi rend="italic">SM,,,,</hi>
+                  <lb/>
+            20 hi <hi rend="italic">lib. b</hi> 22 aut stultos esse aut sapientes <hi rend="italic">V</hi> 25 firmissimae <hi rend="italic">Ch</hi>
+                  <lb/>
+            26 cuius <hi rend="italic">V</hi> cuiusca <hi rend="italic">Ch</hi> 27 uel inerciis <hi rend="italic">V</hi> sint <hi rend="italic">Mm7b</hi> quodlibet <hi rend="italic">p</hi>
+                  <lb/>
+            uictu-stul <hi rend="italic">om. Ch</hi> siue inprobandi <hi rend="italic">om. P</hi>
+               </note>
+               <lb n="30"/>
+               <pb n="35"/>
             quam suo iudicio uitam degere? nam omne factum, si recte <lb/>
             factum non est, peccatum est; nec recte factum esse ullo <lb/>
             modo potest, quod non a recta ratione proficiscitur. porro <lb/>
@@ -1565,11 +1639,10 @@
             stultitiae neque ita multum sentire, dum inest nobis, et euadere <lb/>
             aliquando possimus. 
 </p>
-          
-</div>
-
-<div type="textpart" subtype="chapter" n="28">
-<p><milestone unit="altchapter" n="13"/> Hic rursus oritur difficillima quaestio. quonam enim <lb/>
+         </div>
+         <div n="28" type="chapter">
+            <p>
+               <milestone unit="altchapter" n="13"/> Hic rursus oritur difficillima quaestio. quonam enim <lb/>
             modo stulti sapientem inuenire poterimus, cum hoc nomen, <lb n="25"/>
             tametsi nemo fere audeat palam, plerique tamen ex obliquo <lb/>
             sibi uindicant. cum de rebus ipsis, quarum cognitione constat <lb/>
@@ -1578,20 +1651,22 @@
 <note type="footnote" rend="script"> It <lb/>
             2 <hi rend="italic">(pr.)</hi> est <hi rend="italic">m2</hi> 6 stultus-peccat <hi rend="italic">om. Ch isp hia ChSM VJbm</hi> 7 obtem <lb/>
             i <lb/>
-            perarat <hi rend="italic">V</hi> 9 tamquam <hi rend="italic">om. S V m</hi> 10 quam peccare <hi rend="italic">om. C",</hi> <lb/>
+            perarat <hi rend="italic">V</hi> 9 tamquam <hi rend="italic">om. S V m</hi> 10 quam peccare <hi rend="italic">om. C",</hi>
+                  <lb/>
             a <lb/>
             11 JppHps profectus <hi rend="italic">Ch</hi> 19 peccator <hi rend="italic">Ch</hi> ftmodQ <hi rend="italic">Chp</hi> ammodum P* <lb/>
             domlnttlonem <lb/>
             comoda <hi rend="italic">M</hi> amodo <hi rend="italic">b</hi> 21 damnationê <hi rend="italic">Y</hi> 22 nobis inest <hi rend="italic">Y</hi> 24 quononftin <lb/>
-            <lb/>
+                  <lb/>
             uam] quoda <hi rend="italic">Ch</hi> quo <hi rend="italic">P</hi> qm p* 26 ferre <hi rend="italic">SVm</hi> 27 uendicant V <lb/>
             n <lb/>
-            28 interesse <hi rend="italic">V</hi> dissentiat <hi rend="italic">S'1</hi>. dissentiat <hi rend="italic">Ch</hi> dissentiunt <hi rend="italic">Vm</hi> ut] uti <hi rend="italic">SMp</hi> <lb/>
-            nulli <hi rend="italic">CI"</hi> </note>
-
-<note type="footnote"> S* </note> <lb/>
-             
-<pb n="36"/>
+            28 interesse <hi rend="italic">V</hi> dissentiat <hi rend="italic">S'1</hi>. dissentiat <hi rend="italic">Ch</hi> dissentiunt <hi rend="italic">Vm</hi> ut] uti <hi rend="italic">SMp</hi>
+                  <lb/>
+            nulli <hi rend="italic">CI"</hi>
+               </note>
+               <note type="footnote"> S* </note>
+               <lb/>
+               <pb n="36"/>
             certe unum necesse sit esse sapientem? sed quinam iste sit, <lb/>
             cum ab stulto requiratur, quo pacto queat dinosci plane atque <lb/>
             percipi, omnino non uideo. neque enim quibuslibet signis cognoscere <lb/>
@@ -1612,11 +1687,9 @@
             inuenire sapientem, cui obtemperando tanto stultitiae malo <lb/>
             liberetur. 
 </p>
-          
-</div>
-
-<div type="textpart" subtype="chapter" n="29">
-<p>Huic igitur tam inmani difficultati, quoniam de religione <lb n="20"/>
+         </div>
+         <div n="29" type="chapter">
+            <p>Huic igitur tam inmani difficultati, quoniam de religione <lb n="20"/>
             quaerimus, deus solus mederi potest: quem nisi et esse et <lb/>
             humanis mentibus opitulari credimus, nec quaerere quidem <lb/>
             ipsam ueram religionem debemus. quid enim tandem tanto <lb/>
@@ -1628,18 +1701,21 @@
             uenis, cum deum neque esse neque, si sit, curare nos
 
 <note type="footnote" rend="script"> 2 queąęat <hi rend="italic">Ch</hi> queat <hi rend="italic">M</hi> quieat p quaeat P* 3 signis quibuslibet <hi rend="italic">SJfm<lb/>
-             VPpb</hi> 4 sunt signa <hi rend="italic">V</hi> 5 nouerint <hi rend="italic">V</hi> atrqui (u <hi rend="italic">er) S</hi> aut quis <hi rend="italic">M</hi> <lb/>
+             VPpb</hi> 4 sunt signa <hi rend="italic">V</hi> 5 nouerint <hi rend="italic">V</hi> atrqui (u <hi rend="italic">er) S</hi> aut quis <hi rend="italic">M</hi>
+                  <lb/>
             h <lb/>
             aut qui <hi rend="italic">b</hi> 6 aut arg. <hi rend="italic">V</hi> 7 sapientia <hi rend="italic">Ch</hi> 12 abere <hi rend="italic">p2</hi> haberecaret <lb/>
-            <hi rend="italic">(m</hi>. 2 <hi rend="italic">inf. text scr.) Ch</hi> 13 care t (a <hi rend="italic">er.) S</hi> careat M careat P* <lb/>
+                  <hi rend="italic">(m</hi>. 2 <hi rend="italic">inf. text scr.) Ch</hi> 13 care t (a <hi rend="italic">er.) S</hi> careat M careat P* <lb/>
             t teat <lb/>
             14 posse <hi rend="italic">p1</hi> possat <hi rend="italic">(m. 2 corr.) P</hi> potest <hi rend="italic">om</hi>. uidere <hi rend="italic">Ch</hi> 15 nequehabere <lb/>
             i <lb/>
-            <hi rend="italic">om.Ch</hi> ac] <hi rend="italic">autCTi etS</hi> fl g scit hanc Vm 18 cuius <hi rend="italic">F</hi> 22 <hi rend="italic">nec]ne SM Vm</hi> <lb/>
+                  <hi rend="italic">om.Ch</hi> ac] <hi rend="italic">autCTi etS</hi> fl g scit hanc Vm 18 cuius <hi rend="italic">F</hi> 22 <hi rend="italic">nec]ne SM Vm</hi>
+                  <lb/>
             t <lb/>
-            26 ali P con <hi rend="italic">Ch</hi> 28 nisi-crederes <hi rend="italic">om. SMVPpmb</hi> </note> <lb/>
-             
-<pb n="37"/>
+            26 ali P con <hi rend="italic">Ch</hi> 28 nisi-crederes <hi rend="italic">om. SMVPpmb</hi>
+               </note>
+               <lb/>
+               <pb n="37"/>
             putes ? quid ? si tanta res est, quae nisi sedulo atque omnibus <lb/>
             uiribus quaesita nequeat reperiri? quid? si ipsa difficillima <lb/>
             inuentio ad capiendum ac proferendum. quod inuentum erit, <lb/>
@@ -1660,11 +1736,10 @@
             est, ut accedentibus ad religionem fides persuadeatur ante <lb/>
             omnia. 
 </p>
-          
-</div>
-
-<div type="textpart" subtype="chapter" n="30">
-<p><milestone unit="altchapter" n="14"/> Itaque ille haereticus — siquidem de his nobis sermo <lb/>
+         </div>
+         <div n="30" type="chapter">
+            <p>
+               <milestone unit="altchapter" n="14"/> Itaque ille haereticus — siquidem de his nobis sermo <lb/>
             est, qui se christianos dici uolunt — quam mihi rationem <lb/>
             adferat, quaeso te? quid est, unde me a credendo ueluti a <lb/>
             temeritate reuocet? si nihil me credere iubet, hanc ipsam <lb/>
@@ -1673,33 +1748,36 @@
             quaerenti monstraturus est; ita enim scriptum est: quaerens
 
 <note type="footnote"> 26 Matth. 7, 8. </note>
-
-<note type="footnote" rend="script"> ua. <lb/>
-            1 quodsi <hi rend="italic">Ch</hi> nisijsi <hi rend="italic">V</hi> hominib1 <hi rend="italic">p</hi> 2 q,sita <hi rend="italic">p</hi> quaesitantae <hi rend="italic">Ch</hi> <lb/>
-            ceque■ at <hi rend="italic">Ch</hi> nell; at p 8 at <hi rend="italic">p</hi> ac proferendum <hi rend="italic">om. SPp Mm Vb</hi> <lb/>
+               <note type="footnote" rend="script"> ua. <lb/>
+            1 quodsi <hi rend="italic">Ch</hi> nisijsi <hi rend="italic">V</hi> hominib1 <hi rend="italic">p</hi> 2 q,sita <hi rend="italic">p</hi> quaesitantae <hi rend="italic">Ch</hi>
+                  <lb/>
+            ceque■ at <hi rend="italic">Ch</hi> nell; at p 8 at <hi rend="italic">p</hi> ac proferendum <hi rend="italic">om. SPp Mm Vb</hi>
+                  <lb/>
             h h <lb/>
-            4 <hi rend="italic">ae S</hi> 5 iocundius <hi rend="italic">SMVmb</hi> 6 exausto <hi rend="italic">V</hi> exausto <hi rend="italic">P</hi> 7 uideamus <hi rend="italic">S</hi> <lb/>
+            4 <hi rend="italic">ae S</hi> 5 iocundius <hi rend="italic">SMVmb</hi> 6 exausto <hi rend="italic">V</hi> exausto <hi rend="italic">P</hi> 7 uideamus <hi rend="italic">S</hi>
+                  <lb/>
             iim <lb/>
             JfVm uideamua <hi rend="italic">P</hi> 8 saturati S saturari <hi rend="italic">p</hi> 9 cibusquę <hi rend="italic">Ch</hi> ut <lb/>
             II o nt <lb/>
             adJ ut ad mi 10 quo] quq <hi rend="italic">P1</hi> qui <hi rend="italic">mb</hi> repudiabat <hi rend="italic">SPpMVaib</hi> 18 morbtl <lb/>
             nonaeirent d <lb/>
-            euasuros <hi rend="italic">V</hi> 14 te tu SVmb inquisitioni <hi rend="italic">(ne corr. in ni) 15adbisp</hi> <lb/>
+            euasuros <hi rend="italic">V</hi> 14 te tu SVmb inquisitioni <hi rend="italic">(ne corr. in ni) 15adbisp</hi>
+                  <lb/>
             nanis <hi rend="italic">Ch tantfl M</hi> tanta (a <hi rend="italic">corr. ex</hi> Q) P3 tantap quanta] <hi rend="italic">quantS Ch <lb/>
-            ut Sm quam b om. Mp ipsA Ok cura Ch</hi> 17 credas] potes b <hi rend="italic">22 me om. p</hi> <lb/>
-            23 iubet] dubitet <hi rend="italic">SMVmb</hi> 25 quam] qui m 26 monstraturum <hi rend="italic">CK</hi> </note><lb/>
-             
-<pb n="38"/>
+            ut Sm quam b om. Mp ipsA Ok cura Ch</hi> 17 credas] potes b <hi rend="italic">22 me om. p</hi>
+                  <lb/>
+            23 iubet] dubitet <hi rend="italic">SMVmb</hi> 25 quam] qui m 26 monstraturum <hi rend="italic">CK</hi>
+               </note>
+               <lb/>
+               <pb n="38"/>
             inueniet. ad eum igitur, qui me uetat credere, non uenirem, <lb/>
             nisi aliquid crederem. estne ulla maior dementia quam ut ei <lb/>
             sola, quae nulla scientia subnixa est, fide displiceam, quae ad <lb/>
             eum ipsum me sola perduxit? 
 </p>
-          
-</div>
-
-<div type="textpart" subtype="chapter" n="31">
-<p>Quid? quod omnes haeretici Christo nos credere hortantur.<lb n="5"/>
+         </div>
+         <div n="31" type="chapter">
+            <p>Quid? quod omnes haeretici Christo nos credere hortantur.<lb n="5"/>
             possuntne magis sibi aduersari? in quo dupliciter <lb/>
             urgendi sunt. primum quaerendum ab his, ubi sit ratio quam <lb/>
             pollicebantur, ubi obiurgatio temeritatis, ubi praesumptio <lb/>
@@ -1725,17 +1803,20 @@
             ecclesiae catholicae mysteria usquequaque occupasse. cur non
 
 <note type="footnote" rend="script"> 1 inuenirem <hi rend="italic">S</hi> 2 eis <hi rend="italic">ChSMmb</hi> ei (s <hi rend="italic">eras.) P</hi> 3 displiciam <hi rend="italic">Ch</hi> disciplinam <lb/>
-            <hi rend="italic">V</hi> 5 omnes] sola omnes <hi rend="italic">M</hi> christianos SVChm 8 iurgatio <hi rend="italic">V</hi> <lb/>
+                  <hi rend="italic">V</hi> 5 omnes] sola omnes <hi rend="italic">M</hi> christianos SVChm 8 iurgatio <hi rend="italic">V</hi>
+                  <lb/>
             et T <lb/>
-            9 scientiae] disciplinae <hi rend="italic">V sine Ch qicquft Ch 12 superaedificauit ChV</hi> <lb/>
-            fundamentQ <hi rend="italic">ChSVm</hi> fundamento (n <hi rend="italic">corr. in</hi> 0) <hi rend="italic">M</hi> 14 ipsa fidem <hi rend="italic">V</hi> <lb/>
-             <lb/>
+            9 scientiae] disciplinae <hi rend="italic">V sine Ch qicquft Ch 12 superaedificauit ChV</hi>
+                  <lb/>
+            fundamentQ <hi rend="italic">ChSVm</hi> fundamento (n <hi rend="italic">corr. in</hi> 0) <hi rend="italic">M</hi> 14 ipsa fidem <hi rend="italic">V</hi>
+                  <lb/>
+                  <lb/>
             16 Balubriter V 19 in animum] animum b 21 heretica Ch dicturus m <lb/>
             22 paulQlum <hi rend="italic">S</hi> paulolum <hi rend="italic">Ch</hi> quoniam] qui <hi rend="italic">V</hi> 23 uulgatibus r 25 ad] <lb/>
             atq. <lb/>
-            a <hi rend="italic">Y</hi> 26 &amp; S </note> <lb/>
-             
-<pb n="39"/>
+            a <hi rend="italic">Y</hi> 26 &amp; S </note>
+               <lb/>
+               <pb n="39"/>
             igitur apud eos potissimum diligentissime requiram, quid Christus <lb/>
             praeceperit, quorum auctoritate commotus Christum aliquid <lb/>
             utile praecepisse iam credidi ? tunc mihi melius expositurus es, <lb/>
@@ -1763,20 +1844,25 @@
             scriptis, ait, crede. at scriptura omnis, si noua et inaudita <lb n="25"/>
             proferatur uel commendetur a paucis nulla confirmante ratione
 
-<note type="footnote" rend="script"> 3 praecipisse <hi rend="italic">Ch</hi> tunc <hi rend="italic">Ch</hi> 5 esse credenda <hi rend="italic">Ps</hi> credendi <hi rend="italic">M</hi> <lb/>
+<note type="footnote" rend="script"> 3 praecipisse <hi rend="italic">Ch</hi> tunc <hi rend="italic">Ch</hi> 5 esse credenda <hi rend="italic">Ps</hi> credendi <hi rend="italic">M</hi>
+                  <lb/>
             6 fama <hi rend="italic">M</hi> celebritati <hi rend="italic">Ym</hi> uetustate roboratae <hi rend="italic">om. Ym</hi> uetusta/I (te <lb/>
-            <hi rend="italic">er.) P</hi> roborata <hi rend="italic">ChSMPpb</hi> 7 et tam] etiam <hi rend="italic">Ch</hi> turbolenti m turbun <lb/>
-            <lb/>
+                  <hi rend="italic">er.) P</hi> roborata <hi rend="italic">ChSMPpb</hi> 7 et tam] etiam <hi rend="italic">Ch</hi> turbolenti m turbun <lb/>
+                  <lb/>
             lentu <hi rend="italic">Ch</hi> 8 quin] qui <hi rend="italic">ChMb</hi> qui P quia <hi rend="italic">SVm</hi> quae] qui <hi rend="italic">Ch</hi> 9 crede] <lb/>
-            credere <hi rend="italic">S'lYm</hi> credo <hi rend="italic">Pp</hi> xpfli <hi rend="italic">Ch</hi> 10 uobis <hi rend="italic">Vm</hi> discę <hi rend="italic">M</hi> discere <hi rend="italic">SlVm</hi> <lb/>
+            credere <hi rend="italic">S'lYm</hi> credo <hi rend="italic">Pp</hi> xpfli <hi rend="italic">Ch</hi> 10 uobis <hi rend="italic">Vm</hi> discę <hi rend="italic">M</hi> discere <hi rend="italic">SlVm</hi>
+                  <lb/>
             11 illi (i <hi rend="italic">corr. ex</hi> e) <hi rend="italic">S om. M</hi> deficerint <hi rend="italic">Ch</hi> 12 credendo <hi rend="italic">Ch</hi> 13 cui- <lb/>
-             <lb/>
-            quam <hi rend="italic">ChSMpm</hi> cuiqua P credidi esse <hi rend="italic">Ch credis se p 16 docerem Ch</hi> <lb/>
+                  <lb/>
+            quam <hi rend="italic">ChSMpm</hi> cuiqua P credidi esse <hi rend="italic">Ch credis se p 16 docerem Ch</hi>
+                  <lb/>
             17 commendanit <hi rend="italic">Ch</hi> inquid <hi rend="italic">Ch</hi> 19 per alios <hi rend="italic">(alter.) om. Ch</hi> 20 UIQS m* <lb/>
-            illos <hi rend="italic">V</hi> 21 ut] et <hi rend="italic">Ch</hi> 22 enim <hi rend="italic">om. V</hi> 28 eis de] ei se <hi rend="italic">Ch</hi> <lb/>
-            24 quem] quam Ch 26 confirmanter <hi rend="italic">Ch</hi> </note> <lb/>
-             
-<pb n="40"/>
+            illos <hi rend="italic">V</hi> 21 ut] et <hi rend="italic">Ch</hi> 22 enim <hi rend="italic">om. V</hi> 28 eis de] ei se <hi rend="italic">Ch</hi>
+                  <lb/>
+            24 quem] quam Ch 26 confirmanter <hi rend="italic">Ch</hi>
+               </note>
+               <lb/>
+               <pb n="40"/>
             non ei, sed illis, qui eam proferunt, creditur. quamobrem <lb/>
             scripturas istas si uos profertis, tam pauci et incogniti, non <lb/>
             libet credere. simul etiam contra promissum facitis fidem <lb/>
@@ -1790,11 +1876,9 @@
             sub nomine ueritatis, quam conaris eis adimere, quibus auctoritatem <lb/>
             ipse concedis. 
 </p>
-          
-</div>
-
-<div type="textpart" subtype="chapter" n="32">
-<p>Si autem Christo etiam credendum negant, nisi indubitata <lb/>
+         </div>
+         <div n="32" type="chapter">
+            <p>Si autem Christo etiam credendum negant, nisi indubitata <lb/>
             ratio reddita fuerit, christiani non sunt. nam id aduersus <lb/>
             nos pagani quidam dicunt, stulte quidem, sed non sibi<lb n="15"/>
             aduersi nec repugnantes. hos uero quis ferat ad Christum se <lb/>
@@ -1810,18 +1894,21 @@
             alia omittam, si nihil tale facientem sed docentem homines
 
 <note type="footnote"> 26 cf. Ioh. 2, 7-9 </note>
-
-<note type="footnote" rend="script"> r h <lb/>
+               <note type="footnote" rend="script"> r h <lb/>
             1 pfer$nt <hi rend="italic">m*</hi> proferant <hi rend="italic">V</hi> 2 istas scripturas <hi rend="italic">Ym</hi> 5 coibe <hi rend="italic">p</hi> cohibet M <lb/>
-            6 nominis] hominis <hi rend="italic">Ch</hi> 7 mone] modone <hi rend="italic">Ch</hi> 9 aliquid] ita quid <hi rend="italic">Ch</hi> <lb/>
-            10 nescira <hi rend="italic">S</hi> quiquAM 14 uersus <hi rend="italic">V</hi> 15 paganis <hi rend="italic">Ch</hi> 16 aduersis <hi rend="italic">Ch</hi> <lb/>
+            6 nominis] hominis <hi rend="italic">Ch</hi> 7 mone] modone <hi rend="italic">Ch</hi> 9 aliquid] ita quid <hi rend="italic">Ch</hi>
+                  <lb/>
+            10 nescira <hi rend="italic">S</hi> quiquAM 14 uersus <hi rend="italic">V</hi> 15 paganis <hi rend="italic">Ch</hi> 16 aduersis <hi rend="italic">Ch</hi>
+                  <lb/>
             t <lb/>
-            18 at] ad <hi rend="italic">Ch</hi> ad P 19 cgdnnt M 20 primum <hi rend="italic">V</hi> 21 ei] eis <hi rend="italic">SYm</hi> <lb/>
+            18 at] ad <hi rend="italic">Ch</hi> ad P 19 cgdnnt M 20 primum <hi rend="italic">V</hi> 21 ei] eis <hi rend="italic">SYm</hi>
+                  <lb/>
             22 aliud <hi rend="italic">om. V</hi> et tam <hi rend="italic">om. Ch</hi> 28 crederent <hi rend="italic">V</hi> 24 stultus <lb/>
             ducebatur <hi rend="italic">Ch</hi> 25 reclamabatis <hi rend="italic">Ch</hi> 26 obrugatio <hi rend="italic">Ch</hi> aqua (--eras.) P <lb/>
-            27 homittam <hi rend="italic">Ch</hi> obmittam <hi rend="italic">V</hi> seducentefti <hi rend="italic">Ch</hi> </note> <lb/>
-             
-<pb n="41"/>
+            27 homittam <hi rend="italic">Ch</hi> obmittam <hi rend="italic">V</hi> seducentefti <hi rend="italic">Ch</hi>
+               </note>
+               <lb/>
+               <pb n="41"/>
             sequi possent, aut nihil pendenda uox illa est: credite deo, <lb/>
             et mihi credite, aut temeritatis ille culpandus est, qui eum <lb/>
             domum suam uenire noluit, solo eius imperio pueri sui morbum <lb/>
@@ -1832,13 +1919,11 @@
             quam non solum haereticorum ineptissima nouitas fraudibus <lb/>
             agens, sed nec gentium quidem ueternosus error uiolenter aduersans <lb/>
             aliqua ex parte conuelleret. <lb n="10"/>
-            
-</p>
-          
-</div>
-
-<div type="textpart" subtype="chapter" n="33">
-<p><milestone unit="altchapter" n="15"/> Quamobrem tametsi docere non ualeo, monere tamen <lb/>
+            </p>
+         </div>
+         <div n="33" type="chapter">
+            <p>
+               <milestone unit="altchapter" n="15"/> Quamobrem tametsi docere non ualeo, monere tamen <lb/>
             non desino, ut quoniam multi se sapientes uideri uolunt neque <lb/>
             utrum sint, stultis dinoscere facile est, omni intentione uotisque <lb/>
             omnibus, gemitibus denique uel etiam, si fieri potest, <lb/>
@@ -1857,19 +1942,24 @@
             ipsis oculis admoueri, quibus utuntur stulti multo quam
 
 <note type="footnote">1 Ioh. 14, 1 3 cf. Matth. 8, 8 </note>
-
-<note type="footnote" rend="script">In - o <lb/>
+               <note type="footnote" rend="script">In - o <lb/>
             1 nihili <hi rend="italic">b</hi> deo m1 I d6 <hi rend="italic">Y</hi> 3 in domtl <hi rend="italic">b</hi> 5 saoatura] sancto atura <lb/>
-            (c 0i. 2 <hi rend="italic">add.) Ch</hi> auctoritatem <hi rend="italic">om. Ch</hi> 6 auctoritate <hi rend="italic">(m. 3 8. I.) P</hi> <lb/>
-            auctoritatd meruit: fidem sqq. <hi rend="italic">b</hi> 7 religiong statuSs <hi rend="italic">b</hi> 13 stulti sunt <hi rend="italic">V</hi> <lb/>
+            (c 0i. 2 <hi rend="italic">add.) Ch</hi> auctoritatem <hi rend="italic">om. Ch</hi> 6 auctoritate <hi rend="italic">(m. 3 8. I.) P</hi>
+                  <lb/>
+            auctoritatd meruit: fidem sqq. <hi rend="italic">b</hi> 7 religiong statuSs <hi rend="italic">b</hi> 13 stulti sunt <hi rend="italic">V</hi>
+                  <lb/>
             j <lb/>
-            stulti <hi rend="italic">SMVmb</hi> 15 deprecare (a <hi rend="italic">in ras.) Ch</hi> depraeceris <hi rend="italic">V</hi> deprecar? <hi rend="italic">P</hi> <lb/>
+            stulti <hi rend="italic">SMVmb</hi> 15 deprecare (a <hi rend="italic">in ras.) Ch</hi> depraeceris <hi rend="italic">V</hi> deprecar? <hi rend="italic">P</hi>
+                  <lb/>
             erroris (e <hi rend="italic">corr</hi>. in i) <hi rend="italic">SM</hi> 16 quo <hi rend="italic">SM</hi> 18 enim] autem <hi rend="italic">Y</hi> 21 inter <lb/>
-            stultitiam] interstiustitia <hi rend="italic">Ch</hi> 22 ueritate <hi rend="italic">Ch</hi> 28 sapientia <hi rend="italic">Ch</hi> <lb/>
-            25 sapientem <hi rend="italic">Ch</hi> sapienti <hi rend="italic">b</hi> propinquus <hi rend="italic">V</hi> 26 rationS b 27 amoueri <hi rend="italic">b</hi> <lb/>
-            multoquam (lt <hi rend="italic">sup. exp</hi>. nd) S multusquam <hi rend="italic">V</hi> </note> <lb/>
-             
-<pb n="42"/>
+            stultitiam] interstiustitia <hi rend="italic">Ch</hi> 22 ueritate <hi rend="italic">Ch</hi> 28 sapientia <hi rend="italic">Ch</hi>
+                  <lb/>
+            25 sapientem <hi rend="italic">Ch</hi> sapienti <hi rend="italic">b</hi> propinquus <hi rend="italic">V</hi> 26 rationS b 27 amoueri <hi rend="italic">b</hi>
+                  <lb/>
+            multoquam (lt <hi rend="italic">sup. exp</hi>. nd) S multusquam <hi rend="italic">V</hi>
+               </note>
+               <lb/>
+               <pb n="42"/>
             mente commodius, ut commotorum auctoritate hominum prius <lb/>
             uita moresque purgarentur et ita rationi accipiendae habiles <lb/>
             fierent. cum igitur et homo esset imitandus et non in homine <lb/>
@@ -1887,11 +1977,10 @@
             persequi longum est, ut et diuina clementia, quo porrigi, et<lb n="15"/>
             humana infirmitas, quo possit euehi, sentiremus. 
 </p>
-          
-</div>
-
-<div type="textpart" subtype="chapter" n="34">
-<p><milestone unit="altchapter" n="16"/> Haec est, crede, saluberrima auctoritas haec prius <lb/>
+         </div>
+         <div n="34" type="chapter">
+            <p>
+               <milestone unit="altchapter" n="16"/> Haec est, crede, saluberrima auctoritas haec prius <lb/>
             mentis nostrae a terrena inhabitatione suspensio, haec in uerum <lb/>
             deum ab huius mundi amore conuersio. sola est auctoritas, <lb/>
             quae commouet stultos, ut ad sapientiam festinent. quamdiu<lb n="20"/>
@@ -1905,15 +1994,17 @@
             priuatimque cohortatur: non est desperandum ab eodem ipso
 
 <note type="footnote" rend="script"> I <lb/>
-            1 commodius (s <hi rend="italic">8. I. a m. 3) P</hi> commotorum] com mutorum <hi rend="italic">Ch</hi> <lb/>
+            1 commodius (s <hi rend="italic">8. I. a m. 3) P</hi> commotorum] com mutorum <hi rend="italic">Ch</hi>
+                  <lb/>
             (lntj <hi rend="italic">add.)</hi> 8 inuitarentur <hi rend="italic">V</hi> 9 adipisci] ad ipsie <hi rend="italic">Ch</hi> 10 id] uel <lb/>
             id <hi rend="italic">V</hi> plsene <hi rend="italic">S</hi> 12 illa <hi rend="italic">b</hi> 14 iam] ille <hi rend="italic">srm,</hi> * 17 crede mihi <lb/>
             (mihi <hi rend="italic">8. I. add. m. 2) m</hi> 18 meritis <hi rend="italic">b</hi> a terrena] aeteriftu F 19 deum <lb/>
             uerum <hi rend="italic">SPpMVmb</hi> 20 festinent <hi rend="italic">b (in marg. al</hi>. festinetur) : ffestinetur <hi rend="italic">SM<lb/>
              VChPin festinentur p</hi> 23 regione <hi rend="italic">V</hi> 24 si <hi rend="italic">V et]</hi> est <hi rend="italic">Ch</hi> omnium <lb/>
-            rerum <hi rend="italic">V</hi> 25 uerissime <hi rend="italic">Sm</hi> 26 quae P1 28 hortatur <hi rend="italic">SPpMVbm</hi> </note> <lb/>
-             
-<pb n="43"/>
+            rerum <hi rend="italic">V</hi> 25 uerissime <hi rend="italic">Sm</hi> 26 quae P1 28 hortatur <hi rend="italic">SPpMVbm</hi>
+               </note>
+               <lb/>
+               <pb n="43"/>
             deo auctoritatem aliquam constitutam, quo uelut gradu certo <lb/>
             innitentes adtollamur in deum. haec autem seposita ratione, <lb/>
             quam sinceram intellegere, ut saepe diximus, difficillimum <lb/>
@@ -1943,17 +2034,22 @@
             quo deus in uero homine, quantum sat erat, hominibus adparebat: <lb/>
             sanati languidi, mundati leprosi; incessus claudis,
 
-<note type="footnote" rend="script"> 1 auctoritate <hi rend="italic">Ch</hi> certu <hi rend="italic">Ch</hi> 3 sincera <hi rend="italic">Ch</hi> 5 <hi rend="italic">estjesse SpVmb</hi> <lb/>
+<note type="footnote" rend="script"> 1 auctoritate <hi rend="italic">Ch</hi> certu <hi rend="italic">Ch</hi> 3 sincera <hi rend="italic">Ch</hi> 5 <hi rend="italic">estjesse SpVmb</hi>
+                  <lb/>
             6 sed id] se sid <hi rend="italic">Ch</hi> 7 animus <hi rend="italic">(8. l. m</hi>. 2) <hi rend="italic">Ch</hi> 8 animi sordes <hi rend="italic">Y</hi> sordida <lb/>
             rmm <lb/>
-            an. <hi rend="italic">b</hi> 9 qualuralibet <hi rend="italic">S (m. 2 corr. uid.)</hi> 10 quiaque] quis <hi rend="italic">PMYmbS</hi> <lb/>
-            (a. <hi rend="italic">I.) p (in mg</hi>. m. 2) uero <hi rend="italic">Ch</hi> 17 genera <hi rend="italic">Ch</hi> in quo nihil est genere <hi rend="italic">V</hi> <lb/>
+            an. <hi rend="italic">b</hi> 9 qualuralibet <hi rend="italic">S (m. 2 corr. uid.)</hi> 10 quiaque] quis <hi rend="italic">PMYmbS</hi>
+                  <lb/>
+            (a. <hi rend="italic">I.) p (in mg</hi>. m. 2) uero <hi rend="italic">Ch</hi> 17 genera <hi rend="italic">Ch</hi> in quo nihil est genere <hi rend="italic">V</hi>
+                  <lb/>
             tft <lb/>
             20 sunt <hi rend="italic">om. Ch</hi> 21 beniuolentiaq; <hi rend="italic">b</hi> 22 uolantem] uolunrS (ra <hi rend="italic">m. 2<lb/>
-             add.) Ch</hi> 28 conferat <hi rend="italic">M</hi> 25 ammirationem <hi rend="italic">SlM</hi> 26 taliaj alia <hi rend="italic">SM</hi> <lb/>
-            27 quantum <hi rend="italic">(m</hi>. 2 <hi rend="italic">8. I.) Ch</hi> 28 languidi (8. <hi rend="italic">I</hi>. m. 2) <hi rend="italic">Ch</hi> incestos <hi rend="italic">Ch</hi> </note> <lb/>
-             
-<pb n="44"/>
+             add.) Ch</hi> 28 conferat <hi rend="italic">M</hi> 25 ammirationem <hi rend="italic">SlM</hi> 26 taliaj alia <hi rend="italic">SM</hi>
+                  <lb/>
+            27 quantum <hi rend="italic">(m</hi>. 2 <hi rend="italic">8. I.) Ch</hi> 28 languidi (8. <hi rend="italic">I</hi>. m. 2) <hi rend="italic">Ch</hi> incestos <hi rend="italic">Ch</hi>
+               </note>
+               <lb/>
+               <pb n="44"/>
             caecis uisus, surdis auditus est redditus. homines illius temporis <lb/>
             aquam in uinum conuersam, saturata quinque milia <lb/>
             quinque panibus, transita pedibus maria, mortuos resurgentes <lb/>
@@ -1974,11 +2070,10 @@
             ut his multitudine credentium congregata atque propagata in <lb/>
             ipsos mores utilis conuerteretur auctoritas. 
 </p>
-          
-</div>
-
-<div type="textpart" subtype="chapter" n="35">
-<p><milestone unit="altchapter" n="17"/> Mores autem quilibet tantum ualent ad obtinendas hominum<lb n="20"/>
+         </div>
+         <div n="35" type="chapter">
+            <p>
+               <milestone unit="altchapter" n="17"/> Mores autem quilibet tantum ualent ad obtinendas hominum<lb n="20"/>
             mentes. ut etiam quae in his praua sunt, quod fere <lb/>
             superantibus libidinibus euenit, inprobare citius et detestari <lb/>
             quam deserere aut mutare possimus. parumne consultum rebus <lb/>
@@ -1988,16 +2083,19 @@
             disputant, sed inperitum etiam uulgus marium feminarumque <lb/>
             in tam multis diuersisque generibus et credit et praedicat?
 
-<note type="footnote" rend="script">1 uisos <hi rend="italic">Ch</hi> sordis <hi rend="italic">Ch</hi> 3 resurgentes] et resurgentes <hi rend="italic">Ch</hi> 4 uiderent <hi rend="italic">Ch</hi> <lb/>
+<note type="footnote" rend="script">1 uisos <hi rend="italic">Ch</hi> sordis <hi rend="italic">Ch</hi> 3 resurgentes] et resurgentes <hi rend="italic">Ch</hi> 4 uiderent <hi rend="italic">Ch</hi>
+                  <lb/>
             beneficio quaedam corpori quaedam uero mente <hi rend="italic">Ch1</hi> 5 omniy <hi rend="italic">S</hi> hominibus] <lb/>
-            omnibus <hi rend="italic">Vm</hi> 6 n consulebat S 9 die <hi rend="italic">Ch</hi> 11 decedgtes <hi rend="italic">b</hi> 14 hebescet <hi rend="italic">Ch</hi> <lb/>
+            omnibus <hi rend="italic">Vm</hi> 6 n consulebat S 9 die <hi rend="italic">Ch</hi> 11 decedgtes <hi rend="italic">b</hi> 14 hebescet <hi rend="italic">Ch</hi>
+                  <lb/>
             e h. <lb/>
-            hbescit <hi rend="italic">P</hi> ebescit <hi rend="italic">p</hi> 17 opportunissime <hi rend="italic">PpSMVb</hi> 21 quodj quos <hi rend="italic">Ch</hi> <lb/>
+            hbescit <hi rend="italic">P</hi> ebescit <hi rend="italic">p</hi> 17 opportunissime <hi rend="italic">PpSMVb</hi> 21 quodj quos <hi rend="italic">Ch</hi>
+                  <lb/>
             22 uenit <hi rend="italic">Ch</hi> euenit <hi rend="italic">M</hi> 24 igne <hi rend="italic">Ch</hi> 26 quem] qua <hi rend="italic">SMb</hi> que I <lb/>
             intellectum <hi rend="italic">Ch</hi> ambigendum <hi rend="italic">S M m</hi> esse non pauca <hi rend="italic">V</hi> doctissimtl <lb/>
-            <hi rend="italic">Ch</hi>. </note> <lb/>
-             
-<pb n="45"/>
+                  <hi rend="italic">Ch</hi>. </note>
+               <lb/>
+               <pb n="45"/>
             quod continentia usque ad tenuissimum uictum panis et aquae <lb/>
             et non cotidiana solum, sed etiam per contextos plures dies <lb/>
             perpetuata ieiunia, quod castitas usque ad coniugii prolisque <lb/>
@@ -2030,15 +2128,19 @@
             8 prudenteq' m1 laudant] <hi rend="italic">audiant M audiant S'ZP</hi> audiunt <hi rend="italic">(i in raa.) p<lb/>
              Vmb</hi> 9 fabent <hi rend="italic">Ch</hi> postremo <hi rend="italic">Mmb</hi> populi <hi rend="italic">(in. fin. yom. Sm</hi> 10 ipsa <hi rend="italic">Ch</hi> (p. <hi rend="italic">m 2. <lb/>
              ex b</hi> (?) <hi rend="italic">corr.)</hi> ista <hi rend="italic">PpMVmb</hi> isti S non (a. sine) <hi rend="italic">Ch :</hi> nec <hi rend="italic">PpSMVmb</hi> profectu <lb/>
-            <hi rend="italic">V</hi> l2 per <hi rend="italic">om. V</hi> 14 contumelias martyrum <hi rend="italic">V</hi> 16 opportunitate <hi rend="italic">Pp Vb</hi> <lb/>
-            18 fructumquae <hi rend="italic">Ch</hi> dubitauim' <hi rend="italic">b</hi> concedere <hi rend="italic">V</hi> 22 maiestate <hi rend="italic">("" er.) P</hi> <lb/>
+                  <hi rend="italic">V</hi> l2 per <hi rend="italic">om. V</hi> 14 contumelias martyrum <hi rend="italic">V</hi> 16 opportunitate <hi rend="italic">Pp Vb</hi>
+                  <lb/>
+            18 fructumquae <hi rend="italic">Ch</hi> dubitauim' <hi rend="italic">b</hi> concedere <hi rend="italic">V</hi> 22 maiestate <hi rend="italic">("" er.) P</hi>
+                  <lb/>
             p. <lb/>
-            damnantes <hi rend="italic">Ch</hi> damnantis <hi rend="italic">SMb</hi> dampnajitis <hi rend="italic">m1</hi> damanTif (t <hi rend="italic">paene er.) p</hi> <lb/>
+            damnantes <hi rend="italic">Ch</hi> damnantis <hi rend="italic">SMb</hi> dampnajitis <hi rend="italic">m1</hi> damanTif (t <hi rend="italic">paene er.) p</hi>
+                  <lb/>
             ctilmeai <lb/>
             damnaQtif <hi rend="italic">P</hi> 28 columen] culmen columen <hi rend="italic">M1</hi> culmen <hi rend="italic">V m p</hi> primicias <lb/>
-            dare <hi rend="italic">Vb</hi> 24 summe <hi rend="italic">Ch</hi> 25 salutemquae <hi rend="italic">Ch</hi> </note> <lb/>
-             
-<pb n="46"/>
+            dare <hi rend="italic">Vb</hi> 24 summe <hi rend="italic">Ch</hi> 25 salutemquae <hi rend="italic">Ch</hi>
+               </note>
+               <lb/>
+               <pb n="46"/>
             esse opi atque auxilio diuino, quam tanto robore praeditae <lb/>
             auctoritati uelle resistere? et si unaquaeque disciplina, quamquam <lb/>
             uilis et facilis, ut percipi possit, doctorem aut magistrum <lb/>
@@ -2046,11 +2148,10 @@
             sacramentorum libros et ab interpretibus suis nolle cognoscere<lb n="5"/>
             et incognitos audere damnare ? 
 </p>
-          
-</div>
-
-<div type="textpart" subtype="chapter" n="36">
-<p><milestone unit="altchapter" n="18"/> Quamobrem si quid te uel ratio, uel oratio nostra <lb/>
+         </div>
+         <div n="36" type="chapter">
+            <p>
+               <milestone unit="altchapter" n="18"/> Quamobrem si quid te uel ratio, uel oratio nostra <lb/>
             commouit et si ueram, ut credo, curam tui geris, uelim me <lb/>
             audias et bonis praeceptoribus catholicae christianitatis te pia <lb/>
             fide, alacri spe, simplici caritate committas deumque ipsum,<lb n="10"/>
@@ -2074,16 +2175,18 @@
             imperat, numquam mentitur. haec enim atque huiusmodi nos <lb/>
             mouebant, cum ea magnis inuectionibus quaterent et hanc esse
 
-<note type="footnote" rend="script"> 1 robore] labore <hi rend="italic">SPpMVmb</hi> prędictę »1 5 litros <hi rend="italic">Ch</hi> suis] uis <hi rend="italic">Ch</hi> <lb/>
+<note type="footnote" rend="script"> 1 robore] labore <hi rend="italic">SPpMVmb</hi> prędictę »1 5 litros <hi rend="italic">Ch</hi> suis] uis <hi rend="italic">Ch</hi>
+                  <lb/>
             6 audere] uelle <hi rend="italic">SPpMVtnb</hi> 7 te <hi rend="italic">om. V</hi> uel ratio <hi rend="italic">om. Ch</hi> uel <lb/>
             oratio] <hi rend="italic">om. Pp (in mg. m. 2 add.)</hi> 8 commouet <hi rend="italic">V</hi> tu <hi rend="italic">V</hi> geris] <lb/>
             d <lb/>
             generis <hi rend="italic">Ch</hi> 10 committis <hi rend="italic">Ch</hi> 12 tibi] ibi <hi rend="italic">Ch</hi> 14 ipse <hi rend="italic">Ch</hi> 16 alius <lb/>
             (d <hi rend="italic">a m. I) P</hi> deserere <hi rend="italic">Vm</hi> 18 quaestiones <hi rend="italic">Ch</hi> 20 lęthargicis ..:U <lb/>
             freneticos <hi rend="italic">lib</hi>. 21 uterque <hi rend="italic">om. Vtn (m. 2 add.)</hi> 23 sanis] <lb/>
-            satis <hi rend="italic">SVmb</hi> 25 penituit <hi rend="italic">Ch</hi> 29 magis <hi rend="italic">SMPpb</hi> </note> <lb/>
-             
-<pb n="47"/>
+            satis <hi rend="italic">SVmb</hi> 25 penituit <hi rend="italic">Ch</hi> 29 magis <hi rend="italic">SMPpb</hi>
+               </note>
+               <lb/>
+               <pb n="47"/>
             ueteris testamenti disciplinam insimularent: quod omnino falsissimum <lb/>
             est. itaque illos recte reprehendere ista concedo. <lb/>
             quid ergo didici? quid putas, nisi cum ista reprehenduntur, <lb/>
@@ -2112,33 +2215,34 @@
             inuasisse neque de ipsa catholica magnum aliquid aperuisse, <lb/>
             sed uoluisse tantummodo eruere tibi, si possem, falsam
 
-<note type="footnote" rend="script"> 1 falsd <hi rend="italic">b</hi> 2 illo <hi rend="italic">V</hi> 6 quoj quod <hi rend="italic">M</hi> 7 adspirare (d <hi rend="italic">paene er.) P</hi> <lb/>
-            8 deum] deum scilicet <hi rend="italic">(scil. m</hi>. 3 <hi rend="italic">8. I.) P</hi> 9 nullo r 10 uiolauile <hi rend="italic">Ch</hi> <lb/>
+<note type="footnote" rend="script"> 1 falsd <hi rend="italic">b</hi> 2 illo <hi rend="italic">V</hi> 6 quoj quod <hi rend="italic">M</hi> 7 adspirare (d <hi rend="italic">paene er.) P</hi>
+                  <lb/>
+            8 deum] deum scilicet <hi rend="italic">(scil. m</hi>. 3 <hi rend="italic">8. I.) P</hi> 9 nullo r 10 uiolauile <hi rend="italic">Ch</hi>
+                  <lb/>
             aut <hi rend="italic">commutabile om. Ch p</hi> composititium <hi rend="italic">Ch composicium p S M</hi> compositium <lb/>
-            <hi rend="italic">(i exp. m. 1) Pcomposittl</hi> facttl <hi rend="italic">b (in marg. al</hi>. compositiciQ aut fictn) <lb/>
+                  <hi rend="italic">(i exp. m. 1) Pcomposittl</hi> facttl <hi rend="italic">b (in marg. al</hi>. compositiciQ aut fictn) <lb/>
             11 sentiundum P 14 aut fuerit <hi rend="italic">V</hi> 15 non genuerit 8 16 rationibus <lb/>
             »r(nmen&gt;ir <lb/>
-            <hi rend="italic">om. V</hi> approbatur m2 17 presertim <hi rend="italic">Ch</hi> 18 accedas <hi rend="italic">Ch</hi> 19 hic <lb/>
+                  <hi rend="italic">om. V</hi> approbatur m2 17 presertim <hi rend="italic">Ch</hi> 18 accedas <hi rend="italic">Ch</hi> 19 hic <lb/>
             non <hi rend="italic">SMm</hi> 20 aureQ <hi rend="italic">Ch</hi> 22 aliter qui ut (quA ut <hi rend="italic">in ras.) p</hi> manicheis <lb/>
-            <hi rend="italic">Ch</hi> 23 iste sermo <hi rend="italic">Spb</hi> 25 manicheos <hi rend="italic">Ch</hi> </note> <lb/>
-             
-<pb n="48"/>
+                  <hi rend="italic">Ch</hi> 23 iste sermo <hi rend="italic">Spb</hi> 25 manicheos <hi rend="italic">Ch</hi>
+               </note>
+               <lb/>
+               <pb n="48"/>
             opinionem de ueris christianis malitiose aut inperite nobis insinuatam <lb/>
             et erigere ad magna quaedam et diuina discenda. <lb/>
             quare hoc uolumen ita sese habeat; placatiore autem animo <lb/>
             tuo facto ero fortasse in ceteris promptior amen.
 
 <note type="footnote" rend="script"> 1 aut <hi rend="italic">orn</hi>. V 2 erigereJ et egere <hi rend="italic">p</hi> magna'7 (m <hi rend="italic">er.) P</hi> 4 amen <lb/>
-            <hi rend="italic">om. SPpMVm</hi> EXPLICIT LIBER DE VTILITATE CBEDENDI <hi rend="italic">Ch<lb/>
+                  <hi rend="italic">om. SPpMVm</hi> EXPLICIT LIBER DE VTILITATE CBEDENDI <hi rend="italic">Ch<lb/>
              fol. 95</hi>. EXPLICIT LIBER BEATI AVGVSTINI DE VTILITATE <lb/>
             CREDENDI <hi rend="italic">p</hi>. 76 <hi rend="italic">S</hi> EXPLICIT DE VTILITATE CREDENDI fol. 30 <lb/>
-            <hi rend="italic">P 51 p</hi> </note> 
-<pb n="49"/>
-            
-</p>
-
-
-</div>
-        
-</div>
-        </body></text></TEI>
+                  <hi rend="italic">P 51 p</hi>
+               </note>
+               <pb n="49"/>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

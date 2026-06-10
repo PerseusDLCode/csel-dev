@@ -1,102 +1,109 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader xml:lang="eng">
-    <fileDesc>
-      <titleStmt>
-        <title xml:lang="lat">De Continentia</title>
-        <author>Augustine</author>
-        <editor>Joseph Zycha</editor>     
-        <sponsor>University of Leipzig</sponsor>
-        <funder>European Social Fund Saxony</funder>
-        <principal>Gregory Crane</principal>
-        <respStmt>
-          <persName xml:id="Jouve">Jouve</persName>
-          <resp>OCR-ed, corrected and encoded the text</resp>
-        </respStmt>
-        <respStmt>
-          <persName>Greta Franzini</persName>
-          <resp>Project Manager (University of Leipzig)</resp>
-        </respStmt>
-        <respStmt>
-          <persName>Simona Stoyanova</persName>
-          <resp>Project Assistant (University of Leipzig)</resp>
-        </respStmt>
-        <respStmt>
-          <persName>Bruce Robertson</persName>
-          <resp>Technical Advisor (Mount Allison University)</resp>
-        </respStmt>
-        <respStmt>
-          <persName>Uvius Fonticola</persName>
-          <resp>Technical Advisor (Ludwig Maximilians University Munich)</resp>
-        </respStmt>
-      </titleStmt>
-      
-      <publicationStmt>
-        <authority>University of Leipzig</authority>
-        <idno type="filename">stoa0040.stoa037a.opp-lat1.xml</idno>
-        <availability>
-          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
-        </availability>
-        <date>2014</date>
-        <publisher>University of Leipzig</publisher>
-        <pubPlace>Germany</pubPlace>
-      </publicationStmt>
-      
-      <sourceDesc>
-        <listBibl>
-          <biblStruct>
-              <monogr>
-                <editor>
-                  <persName>
-                    <name>Joseph Zycha</name>
-                  </persName>
-                </editor> 
-                <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040">Augustine</author>  
-                <title xml:lang="lat">Sancti Aureli Augustini Opera</title>
-                <imprint>
-                  <publisher>F. Tempsky</publisher>
-                  <publisher>G. Freytag</publisher>
-                  <pubPlace>Prague</pubPlace>
-                  <pubPlace>Vienna</pubPlace>
-                  <pubPlace>Leipzig</pubPlace>
-                  <date>1900</date>
-                </imprint>
-                <biblScope unit="volume" xml:lang="lat">Sectio V, Pars III</biblScope>
-              </monogr>
-              <series>
-                <title level="s" xml:lang="lat">Corpus scriptorum ecclesiasticorum Latinorum</title>
-                <biblScope unit="volume">41</biblScope>
-              </series> 
-            <ref target="https://archive.org/details/corpusscriptoru18wiengoog/page/n199/mode/2up">Internet Archive</ref>
-            
-          </biblStruct>
-        </listBibl>
-      </sourceDesc>
-      
-    </fileDesc>
-    <encodingDesc>
-      <p>The following text is encoded in accordance with EpiDoc standards and with the
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/PerseusDLCode/perseus-schemas/main/perseus_prose.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="eng">
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="lat">De Continentia</title>
+            <author>Augustine</author>
+            <editor>Joseph Zycha</editor>
+            <sponsor>University of Leipzig</sponsor>
+            <funder>European Social Fund Saxony</funder>
+            <principal>Gregory Crane</principal>
+            <respStmt>
+               <persName xml:id="Jouve">Jouve</persName>
+               <resp>OCR-ed, corrected and encoded the text</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Greta Franzini</persName>
+               <resp>Project Manager (University of Leipzig)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Simona Stoyanova</persName>
+               <resp>Project Assistant (University of Leipzig)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Bruce Robertson</persName>
+               <resp>Technical Advisor (Mount Allison University)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Uvius Fonticola</persName>
+               <resp>Technical Advisor (Ludwig Maximilians University Munich)</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>University of Leipzig</authority>
+            <idno type="filename">stoa0040.stoa037a.opp-lat1.xml</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
+            </availability>
+            <date>2014</date>
+            <publisher>University of Leipzig</publisher>
+            <pubPlace>Germany</pubPlace>
+            <idno type="CTS">urn:cts:latinLit:stoa0040.stoa037a.opp-lat1</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <name>Joseph Zycha</name>
+                        </persName>
+                     </editor>
+                     <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040">Augustine</author>
+                     <title xml:lang="lat">Sancti Aureli Augustini Opera</title>
+                     <imprint>
+                        <publisher>F. Tempsky</publisher>
+                        <publisher>G. Freytag</publisher>
+                        <pubPlace>Prague</pubPlace>
+                        <pubPlace>Vienna</pubPlace>
+                        <pubPlace>Leipzig</pubPlace>
+                        <date>1900</date>
+                     </imprint>
+                     <biblScope unit="volume" xml:lang="lat">Sectio V, Pars III</biblScope>
+                  </monogr>
+                  <series>
+                     <title level="s" xml:lang="lat">Corpus scriptorum ecclesiasticorum Latinorum</title>
+                     <biblScope unit="volume">41</biblScope>
+                  </series>
+                  <ref target="https://archive.org/details/corpusscriptoru18wiengoog/page/n199/mode/2up">Internet Archive</ref>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>The following text is encoded in accordance with EpiDoc standards and with the
         CTS/CITE Architecture. 
 </p>
-      <refsDecl n="CTS">
-        <cRefPattern n="section" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1'])"/>
-      </refsDecl>
-    </encodingDesc>
-    
-    <profileDesc>
-      <langUsage>
-        <language ident="lat">Latin</language>
-      </langUsage>
-    </profileDesc>
-    
-</teiHeader>
-<text>
-<body>
-<div type="edition" xml:lang="lat" n="urn:cts:latinLit:stoa0040.stoa037a.opp-lat1">
-<ab>
+         <refsDecl n="CTS">
+            <cRefPattern n="section"
+                         matchPattern="(.+)"
+                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1'])"/>
+         </refsDecl>
+         <refsDecl n="CTS">
+            <citeStructure match="/TEI/text/body" use="@xml:base">
+               <citeStructure unit="section" delim="." match="div[@type='section']" use="@n"/>
+            </citeStructure>
+         </refsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <catRef scheme="#perseus-genre" target="#prose-section"/>
+         </textClass>
+         <langUsage>
+            <language ident="lat">Latin</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body xml:base="urn:cts:latinLit:stoa0040.stoa037a.opp-lat1">
+         <ab>
             <title type="sub">IIII. DE CONTINENTIA. </title>
-          </ab>
-          <div n="1" subtype="section" type="textpart">
-<p><milestone n="1" unit="altchapter"/>De uirtute animae, quae continentia nominatur, satis <lb/>
+         </ab>
+         <div n="1" type="section">
+            <p>
+               <milestone n="1" unit="altchapter"/>De uirtute animae, quae continentia nominatur, satis <lb/>
             conuenienter et digne disputare difficile est; sed exiguitatem <lb/>
             nostram sub tanti ponderis sarcina ille, cuius haec uirtus <lb n="5"/>
             magnum munus est, adiuuabit. nam qui eam donat continentibus <lb/>
@@ -114,28 +121,27 @@
             uellem omnes homines sic esse sicut me ipsum;
 
 <note type="footnote">10 Sap. 8, 21 12 Matth. 19, 11 18 I Cor. 7, 7 </note>
-
-<note type="footnote">2 Incipit tractatus sancti Augustini epi de continentia <hi rend="italic">T</hi> Incipit <lb/>
+               <note type="footnote">2 Incipit tractatus sancti Augustini epi de continentia <hi rend="italic">T</hi> Incipit <lb/>
             tractatus beati Augustini de continentia <hi rend="italic">fol</hi>. 69* <hi rend="italic">M, A</hi> Incipit liber sci <lb/>
             Aaguatini epi de continentia <hi rend="italic">fol. 105* D</hi> Incipit tractatus sci Augustini <lb/>
             de continentia <hi rend="italic">Ch</hi> Incipit liber Augustini epi de continentia anim$ <lb/>
-            <hi rend="italic">fol</hi>. 92P <hi rend="italic">C</hi> Incipit liber eiusdem de continentia <hi rend="italic">fol. 90* X</hi> Incipit tractatus <lb/>
+                  <hi rend="italic">fol</hi>. 92P <hi rend="italic">C</hi> Incipit liber eiusdem de continentia <hi rend="italic">fol. 90* X</hi> Incipit tractatus <lb/>
             eiusdem de continentia <hi rend="italic">fol</hi>. 197b <hi rend="italic">R</hi> 6 est munus <hi rend="italic">C</hi> 8 tanta <lb/>
             in <hi rend="italic">mg. tII. 2 Å</hi> 9 esse primum dicimus continentiam <hi rend="italic">R</hi> dicimus <lb/>
             4iciipv9 <hi rend="italic">T</hi> 10 scribtum <hi rend="italic">TBX</hi> dederit <hi rend="italic">DX</hi> 11 neminem esse <hi rend="italic">Ch <lb/>
-            dominus autem DXd 12 quae TBC: qaa MADChBXd a coniugali d</hi> <lb/>
+            dominus autem DXd 12 quae TBC: qaa MADChBXd a coniugali d</hi>
+                  <lb/>
             coniugale uinculum <hi rend="italic">D2</hi> non continetur <hi rend="italic">C</hi> contemnitur <hi rend="italic">DJ</hi> 14 quoque <lb/>
-            <hi rend="italic">post</hi> nisi <hi rend="italic">legitur in DX*</hi> 16 donum dei <hi rend="italic">MADChBCXRd</hi> 18 memet <hi rend="italic">D</hi> </note> <lb/>
-             
-<pb n="142"/>
+                  <hi rend="italic">post</hi> nisi <hi rend="italic">legitur in DX*</hi> 16 donum dei <hi rend="italic">MADChBCXRd</hi> 18 memet <hi rend="italic">D</hi>
+               </note>
+               <lb/>
+               <pb n="142"/>
             sed unusquisque proprium donum habet a deo, <lb/>
             alius sic, alius autem sic. 
 </p>
-          
-</div>
-
-<div n="2" subtype="section" type="textpart">
-<p>Et ne in sola inferiorum partium carnis libidine continentia <lb/>
+         </div>
+         <div n="2" type="section">
+            <p>Et ne in sola inferiorum partium carnis libidine continentia <lb/>
             necessaria uideatur a domino speranda, etiam in <lb/>
             psalmo canitur: pone, domine, custodiam ori meo et<lb n="5"/>
             ostium continentiae circum labia mea. in hoc autem <lb/>
@@ -153,13 +159,11 @@
             ponenda est continentia, ubi et tacentium loquitur conscientia. <lb/>
             fit enim per ostium continentiae, ut inde non exeat, quod <lb/>
             etiam clausis labiis carnis uitam polluat cogitantis. <lb n="20"/>
-            
-</p>
-          
-</div>
-
-<div n="3" subtype="section" type="textpart">
-<p><milestone n="2" unit="altchapter"/> Denique ut apertius os interius, quod per illa uerba <lb/>
+            </p>
+         </div>
+         <div n="3" type="section">
+            <p>
+               <milestone n="2" unit="altchapter"/> Denique ut apertius os interius, quod per illa uerba <lb/>
             significauit, ostenderet, cum dixisset: pone, domine, custodiam <lb/>
             ori meo et ostium continentiae circum labia <lb/>
             mea, continuo subdidit: ne declines cor meum in uerba <lb/>
@@ -168,16 +172,18 @@
             quorumque uisorum nulla cordis declinatione consensit. si
 
 <note type="footnote"> 5 Ps. 140, 3 22 Ps. 140, 3. 4 </note>
-
-<note type="footnote"> 3 parcium <hi rend="italic">M</hi> 4 uideretur <hi rend="italic">MADChE CXRd</hi> 6 hofltium <hi rend="italic">DX</hi> <lb/>
+               <note type="footnote"> 3 parcium <hi rend="italic">M</hi> 4 uideretur <hi rend="italic">MADChE CXRd</hi> 6 hofltium <hi rend="italic">DX</hi>
+                  <lb/>
             circum <hi rend="italic">om. C</hi> labiis meis <hi rend="italic">C</hi> 7 os] oflis <hi rend="italic">C</hi> 10 08 est <hi rend="italic">DX</hi> est <lb/>
             enim <hi rend="italic">d</hi> 11 hostium <hi rend="italic">TDX</hi> 13 conscribsit <hi rend="italic">T</hi> corda <hi rend="italic">M</hi> 14 damemus <lb/>
-            (a. e <hi rend="italic">add</hi>. a) <hi rend="italic">A</hi> proced..it <hi rend="italic">M</hi> ex] et <hi rend="italic">M</hi> 16 sonat] sunt <hi rend="italic">MAX</hi> <lb/>
+            (a. e <hi rend="italic">add</hi>. a) <hi rend="italic">A</hi> proced..it <hi rend="italic">M</hi> ex] et <hi rend="italic">M</hi> 16 sonat] sunt <hi rend="italic">MAX</hi>
+                  <lb/>
             est <hi rend="italic">X</hi> sonat <hi rend="italic">in ras. D</hi> 17 ibi est D 18 est <hi rend="italic">om. DC</hi> 19 non <lb/>
             inde <hi rend="italic">MADChBXSd</hi> non exinde <hi rend="italic">C</hi> 20 gj uitam <hi rend="italic">T</hi> 22 Qstiyw <lb/>
-            custodiam <hi rend="italic">T</hi> 23 hostium <hi rend="italic">D</hi> 24 nec <hi rend="italic">B</hi> non <hi rend="italic">A</hi> </note> <lb/>
-             
-<pb n="143"/>
+            custodiam <hi rend="italic">T</hi> 23 hostium <hi rend="italic">D</hi> 24 nec <hi rend="italic">B</hi> non <hi rend="italic">A</hi>
+               </note>
+               <lb/>
+               <pb n="143"/>
             autem consensit, iam corde dixit, etiamsi ore non sonuit; <lb/>
             etiamsi manu uel qualibet corporis parte non fecit, quod <lb/>
             tamen cogitatione faciendum sibi esse iam statuit, diuinis <lb/>
@@ -193,13 +199,10 @@
             exterioribus factis, quae non praecedant in interioribus dictis: <lb/>
             erit ab utrisque puritas innocentiae, si circum interiora labia <lb/>
             ponatur ostium continentiae.. <lb n="15"/>
-            
-</p>
-          
-</div>
-
-<div n="4" subtype="section" type="textpart">
-<p>Propter quod etiam ipse ore proprio dominus ait: mundate <lb/>
+            </p>
+         </div>
+         <div n="4" type="section">
+            <p>Propter quod etiam ipse ore proprio dominus ait: mundate <lb/>
             quae intus sunt, et quae foris sunt munda <lb/>
             erunt. itemque alio loco cum iudaeorum stultiloquia refutaret, <lb/>
             quia calumniabantur discipulis eius non lotis manibus manducantibus, <lb/>
@@ -211,19 +214,21 @@
             procedit. sed procul dubio priora uerba pertinent ad os carnis,
 
 <note type="footnote">16 cf. Maith. 23, 26 20 Matth. 15, 11 </note>
-
-<note type="footnote">2 qualibet] qua <hi rend="italic">MACh</hi> aliqua <hi rend="italic">C</hi> quod tamen] fecit tamen quod <hi rend="italic">bd</hi> <lb/>
+               <note type="footnote">2 qualibet] qua <hi rend="italic">MACh</hi> aliqua <hi rend="italic">C</hi> quod tamen] fecit tamen quod <hi rend="italic">bd</hi>
+                  <lb/>
             3 esse sibi <hi rend="italic">C</hi> 4 sensibus absconditus <hi rend="italic">d</hi> 5 amisso <hi rend="italic">TMAChB</hi> 6 mouisset] <lb/>
             misisset <hi rend="italic">Ch</hi> 8 ominis <hi rend="italic">T</hi> omnes homines <hi rend="italic">C</hi> 10 nichil <lb/>
-            <hi rend="italic">(semper fere</hi> ch) <hi rend="italic">CR</hi> in om. <hi rend="italic">C</hi> 11 quoniam <hi rend="italic">om. C</hi> 12 autem <lb/>
-            <hi rend="italic">om. AChC</hi> 13 procedant <hi rend="italic">MX</hi> praecedunt <hi rend="italic">Ch</hi> in] de <hi rend="italic">DX</hi> exterioribus <lb/>
-            <hi rend="italic">Ch</hi> 15 hostium <hi rend="italic">D</hi> 16 ait] dicit <hi rend="italic">C</hi> 19 calumpniabantur <hi rend="italic">DC</hi> <lb/>
+                  <hi rend="italic">(semper fere</hi> ch) <hi rend="italic">CR</hi> in om. <hi rend="italic">C</hi> 11 quoniam <hi rend="italic">om. C</hi> 12 autem <lb/>
+                  <hi rend="italic">om. AChC</hi> 13 procedant <hi rend="italic">MX</hi> praecedunt <hi rend="italic">Ch</hi> in] de <hi rend="italic">DX</hi> exterioribus <lb/>
+                  <hi rend="italic">Ch</hi> 15 hostium <hi rend="italic">D</hi> 16 ait] dicit <hi rend="italic">C</hi> 19 calumpniabantur <hi rend="italic">DC</hi>
+                  <lb/>
             22 accipiatur (alt. a s. <hi rend="italic">I.) T</hi> 23 absurdyip (8. yqi <hi rend="italic">add</hi>. a) <hi rend="italic">T</hi> absurdissima<lb/>
-             <hi rend="italic">DX</hi> inquinat <hi rend="italic">T</hi> quoinquinat <hi rend="italic">M</hi> quoinquinat <hi rend="italic">M</hi> 24 uomitus <lb/>
+                  <hi rend="italic">DX</hi> inquinat <hi rend="italic">T</hi> quoinquinat <hi rend="italic">M</hi> quoinquinat <hi rend="italic">M</hi> 24 uomitus <lb/>
             autem ex <hi rend="italic">DX</hi> 25 priora] propria <hi rend="italic">ACh</hi> ad os carnis pertinent <lb/>
-            <hi rend="italic">(hoc ordine in mg.) T</hi> </note> <lb n="25"/>
-             
-<pb n="144"/>
+                  <hi rend="italic">(hoc ordine in mg.) T</hi>
+               </note>
+               <lb n="25"/>
+               <pb n="144"/>
             ubi ait: non quod intrat in os, coinquinat hominem; <lb/>
             posteriora uero ad os cordis, ubi ait: sed quod procedit <lb/>
             ex ore, hoc coinquinat hominem. denique cum ab illo <lb/>
@@ -250,20 +255,27 @@
             flagitiosa et facinorosa membrorum. si enim potestas non
 
 <note type="footnote">5 Matth. 15, 16. 17 11 Matth. 15, 18 17 Matth. 15, 19. 20 </note>
-
-<note type="footnote"> 1 ait <hi rend="italic">om. C</hi> quoinquinat <hi rend="italic">M</hi> 2 posteriora-hominem <hi rend="italic">om. ACh</hi> <lb/>
+               <note type="footnote"> 1 ait <hi rend="italic">om. C</hi> quoinquinat <hi rend="italic">M</hi> 2 posteriora-hominem <hi rend="italic">om. ACh</hi>
+                  <lb/>
             uero] autem <hi rend="italic">C</hi> 3 inquinat <hi rend="italic">B</hi> 4 expositionem uelut parabolae <lb/>
-            huius <hi rend="italic">JIADChBCXBbà</hi> 5 ille <hi rend="italic">om. D</hi> responderet <hi rend="italic">C</hi> 6 os <hi rend="italic">B</hi> <lb/>
-            7 hi <hi rend="italic">A</hi> 9 ut <hi rend="italic">om. B</hi> agnoscimus <hi rend="italic">R</hi> non] ne non <hi rend="italic">TMAChBC</hi> <lb/>
-            10 nisi <hi rend="italic">semier</hi>. it. <hi rend="italic">Ch</hi> ueritas ambulare <hi rend="italic">DX</hi> 11 adhuc enim ait <hi rend="italic">DX</hi> <lb/>
+            huius <hi rend="italic">JIADChBCXBbà</hi> 5 ille <hi rend="italic">om. D</hi> responderet <hi rend="italic">C</hi> 6 os <hi rend="italic">B</hi>
+                  <lb/>
+            7 hi <hi rend="italic">A</hi> 9 ut <hi rend="italic">om. B</hi> agnoscimus <hi rend="italic">R</hi> non] ne non <hi rend="italic">TMAChBC</hi>
+                  <lb/>
+            10 nisi <hi rend="italic">semier</hi>. it. <hi rend="italic">Ch</hi> ueritas ambulare <hi rend="italic">DX</hi> 11 adhuc enim ait <hi rend="italic">DX</hi>
+                  <lb/>
             enim <hi rend="italic">om. C</hi> procedunt de ore <hi rend="italic">MADChBCXBd</hi> 12 exennt-corde <lb/>
-            <hi rend="italic">om. C</hi> 13 utrum quae <hi rend="italic">M</hi> 15 quae <hi rend="italic">om. T ea]</hi> ea que <hi rend="italic">ACh</hi> <lb/>
-            16 relicto <hi rend="italic">CBbd</hi> 17 enim <hi rend="italic">om. C</hi> 18 inquid <hi rend="italic">AChC</hi> 20 nichil <hi rend="italic">D</hi> <lb/>
+                  <hi rend="italic">om. C</hi> 13 utrum quae <hi rend="italic">M</hi> 15 quae <hi rend="italic">om. T ea]</hi> ea que <hi rend="italic">ACh</hi>
+                  <lb/>
+            16 relicto <hi rend="italic">CBbd</hi> 17 enim <hi rend="italic">om. C</hi> 18 inquid <hi rend="italic">AChC</hi> 20 nichil <hi rend="italic">D</hi>
+                  <lb/>
             est <hi rend="italic">om. B</hi> 22 possunt (pos <hi rend="italic">add. tn</hi>. 2) <hi rend="italic">A</hi> sunt <hi rend="italic">M</hi> coinquinat ACh <lb/>
-            23 non <hi rend="italic">C</hi> 24 et flagitiosa <hi rend="italic">MDX</hi> facinerosa <hi rend="italic">Bl</hi> sarcinerosa <hi rend="italic">M</hi> <lb/>
-            enimj enim quia <hi rend="italic">DXbd</hi> </note> <lb/>
-             
-<pb n="145"/>
+            23 non <hi rend="italic">C</hi> 24 et flagitiosa <hi rend="italic">MDX</hi> facinerosa <hi rend="italic">Bl</hi> sarcinerosa <hi rend="italic">M</hi>
+                  <lb/>
+            enimj enim quia <hi rend="italic">DXbd</hi>
+               </note>
+               <lb/>
+               <pb n="145"/>
             datur, uacat manus ab hominis interfectione, numquid ideo <lb/>
             mundum est ab scelere cor homicidae? aut si rem subripere <lb/>
             alienam non ut quis uult potest, numquid ideo in ipsa <lb/>
@@ -292,32 +304,32 @@
             quantum in ipsis est, membra sua exhibent arma iniquitatis
 
 <note type="footnote">11 Ps. 13, 1 20 cf. Eoar. 6, 12. 13 </note>
-
-<note type="footnote"/>
-
-<note type="footnote">1 ab <hi rend="italic">8. l. T, A.2ChCd:</hi> ad <hi rend="italic">MAIDBXR</hi> interfectionem <hi rend="italic">MBBXR</hi> <lb/>
+               <note type="footnote"/>
+               <note type="footnote">1 ab <hi rend="italic">8. l. T, A.2ChCd:</hi> ad <hi rend="italic">MAIDBXR</hi> interfectionem <hi rend="italic">MBBXR</hi>
+                  <lb/>
             ideo <hi rend="italic">om. ACh</hi> 2 ab scelere] abscedere <hi rend="italic">Ch</hi> 5 eam ideo <hi rend="italic">ACh</hi> eam <lb/>
-            <hi rend="italic">om. C cord#e A</hi> mechatus <hi rend="italic">ADChC</hi> 6 fornicae <hi rend="italic">TBl</hi> 8 deest <hi rend="italic">DX</hi> <lb/>
+                  <hi rend="italic">om. C cord#e A</hi> mechatus <hi rend="italic">ADChC</hi> 6 fornicae <hi rend="italic">TBl</hi> 8 deest <hi rend="italic">DX</hi>
+                  <lb/>
             10 non audeat lingna carnis <hi rend="italic">MADChBCXRd</hi> 11 huius <hi rend="italic">om. R</hi> 12 facta <lb/>
-            <hi rend="italic">add. m. 2 D</hi> nullus <hi rend="italic">8. 1. T om. D</hi> ait <hi rend="italic">TM</hi> 13 ullos <hi rend="italic">MB</hi> <lb/>
-            15 interioris] oris interioris <hi rend="italic">d</hi> interioris hominis <hi rend="italic">DChC</hi> quo <hi rend="italic">MAChCD2</hi> <lb/>
+                  <hi rend="italic">add. m. 2 D</hi> nullus <hi rend="italic">8. 1. T om. D</hi> ait <hi rend="italic">TM</hi> 13 ullos <hi rend="italic">MB</hi>
+                  <lb/>
+            15 interioris] oris interioris <hi rend="italic">d</hi> interioris hominis <hi rend="italic">DChC</hi> quo <hi rend="italic">MAChCD2</hi>
+                  <lb/>
             16 horis <hi rend="italic">C</hi> 17 qug <hi rend="italic">MACfxC</hi> 21 exhibebimus <hi rend="italic">DCh</hi> 22 utique <lb/>
-            alieni eunt <hi rend="italic">MADChBCXRd</hi> 24 quae si adsit <hi rend="italic">in mg. T</hi> si. <hi rend="italic">Ch</hi> <lb/>
-            assit <hi rend="italic">DC</hi> 25 intus <hi rend="italic">om. R</hi> 26 menbra <hi rend="italic">(sic plerumque) Ch</hi> </note>
-
-<note type="footnote">XXXXI Aug. Sect. V para III. </note>
-
-<note type="footnote"> 10 </note> <lb/>
-             
-<pb n="146"/>
+            alieni eunt <hi rend="italic">MADChBCXRd</hi> 24 quae si adsit <hi rend="italic">in mg. T</hi> si. <hi rend="italic">Ch</hi>
+                  <lb/>
+            assit <hi rend="italic">DC</hi> 25 intus <hi rend="italic">om. R</hi> 26 menbra <hi rend="italic">(sic plerumque) Ch</hi>
+               </note>
+               <note type="footnote">XXXXI Aug. Sect. V para III. </note>
+               <note type="footnote"> 10 </note>
+               <lb/>
+               <pb n="146"/>
             peccato, quia hoc uolunt, quod propterea non exhibent, quia <lb/>
             non possunt. 
 </p>
-          
-</div>
-
-<div n="5" subtype="section" type="textpart">
-<p>Ac per hoc illa, quae in genitalibus membris pudicitia <lb/>
+         </div>
+         <div n="5" type="section">
+            <p>Ac per hoc illa, quae in genitalibus membris pudicitia <lb/>
             refrenatis solet maxime ac proprie continentia nominari, nulla <lb/>
             transgressione uiolatur, si superior continentia, de qua iam diu<lb n="5"/>
             loquimur, in corde seruetur. propterea dominus cum dixisset: <lb/>
@@ -340,26 +352,27 @@
             per continentiam consensio non tenetur, malum concupiscentiae <lb/>
             carnalis, contra quod pugnat concupiscentia spiritalis, nocere <lb/>
             non sinitur. <lb n="25"/>
-            
-</p>
-
-</div>
-
-<div n="6" subtype="section" type="textpart">
-<p><milestone n="3" unit="altchapter"/> Sed aliud est bene pugnare, quod nunc est, quando
+            </p>
+         </div>
+         <div n="6" type="section">
+            <p>
+               <milestone n="3" unit="altchapter"/> Sed aliud est bene pugnare, quod nunc est, quando
 
 <note type="footnote"> 7 Matth. 15, 19 19 cf. Gal. 5, 17 </note>
-
-<note type="footnote"> 1 quod] qui <hi rend="italic">AChBCED1</hi> 3 in <hi rend="italic">om. BD2bd</hi> menbra <hi rend="italic">D</hi> 4 propriae <lb/>
-            <hi rend="italic">M</hi> 5 superiora <hi rend="italic">T</hi> super.a <hi rend="italic">M</hi> 8 secutus <hi rend="italic">om. C</hi> 9 neque <hi rend="italic">C</hi> <lb/>
+               <note type="footnote"> 1 quod] qui <hi rend="italic">AChBCED1</hi> 3 in <hi rend="italic">om. BD2bd</hi> menbra <hi rend="italic">D</hi> 4 propriae <lb/>
+                  <hi rend="italic">M</hi> 5 superiora <hi rend="italic">T</hi> super.a <hi rend="italic">M</hi> 8 secutus <hi rend="italic">om. C</hi> 9 neque <hi rend="italic">C</hi>
+                  <lb/>
             10 alia] talia <hi rend="italic">MADChX</hi> 12 instatuitur <hi rend="italic">M</hi> ore cordis <hi rend="italic">Cd</hi> ore] <lb/>
-            opere <hi rend="italic">T</hi> procedens <hi rend="italic">om. C</hi> 13 promissa <hi rend="italic">TMAlB</hi> 14 hostio <hi rend="italic">D</hi> <lb/>
+            opere <hi rend="italic">T</hi> procedens <hi rend="italic">om. C</hi> 13 promissa <hi rend="italic">TMAlB</hi> 14 hostio <hi rend="italic">D</hi>
+                  <lb/>
             15 incoinquinant <hi rend="italic">A</hi> 16 nihil <hi rend="italic">MDChX</hi> nichil <hi rend="italic">C</hi> 18 continentia cum <lb/>
-            uitio <hi rend="italic">DX</hi> 19 concupiscit caro <hi rend="italic">Rd</hi> 20 spiritus$ut?ip <hi rend="italic">T</hi> satis <hi rend="italic">C</hi> <lb/>
+            uitio <hi rend="italic">DX</hi> 19 concupiscit caro <hi rend="italic">Rd</hi> 20 spiritus$ut?ip <hi rend="italic">T</hi> satis <hi rend="italic">C</hi>
+                  <lb/>
             21 autem] enim <hi rend="italic">MADChBCXR</hi> 22 exiit <hi rend="italic">C</hi> 28 concupiscentiae] <lb/>
-            conscientia <hi rend="italic">MA1</hi> conscientiae <hi rend="italic">AaDaChBCX</hi> 24 spiritualis <hi rend="italic">D</hi> </note> <lb/>
-             
-<pb n="147"/>
+            conscientia <hi rend="italic">MA1</hi> conscientiae <hi rend="italic">AaDaChBCX</hi> 24 spiritualis <hi rend="italic">D</hi>
+               </note>
+               <lb/>
+               <pb n="147"/>
             mortis contentioni resistitur, aliud aduersarium non habere, <lb/>
             quod tunc erit, quando mors nouissima inimica destruetur. <lb/>
             nam et ipsa continentia, cum frenat cohibetque libidines, simul <lb/>
@@ -379,11 +392,9 @@
             interiorem hominem, uideo autem aliam legem <lb/>
             in membris meis repugnantem legi mentis meae. 
 </p>
-          
-</div>
-
-<div n="7" subtype="section" type="textpart">
-<p>Hanc pugnam non experiuntur in se ipsis nisi bellatores <lb/>
+         </div>
+         <div n="7" type="section">
+            <p>Hanc pugnam non experiuntur in se ipsis nisi bellatores <lb/>
             uirtutum debellatoresque uitiorum; non expugnat concupiscentiae <lb n="20"/>
             malum nisi continentiae bonum. sunt autem, qui legem <lb/>
             dei omnino nescientes malas concupiscentias nec in hostibus <lb/>
@@ -393,20 +404,21 @@
 
 <note type="footnote"> 1 cf. I Cor. 15, 55. 26 10 Rom. 7, 18 16 Rom. 7, 22. 23 <lb/>
             25 Rom. 3, 20 </note>
-
-<note type="footnote"> 1 contentioni mortis <hi rend="italic">DX</hi> continentione <hi rend="italic">T</hi> contentione <hi rend="italic">MAChB</hi> <lb/>
+               <note type="footnote"> 1 contentioni mortis <hi rend="italic">DX</hi> continentione <hi rend="italic">T</hi> contentione <hi rend="italic">MAChB</hi>
+                  <lb/>
             6 peccatrix <hi rend="italic">BR</hi> pdicatrix <hi rend="italic">D2</hi> et decus] et decus enim <hi rend="italic">TMDX</hi> est <lb/>
             decus enim 12 et decus eius <hi rend="italic">C</hi> et decus est (est s. <hi rend="italic">l.)</hi> enim <hi rend="italic">B</hi> et deeus.. <lb/>
             (enim <hi rend="italic">er.) ACh</hi> 8 nos-nihil <hi rend="italic">in mg. add. m. 2 A</hi> contra <lb/>
             nos <hi rend="italic">C</hi> 9 docet Dt doceret <hi rend="italic">X</hi> decet <hi rend="italic">D1</hi> contenderet <hi rend="italic">Cb</hi> liberet <lb/>
-            in <hi rend="italic">ras. D</hi> detineret <hi rend="italic">Cb</hi> 10 repugnare <hi rend="italic">TM</hi> lamat <hi rend="italic">T</hi> 12 niL uelle <hi rend="italic">C</hi> <lb/>
+            in <hi rend="italic">ras. D</hi> detineret <hi rend="italic">Cb</hi> 10 repugnare <hi rend="italic">TM</hi> lamat <hi rend="italic">T</hi> 12 niL uelle <hi rend="italic">C</hi>
+                  <lb/>
             enim <hi rend="italic">om. C</hi> 13 cnim] autem <hi rend="italic">ACh</hi> potest bonum <hi rend="italic">R</hi> 16 cumdelector <lb/>
-            <hi rend="italic">M</hi> 19 semetipsia <hi rend="italic">Cd</hi> 20 non] nec <hi rend="italic">MDChXRd</hi> concupiscentiap <lb/>
-            <hi rend="italic">T</hi> 22 malis (a. i <hi rend="italic">add</hi>. a) <hi rend="italic">M</hi> 23 eis <hi rend="italic">C</hi> 24 saciando <hi rend="italic">DChCX</hi> </note>
-
-<note type="footnote"> 10* </note> <lb n="25"/>
-             
-<pb n="148"/>
+                  <hi rend="italic">M</hi> 19 semetipsia <hi rend="italic">Cd</hi> 20 non] nec <hi rend="italic">MDChXRd</hi> concupiscentiap <lb/>
+                  <hi rend="italic">T</hi> 22 malis (a. i <hi rend="italic">add</hi>. a) <hi rend="italic">M</hi> 23 eis <hi rend="italic">C</hi> 24 saciando <hi rend="italic">DChCX</hi>
+               </note>
+               <note type="footnote"> 10* </note>
+               <lb n="25"/>
+               <pb n="148"/>
             peccati, et, concupiscentiam, inquit, nesciebam, nisi <lb/>
             lex diceret: non concupisces — et earum tamen oppugnatione <lb/>
             uincuntur, quia sub lege uiuunt, qua iubetur quod <lb/>
@@ -430,28 +442,31 @@
             continentia, et terra nostra dat fructum suum, quo pascitur <lb/>
             miles, qui debellat deo iuuante peccatum. 
 </p>
-          
-</div>
-
-<div n="8" subtype="section" type="textpart">
-<p>Tales milites apostolica tuba isto sonitu accendit in <lb/>
+         </div>
+         <div n="8" type="section">
+            <p>Tales milites apostolica tuba isto sonitu accendit in <lb/>
             proelium. non ergo regnet, inquit, peccatum in uestro
 
 <note type="footnote"> 1 Rom. 7, 7 5 cf. Rom. 5, 20 11 I Cor. 15, 56 14 cf. <lb/>
             Rom. 10, 3 20 cf. Ps. 84, 13 24 Rom. 6, 12-14 </note>
-
-<note type="footnote"> 1 concupiscentia <hi rend="italic">C</hi> inquid <hi rend="italic">(semper</hi> d) <hi rend="italic">C</hi> 3 qui <hi rend="italic">MAChBX om. D</hi> <lb/>
-            qua] quia <hi rend="italic">T</hi> 4 non et datur <hi rend="italic">del. assig. Ch</hi> et <hi rend="italic">ex</hi> ut <hi rend="italic">A</hi> da.tur <hi rend="italic">A</hi> <lb/>
-            sed non <hi rend="italic">Ch</hi> et uiuunt <hi rend="italic">C</hi> 5 <hi rend="italic">pr</hi>. per <hi rend="italic">s. 1. m. 2 A</hi> 6 habundaret <hi rend="italic">MACh</hi> <lb/>
-            7 eamque] quae <hi rend="italic">T eam</hi> qua <hi rend="italic">Ch</hi> inuictam fecit <hi rend="italic">DX</hi> 8 non fuit <hi rend="italic">filt. B</hi> <lb/>
+               <note type="footnote"> 1 concupiscentia <hi rend="italic">C</hi> inquid <hi rend="italic">(semper</hi> d) <hi rend="italic">C</hi> 3 qui <hi rend="italic">MAChBX om. D</hi>
+                  <lb/>
+            qua] quia <hi rend="italic">T</hi> 4 non et datur <hi rend="italic">del. assig. Ch</hi> et <hi rend="italic">ex</hi> ut <hi rend="italic">A</hi> da.tur <hi rend="italic">A</hi>
+                  <lb/>
+            sed non <hi rend="italic">Ch</hi> et uiuunt <hi rend="italic">C</hi> 5 <hi rend="italic">pr</hi>. per <hi rend="italic">s. 1. m. 2 A</hi> 6 habundaret <hi rend="italic">MACh</hi>
+                  <lb/>
+            7 eamque] quae <hi rend="italic">T eam</hi> qua <hi rend="italic">Ch</hi> inuictam fecit <hi rend="italic">DX</hi> 8 non fuit <hi rend="italic">filt. B</hi>
+                  <lb/>
             9 <hi rend="italic">fin</hi>. lege <hi rend="italic">MAl</hi> legem X non iuuante gratia <hi rend="italic">Ch</hi> 10 insuper facti] <lb/>
             semper <hi rend="italic">C</hi> super <hi rend="italic">MAX</hi> facta <hi rend="italic">IPd</hi> 12 est om. <hi rend="italic">T</hi> humana <lb/>
             infirmitaa <hi rend="italic">MADChBCXJRd</hi> 14 dei <hi rend="italic">om. A1</hi> dat deus <hi rend="italic">C</hi> 15 construere <lb/>
-            <hi rend="italic">T</hi> 18 pydagogus <hi rend="italic">Al</hi> perducat <hi rend="italic">D</hi> mittit <hi rend="italic">C</hi> 20 delectet <lb/>
-            <hi rend="italic">Dzd</hi> 21 da...t <hi rend="italic">T</hi> 22 delet <hi rend="italic">AChX</hi> delat <hi rend="italic">M</hi> 23 milites <hi rend="italic">om. DX</hi> <lb/>
-            accedi <hi rend="italic">M</hi> accedit <hi rend="italic">T</hi> 24 plium <hi rend="italic">AC</hi> </note> <lb/>
-             
-<pb n="149"/>
+                  <hi rend="italic">T</hi> 18 pydagogus <hi rend="italic">Al</hi> perducat <hi rend="italic">D</hi> mittit <hi rend="italic">C</hi> 20 delectet <lb/>
+                  <hi rend="italic">Dzd</hi> 21 da...t <hi rend="italic">T</hi> 22 delet <hi rend="italic">AChX</hi> delat <hi rend="italic">M</hi> 23 milites <hi rend="italic">om. DX</hi>
+                  <lb/>
+            accedi <hi rend="italic">M</hi> accedit <hi rend="italic">T</hi> 24 plium <hi rend="italic">AC</hi>
+               </note>
+               <lb/>
+               <pb n="149"/>
             mortali corpore ad oboediendum desideriis eius, neque <lb/>
             exhibueritis membra uestra arma iniquitatis peccato, <lb/>
             sed exhibete uos deo tamquam ex mortuis uiuentes <lb/>
@@ -476,28 +491,32 @@
             sed sumus sub gratia, quae id quod lex iubet faciens nos <lb/>
             amare potest liberis imperare. 
 </p>
-          
-</div>
-
-<div n="9" subtype="section" type="textpart">
-<p>Itemque cum hortatur, ut non secundum carnem uiuamus, <lb/>
+         </div>
+         <div n="9" type="section">
+            <p>Itemque cum hortatur, ut non secundum carnem uiuamus, <lb/>
             ne moriamur, sed spiritu facta carnis mortificemus, <lb n="25"/>
             ut uiuamus, tuba utique canit, bellum, in quo uersamur,
 
 <note type="footnote">6 Rom. 8, 12-14 </note>
-
-<note type="footnote"> 2 vt eiibueritis <hi rend="italic">M</hi> eiibueritis <hi rend="italic">ChR</hi> minbra <hi rend="italic">Ch</hi> 3 exibete <hi rend="italic">MR</hi> <lb/>
+               <note type="footnote"> 2 vt eiibueritis <hi rend="italic">M</hi> eiibueritis <hi rend="italic">ChR</hi> minbra <hi rend="italic">Ch</hi> 3 exibete <hi rend="italic">MR</hi>
+                  <lb/>
             mortuis <hi rend="italic">ex</hi> mortis <hi rend="italic">A</hi> 4 uestra <hi rend="italic">om. D</hi> 5 enim 095 <hi rend="italic">R</hi> sub lege <lb/>
-            <hi rend="italic">estis DX 6 in loco C 8 carnem om. A1 9 spiritu om. C</hi> quodquod <lb/>
-            <hi rend="italic">C</hi> 10 hii <hi rend="italic">TDBCX</hi> 11 quandiu <hi rend="italic">(semper</hi> n) <hi rend="italic">R</hi> nostra <hi rend="italic">om. C</hi> <lb/>
-            13 hoc loco <hi rend="italic">om. C</hi> regnat -4l 15 obeditur <hi rend="italic">R</hi> 17 ne] nec <hi rend="italic">XD1</hi> <lb/>
-            18 sed <hi rend="italic">om. MACh</hi> si.bi <hi rend="italic">Ch</hi> uendicat <hi rend="italic">DCXR</hi> 19 nec <hi rend="italic">BDl</hi> <lb/>
-            iniquitatis arma <hi rend="italic">AChBRd</hi> 20 ai <hi rend="italic">TAX</hi> non dominabitur peccatum <hi rend="italic">T</hi> <lb/>
-            enim sub lege sumus sed sub gratia. non sumus sub lege <hi rend="italic">sqq. DX</hi> <lb/>
+                  <hi rend="italic">estis DX 6 in loco C 8 carnem om. A1 9 spiritu om. C</hi> quodquod <lb/>
+                  <hi rend="italic">C</hi> 10 hii <hi rend="italic">TDBCX</hi> 11 quandiu <hi rend="italic">(semper</hi> n) <hi rend="italic">R</hi> nostra <hi rend="italic">om. C</hi>
+                  <lb/>
+            13 hoc loco <hi rend="italic">om. C</hi> regnat -4l 15 obeditur <hi rend="italic">R</hi> 17 ne] nec <hi rend="italic">XD1</hi>
+                  <lb/>
+            18 sed <hi rend="italic">om. MACh</hi> si.bi <hi rend="italic">Ch</hi> uendicat <hi rend="italic">DCXR</hi> 19 nec <hi rend="italic">BDl</hi>
+                  <lb/>
+            iniquitatis arma <hi rend="italic">AChBRd</hi> 20 ai <hi rend="italic">TAX</hi> non dominabitur peccatum <hi rend="italic">T</hi>
+                  <lb/>
+            enim sub lege sumus sed sub gratia. non sumus sub lege <hi rend="italic">sqq. DX</hi>
+                  <lb/>
             21 tamen] autem <hi rend="italic">C</hi> 22 iubet lex <hi rend="italic">T</hi> nos <hi rend="italic">om. MADIChCX</hi> 23 liberi\'ş <lb/>
-            <hi rend="italic">M</hi> 24 cum <hi rend="italic">om. C</hi> 26 itaque <hi rend="italic">T</hi> canit] quae canit <hi rend="italic">Dybd</hi> </note> <lb/>
-             
-<pb n="150"/>
+                  <hi rend="italic">M</hi> 24 cum <hi rend="italic">om. C</hi> 26 itaque <hi rend="italic">T</hi> canit] quae canit <hi rend="italic">Dybd</hi>
+               </note>
+               <lb/>
+               <pb n="150"/>
             ostendit et, ut acriter dimicemus et hostes nostros mortificemus, <lb/>
             ne ab eis mortificemur, accendit. qui sint uero isti <lb/>
             hostes, satis euidenter expressit. quos enim a nobis mortificari <lb/>
@@ -525,19 +544,23 @@
 
 <note type="footnote">4 Rom. 8, 13 7 Gal. 5, 19-21 16 Gal. 5, 16-18 24 Gal. <lb/>
             5, 19 </note>
-
-<note type="footnote"> 1 ostenditque <hi rend="italic">X</hi> et <hi rend="italic">om. TMAxChlBCX, er. in D</hi> ut om. <lb/>
-            <hi rend="italic">TMxAxChxBC, er. in D</hi> 2 accendit <hi rend="italic">om. C er. in D</hi> 3 expressit] <lb/>
+               <note type="footnote"> 1 ostenditque <hi rend="italic">X</hi> et <hi rend="italic">om. TMAxChlBCX, er. in D</hi> ut om. <lb/>
+                  <hi rend="italic">TMxAxChxBC, er. in D</hi> 2 accendit <hi rend="italic">om. C er. in D</hi> 3 expressit] <lb/>
             ostendit <hi rend="italic">DX</hi> uoluit mortificari <hi rend="italic">Cbd</hi> 4 scilicet opera <hi rend="italic">Rd</hi> uidelicet <lb/>
-            opera <hi rend="italic">ChA</hi> autem] enim <hi rend="italic">T</hi> 6 ad galatas scribentem <hi rend="italic">Cd</hi> 7 <hi rend="italic">ga-</hi> <lb/>
-            lathas <hi rend="italic">DX</hi> sunt autem <hi rend="italic">Rd</hi> 8 luxoriae <hi rend="italic">MB1</hi> 10 emulationes <hi rend="italic">MR</hi> <lb/>
+            opera <hi rend="italic">ChA</hi> autem] enim <hi rend="italic">T</hi> 6 ad galatas scribentem <hi rend="italic">Cd</hi> 7 <hi rend="italic">ga-</hi>
+                  <lb/>
+            lathas <hi rend="italic">DX</hi> sunt autem <hi rend="italic">Rd</hi> 8 luxoriae <hi rend="italic">MB1</hi> 10 emulationes <hi rend="italic">MR</hi>
+                  <lb/>
             hereses <hi rend="italic">TAM</hi> 11 ebritates <hi rend="italic">T</hi> commessationes <hi rend="italic">TMChB</hi> 13 bellum <lb/>
-            etiam ibi <hi rend="italic">C</hi> 14 hos <hi rend="italic">om. C</hi> 16 superius <hi rend="italic">DX</hi> 17 non <hi rend="italic">DChX</hi> <lb/>
+            etiam ibi <hi rend="italic">C</hi> 14 hos <hi rend="italic">om. C</hi> 16 superius <hi rend="italic">DX</hi> 17 non <hi rend="italic">DChX</hi>
+                  <lb/>
             perficietis <hi rend="italic">DChX</hi> perfeceritis <hi rend="italic">Rd</hi> 19 inuicem sibi <hi rend="italic">DC</hi> sibi <hi rend="italic">om. <lb/>
-            MAChBXEd</hi> 20 ea <hi rend="italic">om</hi>. C quaecumque <hi rend="italic">C</hi> illa faciatis <hi rend="italic">C</hi> <lb/>
-            si <hi rend="italic">om. C</hi> 22 et ut <hi rend="italic">DX</hi> </note> <lb/>
-             
-<pb n="151"/>
+            MAChBXEd</hi> 20 ea <hi rend="italic">om</hi>. C quaecumque <hi rend="italic">C</hi> illa faciatis <hi rend="italic">C</hi>
+                  <lb/>
+            si <hi rend="italic">om. C</hi> 22 et ut <hi rend="italic">DX</hi>
+               </note>
+               <lb/>
+               <pb n="151"/>
             fornicationes et cetera, siue quae commemorauit siue quae intellegenda <lb/>
             commonuit, maxime adiciens: et his similia. denique <lb/>
             in hoc proelio aduersus carnalem quodam modo exercitum <lb/>
@@ -561,27 +584,34 @@
             mortificant uero eos, quos deficientes a continentia ad <lb/>
             consensionem perpetrandorum talium operum trahit concupiscentia. <lb/>
             </p>
-          
-</div>
-
-<div n="10" subtype="section" type="textpart">
-<p><milestone n="4" unit="altchapter"/> Vt autem a continentia non deficiamus, aduersus <lb/>
+         </div>
+         <div n="10" type="section">
+            <p>
+               <milestone n="4" unit="altchapter"/> Vt autem a continentia non deficiamus, aduersus <lb/>
             illas diabolicarum suggestionum insidias praecipue uigilare
 
 <note type="footnote"> 4 Gal. 5, 22. 23 18 Gal. 5, 24 </note>
-
-<note type="footnote"> 2 adicies AlMl 4 uelud <hi rend="italic">A</hi> 5 longanitas <hi rend="italic">T</hi> longaminitas <hi rend="italic">C</hi> <lb/>
-            6 bonitas benignitas <hi rend="italic">DX</hi> 8 De. <hi rend="italic">R</hi> putarentur esse <hi rend="italic">DX</hi> putaretur <hi rend="italic">T</hi> <lb/>
-            9 debuimus-quae <hi rend="italic">om. DX</hi> debuimus <hi rend="italic">ex</hi> debemus <hi rend="italic">T</hi> dfberemus <hi rend="italic">Bd</hi> <lb/>
-            intelliere <hi rend="italic">T</hi> bona quae cogitare potuimus intellegere debuimus <hi rend="italic">DX</hi> <lb/>
-            10 et haec] &amp; 8 lex et haec <hi rend="italic">T</hi> 11 ueruntamen C 12 ultimo loco <hi rend="italic">Cbd</hi> <lb/>
+               <note type="footnote"> 2 adicies AlMl 4 uelud <hi rend="italic">A</hi> 5 longanitas <hi rend="italic">T</hi> longaminitas <hi rend="italic">C</hi>
+                  <lb/>
+            6 bonitas benignitas <hi rend="italic">DX</hi> 8 De. <hi rend="italic">R</hi> putarentur esse <hi rend="italic">DX</hi> putaretur <hi rend="italic">T</hi>
+                  <lb/>
+            9 debuimus-quae <hi rend="italic">om. DX</hi> debuimus <hi rend="italic">ex</hi> debemus <hi rend="italic">T</hi> dfberemus <hi rend="italic">Bd</hi>
+                  <lb/>
+            intelliere <hi rend="italic">T</hi> bona quae cogitare potuimus intellegere debuimus <hi rend="italic">DX</hi>
+                  <lb/>
+            10 et haec] &amp; 8 lex et haec <hi rend="italic">T</hi> 11 ueruntamen C 12 ultimo loco <hi rend="italic">Cbd</hi>
+                  <lb/>
             13 cepimus <hi rend="italic">C</hi> 14 mentibus] sensibus <hi rend="italic">C</hi> 15 qua <hi rend="italic">MAChB</hi> 17 apostolu <lb/>
-            Al 18 subgecit <hi rend="italic">A\'</hi> 19 suam <hi rend="italic">om. ABl</hi> passionibus] uiciis <hi rend="italic">C</hi> <lb/>
-            20 si <hi rend="italic">AChC</hi> mortificentur <hi rend="italic">D</hi> 21 deficiente <hi rend="italic">C</hi> a <hi rend="italic">om. MADChl BOXR</hi> <lb/>
-            22 conseaonem Al confessionem <hi rend="italic">M</hi> talium operum perpetrandorum <hi rend="italic">DX</hi> <lb/>
-            25 praecipue <hi rend="italic">ante</hi> diabolicarum <hi rend="italic">leg. in MADChBCXRbd</hi> </note> <lb n="25"/>
-             
-<pb n="152"/>
+            Al 18 subgecit <hi rend="italic">A\'</hi> 19 suam <hi rend="italic">om. ABl</hi> passionibus] uiciis <hi rend="italic">C</hi>
+                  <lb/>
+            20 si <hi rend="italic">AChC</hi> mortificentur <hi rend="italic">D</hi> 21 deficiente <hi rend="italic">C</hi> a <hi rend="italic">om. MADChl BOXR</hi>
+                  <lb/>
+            22 conseaonem Al confessionem <hi rend="italic">M</hi> talium operum perpetrandorum <hi rend="italic">DX</hi>
+                  <lb/>
+            25 praecipue <hi rend="italic">ante</hi> diabolicarum <hi rend="italic">leg. in MADChBCXRbd</hi>
+               </note>
+               <lb n="25"/>
+               <pb n="152"/>
             debemus, ne de nostris uiribus praesumamus; maledictus <lb/>
             enim omnis qui spem suam ponit in homine. et quis <lb/>
             est iste nisi homo? non potest ergo ueraciter dicere non se <lb/>
@@ -591,11 +621,9 @@
             ei christianus inest sensus, contremescat, audiat, inquam: si <lb/>
             secundum carnem uixeritis, moriemini. 
 </p>
-          
-</div>
-
-<div n="11" subtype="section" type="textpart">
-<p>Sed quispiam dicturus est mihi aliud esse secundum <lb/>
+         </div>
+         <div n="11" type="section">
+            <p>Sed quispiam dicturus est mihi aliud esse secundum <lb/>
             hominem uiuere, aliud secundum carnem uiuere: quia uidelicet<lb n="10"/>
             homo rationalis creatura est et in eo rationalis est animus, <lb/>
             quo distat a pecore; caro autem est infirma et terrena <lb/>
@@ -611,22 +639,26 @@
             adsumptum, non utique sine anima rationali, sicut quidam
 
 <note type="footnote"> 1 Hier. 17, 5 7 Rom. 8, 13 </note>
-
-<note rend="script" type="footnote"> 1 ne] et non <hi rend="italic">RB2</hi> 2 homineip <hi rend="italic">T</hi> 3 est bQiPQ <hi rend="italic">A</hi> ipse homo <hi rend="italic">C</hi> <lb/>
+               <note rend="script" type="footnote"> 1 ne] et non <hi rend="italic">RB2</hi> 2 homineip <hi rend="italic">T</hi> 3 est bQiPQ <hi rend="italic">A</hi> ipse homo <hi rend="italic">C</hi>
+                  <lb/>
             7 sensus est <hi rend="italic">MADChBCXlid</hi> contremiscat <hi rend="italic">BWChtCXRd</hi> audiant <lb/>
-            <hi rend="italic">D</hi> audii <hi rend="italic">C</hi> inquam omnes <hi rend="italic">DX</hi> 10 uiuere <hi rend="italic">om. JfADChBCXRd</hi> <lb/>
+                  <hi rend="italic">D</hi> audii <hi rend="italic">C</hi> inquam omnes <hi rend="italic">DX</hi> 10 uiuere <hi rend="italic">om. JfADChBCXRd</hi>
+                  <lb/>
             uiuere <hi rend="italic">fin. om. R</hi> homo uidelicet <hi rend="italic">MADChBCXRd</hi> 11 est creatura <lb/>
-            <hi rend="italic">DX</hi> 12 qui <hi rend="italic">Ch</hi> est <hi rend="italic">om. C</hi> infima <hi rend="italic">d</hi> 13 uitiosum-uiuit <hi rend="italic">om. C</hi> <lb/>
+                  <hi rend="italic">DX</hi> 12 qui <hi rend="italic">Ch</hi> est <hi rend="italic">om. C</hi> infima <hi rend="italic">d</hi> 13 uitiosum-uiuit <hi rend="italic">om. C</hi>
+                  <lb/>
             16 quia <hi rend="italic">T</hi> spiritam <hi rend="italic">om. Dl</hi> 17 praeeminet pecoribus <hi rend="italic">D</hi> praeminet <lb/>
-            pecoribus <hi rend="italic">X</hi> praeeminetur <hi rend="italic">T</hi> praeminet <hi rend="italic">ChBCR</hi> 18 aliquid forte <hi rend="italic">DX</hi> <lb/>
+            pecoribus <hi rend="italic">X</hi> praeeminetur <hi rend="italic">T</hi> praeminet <hi rend="italic">ChBCR</hi> 18 aliquid forte <hi rend="italic">DX</hi>
+                  <lb/>
             scolis <hi rend="italic">TMDCX</hi> 19 uti <hi rend="italic">T</hi> quemammodum <hi rend="italic">ACh</hi> 20 omnino <lb/>
             omnium <hi rend="italic">X</hi> 21 nostrum sps est <hi rend="italic">AChX</hi> ut xps ueniret <hi rend="italic">TBR:</hi> ut xps <lb/>
             uenerit (w <hi rend="italic">ras. m. 2) D</hi> uixit autem et ipse X xpm uere <hi rend="italic">M</hi> viąęręţ <lb/>
-            <hi rend="italic">(s. I. m</hi>. 2 credamus) <hi rend="italic">Ch</hi> uiueret <hi rend="italic">A</hi> quibus xps uiuere est <hi rend="italic">Cbd</hi> et hominem <lb/>
-            <hi rend="italic">TACh</hi> secundum hominem X et ho <hi rend="italic">(spat. uac.) D</hi> 22 rationabili <lb/>
-            <hi rend="italic">A</hi> </note> <lb/>
-             
-<pb n="153"/>
+                  <hi rend="italic">(s. I. m</hi>. 2 credamus) <hi rend="italic">Ch</hi> uiueret <hi rend="italic">A</hi> quibus xps uiuere est <hi rend="italic">Cbd</hi> et hominem <lb/>
+                  <hi rend="italic">TACh</hi> secundum hominem X et ho <hi rend="italic">(spat. uac.) D</hi> 22 rationabili <lb/>
+                  <hi rend="italic">A</hi>
+               </note>
+               <lb/>
+               <pb n="153"/>
             haeretici uolunt, et tamen legimus: uerbum caro factum <lb/>
             est et habitauit in nobis. quid hic caro intellegenda est <lb/>
             nisi homo? et uidebit omnis caro salutare dei, quid <lb/>
@@ -655,18 +687,21 @@
 
 <note type="footnote"> 1 loh. 1, 14 8 Luc. 3, 6 4 Ps. 64, 3 5 Ioh. 17, 2 6 Rom. <lb/>
             3, 20 9 Gal. 2, 16 10 I Cor. 3, 3 21 II Cor. 3, 5 </note>
-
-<note rend="script" type="footnote"> 2 et habitauit in nobis <hi rend="italic">om. MADChBCXRbd</hi> 4 ad-homo <hi rend="italic">om. ACh,<lb/>
+               <note rend="script" type="footnote"> 2 et habitauit in nobis <hi rend="italic">om. MADChBCXRbd</hi> 4 ad-homo <hi rend="italic">om. ACh,<lb/>
              in mg. M</hi> 5 omnis <hi rend="italic">pr. om. It</hi> 6 nisi om. <hi rend="italic">T</hi> 7 earo-iustificabitnr <lb/>
-            <hi rend="italic">om. Ch</hi> 8 exprimens manifestius <hi rend="italic">Cd</hi> 10 chorintheos <hi rend="italic">Bl</hi> 11 hominem] <lb/>
-            carnem <hi rend="italic">T</hi> 12 dixisset] appellat C 14 nam] quia <hi rend="italic">DX</hi> <lb/>
-            16 exprobans <hi rend="italic">T om. R</hi> 17 agnoscat] audiat <hi rend="italic">R</hi> opprobrium <hi rend="italic">DBChd</hi> <lb/>
-            18 ambulare secundum hominem <hi rend="italic">MADChBCXEd</hi> 20 nec] hec <hi rend="italic">C</hi> <lb/>
+                  <hi rend="italic">om. Ch</hi> 8 exprimens manifestius <hi rend="italic">Cd</hi> 10 chorintheos <hi rend="italic">Bl</hi> 11 hominem] <lb/>
+            carnem <hi rend="italic">T</hi> 12 dixisset] appellat C 14 nam] quia <hi rend="italic">DX</hi>
+                  <lb/>
+            16 exprobans <hi rend="italic">T om. R</hi> 17 agnoscat] audiat <hi rend="italic">R</hi> opprobrium <hi rend="italic">DBChd</hi>
+                  <lb/>
+            18 ambulare secundum hominem <hi rend="italic">MADChBCXEd</hi> 20 nec] hec <hi rend="italic">C</hi>
+                  <lb/>
             te o homo <hi rend="italic">C</hi> 22 aliquid cogitare <hi rend="italic">T</hi> 24 ista ueraciter <hi rend="italic">DX</hi> am- <lb/>
-            <hi rend="italic">monens ADChX</hi> 25 <hi rend="italic">fin</hi>. hominem non hominem <hi rend="italic">TJtfAChBXB</hi> hominem <lb/>
-            noie hominem <hi rend="italic">D</hi> </note> <lb n="25"/>
-             
-<pb n="154"/>
+                  <hi rend="italic">monens ADChX</hi> 25 <hi rend="italic">fin</hi>. hominem non hominem <hi rend="italic">TJtfAChBXB</hi> hominem <lb/>
+            noie hominem <hi rend="italic">D</hi>
+               </note>
+               <lb n="25"/>
+               <pb n="154"/>
             hominem deo reddit. qui autem uiuit non secundum hominem, <lb/>
             sed secundum deum, profecto non uiuit etiam secundum se <lb/>
             ipsum, quia homo est et ipse. sed ideo dicitur etiam secundum <lb/>
@@ -687,31 +722,33 @@
             loquitur mendacium, de suo loquitur? quod uerum de <lb/>
             illo ueritas dixit. 
 </p>
-          
-</div>
-
-<div n="12" subtype="section" type="textpart">
-<p><milestone n="5" unit="altchapter"/> Cum ergo audis: peccatum uobis non dominabitur,<lb n="20"/>
+         </div>
+         <div n="12" type="section">
+            <p>
+               <milestone n="5" unit="altchapter"/> Cum ergo audis: peccatum uobis non dominabitur,<lb n="20"/>
             noli de te fidere, ut peccatum non dominetur, sed de <lb/>
             illo, cui dicit orans quidam sanctus: itinera mea dirige <lb/>
             secundum uerbum tuum, et non dominetur mihi omnis
 
 <note type="footnote"> 6 Rom. 13, 1 8 Gen. 46, 27 13 Rom. 8, 13 16 Ioh. 8, 44 <lb/>
             20 Rom. 6, 14 22 Ps. 118, 188 </note>
-
-<note type="footnote"> 1 non uiuit <hi rend="italic">MADChBCXHd</hi> 5 quod-homo <hi rend="italic">om. C in mg. M</hi> <lb/>
+               <note type="footnote"> 1 non uiuit <hi rend="italic">MADChBCXHd</hi> 5 quod-homo <hi rend="italic">om. C in mg. M</hi>
+                  <lb/>
             6 dictum est] dicitur <hi rend="italic">DX</hi> omnis-est <hi rend="italic">in mg. T</hi> 7 potestatibus <lb/>
             sublimioribus <hi rend="italic">MAChBR</hi> 9 egyptam <hi rend="italic">A</hi> 10 unde <hi rend="italic">C</hi> 12 si] si <lb/>
             inde <hi rend="italic">DX</hi> si qui <hi rend="italic">C</hi> inde <hi rend="italic">Bd</hi> et inuentus <hi rend="italic">DXd</hi> noli-tamen in <lb/>
-            <hi rend="italic">mg. m. 2 D</hi> 13 quando] qfli <hi rend="italic">D</hi> si <hi rend="italic">om. TB</hi> 14 sic-moriemini in <lb/>
-            <hi rend="italic">mg. add. T om. C</hi> sic] si <hi rend="italic">ChXA</hi>. enim] autem X dici <lb/>
+                  <hi rend="italic">mg. m. 2 D</hi> 13 quando] qfli <hi rend="italic">D</hi> si <hi rend="italic">om. TB</hi> 14 sic-moriemini in <lb/>
+                  <hi rend="italic">mg. add. T om. C</hi> sic] si <hi rend="italic">ChXA</hi>. enim] autem X dici <lb/>
             hoc <hi rend="italic">Ch</hi> uerissime dici potuit <hi rend="italic">D</hi> 16 uoluit uiuere <hi rend="italic">DX</hi> 17 mirum] <lb/>
             uerum <hi rend="italic">MABBCh1</hi> uerius <hi rend="italic">Cb</hi> mirum <hi rend="italic">(in mg</hi>. aliT: quid ergo uerum secundum <lb/>
-            se ipsum uiuere sine interpretatione) <hi rend="italic">D</hi> 18 aere <hi rend="italic">C</hi> uerbum <hi rend="italic">M*</hi> <lb/>
-            19 dicit <hi rend="italic">Ch</hi> 21 noli.. <hi rend="italic">M</hi> tibi non dominetur <hi rend="italic">DXbd</hi> 22 dixit <hi rend="italic">D</hi> <lb/>
-            23 et] ut <hi rend="italic">D</hi> </note> <lb/>
-             
-<pb n="155"/>
+            se ipsum uiuere sine interpretatione) <hi rend="italic">D</hi> 18 aere <hi rend="italic">C</hi> uerbum <hi rend="italic">M*</hi>
+                  <lb/>
+            19 dicit <hi rend="italic">Ch</hi> 21 noli.. <hi rend="italic">M</hi> tibi non dominetur <hi rend="italic">DXbd</hi> 22 dixit <hi rend="italic">D</hi>
+                  <lb/>
+            23 et] ut <hi rend="italic">D</hi>
+               </note>
+               <lb/>
+               <pb n="155"/>
             iniquitas. etenim ne fortasse, cum audissemus: peccatum <lb/>
             nobis non dominabitur, nos ipsos extolleremus et uiribus <lb/>
             nostris hoc tribueremus, statim hoc uidit apostolus atque <lb/>
@@ -726,11 +763,9 @@
             spiritu nostro opera carnis mortificemus, spiritu dei agimur, <lb/>
             qui dat continentiam, qua frenemus, domemus, uincamus concupiscentiam. <lb/>
             </p>
-          
-</div>
-
-<div n="13" subtype="section" type="textpart">
-<p>In hoc tam magno proelio, in quo uiuit homo sub <lb n="15"/>
+         </div>
+         <div n="13" type="section">
+            <p>In hoc tam magno proelio, in quo uiuit homo sub <lb n="15"/>
             gratia et, cum bene pugnat adiutus, exultat in domino cum <lb/>
             tremore, non desunt tamen etiam strenuis bellatoribus et <lb/>
             operum carnis quamuis inuictis mortificatoribus aliqua uulnera <lb/>
@@ -742,20 +777,26 @@
 
 <note type="footnote"> 4 Rom. 6, 14 7 Rom. 8, 13 10 Rom. 8, 14 cf. Ps. 2, 11 <lb/>
             20 Matth. 6, 12 </note>
-
-<note type="footnote"> 1 ne forte <hi rend="italic">post</hi> audissemus <hi rend="italic">leg. in T</hi> forte <hi rend="italic">DXd</hi> 4 sed <hi rend="italic">om. C</hi> <lb/>
+               <note type="footnote"> 1 ne forte <hi rend="italic">post</hi> audissemus <hi rend="italic">leg. in T</hi> forte <hi rend="italic">DXd</hi> 4 sed <hi rend="italic">om. C</hi>
+                  <lb/>
             5 non tibi <hi rend="italic">T B</hi> tibi peccatum non dominetur <hi rend="italic">R</hi> non dominetur tibi <lb/>
-            peccatum <hi rend="italic">D</hi> non <hi rend="italic">om. M</hi> 6 ne] ut <hi rend="italic">D</hi> tibi inde (inde s. <hi rend="italic">l.) T</hi> <lb/>
+            peccatum <hi rend="italic">D</hi> non <hi rend="italic">om. M</hi> 6 ne] ut <hi rend="italic">D</hi> tibi inde (inde s. <hi rend="italic">l.) T</hi>
+                  <lb/>
             audi..muB <hi rend="italic">B</hi> 7 carnis <hi rend="italic">ex</hi> carnes <hi rend="italic">M</hi> 8 quamsi <hi rend="italic">M</hi> qua.ei <hi rend="italic">TB</hi> 9 ista] <lb/>
             ita <hi rend="italic">C</hi> 10 uiuificante <hi rend="italic">R</hi> mortificantes aperimus <hi rend="italic">T</hi> illico <hi rend="italic">Chd</hi> quodquod <lb/>
-            <hi rend="italic">C</hi> 11 hii <hi rend="italic">B</hi> 13 frenemur <hi rend="italic">T</hi> 15 tam magno hoc <hi rend="italic">DCh</hi> <lb/>
-            16 exsultat <hi rend="italic">BXBd</hi> 17 non tamen etiam desunt <hi rend="italic">DX</hi> strenuis etiam <hi rend="italic">R</hi> <lb/>
-            ignicti? <hi rend="italic">(s. I</hi>. strenuis) <hi rend="italic">T</hi> strennuis <hi rend="italic">C</hi> 18 opera. (a in <hi rend="italic">ras.) Ch</hi> <lb/>
+                  <hi rend="italic">C</hi> 11 hii <hi rend="italic">B</hi> 13 frenemur <hi rend="italic">T</hi> 15 tam magno hoc <hi rend="italic">DCh</hi>
+                  <lb/>
+            16 exsultat <hi rend="italic">BXBd</hi> 17 non tamen etiam desunt <hi rend="italic">DX</hi> strenuis etiam <hi rend="italic">R</hi>
+                  <lb/>
+            ignicti? <hi rend="italic">(s. I</hi>. strenuis) <hi rend="italic">T</hi> strennuis <hi rend="italic">C</hi> 18 opera. (a in <hi rend="italic">ras.) Ch</hi>
+                  <lb/>
             19 propter <hi rend="italic">om. MACh</hi> sanando <hi rend="italic">C</hi> cottidie <hi rend="italic">TAChBC</hi> 20 uita Ax <lb/>
-            21 et uitiorum regem <hi rend="italic">DX</hi> 22 ualeant aliquid <hi rend="italic">MADChBCXRd</hi> <lb/>
-            23 sugestiones <hi rend="italic">Ch</hi> ad] ab <hi rend="italic">TAXB</hi> ad <hi rend="italic">s. l. D er. in M</hi> </note> <lb/>
-             
-<pb n="156"/>
+            21 et uitiorum regem <hi rend="italic">DX</hi> 22 ualeant aliquid <hi rend="italic">MADChBCXRd</hi>
+                  <lb/>
+            23 sugestiones <hi rend="italic">Ch</hi> ad] ab <hi rend="italic">TAXB</hi> ad <hi rend="italic">s. l. D er. in M</hi>
+               </note>
+               <lb/>
+               <pb n="156"/>
             excusanda potius quam accusanda peccata, ac sic illa uulnera <lb/>
             non modo non sanentur, uerum etiam, etsi mortifera non <lb/>
             erant, grauiter et letaliter infligantur. et hic ergo cautiore opus <lb/>
@@ -784,23 +825,24 @@
             peccatorum.
 
 <note type="footnote"> 11 Ps. 140. 3. 4 </note>
-
-<note type="footnote"> 1 accusanda <hi rend="italic">ex</hi> excusanda <hi rend="italic">A</hi> 2 non <hi rend="italic">pr. om. T</hi> sanantur <hi rend="italic">B</hi> <lb/>
-            erunt <hi rend="italic">A</hi> laetaliter <hi rend="italic">BR</hi> loetaliter <hi rend="italic">TA</hi> infliguntur <hi rend="italic">R</hi> 5 <hi rend="italic">quod A</hi> <lb/>
+               <note type="footnote"> 1 accusanda <hi rend="italic">ex</hi> excusanda <hi rend="italic">A</hi> 2 non <hi rend="italic">pr. om. T</hi> sanantur <hi rend="italic">B</hi>
+                  <lb/>
+            erunt <hi rend="italic">A</hi> laetaliter <hi rend="italic">BR</hi> loetaliter <hi rend="italic">TA</hi> infliguntur <hi rend="italic">R</hi> 5 <hi rend="italic">quod A</hi>
+                  <lb/>
             8 coercendam <hi rend="italic">TBCd</hi> 10 potuit; <hi rend="italic">B</hi> 11 hostium <hi rend="italic">D</hi> 12 declines inquit <lb/>
-            <hi rend="italic">C</hi> 13 malicie <hi rend="italic">C</hi> euidenter <hi rend="italic">R</hi> 14 inquit excusationes <lb/>
-            <hi rend="italic">MADBCXRd</hi> 15 negat <hi rend="italic">BCd</hi> 18 petere <hi rend="italic">T</hi> ali.m (a. * <hi rend="italic">add</hi>. u) <hi rend="italic">M</hi> <lb/>
+                  <hi rend="italic">C</hi> 13 malicie <hi rend="italic">C</hi> euidenter <hi rend="italic">R</hi> 14 inquit excusationes <lb/>
+                  <hi rend="italic">MADBCXRd</hi> 15 negat <hi rend="italic">BCd</hi> 18 petere <hi rend="italic">T</hi> ali.m (a. * <hi rend="italic">add</hi>. u) <hi rend="italic">M</hi>
+                  <lb/>
             19 possit <hi rend="italic">ADChCXRd</hi> auferri <hi rend="italic">D</hi> nolensque <hi rend="italic">DX</hi> nolens enim <lb/>
-            (enim a. <hi rend="italic">I.) M</hi> 20 non accusando <hi rend="italic">om. C</hi> 23 fallacia purgare <hi rend="italic">T</hi> <lb/>
-            24 aliquid <hi rend="italic">om. R</hi> apud <hi rend="italic">om. C</hi> 25 uera <hi rend="italic">MADChX</hi> </note> 
-<pb n="157"/>
-            
-</p>
-          
-</div>
-
-<div n="14" subtype="section" type="textpart">
-<p>Et alii quidem, qui sua consueuerunt excusare peccata, <lb/>
+            (enim a. <hi rend="italic">I.) M</hi> 20 non accusando <hi rend="italic">om. C</hi> 23 fallacia purgare <hi rend="italic">T</hi>
+                  <lb/>
+            24 aliquid <hi rend="italic">om. R</hi> apud <hi rend="italic">om. C</hi> 25 uera <hi rend="italic">MADChX</hi>
+               </note>
+               <pb n="157"/>
+            </p>
+         </div>
+         <div n="14" type="section">
+            <p>Et alii quidem, qui sua consueuerunt excusare peccata, <lb/>
             fato se ad peccandum queruntur inpelli, tamquam hoc decreuerint <lb/>
             sidera et caelum prius talia decernendo peccauerit, ut <lb/>
             homo postea talia committendo peccaret; alii fortunae malunt <lb/>
@@ -827,25 +869,31 @@
 
 <note rend="script" type="footnote"> 2 quaeruntur <hi rend="italic">TAB</hi> 3 talia prius <hi rend="italic">T</hi> decernendo-talia <hi rend="italic">om. <lb/>
              TMADChBXJR</hi> peccare <hi rend="italic">C</hi> ut] et <hi rend="italic">C</hi> 4 committenda <hi rend="italic">Ch</hi> peccare <lb/>
-            <hi rend="italic">TMAChBCXR</hi> 5 qui omnia] qm <hi rend="italic">MAChCX</hi> qm oia (oia <hi rend="italic">8. I.) D</hi> <lb/>
-            putant agitari X 6 perspecta] perfecta <hi rend="italic">Ch</hi> 7 adaeuerare <hi rend="italic">MA</hi> <lb/>
-            8 actionibus snia <hi rend="italic">C</hi> 11 sugestionibus <hi rend="italic">Ch</hi> mala <hi rend="italic">om. MADChBB</hi> <lb/>
-            12 possunt <hi rend="italic">TMDBXR</hi> illius <hi rend="italic">DCX</hi> illi <hi rend="italic">ChB</hi> 13 possunt <hi rend="italic">MDXR</hi> <lb/>
+                  <hi rend="italic">TMAChBCXR</hi> 5 qui omnia] qm <hi rend="italic">MAChCX</hi> qm oia (oia <hi rend="italic">8. I.) D</hi>
+                  <lb/>
+            putant agitari X 6 perspecta] perfecta <hi rend="italic">Ch</hi> 7 adaeuerare <hi rend="italic">MA</hi>
+                  <lb/>
+            8 actionibus snia <hi rend="italic">C</hi> 11 sugestionibus <hi rend="italic">Ch</hi> mala <hi rend="italic">om. MADChBB</hi>
+                  <lb/>
+            12 possunt <hi rend="italic">TMDBXR</hi> illius <hi rend="italic">DCX</hi> illi <hi rend="italic">ChB</hi> 13 possunt <hi rend="italic">MDXR</hi>
+                  <lb/>
             15 furori <hi rend="italic">C</hi> 17 potaissent <hi rend="italic">BR</hi> potuisse <hi rend="italic">Ch</hi> potuerit <hi rend="italic">C</hi> 18 rebellante <lb/>
-            <hi rend="italic">C</hi> rebellandi <hi rend="italic">DIChX</hi> miscuisse <hi rend="italic">AChB</hi> 19 se peccare <hi rend="italic">Cd</hi> <lb/>
-            mala <hi rend="italic">ACh om. T</hi> dei naturae <hi rend="italic">C</hi> naturae (ae <hi rend="italic">m. 2 ex</hi> a) <hi rend="italic">M</hi> <lb/>
+                  <hi rend="italic">C</hi> rebellandi <hi rend="italic">DIChX</hi> miscuisse <hi rend="italic">AChB</hi> 19 se peccare <hi rend="italic">Cd</hi>
+                  <lb/>
+            mala <hi rend="italic">ACh om. T</hi> dei naturae <hi rend="italic">C</hi> naturae (ae <hi rend="italic">m. 2 ex</hi> a) <hi rend="italic">M</hi>
+                  <lb/>
             22 iiKQipmytebilS incontaminabilem <hi rend="italic">T</hi> incommutabilem (s, <hi rend="italic">l. m. 2</hi> incontaminabilem) <lb/>
-            <hi rend="italic">D</hi> 24 qui <hi rend="italic">om. MACh</hi> </note> <lb/>
-             
-<pb n="158"/>
+                  <hi rend="italic">D</hi> 24 qui <hi rend="italic">om. MACh</hi>
+               </note>
+               <lb/>
+               <pb n="158"/>
             incomparabiliter bonus est, contaminabilis et corruptibilis <lb/>
             creditur? 
 </p>
-          
-</div>
-
-<div n="15" subtype="section" type="textpart">
-<p><milestone n="6" unit="altchapter"/> Sunt et hi, qui eo modo in excusatione peccatorum <lb/>
+         </div>
+         <div n="15" type="section">
+            <p>
+               <milestone n="6" unit="altchapter"/> Sunt et hi, qui eo modo in excusatione peccatorum <lb/>
             suorum accusant deum, ut dicant ei placere peccata. nam si <lb/>
             displicerent, inquiunt, nullo modo ea fieri omnipotentissima<lb n="5"/>
             utique potestate permitteret. quasi uero inpunita peccata esse <lb/>
@@ -869,20 +917,23 @@
             bonitas eius, ut etiam de malis possit facere bona, siue
 
 <note type="footnote"> 19 Hebr. 5, 14 </note>
-
-<note type="footnote"> 1 est <hi rend="italic">om. Ch er. in A</hi> CQmmytot&gt;i]i9 contaminabilis <hi rend="italic">T</hi> et corruptibilis <lb/>
-            <hi rend="italic">in mg. m. 2 T</hi> 3 liii <hi rend="italic">MACOh</hi> alii <hi rend="italic">DX om. bd in er. in D</hi> <lb/>
+               <note type="footnote"> 1 est <hi rend="italic">om. Ch er. in A</hi> CQmmytot&gt;i]i9 contaminabilis <hi rend="italic">T</hi> et corruptibilis <lb/>
+                  <hi rend="italic">in mg. m. 2 T</hi> 3 liii <hi rend="italic">MACOh</hi> alii <hi rend="italic">DX om. bd in er. in D</hi>
+                  <lb/>
             ezcasatiooe <hi rend="italic">R</hi> 4 ut] et <hi rend="italic">C</hi> 6 deus impunita peccata <hi rend="italic">C</hi> peccata deus <lb/>
             impunita <hi rend="italic">d</hi> impunita esse peccata <hi rend="italic">D</hi> 7 remissio non <hi rend="italic">B Tt</hi> remissio <lb/>
-            <hi rend="italic">AMDChR</hi> 8 peccatorum non liberat <hi rend="italic">R</hi> 10 debeat <hi rend="italic">ADCh</hi> debuit <hi rend="italic">C</hi> <lb/>
+                  <hi rend="italic">AMDChR</hi> 8 peccatorum non liberat <hi rend="italic">R</hi> 10 debeat <hi rend="italic">ADCh</hi> debuit <hi rend="italic">C</hi>
+                  <lb/>
             impartitur <hi rend="italic">Dd</hi> 12 inultum] multum <hi rend="italic">TM</hi> pedis sequam A pedissequam <lb/>
-            <hi rend="italic">DChCXRd</hi> 18 amisso <hi rend="italic">TMAChB</hi> deleat <hi rend="italic">C</hi> 14 non doleapt <hi rend="italic">T</hi> <lb/>
+                  <hi rend="italic">DChCXRd</hi> 18 amisso <hi rend="italic">TMAChB</hi> deleat <hi rend="italic">C</hi> 14 non doleapt <hi rend="italic">T</hi>
+                  <lb/>
             17 ta <hi rend="italic">om. T</hi> 20 enim <hi rend="italic">om. T</hi> sicut scriptum est <hi rend="italic">sequitur post</hi> cibus <lb/>
-            <hi rend="italic">in C</hi> 21 hii <hi rend="italic">MADChB</hi> perfecerunt <hi rend="italic">C</hi> 22 id] idS <hi rend="italic">ACh</hi> pertenuisse <lb/>
-            <hi rend="italic">B</hi> 23 tam] tanta <hi rend="italic">MCXd</hi> 24 eius bonitas <hi rend="italic">CXRd</hi> facere <lb/>
-            bona possit <hi rend="italic">R</hi> facere possit <hi rend="italic">MADChB</hi> </note> <lb/>
-             
-<pb n="159"/>
+                  <hi rend="italic">in C</hi> 21 hii <hi rend="italic">MADChB</hi> perfecerunt <hi rend="italic">C</hi> 22 id] idS <hi rend="italic">ACh</hi> pertenuisse <lb/>
+                  <hi rend="italic">B</hi> 23 tam] tanta <hi rend="italic">MCXd</hi> 24 eius bonitas <hi rend="italic">CXRd</hi> facere <lb/>
+            bona possit <hi rend="italic">R</hi> facere possit <hi rend="italic">MADChB</hi>
+               </note>
+               <lb/>
+               <pb n="159"/>
             ignoscendo siue sanando siue ad utilitates piorum coaptando <lb/>
             atque uertendo siue etiam iustissime uindicando. omnia namque <lb/>
             ista bona sunt et deo bono atque omnipotente dignissima <lb/>
@@ -898,11 +949,9 @@
             utique sicuti iniustum est peccatum, ita iustum est peccati <lb/>
             supplicium. 
 </p>
-          
-</div>
-
-<div n="16" subtype="section" type="textpart">
-<p>Non autem potestas deo defuit talem facere hominem, <lb n="15"/>
+         </div>
+         <div n="16" type="section">
+            <p>Non autem potestas deo defuit talem facere hominem, <lb n="15"/>
             qui peccare non posset; sed maluit eum talem facere, cui <lb/>
             adiaceret peccare, si uellet, non peccare, si nollet, hoc prohibens, <lb/>
             illud praecipiens: ut prius illi esset bonum meritum <lb/>
@@ -915,30 +964,30 @@
             futuros in illius uitae inmortalitate confidimus; omnipotens
 
 <note type="footnote"> 6 Matth. 6, 12 </note>
-
-<note type="footnote"> 2 iudicando <hi rend="italic">Ch</hi> 3 omnipotenti <hi rend="italic">DCX</hi> 4 nisi <hi rend="italic">om. Ch</hi> 6 mala <lb/>
+               <note type="footnote"> 2 iudicando <hi rend="italic">Ch</hi> 3 omnipotenti <hi rend="italic">DCX</hi> 4 nisi <hi rend="italic">om. Ch</hi> 6 mala <lb/>
             fecerunt <hi rend="italic">MADChBCXH</hi> 7 exaudi»t <hi rend="italic">T</hi> et ignoscit <hi rend="italic">A</hi> 8 langoribus <lb/>
-            <hi rend="italic">MD1</hi> 9 snorum] eorum <hi rend="italic">Ch</hi> 10 eos etiam condempnat <hi rend="italic">DX</hi> <lb/>
-            dampnatione <hi rend="italic">Ch</hi> dignos iudicat <hi rend="italic">DX</hi> 11 illa <hi rend="italic">TMACh</hi> isti <hi rend="italic">C</hi> <lb/>
+                  <hi rend="italic">MD1</hi> 9 snorum] eorum <hi rend="italic">Ch</hi> 10 eos etiam condempnat <hi rend="italic">DX</hi>
+                  <lb/>
+            dampnatione <hi rend="italic">Ch</hi> dignos iudicat <hi rend="italic">DX</hi> 11 illa <hi rend="italic">TMACh</hi> isti <hi rend="italic">C</hi>
+                  <lb/>
             12 bonum <hi rend="italic">om. Ch</hi> 13 sicut <hi rend="italic">CRd</hi> sa..tis (s <hi rend="italic">fin. s. I.) M</hi> sicuti in <lb/>
-            <hi rend="italic">om</hi>. JR est iustum <hi rend="italic">B</hi> iniustum-ita <hi rend="italic">om. TA</hi> peccatum-eat <lb/>
-            <hi rend="italic">om. MDChXB</hi> peccanti <hi rend="italic">R</hi> 14 supplicium&lt;ita bonitati iustitia est <lb/>
+                  <hi rend="italic">om</hi>. JR est iustum <hi rend="italic">B</hi> iniustum-ita <hi rend="italic">om. TA</hi> peccatum-eat <lb/>
+                  <hi rend="italic">om. MDChXB</hi> peccanti <hi rend="italic">R</hi> 14 supplicium&lt;ita bonitati iustitia est <lb/>
             pmit1&gt; (&lt; &gt; in <hi rend="italic">mg. m. 2) X</hi> 17 nec X 18 esset illi <hi rend="italic">C</hi> 22 suos <lb/>
-            <hi rend="italic">om. C</hi> sicut <hi rend="italic">T</hi> </note> <lb n="25"/>
-             
-<pb n="160"/>
+                  <hi rend="italic">om. C</hi> sicut <hi rend="italic">T</hi>
+               </note>
+               <lb n="25"/>
+               <pb n="160"/>
             enim deus, qui operatur etiam bona de nostris malis, qualia <lb/>
             dabit bona, cum liberauerit ab omnibus malis? multa de bono <lb/>
             usu mali copiosius possunt et subtilius disputari; sed neque <lb/>
             hoc isto sermone suscepimus et eius nimia uitanda est <lb/>
             longitudo. <lb n="5"/>
-            
-</p>
-          
-</div>
-
-<div n="17" subtype="section" type="textpart">
-<p><milestone n="7" unit="altchapter"/> Nunc ergo ad illud, propter quod diximus ista, <lb/>
+            </p>
+         </div>
+         <div n="17" type="section">
+            <p>
+               <milestone n="7" unit="altchapter"/> Nunc ergo ad illud, propter quod diximus ista, <lb/>
             redeamus. continentia nobis opus est, et eam diuinum esse <lb/>
             munus cognoscimus, ne declinetur cor nostrum in uerba <lb/>
             maligna ad excusandas excusationes in peccatis. cui autem <lb/>
@@ -961,29 +1010,32 @@
             uos similes hominibus expectantibus dominum
 
 <note type="footnote"> 16 Ps. 33, 15 17 Ps. 33, 15 21 Luc. 12, 35 26 Luc. 12, 36 </note>
-
-<note type="footnote"> 1 bona etiam <hi rend="italic">MADChBCRd</hi> etiam-bona <hi rend="italic">om</hi>. X malis nostris <hi rend="italic">R</hi> <lb/>
-            2 liberauit A1 multi <hi rend="italic">TMAyBR</hi> 3 copiosius et eubtilius possunt <hi rend="italic">DX</hi> <lb/>
-            suptiliuB <hi rend="italic">B</hi> disputare R 6 ista diximus <hi rend="italic">ChR</hi> 7 est opus <hi rend="italic">ACk</hi> <lb/>
-            11 si commissum <hi rend="italic">DXR</hi> 13 nobis est opus (opus m. <hi rend="italic">2 8. l. add.) D</hi> <lb/>
+               <note type="footnote"> 1 bona etiam <hi rend="italic">MADChBCRd</hi> etiam-bona <hi rend="italic">om</hi>. X malis nostris <hi rend="italic">R</hi>
+                  <lb/>
+            2 liberauit A1 multi <hi rend="italic">TMAyBR</hi> 3 copiosius et eubtilius possunt <hi rend="italic">DX</hi>
+                  <lb/>
+            suptiliuB <hi rend="italic">B</hi> disputare R 6 ista diximus <hi rend="italic">ChR</hi> 7 est opus <hi rend="italic">ACk</hi>
+                  <lb/>
+            11 si commissum <hi rend="italic">DXR</hi> 13 nobis est opus (opus m. <hi rend="italic">2 8. l. add.) D</hi>
+                  <lb/>
             opus <hi rend="italic">om. C</hi> 15 ammonet <hi rend="italic">MADRX</hi> 18 nobis <hi rend="italic">om. T</hi> 19 inseparabiter <lb/>
-            <hi rend="italic">T</hi> repugnauit <hi rend="italic">MIB</hi> 21 accincti <hi rend="italic">MDBXRbd</hi> 22 quod <hi rend="italic">R</hi> <lb/>
-            est] siijt <hi rend="italic">A</hi> sit <hi rend="italic">BR</hi> accingere <hi rend="italic">MADChBCXRbd</hi> coercere <hi rend="italic">BCd</hi> <lb/>
-            23 uero] quippe <hi rend="italic">T</hi> est bonis <hi rend="italic">MCbd</hi> 24 licere <hi rend="italic">Bx</hi> iustitia <hi rend="italic">T</hi> </note> <lb/>
-             
-<pb n="161"/>
+                  <hi rend="italic">T</hi> repugnauit <hi rend="italic">MIB</hi> 21 accincti <hi rend="italic">MDBXRbd</hi> 22 quod <hi rend="italic">R</hi>
+                  <lb/>
+            est] siijt <hi rend="italic">A</hi> sit <hi rend="italic">BR</hi> accingere <hi rend="italic">MADChBCXRbd</hi> coercere <hi rend="italic">BCd</hi>
+                  <lb/>
+            23 uero] quippe <hi rend="italic">T</hi> est bonis <hi rend="italic">MCbd</hi> 24 licere <hi rend="italic">Bx</hi> iustitia <hi rend="italic">T</hi>
+               </note>
+               <lb/>
+               <pb n="161"/>
             suum, quando ueniat a nuptiis. cum enim uenerit, nos <lb/>
             remunerabit, qui continuimus nos ab his quae cupiditas et <lb/>
             ea quae imperauit caritas fecimus, ut in eius perfecta et sempiterna <lb/>
             pace sine ulla mali contentione et cum summa boni <lb/>
             delectatione regnemus. <lb n="5"/>
-            
-</p>
-          
-</div>
-
-<div n="18" subtype="section" type="textpart">
-<p>Omnes ergo, qui credimus in deum uiuum et uerum, <lb/>
+            </p>
+         </div>
+         <div n="18" type="section">
+            <p>Omnes ergo, qui credimus in deum uiuum et uerum, <lb/>
             cuius summe bona inmutabilisque natura nec mali aliquid <lb/>
             facit nec mali aliquid patitur, a quo est omne bonum, quod <lb/>
             etiam minui potest, et qui suo bono quod ipse est omnino <lb/>
@@ -1006,22 +1058,25 @@
             bellum est, quoniam salus nondum est. languor sanetur, pax
 
 <note type="footnote"> 10 Gal. 5, 16. 17 </note>
-
-<note type="footnote"> 1 uenit <hi rend="italic">ACh</hi> reuertatur <hi rend="italic">D</hi> a* <hi rend="italic">M</hi> ad <hi rend="italic">Ch</hi> nuptias <hi rend="italic">Ch</hi> 3 karitas <hi rend="italic">D</hi> <lb/>
+               <note type="footnote"> 1 uenit <hi rend="italic">ACh</hi> reuertatur <hi rend="italic">D</hi> a* <hi rend="italic">M</hi> ad <hi rend="italic">Ch</hi> nuptias <hi rend="italic">Ch</hi> 3 karitas <hi rend="italic">D</hi>
+                  <lb/>
             ut <hi rend="italic">om. TMChB</hi> 4 continentione <hi rend="italic">T</hi> et cum summa <hi rend="italic">om. C</hi> 6 in <lb/>
-            <hi rend="italic">om. MAChCXD1</hi> 7 summae <hi rend="italic">ChB</hi> 11 de§j(J?rifr t concupiscentias <hi rend="italic">T</hi> <lb/>
-            desideria <hi rend="italic">C</hi> perfeceritis (per s. <hi rend="italic">l.) T</hi> 12 enim] autem <hi rend="italic">in ras. tn. 2 D</hi> <lb/>
+                  <hi rend="italic">om. MAChCXD1</hi> 7 summae <hi rend="italic">ChB</hi> 11 de§j(J?rifr t concupiscentias <hi rend="italic">T</hi>
+                  <lb/>
+            desideria <hi rend="italic">C</hi> perfeceritis (per s. <hi rend="italic">l.) T</hi> 12 enim] autem <hi rend="italic">in ras. tn. 2 D</hi>
+                  <lb/>
             13 inuicem sibi <hi rend="italic">Cd</hi> 14 ea 8. <hi rend="italic">l. T</hi> illa faciatis <hi rend="italic">ChC</hi> 16 duas1 quae <lb/>
-            duas <hi rend="italic">AChD2</hi> hic <hi rend="italic">om. D</hi> demonstrat <hi rend="italic">1\'MAChDBX</hi> demonstrAt <hi rend="italic">C</hi> <lb/>
-            17 unam boni alteram mali <hi rend="italic">Cbd</hi> 18 bona sunt <hi rend="italic">C</hi> est <hi rend="italic">om. DX</hi> <lb/>
+            duas <hi rend="italic">AChD2</hi> hic <hi rend="italic">om. D</hi> demonstrat <hi rend="italic">1\'MAChDBX</hi> demonstrAt <hi rend="italic">C</hi>
+                  <lb/>
+            17 unam boni alteram mali <hi rend="italic">Cbd</hi> 18 bona sunt <hi rend="italic">C</hi> est <hi rend="italic">om. DX</hi>
+                  <lb/>
             bonum est <hi rend="italic">Ch</hi> 21 posse constat <hi rend="italic">Cb</hi> posset (t s. <hi rend="italic">I.) Dd</hi> 22 creatum <lb/>
-            <hi rend="italic">om. C</hi> 26 langor <hi rend="italic">M</hi> </note>
-
-<note type="footnote"> XXXXI Auf. Sect. V par» III. </note>
-
-<note type="footnote"> .11 </note> <lb/>
-             
-<pb n="162"/>
+                  <hi rend="italic">om. C</hi> 26 langor <hi rend="italic">M</hi>
+               </note>
+               <note type="footnote"> XXXXI Auf. Sect. V par» III. </note>
+               <note type="footnote"> .11 </note>
+               <lb/>
+               <pb n="162"/>
             est. languorem autem istum culpa meruit, natura non habuit. <lb/>
             quam sane culpam per lauacrum regenerationis dei gratia <lb/>
             fidelibus iam remisit; sed sub eiusdem medici manibus adhuc <lb/>
@@ -1049,31 +1104,32 @@
             a concupiscentia, sed addidit: sua, ut qui hoc audit
 
 <note type="footnote">8 Ps. 102, 2. 3 17 Matth. 6, 12. 13 19 Iac. 1, 14 </note>
-
-<note rend="script" type="footnote"> 1 langorem <hi rend="italic">M</hi> 2 culpa <hi rend="italic">C</hi> lauachrum <hi rend="italic">DChC</hi> 4 langore <hi rend="italic">M</hi> <lb/>
-            5 temperaria <hi rend="italic">M</hi> temporalis <hi rend="italic">A</hi> temporia <hi rend="italic">C</hi> tempora.ia (s * <hi rend="italic">add</hi>. r) <hi rend="italic">D</hi> <lb/>
+               <note rend="script" type="footnote"> 1 langorem <hi rend="italic">M</hi> 2 culpa <hi rend="italic">C</hi> lauachrum <hi rend="italic">DChC</hi> 4 langore <hi rend="italic">M</hi>
+                  <lb/>
+            5 temperaria <hi rend="italic">M</hi> temporalis <hi rend="italic">A</hi> temporia <hi rend="italic">C</hi> tempora.ia (s * <hi rend="italic">add</hi>. r) <hi rend="italic">D</hi>
+                  <lb/>
             sanitas <hi rend="italic">om. A1</hi> 6 non finiatur <hi rend="italic">Ch</hi> 7 animam suam iuetus <hi rend="italic">MADChB <lb/>
             CXRd</hi> 8 domino <hi rend="italic">AChC</hi> 11 propitius-compescit, <hi rend="italic">quod BRbd praebent, <lb/>
             ceteri codd. omittunt, retinui</hi> 12 qui propitius <hi rend="italic">T</hi> omnibus <lb/>
             iniquitatibus <hi rend="italic">Ch</hi> 15 adiutorium nr (iutorium <hi rend="italic">in mg.) T</hi> 16 quo] <lb/>
             quod <hi rend="italic">ACh</hi> qm <hi rend="italic">C</hi> cum <hi rend="italic">d</hi> 18 infefas] inducas <hi rend="italic">C</hi> 19 apoatolus iacobus <lb/>
-            <hi rend="italic">MBCXRd</hi> 20 a <hi rend="italic">om. C</hi> abstratus <hi rend="italic">Ch</hi> 22 huiuscemodi <hi rend="italic">omnes ACh</hi> <lb/>
+                  <hi rend="italic">MBCXRd</hi> 20 a <hi rend="italic">om. C</hi> abstratus <hi rend="italic">Ch</hi> 22 huiuscemodi <hi rend="italic">omnes ACh</hi>
+                  <lb/>
             sanare languores (langores <hi rend="italic">M) MADChBCXRd</hi> aliena <hi rend="italic">C</hi> 24 non] <lb/>
-            Dequaquã <hi rend="italic">DX</hi> 25 concupiscentia? <hi rend="italic">M</hi> addit <hi rend="italic">Ml</hi> ..sua (et <hi rend="italic">er.) B</hi> </note> <lb n="25"/>
-             
-<pb n="163"/>
+            Dequaquã <hi rend="italic">DX</hi> 25 concupiscentia? <hi rend="italic">M</hi> addit <hi rend="italic">Ml</hi> ..sua (et <hi rend="italic">er.) B</hi>
+               </note>
+               <lb n="25"/>
+               <pb n="163"/>
             intellegat quomodo clamare debeat: ego dixi, domine, <lb/>
             miserere mei, sana animam meam, quoniam peccaui <lb/>
             tibi. non enim sanatione indiguisset, nisi se ipsa peccando uitiasset, <lb/>
             ut aduersus eam sua caro concupisceret, id est ipsa <lb/>
             sibimet ipsi ex ea parte qua in carne infirmata est repugnaret. <lb n="5"/>
-            
-</p>
-          
-</div>
-
-<div n="19" subtype="section" type="textpart">
-<p><milestone n="8" unit="altchapter"/> Caro enim nihil nisi per animam concupiscit; <lb/>
+            </p>
+         </div>
+         <div n="19" type="section">
+            <p>
+               <milestone n="8" unit="altchapter"/> Caro enim nihil nisi per animam concupiscit; <lb/>
             sed concupiscere caro aduersus spiritum dicitur, quando anima <lb/>
             carnali concupiscentia spiritui reluctatur. totum hoc nos sumus. <lb/>
             et caro ipsa, quae discedente anima moritur, nostra pars infirma <lb/>
@@ -1096,19 +1152,21 @@
             doctor ostendit prius dicendo: scio, quia non habitat in
 
 <note type="footnote"> 1 Ps. 40, 5 11 I Cor. 15, 44 21 Kom. 7, 18 </note>
-
-<note rend="script" type="footnote"> 2 quia <hi rend="italic">DC</hi> 3 sanationem <hi rend="italic">B</hi> sanatione. <hi rend="italic">MCh</hi> ipsam <hi rend="italic">CXRD3</hi> <lb/>
-            4 caro sua <hi rend="italic">MADChBCXd</hi> id est] adfi <hi rend="italic">Ch</hi> 7 spiritum] aiam <hi rend="italic">C</hi> <lb/>
+               <note rend="script" type="footnote"> 2 quia <hi rend="italic">DC</hi> 3 sanationem <hi rend="italic">B</hi> sanatione. <hi rend="italic">MCh</hi> ipsam <hi rend="italic">CXRD3</hi>
+                  <lb/>
+            4 caro sua <hi rend="italic">MADChBCXd</hi> id est] adfi <hi rend="italic">Ch</hi> 7 spiritum] aiam <hi rend="italic">C</hi>
+                  <lb/>
             9 ipsa <hi rend="italic">om. T</hi> infl*ma <hi rend="italic">D, d</hi> 10 est <hi rend="italic">in ras. R, om. bd</hi> recipienda <lb/>
-            deponitur (da de <hi rend="italic">add. m. 2) D</hi> deponitur <hi rend="italic">Cd</hi> 11 autem <hi rend="italic">om. D</hi> <lb/>
+            deponitur (da de <hi rend="italic">add. m. 2) D</hi> deponitur <hi rend="italic">Cd</hi> 11 autem <hi rend="italic">om. D</hi>
+                  <lb/>
             12 resurgit <hi rend="italic">MX</hi> surgit <hi rend="italic">ACh</hi> concupiacit <hi rend="italic">TMADChBXC</hi> 13 quando] <lb/>
             qrti <hi rend="italic">C</hi> et <hi rend="italic">om. DX</hi> 14 repugnatione (8. <hi rend="italic">I</hi>. t ntia) <hi rend="italic">T</hi> 20 et] at <lb/>
             in <hi rend="italic">ras. m. 2 D</hi> salua <hi rend="italic">8. I. m. 2 D</hi> 21 inter utramque <hi rend="italic">bd</hi> 22 <hi rend="italic">alt</hi>. <lb/>
-            in <hi rend="italic">om. Al</hi> 24 ..iam <hi rend="italic">M</hi> etiam <hi rend="italic">Ch</hi> non erit uel uitiosa <hi rend="italic">DX</hi> </note>
-
-<note type="footnote"> 11* </note> <lb/>
-             
-<pb n="164"/>
+            in <hi rend="italic">om. Al</hi> 24 ..iam <hi rend="italic">M</hi> etiam <hi rend="italic">Ch</hi> non erit uel uitiosa <hi rend="italic">DX</hi>
+               </note>
+               <note type="footnote"> 11* </note>
+               <lb/>
+               <pb n="164"/>
             me, quod ut exponeret, addidit: hoc est in carne mea. <lb/>
             bonum. se itaque dicit esse carnem suam. non ergo ipsa <lb/>
             est inimica nostra; et quando eius uitiis resistitur, ipsa amatur, <lb/>
@@ -1123,11 +1181,9 @@
             sed eis non consentiendo mente seruiebat legi dei et tenebat <lb/>
             membra, ne fierent arma peccati. 
 </p>
-          
-</div>
-
-<div n="20" subtype="section" type="textpart">
-<p>Sunt ergo in nobis desideria mala, quibus non consentiendo <lb/>
+         </div>
+         <div n="20" type="section">
+            <p>Sunt ergo in nobis desideria mala, quibus non consentiendo <lb/>
             non uiuimus male; sunt in nobis concupiscentiae peccatorum, <lb n="15"/>
             quibus non oboediendo non perficimus malum, sed eas <lb/>
             habendo nondum perficimus bonum. utrumque ostendit apostolus, <lb/>
@@ -1140,20 +1196,25 @@
             perficere; neque hic dicit: concupiscentias carnis ne
 
 <note type="footnote"> 4 Ephes. 5, 29 6 Rom. 7, 25 20 Rom. 7. 18 21 Gal. 5, 16 </note>
-
-<note type="footnote"> 1 hoc est om. <hi rend="italic">XDX</hi> 2 se] sed <hi rend="italic">T</hi> dicit dicit <hi rend="italic">TBM1</hi> dicit sedicit <hi rend="italic">R</hi> <lb/>
+               <note type="footnote"> 1 hoc est om. <hi rend="italic">XDX</hi> 2 se] sed <hi rend="italic">T</hi> dicit dicit <hi rend="italic">TBM1</hi> dicit sedicit <hi rend="italic">R</hi>
+                  <lb/>
             3 us uitiis <hi rend="italic">er. in D</hi> 4 nemininumquem <hi rend="italic">M1</hi> nemo umquam <hi rend="italic">M2</hi> enim <lb/>
-            <hi rend="italic">om. AChC</hi> 5 hodio <hi rend="italic">TChMt AI</hi> ait <hi rend="italic">om. D</hi> 6 ego ipse <hi rend="italic">Ch</hi> <lb/>
+                  <hi rend="italic">om. AChC</hi> 5 hodio <hi rend="italic">TChMt AI</hi> ait <hi rend="italic">om. D</hi> 6 ego ipse <hi rend="italic">Ch</hi>
+                  <lb/>
             7 audiant-peccati <hi rend="italic">in mg. M om. ACh</hi> igitur] sibi <hi rend="italic">D</hi> ego <hi rend="italic">pr. <lb/>
-            om. MX</hi> 8 carne <hi rend="italic">fin.-12</hi> dei <hi rend="italic">om. T</hi> 9 nunquid <hi rend="italic">R</hi> 13 menbra <hi rend="italic">T</hi> <lb/>
+            om. MX</hi> 8 carne <hi rend="italic">fin.-12</hi> dei <hi rend="italic">om. T</hi> 9 nunquid <hi rend="italic">R</hi> 13 menbra <hi rend="italic">T</hi>
+                  <lb/>
             peccati arma <hi rend="italic">R</hi> 14 Sunt-male <hi rend="italic">seqq. post</hi> sunt in Dobie-bonum <hi rend="italic">17 <lb/>
             in DX</hi> 15 uiuemus <hi rend="italic">X</hi> 18 si <hi rend="italic">BA1 om. C</hi> nec malum om. Jtf <lb/>
             19 obediendo consentitur DX 21 non inuenio <hi rend="italic">C</hi> 22 concupiscentias] <lb/>
-            desideria <hi rend="italic">C</hi> carnis om. <hi rend="italic">T</hi> non <hi rend="italic">T</hi> perficeritis <hi rend="italic">T</hi> 23 non <hi rend="italic">DX</hi> <lb/>
-            ibi enim <hi rend="italic">d enim</hi> ubi <hi rend="italic">MCh</hi> dicit <hi rend="italic">om. DX</hi> bonum ait <hi rend="italic">DX</hi> <lb/>
-            24 non perficere <hi rend="italic">C</hi> neque enim <hi rend="italic">DCh</hi> concupiscentias carnis dicit <hi rend="italic">C</hi> </note> <lb/>
-             
-<pb n="165"/>
+            desideria <hi rend="italic">C</hi> carnis om. <hi rend="italic">T</hi> non <hi rend="italic">T</hi> perficeritis <hi rend="italic">T</hi> 23 non <hi rend="italic">DX</hi>
+                  <lb/>
+            ibi enim <hi rend="italic">d enim</hi> ubi <hi rend="italic">MCh</hi> dicit <hi rend="italic">om. DX</hi> bonum ait <hi rend="italic">DX</hi>
+                  <lb/>
+            24 non perficere <hi rend="italic">C</hi> neque enim <hi rend="italic">DCh</hi> concupiscentias carnis dicit <hi rend="italic">C</hi>
+               </note>
+               <lb/>
+               <pb n="165"/>
             habueritis, sed ne perfeceritis. fiunt itaque in nobis concupiscentiae <lb/>
             malae, quando id quod non licet libet; sed non <lb/>
             perficiuntur, cum legi dei mente seruiente libidines continentur. <lb/>
@@ -1179,25 +1240,29 @@
             quoque concupiscentiae, cum quibus non consentiendo confligitur <lb/>
             et quibus consentiendo peccatur. 
 </p>
-          
-</div>
-
-<div n="21" subtype="section" type="textpart">
-<p>Quod ergo caro concupiscit aduersus spiritum, quod <lb n="25"/>
+         </div>
+         <div n="21" type="section">
+            <p>Quod ergo caro concupiscit aduersus spiritum, quod <lb n="25"/>
             non habitat in carne nostra bonum, quod lex in membris
 
-<note type="footnote"> <hi rend="italic">3 lege B deseruiente Ch 4 libet male T 5 inperfectio C</hi> <lb/>
+<note type="footnote">
+                  <hi rend="italic">3 lege B deseruiente Ch 4 libet male T 5 inperfectio C</hi>
+                  <lb/>
             6 in carne <hi rend="italic">TAChBCX</hi> illicit <hi rend="italic">DlChBCR</hi> illicita D2 et] que X <lb/>
-            <hi rend="italic">om. TMADChB</hi> 7 si non] nisi <hi rend="italic">MADChBCXlid</hi> 8 quando erit <hi rend="italic">C</hi> <lb/>
+                  <hi rend="italic">om. TMADChB</hi> 7 si non] nisi <hi rend="italic">MADChBCXlid</hi> 8 quando erit <hi rend="italic">C</hi>
+                  <lb/>
             9 erit summum <hi rend="italic">C</hi> 10 sperandum] futurum X fotarum (8. <hi rend="italic">l</hi>. I spandQ <lb/>
-            <hi rend="italic">m</hi>. 2) <hi rend="italic">D</hi> 11 erit ibi <hi rend="italic">Ch</hi> in <hi rend="italic">om. MAChC</hi> 12 summum <lb/>
-            bonum <hi rend="italic">R</hi> nullum malum R 13 amor] ardor <hi rend="italic">R</hi> sumus <hi rend="italic">Ch</hi> <lb/>
+                  <hi rend="italic">m</hi>. 2) <hi rend="italic">D</hi> 11 erit ibi <hi rend="italic">Ch</hi> in <hi rend="italic">om. MAChC</hi> 12 summum <lb/>
+            bonum <hi rend="italic">R</hi> nullum malum R 13 amor] ardor <hi rend="italic">R</hi> sumus <hi rend="italic">Ch</hi>
+                  <lb/>
             continentia <hi rend="italic">T</hi> 15 male <hi rend="italic">Ch</hi> 16 et <hi rend="italic">anima MADChBCXBd</hi> 17 malum <lb/>
             ipse fecit <hi rend="italic">DX</hi> quod <hi rend="italic">MB</hi> 18 mali <hi rend="italic">om. MADChCX</hi> nec T <lb/>
-            20 ulla] illa <hi rend="italic">C</hi> 21 pace] parte <hi rend="italic">T</hi> cottidie <hi rend="italic">TC</hi> 22 ipse <hi rend="italic">MChX</hi> <lb/>
-            23 cum <hi rend="italic">om. DX</hi> </note> <lb/>
-             
-<pb n="166"/>
+            20 ulla] illa <hi rend="italic">C</hi> 21 pace] parte <hi rend="italic">T</hi> cottidie <hi rend="italic">TC</hi> 22 ipse <hi rend="italic">MChX</hi>
+                  <lb/>
+            23 cum <hi rend="italic">om. DX</hi>
+               </note>
+               <lb/>
+               <pb n="166"/>
             nostris repugnat legi mentis, non est duarum naturarum ex <lb/>
             contrariis principiis facta conmixtio, sed unius aduersus se <lb/>
             ipsam propter peccati meritum facta diuisio. non sic fuimus <lb/>
@@ -1225,18 +1290,25 @@
             perdito in nobis, bono etiam nostro usque ad culmen felicissimae<lb n="25"/>
             incorruptionis et inmortalitatis aucto atque perfecto
 
-<note type="footnote"> 2 una <hi rend="italic">R</hi> 3 ipsum <hi rend="italic">T</hi> meritum peccati <hi rend="italic">R</hi> 4 Datura] nfa <hi rend="italic">T</hi> <lb/>
-            nostra natura <hi rend="italic">B</hi> natura nostra <hi rend="italic">DX</hi> pra <hi rend="italic">A, om. ChC</hi> ac (c s. <hi rend="italic">l. m. 2) A</hi> <lb/>
+<note type="footnote"> 2 una <hi rend="italic">R</hi> 3 ipsum <hi rend="italic">T</hi> meritum peccati <hi rend="italic">R</hi> 4 Datura] nfa <hi rend="italic">T</hi>
+                  <lb/>
+            nostra natura <hi rend="italic">B</hi> natura nostra <hi rend="italic">DX</hi> pra <hi rend="italic">A, om. ChC</hi> ac (c s. <hi rend="italic">l. m. 2) A</hi>
+                  <lb/>
             5 contemsisset <hi rend="italic">B</hi> est] ex <hi rend="italic">TMA lBXR</hi> 6 uita prior <hi rend="italic">C</hi> creata C <lb/>
-            dampnati <hi rend="italic">TD</hi> 7 dampnatione T 9 et peccatis] a peccatis <hi rend="italic">DR</hi> <lb/>
+            dampnati <hi rend="italic">TD</hi> 7 dampnatione T 9 et peccatis] a peccatis <hi rend="italic">DR</hi>
+                  <lb/>
             10 suppliciis] peccatis <hi rend="italic">Ch</hi> uitam poena pro culpa reis <hi rend="italic">sqq. Ch</hi> 11 pro <lb/>
-            culpa poena <hi rend="italic">T</hi> manebit <hi rend="italic">T</hi> 15 iam in deterius <hi rend="italic">Cd</hi> poenitus <hi rend="italic">B</hi> <lb/>
-            penitus <hi rend="italic">MR</hi> 16 <hi rend="italic">alt</hi>. et <hi rend="italic">om. TMB</hi> 17 perenntibus] percucientibos <hi rend="italic">T</hi> <lb/>
+            culpa poena <hi rend="italic">T</hi> manebit <hi rend="italic">T</hi> 15 iam in deterius <hi rend="italic">Cd</hi> poenitus <hi rend="italic">B</hi>
+                  <lb/>
+            penitus <hi rend="italic">MR</hi> 16 <hi rend="italic">alt</hi>. et <hi rend="italic">om. TMB</hi> 17 perenntibus] percucientibos <hi rend="italic">T</hi>
+                  <lb/>
             percutientibus <hi rend="italic">MACh</hi> 18 est unum <hi rend="italic">MChRABCd</hi> sequentis C <lb/>
-            20 erit omnibus T 21 substantia <hi rend="italic">AChBM</hi> 22 in substantia <hi rend="italic">Dzd</hi> <lb/>
-            substantiam <hi rend="italic">XRCD:b</hi> 23 cepisse <hi rend="italic">TM</hi> </note> <lb/>
-             
-<pb n="167"/>
+            20 erit omnibus T 21 substantia <hi rend="italic">AChBM</hi> 22 in substantia <hi rend="italic">Dzd</hi>
+                  <lb/>
+            substantiam <hi rend="italic">XRCD:b</hi> 23 cepisse <hi rend="italic">TM</hi>
+               </note>
+               <lb/>
+               <pb n="167"/>
             qualis erit utraque nostra substantia? quandoquidem nunc in <lb/>
             ista corruptione et mortalitate, cum adhuc corpus corruptibile <lb/>
             adgrauat animam et, quod apostolus dicit: <lb/>
@@ -1247,11 +1319,10 @@
             habet, statimque subiungat: sed nutrit et fouet eam, <lb/>
             sicut et Christus ecclesiam. 
 </p>
-          
-</div>
-
-<div n="22" subtype="section" type="textpart">
-<p><milestone n="9" unit="altchapter"/> Quo igitur, non dico, errore, sed prorsus furore <lb n="10"/>
+         </div>
+         <div n="22" type="section">
+            <p>
+               <milestone n="9" unit="altchapter"/> Quo igitur, non dico, errore, sed prorsus furore <lb n="10"/>
             Manichaei carnem nostram nescio cui fabulosae genti tribuunt <lb/>
             tenebrarum, quam uolunt suam sine ullo initio malam semper <lb/>
             habuisse naturam, cum uerax doctor uiros diligere uxores <lb/>
@@ -1270,17 +1341,21 @@
 
 <note type="footnote"> 2 cf. Sap. 9, 15 4 Rom. 8, 10 7 Ephes. 5, 29 17 EpheJ. <lb/>
             5, 25—28 </note>
-
-<note rend="script" type="footnote"> 2 corpus <hi rend="italic">om. T</hi> 3 ait <hi rend="italic">DX</hi> 6 infimae <hi rend="italic">d</hi> 7 enim <hi rend="italic">om. MADCh<lb/>
-             BCXRd</hi> 8 habuit <hi rend="italic">DCXRd</hi> subiungit <hi rend="italic">X</hi> nutrit eam fouet <hi rend="italic">C</hi> <lb/>
-            et <hi rend="italic">om. DOhC</hi> 10 Qui ergo <hi rend="italic">C</hi> 11 tribuunt genti <hi rend="italic">T</hi> 12 şųą.rp <hi rend="italic">D</hi> <lb/>
-            13 ee (8. <hi rend="italic">Z</hi>. m. 1 habuisse) <hi rend="italic">T</hi> 14 ortetur <hi rend="italic">TMAChB</hi> quoque xpi <hi rend="italic">R</hi> <lb/>
+               <note rend="script" type="footnote"> 2 corpus <hi rend="italic">om. T</hi> 3 ait <hi rend="italic">DX</hi> 6 infimae <hi rend="italic">d</hi> 7 enim <hi rend="italic">om. MADCh<lb/>
+             BCXRd</hi> 8 habuit <hi rend="italic">DCXRd</hi> subiungit <hi rend="italic">X</hi> nutrit eam fouet <hi rend="italic">C</hi>
+                  <lb/>
+            et <hi rend="italic">om. DOhC</hi> 10 Qui ergo <hi rend="italic">C</hi> 11 tribuunt genti <hi rend="italic">T</hi> 12 şųą.rp <hi rend="italic">D</hi>
+                  <lb/>
+            13 ee (8. <hi rend="italic">Z</hi>. m. 1 habuisse) <hi rend="italic">T</hi> 14 ortetur <hi rend="italic">TMAChB</hi> quoque xpi <hi rend="italic">R</hi>
+                  <lb/>
             15 et <hi rend="italic">om. TMA,DChBXB</hi> ecclesia 6 <hi rend="italic">T</hi> ecclesiae est <hi rend="italic">BMl</hi> ortatur <lb/>
-            <hi rend="italic">TBM</hi> exhortatur <hi rend="italic">ChR</hi> exortatur (x <hi rend="italic">add. m. 2) A</hi> ipse <hi rend="italic">D</hi> 19 pro <lb/>
-            eam <hi rend="italic">B</hi> pro eatn <hi rend="italic">M</hi> 20 exiberet <hi rend="italic">ChR</hi> ipse sibi <hi rend="italic">DX</hi> 21 aut <hi rend="italic">fin.]</hi> <lb/>
-            nec <hi rend="italic">T, om. M</hi> 24 sua corpora <hi rend="italic">TMAB</hi> </note> <lb n="25"/>
-             
-<pb n="168"/>
+                  <hi rend="italic">TBM</hi> exhortatur <hi rend="italic">ChR</hi> exortatur (x <hi rend="italic">add. m. 2) A</hi> ipse <hi rend="italic">D</hi> 19 pro <lb/>
+            eam <hi rend="italic">B</hi> pro eatn <hi rend="italic">M</hi> 20 exiberet <hi rend="italic">ChR</hi> ipse sibi <hi rend="italic">DX</hi> 21 aut <hi rend="italic">fin.]</hi>
+                  <lb/>
+            nec <hi rend="italic">T, om. M</hi> 24 sua corpora <hi rend="italic">TMAB</hi>
+               </note>
+               <lb n="25"/>
+               <pb n="168"/>
             nemo enim umquam carnem suam odio habuit, sed <lb/>
             nutrit et fouet eam sicut Christus ecclesiam. quid <lb/>
             ad haec dicit inmundissimae inpietatis insania? quid ad haec <lb/>
@@ -1300,11 +1375,9 @@
             accipiatis, ut dignum est, conemini et illa intellegere, ut <lb/>
             uerum est. 
 </p>
-          
-</div>
-
-<div n="23" subtype="section" type="textpart">
-<p>Tres quasdam copulas nobis insinuauit apostolus: Christum <lb/>
+         </div>
+         <div n="23" type="section">
+            <p>Tres quasdam copulas nobis insinuauit apostolus: Christum <lb/>
             et ecclesiam, uirum et uxorem, spiritum et carnem. <lb n="20"/>
             horum priora posterioribus consulunt, posteriora prioribus <lb/>
             famulantur, omnia bona sunt, ut in eis ordinis pulchritudine <lb/>
@@ -1314,18 +1387,22 @@
 
 <note type="footnote"> 1 Ephes. 5, 29 7 Gal. 5, 17 8 Rom. 7, 18 9 Ephes. 5, 29 <lb/>
             11 Rom. 7, 23 13 Ephes. 5, 25. 28 25 Ephes. 5, 22. 23. 25 </note>
-
-<note rend="script" type="footnote"> 1 <hi rend="italic">abuit A</hi> 2 et] ac <hi rend="italic">R</hi> et xps <hi rend="italic">Rd</hi> ecclesiam suam <hi rend="italic">T <lb/>
-            4 quid R uobis X uelut in ras. D, d ex s. I. D om. X</hi> <lb/>
-            6 sacrilegia A 7 legistis <hi rend="italic">T</hi> 10 habuit <hi rend="italic">DCXRd</hi> ac fouet <hi rend="italic">R</hi> <lb/>
+               <note rend="script" type="footnote"> 1 <hi rend="italic">abuit A</hi> 2 et] ac <hi rend="italic">R</hi> et xps <hi rend="italic">Rd</hi> ecclesiam suam <hi rend="italic">T <lb/>
+            4 quid R uobis X uelut in ras. D, d ex s. I. D om. X</hi>
+                  <lb/>
+            6 sacrilegia A 7 legistis <hi rend="italic">T</hi> 10 habuit <hi rend="italic">DCXRd</hi> ac fouet <hi rend="italic">R</hi>
+                  <lb/>
             et <hi rend="italic">om. DX</hi> 11 xps dilexit <hi rend="italic">D</hi> legistis <hi rend="italic">T</hi> 12 menbris <hi rend="italic">T</hi> 18 ita <lb/>
-            <hi rend="italic">om. T</hi> ita legite] intellegite <hi rend="italic">M</hi> 14 sua corpora <hi rend="italic">MABd</hi> 15 in illis <lb/>
-            <hi rend="italic">om. R</hi> 17 accipitis <hi rend="italic">T</hi> conabimini <hi rend="italic">Dd</hi> 19 Tres-carnem <hi rend="italic">om. Ch</hi> <lb/>
+                  <hi rend="italic">om. T</hi> ita legite] intellegite <hi rend="italic">M</hi> 14 sua corpora <hi rend="italic">MABd</hi> 15 in illis <lb/>
+                  <hi rend="italic">om. R</hi> 17 accipitis <hi rend="italic">T</hi> conabimini <hi rend="italic">Dd</hi> 19 Tres-carnem <hi rend="italic">om. Ch</hi>
+                  <lb/>
             copolas <hi rend="italic">B</hi> insuauit <hi rend="italic">R</hi> 22 ut] et <hi rend="italic">ChA2</hi> cum <hi rend="italic">MCbd</hi> quaedam <lb/>
-            ordinis pulchritudinern <hi rend="italic">Cd</hi> pulchritudinem <hi rend="italic">RA2</hi> 24 debeant esse <hi rend="italic">ACh</hi> <lb/>
-            praecepta <hi rend="italic">MAChX</hi> praeceptfl (ttl in <hi rend="italic">ras. m. 2) D</hi> 25 et <hi rend="italic">om. T</hi> </note> <lb n="25"/>
-             
-<pb n="169"/>
+            ordinis pulchritudinern <hi rend="italic">Cd</hi> pulchritudinem <hi rend="italic">RA2</hi> 24 debeant esse <hi rend="italic">ACh</hi>
+                  <lb/>
+            praecepta <hi rend="italic">MAChX</hi> praeceptfl (ttl in <hi rend="italic">ras. m. 2) D</hi> 25 et <hi rend="italic">om. T</hi>
+               </note>
+               <lb n="25"/>
+               <pb n="169"/>
             suis subditae sint sicut domino, quia uir caput <lb/>
             est mulieris, et: uiri diligite uxores uestras. <lb/>
             exemplum autem datur mulieribus de ecclesia, uiris de Christo. <lb/>
@@ -1352,20 +1429,25 @@
             fouendo siue eius uitiis per continentiam resistendo consuleret,
 
 <note type="footnote">4 Ephea. 5, 24 6 Ephes. 5, 25 11 Ephes. 5, 28 </note>
-
-<note rend="script" type="footnote">1 quia-est <hi rend="italic">er</hi>. in <hi rend="italic">M</hi> capud <hi rend="italic">A</hi> 2 mulieris est <hi rend="italic">Abd</hi> 3 attendatur <lb/>
-            <hi rend="italic">R</hi> de xpo uiris <hi rend="italic">DX</hi> 4 sicut] sed dę <hi rend="italic">T</hi> sed <hi rend="italic">BRCX</hi> sed <lb/>
-            sicut <hi rend="italic">ACh</hi> sicut <hi rend="italic">in ras. D</hi> subdita est inquit <hi rend="italic">X</hi> ita <hi rend="italic">oni. R</hi> <lb/>
-            6 ut <hi rend="italic">om. T</hi> et exemplum <hi rend="italic">R</hi> 7 et xps <hi rend="italic">R</hi> dilexit 8. <hi rend="italic">1. m. 2 T</hi> <lb/>
-            niro <hi rend="italic">MACh</hi> 8 adortatus <hi rend="italic">TAB</hi> 10 uxorea <hi rend="italic">om. T</hi> et Christus <hi rend="italic">d</hi> <lb/>
+               <note rend="script" type="footnote">1 quia-est <hi rend="italic">er</hi>. in <hi rend="italic">M</hi> capud <hi rend="italic">A</hi> 2 mulieris est <hi rend="italic">Abd</hi> 3 attendatur <lb/>
+                  <hi rend="italic">R</hi> de xpo uiris <hi rend="italic">DX</hi> 4 sicut] sed dę <hi rend="italic">T</hi> sed <hi rend="italic">BRCX</hi> sed <lb/>
+            sicut <hi rend="italic">ACh</hi> sicut <hi rend="italic">in ras. D</hi> subdita est inquit <hi rend="italic">X</hi> ita <hi rend="italic">oni. R</hi>
+                  <lb/>
+            6 ut <hi rend="italic">om. T</hi> et exemplum <hi rend="italic">R</hi> 7 et xps <hi rend="italic">R</hi> dilexit 8. <hi rend="italic">1. m. 2 T</hi>
+                  <lb/>
+            niro <hi rend="italic">MACh</hi> 8 adortatus <hi rend="italic">TAB</hi> 10 uxorea <hi rend="italic">om. T</hi> et Christus <hi rend="italic">d</hi>
+                  <lb/>
             12 sicut sua corpora <hi rend="italic">om. C</hi> corpora sua <hi rend="italic">bd</hi> 13 <hi rend="italic">pr</hi>. et <hi rend="italic">om. R </hi>. <lb/>
-            14 accipe <hi rend="italic">C</hi> 15 subdita esset <hi rend="italic">Ch</hi> esset] eis se <hi rend="italic">MB</hi> aut] ut <hi rend="italic">MD1</hi> <lb/>
+            14 accipe <hi rend="italic">C</hi> 15 subdita esset <hi rend="italic">Ch</hi> esset] eis se <hi rend="italic">MB</hi> aut] ut <hi rend="italic">MD1</hi>
+                  <lb/>
             hoc <hi rend="italic">C</hi> 16 altellegit <hi rend="italic">T</hi> pertermisit <hi rend="italic">B</hi> 17 uita T 18 et exemplum <lb/>
-            T 19 etai] si <hi rend="italic">T</hi> 20 spiritus concupiscit <hi rend="italic">ACh</hi> 21 concupisč <hi rend="italic">C</hi> <lb/>
+            T 19 etai] si <hi rend="italic">T</hi> 20 spiritus concupiscit <hi rend="italic">ACh</hi> 21 concupisč <hi rend="italic">C</hi>
+                  <lb/>
             22 talis repugnatio <hi rend="italic">TMAChBCXRb</hi> 23 bOn\'Qrt.lm <hi rend="italic">(corr. m. 2) T</hi> natura <lb/>
-            <hi rend="italic">TMBR</hi> prouidentia <hi rend="italic">T</hi> 24 u(Ţ\'endo <hi rend="italic">T</hi> consuleret resistendo <hi rend="italic">T</hi> </note> <lb/>
-             
-<pb n="170"/>
+                  <hi rend="italic">TMBR</hi> prouidentia <hi rend="italic">T</hi> 24 u(Ţ\'endo <hi rend="italic">T</hi> consuleret resistendo <hi rend="italic">T</hi>
+               </note>
+               <lb/>
+               <pb n="170"/>
             nisi utraque substantia utriusque artificem deum etiam decore <lb/>
             sui huius ordinis indicaret. quid est ergo, quod uos uera <lb/>
             dementia et christianos esse iactatis et contra scripturas <lb/>
@@ -1376,11 +1458,10 @@
             diaboli opera esse, non dei et spiritui carnem tamquam <lb/>
             malam substantiam bonae substantiae cohaerere? 
 </p>
-          
-</div>
-
-<div n="24" subtype="section" type="textpart">
-<p><milestone n="10" unit="altchapter"/> Si parum uobis uidentur respondere, quae de apostolicis<lb n="10"/>
+         </div>
+         <div n="24" type="section">
+            <p>
+               <milestone n="10" unit="altchapter"/> Si parum uobis uidentur respondere, quae de apostolicis<lb n="10"/>
             commemorauimus litteris, audite adhuc alia, si aures <lb/>
             habetis. quid de carne Christi dicit insanissimus Manichaeus? <lb/>
             quod non fuerit uera, sed falsa. quid ad - haec dicit beatus <lb/>
@@ -1395,23 +1476,29 @@
             malum est caro uera et non est malum falsa pro uera; malum
 
 <note type="footnote"> 14 II Tim. 2, 8 16 Luc. 24, 39 </note>
-
-<note type="footnote"> <hi rend="italic">1 utrisque T 2 sui om. C uos manichei D</hi> uera] <hi rend="italic">uestra R</hi> <lb/>
+               <note type="footnote">
+                  <hi rend="italic">1 utrisque T 2 sui om. C uos manichei D</hi> uera] <hi rend="italic">uestra R</hi>
+                  <lb/>
             3 christianas (-nos <hi rend="italic">X)</hi> scripturas <hi rend="italic">DX</hi> 4 exstinctis <hi rend="italic">Bd</hi> 5 ut et (ut <lb/>
-            <hi rend="italic">in ras.) D</hi> et <hi rend="italic">om. b</hi> aeseratis (atis <hi rend="italic">in ras. m. 2) D</hi> 6 mortalittftibus <lb/>
-            <hi rend="italic">M</hi> animad <hi rend="italic">M</hi> ad diabolum in corpore <hi rend="italic">DX</hi> 7 et] et <lb/>
+                  <hi rend="italic">in ras.) D</hi> et <hi rend="italic">om. b</hi> aeseratis (atis <hi rend="italic">in ras. m. 2) D</hi> 6 mortalittftibus <lb/>
+                  <hi rend="italic">M</hi> animad <hi rend="italic">M</hi> ad diabolum in corpore <hi rend="italic">DX</hi> 7 et] et <lb/>
             ut <hi rend="italic">AChBX</hi> 9 choerere <hi rend="italic">MAD</hi> 10 uidetur <hi rend="italic">MADChCXR</hi> 11 qui <lb/>
-            alia (qui <hi rend="italic">in ras. m. 2) DX</hi> si alia <hi rend="italic">R</hi> alia, si aures] alias aures <hi rend="italic">TMABR</hi> <lb/>
+            alia (qui <hi rend="italic">in ras. m. 2) DX</hi> si alia <hi rend="italic">R</hi> alia, si aures] alias aures <hi rend="italic">TMABR</hi>
+                  <lb/>
             13 uera fuerit <hi rend="italic">DX</hi> hoc <hi rend="italic">Cd</hi> 14 apostolus] paulus <hi rend="italic">D</hi> dominum <lb/>
-            iesum christum <hi rend="italic">DR</hi> iesum xpm <hi rend="italic">Ch</hi> Iesum] dominum <hi rend="italic">X om. AC</hi> <lb/>
+            iesum christum <hi rend="italic">DR</hi> iesum xpm <hi rend="italic">Ch</hi> Iesum] dominum <hi rend="italic">X om. AC</hi>
+                  <lb/>
             surrexisse <hi rend="italic">MRd</hi> 15 ex semine Dauid <hi rend="italic">post</hi> meum <hi rend="italic">sqq. X</hi> 16 Christus <lb/>
-            Iesus <hi rend="italic">d</hi> 17 ossa et carnem <hi rend="italic">MChB</hi> 18 est <hi rend="italic">om. T</hi> 19 id <hi rend="italic">om. Md</hi> <lb/>
+            Iesus <hi rend="italic">d</hi> 17 ossa et carnem <hi rend="italic">MChB</hi> 18 est <hi rend="italic">om. T</hi> 19 id <hi rend="italic">om. Md</hi>
+                  <lb/>
             20 nonj nullum <hi rend="italic">DX, om. A</hi> ullum] illud <hi rend="italic">ChA, om. DX</hi> 21 mtgpil <lb/>
-            <hi rend="italic">(s. I. m</hi>. 1 grande) <hi rend="italic">D</hi> 22 aera caro <hi rend="italic">R</hi> non est <hi rend="italic">s. l. m. 2) T</hi> <lb/>
+                  <hi rend="italic">(s. I. m</hi>. 1 grande) <hi rend="italic">D</hi> 22 aera caro <hi rend="italic">R</hi> non est <hi rend="italic">s. l. m. 2) T</hi>
+                  <lb/>
             pro uera] porro uerft A pro certo <hi rend="italic">C, (8. I. m. 2 add.) D om. X</hi> malum-sernine] <lb/>
-            An mala 8 caro uero de semine dauid nascentis <hi rend="italic">DX</hi> </note> <lb/>
-             
-<pb n="171"/>
+            An mala 8 caro uero de semine dauid nascentis <hi rend="italic">DX</hi>
+               </note>
+               <lb/>
+               <pb n="171"/>
             est caro uera nascentis ex Dauid semine et non est malum <lb/>
             lingua falsa dicentis: palpate et uidete quia spiritus <lb/>
             ossa et carnem non habet, sicut me uidetis habere! <lb/>
@@ -1439,19 +1526,23 @@
 
 <note type="footnote"> 2 Luc. 24, 39 7 I Cor. 6, 15 10 I Cor. 11, 12 15 I Cor. <lb/>
             12, 12 17 I Cor. 12, 18 19 I Cor. 12, 24-26 </note>
-
-<note type="footnote"> 1 semine dauid R 3 carnem et ossa <hi rend="italic">DCXR</hi> 6 gentium <hi rend="italic">ante</hi> <lb/>
+               <note type="footnote"> 1 semine dauid R 3 carnem et ossa <hi rend="italic">DCXR</hi> 6 gentium <hi rend="italic">ante</hi>
+                  <lb/>
             dicit in <hi rend="italic">ACh</hi> 7 inquid <hi rend="italic">MB</hi> 8 xpi sunt <hi rend="italic">R</hi> masculi.. T femininae <lb/>
-            <hi rend="italic">T</hi> 9 utique <hi rend="italic">C</hi> ex <hi rend="italic">om. M</hi> 10 mulier inquit <hi rend="italic">T</hi> 12 quidquid <lb/>
-            <hi rend="italic">B</hi> dicit spiritus inmundus per manicheum <hi rend="italic">DX</hi> 15 multa <lb/>
-            habet membra T 16 autem <hi rend="italic">om. T</hi> corpus <hi rend="italic">M</hi> 17 corpus est <hi rend="italic">M</hi> <lb/>
-            corpus sunt <hi rend="italic">DX</hi> 18 singula in <hi rend="italic">ras. D. C</hi> quotque <hi rend="italic">ABM1</hi> queque <hi rend="italic">C</hi> <lb/>
-            quoque <hi rend="italic">Ml</hi> 21 in corpore <hi rend="italic">om. D</hi> idem <hi rend="italic">om. C</hi> 22 ut <hi rend="italic">OIH. C</hi> <lb/>
+                  <hi rend="italic">T</hi> 9 utique <hi rend="italic">C</hi> ex <hi rend="italic">om. M</hi> 10 mulier inquit <hi rend="italic">T</hi> 12 quidquid <lb/>
+                  <hi rend="italic">B</hi> dicit spiritus inmundus per manicheum <hi rend="italic">DX</hi> 15 multa <lb/>
+            habet membra T 16 autem <hi rend="italic">om. T</hi> corpus <hi rend="italic">M</hi> 17 corpus est <hi rend="italic">M</hi>
+                  <lb/>
+            corpus sunt <hi rend="italic">DX</hi> 18 singula in <hi rend="italic">ras. D. C</hi> quotque <hi rend="italic">ABM1</hi> queque <hi rend="italic">C</hi>
+                  <lb/>
+            quoque <hi rend="italic">Ml</hi> 21 in corpore <hi rend="italic">om. D</hi> idem <hi rend="italic">om. C</hi> 22 ut <hi rend="italic">OIH. C</hi>
+                  <lb/>
             pro inuicem] promui <hi rend="italic">M</hi> patiatur X 23 compatiantur X siuemembra <lb/>
-            <hi rend="italic">om. MX</hi> 24 gloriatur <hi rend="italic">C</hi> congaudebunt <hi rend="italic">TBC</hi> congaudeant <lb/>
-            <hi rend="italic">D</hi> </note> <lb/>
-             
-<pb n="172"/>
+                  <hi rend="italic">om. MX</hi> 24 gloriatur <hi rend="italic">C</hi> congaudebunt <hi rend="italic">TBC</hi> congaudeant <lb/>
+                  <hi rend="italic">D</hi>
+               </note>
+               <lb/>
+               <pb n="172"/>
             membra. quomodo est mala caro, quando ipsae animae pacem <lb/>
             membrorum eius ut imitentur, monentur? quomodo est inimici <lb/>
             creatura, quando ipsae animae, quae corpora regunt, ut <lb/>
@@ -1465,11 +1556,10 @@
             uiuam, sanctam, deo placentem de gentis tenebrarum corporibus <lb/>
             exhibemus. 
 </p>
-          
-</div>
-
-<div n="25" subtype="section" type="textpart">
-<p><milestone n="11" unit="altchapter"/> Sed, inquiunt, quomodo caro per quandam similitudinem <lb/>
+         </div>
+         <div n="25" type="section">
+            <p>
+               <milestone n="11" unit="altchapter"/> Sed, inquiunt, quomodo caro per quandam similitudinem <lb/>
             comparatur ecclesiae? numquid ecclesia concupiscit <lb/>
             aduersus Christum, cum idem apostolus dixerit: ecclesia <lb n="15"/>
             subdita est Christo? plane subdita est Christo ecclesia, <lb/>
@@ -1484,19 +1574,23 @@
             spiritum et spiritus aduersus carnem; haec enim sibi
 
 <note type="footnote"> 7 Rom. 12, 1 15 Ephea. 5, 24 23 Gal. 5, 16. 17 </note>
-
-<note type="footnote"> 1 ipse <hi rend="italic">M</hi> pace <hi rend="italic">ADChB</hi> 2 inimica <hi rend="italic">C</hi> 4 inimiticiarum <hi rend="italic">T</hi> <lb/>
+               <note type="footnote"> 1 ipse <hi rend="italic">M</hi> pace <hi rend="italic">ADChB</hi> 2 inimica <hi rend="italic">C</hi> 4 inimiticiarum <hi rend="italic">T</hi>
+                  <lb/>
             scisuras <hi rend="italic">M</hi> 5 per <hi rend="italic">om. MAl</hi> 6 et ipsae hoc ament <hi rend="italic">D</hi> et ipsae <lb/>
-            ament <hi rend="italic">X</hi> hoc habere <hi rend="italic">Md</hi> cum ad romanos R 7 cum apois <hi rend="italic">D</hi> <lb/>
+            ament <hi rend="italic">X</hi> hoc habere <hi rend="italic">Md</hi> cum ad romanos R 7 cum apois <hi rend="italic">D</hi>
+                  <lb/>
             uos inquit <hi rend="italic">T</hi> fratres <hi rend="italic">om. T</hi> 9 uiuentg A non] enim <hi rend="italic">b</hi> 11 tenebrarum <lb/>
-            <hi rend="italic">s. l. m. 2 T</hi> 12 exibemus B 14 nunquid <hi rend="italic">R</hi> 15 dicat <hi rend="italic">R</hi> <lb/>
+                  <hi rend="italic">s. l. m. 2 T</hi> 12 exibemus B 14 nunquid <hi rend="italic">R</hi> 15 dicat <hi rend="italic">R</hi>
+                  <lb/>
             16 subdita est ecclesia xpo <hi rend="italic">C</hi> ecclesia subdita est Christo <hi rend="italic">d</hi> 17 concupiscit <lb/>
             spiritus <hi rend="italic">DX</hi> omni ex <hi rend="italic">Cd</hi> ex <hi rend="italic">om. MADlChX</hi> 18 autem] <lb/>
-            hec <hi rend="italic">C</hi> 22 <hi rend="italic">langoris Af</hi> 23 idem ipsi <hi rend="italic">MDChBCXR</hi> dicebat apta <hi rend="italic">D</hi> <lb/>
+            hec <hi rend="italic">C</hi> 22 <hi rend="italic">langoris Af</hi> 23 idem ipsi <hi rend="italic">MDChBCXR</hi> dicebat apta <hi rend="italic">D</hi>
+                  <lb/>
             desideria] concupiscentias <hi rend="italic">MAChBbd</hi> 24 non <hi rend="italic">C</hi> concupiscit-enim <lb/>
-            <hi rend="italic">orn. C</hi> 25 sibi <hi rend="italic">om. MAD ChI BXRd</hi> </note> <lb n="25"/>
-             
-<pb n="173"/>
+                  <hi rend="italic">orn. C</hi> 25 sibi <hi rend="italic">om. MAD ChI BXRd</hi>
+               </note>
+               <lb n="25"/>
+               <pb n="173"/>
             inuicem aduersantur, ut non ea quae uultis faciatis. <lb/>
             haec utique ecclesiae dicebantur, quae si Christo subdita non <lb/>
             esset, non in ea spiritus aduersus carnem per continentiam concupisceret. <lb/>
@@ -1525,17 +1619,19 @@
 
 <note type="footnote"> 10 I Cor. 1, 13 I Cor. 3, 1-3 21 Matth. 6, 12 24 cf. <lb/>
             Ioli. 13, 23 25 I Ioh. 1, 8 </note>
-
-<note rend="script" type="footnote"> 4 poterant quidem <hi rend="italic">D2d</hi> perferre <hi rend="italic">BR</hi> 5 poterat <hi rend="italic">MA</hi> 6 etiam <lb/>
-            <hi rend="italic">om. T1</hi> concupiscentias carnis <hi rend="italic">R</hi> 7 non owi T1 confiteantur <hi rend="italic">R</hi> <lb/>
+               <note rend="script" type="footnote"> 4 poterant quidem <hi rend="italic">D2d</hi> perferre <hi rend="italic">BR</hi> 5 poterat <hi rend="italic">MA</hi> 6 etiam <lb/>
+                  <hi rend="italic">om. T1</hi> concupiscentias carnis <hi rend="italic">R</hi> 7 non owi T1 confiteantur <hi rend="italic">R</hi>
+                  <lb/>
             apiritualibus <hi rend="italic">D</hi> 8 subditam xpo <hi rend="italic">MADChBCXRd</hi> hanc adhuc C <lb/>
-            9 an-non <hi rend="italic">om. MX;</hi> an aduersus xpm <hi rend="italic">om. AChC</hi> 11 loqui potui <hi rend="italic">11</hi> <lb/>
+            9 an-non <hi rend="italic">om. MX;</hi> an aduersus xpm <hi rend="italic">om. AChC</hi> 11 loqui potui <hi rend="italic">11</hi>
+                  <lb/>
             nobis loqui <hi rend="italic">DXCh</hi> 12 potum dedi uobis <hi rend="italic">T</hi> 13 ne] neque <hi rend="italic">Ch,<lb/>
              s. I. m</hi>. 2 <hi rend="italic">A</hi> 14 quidem <hi rend="italic">om. Ch</hi> 16 et contentio <hi rend="italic">om. C</hi> 18 Christu? <lb/>
-            <hi rend="italic">om. M</hi> 19 etiam habet <hi rend="italic">T</hi> 21 <hi rend="italic">cottidiana AC</hi> est totius ecclesiae 22 <lb/>
-            24 supra <hi rend="italic">DChR</hi> </note> <lb n="25"/>
-             
-<pb n="174"/>
+                  <hi rend="italic">om. M</hi> 19 etiam habet <hi rend="italic">T</hi> 21 <hi rend="italic">cottidiana AC</hi> est totius ecclesiae 22 <lb/>
+            24 supra <hi rend="italic">DChR</hi>
+               </note>
+               <lb n="25"/>
+               <pb n="174"/>
             habemus, nos ipsos decipimus, et ueritas in nobis non <lb/>
             est. in omni autem peccato, plus in maiore, minus in minore. <lb/>
             tamen contra iustitiam concupiscitur. et de Christo scriptum <lb/>
@@ -1562,21 +1658,28 @@
 
 <note type="footnote"> 4 I Cor. 1, 30 6 cf. Ps. 102, 3 18 Ephes. 5, 29 23 I Cor. <lb/>
             11, 31 </note>
-
-<note rend="script" type="footnote"> 1 sedacimus <hi rend="italic">TDXR</hi> 2 minus in minore <hi rend="italic">001. M</hi> 4 quia <hi rend="italic">MAChBCR</hi> <lb/>
-            nobis est <hi rend="italic">R</hi> est <hi rend="italic">om. Tl</hi> a <hi rend="italic">om. M1</hi> 5 et sanctificatio <hi rend="italic">om. C</hi> <lb/>
-            7 langores <hi rend="italic">M</hi> ecclesiam suam <hi rend="italic">D</hi> 8 sanitatem languoribus <hi rend="italic">D</hi> <lb/>
+               <note rend="script" type="footnote"> 1 sedacimus <hi rend="italic">TDXR</hi> 2 minus in minore <hi rend="italic">001. M</hi> 4 quia <hi rend="italic">MAChBCR</hi>
+                  <lb/>
+            nobis est <hi rend="italic">R</hi> est <hi rend="italic">om. Tl</hi> a <hi rend="italic">om. M1</hi> 5 et sanctificatio <hi rend="italic">om. C</hi>
+                  <lb/>
+            7 langores <hi rend="italic">M</hi> ecclesiam suam <hi rend="italic">D</hi> 8 sanitatem languoribus <hi rend="italic">D</hi>
+                  <lb/>
             languoriae <hi rend="italic">B</hi> glorie <hi rend="italic">ACh</hi> 9 eius <hi rend="italic">om. D</hi> ulla erit <hi rend="italic">C</hi> aut] et <lb/>
-            <hi rend="italic">TAChBC</hi> 10 concupiscit <hi rend="italic">TMAChBC</hi> 11 concupiscit <hi rend="italic">A*</hi> 13 erit <lb/>
+                  <hi rend="italic">TAChBC</hi> 10 concupiscit <hi rend="italic">TMAChBC</hi> 11 concupiscit <hi rend="italic">A*</hi> 13 erit <lb/>
             nullus <hi rend="italic">D</hi> 14 caro ipsa <hi rend="italic">MAChDBXBd</hi> ait <hi rend="italic">C</hi> 15 xpm] spm <hi rend="italic">R <lb/>
-            16 eum DIX</hi> mala DIX <hi rend="italic">concupiscentia Dl quoniam] quam DCXltd</hi> <lb/>
-            17 tenet sanatam <hi rend="italic">A Ch</hi> sanam <hi rend="italic">DX</hi> 18 naturam fouetque <hi rend="italic">Cbd</hi> <lb/>
-            19 habuit <hi rend="italic">DCXd</hi> etiam] et <hi rend="italic">DX</hi> etiam agit cum ecclesia Christus <hi rend="italic">Cd</hi> <lb/>
-            \' ait <hi rend="italic">M</hi> 21 corruptionibus <hi rend="italic">M</hi> C9lTipit (.If. <hi rend="italic">d. m</hi>. 2 reprimit) <hi rend="italic">T</hi> <lb/>
+            16 eum DIX</hi> mala DIX <hi rend="italic">concupiscentia Dl quoniam] quam DCXltd</hi>
+                  <lb/>
+            17 tenet sanatam <hi rend="italic">A Ch</hi> sanam <hi rend="italic">DX</hi> 18 naturam fouetque <hi rend="italic">Cbd</hi>
+                  <lb/>
+            19 habuit <hi rend="italic">DCXd</hi> etiam] et <hi rend="italic">DX</hi> etiam agit cum ecclesia Christus <hi rend="italic">Cd</hi>
+                  <lb/>
+            \' ait <hi rend="italic">M</hi> 21 corruptionibus <hi rend="italic">M</hi> C9lTipit (.If. <hi rend="italic">d. m</hi>. 2 reprimit) <hi rend="italic">T</hi>
+                  <lb/>
             dissileat <hi rend="italic">TB</hi> dissoleat <hi rend="italic">MAChDlCX</hi> desiliat <hi rend="italic">R</hi> 22 infirmitate grauata <lb/>
-            <hi rend="italic">DX</hi> subcumbat <hi rend="italic">C</hi> 23 diiudicaremus <hi rend="italic">MDX</hi> </note> <lb/>
-             
-<pb n="175"/>
+                  <hi rend="italic">DX</hi> subcumbat <hi rend="italic">C</hi> 23 diiudicaremus <hi rend="italic">MDX</hi>
+               </note>
+               <lb/>
+               <pb n="175"/>
             non iudicaremur; cum iudicamur autem, a domino <lb/>
             corripimur, ne cum hoc mundo damnemur, et illud in <lb/>
             psalmo: secundum multitudinem dolorum meorum in <lb/>
@@ -1585,11 +1688,10 @@
             perfecta sanitas, quando erit ecclesiae Christi sine <lb/>
             ullo timore certa securitas. 
 </p>
-          
-</div>
-
-<div n="26" subtype="section" type="textpart">
-<p><milestone n="12" unit="altchapter"/> Haec aduersus Manichaeos fallaciter continentes <lb/>
+         </div>
+         <div n="26" type="section">
+            <p>
+               <milestone n="12" unit="altchapter"/> Haec aduersus Manichaeos fallaciter continentes <lb/>
             pro ueraci continentia disputare suffecerit, ne continentiae <lb/>
             fructuosus et gloriosus labor partem infirmam nostram, id <lb n="10"/>
             est corpus, quando ab inmoderatis uel inlicitis uoluptatibus <lb/>
@@ -1609,19 +1711,23 @@
             patitur, habet eam uirtutem, quae similiter dei munus
 
 <note type="footnote"> 3 Ps. 93, 19 </note>
-
-<note type="footnote"> 1 a domino non iudicaremur <hi rend="italic">TMAChB;</hi> non a domino iudicaremur <hi rend="italic">R</hi> <lb/>
+               <note type="footnote"> 1 a domino non iudicaremur <hi rend="italic">TMAChB;</hi> non a domino iudicaremur <hi rend="italic">R</hi>
+                  <lb/>
             non utique iudicaremur (-mus <hi rend="italic">C) DCX</hi> 2 dampnemur <hi rend="italic">A</hi> 4 iocundauerunt <lb/>
-            <hi rend="italic">M2DXR</hi> ludiflcauerunt <hi rend="italic">C</hi> iudificauerunt <hi rend="italic">TMl</hi> 5 est ergo <lb/>
-            speranda <hi rend="italic">BR</hi> est speranda <hi rend="italic">T est orn. MA1</hi> 9 disputasse <hi rend="italic">MDCXRd</hi> <lb/>
-            sufflcerit <hi rend="italic">MAB</hi> nec <hi rend="italic">T</hi> 10 infimam <hi rend="italic">hzBRd</hi> 11 uelj et <hi rend="italic">Mbd</hi> <lb/>
+                  <hi rend="italic">M2DXR</hi> ludiflcauerunt <hi rend="italic">C</hi> iudificauerunt <hi rend="italic">TMl</hi> 5 est ergo <lb/>
+            speranda <hi rend="italic">BR</hi> est speranda <hi rend="italic">T est orn. MA1</hi> 9 disputasse <hi rend="italic">MDCXRd</hi>
+                  <lb/>
+            sufflcerit <hi rend="italic">MAB</hi> nec <hi rend="italic">T</hi> 10 infimam <hi rend="italic">hzBRd</hi> 11 uelj et <hi rend="italic">Mbd</hi>
+                  <lb/>
             13 animi <hi rend="italic">Т\'lDRBà</hi> quidem est <hi rend="italic">R</hi> 14 a <hi rend="italic">om. C</hi> 15 constat ex <lb/>
             animo <hi rend="italic">R</hi> 17 saluator ipse <hi rend="italic">MDBCXRd</hi> 18 nobis etiam <hi rend="italic">R</hi> 19 prodest <lb/>
             eis <hi rend="italic">DXR</hi> 20 fieri potest <hi rend="italic">MAChBR</hi> fieri mundum potest <lb/>
-            <hi rend="italic">XD</hi> 23 autem <hi rend="italic">om. C</hi> 24 qui <hi rend="italic">om. Al</hi> 25 eam] etiam <hi rend="italic">X</hi> <lb/>
-            munus dei <hi rend="italic">R</hi> </note> <lb n="25"/>
-             
-<pb n="176"/>
+                  <hi rend="italic">XD</hi> 23 autem <hi rend="italic">om. C</hi> 24 qui <hi rend="italic">om. Al</hi> 25 eam] etiam <hi rend="italic">X</hi>
+                  <lb/>
+            munus dei <hi rend="italic">R</hi>
+               </note>
+               <lb n="25"/>
+               <pb n="176"/>
             est et patientia nuncupatur — multi enim tolerant multa <lb/>
             tormenta, ne in suis criminibus prodant aut male sibi conscios <lb/>
             aut se ipsos; multi pro explendis ardentissimis libidinibus <lb/>
@@ -1650,23 +1756,22 @@
             est.
 
 <note type="footnote"> 24 Rom. 14, 23 </note>
-
-<note type="footnote"> 2 male <hi rend="italic">om. Tl</hi> 4 uel non relinquendis <hi rend="italic">om. T</hi> 5 praue <hi rend="italic">Chl</hi> <lb/>
+               <note type="footnote"> 2 male <hi rend="italic">om. Tl</hi> 4 uel non relinquendis <hi rend="italic">om. T</hi> 5 praue <hi rend="italic">Chl</hi>
+                  <lb/>
             7 ueram dicamus <hi rend="italic">MADChBCXMbd</hi> 8 continet istam <hi rend="italic">T</hi> etiam <lb/>
             ipsas <hi rend="italic">DX</hi> 10 deserimus <hi rend="italic">M</hi> discernimus <hi rend="italic">C</hi> credendus <hi rend="italic">DX</hi> quidam <lb/>
             (i <hi rend="italic">ex</hi> a m. <hi rend="italic">1) M</hi> 11 continentiam <hi rend="italic">TlC</hi> se continent <hi rend="italic">Cd</hi> 12 mulier <lb/>
-            se <hi rend="italic">R</hi> 13 ueluti <hi rend="italic">C</hi> uelud <hi rend="italic">Ch</hi> 14 coniunx <hi rend="italic">lJIDCXR</hi> 16 et uana <hi rend="italic">DXd</hi> <lb/>
+            se <hi rend="italic">R</hi> 13 ueluti <hi rend="italic">C</hi> uelud <hi rend="italic">Ch</hi> 14 coniunx <hi rend="italic">lJIDCXR</hi> 16 et uana <hi rend="italic">DXd</hi>
+                  <lb/>
             17 heretici <hi rend="italic">MDCh</hi> 19 et <hi rend="italic">om. DlX</hi> 21 munus] unius <hi rend="italic">C</hi> 22 dicturi] <lb/>
             ...mus (su <hi rend="italic">er.; 8. l. add. m</hi>. 2 asseri) <hi rend="italic">Ch</hi> peccatum esse dicturi sumus <lb/>
-            <hi rend="italic">DX</hi> 23 nostris cordibus <hi rend="italic">MADChBCXRd</hi> 24 ait 8. <hi rend="italic">I. B</hi> </note> 
-<pb n="177"/>
-            
-</p>
-          
-</div>
-
-<div n="27" subtype="section" type="textpart">
-<p>Sunt etiam, qui aperte malignis seruiendo daemonibus <lb/>
+                  <hi rend="italic">DX</hi> 23 nostris cordibus <hi rend="italic">MADChBCXRd</hi> 24 ait 8. <hi rend="italic">I. B</hi>
+               </note>
+               <pb n="177"/>
+            </p>
+         </div>
+         <div n="27" type="section">
+            <p>Sunt etiam, qui aperte malignis seruiendo daemonibus <lb/>
             a corporis uoluptatibus continent, ut per eos expleant nefarias <lb/>
             uoluptates, quarum inpetum ardoremque non continent. unde <lb/>
             ut aliquid dicam et cetera propter sermonis longitudinem <lb/>
@@ -1690,31 +1795,30 @@
             et uult perficere bonum, sicut deus utitur etiam hominibus <lb/>
             malis propter eos, quos perficit bonos. 
 </p>
-          
-</div>
-
-<div n="28" subtype="section" type="textpart">
-<p><milestone n="13" unit="altchapter"/> Absit ergo, ut continentiam, de qua scriptura <lb/>
+         </div>
+         <div n="28" type="section">
+            <p>
+               <milestone n="13" unit="altchapter"/> Absit ergo, ut continentiam, de qua scriptura <lb/>
             dicit: et hoc ipsum erat sapientiae scire, cuius esset <lb n="25"/>
             hoc donum, etiam eos habere dicamus,.qui continendo uel
 
 <note type="footnote"> 14 cf. I Cor. 7, 6 25 Sap. 8, 21 </note>
-
-<note type="footnote"> 1 seruientes <hi rend="italic">D</hi> demonibus <hi rend="italic">MX</hi> 5 non attingunt etiam <hi rend="italic">MAD <lb/>
+               <note type="footnote"> 1 seruientes <hi rend="italic">D</hi> demonibus <hi rend="italic">MX</hi> 5 non attingunt etiam <hi rend="italic">MAD <lb/>
             ChBCXRd</hi> 6 maicas <hi rend="italic">T</hi> 9 ab <hi rend="italic">s. I. T</hi> adultero <hi rend="italic">TMChR</hi> 10 a <lb/>
-            <hi rend="italic">om. C</hi> con iugii <hi rend="italic">C</hi> contineri <hi rend="italic">X</hi> 11 carnis <hi rend="italic">om. T</hi> 12 actenus <lb/>
-            <hi rend="italic">TMt.AOhB</hi> in <hi rend="italic">om. T</hi> 13 coniugi <hi rend="italic">T</hi> diffluat <hi rend="italic">A2C</hi> defluatur <hi rend="italic">R</hi> <lb/>
-            sed custodiatur <hi rend="italic">om. MADlChCX</hi> 14 infirmjtati <hi rend="italic">(8. I. add</hi>. ae) <hi rend="italic">T</hi> <lb/>
+                  <hi rend="italic">om. C</hi> con iugii <hi rend="italic">C</hi> contineri <hi rend="italic">X</hi> 11 carnis <hi rend="italic">om. T</hi> 12 actenus <lb/>
+                  <hi rend="italic">TMt.AOhB</hi> in <hi rend="italic">om. T</hi> 13 coniugi <hi rend="italic">T</hi> diffluat <hi rend="italic">A2C</hi> defluatur <hi rend="italic">R</hi>
+                  <lb/>
+            sed custodiatur <hi rend="italic">om. MADlChCX</hi> 14 infirmjtati <hi rend="italic">(8. I. add</hi>. ae) <hi rend="italic">T</hi>
+                  <lb/>
             15 praecepit <hi rend="italic">MAChCX</hi> 17 quodam <hi rend="italic">X</hi> 19 quod amodo <hi rend="italic">Ch</hi> cupiscentiam <lb/>
-            <hi rend="italic">01</hi> 20 inmoderatum <hi rend="italic">Tl</hi> 21 diffinitionibus <hi rend="italic">T</hi> ordians <hi rend="italic">T</hi> <lb/>
+                  <hi rend="italic">01</hi> 20 inmoderatum <hi rend="italic">Tl</hi> 21 diffinitionibus <hi rend="italic">T</hi> ordians <hi rend="italic">T</hi>
+                  <lb/>
             fecit <hi rend="italic">XCh</hi> 22 etiam] et <hi rend="italic">C</hi> 28 per <hi rend="italic">ChJ</hi> eos <hi rend="italic">om. Ch</hi> 25 hoc <lb/>
             donum esset R </note>
-
-<note type="footnote"> XXXXI Aog. Sect. V pars III. </note>
-
-<note type="footnote"> 12 </note> <lb/>
-             
-<pb n="178"/>
+               <note type="footnote"> XXXXI Aog. Sect. V pars III. </note>
+               <note type="footnote"> 12 </note>
+               <lb/>
+               <pb n="178"/>
             erroribus seruiunt uel aliquas minores cupiditates ideo uincunt, <lb/>
             ut alias expleant, quarum granditate uincuntur. ea uero, <lb/>
             quae uera est desuper ueniens continentia, non aliis malis <lb/>
@@ -1743,23 +1847,23 @@
             hi filii sunt dei.
 
 <note type="footnote"> 14 cf. Gal. 5, 19-21 23 Phil. 2, 18 25 Rom. 8, 14 </note>
-
-<note type="footnote"> S ueniens <hi rend="italic">otn. C</hi> aliis] aliquis <hi rend="italic">T</hi> 4 praemere <hi rend="italic">M</hi> prebere <hi rend="italic">B</hi> <lb/>
+               <note type="footnote"> S ueniens <hi rend="italic">otn. C</hi> aliis] aliquis <hi rend="italic">T</hi> 4 praemere <hi rend="italic">M</hi> prebere <hi rend="italic">B</hi>
+                  <lb/>
             sanare mala <hi rend="italic">DX</hi> 6 aduersatur <hi rend="italic">T</hi> 7 coercendis <hi rend="italic">AChBCRd</hi> 9 diffiniunt <lb/>
-            <hi rend="italic">DCX</hi> 10 non <hi rend="italic">om. Dl</hi> corpori <hi rend="italic">R</hi> 12 aeram et] <lb/>
+                  <hi rend="italic">DCX</hi> 10 non <hi rend="italic">om. Dl</hi> corpori <hi rend="italic">R</hi> 12 aeram et] <lb/>
             sed etiam <hi rend="italic">DX</hi> 13 cupiditas corporis <hi rend="italic">MADChBXRd</hi> corporis <lb/>
-            <hi rend="italic">Ont. C</hi> 16 in <hi rend="italic">om. Tl</hi> tamen carnis <hi rend="italic">R</hi> .17 omnia baec <hi rend="italic">DX</hi> <lb/>
+                  <hi rend="italic">Ont. C</hi> 16 in <hi rend="italic">om. Tl</hi> tamen carnis <hi rend="italic">R</hi> .17 omnia baec <hi rend="italic">DX</hi>
+                  <lb/>
             18 propriae <hi rend="italic">MB</hi> pertinent <hi rend="italic">DCX</hi> 20 hoc <hi rend="italic">O</hi> 22 hoc <hi rend="italic">C</hi> dei dicenda <lb/>
-            sunt opera <hi rend="italic">DX</hi> 23 opera dei <hi rend="italic">MAChBK T3d</hi> est <hi rend="italic">om. C</hi> 24 nobis <hi rend="italic">R</hi> <lb/>
-            26 hii <hi rend="italic">BC</hi> </note> 
-<pb n="179"/>
-            
-</p>
-          
-</div>
-
-<div n="29" subtype="section" type="textpart">
-<p>Spiritus itaque hominis adhaerens spiritui dei concupiscit <lb/>
+            sunt opera <hi rend="italic">DX</hi> 23 opera dei <hi rend="italic">MAChBK T3d</hi> est <hi rend="italic">om. C</hi> 24 nobis <hi rend="italic">R</hi>
+                  <lb/>
+            26 hii <hi rend="italic">BC</hi>
+               </note>
+               <pb n="179"/>
+            </p>
+         </div>
+         <div n="29" type="section">
+            <p>Spiritus itaque hominis adhaerens spiritui dei concupiscit <lb/>
             aduersus carnem, id est aduersus se ipsum, sed pro se <lb/>
             ipso, ut motus illi siue in carne siue in anima secundum <lb/>
             hominem, non secundum deum, qui sunt adhuc per adquisitum <lb/>
@@ -1786,19 +1890,22 @@
             in me Christus. quorum ergo uita erat abscondita in deo,
 
 <note type="footnote">7 Gal. 2, 20 10 Rom. 7, 17 12 Col. 3, 1-4 24 Gal. 2, 20 </note>
-
-<note type="footnote">3 came] corpore B 5 langorem <hi rend="italic">M</hi> 7 non <hi rend="italic">om. T</hi> 8 enim 8. <hi rend="italic">I. T</hi> <lb/>
-            9 eiurgit <hi rend="italic">DChXB</hi> 10 ctiam] enim <hi rend="italic">T</hi> 13 <hi rend="italic">surrexistis A</hi> sunt <hi rend="italic">om. T</hi> <lb/>
+               <note type="footnote">3 came] corpore B 5 langorem <hi rend="italic">M</hi> 7 non <hi rend="italic">om. T</hi> 8 enim 8. <hi rend="italic">I. T</hi>
+                  <lb/>
+            9 eiurgit <hi rend="italic">DChXB</hi> 10 ctiam] enim <hi rend="italic">T</hi> 13 <hi rend="italic">surrexistis A</hi> sunt <hi rend="italic">om. T</hi>
+                  <lb/>
             sunt-sursum <hi rend="italic">om. A</hi> 14 quaerite-sunt <hi rend="italic">om. Ch</hi> 16 uestra et cetera <lb/>
-            usque (et cetera usque <hi rend="italic">s. I.) A, Ch</hi> abscondita-uestra <hi rend="italic">om. ACh</hi> <lb/>
+            usque (et cetera usque <hi rend="italic">s. I.) A, Ch</hi> abscondita-uestra <hi rend="italic">om. ACh</hi>
+                  <lb/>
             18 apparebitis cum illo <hi rend="italic">DChCd</hi> 19 loquatur <hi rend="italic">ex</hi> loquebatur <hi rend="italic">T</hi> audimus <lb/>
-            <hi rend="italic">T</hi> 20 hoc <hi rend="italic">om. T1</hi> planius] apertius <hi rend="italic">DX</hi> apertius] <lb/>
+                  <hi rend="italic">T</hi> 20 hoc <hi rend="italic">om. T1</hi> planius] apertius <hi rend="italic">DX</hi> apertius] <lb/>
             planius <hi rend="italic">DX</hi> 21 consurrexerant <hi rend="italic">Dd</hi> cum <hi rend="italic">om. TAChB</hi> christo <lb/>
-            <hi rend="italic">om. ACh</hi> 22 et <hi rend="italic">om. MADChCXd</hi> mortuus Chx 23 abscondita. <lb/>
-            est inquit B 24 non <hi rend="italic">om. T</hi> 25 erit <hi rend="italic">ACM2</hi> <lb/>
-            12* </note> <lb n="25"/>
-             
-<pb n="180"/>
+                  <hi rend="italic">om. ACh</hi> 22 et <hi rend="italic">om. MADChCXd</hi> mortuus Chx 23 abscondita. <lb/>
+            est inquit B 24 non <hi rend="italic">om. T</hi> 25 erit <hi rend="italic">ACM2</hi>
+                  <lb/>
+            12* </note>
+               <lb n="25"/>
+               <pb n="180"/>
             admonentur et exhortantur, ut membra sua mortificent, quae <lb/>
             sunt super. terram. id enim sequitur: mortificate ergo <lb/>
             membra uestra, quae sunt super terram. et ne quisquam <lb/>
@@ -1827,22 +1934,22 @@
             est in dextera dei sedens; quae sursum sunt <lb/>
             sapite, non quae super terram. 
 </p>
-          
-</div>
-
-<div n="30" subtype="section" type="textpart">
-<p><milestone n="14" unit="altchapter"/> Cum autem mala illa commemorasset, adiunxit
+         </div>
+         <div n="30" type="section">
+            <p>
+               <milestone n="14" unit="altchapter"/> Cum autem mala illa commemorasset, adiunxit
 
 <note type="footnote"> 2 (5) Col. 3. 4. 5 25 Col. 3, 1. 2 </note>
-
-<note type="footnote"> 1 ammonentur <hi rend="italic">TMX</hi> exortantur <hi rend="italic">MACh</hi> 4 menbra <hi rend="italic">Ch</hi> 5 a <lb/>
-            <hi rend="italic">om. 22</hi> 6 inquid <hi rend="italic">Ch</hi> 7 ydolorum R 8 iam <hi rend="italic">mn. T</hi> 10 immoribus <hi rend="italic">M</hi> <lb/>
+               <note type="footnote"> 1 ammonentur <hi rend="italic">TMX</hi> exortantur <hi rend="italic">MACh</hi> 4 menbra <hi rend="italic">Ch</hi> 5 a <lb/>
+                  <hi rend="italic">om. 22</hi> 6 inquid <hi rend="italic">Ch</hi> 7 ydolorum R 8 iam <hi rend="italic">mn. T</hi> 10 immoribus <hi rend="italic">M</hi>
+                  <lb/>
             12 talibus (bus <hi rend="italic">add. 8. l. m. 2) M</hi> 14 sine] sine R mentis nostrae <lb/>
-            <hi rend="italic">DX</hi> 15 conuersione X sine R 17 exibentur <hi rend="italic">ChB</hi> 19 maiori DIX <lb/>
+                  <hi rend="italic">DX</hi> 15 conuersione X sine R 17 exibentur <hi rend="italic">ChB</hi> 19 maiori DIX <lb/>
             21 nec <hi rend="italic">Ch</hi> 22 ad] ob <hi rend="italic">MBd</hi> 24 ipse ilf1 hoc <hi rend="italic">Cd</hi> apostolum <lb/>
-            suom <hi rend="italic">Cd</hi> 25 praecepit <hi rend="italic">DX</hi> </note> <lb/>
-             
-<pb n="181"/>
+            suom <hi rend="italic">Cd</hi> 25 praecepit <hi rend="italic">DX</hi>
+               </note>
+               <lb/>
+               <pb n="181"/>
             atque ait: propter quae uenit ira dei in filios infidelitatis. <lb/>
             utique salubriter terruit, ne putarent fideles propter <lb/>
             solam fidem suam, etiamsi in his malis uiuerent, se posse <lb/>
@@ -1863,32 +1970,29 @@
             homines loquantur, qui sunt in foro. ipso locutionis modo in <lb/>
             psalmo canitur: omnis terra adoret te, id est: omnes <lb/>
             homines, qui sunt in terra. <lb n="20"/>
-            
-</p>
-          
-</div>
-
-<div n="31" subtype="section" type="textpart">
-<p>Nunc autem deponite, inquit, et uos uniuersa et <lb/>
+            </p>
+         </div>
+         <div n="31" type="section">
+            <p>Nunc autem deponite, inquit, et uos uniuersa et <lb/>
             commemorat plura eius modi mala. sed quid est, quod ei non <lb/>
             sufficit dicere: deponite uos uniuersa, sed addita coniunctione <lb/>
             dixit: et uos? nisi ne propterea se putarent haec
 
 <note type="footnote"> 1 Col. 3, 6 5 lac. 2, 14 9 Col. 3, 7 19 PB. 65, 4 <lb/>
             21 Col. 3, 8 </note>
-
-<note type="footnote"> 1 incredulitatia <hi rend="italic">R</hi> diffidentię <hi rend="italic">D</hi> 3 suam <hi rend="italic">om C</hi> posse se X <lb/>
+               <note type="footnote"> 1 incredulitatia <hi rend="italic">R</hi> diffidentię <hi rend="italic">D</hi> 3 suam <hi rend="italic">om C</hi> posse se X <lb/>
             4 iacobo contradicente et contra <hi rend="italic">DX</hi> 5 se quis dicat habere <hi rend="italic">T <lb/>
             6 fides poterit T poteat R 8 incredulitatis R dixit R</hi> 10 uinant] <lb/>
             essent <hi rend="italic">X om. MAChC</hi> uiuerent <hi rend="italic">d</hi> 11 uiuendo mortni C in <lb/>
             domino <hi rend="italic">DXX</hi> 14 uiuebant illa <hi rend="italic">R</hi> iam paulo ante <hi rend="italic">ACh</hi> 15 eorum <lb/>
-            <hi rend="italic">post</hi> habitabant <hi rend="italic">MADChBR</hi> ipsorum <hi rend="italic">Rd om. C</hi> 16 eo <hi rend="italic">T: om. cet. lib</hi>. <lb/>
-            quod <hi rend="italic">pr. om. T1</hi> 17 continetur significatur <hi rend="italic">C</hi> 18 ipso] quo <hi rend="italic">DX</hi> <lb/>
+                  <hi rend="italic">post</hi> habitabant <hi rend="italic">MADChBR</hi> ipsorum <hi rend="italic">Rd om. C</hi> 16 eo <hi rend="italic">T: om. cet. lib</hi>. <lb/>
+            quod <hi rend="italic">pr. om. T1</hi> 17 continetur significatur <hi rend="italic">C</hi> 18 ipso] quo <hi rend="italic">DX</hi>
+                  <lb/>
             modo locutionis <hi rend="italic">ACh</hi> 19 te deus <hi rend="italic">DC</hi> 21 et uos inquit <hi rend="italic">R</hi> inquit <lb/>
             apfc <hi rend="italic">D</hi> 22 eiusmodo <hi rend="italic">Ch</hi> non ei <hi rend="italic">MDChBXR</hi> 23 deponite uos <lb/>
-            uniuersa <hi rend="italic">om. T</hi>. </note> <lb/>
-             
-<pb n="182"/>
+            uniuersa <hi rend="italic">om. T</hi>. </note>
+               <lb/>
+               <pb n="182"/>
             mala -facere atque in eis uiuere inpune, quia fides eorum <lb/>
             liberaret eos ab ira, quae uenit in filios infidelitatis ista facientes <lb/>
             et in eis sine fide uiuentes. deponite, inquit, et uos illa <lb/>
@@ -1915,29 +2019,29 @@
             quam coeptum reliquisse conflictum et factum ex bono
 
 <note type="footnote"> 21 cf. Eom. 6, 13 22 cf. Matth. 12, 45. </note>
-
-<note type="footnote"> 1 impune in eis uiuere <hi rend="italic">Cd</hi> 2 infidelitatis <hi rend="italic">(in mg</hi>. t infelicitatis) <hi rend="italic">Ch</hi> <lb/>
+               <note type="footnote"> 1 impune in eis uiuere <hi rend="italic">Cd</hi> 2 infidelitatis <hi rend="italic">(in mg</hi>. t infelicitatis) <hi rend="italic">Ch</hi>
+                  <lb/>
             infelicitatis <hi rend="italic">M</hi> 3 eisJ his <hi rend="italic">MADChBCXKd</hi> fine <hi rend="italic">DX</hi> 4 infelicitatia <lb/>
-            <hi rend="italic">M</hi> 6 dicere <hi rend="italic">Ml</hi> eis deponite <hi rend="italic">DX</hi> eis <hi rend="italic">om. T</hi> quae <lb/>
-            <hi rend="italic">MDChX</hi> 7 ea <hi rend="italic">8. I. T</hi> 8 factu <hi rend="italic">B</hi> factd <hi rend="italic">ACh</hi> 9 uita sanctorum <hi rend="italic">er. <lb/>
+                  <hi rend="italic">M</hi> 6 dicere <hi rend="italic">Ml</hi> eis deponite <hi rend="italic">DX</hi> eis <hi rend="italic">om. T</hi> quae <lb/>
+                  <hi rend="italic">MDChX</hi> 7 ea <hi rend="italic">8. I. T</hi> 8 factu <hi rend="italic">B</hi> factd <hi rend="italic">ACh</hi> 9 uita sanctorum <hi rend="italic">er. <lb/>
             in M</hi> 11 haec] ct <hi rend="italic">in ras. D</hi> res agitur <hi rend="italic">om. D</hi> 14 sicque X <lb/>
             sic. <hi rend="italic">D</hi> 15 in eis <hi rend="italic">om. T</hi> 16 continua <hi rend="italic">T</hi> ne <hi rend="italic">om</hi>. Mi resurgent <lb/>
-            Al surgant <hi rend="italic">Ch</hi> ne surgant <hi rend="italic">A2</hi> 17 dispositione <hi rend="italic">C</hi> illico <hi rend="italic">Chd</hi> <lb/>
+            Al surgant <hi rend="italic">Ch</hi> ne surgant <hi rend="italic">A2</hi> 17 dispositione <hi rend="italic">C</hi> illico <hi rend="italic">Chd</hi>
+                  <lb/>
             18 montis A3 ipsam <hi rend="italic">MaChXRb</hi> 20 regnauit <hi rend="italic">MlB</hi> 21 exibebit <lb/>
-            <hi rend="italic">8. I. m. 2 T</hi> 22 hominis illius <hi rend="italic">D</hi> 23 est enim <hi rend="italic">MAChBCBd</hi> enim <lb/>
+                  <hi rend="italic">8. I. m. 2 T</hi> 22 hominis illius <hi rend="italic">D</hi> 23 est enim <hi rend="italic">MAChBCBd</hi> enim <lb/>
             est melius et <hi rend="italic">DX</hi> tollerabilius <hi rend="italic">B</hi> cepiase <hi rend="italic">Ch</hi> cepisse <hi rend="italic">DX</hi> 24 relinquisse <lb/>
-            <hi rend="italic">BMl</hi> </note> <lb/>
-             
-<pb n="183"/>
+                  <hi rend="italic">BMl</hi>
+               </note>
+               <lb/>
+               <pb n="183"/>
             proeliatore uel etiam ex uictore captiuum. unde dominus non ait: <lb/>
             qui coeperit, sed: qui perseuerauerit usque in finem, <lb/>
             hic saluus erit. 
 </p>
-          
-</div>
-
-<div n="32" subtype="section" type="textpart">
-<p>Siue autem ne uincamur acriter confligentes siue aliquotiens <lb/>
+         </div>
+         <div n="32" type="section">
+            <p>Siue autem ne uincamur acriter confligentes siue aliquotiens <lb/>
             uel etiam insperata uel inopinata facilitate uincentes <lb n="5"/>
             ei, qui nobis dat continentiam, demus gloriam. meminerimus <lb/>
             quendam iustum dixisse in abundantia sua: non mouebor <lb/>
@@ -1954,27 +2058,22 @@
             agitur, ut qui gloriatur, in domino glorietur.
 
 <note type="footnote"> 2 Matth. 10, 22 7 Ps. 29, 7 11 Ps. 29, 8 18 cf. I Cor. 1, 31 </note>
-
-<note rend="script" type="footnote"> 1 ex om. <hi rend="italic">C</hi> uictoreip <hi rend="italic">M</hi> 2 usque in finem in <hi rend="italic">mg. TC usque-uincamur <lb/>
+               <note rend="script" type="footnote"> 1 ex om. <hi rend="italic">C</hi> uictoreip <hi rend="italic">M</hi> 2 usque in finem in <hi rend="italic">mg. TC usque-uincamur <lb/>
             er. M</hi> 4 acricritcr <hi rend="italic">T</hi> aliquoties <hi rend="italic">ACd</hi> 5 sperata <hi rend="italic">Tl</hi> 6 meminerimusque <lb/>
-            <hi rend="italic">D</hi> 7 babundantia <hi rend="italic">TCR</hi> sua] mea <hi rend="italic">DChX</hi> moueri <hi rend="italic">T</hi> 12 autem <lb/>
-            <hi rend="italic">om. TDX</hi> tuam] a me <hi rend="italic">T</hi> tuam <hi rend="italic">a me D</hi> 13 paulolum <hi rend="italic">C</hi> paulum <hi rend="italic">Ml</hi> <lb/>
-            14 desereret ipse <hi rend="italic">MADChBCXBd</hi> 15 dominandis <hi rend="italic">T</hi> 17 quia] et <hi rend="italic">b</hi> <lb/>
+                  <hi rend="italic">D</hi> 7 babundantia <hi rend="italic">TCR</hi> sua] mea <hi rend="italic">DChX</hi> moueri <hi rend="italic">T</hi> 12 autem <lb/>
+                  <hi rend="italic">om. TDX</hi> tuam] a me <hi rend="italic">T</hi> tuam <hi rend="italic">a me D</hi> 13 paulolum <hi rend="italic">C</hi> paulum <hi rend="italic">Ml</hi>
+                  <lb/>
+            14 desereret ipse <hi rend="italic">MADChBCXBd</hi> 15 dominandis <hi rend="italic">T</hi> 17 quia] et <hi rend="italic">b</hi>
+                  <lb/>
             18 glorietur amen <hi rend="italic">X</hi> glorietur qui uiuit ot regnat amen <hi rend="italic">R</hi> Explicit <lb/>
             tractatus sci Augustini de continentia <hi rend="italic">folio ultimo T</hi> Explicit tractatus <lb/>
             beati Augustini de continentia <hi rend="italic">fol. 91* M, A</hi> Explicit liber sci Augustini <lb/>
             de continentia <hi rend="italic">fol. 124* D, fol. 124» X, fol. 1ST6, R</hi> Eiplicit tractatus <lb/>
-            beati (sci <hi rend="italic">C)</hi> Augustini de continentia <hi rend="italic">(quat. XXVII) Ch, B, fol. 103* C</hi>. </note> 
-<pb n="184"/>
-             
-<pb n="185"/>
-            
-</p>
-        
-
-</div>
-
-</div>
-</body>
-</text>
+            beati (sci <hi rend="italic">C)</hi> Augustini de continentia <hi rend="italic">(quat. XXVII) Ch, B, fol. 103* C</hi>. </note>
+               <pb n="184"/>
+               <pb n="185"/>
+            </p>
+         </div>
+      </body>
+   </text>
 </TEI>

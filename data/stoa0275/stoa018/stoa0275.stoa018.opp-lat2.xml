@@ -1,107 +1,114 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader xml:lang="eng">
-    <fileDesc>
-      <titleStmt>
-        <title xml:lang="lat">De Ieiunio Adversus Psychicos</title>
-        <author>Tertullian</author>
-        <editor>August Reifferscheid</editor>
-        <editor>Georg Wissowa</editor>
-        <sponsor>University of Leipzig</sponsor>
-        <funder>European Social Fund Saxony</funder>
-        <principal>Gregory Crane</principal>
-        <respStmt>
-          <persName xml:id="Jouve">Jouve</persName>
-          <resp>OCR-ed, corrected and encoded the text</resp>
-        </respStmt>
-        <respStmt>
-          <persName>Greta Franzini</persName>
-          <resp>Project Manager (University of Leipzig)</resp>
-        </respStmt>
-        <respStmt>
-          <persName>Simona Stoyanova</persName>
-          <resp>Project Assistant (University of Leipzig)</resp>
-        </respStmt>
-        <respStmt>
-          <persName>Bruce Robertson</persName>
-          <resp>Technical Advisor (Mount Allison University)</resp>
-        </respStmt>
-        <respStmt>
-          <persName>Uvius Fonticola</persName>
-          <resp>Technical Advisor (Ludwig Maximilians University Munich)</resp>
-        </respStmt>
-      </titleStmt>
-      
-      <publicationStmt>
-        <authority>University of Leipzig</authority>
-        <idno type="filename">stoa0275.stoa018.opp-lat2.xml</idno>
-        <availability>
-          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
-        </availability>
-        <date>2014</date>
-        <publisher>University of Leipzig</publisher>
-        <pubPlace>Germany</pubPlace>
-      </publicationStmt>
-      
-      <sourceDesc>
-        <listBibl>
-          <biblStruct>
-            <monogr>
-              <editor>
-                <persName>
-                  <name>August Reifferscheid</name>
-                </persName>
-              </editor> 
-              <editor>
-                <persName>
-                  <name>Georg Wissowa</name>
-                </persName>
-              </editor> 
-              <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0275">Tertullian</author>  
-              <title xml:lang="lat">Quinti Septimi Florentis Tertulliani opera</title>
-              <imprint>
-                <publisher>F. Tempsky</publisher>
-                <publisher>G. Freytag</publisher>
-                <pubPlace>Prague</pubPlace>
-                <pubPlace>Vienna</pubPlace>
-                <pubPlace>Leipzig</pubPlace>
-                <date>1890</date>
-              </imprint>
-              <biblScope unit="volume">1</biblScope>
-            </monogr>
-            <series>
-              <title>Corpus Scriptorum Ecclesiasticorum Latinorum</title>
-              <biblScope unit="volume">20</biblScope>
-            </series>
-            <ref target="https://archive.org/details/corpusscriptoru24wissgoog/page/n292/mode/2up">Internet Archive</ref>            
-          </biblStruct>
-        </listBibl>
-      </sourceDesc>
-      
-    </fileDesc>
-    <encodingDesc>
-      <p>The following text is encoded in accordance with EpiDoc standards and with the
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/PerseusDLCode/perseus-schemas/main/perseus_prose.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="eng">
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="lat">De Ieiunio Adversus Psychicos</title>
+            <author>Tertullian</author>
+            <editor>August Reifferscheid</editor>
+            <editor>Georg Wissowa</editor>
+            <sponsor>University of Leipzig</sponsor>
+            <funder>European Social Fund Saxony</funder>
+            <principal>Gregory Crane</principal>
+            <respStmt>
+               <persName xml:id="Jouve">Jouve</persName>
+               <resp>OCR-ed, corrected and encoded the text</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Greta Franzini</persName>
+               <resp>Project Manager (University of Leipzig)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Simona Stoyanova</persName>
+               <resp>Project Assistant (University of Leipzig)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Bruce Robertson</persName>
+               <resp>Technical Advisor (Mount Allison University)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Uvius Fonticola</persName>
+               <resp>Technical Advisor (Ludwig Maximilians University Munich)</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>University of Leipzig</authority>
+            <idno type="filename">stoa0275.stoa018.opp-lat2.xml</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
+            </availability>
+            <date>2014</date>
+            <publisher>University of Leipzig</publisher>
+            <pubPlace>Germany</pubPlace>
+            <idno type="CTS">urn:cts:latinLit:stoa0275.stoa018.opp-lat2</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <name>August Reifferscheid</name>
+                        </persName>
+                     </editor>
+                     <editor>
+                        <persName>
+                           <name>Georg Wissowa</name>
+                        </persName>
+                     </editor>
+                     <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0275">Tertullian</author>
+                     <title xml:lang="lat">Quinti Septimi Florentis Tertulliani opera</title>
+                     <imprint>
+                        <publisher>F. Tempsky</publisher>
+                        <publisher>G. Freytag</publisher>
+                        <pubPlace>Prague</pubPlace>
+                        <pubPlace>Vienna</pubPlace>
+                        <pubPlace>Leipzig</pubPlace>
+                        <date>1890</date>
+                     </imprint>
+                     <biblScope unit="volume">1</biblScope>
+                  </monogr>
+                  <series>
+                     <title>Corpus Scriptorum Ecclesiasticorum Latinorum</title>
+                     <biblScope unit="volume">20</biblScope>
+                  </series>
+                  <ref target="https://archive.org/details/corpusscriptoru24wissgoog/page/n292/mode/2up">Internet Archive</ref>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>The following text is encoded in accordance with EpiDoc standards and with the
         CTS/CITE Architecture. 
 </p>
-      <refsDecl n="CTS">
-        <cRefPattern n="chapter" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1'])"/>
-      </refsDecl>
-    </encodingDesc>
-    
-    <profileDesc>
-      <langUsage>
-        <language ident="lat">Latin</language>
-      </langUsage>
-    </profileDesc>
-    
-</teiHeader>
-<text>
-<body>
-<div type="edition" xml:lang="lat" n="urn:cts:latinLit:stoa0275.stoa018.opp-lat2">
-<head>
+         <refsDecl n="CTS">
+            <cRefPattern n="chapter"
+                         matchPattern="(.+)"
+                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1'])"/>
+         </refsDecl>
+         <refsDecl n="CTS">
+            <citeStructure match="/TEI/text/body" use="@xml:base">
+               <citeStructure unit="chapter" delim="." match="div[@type='chapter']" use="@n"/>
+            </citeStructure>
+         </refsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <catRef scheme="#perseus-genre" target="#prose-chapter"/>
+         </textClass>
+         <langUsage>
+            <language ident="lat">Latin</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body xml:base="urn:cts:latinLit:stoa0275.stoa018.opp-lat2">
+         <head>
             <title type="main">IX. DE IEIUNIO ADUERSUS PSVCHICOS. </title>
-          </head>
-         <div n="1" subtype="chapter" type="textpart"> 
-          <p>Mirarer psychicos istos, si sola luxuria tenerentur, qua <lb/>
+         </head>
+         <div n="1" type="chapter">
+            <p>Mirarer psychicos istos, si sola luxuria tenerentur, qua <lb/>
             saepius nubunt, si non etiam ingluuie lacerarentur, qua ieiunia <lb/>
             oderunt. monstrum scilicet haberetur libido sine gula, cum duo <lb n="5"/>
             haec tam unita atque concreta sint, ut si disiungi omnino potuissent, <lb/>
@@ -125,13 +132,16 @@
             fidei aut spei regulam euertant, sed quod plane doceant saepius <lb/>
             ieiunare quam nubere. de modo quidem nubendi iam edidimus
 
-<note type="footnote"> 2 de Ieiuiiio aduersus Psychicos <hi rend="italic">B,</hi> de ieiuniis aduersus psychicos <hi rend="italic">Pam,</hi> <lb/>
-            de ieiuniis <hi rend="italic">Rig</hi> 3 psychicos istos <hi rend="italic">C,</hi> psychicos <hi rend="italic">B</hi> tenderentur <hi rend="italic">Rig</hi> <lb/>
+<note type="footnote"> 2 de Ieiuiiio aduersus Psychicos <hi rend="italic">B,</hi> de ieiuniis aduersus psychicos <hi rend="italic">Pam,</hi>
+                  <lb/>
+            de ieiuniis <hi rend="italic">Rig</hi> 3 psychicos istos <hi rend="italic">C,</hi> psychicos <hi rend="italic">B</hi> tenderentur <hi rend="italic">Rig</hi>
+                  <lb/>
             4 si <hi rend="italic">add. Gel</hi> lacerarentur <hi rend="italic">B,</hi> ducerentur <hi rend="italic">Gel,</hi> laxarentur <hi rend="italic">Urs</hi> 11 in <lb/>
             studio <hi rend="italic">fort</hi>. qua tota <hi rend="italic">Gel:</hi> quam totam <hi rend="italic">B</hi> 14 perinde <hi rend="italic">scripsi:</hi> proinde <lb/>
-            <hi rend="italic">B</hi> induentem <hi rend="italic">Ilarrisius</hi> 17 et iam <hi rend="italic">C,</hi> iam <hi rend="italic">B</hi> </note> <lb n="25"/>
-             
-<pb n="275"/>
+                  <hi rend="italic">B</hi> induentem <hi rend="italic">Ilarrisius</hi> 17 et iam <hi rend="italic">C,</hi> iam <hi rend="italic">B</hi>
+               </note>
+               <lb n="25"/>
+               <pb n="275"/>
             monogamiae defensionem. nunc de castigatione uictus secunda <lb/>
             uel magis prima continentiae pugna est. arguunt nos, quod <lb/>
             ieiunia propria custodiamus, quod stationes plerumque in uesperam <lb/>
@@ -144,11 +154,9 @@
             pronuntiandam, si spiritalis indictio est, dum quaque ex parte <lb n="10"/>
             anathema audiamus, qui aliter adnuntiamus. 
 </p>
-          
-</div>
-
-<div n="2" subtype="chapter" type="textpart">
-<p>Nam quod ad ieiunia pertineat, certos dies a deo constitutos <lb/>
+         </div>
+         <div n="2" type="chapter">
+            <p>Nam quod ad ieiunia pertineat, certos dies a deo constitutos <lb/>
             opponunt, ut cum in Leuitico praecipit dominus Moysi <lb/>
             decimam mensis septimi diem placationis, sancta, inquiens, <lb/>
             erit uobis dies, et uexabitis animas uestras, et omnis <lb n="15"/>
@@ -171,15 +179,16 @@
 
 <note type="footnote"> 14] Leu. 16,29 sqq. 23,27. 21] Luc. 16,16. Matth. 11,13. 29] cf. <lb/>
             Act. 3, 1. </note>
-
-<note type="footnote"> 1 secunda <hi rend="italic">Urs:</hi> secundae <hi rend="italic">B</hi> 2 prima <hi rend="italic">Urs:</hi> primae <hi rend="italic">B</hi> 6 ne <hi rend="italic">Lat</hi> <lb/>
-            8 haeresim <hi rend="italic">B</hi> 10 quaqua <hi rend="italic">C</hi> 13 Mosi <hi rend="italic">Gel</hi> 22 differenter <hi rend="italic">Rig</hi> <lb/>
+               <note type="footnote"> 1 secunda <hi rend="italic">Urs:</hi> secundae <hi rend="italic">B</hi> 2 prima <hi rend="italic">Urs:</hi> primae <hi rend="italic">B</hi> 6 ne <hi rend="italic">Lat</hi>
+                  <lb/>
+            8 haeresim <hi rend="italic">B</hi> 10 quaqua <hi rend="italic">C</hi> 13 Mosi <hi rend="italic">Gel</hi> 22 differenter <hi rend="italic">Rig</hi>
+                  <lb/>
             27 passiue <hi rend="italic">Gel:</hi> passim <hi rend="italic">B</hi> currant <hi rend="italic">Gel:</hi> currunt <hi rend="italic">B</hi> 28 supremam diei <lb/>
-            <hi rend="italic">Gel:</hi> suprema iudici <hi rend="italic">B</hi> 30 affectati <hi rend="italic">Gel:</hi> adfecti <hi rend="italic">B</hi> </note>
-
-<note type="footnote"> 18* </note> <lb/>
-             
-<pb n="276"/>
+                  <hi rend="italic">Gel:</hi> suprema iudici <hi rend="italic">B</hi> 30 affectati <hi rend="italic">Gel:</hi> adfecti <hi rend="italic">B</hi>
+               </note>
+               <note type="footnote"> 18* </note>
+               <lb/>
+               <pb n="276"/>
             Matrem certorum eduliorum exceptione purificant, cum fides <lb/>
             libera in Christo ne Iudaicae quidem legi abstinentiam quorundam <lb/>
             ciborum debeat, semel in totum macellum ab apostolo <lb/>
@@ -212,21 +221,22 @@
 
 <note type="footnote"> 3] cf. 1 Cor. 10, 25. 6] cf. 1 Tim. 4, 1 sq. 10] cf. Gal. 4, 10. <lb/>
             12] Es. 59, 4 sq. 15] cf. Marc. 7,15. 18] Matth. 11,19. 19] cf. 1 Cor. 8, 8. </note>
-
-<note type="footnote"> 4 detestatore <hi rend="italic">Gel:</hi> de testatore <hi rend="italic">B</hi> 9 credo <hi rend="italic">Gel:</hi> trado <hi rend="italic">B</hi> 15 uictum <lb/>
-            <hi rend="italic">Urs:</hi> uictus <hi rend="italic">B</hi> 16 communicari <hi rend="italic">C,</hi> coinquinari <hi rend="italic">B</hi> 22 superuacua <hi rend="italic">Gel:</hi> <lb/>
-            superuaouam <hi rend="italic">B</hi> necessaria <hi rend="italic">Gel:</hi> necessariam <hi rend="italic">B</hi> 23 sublati <hi rend="italic">Pam:</hi> dilati <hi rend="italic">B</hi> <lb/>
-            diminuti <hi rend="italic">Gel</hi> officia, praeponente <hi rend="italic">Gel:</hi> officinam praeponentes <hi rend="italic">B,</hi> <lb/>
-            officia, praepotente <hi rend="italic">Scal,</hi> officia praeponentes <hi rend="italic">hm</hi> 27 tanquam me <hi rend="italic">B,</hi> <lb/>
-            mihi <hi rend="italic">C</hi> </note> 
-<pb n="277"/>
-             
-</p>
-          
-</div>
-
-<div n="3" subtype="chapter" type="textpart">
-<p>Itaque nos hoc prius affirmare debemus quod occulte subrui <lb/>
+               <note type="footnote"> 4 detestatore <hi rend="italic">Gel:</hi> de testatore <hi rend="italic">B</hi> 9 credo <hi rend="italic">Gel:</hi> trado <hi rend="italic">B</hi> 15 uictum <lb/>
+                  <hi rend="italic">Urs:</hi> uictus <hi rend="italic">B</hi> 16 communicari <hi rend="italic">C,</hi> coinquinari <hi rend="italic">B</hi> 22 superuacua <hi rend="italic">Gel:</hi>
+                  <lb/>
+            superuaouam <hi rend="italic">B</hi> necessaria <hi rend="italic">Gel:</hi> necessariam <hi rend="italic">B</hi> 23 sublati <hi rend="italic">Pam:</hi> dilati <hi rend="italic">B</hi>
+                  <lb/>
+            diminuti <hi rend="italic">Gel</hi> officia, praeponente <hi rend="italic">Gel:</hi> officinam praeponentes <hi rend="italic">B,</hi>
+                  <lb/>
+            officia, praepotente <hi rend="italic">Scal,</hi> officia praeponentes <hi rend="italic">hm</hi> 27 tanquam me <hi rend="italic">B,</hi>
+                  <lb/>
+            mihi <hi rend="italic">C</hi>
+               </note>
+               <pb n="277"/>
+            </p>
+         </div>
+         <div n="3" type="chapter">
+            <p>Itaque nos hoc prius affirmare debemus quod occulte subrui <lb/>
             periclitatur, quantum ualeat apud deum inanitas ista, et ante <lb/>
             omnia, unde ratio ipsa processerit hoc modo promerendi deum. <lb/>
             tunc enim agnoscetur obseruationis necessitas, cum eluxerit <lb/>
@@ -259,21 +269,20 @@
             offenderat id est per cibi interdictionem, atque ita salutem
 
 <note type="footnote"> 24] cf. Ps. 50, 18. </note>
-
-<note type="footnote"> -1 firmare <hi rend="italic">Seal</hi> 8 ecstasim <hi rend="italic">B</hi> 12 periit <hi rend="italic">Gel:</hi> perit <hi rend="italic">B</hi> 18 intelligenda <lb/>
-            <hi rend="italic">Gel:</hi> intelligendae <hi rend="italic">B</hi> 19 ultro <hi rend="italic">Gel:</hi> ultio <hi rend="italic">B,</hi> ut ultro <hi rend="italic">Hartelius</hi> <lb/>
+               <note type="footnote"> -1 firmare <hi rend="italic">Seal</hi> 8 ecstasim <hi rend="italic">B</hi> 12 periit <hi rend="italic">Gel:</hi> perit <hi rend="italic">B</hi> 18 intelligenda <lb/>
+                  <hi rend="italic">Gel:</hi> intelligendae <hi rend="italic">B</hi> 19 ultro <hi rend="italic">Gel:</hi> ultio <hi rend="italic">B,</hi> ut ultro <hi rend="italic">Hartelius</hi>
+                  <lb/>
             22 me <hi rend="italic">add. Gel</hi> 26 concassatam <hi rend="italic">B</hi> • cibi <hi rend="italic">Gel:</hi> sibi <hi rend="italic">B</hi> 27 uictum <lb/>
-            <hi rend="italic">Urs:</hi> uictus <hi rend="italic">B</hi></note> <lb/>
-             
-<pb n="278"/>
+                  <hi rend="italic">Urs:</hi> uictus <hi rend="italic">B</hi>
+               </note>
+               <lb/>
+               <pb n="278"/>
             aemulo modo redaccenderet inedia, sicut extinxerat sagina, pro <lb/>
             unico inlicito plura licita contemnens? 
 </p>
-          
-</div>
-
-<div n="4" subtype="chapter" type="textpart">
-<p>Haec ratio seruabatur apud prouidentiam dei pro temporibus <lb/>
+         </div>
+         <div n="4" type="chapter">
+            <p>Haec ratio seruabatur apud prouidentiam dei pro temporibus <lb/>
             omnia modulantis, ne quis ex diuerso ad deiciendam <lb/>
             propositionem nostram, cur ergo, dicat, non statim deus aliquam <lb n="5"/>
             uictus constituit castigationem, quin immo et auxit permissionem? <lb/>
@@ -304,20 +313,19 @@
             cum indulgentiam praemisisset, quo magis, ut diximus,
 
 <note type="footnote">8] Geu. 1, 29. 14] Gen. 9, 2. 26] cf. Gen. 9, 5. </note>
-
-<note type="footnote"> 2 unico <hi rend="italic">Gel:</hi> uno <hi rend="italic">B</hi> 4 modulantis <hi rend="italic">C,</hi> moderantis <hi rend="italic">B</hi> 8 arboreum <lb/>
-            <hi rend="italic">Gel:</hi> arborum <hi rend="italic">B</hi> 9 sementiuum <hi rend="italic">Gel:</hi> sementinum <hi rend="italic">B;</hi> sic <hi rend="italic">et postea</hi> <lb/>
-            14 serpentis <hi rend="italic">B,</hi> uiuentis <hi rend="italic">C</hi> 17 esui <hi rend="italic">C, om. B</hi> 23 aeque <hi rend="italic">Pam: atque B</hi> </note> <lb/>
-             
-<pb n="279"/>
+               <note type="footnote"> 2 unico <hi rend="italic">Gel:</hi> uno <hi rend="italic">B</hi> 4 modulantis <hi rend="italic">C,</hi> moderantis <hi rend="italic">B</hi> 8 arboreum <lb/>
+                  <hi rend="italic">Gel:</hi> arborum <hi rend="italic">B</hi> 9 sementiuum <hi rend="italic">Gel:</hi> sementinum <hi rend="italic">B;</hi> sic <hi rend="italic">et postea</hi>
+                  <lb/>
+            14 serpentis <hi rend="italic">B,</hi> uiuentis <hi rend="italic">C</hi> 17 esui <hi rend="italic">C, om. B</hi> 23 aeque <hi rend="italic">Pam: atque B</hi>
+               </note>
+               <lb/>
+               <pb n="279"/>
             primordiale delictum expiaretur maioris abstinentiae operatione in <lb/>
             maioris licentiae occasione. 
 </p>
-          
-</div>
-
-<div n="5" subtype="chapter" type="textpart">
-<p>Denique ubi iam et familiaris populus allegi deo coepit <lb/>
+         </div>
+         <div n="5" type="chapter">
+            <p>Denique ubi iam et familiaris populus allegi deo coepit <lb/>
             et restitutio hominis imbui potuit, tunc leges disciplinaeque <lb/>
             omnes impositae, etiam quae decerperent uictum, ademptis <lb n="5"/>
             quibusdam ueluti immundis, quo facilius aliquando ieiunia toleraret <lb/>
@@ -343,22 +351,22 @@
             caelum fragrare malebant. et ideo tam ingratis gratiora et <lb/>
             esculentiora quaeque detracta sunt, puniendae simul gulae et <lb/>
             exercendae continentiae causa, ut illa damnaretur, ista erudiretur. <lb/>
-            <note type="footnote"> 14] Ex. 16, 2 sq. 20] Num. 11, 4 sqq. </note>
-
-<note type="footnote"> 8 resculpserat <hi rend="italic">Gel:</hi> sculpserat <hi rend="italic">B</hi> 10 dominis <hi rend="italic">lim</hi> dominus eius <lb/>
-            uisus est <hi rend="italic">del. Scal</hi> 11 est] et <hi rend="italic">Urs</hi> mananti <hi rend="italic">Gel:</hi> manantis <hi rend="italic">B</hi> <lb/>
-            12 incopiosae <hi rend="italic">Gel:</hi> in copiose <hi rend="italic">B</hi> 13 detrimenta <hi rend="italic">C,</hi> detrimento <hi rend="italic">B</hi> <lb/>
+               <note type="footnote"> 14] Ex. 16, 2 sq. 20] Num. 11, 4 sqq. </note>
+               <note type="footnote"> 8 resculpserat <hi rend="italic">Gel:</hi> sculpserat <hi rend="italic">B</hi> 10 dominis <hi rend="italic">lim</hi> dominus eius <lb/>
+            uisus est <hi rend="italic">del. Scal</hi> 11 est] et <hi rend="italic">Urs</hi> mananti <hi rend="italic">Gel:</hi> manantis <hi rend="italic">B</hi>
+                  <lb/>
+            12 incopiosae <hi rend="italic">Gel:</hi> in copiose <hi rend="italic">B</hi> 13 detrimenta <hi rend="italic">C,</hi> detrimento <hi rend="italic">B</hi>
+                  <lb/>
             16 quoniam <hi rend="italic">C</hi> 17 interficiendam <hi rend="italic">Gel:</hi> interficiendum <hi rend="italic">B</hi> 21 uescet <lb/>
-            <hi rend="italic">Gel:</hi> uescetur <hi rend="italic">B,</hi> pascet <hi rend="italic">lun</hi> mentem <hi rend="italic">Gel:</hi> mente <hi rend="italic">B</hi> 25 panis <hi rend="italic">Urs:</hi> <lb/>
-            panes <hi rend="italic">B</hi> 26 fragrare <hi rend="italic">Bmg, Gel,</hi> flagrare <hi rend="italic">B</hi> </note> 
-<pb n="280"/>
-             
-</p>
-          
-</div>
-
-<div n="6" subtype="chapter" type="textpart">
-<p>Nunc si temere rationes castigati a deo uictus et castigandi <lb/>
+                  <hi rend="italic">Gel:</hi> uescetur <hi rend="italic">B,</hi> pascet <hi rend="italic">lun</hi> mentem <hi rend="italic">Gel:</hi> mente <hi rend="italic">B</hi> 25 panis <hi rend="italic">Urs:</hi>
+                  <lb/>
+            panes <hi rend="italic">B</hi> 26 fragrare <hi rend="italic">Bmg, Gel,</hi> flagrare <hi rend="italic">B</hi>
+               </note>
+               <pb n="280"/>
+            </p>
+         </div>
+         <div n="6" type="chapter">
+            <p>Nunc si temere rationes castigati a deo uictus et castigandi <lb/>
             propter deum a nobis ad primordiorum experimenta reuocauimus, <lb/>
             conscientiam communem consulamus. ipsa natura <lb/>
             enuntiabit, quales nos ante pabulum et potum in uirgine adhuc <lb/>
@@ -391,13 +399,15 @@
             erectum potius inueniebatur quam impinguatum, qui
 
 <note type="footnote">11] Ex. 32, 6. 19] Deut. 32,15. 23] ibid. 8,12 sqq. </note>
-
-<note type="footnote"> 1 castigati a <hi rend="italic">Gel:</hi> castiganda <hi rend="italic">B</hi> 4 enuntiabit <hi rend="italic">Gel:</hi> nuntiabit <hi rend="italic">B</hi> <lb/>
-            5 sensus <hi rend="italic">Pam</hi> 6 sic-sic <hi rend="italic">fort</hi>. 8 decoquendis <hi rend="italic">Gel:</hi> de coquendis <hi rend="italic">B</hi> <lb/>
+               <note type="footnote"> 1 castigati a <hi rend="italic">Gel:</hi> castiganda <hi rend="italic">B</hi> 4 enuntiabit <hi rend="italic">Gel:</hi> nuntiabit <hi rend="italic">B</hi>
+                  <lb/>
+            5 sensus <hi rend="italic">Pam</hi> 6 sic-sic <hi rend="italic">fort</hi>. 8 decoquendis <hi rend="italic">Gel:</hi> de coquendis <hi rend="italic">B</hi>
+                  <lb/>
             9 exaestuans <hi rend="italic">C,</hi> aestuans <hi rend="italic">B</hi> 16 in eo <hi rend="italic">Gel</hi> 19 deputat <hi rend="italic">Urs</hi> 27 illam <lb/>
-            <hi rend="italic">scripsi:</hi> illa <hi rend="italic">B,</hi> illas <hi rend="italic">Gel</hi> 31 euectum <hi rend="italic">C</hi> qui <hi rend="italic">om. Pam</hi> </note> <lb/>
-             
-<pb n="281"/>
+                  <hi rend="italic">scripsi:</hi> illa <hi rend="italic">B,</hi> illas <hi rend="italic">Gel</hi> 31 euectum <hi rend="italic">C</hi> qui <hi rend="italic">om. Pam</hi>
+               </note>
+               <lb/>
+               <pb n="281"/>
             quadraginta diebus totidemque noctibus supra humanae naturae facultatem <lb/>
             ieiunium perennauit spiritali fide uirtutem subministrante, <lb/>
             et uidit oculis dei gloriam et audiuit auribus dei <lb/>
@@ -422,11 +432,9 @@
             per Esaiam, hoc erit tempus, quo homo deo adaequetur, cum <lb/>
             sine pabulo uiuit. 
 </p>
-          
-</div>
-
-<div n="7" subtype="chapter" type="textpart">
-<p>Processimus itaque iam ad exempla, uti reuoluamus utilitatis <lb/>
+         </div>
+         <div n="7" type="chapter">
+            <p>Processimus itaque iam ad exempla, uti reuoluamus utilitatis <lb/>
             efficacia potestates istius officii, quod etiam iratum deum <lb n="25"/>
             homini reconciliat. deliquerat Israel in aquatione apud Maspha <lb/>
             congregatus a Samuele, sed ita statim delictum ieiunio diluit, <lb/>
@@ -437,13 +445,13 @@
 
 <note type="footnote">11] 1 Reg. 17, 1. 17] ibid. 19, 9. 18] Gen. 3, 9. 22] cf. Es. 40,28. <lb/>
             26] cf. 1 Sam. 7, 5 sqq. </note>
-
-<note type="footnote"> 6 mediamque <hi rend="italic">Gel:</hi> mediamque <hi rend="italic">B</hi> numine <hi rend="italic">Urs</hi> 16 speluncam <hi rend="italic">Iun:</hi> <lb/>
+               <note type="footnote"> 6 mediamque <hi rend="italic">Gel:</hi> mediamque <hi rend="italic">B</hi> numine <hi rend="italic">Urs</hi> 16 speluncam <hi rend="italic">Iun:</hi>
+                  <lb/>
             spelunca <hi rend="italic">B</hi> 26 Maspha <hi rend="italic">Pam:</hi> Masphat <hi rend="italic">B; sic etiam infra</hi> 27 sed <lb/>
-            <hi rend="italic">om. Pam</hi> 28 fugerit <hi rend="italic">Harrisius:</hi> fuderit <hi rend="italic">B</hi> 30 in <hi rend="italic">addidi</hi> proelium <lb/>
-            <hi rend="italic">Lat</hi> 31 ibidem <hi rend="italic">BC,</hi> ibi demum Gel </note> <lb/>
-             
-<pb n="282"/>
+                  <hi rend="italic">om. Pam</hi> 28 fugerit <hi rend="italic">Harrisius:</hi> fuderit <hi rend="italic">B</hi> 30 in <hi rend="italic">addidi</hi> proelium <lb/>
+                  <hi rend="italic">Lat</hi> 31 ibidem <hi rend="italic">BC,</hi> ibi demum Gel </note>
+               <lb/>
+               <pb n="282"/>
             allophylos, et confusi sunt et corruerunt in conspectu Israelis, <lb/>
             et processerunt uiri Israel ex Maspha et persecuti sunt allophylos <lb/>
             et usque Bethor ceciderunt, pastos impasti, armatos <lb/>
@@ -475,16 +483,19 @@
             mea: pro eo, quod reueritus est, non superducam
 
 <note type="footnote"> 23] 1 Reg. 21, 19. 28] ibid. 21,29. </note>
-
-<note type="footnote"> 3 Bethor <hi rend="italic">Gel:</hi> Bethehar <hi rend="italic">B</hi> 4 erant <hi rend="italic">susp. Oehlerus</hi> 6 perinde <hi rend="italic">scripsi:</hi> <lb/>
+               <note type="footnote"> 3 Bethor <hi rend="italic">Gel:</hi> Bethehar <hi rend="italic">B</hi> 4 erant <hi rend="italic">susp. Oehlerus</hi> 6 perinde <hi rend="italic">scripsi:</hi>
+                  <lb/>
             proinde <hi rend="italic">B</hi> compluribus <hi rend="italic">Gel:</hi> cum pluribus <hi rend="italic">B</hi> 9 denique <hi rend="italic">fort</hi>. quid <lb/>
             aliud <hi rend="italic">del. Gel</hi> et <hi rend="italic">add. Gel</hi> 10 absumpsit <hi rend="italic">Gel:</hi> assumpsit <hi rend="italic">B</hi> 15 semper <lb/>
-            <hi rend="italic">add. Gel</hi> maeroris sequela <hi rend="italic">Gel:</hi> sequela maeroris <hi rend="italic">B</hi> 17 et] id est <lb/>
-            <hi rend="italic">fort</hi>. 18 commendauerat <hi rend="italic">Urs:</hi> commendauerit <hi rend="italic">B</hi> 19 functam <hi rend="italic">scripsi:</hi> <lb/>
-            functa <hi rend="italic">B</hi> 21 illi <hi rend="italic">Gel:</hi> illo <hi rend="italic">B</hi> 24 in loco quo <hi rend="italic">BG,</hi> in quo loco <hi rend="italic">Gel</hi> <lb/>
-            26 delinguent <hi rend="italic">Gel:</hi> dilingent <hi rend="italic">B</hi> saccum <hi rend="italic">add. Gel</hi> </note> <lb/>
-             
-<pb n="283"/>
+                  <hi rend="italic">add. Gel</hi> maeroris sequela <hi rend="italic">Gel:</hi> sequela maeroris <hi rend="italic">B</hi> 17 et] id est <lb/>
+                  <hi rend="italic">fort</hi>. 18 commendauerat <hi rend="italic">Urs:</hi> commendauerit <hi rend="italic">B</hi> 19 functam <hi rend="italic">scripsi:</hi>
+                  <lb/>
+            functa <hi rend="italic">B</hi> 21 illi <hi rend="italic">Gel:</hi> illo <hi rend="italic">B</hi> 24 in loco quo <hi rend="italic">BG,</hi> in quo loco <hi rend="italic">Gel</hi>
+                  <lb/>
+            26 delinguent <hi rend="italic">Gel:</hi> dilingent <hi rend="italic">B</hi> saccum <hi rend="italic">add. Gel</hi>
+               </note>
+               <lb/>
+               <pb n="283"/>
             laesuram in diebus ipsius, sed in diebus filii eius superducam <lb/>
             eam, qui non erat ieiunaturus. ita ieiunium in <lb/>
             deum reuerentiae opus est, per quod Anna quoque ambiens <lb/>
@@ -508,11 +519,9 @@
             si deo miserabilis, leonibus in lacu fuerat horribilis, ubi <lb/>
             quidem illi sex diebus ieiunanti prandium angelus procurauit. 
 </p>
-          
-</div>
-
-<div n="8" subtype="chapter" type="textpart">
-<p>Reddimus et cetera. ad noua enim nunc documenta properamus. <lb/>
+         </div>
+         <div n="8" type="chapter">
+            <p>Reddimus et cetera. ad noua enim nunc documenta properamus. <lb/>
             in limine euangelii Anna prophetis, filia Phanuelis, <lb/>
             quae infantem dominum et agnouit et multa super eo praedicauit<lb n="25"/>
             expectantibus redemptionem Israelis, post egregium <lb/>
@@ -525,12 +534,12 @@
             potator fuisset. immo nouum hominem in ueteris sugillationem
 
 <note type="footnote"> 19] cf. Dan. 10, 12 sq. 24] cf. Luc. 2,-37 sqq. </note>
-
-<note type="footnote"> 9 ultra <hi rend="italic">Iun:</hi> ultro <hi rend="italic">B</hi> 10 praescientia <hi rend="italic">fort</hi>. 11 quod <hi rend="italic">Rig</hi> 17 in <hi rend="italic">add. <lb/>
+               <note type="footnote"> 9 ultra <hi rend="italic">Iun:</hi> ultro <hi rend="italic">B</hi> 10 praescientia <hi rend="italic">fort</hi>. 11 quod <hi rend="italic">Rig</hi> 17 in <hi rend="italic">add. <lb/>
              Gd</hi> 22 illi <hi rend="italic">Gel:</hi> illis <hi rend="italic">B</hi> 23 reddidimus uetera <hi rend="italic">Lat,</hi> reddemus et cetera. <lb/>
-            <hi rend="italic">Hartelius</hi> 24 prophetes <hi rend="italic">B</hi> </note> <lb/>
-             
-<pb n="284"/>
+                  <hi rend="italic">Hartelius</hi> 24 prophetes <hi rend="italic">B</hi>
+               </note>
+               <lb/>
+               <pb n="284"/>
             uirtute fastidiendi cibi initiabat, ut eum diabolo rursus per <lb/>
             escam temptare quaerenti fortiorem fame tota ostentaret. prae- <lb/>
             - stituit exinde ieiuniis legem sine tristitia transigendis. cur <lb/>
@@ -543,11 +552,9 @@
             Corinthiorum inter labores suos et pericula et incommoda <lb n="10"/>
             post famem ac sitim ieiunia quoque plurima enumerat. 
 </p>
-          
-</div>
-
-<div n="9" subtype="chapter" type="textpart">
-<p>Principalis haec species in castigatione uictus potest iam <lb/>
+         </div>
+         <div n="9" type="chapter">
+            <p>Principalis haec species in castigatione uictus potest iam <lb/>
             de inferioribus quoque abstinentiae operationibus praeiudicare <lb/>
             ut et ipsis pro modo utilibus aut necessariis. nam exceptio <lb/>
             eduliorum quorundam portionale ieiunium est. inspiciamus <lb n="15"/>
@@ -572,11 +579,11 @@
 
 <note type="footnote">7] cf. Act. 10, 4. 10] cf. 2 Cor. 11, 27. 27] Dan. 10, 2 sq. <lb/>
             31] ibid. 10, 1. 12. </note>
-
-<note type="footnote"> 20 qui <hi rend="italic">C,</hi> quis <hi rend="italic">B</hi> 23 somniis <hi rend="italic">Gel:</hi> somnis <hi rend="italic">B</hi> 25 in recogitatum <lb/>
-            <hi rend="italic">Gel:</hi> regi cogitatum <hi rend="italic">B</hi> 27 lugens <hi rend="italic">Gel:</hi> legens <hi rend="italic">B</hi> </note> <lb/>
-             
-<pb n="285"/>
+               <note type="footnote"> 20 qui <hi rend="italic">C,</hi> quis <hi rend="italic">B</hi> 23 somniis <hi rend="italic">Gel:</hi> somnis <hi rend="italic">B</hi> 25 in recogitatum <lb/>
+                  <hi rend="italic">Gel:</hi> regi cogitatum <hi rend="italic">B</hi> 27 lugens <hi rend="italic">Gel:</hi> legens <hi rend="italic">B</hi>
+               </note>
+               <lb/>
+               <pb n="285"/>
             coram deo, exauditum est uerbum tuum, et ego introiui <lb/>
             uerbo tuo. ita xerophagiarum miseratio et humiliati <lb/>
             metum expellunt et aures dei aduertunt et occultorum compotes <lb/>
@@ -610,14 +617,17 @@
 
 <note type="footnote"> 14] cf. Ps. 101, 10. 19] 1 Reg. 1,15. 20J Leu. 10, 9. 24] <lb/>
             Amos 2,13. </note>
-
-<note type="footnote"> 2 humiliati <hi rend="italic">scripsi:</hi> humiliatio <hi rend="italic">B,</hi> ieiunationis humiliatio <hi rend="italic">Wissowa</hi> <lb/>
-            5 Bersabe <hi rend="italic">Iudaeae Gel:</hi> Bersabae Iuda <hi rend="italic">B</hi> 6 illi <hi rend="italic">Urs</hi> 10 Danieli <hi rend="italic">Lat:</hi> <lb/>
-            Daniel <hi rend="italic">B</hi> lacu <hi rend="italic">Lat:</hi> lacum <hi rend="italic">B</hi> 19 bibet <hi rend="italic">Gel:</hi> bibi <hi rend="italic">B</hi> 21 filii tui <hi rend="italic">Pam</hi> <lb/>
+               <note type="footnote"> 2 humiliati <hi rend="italic">scripsi:</hi> humiliatio <hi rend="italic">B,</hi> ieiunationis humiliatio <hi rend="italic">Wissowa</hi>
+                  <lb/>
+            5 Bersabe <hi rend="italic">Iudaeae Gel:</hi> Bersabae Iuda <hi rend="italic">B</hi> 6 illi <hi rend="italic">Urs</hi> 10 Danieli <hi rend="italic">Lat:</hi>
+                  <lb/>
+            Daniel <hi rend="italic">B</hi> lacu <hi rend="italic">Lat:</hi> lacum <hi rend="italic">B</hi> 19 bibet <hi rend="italic">Gel:</hi> bibi <hi rend="italic">B</hi> 21 filii tui <hi rend="italic">Pam</hi>
+                  <lb/>
             26 potus <hi rend="italic">Gel:</hi> potius <hi rend="italic">B</hi> 27 est uini <hi rend="italic">B,</hi> ista uini <hi rend="italic">Hartelius;</hi> est <hi rend="italic">om. Gel <lb/>
-             alterum</hi> aut <hi rend="italic">add. Gel</hi> </note> <lb n="30"/>
-             
-<pb n="286"/>
+             alterum</hi> aut <hi rend="italic">add. Gel</hi>
+               </note>
+               <lb n="30"/>
+               <pb n="286"/>
             et apostolus xerophagias norit, qui maiora celebrauerat, sitim <lb/>
             et famem et multa ieiunia, qui ebrietates et comessationes recusauerat, <lb/>
             uel de discipulo Timotheo argumenti satis est, quem <lb/>
@@ -627,11 +637,9 @@
             ipso abstinentiam uini dignam deo suasit, quam ex necessitate <lb/>
             dissuasit. 
 </p>
-          
-</div>
-
-<div n="10" subtype="chapter" type="textpart">
-<p>Aeque stationes nostras ut indictas, quasdam uero et in <lb/>
+         </div>
+         <div n="10" type="chapter">
+            <p>Aeque stationes nostras ut indictas, quasdam uero et in <lb/>
             serum constitutas nouitatis nomine incusant, hoc quoque munus <lb n="10"/>
             et ex arbitrio obeundum esse dicentes et non ultra nonam <lb/>
             detinendum, de suo scilicet more. sed quod pertineat ad indictionis <lb/>
@@ -654,17 +662,18 @@
             humanis, quae diem distribuunt, quae negotia distinguunt, quae
 
 <note type="footnote"> 3] cf.1 Tim. 5, 23. 16] cf. Act. 3, 1. 20] cf. Act.10, 9. 23] cf. Act.2,15. </note>
-
-<note type="footnote"> 5 monens <hi rend="italic">Gel:</hi> monet <hi rend="italic">B</hi> ex institutione sed ex deuotione <hi rend="italic">Gel:</hi> ex <lb/>
+               <note type="footnote"> 5 monens <hi rend="italic">Gel:</hi> monet <hi rend="italic">B</hi> ex institutione sed ex deuotione <hi rend="italic">Gel:</hi> ex <lb/>
             intimatione <hi rend="italic">B</hi> 6 ceterum <hi rend="italic">Gel:</hi> quod <hi rend="italic">B</hi> consuetudo <hi rend="italic">add. Gel</hi> 7 quum <lb/>
-            <hi rend="italic">Lat</hi> ex necessitate <hi rend="italic">Gel:</hi> nec <hi rend="italic">B</hi> 9 indictas <hi rend="italic">Rig:</hi> indignas <hi rend="italic">B</hi> quidam <lb/>
-            <hi rend="italic">Oehlerus</hi> 12 indictionis <hi rend="italic">Rig:</hi> interdictionis <hi rend="italic">B</hi> 15 nona <hi rend="italic">Gel:</hi> non a <hi rend="italic">B,</hi> <lb/>
+                  <hi rend="italic">Lat</hi> ex necessitate <hi rend="italic">Gel:</hi> nec <hi rend="italic">B</hi> 9 indictas <hi rend="italic">Rig:</hi> indignas <hi rend="italic">B</hi> quidam <lb/>
+                  <hi rend="italic">Oehlerus</hi> 12 indictionis <hi rend="italic">Rig:</hi> interdictionis <hi rend="italic">B</hi> 15 nona <hi rend="italic">Gel:</hi> non a <hi rend="italic">B,</hi>
+                  <lb/>
             nouam <hi rend="italic">Bmg</hi> 16 qua <hi rend="italic">Gel:</hi> quia <hi rend="italic">B</hi> 17 leguntur <hi rend="italic">Gel:</hi> aguntur <hi rend="italic">B</hi> 18 probabit <lb/>
-            <hi rend="italic">C,</hi> probat <hi rend="italic">B,</hi> probet <hi rend="italic">Iun</hi> 22 fungi <hi rend="italic">fort</hi>. quae] qua <hi rend="italic">mauolt <lb/>
+                  <hi rend="italic">C,</hi> probat <hi rend="italic">B,</hi> probet <hi rend="italic">Iun</hi> 22 fungi <hi rend="italic">fort</hi>. quae] qua <hi rend="italic">mauolt <lb/>
             Oehlerus</hi> 24 demonstretur <hi rend="italic">Gel:</hi> demonstret <hi rend="italic">B</hi> 28 orandi <hi rend="italic">Urs:</hi> orandum <lb/>
-            <hi rend="italic">B</hi> </note> <lb/>
-             
-<pb n="287"/>
+                  <hi rend="italic">B</hi>
+               </note>
+               <lb/>
+               <pb n="287"/>
             publice resonant, ita et sollemniores fuisse in orationibus di-. <lb/>
             uinis? quod etiam suadet Danielis quoque argumentum ter. <lb/>
             die orantis, utique per aliquarum horarum exceptionem, non <lb/>
@@ -697,15 +706,17 @@
             refrigerari quam domini. sed hactenus haec ex argumentationum
 
 <note type="footnote"> 13] Phil. 8, 15. 22] cf. Matth. 27, 45. 28] cf. ibid. 27, 57. </note>
-
-<note type="footnote"> 3 aliquarum <hi rend="italic">BC,</hi> aliarum <hi rend="italic">Gel</hi> 4 insigniorum <hi rend="italic">Gel:</hi> insigniorem <hi rend="italic">B</hi> <lb/>
-            8 cui] qua <hi rend="italic">Urs</hi> 14 seposito <hi rend="italic">Gel:</hi> si posito <hi rend="italic">B</hi> 15 an <hi rend="italic">add. Gel</hi> <lb/>
+               <note type="footnote"> 3 aliquarum <hi rend="italic">BC,</hi> aliarum <hi rend="italic">Gel</hi> 4 insigniorum <hi rend="italic">Gel:</hi> insigniorem <hi rend="italic">B</hi>
+                  <lb/>
+            8 cui] qua <hi rend="italic">Urs</hi> 14 seposito <hi rend="italic">Gel:</hi> si posito <hi rend="italic">B</hi> 15 an <hi rend="italic">add. Gel</hi>
+                  <lb/>
             uos <hi rend="italic">Urs</hi> ratio adferatur <hi rend="italic">Gel:</hi> ratione feratur <hi rend="italic">B</hi> nonam <hi rend="italic">scripsi:</hi> in <lb/>
             nonam <hi rend="italic">B</hi> 16 requiro <hi rend="italic">Lat</hi> 19 tum ei <hi rend="italic">Iun:</hi> cum eis <hi rend="italic">B</hi> 20 addicimur <lb/>
-            <hi rend="italic">Urs:</hi> addiscimus <hi rend="italic">B</hi> 24 iocunditatem <hi rend="italic">B</hi> 30 refrigerari <hi rend="italic">Urs:</hi> refrigerare <lb/>
-            <hi rend="italic">B sed</hi> hactenus haec <hi rend="italic">B,</hi> ut haec <hi rend="italic">Gel,</hi> sed hoc <hi rend="italic">Pam</hi> </note> <lb n="30"/>
-             
-<pb n="288"/>
+                  <hi rend="italic">Urs:</hi> addiscimus <hi rend="italic">B</hi> 24 iocunditatem <hi rend="italic">B</hi> 30 refrigerari <hi rend="italic">Urs:</hi> refrigerare <lb/>
+                  <hi rend="italic">B sed</hi> hactenus haec <hi rend="italic">B,</hi> ut haec <hi rend="italic">Gel,</hi> sed hoc <hi rend="italic">Pam</hi>
+               </note>
+               <lb n="30"/>
+               <pb n="288"/>
             prouocatione commiserim coniecturas coniecturis et tamen puto <lb/>
             fidelioribus repercutiens. uideamus, an aliquid tale nobis de <lb/>
             uetustatibus quoque patrocinetur. in Exodo habitus ille Moysis <lb/>
@@ -735,21 +746,19 @@
             haec erit statio sera quae ad uesperam ieiunans pinguiorem <lb/>
             orationem deo immolat. 
 </p>
-          
-</div>
-
-<div n="11" subtype="chapter" type="textpart">
-<p>Omnia autem ista credo ignota eis, qui ad nostra turbantur, <lb/>
+         </div>
+         <div n="11" type="chapter">
+            <p>Omnia autem ista credo ignota eis, qui ad nostra turbantur, <lb/>
             aut sola forsitan lectione, non etiam intentione
 
 <note type="footnote">7] Ios. 10,12 sq. 15] 1 Reg. 14, 24 sqq. 24] Dan. 9, 21. </note>
-
-<note type="footnote"> 1 sed <hi rend="italic">Lat</hi> 7 imperauit. stetit <hi rend="italic">BC,</hi> impetrauit? stet <hi rend="italic">Urs</hi> 9 ut <lb/>
+               <note type="footnote"> 1 sed <hi rend="italic">Lat</hi> 7 imperauit. stetit <hi rend="italic">BC,</hi> impetrauit? stet <hi rend="italic">Urs</hi> 9 ut <lb/>
             autem <hi rend="italic">B,</hi> et non <hi rend="italic">Pam</hi> 13 instantis <hi rend="italic">Iwn</hi> statione etiam sera longiore <lb/>
-            <hi rend="italic">mauolt Oehlerus</hi> 17 non prandebat <hi rend="italic">Pam</hi> 20 sorte <hi rend="italic">Gel</hi> 23 ieiunus <lb/>
-            <hi rend="italic">Gel:</hi> ieiuniis <hi rend="italic">B</hi> 27 erat <hi rend="italic">Urs</hi> 28 orationem <hi rend="italic">Gel:</hi> rationem <hi rend="italic">B</hi> </note> <lb n="30"/>
-             
-<pb n="289"/>
+                  <hi rend="italic">mauolt Oehlerus</hi> 17 non prandebat <hi rend="italic">Pam</hi> 20 sorte <hi rend="italic">Gel</hi> 23 ieiunus <lb/>
+                  <hi rend="italic">Gel:</hi> ieiuniis <hi rend="italic">B</hi> 27 erat <hi rend="italic">Urs</hi> 28 orationem <hi rend="italic">Gel:</hi> rationem <hi rend="italic">B</hi>
+               </note>
+               <lb n="30"/>
+               <pb n="289"/>
             comperta secundum maiorem uim imperitorum apud gloriosissimam <lb/>
             scilicet multitudinem psychicorum. propterea per singulas direximus <lb/>
             species ieiunationum, xerophagiarum, stationum, ut, <lb/>
@@ -784,16 +793,17 @@
             haec erga dominum nostrum officia disposuit, cum et antichristi <lb/>
             erga deum, aduersum nostrum processerint Christum?
 
-<note type="footnote">12 sancit <hi rend="italic">Lat</hi> 19 potuerunt <hi rend="italic">Lat,</hi> poterant <hi rend="italic">Urs</hi> 20 debuerunt <hi rend="italic">Lat</hi> <lb/>
+<note type="footnote">12 sancit <hi rend="italic">Lat</hi> 19 potuerunt <hi rend="italic">Lat,</hi> poterant <hi rend="italic">Urs</hi> 20 debuerunt <hi rend="italic">Lat</hi>
+                  <lb/>
             aut <hi rend="italic">add. Lat</hi> exerta <hi rend="italic">B,</hi> exerte <hi rend="italic">C,</hi> certe <hi rend="italic">Urs</hi> necessario <hi rend="italic">Urs</hi> maxime <lb/>
-            <hi rend="italic">del. Urs</hi> 21 sint <hi rend="italic">Urs</hi> 23 pseudoprophetia <hi rend="italic">Gel:</hi> pseudoprophetiae <hi rend="italic">B</hi> <lb/>
-            24 omnes <hi rend="italic">Gel:</hi> apud omnes <hi rend="italic">B</hi> 32 deum <hi rend="italic">fort</hi>. 33 erga deum <hi rend="italic">del. Lat</hi> </note>
-
-<note type="footnote"> XX. Tert. I. </note>
-
-<note type="footnote"> 19 </note> <lb/>
-             
-<pb n="290"/>
+                  <hi rend="italic">del. Urs</hi> 21 sint <hi rend="italic">Urs</hi> 23 pseudoprophetia <hi rend="italic">Gel:</hi> pseudoprophetiae <hi rend="italic">B</hi>
+                  <lb/>
+            24 omnes <hi rend="italic">Gel:</hi> apud omnes <hi rend="italic">B</hi> 32 deum <hi rend="italic">fort</hi>. 33 erga deum <hi rend="italic">del. Lat</hi>
+               </note>
+               <note type="footnote"> XX. Tert. I. </note>
+               <note type="footnote"> 19 </note>
+               <lb/>
+               <pb n="290"/>
             quo itaque putas laterum confirmatum apud nos spiritum, cum <lb/>
             imperat an cum probat, quae deus noster et imperauit semper <lb/>
             et probauit? sed rursus palos terminales figitis deo, sicut de <lb/>
@@ -803,11 +813,9 @@
             quia et hic lex et prophetae usque ad Iohannem. <lb/>
             superest ut totum auferatis, quantum in uobis, tam otiosum. 
 </p>
-          
-</div>
-
-<div n="12" subtype="chapter" type="textpart">
-<p>Iam enim et in ista specie ditati saturatique regnatis, <lb/>
+         </div>
+         <div n="12" type="chapter">
+            <p>Iam enim et in ista specie ditati saturatique regnatis, <lb/>
             non delicta incursantes, quae ieiuniis elimentur, nec reuelationum <lb n="10"/>
             scientia indigentes, quae xerophagiis extorqueantur, <lb/>
             nec bella propria metuentes, quae stationibus discutiantur. <lb/>
@@ -832,14 +840,15 @@
             quem ex facultate custodiae liberae aliquamdiu fartum,
 
 <note type="footnote">7] Matth. 11, 13. 9] 1 Cor. 4, 8. </note>
-
-<note type="footnote"> <hi rend="italic">1 itaque Gel: utique B 4 et del. Gel 5 perinde scripsi: proinde B</hi> 9 ditati <lb/>
-            <hi rend="italic">Gel:</hi> dotati <hi rend="italic">B</hi> 10 incursantes <hi rend="italic">Scal:</hi> incusantes <hi rend="italic">B</hi> 13 et <hi rend="italic">om. Gel</hi> 22 obesus <lb/>
-            <hi rend="italic">Lat,</hi> ab usu <hi rend="italic">Scal</hi> 24 uirgulas <hi rend="italic">Rig</hi> 26 tam saepe <hi rend="italic">Ciacconius</hi> 28 incertis <lb/>
-            <hi rend="italic">Bmg, Gel,</hi> incestis <hi rend="italic">B</hi> 30 Pristinus <hi rend="italic">Gel:</hi> pristinus <hi rend="italic">B,</hi> pristinum <hi rend="italic">Rig</hi> 31 quam <lb/>
-            <hi rend="italic">Urs</hi> ex <hi rend="italic">Urs:</hi> et <hi rend="italic">B</hi> liberae <hi rend="italic">Gel:</hi> libere <hi rend="italic">B</hi> fartum <hi rend="italic">C,</hi> farsum <hi rend="italic">B</hi> </note> <lb/>
-             
-<pb n="291"/>
+               <note type="footnote">
+                  <hi rend="italic">1 itaque Gel: utique B 4 et del. Gel 5 perinde scripsi: proinde B</hi> 9 ditati <lb/>
+                  <hi rend="italic">Gel:</hi> dotati <hi rend="italic">B</hi> 10 incursantes <hi rend="italic">Scal:</hi> incusantes <hi rend="italic">B</hi> 13 et <hi rend="italic">om. Gel</hi> 22 obesus <lb/>
+                  <hi rend="italic">Lat,</hi> ab usu <hi rend="italic">Scal</hi> 24 uirgulas <hi rend="italic">Rig</hi> 26 tam saepe <hi rend="italic">Ciacconius</hi> 28 incertis <lb/>
+                  <hi rend="italic">Bmg, Gel,</hi> incestis <hi rend="italic">B</hi> 30 Pristinus <hi rend="italic">Gel:</hi> pristinus <hi rend="italic">B,</hi> pristinum <hi rend="italic">Rig</hi> 31 quam <lb/>
+                  <hi rend="italic">Urs</hi> ex <hi rend="italic">Urs:</hi> et <hi rend="italic">B</hi> liberae <hi rend="italic">Gel:</hi> libere <hi rend="italic">B</hi> fartum <hi rend="italic">C,</hi> farsum <hi rend="italic">B</hi>
+               </note>
+               <lb/>
+               <pb n="291"/>
             omnibus balneis quasi baptismate melioribus et omnibus luxuriae <lb/>
             secessibus quasi ecclesia secretioribus et omnibus uitae <lb/>
             istius inlecebris quasi aeterna dignioribus hoc puto obligatum <lb/>
@@ -853,11 +862,9 @@
             qui obseruant. quid ergo cessatis paracletum, quem in <lb/>
             Montano negatis, in Apicio credere? 
 </p>
-          
-</div>
-
-<div n="13" subtype="chapter" type="textpart">
-<p>Praescribitis constituta esse sollemnia huic fidei scripturis <lb/>
+         </div>
+         <div n="13" type="chapter">
+            <p>Praescribitis constituta esse sollemnia huic fidei scripturis <lb/>
             uel traditione maiorum nihilque obseruationis amplius <lb/>
             adiciendum ob illicitum innouationis. state in isto gradu, si <lb n="15"/>
             potestis. ecce enim conuenio uos et praeter pascha ieiunantes <lb/>
@@ -877,16 +884,19 @@
             aliqua sollicitudinis ecclesiasticae causa. itaque si et ex <lb n="30"/>
             hominis edicto et in unum omnes \'tCl\'itEtVoą\'póV\'tjatv agitatis,
 
-<note type="footnote">2 <hi rend="italic">ecclesia Rig:</hi> ecclesiae <hi rend="italic">B</hi> 3 istius <hi rend="italic">del. Rig</hi> aeterna <hi rend="italic">Rig:</hi> aeternae <hi rend="italic">B</hi> <lb/>
-            dignitatibus <hi rend="italic">Rig</hi> obligatum <hi rend="italic">Urs:</hi> oblegatum <hi rend="italic">B,</hi> oblectatum <hi rend="italic">Leopoldus</hi> <lb/>
+<note type="footnote">2 <hi rend="italic">ecclesia Rig:</hi> ecclesiae <hi rend="italic">B</hi> 3 istius <hi rend="italic">del. Rig</hi> aeterna <hi rend="italic">Rig:</hi> aeternae <hi rend="italic">B</hi>
+                  <lb/>
+            dignitatibus <hi rend="italic">Rig</hi> obligatum <hi rend="italic">Urs:</hi> oblegatum <hi rend="italic">B,</hi> oblectatum <hi rend="italic">Leopoldus</hi>
+                  <lb/>
             5 eneruastis <hi rend="italic">Gel:</hi> enerua sitis <hi rend="italic">B</hi> 8 de <hi rend="italic">del. Lat</hi> extortus <hi rend="italic">BC,</hi> exortus <lb/>
-            <hi rend="italic">Gel</hi> 9 discessit <hi rend="italic">Iwn:</hi> digessit <hi rend="italic">B</hi> 12 Apicio <hi rend="italic">Rig:</hi> Apitio <hi rend="italic">B</hi> 15 ob <lb/>
-            illicitum <hi rend="italic">Gel:</hi> ab illicito <hi rend="italic">B</hi> state <hi rend="italic">Gel:</hi> statu <hi rend="italic">B</hi> 18 uos <hi rend="italic">B,</hi> uero <hi rend="italic">Urs</hi> <lb/>
-            21 sunt <hi rend="italic">B,</hi> sint <hi rend="italic">Gel</hi> 25 sicut <hi rend="italic">Lat</hi> </note>
-
-<note type="footnote">19* </note> <lb/>
-             
-<pb n="292"/>
+                  <hi rend="italic">Gel</hi> 9 discessit <hi rend="italic">Iwn:</hi> digessit <hi rend="italic">B</hi> 12 Apicio <hi rend="italic">Rig:</hi> Apitio <hi rend="italic">B</hi> 15 ob <lb/>
+            illicitum <hi rend="italic">Gel:</hi> ab illicito <hi rend="italic">B</hi> state <hi rend="italic">Gel:</hi> statu <hi rend="italic">B</hi> 18 uos <hi rend="italic">B,</hi> uero <hi rend="italic">Urs</hi>
+                  <lb/>
+            21 sunt <hi rend="italic">B,</hi> sint <hi rend="italic">Gel</hi> 25 sicut <hi rend="italic">Lat</hi>
+               </note>
+               <note type="footnote">19* </note>
+               <lb/>
+               <pb n="292"/>
             quomodo in nobis ipsam quoque unitatem ieiunationum et xerophagiarum <lb/>
             et stationum denotatis? nisi forte in senatus consulta <lb/>
             et in principum mandata coitionibus opposita delinquimus. <lb/>
@@ -911,13 +921,10 @@
             gaudentibus norunt. si et ista sollemnia, quibus tunc praesens <lb/>
             patrocinatus est sermo, nos quoque in diuersis prouinciis fungimur <lb/>
             in spiritu inuicem repraesentati, lex est sacramenti. <lb/>
-            
-</p>
-
-</div>
-
-<div n="14" subtype="chapter" type="textpart">
-<p>Horum igitur tempora obseruantes et dies et menses et <lb n="25"/>
+            </p>
+         </div>
+         <div n="14" type="chapter">
+            <p>Horum igitur tempora obseruantes et dies et menses et <lb n="25"/>
             annos galaticamur? plane, si Iudaicarum caeremoniarum, si <lb/>
             legalium sollemnitatum obseruantes sumus; illas enim apostolus <lb/>
             dedocet compescens ueteris testamenti in Christo sepulti perseuerantiam <lb/>
@@ -925,16 +932,15 @@
             noua et sollemnia esse debebunt: aut si omnem in totum
 
 <note type="footnote">17] Ps. 133, 1. 29] 2 Cor. 5, 17. </note>
-
-<note type="footnote"> 5 ex <hi rend="italic">Gel, om. B</hi> 7 dicitur <hi rend="italic">del. Gel</hi> 13 praeterea <hi rend="italic">BC,</hi> praecepta <lb/>
-            <hi rend="italic">Gel</hi> illa <hi rend="italic">Urs:</hi> illas <hi rend="italic">B</hi> 21 operati <hi rend="italic">Gel:</hi> operari <hi rend="italic">B</hi> 24 repraesentari <lb/>
-            <hi rend="italic">Scal</hi> 26 <hi rend="italic">interrogationis signum posui</hi> .29 in Christo, noua <hi rend="italic">Urs:</hi> in <lb/>
+               <note type="footnote"> 5 ex <hi rend="italic">Gel, om. B</hi> 7 dicitur <hi rend="italic">del. Gel</hi> 13 praeterea <hi rend="italic">BC,</hi> praecepta <lb/>
+                  <hi rend="italic">Gel</hi> illa <hi rend="italic">Urs:</hi> illas <hi rend="italic">B</hi> 21 operati <hi rend="italic">Gel:</hi> operari <hi rend="italic">B</hi> 24 repraesentari <lb/>
+                  <hi rend="italic">Scal</hi> 26 <hi rend="italic">interrogationis signum posui</hi> .29 in Christo, noua <hi rend="italic">Urs:</hi> in <lb/>
             . Christo sepulti per perseuerantiam noua <hi rend="italic">B,</hi> in Christo sepulti perseuerant, <lb/>
             iam noua <hi rend="italic">Gel,</hi> in Christo sepelit perseuerantiam, noua <hi rend="italic">Scal; \'alioguin <lb/>
             possis et rescribere</hi> noua conditione in Christo sepulta perseuerantia, noua\' <lb/>
-            <hi rend="italic">OeKlerus qui Ursino consentit</hi> 30 at <hi rend="italic">fort</hi>. </note> <lb n="30"/>
-             
-<pb n="293"/>
+                  <hi rend="italic">OeKlerus qui Ursino consentit</hi> 30 at <hi rend="italic">fort</hi>. </note>
+               <lb n="30"/>
+               <pb n="293"/>
             deuotionem temporum et dierum et mensium et annorum erasit <lb/>
             apostolus, cur pascha celebramus annuo circulo in mense <lb/>
             primo? cur quinquaginta exinde diebus in omni exultatione decurrimus?  <lb/>
@@ -947,11 +953,9 @@
             inaequalitas uestra ridebitur, cum uetustatum formam nobis <lb n="10"/>
             exprobratis in quo causam nouitatis accusatis. 
 </p>
-          
-</div>
-
-<div n="15" subtype="chapter" type="textpart">
-<p>Reprobat etiam illos qui iubeant cibis abstinere, sed de <lb/>
+         </div>
+         <div n="15" type="chapter">
+            <p>Reprobat etiam illos qui iubeant cibis abstinere, sed de <lb/>
             prouidentia spiritus sancti, praedamnans iam haereticos perpetuam <lb/>
             abstinentiam praecepturos ad destruenda et despicienda <lb/>
             opera creatoris, quales inueniam apud Marcionem, apud Tatianum,<lb n="15"/>
@@ -972,15 +976,18 @@
             uetet controuersiam fieri, quanto magis diuino? ita sciebat
 
 <note type="footnote">21] Rom. 14, 20 sq. 25] Rom. 14, 2 sqq. </note>
-
-<note type="footnote"> 2 annuo <hi rend="italic">Gel:</hi> animo <hi rend="italic">B</hi> 6 continuatis, putatis <hi rend="italic">fort</hi>. 7 omnis dies <hi rend="italic">Gel:</hi> <lb/>
-            omni die <hi rend="italic">B</hi> 8 celebratur <hi rend="italic">Gel:</hi> celebrantur <hi rend="italic">B</hi> 11 quo <hi rend="italic">Urs:</hi> qua <hi rend="italic">B</hi> <lb/>
+               <note type="footnote"> 2 annuo <hi rend="italic">Gel:</hi> animo <hi rend="italic">B</hi> 6 continuatis, putatis <hi rend="italic">fort</hi>. 7 omnis dies <hi rend="italic">Gel:</hi>
+                  <lb/>
+            omni die <hi rend="italic">B</hi> 8 celebratur <hi rend="italic">Gel:</hi> celebrantur <hi rend="italic">B</hi> 11 quo <hi rend="italic">Urs:</hi> qua <hi rend="italic">B</hi>
+                  <lb/>
             12 reprobat <hi rend="italic">Gel:</hi> reprobrat <hi rend="italic">B</hi> iubeant <hi rend="italic">Gel:</hi> iubebant <hi rend="italic">B</hi> 13 sancti <lb/>
-            <hi rend="italic">Ciacconius:</hi> sanctus <hi rend="italic">B</hi> 16 Iouium <hi rend="italic">fort</hi>. 20 atquin <hi rend="italic">Pam</hi> 21 detractatores <lb/>
-            <hi rend="italic">Urs:</hi> retractatores <hi rend="italic">B,</hi> detrectatores <hi rend="italic">Rig</hi> 26 olera <hi rend="italic">C,</hi> olere <hi rend="italic">B</hi> <lb/>
-            27 nullificet <hi rend="italic">C,</hi> uilificet <hi rend="italic">B</hi> 30 uetet <hi rend="italic">Harrisius:</hi> uitet <hi rend="italic">B</hi> </note> <lb n="30"/>
-             
-<pb n="294"/>
+                  <hi rend="italic">Ciacconius:</hi> sanctus <hi rend="italic">B</hi> 16 Iouium <hi rend="italic">fort</hi>. 20 atquin <hi rend="italic">Pam</hi> 21 detractatores <lb/>
+                  <hi rend="italic">Urs:</hi> retractatores <hi rend="italic">B,</hi> detrectatores <hi rend="italic">Rig</hi> 26 olera <hi rend="italic">C,</hi> olere <hi rend="italic">B</hi>
+                  <lb/>
+            27 nullificet <hi rend="italic">C,</hi> uilificet <hi rend="italic">B</hi> 30 uetet <hi rend="italic">Harrisius:</hi> uitet <hi rend="italic">B</hi>
+               </note>
+               <lb n="30"/>
+               <pb n="294"/>
             quosdam castigatores et interdictores uictus incusare, qui ex <lb/>
             fastidio, non qui ex officio abstinerent, probare uero qui in <lb/>
             honorem, non qui in conuicium creatoris. et si claues macelli <lb/>
@@ -1006,11 +1013,9 @@
             caeditis pugnis. non tale ieiunium ego elegi, sed <lb/>
             quale subiecit, et subiciendo non abstulit, sed confirmauit. 
 </p>
-          
-</div>
-
-<div n="16" subtype="chapter" type="textpart">
-<p>Nam et si mauult opera iustitiae, non tamen sine sacri- <lb n="25"/>
+         </div>
+         <div n="16" type="chapter">
+            <p>Nam et si mauult opera iustitiae, non tamen sine sacri- <lb n="25"/>
             ficio, quod est anima conflictata ieiuniis. ille certe deus, cui <lb/>
             nec populus incontinens gulae placuit, nec sacerdos nec prophetes. <lb/>
             manent adhuc monumenta concupiscentiae, ubi sepultus <lb/>
@@ -1018,14 +1023,16 @@
 
 <note type="footnote"> 6] Rom. 14, 17. 7J 1 Cor. 8, 8. 14] cf. Matth. 5, 6. 20] <lb/>
             Es. 58, 3 sqq. 25] cf. Ps. 51, 18 sq. 27] cf. Num. 11, 4. 13. 32 sqq. </note>
-
-<note type="footnote"> <hi rend="italic">1 incursare fort. 9 abundabimus Harrisius: abundauimus B</hi> 13 ieiunarit <lb/>
-            <hi rend="italic">C,</hi> ieiunauit <hi rend="italic">B</hi> 17 in ordinaria <hi rend="italic">Gel:</hi> inordinaria <hi rend="italic">B</hi> 18 diuitias <lb/>
-            -<hi rend="italic">om. Gel</hi> 21 uoluntates <hi rend="italic">Pam:</hi> uoluptates <hi rend="italic">B</hi> 28 monumenta <hi rend="italic">Gel:</hi> <lb/>
+               <note type="footnote">
+                  <hi rend="italic">1 incursare fort. 9 abundabimus Harrisius: abundauimus B</hi> 13 ieiunarit <lb/>
+                  <hi rend="italic">C,</hi> ieiunauit <hi rend="italic">B</hi> 17 in ordinaria <hi rend="italic">Gel:</hi> inordinaria <hi rend="italic">B</hi> 18 diuitias <lb/>
+            -<hi rend="italic">om. Gel</hi> 21 uoluntates <hi rend="italic">Pam:</hi> uoluptates <hi rend="italic">B</hi> 28 monumenta <hi rend="italic">Gel:</hi>
+                  <lb/>
             munimenta <hi rend="italic">B</hi> 29 ortygometras <hi rend="italic">Rig:</hi> ortygometra <hi rend="italic">B,</hi> ortygometram <lb/>
-            <hi rend="italic">Scal</hi> </note> <lb/>
-             
-<pb n="295"/>
+                  <hi rend="italic">Scal</hi>
+               </note>
+               <lb/>
+               <pb n="295"/>
             ortygometras cruditando. eliditur pro templi foribus senior Heli, <lb/>
             filii eius in acie ruunt, nurus expirat in partu. hanc enim <lb/>
             meruerat a deo plagam domus impudens, sacrificiorum carnalium <lb/>
@@ -1047,7 +1054,8 @@
             tunc et alios apostolos et prophetas sancituros ieiunium et praedicaturos <lb/>
             officia curantia deum. unde et qui in idolis comendis <lb n="20"/>
             et in hac re ornandis et ad singulas horas salutandis diis adulantur, <lb/>
-            curationem facere dicuntur. sed et omnem <foreign xml:lang="grc">ταπεινοφρόνησιν</foreign> <lb/>
+            curationem facere dicuntur. sed et omnem <foreign xml:lang="grc">ταπεινοφρόνησιν</foreign>
+               <lb/>
             ethnici agnoscunt. cum stupet caelum et aret annus, <lb/>
             nudipedalia denuntiantur, magistratus purpuras ponunt, fasces <lb/>
             retro auertunt, precem indigitant, hostiam instaurant. apud <lb n="25"/>
@@ -1055,19 +1063,19 @@
 
 <note type="footnote">1] cf. 1 Sam. 4, 17 sqq. 11] cf. 1 Reg. 13. 15] cf. Luc. 16, 19 sqq. <lb/>
             17] Ioel 1, 14. x </note>
-
-<note type="footnote"> 1 cruditando <hi rend="italic">Gel:</hi> conditando <hi rend="italic">B,</hi> eructando <hi rend="italic">Pam</hi> 2 partu <hi rend="italic">Gel:</hi> pastu <hi rend="italic">B</hi> <lb/>
+               <note type="footnote"> 1 cruditando <hi rend="italic">Gel:</hi> conditando <hi rend="italic">B,</hi> eructando <hi rend="italic">Pam</hi> 2 partu <hi rend="italic">Gel:</hi> pastu <hi rend="italic">B</hi>
+                  <lb/>
             6 difissum <hi rend="italic">Harrisius:</hi> diffusum <hi rend="italic">B</hi> 7 ad satisfactionem <hi rend="italic">Lat:</hi> et satisfactione <lb/>
-            <hi rend="italic">B,</hi> de satisfactione <hi rend="italic">Oehlerus</hi> recusauit <hi rend="italic">qwidam</hi> 9 prophetam <lb/>
-            <hi rend="italic">BC,</hi> prophetiam <hi rend="italic">Pam</hi> 15 ubi in <hi rend="italic">Gel:</hi> de <hi rend="italic">B</hi> epulone <hi rend="italic">del. Gel</hi> cruciantur <lb/>
-            <hi rend="italic">Gel:</hi> conciliantur <hi rend="italic">B</hi> 17 sancite <hi rend="italic">C,</hi> sanctificate <hi rend="italic">B</hi> 18 praedicate <lb/>
+                  <hi rend="italic">B,</hi> de satisfactione <hi rend="italic">Oehlerus</hi> recusauit <hi rend="italic">qwidam</hi> 9 prophetam <lb/>
+                  <hi rend="italic">BC,</hi> prophetiam <hi rend="italic">Pam</hi> 15 ubi in <hi rend="italic">Gel:</hi> de <hi rend="italic">B</hi> epulone <hi rend="italic">del. Gel</hi> cruciantur <lb/>
+                  <hi rend="italic">Gel:</hi> conciliantur <hi rend="italic">B</hi> 17 sancite <hi rend="italic">C,</hi> sanctificate <hi rend="italic">B</hi> 18 praedicate <lb/>
             curationem <hi rend="italic">Pam:</hi> orationem <hi rend="italic">B,</hi> curationem <hi rend="italic">Oehlerus</hi> iam et tunc <lb/>
-            <hi rend="italic">Gel</hi> 20 idolis <hi rend="italic">Gel:</hi> idoliis <hi rend="italic">B</hi> comendis <hi rend="italic">Gel:</hi> comedissent <hi rend="italic">B</hi> 21 in <lb/>
+                  <hi rend="italic">Gel</hi> 20 idolis <hi rend="italic">Gel:</hi> idoliis <hi rend="italic">B</hi> comendis <hi rend="italic">Gel:</hi> comedissent <hi rend="italic">B</hi> 21 in <lb/>
             hac re <hi rend="italic">B,</hi> in aris <hi rend="italic">Urs,</hi> in sacro <hi rend="italic">Oehlerus,</hi> auro <hi rend="italic">fort.,</hi> in aere <hi rend="italic">(cf. 137,15) <lb/>
             Hartelius</hi> ornandis <hi rend="italic">Gel:</hi> ordinandis <hi rend="italic">B</hi> diis <hi rend="italic">add. Urs</hi> 24 magistratus <lb/>
-            <hi rend="italic">Gel:</hi> magis <hi rend="italic">B</hi> 26 annuo <hi rend="italic">Gel:</hi> animo <hi rend="italic">B</hi>,</note> <lb/>
-             
-<pb n="296"/>
+                  <hi rend="italic">Gel:</hi> magis <hi rend="italic">B</hi> 26 annuo <hi rend="italic">Gel:</hi> animo <hi rend="italic">B</hi>,</note>
+               <lb/>
+               <pb n="296"/>
             cinere conspersi idolis suis inediam supplicem obiciunt, balnea <lb/>
             et tabernae in nonam usque cluduntur. unus in publico ignis <lb/>
             apud aras, aquae nec in lancibus. Niniuiticum credo iustitium. <lb/>
@@ -1086,11 +1094,9 @@
             cocus et sanctus spiritus nidor et condimenta charismata <lb/>
             et ructus prophetia. 
 </p>
-          
-</div>
-
-<div n="17" subtype="chapter" type="textpart">
-<p>Vetus es, uera si uelimus dicere, tu qui tantum gulae <lb/>
+         </div>
+         <div n="17" type="chapter">
+            <p>Vetus es, uera si uelimus dicere, tu qui tantum gulae <lb/>
             indulges, et merito te priorem iactitas; semper agnosco sapere <lb/>
             Esau uenatorem ferarum; ita passim indagandis turdis studes, <lb n="20"/>
             ita de campo laxissimae disciplinae tuae uenis, ita spiritu deficis. <lb/>
@@ -1103,17 +1109,21 @@
             nec in comessationibus, adiunxit nec in
 
 <note type="footnote">27] Rom. 13,13. </note>
-
-<note type="footnote"> 1 mediam <hi rend="italic">scripsi:</hi> inuidiam <hi rend="italic">B</hi> supplices <hi rend="italic">Barthius</hi> 2 tabernae <lb/>
-            <hi rend="italic">Ciacconitis:</hi> tabernacula <hi rend="italic">B</hi> unus <hi rend="italic">Gel, om. B</hi> 3 Niniuiticum <hi rend="italic">Gel:</hi> <lb/>
-            in Niniuiticum <hi rend="italic">B,</hi> Niniuiticam <hi rend="italic">C</hi> credo <hi rend="italic">Gel:</hi> crede <hi rend="italic">B</hi> iustitium <hi rend="italic">Gel:</hi> <lb/>
-            iustitiam <hi rend="italic">C,</hi> institutum <hi rend="italic">B</hi> 8 tu <hi rend="italic">Urs:</hi> in <hi rend="italic">B</hi> 9 casto <hi rend="italic">Gel:</hi> sacco <hi rend="italic">B</hi> <lb/>
+               <note type="footnote"> 1 mediam <hi rend="italic">scripsi:</hi> inuidiam <hi rend="italic">B</hi> supplices <hi rend="italic">Barthius</hi> 2 tabernae <lb/>
+                  <hi rend="italic">Ciacconitis:</hi> tabernacula <hi rend="italic">B</hi> unus <hi rend="italic">Gel, om. B</hi> 3 Niniuiticum <hi rend="italic">Gel:</hi>
+                  <lb/>
+            in Niniuiticum <hi rend="italic">B,</hi> Niniuiticam <hi rend="italic">C</hi> credo <hi rend="italic">Gel:</hi> crede <hi rend="italic">B</hi> iustitium <hi rend="italic">Gel:</hi>
+                  <lb/>
+            iustitiam <hi rend="italic">C,</hi> institutum <hi rend="italic">B</hi> 8 tu <hi rend="italic">Urs:</hi> in <hi rend="italic">B</hi> 9 casto <hi rend="italic">Gel:</hi> sacco <hi rend="italic">B</hi>
+                  <lb/>
             10 hinc <hi rend="italic">Gel:</hi> huic <hi rend="italic">B</hi> diuinam <hi rend="italic">Urs:</hi> diuina <hi rend="italic">B</hi> 14 deo idolo <hi rend="italic">B;</hi> deo <lb/>
-            <hi rend="italic">del. Urs</hi> 18 es <hi rend="italic">Gel:</hi> est <hi rend="italic">B</hi> uera <hi rend="italic">Gel:</hi> et <hi rend="italic">B</hi> 20 turdis <hi rend="italic">Gel:</hi> turbis <hi rend="italic">B</hi> <lb/>
+                  <hi rend="italic">del. Urs</hi> 18 es <hi rend="italic">Gel:</hi> est <hi rend="italic">B</hi> uera <hi rend="italic">Gel:</hi> et <hi rend="italic">B</hi> 20 turdis <hi rend="italic">Gel:</hi> turbis <hi rend="italic">B</hi>
+                  <lb/>
             23 agape in caccabis feruet <hi rend="italic">Gel:</hi> agape caccabis sero et <hi rend="italic">B</hi> 24 culmis <lb/>
-            <hi rend="italic">Gel:</hi> culinis <hi rend="italic">B</hi> 26 luiuriae <hi rend="italic">scripsi:</hi> luiuria est <hi rend="italic">B,</hi> luxuria <hi rend="italic">Rig</hi> </note> <lb/>
-             
-<pb n="297"/>
+                  <hi rend="italic">Gel:</hi> culinis <hi rend="italic">B</hi> 26 luiuriae <hi rend="italic">scripsi:</hi> luiuria est <hi rend="italic">B,</hi> luxuria <hi rend="italic">Rig</hi>
+               </note>
+               <lb/>
+               <pb n="297"/>
             cubilibus et libidinibus. ad elogium gulae tuae pertinet, quod <lb/>
             duplex apud te praesidentibus honor binis partibus deputatur, <lb/>
             cum apostolus duplicem honorem dederit ut et fratribus et <lb/>
@@ -1144,18 +1154,15 @@
 
 <note type="footnote"> 3] cf. 1 Tim. 5,17. 8] Es. 22,13. 1 Cor. 15, 32. 11] Rom. 8, 8. <lb/>
             15] cf. Ioh. 3, 34. 21] Eph. 6, 12. </note>
-
-<note type="footnote"> f <lb/>
-            11 nostras <hi rend="italic">BG,</hi> uestras <hi rend="italic">Gel</hi> 12 in <hi rend="italic">add. Lat</hi> 20 illi <hi rend="italic">Gel:</hi> alii <hi rend="italic">B</hi> <lb/>
+               <note type="footnote"> f <lb/>
+            11 nostras <hi rend="italic">BG,</hi> uestras <hi rend="italic">Gel</hi> 12 in <hi rend="italic">add. Lat</hi> 20 illi <hi rend="italic">Gel:</hi> alii <hi rend="italic">B</hi>
+                  <lb/>
             23 potentes <hi rend="italic">Lat</hi> spiritus <hi rend="italic">fort</hi>. 25 saginator <hi rend="italic">Gel</hi> 26 necessarior <hi rend="italic">fort</hi>. <lb/>
-            27 Explicit de ieiunio aduersus psychicos. <hi rend="italic">B</hi></note> 
-</p>
-<pb n="298"/>
-            
-
-</div>
-
-</div>
-</body>
-</text>
+            27 Explicit de ieiunio aduersus psychicos. <hi rend="italic">B</hi>
+               </note>
+            </p>
+            <pb n="298"/>
+         </div>
+      </body>
+   </text>
 </TEI>

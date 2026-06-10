@@ -1,115 +1,123 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader xml:lang="eng">
-    <fileDesc>
-      <titleStmt>
-        <title xml:lang="lat">Eucharisticum de Vita Sua</title>
-        <author xml:lang="lat">Magnus Felix Ennodius</author>
-        <editor>Wilhelm Hartel</editor>        
-        <sponsor>University of Leipzig</sponsor>
-        <funder>European Social Fund Saxony</funder>
-        <principal>Gregory Crane</principal>
-        <respStmt>
-          <persName xml:id="Jouve">Jouve</persName>
-          <resp>OCR-ed, corrected and encoded the text</resp>
-        </respStmt>
-        <respStmt>
-          <persName>Greta Franzini</persName>
-          <resp>Project Manager (University of Leipzig)</resp>
-        </respStmt>
-        <respStmt>
-          <persName>Simona Stoyanova</persName>
-          <resp>Project Assistant (University of Leipzig)</resp>
-        </respStmt>
-        <respStmt>
-          <persName>Bruce Robertson</persName>
-          <resp>Technical Advisor (Mount Allison University)</resp>
-        </respStmt>
-        <respStmt>
-          <persName>Uvius Fonticola</persName>
-          <resp>Technical Advisor (Ludwig Maximilians University Munich)</resp>
-        </respStmt>
-      </titleStmt>
-      
-      <publicationStmt>
-        <authority>University of Leipzig</authority>
-        <idno type="filename">stoa0114a.stoa011.opp-lat1.xml</idno>
-        <availability>
-          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
-        </availability>
-        <date>2014</date>
-        <publisher>University of Leipzig</publisher>
-        <pubPlace>Germany</pubPlace>
-      </publicationStmt>
-      
-      <sourceDesc>
-        <listBibl>
-          <biblStruct>
-            <monogr>
-              <editor>
-                <persName>
-                  <name>Wilhelm Hartel</name>
-                </persName>
-              </editor> 
-              <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0114a">Ennodius</author>  
-              <title xml:lang="lat">Magni Felicis Ennodii Opera Omnia</title>
-              <imprint>
-                <publisher>Gerold</publisher>
-                <pubPlace>Vienna</pubPlace>
-                <date>1882</date>
-              </imprint>
-            </monogr>
-            <series>
-              <title xml:lang="lat">Corpus Scriptorum Ecclesiasticorum Latinorum</title>
-              <biblScope unit="volume">6</biblScope>
-            </series>
-            <ref target="http://archive.org/stream/corpusscriptoru13wissgoog#page/400/mode/2up">Internet Archive</ref>            
-          </biblStruct>
-        </listBibl>
-      </sourceDesc>
-      
-    </fileDesc>
-    <encodingDesc>
-      <p>The following text is encoded in accordance with EpiDoc standards and with the
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="eng">
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="lat">Eucharisticum de Vita Sua</title>
+            <author xml:lang="lat">Magnus Felix Ennodius</author>
+            <editor>Wilhelm Hartel</editor>
+            <sponsor>University of Leipzig</sponsor>
+            <funder>European Social Fund Saxony</funder>
+            <principal>Gregory Crane</principal>
+            <respStmt>
+               <persName xml:id="Jouve">Jouve</persName>
+               <resp>OCR-ed, corrected and encoded the text</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Greta Franzini</persName>
+               <resp>Project Manager (University of Leipzig)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Simona Stoyanova</persName>
+               <resp>Project Assistant (University of Leipzig)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Bruce Robertson</persName>
+               <resp>Technical Advisor (Mount Allison University)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Uvius Fonticola</persName>
+               <resp>Technical Advisor (Ludwig Maximilians University Munich)</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>University of Leipzig</authority>
+            <idno type="filename">stoa0114a.stoa011.opp-lat1.xml</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
+            </availability>
+            <date>2014</date>
+            <publisher>University of Leipzig</publisher>
+            <pubPlace>Germany</pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <name>Wilhelm Hartel</name>
+                        </persName>
+                     </editor>
+                     <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0114a">Ennodius</author>
+                     <title xml:lang="lat">Magni Felicis Ennodii Opera Omnia</title>
+                     <imprint>
+                        <publisher>Gerold</publisher>
+                        <pubPlace>Vienna</pubPlace>
+                        <date>1882</date>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title xml:lang="lat">Corpus Scriptorum Ecclesiasticorum Latinorum</title>
+                     <biblScope unit="volume">6</biblScope>
+                  </series>
+                  <ref target="http://archive.org/stream/corpusscriptoru13wissgoog#page/400/mode/2up">Internet Archive</ref>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>The following text is encoded in accordance with EpiDoc standards and with the
         CTS/CITE Architecture. 
 </p>
-      <refsDecl n="CTS">
-        <cRefPattern n="paragraph" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:p[@n='$1'])"/>
-      </refsDecl>
-    </encodingDesc>
-    
-    <profileDesc>
-      <langUsage>
-        <language ident="lat">Latin</language>
-      </langUsage>
-    </profileDesc>
-    
-</teiHeader>
-<text>
-<body>
-<div type="edition" xml:lang="lat" n="urn:cts:latinLit:stoa0114a.stoa011.opp-lat1">
-<ab>
-            <title type="sub">V. [EVCHARISTICVM DE VITA SVA.] IN NOMINE PATRIS ET FILII ET SPIRITVS SANCTI. </title>
-          </ab>
-          <p n="1" rend="script">Oraculum est scientissimi doctoris gentium quod pariat infirmitas <lb n="20"/>
+         <refsDecl n="CTS">
+            <cRefPattern n="paragraph"
+                         matchPattern="(.+)"
+                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:p[@n='$1'])"/>
+         </refsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <catRef scheme="#perseus-genre"
+                    target="#prose-standard"
+                    cert="low"
+                    resp="#corpus-tools"/>
+         </textClass>
+         <langUsage>
+            <language ident="lat">Latin</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"
+              xml:lang="lat"
+              n="urn:cts:latinLit:stoa0114a.stoa011.opp-lat1">
+            <ab>
+               <title type="sub">V. [EVCHARISTICVM DE VITA SVA.] IN NOMINE PATRIS ET FILII ET SPIRITVS SANCTI. </title>
+            </ab>
+            <p n="1" rend="script">Oraculum est scientissimi doctoris gentium quod pariat infirmitas <lb n="20"/>
             nostra potentiam et quod terrena in contritione anima <lb/>
             conualescat, cum uirtus, quae de substantia carnis fluxerit,
 
 <note type="footnote"> 20 11 Cor. 12, 9 </note>
-
-<note rend="script" type="footnote"> 1 exhistendo <hi rend="italic">B</hi> totum <hi rend="italic">B</hi> dni <hi rend="italic">T</hi> 8 acfeotione <hi rend="italic">L</hi> <lb/>
+               <note rend="script" type="footnote"> 1 exhistendo <hi rend="italic">B</hi> totum <hi rend="italic">B</hi> dni <hi rend="italic">T</hi> 8 acfeotione <hi rend="italic">L</hi>
+                  <lb/>
             B <lb/>
             colliget <hi rend="italic">B</hi> 4 depones <hi rend="italic">B</hi> 6 adstutia <hi rend="italic">L,</hi> astudia <hi rend="italic">B</hi> 10 reperent <lb/>
-            <hi rend="italic">T</hi> 11 silnae (ae <hi rend="italic">corr.) B</hi> admonet <hi rend="italic">T</hi> 15 p<foreign xml:lang="grc">̃</foreign>ripiat <lb/>
+                  <hi rend="italic">T</hi> 11 silnae (ae <hi rend="italic">corr.) B</hi> admonet <hi rend="italic">T</hi> 15 p<foreign xml:lang="grc">̃</foreign>ripiat <lb/>
             uda <lb/>
-            <hi rend="italic">L1</hi> 16 explica <hi rend="italic">B</hi> Explicit uita beati (beatissimi <hi rend="italic">T)</hi> antoni <lb/>
-            (antonii <hi rend="italic">LTV)</hi> feliciter <hi rend="italic">BLTY</hi> </note>
-
-<note type="footnote">V. Eucharisticum de uita sua <hi rend="italic">ad Paulini Burdegalensis exemplum<lb/>
+                  <hi rend="italic">L1</hi> 16 explica <hi rend="italic">B</hi> Explicit uita beati (beatissimi <hi rend="italic">T)</hi> antoni <lb/>
+            (antonii <hi rend="italic">LTV)</hi> feliciter <hi rend="italic">BLTY</hi>
+               </note>
+               <note type="footnote">V. Eucharisticum de uita sua <hi rend="italic">ad Paulini Burdegalensis exemplum<lb/>
              inscr. Sirm., inscriptionem om. BLTV,</hi> Idem ad eundem <hi rend="italic">(praecedit <lb/>
             Epist. VIIII14</hi> Ennodius Hilpidiari <hi rend="italic">inscripta) b</hi> 20 eft <hi rend="italic">T 8.1</hi>. <lb/>
-            21 in <hi rend="italic">om. Sirm</hi>. 22 conualiscat <hi rend="italic">B</hi> cum] cur <hi rend="italic">B</hi> </note><lb/>
-             
-<pb n="394"/>
+            21 in <hi rend="italic">om. Sirm</hi>. 22 conualiscat <hi rend="italic">B</hi> cum] cur <hi rend="italic">B</hi>
+               </note>
+               <lb/>
+               <pb n="394"/>
             currat ad spiritum et dum labefactatio nostra caelestem hominem <lb/>
             et in diuina locandum arce conponit ad frugem spiritus. sic, <lb/>
             quando sine cultura aut messe sunt corpora, dulce est, et cum <lb/>
@@ -134,24 +142,29 @@
             nobili et dulcissima molestiarum nostrarum passione <lb/>
             conprimere. 
 </p>
-          <p n="2" rend="script">Ecce ego ille, qui in longum ducta mihi alacritate plaudebam, <lb/>
+            <p n="2" rend="script">Ecce ego ille, qui in longum ducta mihi alacritate plaudebam, <lb/>
             qua dum perpeti fruerer, quasi nulla intermissione<lb n="25"/>
             solueretur, quaerebam qualiter peccati stipendium mors <lb/>
             ueniret. nam eleuatus insanis successibus poetarum me
 
-<note rend="script" type="footnote"> 1 ad] sed <hi rend="italic">B</hi> 2 conponat <hi rend="italic">B</hi> sic <hi rend="italic">scripsi,</hi> die <hi rend="italic">B,</hi> si <hi rend="italic">LPTVb</hi> <lb/>
-            3 daloe Set <hi rend="italic">V,</hi> dulcê et <hi rend="italic">(t ex</hi> c <hi rend="italic">corr.) L,</hi> dulce esset <hi rend="italic">T,</hi> dulcem esse <hi rend="italic">B,</hi> <lb/>
+<note rend="script" type="footnote"> 1 ad] sed <hi rend="italic">B</hi> 2 conponat <hi rend="italic">B</hi> sic <hi rend="italic">scripsi,</hi> die <hi rend="italic">B,</hi> si <hi rend="italic">LPTVb</hi>
+                  <lb/>
+            3 daloe Set <hi rend="italic">V,</hi> dulcê et <hi rend="italic">(t ex</hi> c <hi rend="italic">corr.) L,</hi> dulce esset <hi rend="italic">T,</hi> dulcem esse <hi rend="italic">B,</hi>
+                  <lb/>
             daloesset P, dnlcessit <hi rend="italic">b</hi> 5 paaperetate <hi rend="italic">B</hi> 6 post deum debitur <lb/>
-            <hi rend="italic">B,</hi> debetur post deum <hi rend="italic">LTV</hi> 7 uotiba febriua <hi rend="italic">B</hi> 8 anplectenda <lb/>
-            <hi rend="italic">B</hi> 9 ambitione <hi rend="italic">Pb,</hi> habitatione <hi rend="italic">B</hi> suspitatis<lb/>
-            <hi rend="italic">B</hi> laetatnr] <hi rend="italic">l <hi rend="intraline">agi s</hi>/////mar B</hi> 10 langoribus <hi rend="italic">T</hi> 11 diuturna <hi rend="italic">b,</hi> <lb/>
+                  <hi rend="italic">B,</hi> debetur post deum <hi rend="italic">LTV</hi> 7 uotiba febriua <hi rend="italic">B</hi> 8 anplectenda <lb/>
+                  <hi rend="italic">B</hi> 9 ambitione <hi rend="italic">Pb,</hi> habitatione <hi rend="italic">B</hi> suspitatis<lb/>
+                  <hi rend="italic">B</hi> laetatnr] <hi rend="italic">l <hi rend="intraline">agi s</hi>/////mar B</hi> 10 langoribus <hi rend="italic">T</hi> 11 diuturna <hi rend="italic">b,</hi>
+                  <lb/>
             diainae Sirm. 12 diuinum] omnium <hi rend="italic">Sirm</hi>. 15 penitentiam <hi rend="italic">B<lb/>
              LTV</hi> nolueras <hi rend="italic">L,</hi> praeualueraa <hi rend="italic">Schottus in mg. et Sirm</hi>. <lb/>
             16 cognosocens <hi rend="italic">B</hi> 17 dispensatione <hi rend="italic">(pr</hi>. i <hi rend="italic">in ras.) B</hi> suptili <lb/>
-            <hi rend="italic">B</hi> iteneribus <hi rend="italic">B</hi> 19 nos <hi rend="italic">ex</hi> fi <hi rend="italic">corr. B</hi> 20 ualimus <hi rend="italic">B</hi> <lb/>
-            adsaiscimus ceperelcutiente <hi rend="italic">B</hi> 21 uillitatis <hi rend="italic">B</hi> </note><lb/>
-             
-<pb n="395"/>
+                  <hi rend="italic">B</hi> iteneribus <hi rend="italic">B</hi> 19 nos <hi rend="italic">ex</hi> fi <hi rend="italic">corr. B</hi> 20 ualimus <hi rend="italic">B</hi>
+                  <lb/>
+            adsaiscimus ceperelcutiente <hi rend="italic">B</hi> 21 uillitatis <hi rend="italic">B</hi>
+               </note>
+               <lb/>
+               <pb n="395"/>
             gregi ignarus uenerandae professionis indideram: delectabant <lb/>
             carmina quadratis. fabricata particulis et ordinata pedum <lb/>
             uarietate solidata: angelorum choris me fluxum aut tenerum <lb/>
@@ -178,22 +191,25 @@
             adhuc aliqua de superstitioso, tamen iam de superstite nihil
 
 <note type="footnote"> 11 cf. Ps. 2, 4 18 cf. Bom. 7, 24 </note>
-
-<note rend="script" type="footnote"> 1 nenerande <hi rend="italic">B</hi> inaddideram <hi rend="italic">(alt</hi>. i <hi rend="italic">corr.) B</hi> 2 perticnlis <lb/>
-            <hi rend="italic">V*</hi> 3 soldata <hi rend="italic">B</hi> 4 poaema <hi rend="italic">B</hi> 6 mortales <hi rend="italic">B</hi> 8 flagitibus<lb/>
-             <hi rend="italic">B,</hi> plansibus <hi rend="italic">coni. Schottus</hi> 9 nertix <hi rend="italic">B</hi> mendatibus <lb/>
-            <hi rend="italic">B</hi> inlusus <hi rend="italic">fort</hi>. 10 credit <hi rend="italic">B</hi> abentium <hi rend="italic">B</hi> inperari <lb/>
-            <hi rend="italic">B</hi> 12 deliniunt <hi rend="italic">P,</hi> dilininnt <hi rend="italic">BLTV</hi> tua <hi rend="italic">B</hi> 14 retoricis <lb/>
+               <note rend="script" type="footnote"> 1 nenerande <hi rend="italic">B</hi> inaddideram <hi rend="italic">(alt</hi>. i <hi rend="italic">corr.) B</hi> 2 perticnlis <lb/>
+                  <hi rend="italic">V*</hi> 3 soldata <hi rend="italic">B</hi> 4 poaema <hi rend="italic">B</hi> 6 mortales <hi rend="italic">B</hi> 8 flagitibus<lb/>
+                  <hi rend="italic">B,</hi> plansibus <hi rend="italic">coni. Schottus</hi> 9 nertix <hi rend="italic">B</hi> mendatibus <lb/>
+                  <hi rend="italic">B</hi> inlusus <hi rend="italic">fort</hi>. 10 credit <hi rend="italic">B</hi> abentium <hi rend="italic">B</hi> inperari <lb/>
+                  <hi rend="italic">B</hi> 12 deliniunt <hi rend="italic">P,</hi> dilininnt <hi rend="italic">BLTV</hi> tua <hi rend="italic">B</hi> 14 retoricis <lb/>
             a <lb/>
-            <hi rend="italic">B</hi> poaeticis <hi rend="italic">B,</hi> potieis <hi rend="italic">L</hi> lepns <hi rend="italic">Bb</hi> 16 nenae <hi rend="italic">Bb</hi> <lb/>
-            landationes <hi rend="italic">B</hi> (e <hi rend="italic">corr. uidetur) b</hi> adsurgere <hi rend="italic">B,</hi> occupari <hi rend="italic">LPTYb,</hi> <lb/>
+                  <hi rend="italic">B</hi> poaeticis <hi rend="italic">B,</hi> potieis <hi rend="italic">L</hi> lepns <hi rend="italic">Bb</hi> 16 nenae <hi rend="italic">Bb</hi>
+                  <lb/>
+            landationes <hi rend="italic">B</hi> (e <hi rend="italic">corr. uidetur) b</hi> adsurgere <hi rend="italic">B,</hi> occupari <hi rend="italic">LPTYb,</hi>
+                  <lb/>
             aucnpari <hi rend="italic">Sirm. idmgue Schottus</hi> coni. erat] et <hi rend="italic">B</hi> porandi<lb/>
-             (an in <hi rend="italic">ras.) L</hi> 17 cnpiditate-p. 396, <hi rend="italic">25</hi> redneit om. <hi rend="italic">B fol. 192r</hi> <lb/>
+             (an in <hi rend="italic">ras.) L</hi> 17 cnpiditate-p. 396, <hi rend="italic">25</hi> redneit om. <hi rend="italic">B fol. 192r</hi>
+                  <lb/>
             uacuo <hi rend="italic">relicto</hi> mercari] inani <hi rend="italic">uel</hi> saeonlari <hi rend="italic">fort.,</hi> an landem mercari<lb/>
              9 21 est <hi rend="italic">T 8. l</hi>. m. <hi rend="italic">2</hi> 22 naturalis <hi rend="italic">LPTV</hi> reserebat <lb/>
-            <hi rend="italic">T1</hi> 23 nam] non <hi rend="italic">L</hi> et quamuis <hi rend="italic">T</hi> </note><lb/>
-             
-<pb n="396"/>
+                  <hi rend="italic">T1</hi> 23 nam] non <hi rend="italic">L</hi> et quamuis <hi rend="italic">T</hi>
+               </note>
+               <lb/>
+               <pb n="396"/>
             habebam. hoc solum remanserat de conscientia uiuentis, quod <lb/>
             a te, deus meus, sanari me posse confidebam, quem ad commotionem <lb/>
             errore produxeram. nec tamen uastatrix illa et <lb/>
@@ -204,9 +220,8 @@
             amantes mei longa calamitas, urebat inimicos: alios desperatio <lb/>
             obitus mei, alios angebat instantia: concors erat ciuitatis in <lb/>
             studii diuisione sententia. <lb n="10"/>
-            
-</p>
-          <p n="3" rend="script">Interea me edax ignis interno uastabat officio et continuis <lb/>
+            </p>
+            <p n="3" rend="script">Interea me edax ignis interno uastabat officio et continuis <lb/>
             curantium nutribatur studiis. nam quasi morbos aleret, ita <lb/>
             quicquid contra ipsos prouidebatur accessit. tunc illa saecularis <lb/>
             pompae philosophia Hippocratis et Galeni contrita subsidiis, ad <lb/>
@@ -225,18 +240,21 @@
             nam cum unus se ex his, qui adsidebant mihi et per
 
 <note type="footnote"> 25 1 Reg. 2, 6 27 Esai. 50, 6. 68, 9 </note>
-
-<note type="footnote"> 1 habeam T* 2 sanari (ari <hi rend="italic">corr.) L</hi> commonitionem <hi rend="italic">T</hi> <lb/>
+               <note type="footnote"> 1 habeam T* 2 sanari (ari <hi rend="italic">corr.) L</hi> commonitionem <hi rend="italic">T</hi>
+                  <lb/>
             3 perduxeram <hi rend="italic">Pb;</hi> errores perdnxerant coni. <hi rend="italic">Schottus</hi> 4 cumclauibus <lb/>
-            <hi rend="italic">Tl</hi> 7 correctione <hi rend="italic">T</hi> 8 amantis <hi rend="italic">libri,</hi> em. <hi rend="italic">Sirm</hi>. <lb/>
+                  <hi rend="italic">Tl</hi> 7 correctione <hi rend="italic">T</hi> 8 amantis <hi rend="italic">libri,</hi> em. <hi rend="italic">Sirm</hi>. <lb/>
             inimieuB libri, em. <hi rend="italic">Sirm</hi>. alius — aliud <hi rend="italic">libri,</hi> em. <hi rend="italic">Sirm</hi>. <lb/>
-            12 nutriebatnr <hi rend="italic">Pb</hi> 14 yppocratis <hi rend="italic">LPTV</hi> galieni <hi rend="italic">LPTV</hi> <lb/>
+            12 nutriebatnr <hi rend="italic">Pb</hi> 14 yppocratis <hi rend="italic">LPTV</hi> galieni <hi rend="italic">LPTV</hi>
+                  <lb/>
             nntrita <hi rend="italic">fort</hi>. 17 mensam <hi rend="italic">LV,</hi> mensuum <hi rend="italic">fort,</hi> 21 manserint <lb/>
-            <hi rend="italic">pro</hi> manderint <hi rend="italic">dixisse uidetur, cf. Wiener Studien II p. 846</hi> <lb/>
+                  <hi rend="italic">pro</hi> manderint <hi rend="italic">dixisse uidetur, cf. Wiener Studien II p. 846</hi>
+                  <lb/>
             22 maetu <hi rend="italic">V</hi> 28 ca<foreign xml:lang="grc">̃</foreign>rmini <hi rend="italic">T</hi> 26 or <hi rend="italic">L</hi> dicet <hi rend="italic">B</hi> 27 ex <lb/>
-            <hi rend="italic">Om. B</hi> adsedebant <hi rend="italic">B</hi> </note><lb/>
-             
-<pb n="397"/>
+                  <hi rend="italic">Om. B</hi> adsedebant <hi rend="italic">B</hi>
+               </note>
+               <lb/>
+               <pb n="397"/>
             singulos dies ditabant inaequalitatem meam dispendio facultatum, <lb/>
             lassatum se fuisse testaretur nec aliquid remansisse <lb/>
             quod fieret, ilico mihi spem uitae detulit desperatio curatoris. <lb/>
@@ -265,19 +283,25 @@
             quia, cum sit illius quod uocamur, illius quod uocati
 
 <note type="footnote"> 16 of. Hier. 9, 21 </note>
-
-<note rend="script" type="footnote"> 3 ferit <hi rend="italic">B</hi> illico <hi rend="italic">B</hi> disperatio <hi rend="italic">B</hi> 4 promptiora. <hi rend="italic">B,</hi> <lb/>
-            pptiora <hi rend="italic">L</hi> iubabinis <hi rend="italic">B</hi> 5 infaucta <hi rend="italic">L1</hi> langentibus <hi rend="italic">T</hi> <lb/>
-            6 martiris <hi rend="italic">B</hi> 7 praecatus <hi rend="italic">B</hi> aleganda <hi rend="italic">B,</hi> adlleganda <hi rend="italic">T</hi> <lb/>
-            9 suos <hi rend="italic">B a. L,</hi> tuos <hi rend="italic">L1</hi> 10 extrimam <hi rend="italic">B</hi> 12 babtismatis <hi rend="italic">B\'</hi> <lb/>
+               <note rend="script" type="footnote"> 3 ferit <hi rend="italic">B</hi> illico <hi rend="italic">B</hi> disperatio <hi rend="italic">B</hi> 4 promptiora. <hi rend="italic">B,</hi>
+                  <lb/>
+            pptiora <hi rend="italic">L</hi> iubabinis <hi rend="italic">B</hi> 5 infaucta <hi rend="italic">L1</hi> langentibus <hi rend="italic">T</hi>
+                  <lb/>
+            6 martiris <hi rend="italic">B</hi> 7 praecatus <hi rend="italic">B</hi> aleganda <hi rend="italic">B,</hi> adlleganda <hi rend="italic">T</hi>
+                  <lb/>
+            9 suos <hi rend="italic">B a. L,</hi> tuos <hi rend="italic">L1</hi> 10 extrimam <hi rend="italic">B</hi> 12 babtismatis <hi rend="italic">B\'</hi>
+                  <lb/>
             14 fugat <hi rend="italic">B1</hi> 15 pTOritu <hi rend="italic">B, puritu (pr</hi>. u corr.) <hi rend="italic">L</hi> gustadi <lb/>
-            <hi rend="italic">B</hi> obleotione <hi rend="italic">L</hi> 16 fugendum <hi rend="italic">B</hi> 19 siquoliquaril <hi rend="italic">L</hi> <lb/>
+                  <hi rend="italic">B</hi> obleotione <hi rend="italic">L</hi> 16 fugendum <hi rend="italic">B</hi> 19 siquoliquaril <hi rend="italic">L</hi>
+                  <lb/>
             cibue <hi rend="italic">B</hi> communi <hi rend="italic">B</hi> 20 anullum praetiosum <hi rend="italic">B</hi> diuitia <lb/>
-            <hi rend="italic">B</hi> 21 seruasse <hi rend="italic">B</hi> praecatua <hi rend="italic">B</hi> 22 elictam <hi rend="italic">B</hi> demitteret <lb/>
-            <hi rend="italic">B</hi> 23 exhibere <hi rend="italic">B</hi> 24 cyrographo <hi rend="italic">L</hi> (p <hi rend="italic">ex f corr.) PTV,</hi> <lb/>
-            chyrografo <hi rend="italic">B</hi> </note><lb/>
-             
-<pb n="398"/>
+                  <hi rend="italic">B</hi> 21 seruasse <hi rend="italic">B</hi> praecatua <hi rend="italic">B</hi> 22 elictam <hi rend="italic">B</hi> demitteret <lb/>
+                  <hi rend="italic">B</hi> 23 exhibere <hi rend="italic">B</hi> 24 cyrographo <hi rend="italic">L</hi> (p <hi rend="italic">ex f corr.) PTV,</hi>
+                  <lb/>
+            chyrografo <hi rend="italic">B</hi>
+               </note>
+               <lb/>
+               <pb n="398"/>
             adquiescimus, a nobis tamquam sint orta munerantur, et uelle recta <lb/>
             et perficere ipse (dam) suggerit, tamen ceu pro nostra obnoxius <lb/>
             deuotione dat praemium. promisi etiam, si clarioris studii me <lb/>
@@ -296,7 +320,7 @@
             non ut pater foueret, nusquam uia salutis, nusquam euadendi <lb/>
             aditus pateret. 
 </p>
-          <p n="4" rend="script">Deus meus, redemptio mea, quae mihi occurrunt de his <lb/>
+            <p n="4" rend="script">Deus meus, redemptio mea, quae mihi occurrunt de his <lb/>
             quae fecisti mecum, quae de illis quae gessi aduersum me? <lb/>
             quae si conferantur, nullum tempus ant ope tua ant delicto <lb n="20"/>
             meo sit uacuum. libet ex innumeris in me conlationibus <lb/>
@@ -307,20 +331,22 @@
             superesset gladiis fames necaret, cum excelsa montium
 
 <note rend="script" type="footnote"> 1 tamquam <hi rend="italic">om. B</hi> horta <hi rend="italic">B</hi> 2 dum addidi, otn. libri sugerit<lb/>
-             <hi rend="italic">B</hi> 8 denotionis <hi rend="italic">B</hi> premium <hi rend="italic">V,</hi> studium <hi rend="italic">Pb</hi> 4 affectui<lb/>
+                  <hi rend="italic">B</hi> 8 denotionis <hi rend="italic">B</hi> premium <hi rend="italic">V,</hi> studium <hi rend="italic">Pb</hi> 4 affectui<lb/>
              b, affectum <hi rend="italic">LTV</hi> de] quod <hi rend="italic">(uel</hi> ut) de <hi rend="italic">fort</hi>. mee <hi rend="italic">B</hi> 5 procideret <lb/>
-            <hi rend="italic">B</hi> 6 litterem <hi rend="italic">B</hi> umquam <hi rend="italic">B</hi> curam <hi rend="italic">B</hi> seeularium <lb/>
-            <hi rend="italic">B</hi> 7 ezsecutione <hi rend="italic">LV</hi> auggellabar <hi rend="italic">B,</hi> sugillabat <hi rend="italic">L <lb/>
+                  <hi rend="italic">B</hi> 6 litterem <hi rend="italic">B</hi> umquam <hi rend="italic">B</hi> curam <hi rend="italic">B</hi> seeularium <lb/>
+                  <hi rend="italic">B</hi> 7 ezsecutione <hi rend="italic">LV</hi> auggellabar <hi rend="italic">B,</hi> sugillabat <hi rend="italic">L <lb/>
             TV</hi> 8 foeditatia <hi rend="italic">B,</hi> feditates <hi rend="italic">LTV</hi> abnuerem <hi rend="italic">scripsi,</hi> abnnere <lb/>
-            <hi rend="italic">libri</hi> uellee (ee corr.) <hi rend="italic">L</hi> 11 faisaet <hi rend="italic">B</hi> 13 tantum L* <lb/>
-            graciae <hi rend="italic">B</hi> felix] flexit <hi rend="italic">L</hi> 15 linquiret <hi rend="italic">B</hi> terriret <hi rend="italic">B</hi> <lb/>
+                  <hi rend="italic">libri</hi> uellee (ee corr.) <hi rend="italic">L</hi> 11 faisaet <hi rend="italic">B</hi> 13 tantum L* <lb/>
+            graciae <hi rend="italic">B</hi> felix] flexit <hi rend="italic">L</hi> 15 linquiret <hi rend="italic">B</hi> terriret <hi rend="italic">B</hi>
+                  <lb/>
             17 additus <hi rend="italic">T</hi> 19 que egessi <hi rend="italic">T,</hi> quae fecisti <hi rend="italic">Pb</hi> me] te fort. <lb/>
              20 si] sic <hi rend="italic">LV1</hi> dilectiomeo <hi rend="italic">B</hi> 22 populus <hi rend="italic">B</hi> 23 adtingerit <lb/>
-            <hi rend="italic">B</hi> 24 theodorici <hi rend="italic">T</hi> regis om. <hi rend="italic">T</hi> resuscitauidn|gressus <lb/>
-            <hi rend="italic">B</hi> 26 gladus <hi rend="italic">Lx</hi> famis necare <hi rend="italic">B</hi> mentium Lx oastorumque<lb/>
-             arcis <hi rend="italic">B</hi> </note><lb/>
-             
-<pb n="399"/>
+                  <hi rend="italic">B</hi> 24 theodorici <hi rend="italic">T</hi> regis om. <hi rend="italic">T</hi> resuscitauidn|gressus <lb/>
+                  <hi rend="italic">B</hi> 26 gladus <hi rend="italic">Lx</hi> famis necare <hi rend="italic">B</hi> mentium Lx oastorumque<lb/>
+             arcis <hi rend="italic">B</hi>
+               </note>
+               <lb/>
+               <pb n="399"/>
             castrorumque arces penuria perrumperet et in culminibus locatos <lb/>
             armis saeuior egestas obsideret, ego annorum ferme sedecim <lb/>
             amitae, quae me aluerat, ea tempestate solacio priuatus sum: <lb/>
@@ -349,18 +375,21 @@
             tuo uocem illam, quae directa est ad aures primi
 
 <note type="footnote"> 1 perrumperit <hi rend="italic">B</hi> locatos <hi rend="italic">B</hi> 2 aegestas <hi rend="italic">V</hi> obsederet <lb/>
-            <hi rend="italic">B</hi> «edecem <hi rend="italic">B</hi> 8 eolatio <hi rend="italic">LT</hi> priuata <hi rend="italic">L</hi> 4 distitutus <lb/>
-            <hi rend="italic">B</hi> 5 posset adfinitas: sed <hi rend="italic">fort</hi>. 6 orte <hi rend="italic">B</hi> et-tolerarem <lb/>
-            <hi rend="italic">B, om. LPTVb</hi> 7 exemplo <hi rend="italic">BL</hi> 8 conBuitam <hi rend="italic">B</hi> religionem <lb/>
-            <hi rend="italic">L</hi> 9 solatium <hi rend="italic">BLT</hi> respuerit <hi rend="italic">B</hi> 10 matrimonio <hi rend="italic">B</hi> <lb/>
+                  <hi rend="italic">B</hi> «edecem <hi rend="italic">B</hi> 8 eolatio <hi rend="italic">LT</hi> priuata <hi rend="italic">L</hi> 4 distitutus <lb/>
+                  <hi rend="italic">B</hi> 5 posset adfinitas: sed <hi rend="italic">fort</hi>. 6 orte <hi rend="italic">B</hi> et-tolerarem <lb/>
+                  <hi rend="italic">B, om. LPTVb</hi> 7 exemplo <hi rend="italic">BL</hi> 8 conBuitam <hi rend="italic">B</hi> religionem <lb/>
+                  <hi rend="italic">L</hi> 9 solatium <hi rend="italic">BLT</hi> respuerit <hi rend="italic">B</hi> 10 matrimonio <hi rend="italic">B</hi>
+                  <lb/>
             11 paruolam <hi rend="italic">B,</hi> paruulum <hi rend="italic">V1</hi> anteaeniret <hi rend="italic">scripsi,</hi> ad te ueniret <lb/>
-            <hi rend="italic">LPTVb,</hi> ad te uenire B <hi rend="italic">13 afluerem B 18 negligere BT</hi> <lb/>
+                  <hi rend="italic">LPTVb,</hi> ad te uenire B <hi rend="italic">13 afluerem B 18 negligere BT</hi>
+                  <lb/>
             19 animus (im <hi rend="italic">corr.) L</hi> 20 cõpugerer <hi rend="italic">Ll</hi> 21 eseet <hi rend="italic">PTb,</hi> isaet <lb/>
-            <hi rend="italic">BLV; qui fuisset fort</hi>. 22 <hi rend="italic">corrigitor T,</hi> corrigit <hi rend="italic">LVb,</hi> corriget <lb/>
-            <hi rend="italic">B</hi> iniusta <hi rend="italic">B</hi> ne <hi rend="italic">B</hi> 23 redigitur <hi rend="italic">scripsi,</hi> seditar <hi rend="italic">B,</hi> sedetur<lb/>
-             <hi rend="italic">LTVb</hi> sentia <hi rend="italic">B</hi> cadirem <hi rend="italic">B</hi> 25 reponis <hi rend="italic">LTVb</hi> </note><lb/>
-             
-<pb n="400"/>
+                  <hi rend="italic">BLV; qui fuisset fort</hi>. 22 <hi rend="italic">corrigitor T,</hi> corrigit <hi rend="italic">LVb,</hi> corriget <lb/>
+                  <hi rend="italic">B</hi> iniusta <hi rend="italic">B</hi> ne <hi rend="italic">B</hi> 23 redigitur <hi rend="italic">scripsi,</hi> seditar <hi rend="italic">B,</hi> sedetur<lb/>
+                  <hi rend="italic">LTVb</hi> sentia <hi rend="italic">B</hi> cadirem <hi rend="italic">B</hi> 25 reponis <hi rend="italic">LTVb</hi>
+               </note>
+               <lb/>
+               <pb n="400"/>
             parentis, accepi: Adam, ubi es? in confusione mea quantos <lb/>
             amiserim clementiae tuae thesauros et qua nudatus sim dote <lb/>
             numeraui: rerum a te conla.tarum aestimatio tunc concessa <lb/>
@@ -378,7 +407,7 @@
             et ut pares eius existamus imperiis, ipse nobisc.um quod<lb n="15"/>
             iniungit operetur.-
 </p>
-          <p n="5" rend="script">Haec et alia plura, sicut praefatus sum, per testem <lb/>
+            <p n="5" rend="script">Haec et alia plura, sicut praefatus sum, per testem <lb/>
             probatissimum beatum Victorem intimanda suggessi, nec <lb/>
             requies nec mora procuranda lentauit: petitionem meam <lb/>
             suscepit replicauit obtinuit. hoc amplius suffragator meus<lb n="20"/>
@@ -388,22 +417,26 @@
             fragilem in animi uirtute sequeremur et in actione nobili non
 
 <note type="footnote"> 1 Genes. 3, 9 </note>
-
-<note rend="script" type="footnote"> 1 parentea accipi <hi rend="italic">B</hi> quantus <hi rend="italic">B</hi> 2 dementiae Tl tensaurus <lb/>
-            <hi rend="italic">B</hi> sum <hi rend="italic">libri, em. Sirm</hi>. doce <hi rend="italic">B</hi> 4 erunnas <hi rend="italic">B,</hi> <lb/>
+               <note rend="script" type="footnote"> 1 parentea accipi <hi rend="italic">B</hi> quantus <hi rend="italic">B</hi> 2 dementiae Tl tensaurus <lb/>
+                  <hi rend="italic">B</hi> sum <hi rend="italic">libri, em. Sirm</hi>. doce <hi rend="italic">B</hi> 4 erunnas <hi rend="italic">B,</hi>
+                  <lb/>
             erumpnas <hi rend="italic">T</hi> 5 quidem alio <hi rend="italic">LTV</hi> 6 itere <hi rend="italic">B</hi> 7 leuoitarum <lb/>
-            <hi rend="italic">B</hi> inpati <hi rend="italic">L</hi> 8 praemibat <hi rend="italic">B</hi> amoberet <hi rend="italic">B</hi> aenerande <lb/>
+                  <hi rend="italic">B</hi> inpati <hi rend="italic">L</hi> 8 praemibat <hi rend="italic">B</hi> amoberet <hi rend="italic">B</hi> aenerande <lb/>
             me praessura <hi rend="italic">B</hi> 9 habuit et <hi rend="italic">B</hi> 10 inebriatu <hi rend="italic">B</hi> 11 uenifico <lb/>
-            <hi rend="italic">LPTV,</hi> nenibico <hi rend="italic">B</hi> inatructa (u <hi rend="italic">corr.) B</hi> 18 potest <hi rend="italic">B</hi> <lb/>
+                  <hi rend="italic">LPTV,</hi> nenibico <hi rend="italic">B</hi> inatructa (u <hi rend="italic">corr.) B</hi> 18 potest <hi rend="italic">B</hi>
+                  <lb/>
             14 praecipet <hi rend="italic">B,</hi> praecepit <hi rend="italic">b</hi> 15 pces <hi rend="italic">T</hi> ezhistamus <hi rend="italic">B,</hi> existimentur <lb/>
-            <hi rend="italic">T,</hi> ezistamoretar (mus — iniungit op <hi rend="italic">om.) L</hi> inperiis <hi rend="italic">B</hi> <lb/>
+                  <hi rend="italic">T,</hi> ezistamoretar (mus — iniungit op <hi rend="italic">om.) L</hi> inperiis <hi rend="italic">B</hi>
+                  <lb/>
             et <lb/>
             17 cetalia <hi rend="italic">B</hi> per testem probatissimum <hi rend="italic">L 8. l</hi>. 20 optenuit <lb/>
-            B anplius <hi rend="italic">B</hi> 21 poposcit <hi rend="italic">B</hi> 22 parilitatem <hi rend="italic">LPTVb</hi> <lb/>
+            B anplius <hi rend="italic">B</hi> 21 poposcit <hi rend="italic">B</hi> 22 parilitatem <hi rend="italic">LPTVb</hi>
+                  <lb/>
             subiugari <hi rend="italic">om. LPTVb</hi> patiretur <hi rend="italic">B</hi> 23 fhrit <hi rend="italic">B</hi> sexum <lb/>
-            <hi rend="italic">LPTV,</hi> serum <hi rend="italic">b alterum</hi> in om. <hi rend="italic">LPTVb</hi> </note><lb/>
-             
-<pb n="401"/>
+                  <hi rend="italic">LPTV,</hi> serum <hi rend="italic">b alterum</hi> in om. <hi rend="italic">LPTVb</hi>
+               </note>
+               <lb/>
+               <pb n="401"/>
             tantum excelleret merito, quantum femineae inbecillitatis sequi <lb/>
             uidetur optentu! illa pretiosae uigore constantiae mala carnis <lb/>
             nota perdomuit et affectiosam seruauit pudicitiam non coactam. <lb/>
@@ -414,11 +447,9 @@
             quae noueras, et in ea tantum fui fidelis parte, ut non raperem <lb/>
             quod tenebas. adesto, rex gloriae, adesto supplicanti <lb/>
             et secundum benignitatis tuae consuetudinem secutura dispone. <lb n="10"/>
-            
-</p>
-          <p n="6">GLORIA PATRI ET FILIO ET SPIRITVI SANCTO.</p>
- 
-</div>
-</body>
-</text>
+            </p>
+            <p n="6">GLORIA PATRI ET FILIO ET SPIRITVI SANCTO.</p>
+         </div>
+      </body>
+   </text>
 </TEI>
