@@ -75,7 +75,7 @@
          <refsDecl n="CTS" xml:id="CTS">
             <citeStructure match="/TEI/text/body" use="@xml:base">
                <citeStructure unit="epistle"
-                              delim="."
+                              delim=":"
                               match=".//div[@type='textpart'][@subtype='epistle' or @subtype='letter']"
                               use="@n"/>
             </citeStructure>
