@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/PerseusDLCode/perseus-schemas/main/perseus_prose.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -40,6 +40,7 @@
             <date>2014</date>
             <publisher>University of Leipzig</publisher>
             <pubPlace>Germany</pubPlace>
+            <idno type="CTS">urn:cts:latinLit:stoa0180a.stoa005.opp-lat1</idno>
          </publicationStmt>
          <sourceDesc>
             <listBibl>
@@ -71,18 +72,18 @@
          <p>The following text is encoded in accordance with EpiDoc standards and with the
         CTS/CITE Architecture. 
 </p>
-         <refsDecl n="CTS">
-            <cRefPattern n="letter"
-                         matchPattern="(.+)"
-                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1'])"/>
+         <refsDecl n="CTS" xml:id="CTS">
+            <citeStructure match="/TEI/text/body" use="@xml:base">
+               <citeStructure unit="epistle"
+                              delim=":"
+                              match=".//div[@type='textpart'][@subtype='epistle' or @subtype='letter']"
+                              use="@n"/>
+            </citeStructure>
          </refsDecl>
       </encodingDesc>
       <profileDesc>
          <textClass>
-            <catRef scheme="#perseus-genre"
-                    target="#prose-standard"
-                    cert="low"
-                    resp="#corpus-tools"/>
+            <catRef scheme="#perseus-genre" target="#prose-epistle"/>
          </textClass>
          <langUsage>
             <language ident="lat">Latin</language>
@@ -90,20 +91,17 @@
       </profileDesc>
    </teiHeader>
    <text>
-      <body>
-         <div type="edition"
-              xml:lang="lat"
-              n="urn:cts:latinLit:stoa0180a.stoa005.opp-lat1">
-            <head>
-               <title type="main">VI. EPISTVLAE LVCIFERI ET ALIORVM. </title>
-            </head>
-            <div n="1" subtype="letter" type="textpart">
-               <ab>
-                  <title>I. LVCIFERI PANCRATII HILARII AD EVSEBIVM EPISCOPVM EPISTVLA. </title>
-               </ab>
-               <p>DOMINO HONORIFICENTISSIMO EVSEBIO EPISCOPO LVCIFER EPISCOPVS PANCBATIVS PRESBVTER ET HILARIVS. 
+      <body xml:base="urn:cts:latinLit:stoa0180a.stoa005.opp-lat1">
+         <head>
+            <title type="main">VI. EPISTVLAE LVCIFERI ET ALIORVM. </title>
+         </head>
+         <div n="1" type="letter">
+            <ab>
+               <title>I. LVCIFERI PANCRATII HILARII AD EVSEBIVM EPISCOPVM EPISTVLA. </title>
+            </ab>
+            <p>DOMINO HONORIFICENTISSIMO EVSEBIO EPISCOPO LVCIFER EPISCOPVS PANCBATIVS PRESBVTER ET HILARIVS. 
 </p>
-               <p>Calcato capite diaboli et suggestionibus prauis, domine <lb/>
+            <p>Calcato capite diaboli et suggestionibus prauis, domine <lb/>
             sancte, gratiam tibi a domino nostro concessam rogamus noli <lb/>
             negligere, sed ut quantocius inuadente (te) effugetur Arrianorum <lb n="10"/>
             dogma, iam accelerare dignare. scit enim dominus et <lb/>
@@ -119,20 +117,20 @@
             dominus te gloriosum conseruet, sanctissime ac beatissime.
 
 <note type="footnote">
-                     <hi rend="italic">I. Hanc epistulam ex Coletorum editione recepi; exstat ■etiam apud <lb/>
+                  <hi rend="italic">I. Hanc epistulam ex Coletorum editione recepi; exstat ■etiam apud <lb/>
             Baronium ad annum 355 m. VIII</hi> 10 inuadente te <hi rend="italic">scripsi,</hi> inuadens <lb/>
-                     <hi rend="italic">coni. Coleti</hi> 18 spiritaalem <hi rend="italic">uel</hi> specialem <hi rend="italic">uulgo</hi>
-                  </note>
-               </p>
-               <pb n="320"/>
-            </div>
-            <div n="2" subtype="letter" type="textpart">
-               <ab>
-                  <title>II.  LIBERII PAPAE AD LVCIFERVM IN EXSILIO CONSTITVTVM EPISTVLA. </title>
-               </ab>
-               <p>LIBERIVS EPISCOPVS DILECTISSIMO FRATRI LVCIFEEO. 
+                  <hi rend="italic">coni. Coleti</hi> 18 spiritaalem <hi rend="italic">uel</hi> specialem <hi rend="italic">uulgo</hi>
+               </note>
+            </p>
+            <pb n="320"/>
+         </div>
+         <div n="2" type="letter">
+            <ab>
+               <title>II.  LIBERII PAPAE AD LVCIFERVM IN EXSILIO CONSTITVTVM EPISTVLA. </title>
+            </ab>
+            <p>LIBERIVS EPISCOPVS DILECTISSIMO FRATRI LVCIFEEO. 
 </p>
-               <p>Quamuis sub imagine pacis humani generis inimicus uehementius <lb/>
+            <p>Quamuis sub imagine pacis humani generis inimicus uehementius <lb/>
             in membra ecclesiae uideatur esse grassatus, uos <lb/>
             tamen acceptissimos in domino sacerdotes egregia et singularis <lb/>
             fides et hic probabiles deo ostendit et iam ad futuram glorias: <lb/>
@@ -158,16 +156,16 @@
             perfidia uictoriam pertulistis, quorum quanto uiolentia in
 
 <note type="footnote"> n. <hi rend="italic">\'Apud Hilarium? exstat haec epistola fragm. VI. ex mss</hi>. Remig. <lb/>
-                     <hi rend="italic">et Pith. nec non apud Baronium ad an. 355 n. 32 et Stephanum <lb/>
+                  <hi rend="italic">et Pith. nec non apud Baronium ad an. 355 n. 32 et Stephanum <lb/>
             Ferrerium e tabulis Ecclesiae Vercellensis et Vaticano codice exscripta\'<lb/>
              Coustantius Epist. Summ. Pont</hi>. 7 acceptissimos <hi rend="italic">cod. Pith. et Ferr.,</hi>
-                     <lb/>
+                  <lb/>
             acceptissimi <hi rend="italic">Bar</hi>. in domino] deo <hi rend="italic">Ferr</hi>. 8 ostendit scripsi, <lb/>
             ostendet <hi rend="italic">v</hi> 25 si qui] qui <hi rend="italic">Bar. et Ferr</hi>. 26 cruentos gladios <hi rend="italic">Bar-</hi>
-                     <lb/>
-            fructus gladio <hi rend="italic">Pith. et Ferr.,</hi> strictos <hi rend="italic">uel</hi> ctudos gladios <hi rend="italic">fort</hi>. </note>
                   <lb/>
-                  <pb n="321"/>
+            fructus gladio <hi rend="italic">Pith. et Ferr.,</hi> strictos <hi rend="italic">uel</hi> ctudos gladios <hi rend="italic">fort</hi>. </note>
+               <lb/>
+               <pb n="321"/>
             saeculo crescere potuit, tanto sanctis sacerdotibus praemia laudis <lb/>
             inueniuntur conferre. estote itaque de promissione caelesti <lb/>
             securi, et quia proximiores estis deo effecti, uestris orationibus <lb/>
@@ -183,14 +181,14 @@
             de cohortatione uestra possint sentire. <hi rend="italic">[et alia manu]</hi> deus <lb/>
             uos incolumes custodiat, domini fratres. 
 </p>
-            </div>
-            <div n="3" subtype="letter" type="textpart">
-               <ab>
-                  <title>III.  FLORENTII AD LVCIFERVM EPISTVLA. </title>
-               </ab>
-               <p>DOMINO BENIGNISSIMO LVCIFERO FLORENTIVS. 
+         </div>
+         <div n="3" type="letter">
+            <ab>
+               <title>III.  FLORENTII AD LVCIFERVM EPISTVLA. </title>
+            </ab>
+            <p>DOMINO BENIGNISSIMO LVCIFERO FLORENTIVS. 
 </p>
-               <p rend="script">Nomine tuo codicem quidam domino et augusto nostro obtulit; <lb/>
+            <p rend="script">Nomine tuo codicem quidam domino et augusto nostro obtulit; <lb/>
             hunc ad sanctitatem tuam perferri mandauit et cognoscere <lb/>
             desiderat, si idem codex a te destinatus sit. id ergo, quod in <lb n="10"/>
             fide ueri est, perscribere debebis et codicem remittere, ut <lb/>
@@ -198,25 +196,25 @@
 
 <note rend="script" type="footnote"> 9 congressione] congregatione <hi rend="italic">Bar</hi>. 13 <hi rend="italic">uerba</hi> et alia manu <hi rend="italic">non <lb/>
             scribentis esse patet; huius clausulae loco [leguntur apud FerreriÚm:</hi>
-                     <lb/>
+                  <lb/>
             dens te incolumem custodiat, domine frater charissime: item ipse etmei <lb/>
             memor esse digneris <lb/>
             III. <hi rend="italic">Hanc epistulam quam Constantius imperator Luciferi libris de <lb/>
             S. Athanasio acceptis scribi iussit et reliquas codex V fol. 162 sq. hoc <lb/>
             ordine exhibet</hi> IXCIPIT EPISTOLA. FLORENTI AD LUCILFERU<foreign xml:lang="grc">̃</foreign> BPISCOPUIC <lb/>
             21 debebis <hi rend="italic">v,</hi> debeo is <hi rend="italic">V</hi>, </note>
-                  <note type="footnote"> XIIII. </note>
-                  <note type="footnote"> 21 </note>
-               </p>
-               <pb n="322"/>
-            </div>
-            <div n="4" subtype="letter" type="textpart">
-               <ab>
-                  <title>IIII.  LVCIFERI AD FLORENTIVM EPISTVLA. </title>
-               </ab>
-               <p>FLORENTIO MAGESTRO OFFICIORVM LUCIFER EPISCOPVS. 
+               <note type="footnote"> XIIII. </note>
+               <note type="footnote"> 21 </note>
+            </p>
+            <pb n="322"/>
+         </div>
+         <div n="4" type="letter">
+            <ab>
+               <title>IIII.  LVCIFERI AD FLORENTIVM EPISTVLA. </title>
+            </ab>
+            <p>FLORENTIO MAGESTRO OFFICIORVM LUCIFER EPISCOPVS. 
 </p>
-               <p>Codicis perlatorem quem memorat honorificentia tua nomine <lb/>
+            <p>Codicis perlatorem quem memorat honorificentia tua nomine <lb/>
             meo adisse imperatorem a mea fuisse destinatum mediocritate, <lb/>
             ipsum quoque codicem, ut es admonere dignatus, sollicite inspeetum <lb/>
             atque Bonoso in rebus agenti perferendum traditum <lb/>
@@ -226,14 +224,14 @@
             parantur necem stare laetos, cum causas cur tali scripserim\' <lb/>
             modo discutere coeperit, inueniet. 
 </p>
-            </div>
-            <div n="5" subtype="letter" type="textpart">
-               <ab>
-                  <title>V.  ATHANASII AD LVCIFERVM EPISTVLA. </title>
-               </ab>
-               <p>DOMINO DILECTISSIMO FRATEI LVCIFERO EPISCOPO ET CONFESSORI ATHANASIVS IN DOMINO SALVTEM. 
+         </div>
+         <div n="5" type="letter">
+            <ab>
+               <title>V.  ATHANASII AD LVCIFERVM EPISTVLA. </title>
+            </ab>
+            <p>DOMINO DILECTISSIMO FRATEI LVCIFERO EPISCOPO ET CONFESSORI ATHANASIVS IN DOMINO SALVTEM. 
 </p>
-               <p rend="script">Deo fauente corpore ualentes misimus etiam nunc carissimum <lb/>
+            <p rend="script">Deo fauente corpore ualentes misimus etiam nunc carissimum <lb/>
             nostrum Eutychetem diaconem, ut tua quoque religiosa <lb/>
             sanctitas, quod est nobis optandum et desiderabile, de tua <lb/>
             incolumitate tuorumque omnium certiores nos efficere dignetur. <lb/>
@@ -244,14 +242,14 @@
 
 <note rend="script" type="footnote"> IIII. <hi rend="italic">JSpistulam exh. V fol. 162 inscribens:</hi> FLORENTIO MAGISTRO <lb/>
             OFnciORUM LUCEFER <foreign xml:lang="grc">ΕΡ̃</foreign>S 8 informanda <hi rend="italic">coni. Tilius</hi> 11 letus r, <lb/>
-                     <hi rend="italic">em. 9</hi> talia <hi rend="italic">Papebrochius in tom. IV Maii Balland. cap. 2 comment. <lb/>
+                  <hi rend="italic">em. 9</hi> talia <hi rend="italic">Papebrochius in tom. IV Maii Balland. cap. 2 comment. <lb/>
             hist. de S. Lucifero</hi>
-                  </note>
-                  <note type="footnote">
-                     <hi rend="italic">V. Epistulam exh. V fol. 162b inscribens:</hi> DONINO — SALVTEM <lb/>
+               </note>
+               <note type="footnote">
+                  <hi rend="italic">V. Epistulam exh. V fol. 162b inscribens:</hi> DONINO — SALVTEM <lb/>
             18 daconen 19 obtandtun </note>
-                  <lb/>
-                  <pb n="323"/>
+               <lb/>
+               <pb n="323"/>
             antichristi per potentiam huius mundi omnia egerint, ut extinguerent <lb/>
             lucernam ueritatis, tamen diuinitas per uestram <lb/>
             confessionem clariorem eius lucem ostendit, ut neminem latere <lb/>
@@ -280,33 +278,33 @@
             domine dilectissime ac uere homo dei.
 
 <note rend="script" type="footnote"> 1 egeri///t ,5 . enim eos nos <hi rend="italic">Pap.</hi>. qui <hi rend="italic">Vv, em. Papebr</hi>. <lb/>
-                     <lb/>
+                  <lb/>
             7 luguet 8 disimulant <hi rend="italic">10 g exentes u iectigalia V, exigentes</hi> tributa <lb/>
-                     <hi rend="italic">Papebr</hi>. 12 et <hi rend="italic">V et Tilius in notis,</hi> et hi <hi rend="italic">v</hi> et hi — uterentur <lb/>
-                     <hi rend="italic">Papebr</hi>. 13 et superbias <hi rend="italic">om. Papebr</hi>. 15 magna <hi rend="italic">ow. Papebr</hi>. <lb/>
+                  <hi rend="italic">Papebr</hi>. 12 et <hi rend="italic">V et Tilius in notis,</hi> et hi <hi rend="italic">v</hi> et hi — uterentur <lb/>
+                  <hi rend="italic">Papebr</hi>. 13 et superbias <hi rend="italic">om. Papebr</hi>. 15 magna <hi rend="italic">ow. Papebr</hi>. <lb/>
             19 errantem <hi rend="italic">Baronius ad annum 356 n. LXXIV lucem Papebr</hi>. <lb/>
             21 destinere <hi rend="italic">1</hi> 24 saluta fort. 26 dei] <hi rend="italic">add</hi>. V: his acceptis <lb/>
             litteris beatus lucifer misit libros. quos ad constantium scripserat quos cum <lb/>
             legisset athanasius hanc infra epistulam misit domino gloriosissimo: etsi <lb/>
             credo <hi rend="italic">etc</hi>. </note>
-                  <note type="footnote"> 21* </note>
-               </p>
-               <pb n="324"/>
-            </div>
-            <div n="6" subtype="letter" type="textpart">
-               <ab>
-                  <title>VI.  ATHANASII AD LVCIFERVM EPISTVLA. </title>
-               </ab>
-               <p>DOMINO GLORIOSISSIMO AC MERITO DESIDERANТISSIМO COEPISCOPO LVCIFERO ATHANASIVS IN DOMINO SAXVTEM. 
+               <note type="footnote"> 21* </note>
+            </p>
+            <pb n="324"/>
+         </div>
+         <div n="6" type="letter">
+            <ab>
+               <title>VI.  ATHANASII AD LVCIFERVM EPISTVLA. </title>
+            </ab>
+            <p>DOMINO GLORIOSISSIMO AC MERITO DESIDERANТISSIМO COEPISCOPO LVCIFERO ATHANASIVS IN DOMINO SAXVTEM. 
 </p>
-               <p rend="script">Etsi credo peruenisse etiam ad sanctitatem tuam de persecutione,  <lb/>
+            <p rend="script">Etsi credo peruenisse etiam ad sanctitatem tuam de persecutione,  <lb/>
             quam etiam nunc aduersus fraternitatem facere <lb/>
             conati sunt inimici Christi quaerentes sanguinem nostrum. <lb/>
             possunt tamen etiam carissimi nostri referre religioni tuae; <lb/>
             in tantum enim rabiem suam per milites extendere ausi sunt <lb/>
             ut non solum ciuitatis clericos effugarent, sed etiam ad here <lb/>
             mias exirent et funestas suas manus aduersus <foreign xml:lang="grc">μονάξοντας</foreign>
-                  <lb/>
+               <lb/>
             inmitterent. inde factum est ut etiam ego me longius abducerem, <lb/>
             ne etiam qui nos susceperunt negotium ab eisdem <lb/>
             paterentur. cui etenim parcent Arriani qui nec animis suis <lb/>
@@ -322,20 +320,20 @@
              quia dereliquistis dominum</hi>. inde beatissimus Paulus cum I <lb/>
             coepisset non tantum credere in filium dei, uerum etiam praedicare<lb n="25"/>
             deitatem ipsius, scribebat: <hi rend="italic">in nullo mihi mali con</hi>. I <lb/>
-                  <hi rend="italic">scius sum</hi>. ita iuxta uestram confessionem etiam nos optamus I
+               <hi rend="italic">scius sum</hi>. ita iuxta uestram confessionem etiam nos optamus I
 
 <note type="footnote"> 15 Pa. 18, 1 16 Ps. 13, 2 18 Es. 1, 4 22 I Cor. 4, 4 </note>
-                  <note rend="script" type="footnote"> VL <hi rend="italic">Hanc epistulam ex antiquis Galliae codicibus inter notas ad <lb/>
+               <note rend="script" type="footnote"> VL <hi rend="italic">Hanc epistulam ex antiquis Galliae codicibus inter notas ad <lb/>
             Vigilium Tapsensem p. 109 sq. edidit Chiffletius et inter Athanasii opera <lb/>
             I 2 p. 965 Montfauconius</hi> DOMINO - SALVTEM <hi rend="italic">inscribit V</hi>
-                     <lb/>
+                  <lb/>
             6 fraternitatem nostram <hi rend="italic">Chiff</hi>. 10 heremias (\' m. <hi rend="italic">1) V,</hi> heremias <hi rend="italic">coda <lb/>
             Ven: quo Coleti utebantur et Chiff</hi>. 11 monazontes <hi rend="italic">V (em. t)</hi>
-                     <lb/>
+                  <lb/>
             12 ego <hi rend="italic">om. Ven</hi>. 14 cui etiam parcerent <hi rend="italic">Yen</hi>. minia <hi rend="italic">Ven. ut alia <lb/>
             mendoee</hi> 21 iudaei <hi rend="italic">s. I</hi>. 26 scribebatj dixit <hi rend="italic">Chitf</hi>. </note>
-                  <lb/>
-                  <pb n="325"/>
+               <lb/>
+               <pb n="325"/>
             tenentes apostolicam traditionem uiuere iuxta diuinae legis <lb/>
             mandata, ut possimus uobiscum inueniri in choro illo, in quo <lb/>
             nunc exultant patriarchae prophetae apostoli ac martyres. licet <lb/>
@@ -372,10 +370,10 @@
             u. a c. et a prauitate haereticorum <hi rend="italic">ita scribit et distinguit Chiff</hi>.\' <lb/>
             18 <hi rend="italic">ualide. Papebr</hi>. 19 hypochriai 20 fantasiam 21 frendores] <lb/>
             praesides <hi rend="italic">Chiff</hi>. 28 desiderantissima<foreign xml:lang="grc">̃</foreign> (ã <hi rend="italic">ex</hi> e <hi rend="italic">m. 1) V,</hi> desiderantissimd <lb/>
-                     <hi rend="italic">Chiff</hi>. moriendum esse <hi rend="italic">Chiff. codd. et Ven</hi>. 25 uere <hi rend="italic">ahiff</hi>., <lb/>
+                  <hi rend="italic">Chiff</hi>. moriendum esse <hi rend="italic">Chiff. codd. et Ven</hi>. 25 uere <hi rend="italic">ahiff</hi>., <lb/>
             26 haec ipsa <hi rend="italic">cod. Sang</hi>. 27 suis <hi rend="italic">V m. 1</hi> aput amabiles, </note>
-                  <lb n="30"/>
-                  <pb n="326"/>
+               <lb n="30"/>
+               <pb n="326"/>
             tanto magis participes prophetarum confessores et maxime <lb/>
             appellare dignam est. crede mihi, Lucifer, non tu solus haec <lb/>
             locatus es, sed spiritus sanctas tecum. unde haec tanta memoria <lb/>
@@ -409,13 +407,13 @@
             notis</hi> confessorom et martyrum te <hi rend="italic">coni. Poncius</hi> 2 credimos quod <lb/>
             non tu <hi rend="italic">Chiff</hi>. 5 compositus est <hi rend="italic">Ven.,</hi> compositi <hi rend="italic">Papebr</hi>. 6 fiducia <lb/>
             8 per fidem <hi rend="italic">Chiff. falso; gaude enim inquit cumperuideas te esse</hi>
-                     <lb/>
+                  <lb/>
             9 praecessores <hi rend="italic">Chiff</hi>. 10 te <hi rend="italic">Chiff.,</hi> et <hi rend="italic">Vx</hi> 11 et patientiae v <lb/>
             ia 18 adolator sed et scio et <hi rend="italic">Ven</hi>. 16 Hd <hi rend="italic">om. Vv;</hi> tuas ad <lb/>
-                     <hi rend="italic">add. Gall</hi>. 18 enat 20 cecedernnt m. 1 21 fb quam 24 mea <lb/>
-                     <hi rend="italic">codd. ChiN. et Ven.,</hi> ea <hi rend="italic">Vv</hi> 25 sin <hi rend="italic">v</hi> 26 inpetrasse m. 1 </note>
-                  <lb/>
-                  <pb n="327"/>
+                  <hi rend="italic">add. Gall</hi>. 18 enat 20 cecedernnt m. 1 21 fb quam 24 mea <lb/>
+                  <hi rend="italic">codd. ChiN. et Ven.,</hi> ea <hi rend="italic">Vv</hi> 25 sin <hi rend="italic">v</hi> 26 inpetrasse m. 1 </note>
+               <lb/>
+               <pb n="327"/>
             permittimur uidere. testis est autem 547q quia nec parentes <lb/>
             quos habeo potui uidere, ex quo persecuntur nos. quid enim <lb/>
             non faciunt Arriani? itinera obseruant, crura agunt de proficiscentibus <lb/>
@@ -430,16 +428,16 @@
             gratia incolumem te, memorem nostri, semper beatum conseruet, <lb/>
             merit. home dei, farnule Christi, particeps apostolorum, solatium <lb/>
             fraternitatis, magister ueritatis et in omnibus desiderantissime. <lb/>
-                  <lb n="15"/>
-               </p>
-            </div>
-            <div n="7" subtype="letter" type="textpart">
-               <ab>
-                  <title>VII.  LIBERII EPISTVLA. </title>
-               </ab>
-               <p>GLORIOSISSIMO CONSTANTIO AVGVSTO LIBERIVS EPISCOPVS. 
+               <lb n="15"/>
+            </p>
+         </div>
+         <div n="7" type="letter">
+            <ab>
+               <title>VII.  LIBERII EPISTVLA. </title>
+            </ab>
+            <p>GLORIOSISSIMO CONSTANTIO AVGVSTO LIBERIVS EPISCOPVS. 
 </p>
-               <p>Opto tranquillissime imperator, ut mihi benignas aures clementia <lb/>
+            <p>Opto tranquillissime imperator, ut mihi benignas aures clementia <lb/>
             tua tribuat, quo possim mansuetu dini tuae mentis meae <lb/>
             propositum aperirè. de Christiano etenim imperatore et sanctae <lb/>
             memoriae filio Constantini hoc ipsum sine cunctatione merear <lb/>
@@ -448,15 +446,15 @@
 
 <note type="footnote"> 1 parmittimus <hi rend="italic">Vv,</hi> em. Tilius in notis, permittemur Von. 3. agunt] <lb/>
             habent <hi rend="italic">cod. Sang</hi>. 4 <unclear/>
-                     <hi rend="italic">V,</hi> eremitas Chiff. 5 negotiis v <lb/>
+                  <hi rend="italic">V,</hi> eremitas Chiff. 5 negotiis v <lb/>
             7 dicit t) <hi rend="italic">12 semperque Paperb</hi>. 18 famulae <hi rend="italic">14 et sed Chiff</hi>. </note>
-                  <note type="footnote"> . YH. <hi rend="italic">Epistula praeter codicem V Hilarii fragmento cod. Pith</hi>. sup- <lb/>
-                     <hi rend="italic">peditdttit,</hi> itnde <hi rend="italic">Coustantius</hi> eam <hi rend="italic">edidit; Baronius ad ann</hi>. 364 *. 2 <lb/>
-                     <hi rend="italic">eahibet, bibl. patr. Paris. eam exscripsit ex editione Tilii</hi> GIORIO- <lb/>
+               <note type="footnote"> . YH. <hi rend="italic">Epistula praeter codicem V Hilarii fragmento cod. Pith</hi>. sup- <lb/>
+                  <hi rend="italic">peditdttit,</hi> itnde <hi rend="italic">Coustantius</hi> eam <hi rend="italic">edidit; Baronius ad ann</hi>. 364 *. 2 <lb/>
+                  <hi rend="italic">eahibet, bibl. patr. Paris. eam exscripsit ex editione Tilii</hi> GIORIO- <lb/>
             SISSIMO — EPISSOPVS <hi rend="italic">imcr. V</hi> 19 qpto <hi rend="italic">V,</hi> obsecro Coust. 20 possit <lb/>
             — apparere <hi rend="italic">Coust</hi>. 21 enim <hi rend="italic">Coust</hi>. 23 quia <hi rend="italic">Coust.,</hi> qui Vx </note>
-                  <lb/>
-                  <pb n="328"/>
+               <lb/>
+               <pb n="328"/>
             meam reuocare non possum. sermo enim pietatis tuae iam <lb/>
             dudum ad populum missus me quidem quem patienter omnia <lb/>
             ferre necesse est plurimum lacerat, sed animum tuum qui lenitati <lb/>
@@ -476,7 +474,7 @@
             hoc ipsum pro reuerentia sanctae religionis, cui prudenter intentus <lb/>
             es, clementiam tuam nobis ad haec inpetranda praestare. 
 </p>
-               <p rend="script">Sed multi ecclesiae membra lacerare festinant, qui confinxerunt <lb/>
+            <p rend="script">Sed multi ecclesiae membra lacerare festinant, qui confinxerunt <lb/>
             me litteras suppressisse, ne crimina eius quem dicebantur <lb n="20"/>
             condemnasse apud omnes paterent, quasi illas litteras episcoporum <lb/>
             orientalium et Aegyptiorum, quibus in omnibus eadem <lb/>
@@ -490,16 +488,16 @@
 <note rend="script" type="footnote"> S ferj** necesse* <hi rend="italic">V, litteras hodie perditas quas asteriscis indicani<lb/>
              legit uel recte suppleuit e</hi> 4 semper uacat <hi rend="italic">v,</hi> ∗∗∗∗∗∗∗∗∗ <hi rend="italic">V</hi> 5 retine <lb/>
             9 confonnata <hi rend="italic">coni. Latinius</hi> 14 negotia <hi rend="italic">scripsi,</hi> nee <hi rend="italic">Vr,</hi>
-                     <lb/>
+                  <lb/>
             et <hi rend="italic">coni. Poncius,</hi> tunc <hi rend="italic">coni. Coust</hi>. 20 sappraessisse dicebant <lb/>
-                     <hi rend="italic">fort</hi>. 21 condempnasse apnt quasi (= scilicet) <hi rend="italic">ex cod. Pith. recepi»</hi>
-                     <lb/>
+                  <hi rend="italic">fort</hi>. 21 condempnasse apnt quasi (= scilicet) <hi rend="italic">ex cod. Pith. recepi»</hi>
+                  <lb/>
             quae <hi rend="italic">Vv,</hi> per <hi rend="italic">coni. Lat.;</hi> Quai illas litteras ? Episcoporrim dist. <hi rend="italic">Covst</hi>. <lb/>
             22 orietalium et egyptiorum 23 adsatis 25 adque ad om- <lb/>
-                     <hi rend="italic">Coust</hi>. 26 quibus <hi rend="italic">coni. Latinius,</hi> qui <hi rend="italic">Vv,</hi> quia iis <hi rend="italic">coni. Coust</hi>. <lb/>
+                  <hi rend="italic">Coust</hi>. 26 quibus <hi rend="italic">coni. Latinius,</hi> qui <hi rend="italic">Vv,</hi> quia iis <hi rend="italic">coni. Coust</hi>. <lb/>
             27 octoginta <hi rend="italic">Coust</hi>. </note>
-                  <lb/>
-                  <pb n="329"/>
+               <lb/>
+               <pb n="329"/>
             recitauimus atque insinuauimus episcopis Italis. unde contra <lb/>
             diuinam legem uisum est etiam, cum episcoporum numerus <lb/>
             pro Athanasio maior existeret, in parte aliqua commodare consensum. <lb/>
@@ -509,7 +507,7 @@
             Vincentius qui cum ceteris legatus missus fuerat Arelatum <lb/>
             pertulit. 
 </p>
-               <p>Videt igitur prudentia tua nihil animum meum introisse <lb/>
+            <p>Videt igitur prudentia tua nihil animum meum introisse <lb/>
             quod deo seruientibus non dignum fuerat cogitare. testis autem <lb n="10"/>
             est mihi deus, testis est tota cum suis membris ecclesia me fide <lb/>
             et me<add>tu</add> in deum meum cuncta mundana, ita ut euangelica <lb/>
@@ -534,14 +532,14 @@
 <note type="footnote"> 3 consen*** haec 4 Eusebios <hi rend="italic">Coust</hi>. m∗ssus 5 reliquid <lb/>
             quae tamen <hi rend="italic">v,</hi> c***** <hi rend="italic">V</hi> 6 cocilium 7 <hi rend="italic">post</hi> fuerat <hi rend="italic">uerba</hi> featinana ad <lb/>
             africA nobis reliquid quae tamen postea omnia scripta ne — legatus <lb/>
-                     <hi rend="italic">falso repetiuit</hi> Arelate <hi rend="italic">Lat</hi>. 9 in animum <hi rend="italic">Coust</hi>. 11 eatotota <lb/>
+                  <hi rend="italic">falso repetiuit</hi> Arelate <hi rend="italic">Lat</hi>. 9 in animum <hi rend="italic">Coust</hi>. 11 eatotota <lb/>
             12 meta <hi rend="italic">Ooust.,</hi> me <hi rend="italic">Vv;</hi> et me <hi rend="italic">exp. Lat</hi>. 18 praecipit <hi rend="italic">fort</hi>. <lb/>
             15 ecclesiasticuB 18 quo] co 21 addi <hi rend="italic">Lat, et Coust</hi>. 24 exobto <lb/>
             25 aperire <hi rend="italic">coni. Lat.,</hi> me aperire <hi rend="italic">Cotut.,</hi> perire <hi rend="italic">V</hi> mea <hi rend="italic">V</hi>
-                     <lb/>
-            om. <hi rend="italic">Coust</hi>. 27 paci se <hi rend="italic">coni. Latinius,</hi> pacis et <hi rend="italic">Vv,</hi> paci <hi rend="italic">Coust</hi>. </note>
                   <lb/>
-                  <pb n="330"/>
+            om. <hi rend="italic">Coust</hi>. 27 paci se <hi rend="italic">coni. Latinius,</hi> pacis et <hi rend="italic">Vv,</hi> paci <hi rend="italic">Coust</hi>. </note>
+               <lb/>
+               <pb n="330"/>
             apud Mediolanium Arrii haereticam sententiam noluissent <lb/>
             damnare, de concilio iratis animis exierunt? horam si fas est <lb/>
             sententiis quale sit aut quid habeat commodare consensum <lb/>
@@ -557,14 +555,14 @@
             potest pax esse, tranquillissime imperator, si exhibitis epi* <lb/>
             scopi, ut nunc per Italiam factum est, cogantur talium senlentiis <lb/>
             oboedire ? <lb n="15"/>
-               </p>
-               <p rend="script">Accipe aliud, quia tranquillitas tua patienter admittit. manent <lb/>
+            </p>
+            <p rend="script">Accipe aliud, quia tranquillitas tua patienter admittit. manent <lb/>
             tegatorum litterae qui ad clementiam tuam fuerant destinati <lb/>
             quae nuper uenerunt, quibus significant propter turbationem <lb/>
             quidem omnium ecclesiarum se quidem ante succumbere <lb/>
             sententiis orientalium uoluisse, proposuisse tamen conditlonem, <lb n="20"/>
             ut, si idem Arrii haeresem condemnassent, hoc genere  <lb/>
-                  <add>es</add>se<add>ut</add> inclinati eorum sententiis oboedire. placitum, ut ipsi <lb/>
+               <add>es</add>se<add>ut</add> inclinati eorum sententiis oboedire. placitum, ut ipsi <lb/>
             significant, scriptura teste firmatur. itur in concilium, acci. <lb/>
             piunt cum deliberatione responsa Arrii doctrinam se damnare <lb/>
             non posse, Athanasium, quod solum exigebant, communione<lb n="25"/>
@@ -574,18 +572,18 @@
 
 <note rend="script" type="footnote"> 1 apot mediolanum <hi rend="italic">v</hi> her***cam noluissent <hi rend="italic">Vv</hi> 2 damnari <lb/>
             fort. fiмmisss.Ua1equid|∗∗∗∗∗∗∗∗∗ cOD1ll1o.łueqales <lb/>
-                     <lb/>
+                  <lb/>
             sint aut quidqitid. habeant <hi rend="italic">lort</hi>. 4 c∗mt∗a stimare <unclear/>5 <unclear/>L. <lb/>
-                     <hi rend="italic">et Goust., n<foreign xml:lang="grc">ο̃</foreign> Vv</hi> athanasi 8 <unclear/>9 <lb/>
+                  <hi rend="italic">et Goust., n<foreign xml:lang="grc">ο̃</foreign> Vv</hi> athanasi 8 <unclear/>9 <lb/>
              ex <hi rend="italic">ecclesia fori</hi>. 18 exhibitis <hi rend="italic">Coust.,</hi> ex∗ibiti T1 Mn. v <unclear/>in (non <lb/>
             in <hi rend="italic">notis) et</hi> Baronius 16 alint paciebter 18 qbe turbaetionem<lb/>
              20 proposuisset tn. <hi rend="italic">i</hi> 21 condempnasset essent <hi rend="italic">scripsi,</hi>
-                     <lb/>
+                  <lb/>
             se Vv, <hi rend="italic">om. Cbuit</hi>. 92 obedirent <hi rend="italic">Coust</hi>. 18 consillum 25 cemmunionS <lb/>
             ee 27 rectae 28 diligen*** r </note>
-                  <pb n="331"/>
-               </p>
-               <p>Vnde iterum atque iterum mansuetudinem tuam, animum <lb/>
+               <pb n="331"/>
+            </p>
+            <p>Vnde iterum atque iterum mansuetudinem tuam, animum <lb/>
             tuum deo deditum rogo per eius uirtutem, qui se in defensione <lb/>
             tua quantus sit uniuersis mortalibus adprobauit, habens <lb/>
             ante oculos eius beneficia qui imperium tuum in omnibus <lb/>
@@ -615,21 +613,21 @@
             . . . . . . . . . I sideratione facito <hi rend="italic">coni. Lat.,</hi> facias <hi rend="italic">Coust</hi>. (facit <hi rend="italic">etiam <lb/>
             v)</hi> 6 tractari <hi rend="italic">Óoust.,</hi> testari <hi rend="italic">Vv</hi> łauen. . . . . . [ tranquillitate <lb/>
             7 disc | ut 8 iuditio contiterit <hi rend="italic">Coust.,</hi> constituerint <lb/>
-                     <hi rend="italic">Vv</hi> 9 expositionem <hi rend="italic">Coust</hi>. 10 aptA psentae 11 possent <lb/>
+                  <hi rend="italic">Vv</hi> 9 expositionem <hi rend="italic">Coust</hi>. 10 aptA psentae 11 possent <lb/>
             12 cusdodiri 13 laetetur te <hi rend="italic">exspectes</hi> 17 prancatio conpresbitero <lb/>
-                     <hi rend="italic">V,</hi> presbytero <hi rend="italic">Coust</hi>. 20 consilium , 22 auguste. EXPLIC. <lb/>
-                  </note>
-               </p>
-               <pb n="332"/>
-            </div>
-            <div n="8" subtype="letter" type="textpart">
-               <ab>
-                  <title>VIII.  ATHANASII EPISTVLA. </title>
-               </ab>
-               <ab>
-                  <title type="sub">ATHAKASIVS SOLITARIAE VTTAE SТVDENТIВVS ET IN FIDE DEI BOBOBATIS AC DILECTISSIMIS FRATRIBVS IN DOMINO SALVTEM.i</title>
-               </ab>
-               <p rend="script">            Domino quidem gratias ago qui donauit uobis in eum credere, <lb n="5"/>
+                  <hi rend="italic">V,</hi> presbytero <hi rend="italic">Coust</hi>. 20 consilium , 22 auguste. EXPLIC. <lb/>
+               </note>
+            </p>
+            <pb n="332"/>
+         </div>
+         <div n="8" type="letter">
+            <ab>
+               <title>VIII.  ATHANASII EPISTVLA. </title>
+            </ab>
+            <ab>
+               <title type="sub">ATHAKASIVS SOLITARIAE VTTAE SТVDENТIВVS ET IN FIDE DEI BOBOBATIS AC DILECTISSIMIS FRATRIBVS IN DOMINO SALVTEM.i</title>
+            </ab>
+            <p rend="script">            Domino quidem gratias ago qui donauit uobis in eum credere, <lb n="5"/>
             ut cum sanctis etiam uos habeatis uitam perpetuam. quia <lb/>
             autem sunt quidam qui quae sunt Arii sapiunt circumeuntes  <lb/>
             monasteria propter nihil aliud, nisi ut quasi ad uos uenientes <lb/>
@@ -657,13 +655,13 @@
 
 <note rend="script" type="footnote"> VHL INCIP EXEMPLU EPISTULAE ATHANASI DB GRECO DT LA TRASLT <lb/>
             8 estndentib; 12 sci///bere 18 sincerem 15 cum <hi rend="italic">v,</hi> ***n <hi rend="italic">V</hi>
-                     <lb/>
-                     <lb/>
+                  <lb/>
+                  <lb/>
             16 hoc <hi rend="italic">v,</hi> *** <hi rend="italic">V</hi> * un ncidit 17 uestra cura fratres <hi rend="italic">suppleui,</hi> ne j - <lb/>
             ***** <hi rend="italic">V,</hi> uobis noluntas <hi rend="italic">v</hi> 18 impieta| ∗∗∗∗∗∗∗∗∗∗ uertere <hi rend="italic">V,</hi> impietatis <lb/>
             Arii auertere v 27 habitote </note>
-                  <lb/>
-                  <pb n="333"/>
+               <lb/>
+               <pb n="333"/>
             multa extendere epistulam adponenti ex scripturis diuinis formam <lb/>
             huiusmodi doctrinae, sed quia prudentes existentes praeuenitis <lb/>
             eos qui scribunt et magis abstinentiae intenti idonei estis <lb/>
@@ -675,9 +673,8 @@
 
 <note type="footnote"> 8 qui quae (an qui quae illorum sunt?) <hi rend="italic">scripsi,</hi> qui <hi rend="italic">Vv</hi> rapiunt <hi rend="italic">V<lb/>
              m</hi>. 1, sapiant <hi rend="italic">v</hi> BIPLICIT\' </note>
-                  <pb n="334"/>
-               </p>
-            </div>
+               <pb n="334"/>
+            </p>
          </div>
       </body>
    </text>

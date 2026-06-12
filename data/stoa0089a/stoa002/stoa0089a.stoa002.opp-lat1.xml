@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/PerseusDLCode/perseus-schemas/main/perseus_prose.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader xml:lang="eng">
       <fileDesc>
@@ -40,6 +40,7 @@
             <date>2014</date>
             <publisher>University of Leipzig</publisher>
             <pubPlace>Germany</pubPlace>
+            <idno type="CTS">urn:cts:latinLit:stoa0089a.stoa002.opp-lat1</idno>
          </publicationStmt>
          <sourceDesc>
             <listBibl>
@@ -71,18 +72,18 @@
          <p>The following text is encoded in accordance with EpiDoc standards and with the
                 CTS/CITE Architecture. 
 </p>
-         <refsDecl n="CTS">
-            <cRefPattern n="letter"
-                         matchPattern="(.+)"
-                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1'])"/>
+         <refsDecl n="CTS" xml:id="CTS">
+            <citeStructure match="/TEI/text/body" use="@xml:base">
+               <citeStructure unit="epistle"
+                              delim=":"
+                              match=".//div[@type='textpart'][@subtype='epistle' or @subtype='letter']"
+                              use="@n"/>
+            </citeStructure>
          </refsDecl>
       </encodingDesc>
       <profileDesc>
          <textClass>
-            <catRef scheme="#perseus-genre"
-                    target="#prose-standard"
-                    cert="low"
-                    resp="#corpus-tools"/>
+            <catRef scheme="#perseus-genre" target="#prose-epistle"/>
          </textClass>
          <langUsage>
             <language ident="lat">Latin</language>
@@ -90,18 +91,15 @@
       </profileDesc>
    </teiHeader>
    <text>
-      <body>
-         <div type="edition"
-              xml:lang="lat"
-              n="urn:cts:latinLit:stoa0089a.stoa002.opp-lat1">
-            <head>
-               <title type="main">CLAVDIANI MAMERTI EPISTVLAE DVAE. EPISTVLA PRIOR. </title>
-            </head>
-            <div n="1" subtype="letter" type="textpart">
-               <ab>
-                  <title type="sub">CLAVDIANVS SIDONIO PAPAE SALVTEM. </title>
-               </ab>
-               <p rend="script">Si possibile factu esset, ut te dominum meum uel aliquotiens <lb/>
+      <body xml:base="urn:cts:latinLit:stoa0089a.stoa002.opp-lat1">
+         <head>
+            <title type="main">CLAVDIANI MAMERTI EPISTVLAE DVAE. EPISTVLA PRIOR. </title>
+         </head>
+         <div n="1" type="letter">
+            <ab>
+               <title type="sub">CLAVDIANVS SIDONIO PAPAE SALVTEM. </title>
+            </ab>
+            <p rend="script">Si possibile factu esset, ut te dominum meum uel aliquotiens <lb/>
             aliquantulum conuenirem, non undeunde quarumpiam personarum <lb/>
             aut uoluntates aut necessitates inquirerem, sed quae <lb n="5"/>
             in rem debiti mei usui mihi esse possent. quippe reuisionis <lb/>
@@ -113,22 +111,22 @@
             nec merentur amplius, non arbitror amicitiae legibus inpune
 
 <note rend="script" type="footnote">
-                     <hi rend="italic">1 Haec epistuia legitur inter epistuku</hi> Sidonii <hi rend="italic">Apollinaris libr. IIII <lb/>
+                  <hi rend="italic">1 Haec epistuia legitur inter epistuku</hi> Sidonii <hi rend="italic">Apollinaris libr. IIII <lb/>
             ep. IL</hi> adhibui <hi rend="italic">ad textum constituendum libros manuscriptos</hi> Sidonii <lb/>
-                     <hi rend="italic">hos:</hi> cod. Paris. <hi rend="italic">18584 saec. X (A), cod. Paris. 12781 saec. XI</hi> (B),<lb/>
+                  <hi rend="italic">hos:</hi> cod. Paris. <hi rend="italic">18584 saec. X (A), cod. Paris. 12781 saec. XI</hi> (B),<lb/>
              cod. <hi rend="italic">Paris. 2168 saec. XI-XII (C), cod. Paris. 278% saec. XII</hi> (E). <lb/>
-                     <hi rend="italic">accedit praeterea</hi> codex <hi rend="italic">Claudiani Mamerti MontepessuL H 145 saec. <lb/>
+                  <hi rend="italic">accedit praeterea</hi> codex <hi rend="italic">Claudiani Mamerti MontepessuL H 145 saec. <lb/>
              XII, quem supra litera D</hi> signifieauimus. <hi rend="italic">contulimus</hi> etiam <hi rend="italic">editionem<lb/>
              Sidonii ab Eugevio Bareto curatam (Paris. 1879),</hi> cuius <hi rend="italic">lectiones <lb/>
             uariantes compendio (jb)</hi> designamus 2 suo A <hi rend="italic">3 facto AD</hi>
-                     <lb/>
+                  <lb/>
             esset factu <hi rend="italic">B</hi> aliquotiee <hi rend="italic">BCE, om. b</hi> 4 unde II unde C, unde <lb/>
             Ebbad7maltimudioB,mnltimoaisbet <lb/>
-                     <hi rend="italic">E</hi> 5 anquirerem A 7 multimodia <hi rend="italic">B,</hi> mnltimodu <hi rend="italic">b</hi> et <lb/>
+                  <hi rend="italic">E</hi> 5 anquirerem A 7 multimodia <hi rend="italic">B,</hi> mnltimodu <hi rend="italic">b</hi> et <lb/>
             b 9 indicaris <hi rend="italic">A,</hi> iadicaneria <hi rend="italic">D</hi> 11 impartiuntur <hi rend="italic">b</hi>
-                  </note>
-                  <lb/>
-                  <pb n="199"/>
+               </note>
+               <lb/>
+               <pb n="199"/>
             committi. illud etiamnum dolenter faxo tacitum, quod libellos <lb/>
             illos, quos tuo nomine nobilitari non abnuis, nullo umquam <lb/>
             inpertiuisti rescripto? sed uacuum forte non subpetit, quod <lb/>
@@ -154,19 +152,19 @@
 
 <note rend="script" type="footnote"> B <lb/>
             1 etiam non D 2 abnais <hi rend="italic">A,</hi> annuis <hi rend="italic">rell</hi>. 3 impartioisti <lb/>
-                     <hi rend="italic">b</hi> 4 hec quo <hi rend="italic">BDE,</hi> haecquo A 10 inopidQ <hi rend="italic">A</hi> mazome <lb/>
-                     <hi rend="italic">B</hi> 13 uberem <hi rend="italic">ASDE</hi> 16 tuus <hi rend="italic">post</hi> intimus <hi rend="italic">add. uett. editt</hi>. <lb/>
+                  <hi rend="italic">b</hi> 4 hec quo <hi rend="italic">BDE,</hi> haecquo A 10 inopidQ <hi rend="italic">A</hi> mazome <lb/>
+                  <hi rend="italic">B</hi> 13 uberem <hi rend="italic">ASDE</hi> 16 tuus <hi rend="italic">post</hi> intimus <hi rend="italic">add. uett. editt</hi>. <lb/>
             19 etiam ntl <hi rend="italic">A,</hi> et iamnum <hi rend="italic">E,</hi> etiam nc C, etiam non <hi rend="italic">BD,</hi> etiam <lb/>
             nunc <hi rend="italic">b</hi> poeniteat <hi rend="italic">uett. editt</hi>. 20 peccabis <hi rend="italic">AD,</hi> peccatis <hi rend="italic">rell.,</hi>
-                     <lb/>
+                  <lb/>
             peccaris <hi rend="italic">b</hi>
-                  </note>
-                  <pb n="200"/>
-               </p>
-               <ab>
-                  <title type="sub">SIDONIVS CLAVDIANO SVO SALVTEM. </title>
-               </ab>
-               <p>Committi, domine maior, in necessitudinis iura pronuntias, <lb/>
+               </note>
+               <pb n="200"/>
+            </p>
+            <ab>
+               <title type="sub">SIDONIVS CLAVDIANO SVO SALVTEM. </title>
+            </ab>
+            <p>Committi, domine maior, in necessitudinis iura pronuntias, <lb/>
             cur, quod ad salue tibi debitum spectat, a stilo et pugillaribus <lb/>
             diu temperem, quodque deinceps nullas uiantum uolas mea <lb/>
             papyrus onerauerit, quae uos cultu sedulae sospitatis inpertiat. <lb n="5"/>
@@ -197,10 +195,10 @@
 
 <note type="footnote"> 1 <hi rend="italic">Hanc epistuiam, qua Sidonius praecedenti respondet (est libri <lb/>
             IIII epist. III), ex recensione Bareti dedimus</hi> 23 mollitiim <lb/>
-                     <hi rend="italic">Baretus</hi>
-                  </note>
-                  <lb/>
-                  <pb n="201"/>
+                  <hi rend="italic">Baretus</hi>
+               </note>
+               <lb/>
+               <pb n="201"/>
             at uero in libris tuis iam illud quale est, quod et teneritudinem <lb/>
             quamquam continuata maturitas admittit interseritque tempestiuam <lb/>
             censura dulcedinem, ut lectoris intentionem per <lb/>
@@ -233,13 +231,13 @@
             narrat, ut Eucherius sollicitat, ut Paulinus prouocat, ut Ambrosius <lb n="30"/>
             perseuerat. 
 </p>
-               <p>Iam uero de hymno tuo si percunctere quid sentiam, <lb/>
+            <p>Iam uero de hymno tuo si percunctere quid sentiam, <lb/>
             commaticus est, copiosus dulcis elatus et quoslibet lyricos <lb/>
             dithyrambos amoenitate poetica et historica ueritate supereminet, <lb/>
             idque tuum in illo peculiare, quod seruatis metrorum <lb n="35"/>
             pedibus, pedum syllabis syllabarumque naturis intra spatii <lb/>
             sui terminum uerba ditia uersus pauper includit nec arctati <lb/>
-                  <pb n="202"/>
+               <pb n="202"/>
             carminis breuitas longitudinem phalerati sermonis eliminat. <lb/>
             ita tibi facile factu est minutis trochaeis minutioribusque <lb/>
             pyrrichiis non solum molossicas anapaesticasque ternarias, <lb/>
@@ -268,18 +266,18 @@
             pauci, quos aequus amauit Iuppiter, imitabuntur. uale.
 
 <note type="footnote"> 26 Iuppiter <hi rend="italic">om. cum Sirmondo Baretus</hi>
-                  </note>
-                  <pb n="203"/>
-               </p>
-            </div>
-            <div n="2" subtype="letter" type="textpart">
-               <head>
-                  <title type="main">EPISTVLA POSTERIOR. </title>
-               </head>
-               <ab>
-                  <title type="sub">DOCTISSIMO VIRO SAPAVDO RHETORI CLAVDIANVS. </title>
-               </ab>
-               <p>Disciplinarum omnium atque artium magistra Graecia idcirco <lb/>
+               </note>
+               <pb n="203"/>
+            </p>
+         </div>
+         <div n="2" type="letter">
+            <head>
+               <title type="main">EPISTVLA POSTERIOR. </title>
+            </head>
+            <ab>
+               <title type="sub">DOCTISSIMO VIRO SAPAVDO RHETORI CLAVDIANVS. </title>
+            </ab>
+            <p>Disciplinarum omnium atque artium magistra Graecia idcirco <lb/>
             maxime nobilibus studiis prouecta est atque orbem paene totum <lb/>
             multiplicibus conplexa doctrinis, quoniam nemo illic omnium <lb n="5"/>
             fuit, qui quidquam bonae frugis ferret, cui non par merito <lb/>
@@ -291,27 +289,27 @@
             non modo intra mundanum, sed supercaeleste etiam introiere <lb/>
             secretum. 
 </p>
-               <p rend="script">Quod mihi in praesentiarum usus est dicere, quoniam <lb/>
+            <p rend="script">Quod mihi in praesentiarum usus est dicere, quoniam <lb/>
             bonarum artium iam inde a proauorum nostrorum saeculis <lb n="15"/>
             facta iactura et animi cultum despuens, quo solo praestat <lb/>
             pecudi gens humana, deliciis et diuitiis seruiens ignauiae et <lb/>
             inscitiae famula pessum porro dedit cum doctrina uirtutem.
 
 <note type="footnote"> 6 ?? </note>
-                  <note rend="script" type="footnote">
-                     <hi rend="italic">2 Haec epistula in</hi> uno <hi rend="italic">codice Parisino nr. 2165 saec. XIII, <lb/>
+               <note rend="script" type="footnote">
+                  <hi rend="italic">2 Haec epistula in</hi> uno <hi rend="italic">codice Parisino nr. 2165 saec. XIII, <lb/>
             quem supra iam litera E significauimus, legitur (fol. 34\' col. 1</hi> — <lb/>
-                     <hi rend="italic">fol. 35\' col. 2). erat liber ille manuscriptus olim Baluzii (cod. 112), <lb/>
+                  <hi rend="italic">fol. 35\' col. 2). erat liber ille manuscriptus olim Baluzii (cod. 112), <lb/>
             qui inde</hi> hanc <hi rend="italic">epistuiam deprompsit atque edidit in \'MisceUaneorum\' <lb/>
             libro V I (Lutet. Paris. 1713) pag. 535 sqq</hi>. EXPLICIT MEMERTI <lb/>
             CLAVDIAJST DE STATV ANIMAE LIBER TEKTITS. EPLA EIYSDEM. DOCTISSIMO <lb/>
             VIRO SAPAVDO RETHORI CLAVDIANVS <hi rend="italic">E</hi> 3 iccirco <hi rend="italic">E</hi> 4 pene <hi rend="italic">E<lb/>
              hic et infra</hi> 6 <hi rend="italic">uerba</hi> cui—siet <hi rend="italic">e senario quodam iambieo deprompta<lb/>
              esse in propatulo est</hi> 10 fluctuantium <hi rend="italic">Baiueius</hi> 11 aeuo <lb/>
-                     <hi rend="italic">om. Baluzius</hi> 18 passum <hi rend="italic">Balueius</hi>
-                  </note>
-                  <lb/>
-                  <pb n="204"/>
+                  <hi rend="italic">om. Baluzius</hi> 18 passum <hi rend="italic">Balueius</hi>
+               </note>
+               <lb/>
+               <pb n="204"/>
             nam quod non modo ad innouandum quippiam, sed ne ad <lb/>
             dediscendum quidem absque te uno disciplinae nobilis ullus <lb/>
             adspirat, neglegentiae id humanae adscribemus an naturae? <lb/>
@@ -334,7 +332,7 @@
             profluente eloquio resuscitauisses. quod equidem bonum eo <lb n="20"/>
             admirabilius est mihi quo desperatius fuit. 
 </p>
-               <p>Video enim os Romanum non modo neglegentiae, sed <lb/>
+            <p>Video enim os Romanum non modo neglegentiae, sed <lb/>
             pudori esse Romanis, grammaticam uti quandam barbaram <lb/>
             barbarismi et soloecismi pugno et calce propelli, dialecticen <lb/>
             tamquam Amazonem stricto decertaturam gladio formidari, <lb n="25"/>
@@ -345,14 +343,14 @@
             sunt, quia si multi quorum tu es studiorum forent,
 
 <note type="footnote"> 3 adscribemus <hi rend="italic">scripsi,</hi> ascribimus <hi rend="italic">E</hi> 4 nature e <hi rend="italic">E</hi> 8 capescendae <lb/>
-                     <hi rend="italic">E</hi> 10 pbylosophiae <hi rend="italic">E</hi> 12 sese] esse <hi rend="italic">Baluzius</hi>
-                     <lb/>
+                  <hi rend="italic">E</hi> 10 pbylosophiae <hi rend="italic">E</hi> 12 sese] esse <hi rend="italic">Baluzius</hi>
+                  <lb/>
             egiptum <hi rend="italic">E</hi> 13 brachmanos <hi rend="italic">scripsi,</hi> bragmanos <hi rend="italic">E</hi> pytagoricarum <lb/>
-                     <hi rend="italic">E</hi> 14 per <hi rend="italic">inclusi</hi> 18 epytaphio <hi rend="italic">E</hi> 21 ammirabilius <lb/>
-                     <hi rend="italic">E</hi> 26 rethoricam <hi rend="italic">E</hi> 28 phylosophiam <hi rend="italic">E</hi> atque <hi rend="italic">uncis</hi> inclusi <lb/>
-                  </note>
-                  <lb n="30"/>
-                  <pb n="205"/>
+                  <hi rend="italic">E</hi> 14 per <hi rend="italic">inclusi</hi> 18 epytaphio <hi rend="italic">E</hi> 21 ammirabilius <lb/>
+                  <hi rend="italic">E</hi> 26 rethoricam <hi rend="italic">E</hi> 28 phylosophiam <hi rend="italic">E</hi> atque <hi rend="italic">uncis</hi> inclusi <lb/>
+               </note>
+               <lb n="30"/>
+               <pb n="205"/>
             futurus eras scilicet, etsi non omnium potior, unus ex multis. <lb/>
             hinc uero procul iniuria ceterorum penes Galliam nostram <lb/>
             professionis tuae par unus et solus es, neque dictum istuc <lb/>
@@ -376,7 +374,7 @@
             oportere scientiae, quo multiplex in te a maioribus profecta <lb/>
             tuis doctrina confluxit. 
 </p>
-               <p rend="script">Admonitus quoque sis oportet Viennensis urbis nobilitatis <lb/>
+            <p rend="script">Admonitus quoque sis oportet Viennensis urbis nobilitatis <lb/>
             antiquae, cuius tu ciuis et doctor non otio duplex debitum <lb/>
             solues, a quo bifariam quaeritur uel patribus respondere uel <lb n="25"/>
             patriae. illud iam in fine sermonis perquam familiariter quaeso, <lb/>
@@ -386,13 +384,13 @@
             concinentiis euirant: Naeuius et Plautus tibi ad
 
 <note rend="script" type="footnote"> 6 Melli <hi rend="italic">Baluetns</hi> 8 yble <hi rend="italic">E</hi> 9 apecula <hi rend="italic">E</hi> 13 \'thymia <lb/>
-                     <hi rend="italic">Baluzius</hi> flagrantia <hi rend="italic">Baluzius,</hi> fragrantia <hi rend="italic">reU. editores</hi> 17 q; <lb/>
-                     <hi rend="italic">E</hi> 18 sciencie <hi rend="italic">E, om. Baluzius</hi> 23 ammonitns <hi rend="italic">E</hi> 25 queritur <lb/>
-                     <hi rend="italic">E</hi> 28 quae quasdam <hi rend="italic">scripsi,</hi> quasdam <hi rend="italic">E,</hi> quae dum <hi rend="italic">Fabricus <lb/>
+                  <hi rend="italic">Baluzius</hi> flagrantia <hi rend="italic">Baluzius,</hi> fragrantia <hi rend="italic">reU. editores</hi> 17 q; <lb/>
+                  <hi rend="italic">E</hi> 18 sciencie <hi rend="italic">E, om. Baluzius</hi> 23 ammonitns <hi rend="italic">E</hi> 25 queritur <lb/>
+                  <hi rend="italic">E</hi> 28 quae quasdam <hi rend="italic">scripsi,</hi> quasdam <hi rend="italic">E,</hi> quae dum <hi rend="italic">Fabricus <lb/>
             bibl. lat. med. 11078</hi> 30 concinnentiia <hi rend="italic">E</hi>
-                  </note>
-                  <lb n="30"/>
-                  <pb n="206"/>
+               </note>
+               <lb n="30"/>
+               <pb n="206"/>
             elegantiam, Cato ad grauitatem, Varro ad peritiam, Gracchus ad <lb/>
             acrimoniam, Chrysippus ad disciplinam, Fronto ad pompam, <lb/>
             Cicero ad eloquentiam capessendam usui sint. quisquis enim <lb/>
@@ -404,10 +402,9 @@
             audaciam.
 
 <note type="footnote"> 1 graccus <hi rend="italic">E</hi> 2 agrimoniam <hi rend="italic">E</hi> cbrisippas <hi rend="italic">E</hi> 3 capescendam<lb/>
-                     <hi rend="italic">E</hi> . 7 amicicie <hi rend="italic">E</hi>
-                  </note>
-               </p>
-            </div>
+                  <hi rend="italic">E</hi> . 7 amicicie <hi rend="italic">E</hi>
+               </note>
+            </p>
          </div>
       </body>
    </text>
