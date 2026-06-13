@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/PerseusDLCode/perseus-schemas/main/perseus_verse.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader xml:lang="eng">
       <fileDesc>
@@ -40,6 +40,7 @@
             <date>2014</date>
             <publisher>University of Leipzig</publisher>
             <pubPlace>Germany</pubPlace>
+            <idno type="CTS">urn:cts:latinLit:stoa0245c.stoa001.opp-lat1</idno>
          </publicationStmt>
          <sourceDesc>
             <listBibl>
@@ -76,18 +77,15 @@
          <p>The following text is encoded in accordance with EpiDoc standards and with the
         CTS/CITE Architecture. 
 </p>
-         <refsDecl n="CTS">
-            <cRefPattern n="paragraph"
-                         matchPattern="(.+)"
-                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:p[@n='$1'])"/>
+         <refsDecl n="CTS" xml:id="CTS">
+            <citeStructure match="/TEI/text/body" use="@xml:base">
+               <citeStructure unit="line" delim=":" match="l" use="@n"/>
+            </citeStructure>
          </refsDecl>
       </encodingDesc>
       <profileDesc>
          <textClass>
-            <catRef scheme="#perseus-genre"
-                    target="#prose-standard"
-                    cert="low"
-                    resp="#corpus-tools"/>
+            <catRef scheme="#perseus-genre" target="#verse-stichic"/>
          </textClass>
          <langUsage>
             <language ident="lat">Latin</language>
@@ -95,14 +93,11 @@
       </profileDesc>
    </teiHeader>
    <text>
-      <body>
-         <div type="edition"
-              xml:lang="lat"
-              n="urn:cts:latinLit:stoa0245c.stoa001.opp-lat1">
-            <head>
-               <title type="sub">III. DOMINO UERO SANCTO ATQVE AMICO DEI ET MIHI IN CHRISTO OMNI CULTU SUSCIPIENDO PAPAE EUCHERIO RUSTICUS PRESBVTER. </title>
-            </head>
-            <p n="1" rend="script">Transcriptis exultanter ac raptim quae deprecante me exemplanda <lb/>
+      <body xml:base="urn:cts:latinLit:stoa0245c.stoa001.opp-lat1">
+         <head>
+            <title type="sub">III. DOMINO UERO SANCTO ATQVE AMICO DEI ET MIHI IN CHRISTO OMNI CULTU SUSCIPIENDO PAPAE EUCHERIO RUSTICUS PRESBVTER. </title>
+         </head>
+         <p n="1" rend="script">Transcriptis exultanter ac raptim quae deprecante me exemplanda <lb/>
             misisti illico ad beatitudinem uestram uolumen utrumque <lb/>
             direxi; unica uero illa et sine comparatione doctrina, qua ex utroque <lb/>
             testamento magnorum aenigmatum absolutissime aperiens quaestiones <lb/>
@@ -118,27 +113,27 @@
             rectius tam praeclari operis praedicator existeret quam eius inuentor
 
 <note rend="script" type="footnote"> 2 ne <hi rend="italic">om. S</hi> iuuiter 8 3 percurri-miratus <hi rend="italic">om. 8</hi> 4 christi <hi rend="italic">S</hi>
-                  <lb/>
+               <lb/>
             6 aliquaquando <hi rend="italic">S</hi> praecor <hi rend="italic">S</hi> instructionibus <hi rend="italic">S</hi> 8 ornasti S <lb/>
             haec <hi rend="italic">om. S</hi> 9 cum <hi rend="italic">om. S Ballerini cum Quesnello scripserunt:</hi> quo <lb/>
             me magis iuuentutis retia premunt, <hi rend="italic">sefl pro</hi> cum <hi rend="italic">Pitra</hi> quam <hi rend="italic">scripsit,</hi>
-                  <lb/>
+               <lb/>
             inperitia praemit S 10 memorem-papa <hi rend="italic">rubro colore sunt exarata in P</hi>
-                  <lb/>
+               <lb/>
             a S seruit <hi rend="italic">S</hi> 13 domino-suscipiendo <hi rend="italic">sunt rubro colore scripta</hi>
-                  <lb/>
+               <lb/>
             t <lb/>
             adque 15 praesbiter 17 iligo 18 qua, <hi rend="italic">ego scripsi</hi> quam <hi rend="italic">S</hi>
-                  <lb/>
+               <lb/>
             quae-quaestiones spiritalis intellegentiae, <hi rend="italic">Sirmondus, Pitra scribit: <lb/>
             non capio, nisi uideam quamdam parenthesim incipientem:</hi> quum ex <lb/>
             utroque <hi rend="italic">usque ad</hi> infundit 19 questionis 21 declarasse <hi rend="italic">Sinnondus</hi>
-                  <lb/>
+               <lb/>
             22 eamJ tam fatear non digne posse <hi rend="italic">Sirmondus</hi> 23 adtolendam, <lb/>
             attollendum <hi rend="italic">Sirmondus:</hi> edistis <hi rend="italic">Sirmondus:</hi> 24 obtime 25 studens <lb/>
             institutione 26 licit 27 decernam <hi rend="italic">Sirmondus:</hi> 29 praedicatur </note>
-               <lb/>
-               <pb n="199"/>
+            <lb/>
+            <pb n="199"/>
             et conditor, quia, quod nemo sic potuit inuenire, utique sic nemo <lb/>
             laudat. sed dum haec tacitus mecum reuoluo, occurrit mihi quod <lb/>
             in bibliothecis studiosi saecularium litterarum puer quondam, ut <lb/>
@@ -147,14 +142,14 @@
             aut ceris discoloribus formatasque effigies uel oratorum uel etiam <lb/>
             poetarum specialia singulorum autotypis epigrammata subdidisset, <lb/>
             ubi ad praeiudicati eloquii uenit poetam, hoc modo orsus est: <lb/>
-               <quote>
-                  <l>Virgilium uatem melius sua carmina laudant,</l>
-                  <lb/>
-                  <l>in freta dum fluuii current, dum montibus umbrae</l>
-                  <lb n="10"/>
-                  <l>lustrabunt conuexa, polus dum sidera pascet</l>. <lb/>
-                  <l>semper honos, nomenque tuum laudesque manebunt</l>. <lb/>
-               </quote>
+            <quote>
+               <l>Virgilium uatem melius sua carmina laudant,</l>
+               <lb/>
+               <l>in freta dum fluuii current, dum montibus umbrae</l>
+               <lb n="10"/>
+               <l>lustrabunt conuexa, polus dum sidera pascet</l>. <lb/>
+               <l>semper honos, nomenque tuum laudesque manebunt</l>. <lb/>
+            </quote>
             et uere, dummodo orationibus tuis culpa caream, quod inter sacros <lb/>
             apices commemorationesque sanctorum mundialium a me scripturarum <lb/>
             promuntur exempla, merito mihi dominum Eucherium mente <lb n="15"/>
@@ -165,16 +160,15 @@
             cultu suscipiende pater.
 
 <note type="footnote"> 2 ta//itum mecum reuolbo quid 3 bibliotheca <hi rend="italic">sirmondus</hi> ut <lb/>
-                  <hi rend="italic">omissum est</hi> 4 praetereunda 5 inter <hi rend="italic">omissum est</hi> expraessa <lb/>
+               <hi rend="italic">omissum est</hi> 4 praetereunda 5 inter <hi rend="italic">omissum est</hi> expraessa <lb/>
             6 efficies <hi rend="italic">alterum</hi> uel <hi rend="italic">omissum est</hi> 7 aespecilia autotipis subdidissed <lb/>
             8 aeloquii ursus 10 tum fluuiuii <hi rend="italic">(sic)</hi> 13 <hi rend="italic">scripsi:</hi>
-                  <lb/>
+               <lb/>
             caream, <hi rend="italic">codex</hi> careat, <hi rend="italic">Sirmondus:</hi> non teneat 15 <hi rend="italic">pro</hi> promuntur <hi rend="italic">scripsit<lb/>
              Sirmondus:</hi> ponuntur domnum 17 celebraberis <hi rend="italic">Sirmondus:</hi>
-               </note>
-               <lb n="20"/>
-            </p>
-         </div>
+            </note>
+            <lb n="20"/>
+         </p>
       </body>
    </text>
 </TEI>
