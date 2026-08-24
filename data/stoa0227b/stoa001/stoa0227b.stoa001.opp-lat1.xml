@@ -1,105 +1,111 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader xml:lang="eng">
-    <fileDesc>
-      <titleStmt>
-        <title xml:lang="lat">De Locis Santis</title>
-        <author>Petrus Diaconus</author>
-        <editor>Paul Geyer</editor>
-        <sponsor>University of Leipzig</sponsor>
-        <funder>European Social Fund Saxony</funder>
-        <principal>Gregory Crane</principal>
-        <respStmt>
-          <persName xml:id="Jouve">Jouve</persName>
-          <resp>OCR-ed, corrected and encoded the text</resp>
-        </respStmt>
-        <respStmt>
-          <persName>Greta Franzini</persName>
-          <resp>Project Manager (University of Leipzig)</resp>
-        </respStmt>
-        <respStmt>
-          <persName>Simona Stoyanova</persName>
-          <resp>Project Assistant (University of Leipzig)</resp>
-        </respStmt>
-        <respStmt>
-          <persName>Bruce Robertson</persName>
-          <resp>Technical Advisor (Mount Allison University)</resp>
-        </respStmt>
-        <respStmt>
-          <persName>Uvius Fonticola</persName>
-          <resp>Technical Advisor (Ludwig Maximilians University Munich)</resp>
-        </respStmt>
-      </titleStmt>
-      
-      <publicationStmt>
-        <authority>University of Leipzig</authority>
-        <idno type="filename">stoa0227b.stoa001.opp-lat1.xml</idno>
-        <availability>
-          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
-        </availability>
-        <date>2014</date>
-        <publisher>University of Leipzig</publisher>
-        <pubPlace>Germany</pubPlace>
-      </publicationStmt>
-      
-      <sourceDesc>
-        <listBibl>
-          <biblStruct>
-            <monogr>
-              <title xml:lang="lat">Itinera hierosolymitana saeculi IIII-VIII</title>              
-              <editor>
-                <persName>
-                  <name>Paul Geyer</name>
-                </persName>
-              </editor> 
-              <author>Petrus Diaconus</author>  
-              <imprint>
-                <publisher>Tempsky</publisher>
-                <publisher>Freytag</publisher>
-                <pubPlace>Prague</pubPlace>
-                <pubPlace>Vienna</pubPlace>
-                <pubPlace>Leipzig</pubPlace>
-                <date>1898</date>
-              </imprint>
-            </monogr> 
-            <series>
-              <title level="s" xml:lang="lat">Corpus scriptorum ecclesiasticorum Latinorum</title>
-              <biblScope unit="volume">39</biblScope>
-            </series>
-            <ref target="https://archive.org/details/itinerahierosoly00geye/page/102/mode/2up">Internet Archive</ref>            
-          </biblStruct>
-        </listBibl>
-      </sourceDesc>
-      
-    </fileDesc>
-    <encodingDesc>
-      <p>The following text is encoded in accordance with EpiDoc standards and with the
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/PerseusDLCode/perseus-schemas/main/perseus_prose.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="eng">
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="lat">De Locis Santis</title>
+            <author>Petrus Diaconus</author>
+            <editor>Paul Geyer</editor>
+            <sponsor>University of Leipzig</sponsor>
+            <funder>European Social Fund Saxony</funder>
+            <principal>Gregory Crane</principal>
+            <respStmt>
+               <persName xml:id="Jouve">Jouve</persName>
+               <resp>OCR-ed, corrected and encoded the text</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Greta Franzini</persName>
+               <resp>Project Manager (University of Leipzig)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Simona Stoyanova</persName>
+               <resp>Project Assistant (University of Leipzig)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Bruce Robertson</persName>
+               <resp>Technical Advisor (Mount Allison University)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Uvius Fonticola</persName>
+               <resp>Technical Advisor (Ludwig Maximilians University Munich)</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>University of Leipzig</authority>
+            <idno type="filename">stoa0227b.stoa001.opp-lat1.xml</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
+            </availability>
+            <date>2014</date>
+            <publisher>University of Leipzig</publisher>
+            <pubPlace>Germany</pubPlace>
+            <idno type="CTS">urn:cts:latinLit:stoa0227b.stoa001.opp-lat1</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <monogr>
+                     <title xml:lang="lat">Itinera hierosolymitana saeculi IIII-VIII</title>
+                     <editor>
+                        <persName>
+                           <name>Paul Geyer</name>
+                        </persName>
+                     </editor>
+                     <author>Petrus Diaconus</author>
+                     <imprint>
+                        <publisher>Tempsky</publisher>
+                        <publisher>Freytag</publisher>
+                        <pubPlace>Prague</pubPlace>
+                        <pubPlace>Vienna</pubPlace>
+                        <pubPlace>Leipzig</pubPlace>
+                        <date>1898</date>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s" xml:lang="lat">Corpus scriptorum ecclesiasticorum Latinorum</title>
+                     <biblScope unit="volume">39</biblScope>
+                  </series>
+                  <ref target="https://archive.org/details/itinerahierosoly00geye/page/102/mode/2up">Internet Archive</ref>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>The following text is encoded in accordance with EpiDoc standards and with the
         CTS/CITE Architecture. 
 </p>
-      <refsDecl n="CTS">
-        <cRefPattern n="section" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1'])"/>
-      </refsDecl>
-    </encodingDesc>
-    
-    <profileDesc>
-      <langUsage>
-        <language ident="lat">Latin</language>
-      </langUsage>
-    </profileDesc>
-    
-</teiHeader>
-<text>
-<body>
-<div type="edition" xml:lang="lat" n="urn:cts:latinLit:stoa0227b.stoa001.opp-lat1">
-  <div n="pr" subtype="section" type="textpart">
-          <p>Incipit prologus Petri diaconi Casinensis ad Guibaldum <lb/>
+         <refsDecl n="CTS">
+            <cRefPattern n="section"
+                         matchPattern="(.+)"
+                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1'])"/>
+         </refsDecl>
+         <refsDecl n="CTS">
+            <citeStructure match="/TEI/text/body" use="@xml:base">
+               <citeStructure unit="section" delim="." match="div[@type='section']" use="@n"/>
+            </citeStructure>
+         </refsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <catRef scheme="#perseus-genre" target="#prose-section"/>
+         </textClass>
+         <langUsage>
+            <language ident="lat">Latin</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body xml:base="urn:cts:latinLit:stoa0227b.stoa001.opp-lat1">
+         <div n="pr" type="section">
+            <p>Incipit prologus Petri diaconi Casinensis ad Guibaldum <lb/>
             Casinensem et Stabulensem abbatem in libro de locis sanctis. 
 </p>
-          <p>Domino suo ac patri in Christo uenerabili. Guibaldo, dei <lb/>
+            <p>Domino suo ac patri in Christo uenerabili. Guibaldo, dei <lb/>
             gratia sacri Casini montis abbati, Petrus Casinensis diaconus <lb/>
             debitae obedientiae famulatum. <lb n="5"/>
-            
-</p>
-          <p>Quanto cupiditatis igne, pater in Christo uenerande, exarserim <lb/>
+            </p>
+            <p>Quanto cupiditatis igne, pater in Christo uenerande, exarserim <lb/>
             ac quali quantoue desiderio, ut uos omnipotens deus <lb/>
             de aduersis eriperet, exoptauerim, ipsum deum inuoco testem, <lb/>
             quem mentis abdita, quem conscientiae occulta non fallunt, <lb/>
@@ -123,10 +129,11 @@
             queat. Unde non immerito ab omnibus probis ac sapientibus
 
 <note type="footnote"> 11 Ierem. 10, 23 12 Prouerb. 20, 24. </note>
-
-<note type="footnote"> 1 dyaconi <hi rend="italic">C</hi> 3 Criato <hi rend="italic">C sic semper</hi> 4 dyaconus <hi rend="italic">C</hi> 16 crassante <hi rend="italic">C</hi> <lb/>
-            grassante <hi rend="italic">Gamurrini ,</hi> </note> 
-<pb n="106"/>
+               <note type="footnote"> 1 dyaconi <hi rend="italic">C</hi> 3 Criato <hi rend="italic">C sic semper</hi> 4 dyaconus <hi rend="italic">C</hi> 16 crassante <hi rend="italic">C</hi>
+                  <lb/>
+            grassante <hi rend="italic">Gamurrini ,</hi>
+               </note>
+               <pb n="106"/>
             diligeris ac ueneraris. Nam quis tanti uiri familiaritatem <lb/>
             spernat, affabilitatem contempnat, industriam fugiat? Nam ut <lb/>
             omittam cetera maxima et egregia uestri ingenii monumenta <lb/>
@@ -154,26 +161,29 @@
             habebit ualentiam edendi scripturam dulcedine refertam, <lb n="25"/>
             prout Oratius strenuissimus orator in scriptis suis reliquid dicens:
 </p>
-          <p>Omne tulit punctum, qui miscuit utile dulci, <lb/>
+            <p>Omne tulit punctum, qui miscuit utile dulci, <lb/>
             si postquam scribere conetur, materiam non rimetur. Iam uero <lb/>
             Christo auspice huius proemii iste sit finis. 
 </p>
-          <p>Explicit prologus. Incipit liber de locis sanctis.
+            <p>Explicit prologus. Incipit liber de locis sanctis.
 
 <note type="footnote"> 27 Hor. Ars. Poet. 343 </note>
-
-<note type="footnote"> 4 praecellentis <hi rend="italic">edd</hi>. 12 actenus <hi rend="italic">C</hi> 18 deum uerum, uoa ipsos <hi rend="italic">edd.; <lb/>
+               <note type="footnote"> 4 praecellentis <hi rend="italic">edd</hi>. 12 actenus <hi rend="italic">C</hi> 18 deum uerum, uoa ipsos <hi rend="italic">edd.; <lb/>
             interpunctionem mutaui</hi> nos ipsos fideles <hi rend="italic">Riant</hi> 25 fertam C, <lb/>
-            refertam <hi rend="italic">scripsi</hi> 29 prohemii <hi rend="italic">C</hi> </note> <lb n="30"/>
-            
-<pb n="107"/>
-            
-          </p></div>
-  <div n="1" subtype="section" type="textpart">
-          <ab>
-            <title type="sub"><hi rend="italic">Bedae de locis sanctis libri cap. 1 et II usque ad uerba: Per- paucae illic cisternae sunt.\'</hi> </title>
-          </ab>
-          <p><hi rend="italic">Anonymus:</hi> Sepulcrum uero Domini, de quo supra retulimus, <lb/>
+            refertam <hi rend="italic">scripsi</hi> 29 prohemii <hi rend="italic">C</hi>
+               </note>
+               <lb n="30"/>
+               <pb n="107"/>
+            </p>
+         </div>
+         <div n="1" type="section">
+            <ab>
+               <title type="sub">
+                  <hi rend="italic">Bedae de locis sanctis libri cap. 1 et II usque ad uerba: Per- paucae illic cisternae sunt.\'</hi>
+               </title>
+            </ab>
+            <p>
+               <hi rend="italic">Anonymus:</hi> Sepulcrum uero Domini, de quo supra retulimus, <lb/>
             est fabricatum in medio templi, templum uero in media <lb/>
             ciuitate contra aquilonem non longe a porta Dauid. Post resurrectionem <lb n="5"/>
             autem est ortus, in qua sancta Maria cum domino <lb/>
@@ -181,14 +191,13 @@
             loco dicit Dauid: \'Operatus es salutem in medio terrae\'. <lb/>
             Alius etiam propheta dicit: \'Haec dicit dominus: ista <lb/>
             est Hierusalem in medio gentium posui eam\'. <lb n="10"/>
-            
-</p>
-          <p>.In Golgotha autem est pars ligni salutiferae crucis, in qua <lb/>
+            </p>
+            <p>.In Golgotha autem est pars ligni salutiferae crucis, in qua <lb/>
             confixus est dominus, et titulum, quod est repositum in locello <lb/>
             argenteo. Est illic et cornu, unde ungebantur reges, et annulum <lb/>
             Salomonis. 
 </p>
-          <p>Non longe autem a medietate mundi est carcer; ibi uero <lb n="15"/>
+            <p>Non longe autem a medietate mundi est carcer; ibi uero <lb n="15"/>
             est alligatio, ibi prope et flagellatio ibique prope et spinis <lb/>
             coronatio, ibi prope est dispolatio et uestimenti diuisio. In <lb/>
             Caluaria autem, ubi crucifixus est Dominus, est mons scissus, <lb/>
@@ -197,7 +206,7 @@
             argenteis. Subtus uero est Golgotha, ubi cecidit sanguis <lb/>
             Christi super petram scissam. 
 </p>
-          <p>Subtus autem monte Caluariae contra orientem est templum <lb/>
+            <p>Subtus autem monte Caluariae contra orientem est templum <lb/>
             Domini ex alia parte ciuitatis, quem Salomon aedificauit. Quattuor <lb/>
             portas habet: prima ab oriente, secunda ab occidente, <lb n="25"/>
             tertia a meridie, quarta ab aquilone, quae habent significationem <lb/>
@@ -205,16 +214,15 @@
             habet, per unumquodque angulum duodecim passus uoluitur. <lb/>
             In medium templi est mons magnus circumdatus parietibus, <lb/>
             in quo tabernaculum, illic et archa testamenti fuit, quae a <lb n="30"/>
-            
-</p>
-          <p>Vespasiano imperatore destructo templo Romae delata est. <lb/>
+            </p>
+            <p>Vespasiano imperatore destructo templo Romae delata est. <lb/>
             A latere uero sinistro tabernaculi super saxum posuit dominus
 
 <note type="footnote"> 8 Psalra. 73, 12 9 Ezech. 5, 5 </note>
-
-<note type="footnote"> 7 de <hi rend="italic">addidi</hi> 11 <hi rend="italic">et</hi> 21 golgota <hi rend="italic">C</hi> Balntipherae <hi rend="italic">C</hi> 21 nbi] ibi <hi rend="italic">1iiant</hi> </note> <lb/>
-             
-<pb n="108"/>
+               <note type="footnote"> 7 de <hi rend="italic">addidi</hi> 11 <hi rend="italic">et</hi> 21 golgota <hi rend="italic">C</hi> Balntipherae <hi rend="italic">C</hi> 21 nbi] ibi <hi rend="italic">1iiant</hi>
+               </note>
+               <lb/>
+               <pb n="108"/>
             Iesus pedem suum, quando eum Symeon accepit in ulnis, et <lb/>
             ita remansit pes sculptus, ac si in cera positus esset. Ab alio <lb/>
             uero latere saxi est tabernaculus apertus, in quo per gradus <lb/>
@@ -233,12 +241,15 @@
             Maria nutrita fuit. Prope uero est probatica piscina, quae <lb/>
             . quinque porticus habet. 
 </p>
-            </div>
-  <div n="2" subtype="section" type="textpart">
-              <ab>
-            <title type="sub"><hi rend="italic">Beda c. II a uerbis: (In uicinia templi Bethsaida piscina) usque ad uerba: 1 Unde putant ibi mediam esse terram.\'</hi> </title>
-          </ab>
-          <p><hi rend="italic">Anonymus:</hi> In ecclesia uero, quae dicitur sancta Syon,<lb n="20"/>
+         </div>
+         <div n="2" type="section">
+            <ab>
+               <title type="sub">
+                  <hi rend="italic">Beda c. II a uerbis: (In uicinia templi Bethsaida piscina) usque ad uerba: 1 Unde putant ibi mediam esse terram.\'</hi>
+               </title>
+            </ab>
+            <p>
+               <hi rend="italic">Anonymus:</hi> In ecclesia uero, quae dicitur sancta Syon,<lb n="20"/>
             est thronus Iacobi fratris domini, qui iuxta templum sepultus <lb/>
             est; in eo autem loco fundata est, ubi cenantibus apostolis <lb/>
             post passionem hostiis clausis abparuit dominus. Prope uero <lb/>
@@ -248,31 +259,38 @@
             dominus temptatus est a diabolo, reliqua autem destructa <lb/>
             sunt. In area uero Orne Iebusei templum constructum fuit. <lb/>
             Prope autem portam effusus est sanguis Zachariae, filii Barachiae. <lb/>
-            <note type="footnote"> 3 tabernaculum apertum <hi rend="italic">Riant</hi> 9 abitauit <hi rend="italic">C</hi> 11 quinque <hi rend="italic">Gamurrini, <lb/>
-            cum Riant disertis uerbis dicat</hi> duo <hi rend="italic">(non</hi> duas) in <hi rend="italic">codice legi</hi> <lb/>
-            28 hostiis] <hi rend="italic">secundum Siant in codice est:</hi> poatiis 27 dyabolo <hi rend="italic">C</hi> </note><lb n="30"/>
-            
-</p>
-<pb n="109"/>
-            
-            </div>
-  <div n="3" subtype="section" type="textpart">
-              <ab>
-            <title type="sub"><hi rend="italic">Bedae c. III et IIII usque ad uerba: Habebat autem longi- tudinis octo pedes.\'</hi> </title>
-          </ab>
-          <p><hi rend="italic">Anonymus:</hi> Sudarium uero, cum quo Christus faciem <lb/>
+               <note type="footnote"> 3 tabernaculum apertum <hi rend="italic">Riant</hi> 9 abitauit <hi rend="italic">C</hi> 11 quinque <hi rend="italic">Gamurrini, <lb/>
+            cum Riant disertis uerbis dicat</hi> duo <hi rend="italic">(non</hi> duas) in <hi rend="italic">codice legi</hi>
+                  <lb/>
+            28 hostiis] <hi rend="italic">secundum Siant in codice est:</hi> poatiis 27 dyabolo <hi rend="italic">C</hi>
+               </note>
+               <lb n="30"/>
+            </p>
+            <pb n="109"/>
+         </div>
+         <div n="3" type="section">
+            <ab>
+               <title type="sub">
+                  <hi rend="italic">Bedae c. III et IIII usque ad uerba: Habebat autem longi- tudinis octo pedes.\'</hi>
+               </title>
+            </ab>
+            <p>
+               <hi rend="italic">Anonymus:</hi> Sudarium uero, cum quo Christus faciem <lb/>
             suam extersit, quae ab aliis Veronyca dicitur, tempore Tiberii <lb/>
             Caesaris Romae delatum est. Arundo uero, cum qua caput <lb n="5"/>
             eius percussum est, et sandalia eius et lora, cum quibus <lb/>
             ligatus est, et circumcisio eius et sanguis eius in basilica <lb/>
             Constantiniana Romae uenerabiliter honorantur. 
 </p>
-            </div>
-  <div n="4" subtype="section" type="textpart">
-              <ab>
-            <title type="sub"><hi rend="italic">Bedae c. IIII a uerbis: Aliud quoque aliquanto maius linteum\' usque ad finem, c. V, c. VL</hi> </title>
-          </ab>
-          <p><hi rend="italic">Anonymus:</hi> Trans torrentem Cedron est spelunca et super <lb/>
+         </div>
+         <div n="4" type="section">
+            <ab>
+               <title type="sub">
+                  <hi rend="italic">Bedae c. IIII a uerbis: Aliud quoque aliquanto maius linteum\' usque ad finem, c. V, c. VL</hi>
+               </title>
+            </ab>
+            <p>
+               <hi rend="italic">Anonymus:</hi> Trans torrentem Cedron est spelunca et super <lb/>
             eam ecclesia in eo loco, ubi quinta feria post cenam Saluatorem <lb/>
             ludaei comprehenderunt, qui locus est in capite uallis Iosaphat. <lb/>
             In eadem uero ualle stetit palma unde pueri ramos tulerunt, <lb/>
@@ -284,12 +302,15 @@
             factus est sudor eius sicut guttae sanguinis. In itinere autem <lb n="20"/>
             Bethaniae uicus est, de quo adducta est asina. 
 </p>
-            </div>
-  <div n="5" subtype="section" type="textpart">
-              <ab>
-            <title type="sub"><hi rend="italic">Bedae c. VII exceptis ultimis uerbis: Titulo nominis eius usque hodie designatum.\'</hi> </title>
-          </ab>
-          <p><hi rend="italic">Anonymus:</hi> Piscina uero, ubi exprobrauit Rabsaces, iuxta <lb/>
+         </div>
+         <div n="5" type="section">
+            <ab>
+               <title type="sub">
+                  <hi rend="italic">Bedae c. VII exceptis ultimis uerbis: Titulo nominis eius usque hodie designatum.\'</hi>
+               </title>
+            </ab>
+            <p>
+               <hi rend="italic">Anonymus:</hi> Piscina uero, ubi exprobrauit Rabsaces, iuxta <lb/>
             Bethleem est. Iuxta ostium autem speluncae puteus est, unde <lb n="25"/>
             aquam concupiuit Dauid. In ualle etiam, quae in Bethleem <lb/>
             est, sunt memoriae regum Iuda. Non longe autem inde est <lb/>
@@ -297,15 +318,17 @@
             grande, clausum parietibus diligenter per girum et est ibi
 
 <note type="footnote"> 7 et sanguis eius <hi rend="italic">om. Gamurrini</hi> 16 lucidum <hi rend="italic">C</hi> lucida <hi rend="italic">scripei coli,<lb/>
-             110, 1; 112, 16 18 martirium C 19 orauerit C 21 betanie C</hi> <lb/>
-            29 grandem <hi rend="italic">C</hi> </note> <lb/>
-             
-<pb n="110"/>
+             110, 1; 112, 16 18 martirium C 19 orauerit C 21 betanie C</hi>
+                  <lb/>
+            29 grandem <hi rend="italic">C</hi>
+               </note>
+               <lb/>
+               <pb n="110"/>
             spelunca lucidissima habens altarium in eo loco, ubi pastoribus, <lb/>
             cum uigilias haberent, apparens angelus annunciauit eis <lb/>
             Christi natiuitatem. 
 </p>
-          <p>In Anatho autem est turris, in qua lamentauit Ieremias <lb/>
+            <p>In Anatho autem est turris, in qua lamentauit Ieremias <lb/>
             propheta, distat autem ab Hierusalem miliario quarto. Miliario <lb n="5"/>
             uero ab Hierusalem duodecimo est sepulcrum sancti Amos <lb/>
             prophetae, qui locus appellatur Thecue. In quo itinere contra <lb/>
@@ -319,12 +342,14 @@
             Hierusalem in loco, qui dicitur Cariathiarim, ubi fuit archa<lb n="15"/>
             domini, ecclesia illuc constructa est. 
 </p>
-            </div>
-  <div n="6" subtype="section" type="textpart">
-              <ab>
-            <title type="sub"><hi rend="italic">Bedae c. VIII</hi>. </title>
-          </ab>
-          <p><hi rend="italic">Anonymus:</hi> In uicesimo autem quarto miliario ab Hierusalem <lb/>
+         </div>
+         <div n="6" type="section">
+            <ab>
+               <title type="sub">
+                  <hi rend="italic">Bedae c. VIII</hi>. </title>
+            </ab>
+            <p>
+               <hi rend="italic">Anonymus:</hi> In uicesimo autem quarto miliario ab Hierusalem <lb/>
             iuxta Ebron est fons, in quo baptizauit Philippus apostolus <lb/>
             et euangelista eunuchum Candacis reginae. In loco<lb n="20"/>
             uero, qui appellatur Terebinthus, ubi apparuerunt tres angeli <lb/>
@@ -341,19 +366,22 @@
 
 <note type="footnote"> 8 supra <hi rend="italic">Oamurrini</hi> 9 thamnalsare <hi rend="italic">C</hi> 11 filii Israel. Secunda <hi rend="italic">perperam<lb/>
              Riant, correxit Gamurrini</hi> secando <hi rend="italic">C</hi> 12 miliari <hi rend="italic">C</hi> 23 abiunit <lb/>
-            C 21 abet <hi rend="italic">C</hi> 27 odie <hi rend="italic">C</hi> 28 <hi rend="italic">ante</hi> longe <hi rend="italic">om</hi>. non <hi rend="italic">Gamurrini</hi> </note> <lb/>
-             
-<pb n="111"/>
+            C 21 abet <hi rend="italic">C</hi> 27 odie <hi rend="italic">C</hi> 28 <hi rend="italic">ante</hi> longe <hi rend="italic">om</hi>. non <hi rend="italic">Gamurrini</hi>
+               </note>
+               <lb/>
+               <pb n="111"/>
             est spelunca, ubi requiescunt corpora undecim filiorum Iacob; <lb/>
             ossa autem Ioseph separatim sepulta in sua ecclesia sunt. <lb/>
             Non longe uero ab Ebron est sepulchrum Abner filii Ner. 
 </p>
-            </div>
-  <div n="7" subtype="section" type="textpart">
-              <ab>
-            <title type="sub"><hi rend="italic">Bedae c. VIIII, X, XI, XII, XIII</hi>. </title>
-          </ab>
-          <p><hi rend="italic">Anonymus:</hi> Qui autem ad Iordanem ire ab Hierusalem <lb n="5"/>
+         </div>
+         <div n="7" type="section">
+            <ab>
+               <title type="sub">
+                  <hi rend="italic">Bedae c. VIIII, X, XI, XII, XIII</hi>. </title>
+            </ab>
+            <p>
+               <hi rend="italic">Anonymus:</hi> Qui autem ad Iordanem ire ab Hierusalem <lb n="5"/>
             desiderat, per montem Oliueti descendit. A monte Oliueti <lb/>
             Christus ascendit ad celum et ibi fecit Pater noster. Mons <lb/>
             autem Syon a meridie est; ibi obiit sancta Maria et ibi dominus <lb/>
@@ -364,7 +392,7 @@
             ecclesiam sexaginta quadtuor; ibi requiescunt pueri pro Christo <lb/>
             ab Erode interfecti. 
 </p>
-          <p>Fundamenta uero murorum urbis Iericho, quos subuertit <lb n="15"/>
+            <p>Fundamenta uero murorum urbis Iericho, quos subuertit <lb n="15"/>
             Iesus filius Naue adhuc ex parte parent. Arbor uero sycomori, <lb/>
             in qua ascendit Zacheus, stat iuxta domum Raab. Non longe <lb/>
             autem ab Iericho est locus, unde Helias raptus est in celum. <lb/>
@@ -375,74 +403,80 @@
             autem, ubi dominus cum discipulis suis post resurrectionem <lb/>
             comedit, sexaginta stadiis ab Hierusolimis distat. In turre autem <lb/>
             Cades domus fuit Iacob, cuius fundamenta usque hodie parent. <lb n="25"/>
-            
-</p>
-          <p>In Galilea autem est uilla Some, de qua fuit Abisac <lb/>
+            </p>
+            <p>In Galilea autem est uilla Some, de qua fuit Abisac <lb/>
             Sunamitis et mulier, in cuius domo mansit Elyseus, quae <lb/>
             domus usque hodie permanet. A monte uero Hermon, qui <lb/>
             excelsus ualde est, omnis Galilea uidetur, * in quibus nichil <lb/>
             pulchrius est; nam cum sit planities grandis, aliud nichil est <lb n="30"/>
             nisi uineae et oliueta. 
 </p>
-          <p>Ibi autem ager est, in quo Dominus cum discipulis suis
+            <p>Ibi autem ager est, in quo Dominus cum discipulis suis
 
-<note type="footnote">16 sicomori <hi rend="italic">C</hi> 27 elizeus <hi rend="italic">Riant</hi> 30 pulcrius <hi rend="italic">C</hi> </note> <lb/>
-             
-<pb n="112"/>
+<note type="footnote">16 sicomori <hi rend="italic">C</hi> 27 elizeus <hi rend="italic">Riant</hi> 30 pulcrius <hi rend="italic">C</hi>
+               </note>
+               <lb/>
+               <pb n="112"/>
             comedit; ibi lapis est, in quo cubitum fixit Dominus, qui usque <lb/>
             hodie uidetur. Non longe uero ab eodem monte fons est, quem <lb/>
             Saluator benedixit, qui fons ad omnes infirmitates ualet. 
 </p>
-          <p>In uilla uero Naym in domo uiduae, cuius filius resuscitatus <lb/>
+            <p>In uilla uero Naym in domo uiduae, cuius filius resuscitatus <lb/>
             est, nunc ecclesia est; sepultura autem, in qua ponere eum<lb n="5"/>
             uolebant, usque hodie est. 
 </p>
-          <p>In Nazara uero est hortus, ubi Dominus fuit, postquam reuersus <lb/>
+            <p>In Nazara uero est hortus, ubi Dominus fuit, postquam reuersus <lb/>
             est de Egypto. 
 </p>
-            </div>
-  <div n="8" subtype="section" type="textpart">
-              <ab>
-            <title type="sub"><hi rend="italic">Bedae c. XIII</hi>. </title>
-          </ab>
-          <p><hi rend="italic">Anonymus:</hi> Duo autem miliaria ecclesia ista distat ab<lb n="10"/>
+         </div>
+         <div n="8" type="section">
+            <ab>
+               <title type="sub">
+                  <hi rend="italic">Bedae c. XIII</hi>. </title>
+            </ab>
+            <p>
+               <hi rend="italic">Anonymus:</hi> Duo autem miliaria ecclesia ista distat ab<lb n="10"/>
             eadem uilla, quae olim dicta est Sychem. A longe uero ab <lb/>
             eadem ecclesia passus quingentos est ecclesia, in qua requiescit <lb/>
             sanctus Ioseph. 
 </p>
-            </div>
-  <div n="9" subtype="section" type="textpart">
-              <ab>
-            <title type="sub"><hi rend="italic">Bedae c. XV</hi>. </title>
-          </ab>
-          <p><hi rend="italic">Anonymus:</hi> Spelunca uero, in qua habitauit, magna est<lb n="15"/>
+         </div>
+         <div n="9" type="section">
+            <ab>
+               <title type="sub">
+                  <hi rend="italic">Bedae c. XV</hi>. </title>
+            </ab>
+            <p>
+               <hi rend="italic">Anonymus:</hi> Spelunca uero, in qua habitauit, magna est<lb n="15"/>
             et lucidissima, ubi est positum altarium, et ibi intra ipsam <lb/>
             speluncam est locus, unde aquam tollebat. In eadem autem <lb/>
             ciuitate, ubi fuit synagoga, nunc est ecclesia, ubi dominus <lb/>
             legit librum Ysaiae. Foris autem castellum fons est, unde <lb/>
             aquam sumebat Maria. <lb n="20"/>
-            
-</p>
-            </div>
-  <div n="10" subtype="section" type="textpart">
-              <ab>
-            <title type="sub"><hi rend="italic">Bedae c. XVI</hi>. </title>
-          </ab>
-          <p><hi rend="italic">Anonymus:</hi> Valde autem est excelsior et altior quam <lb/>
+            </p>
+         </div>
+         <div n="10" type="section">
+            <ab>
+               <title type="sub">
+                  <hi rend="italic">Bedae c. XVI</hi>. </title>
+            </ab>
+            <p>
+               <hi rend="italic">Anonymus:</hi> Valde autem est excelsior et altior quam <lb/>
             Hermon; nam et Galilea omnis et mare Tyberiadis inde apparet; <lb/>
             contra se uero positi sunt montes utrique. 
 </p>
-          <p>In Endor est domus pythonissae, ad quam fuit Saul nocte,<lb n="25"/>
+            <p>In Endor est domus pythonissae, ad quam fuit Saul nocte,<lb n="25"/>
             de qua domo adhuc fundamenta parent. In Tyberiadis in eo <lb/>
             loco nunc ecclesia est, in qua domus fuit apostolorum Iacobi <lb/>
             et Iohannis. Ibi etiam iuxta mare Tyberiadis est, super quam <lb/>
             dominus pedibus ambulauit. In Capharnaum autem ex domo
 
 <note type="footnote"> 1 fecit <hi rend="italic">perperam Gamurrini</hi> 7 ortns <hi rend="italic">C</hi> 15 abitauit <hi rend="italic">C</hi> 16 altare <lb/>
-            <hi rend="italic">Riant</hi> 18 sinagoga <hi rend="italic">C</hi> 25 faul <hi rend="italic">C</hi> 28 quem <hi rend="italic">Gamurrini</hi> 29 pedibus <lb/>
-            <hi rend="italic">om. Gamurrini</hi> </note> <lb/>
-             
-<pb n="113"/>
+                  <hi rend="italic">Riant</hi> 18 sinagoga <hi rend="italic">C</hi> 25 faul <hi rend="italic">C</hi> 28 quem <hi rend="italic">Gamurrini</hi> 29 pedibus <lb/>
+                  <hi rend="italic">om. Gamurrini</hi>
+               </note>
+               <lb/>
+               <pb n="113"/>
             apostolorum principis ecclesia facta est, cuius parietes usque <lb/>
             hodie ita stant, sicut fuerunt. Ibi paraliticum Dominus curauit. <lb/>
             Illuc est et synagoga, in qua Dominus daemoniacum curauit, <lb/>
@@ -450,7 +484,7 @@
             lapidibus quadratis est facta. Non longe autem inde cernuntur <lb n="5"/>
             gradus lapidei, super quos Dominus stetit. 
 </p>
-          <p>Ibidem uero super mare est campus herbosus, habens foenum <lb/>
+            <p>Ibidem uero super mare est campus herbosus, habens foenum <lb/>
             satis et arbores palmarum multas et iuxta eas septem fontes, <lb/>
             qui singuli infinitam aquam emittunt, in quo campo Dominus <lb/>
             de quinque -Į&gt;panibus et duobus piscibus populum satiauit. <lb n="10"/>
@@ -480,13 +514,12 @@
 <note type="footnote"> 1 qui <hi rend="italic">Gamurrini</hi> cuius <hi rend="italic">Riant</hi> 11 <hi rend="italic">fortasse:</hi> de lapide 12 frustra = <lb/>
             frusta <hi rend="italic">cf. Krit, Bem, zu Siluia p. 11</hi> non frustra <hi rend="italic">Riant et Gamurrini<lb/>
              eum apographo Neapolitano</hi> 15 spelunca <hi rend="italic">C</hi> specula <hi rend="italic">ipse conieci</hi> 31 altare <lb/>
-            <hi rend="italic">Gamwrrini</hi> </note>
-
-<note type="footnote"> XXXVIUI ltin. Hlerosol. </note>
-
-<note type="footnote"> 8 </note> <lb/>
-             
-<pb n="114"/>
+                  <hi rend="italic">Gamwrrini</hi>
+               </note>
+               <note type="footnote"> XXXVIUI ltin. Hlerosol. </note>
+               <note type="footnote"> 8 </note>
+               <lb/>
+               <pb n="114"/>
             sancti Iohannis baptistae et Helisei et Abdiae. In secundo <lb/>
             autem miliario mons est altissimus, in quo sunt duae speluncae <lb/>
             lucidissimae, in quarum una absconditi sunt prophetae sub <lb/>
@@ -505,17 +538,18 @@
             dictum est autem Morastites, est sepulchrum sancti Micheae <lb/>
             prophetae. 
 </p>
-          <p>Taphnis est posita super ripam fluminis Nili; ibi est palatium <lb/>
+            <p>Taphnis est posita super ripam fluminis Nili; ibi est palatium <lb/>
             Pharaonis, ubi sanctus Moyses pro filio filiae Pharaonis <lb/>
             habebatur; ibi etiam et capitanei sunt, ubi sanctus Moyses <lb n="20"/>
             coram Pharaone mirabilia fecit. 
 </p>
-            </div>
-  <div n="11" subtype="section" type="textpart">
-              <ab>
-            <title type="sub"><hi rend="italic">Bedae c. XVIII</hi>. </title>
-          </ab>
-          <p>Anonymus: Memphis uero adhuc palatium continet, ubi <lb/>
+         </div>
+         <div n="11" type="section">
+            <ab>
+               <title type="sub">
+                  <hi rend="italic">Bedae c. XVIII</hi>. </title>
+            </ab>
+            <p>Anonymus: Memphis uero adhuc palatium continet, ubi <lb/>
             sanctus Ioseph frequenter ingrediebatur. Inde ad miliarium <lb/>
             sextum contra ripam fluminis Nili est thronus Moysi et Aaron; <lb n="25"/>
             sunt autem praedicti throni in monte excelso, ubi sunt duae <lb/>
@@ -525,11 +559,12 @@
             uero orabat. Subtus autem in circuitu campus est, ubi filii <lb n="30"/>
             Israhel lateres faciebant. Inde autem ad mille passus uilla est
 
-<note type="footnote"> 2 in quibus <hi rend="italic">C</hi> 10 zochchot <hi rend="italic">C</hi> 11 phylisteum <hi rend="italic">C</hi> elenteropoli <hi rend="italic">C</hi> <lb/>
+<note type="footnote"> 2 in quibus <hi rend="italic">C</hi> 10 zochchot <hi rend="italic">C</hi> 11 phylisteum <hi rend="italic">C</hi> elenteropoli <hi rend="italic">C</hi>
+                  <lb/>
             13 eleuteropoli <hi rend="italic">C</hi> 19 pro filio-sanctus MOJses <hi rend="italic">om. Gamurrini</hi> 28 <hi rend="italic">fortasse <lb/>
-            </hi> habet </note> <lb/>
-             
-<pb n="115"/>
+                  </hi> habet </note>
+               <lb/>
+               <pb n="115"/>
             supra ripam fluminis, ubi sancta Maria cum Domino fuit, <lb/>
             quando in Egyptum perrexit. Inter Memphis uero et Babilonia <lb/>
             milia sunt duodecim, ubi sunt pyramides plurimae, quas fecit <lb/>
@@ -543,12 +578,12 @@
             quae appellatur Bomon, in qua Phoenix post quingentos annos <lb/>
             residere consueuit. 
 </p>
-          <p>Egyptus autem cum sit ubertissima, loca tamen, quae <lb/>
+            <p>Egyptus autem cum sit ubertissima, loca tamen, quae <lb/>
             tenuerunt filii Israhel, sunt meliora. Pars Arabiae, quae iungitur <lb/>
             Palestinae, inaccessibile iter habet; nam licet mansionibus <lb n="15"/>
             quindecim a... eat, loca tamen ipsa sine aqua sunt. 
 </p>
-          <p>Ab Hierusalem autem usque ad montem sanctum Syna <lb/>
+            <p>Ab Hierusalem autem usque ad montem sanctum Syna <lb/>
             sunt mansiones uiginti duo. Pelusius uero metropolis est <lb/>
             prouinciae Augustamnicae, Augustamnica autem prouincia in <lb/>
             Egypto est. A Pelusio autem usque ad montem Syna sunt <lb n="20"/>
@@ -563,24 +598,25 @@
             currus Pharaonis usque ad mare accedunt, ubi tamen ingressus <lb/>
             est in mare, dum uult filios Israhel comprehendere. In
 
-<note type="footnote">2 memphys <hi rend="italic">C</hi> 4 elyopolis <hi rend="italic">C</hi> 10 ibi <hi rend="italic">Riant ubi Oamurrini</hi> 11 fenix <hi rend="italic">C</hi> <lb/>
+<note type="footnote">2 memphys <hi rend="italic">C</hi> 4 elyopolis <hi rend="italic">C</hi> 10 ibi <hi rend="italic">Riant ubi Oamurrini</hi> 11 fenix <hi rend="italic">C</hi>
+                  <lb/>
             13 aegypti autem cum sint ubertissima loca <hi rend="italic">Gamurrini</hi> 16 interiaceat <lb/>
-            <hi rend="italic">Riant</hi> 19 Auguste <hi rend="italic">Niceeperperam Itiant</hi> augusta nycaaim <hi rend="italic">C</hi> 22 sanctum <lb/>
-            <hi rend="italic">om. Gamurrini</hi> 24hodiernum <hi rend="italic">conieci cf. p. 116, 2</hi> 25 abent <hi rend="italic">C</hi> distant <lb/>
-            coni. <hi rend="italic">Riant,</hi> parent <hi rend="italic">Gamurrini</hi> 27 eo <hi rend="italic">C</hi> seu <hi rend="italic">conieci</hi> 28 abent <hi rend="italic">C</hi> <lb/>
-            29 accedit <hi rend="italic">C</hi> acceduut <hi rend="italic">Gamurrini</hi> autem <hi rend="italic">C</hi> tamen <hi rend="italic">scripsi</hi> </note>
-
-<note type="footnote"> 8* </note> <lb n="30"/>
-             
-<pb n="116"/>
+                  <hi rend="italic">Riant</hi> 19 Auguste <hi rend="italic">Niceeperperam Itiant</hi> augusta nycaaim <hi rend="italic">C</hi> 22 sanctum <lb/>
+                  <hi rend="italic">om. Gamurrini</hi> 24hodiernum <hi rend="italic">conieci cf. p. 116, 2</hi> 25 abent <hi rend="italic">C</hi> distant <lb/>
+            coni. <hi rend="italic">Riant,</hi> parent <hi rend="italic">Gamurrini</hi> 27 eo <hi rend="italic">C</hi> seu <hi rend="italic">conieci</hi> 28 abent <hi rend="italic">C</hi>
+                  <lb/>
+            29 accedit <hi rend="italic">C</hi> acceduut <hi rend="italic">Gamurrini</hi> autem <hi rend="italic">C</hi> tamen <hi rend="italic">scripsi</hi>
+               </note>
+               <note type="footnote"> 8* </note>
+               <lb n="30"/>
+               <pb n="116"/>
             eo autem loco, in quo ingressi sunt filii Israhel in mare, id <lb/>
             est, quousque Pharaonis orbitae parent in hodie, duo signa <lb/>
             posita sunt, unum in dextro et aliud in sinistro, item ac si <lb/>
             columellae factae sunt. Locus autem ipse non longe a castro <lb/>
             est, id est de Clesma. <lb n="5"/>
-            
-</p>
-          <p>Clesma autem ipsa in ripa est, id est super mare; nam <lb/>
+            </p>
+            <p>Clesma autem ipsa in ripa est, id est super mare; nam <lb/>
             portus est ibi clausus, qui intro castro ingreditur mare, qui <lb/>
             portus mittit ad Indiam uel excipit uenientes naues de India; <lb/>
             alibi enim nusquam in Romano solo accessum habent naues <lb/>
@@ -594,7 +630,7 @@
             postmodum ibi positum est pro defensione et disciplina pro <lb/>
             incursione Saracenorum. 
 </p>
-          <p>Locus autem ipse talis est, ubi totum heremi sint, id est campi <lb/>
+            <p>Locus autem ipse talis est, ubi totum heremi sint, id est campi <lb/>
             arenosi, excepto monte illo uno, qui incumbit in mari, in cuius<lb n="20"/>
             montis latere ex aduerso conligitur marmor porphyreticum; nam <lb/>
             ex eo dicitur appellari mare rubrum, quod hic mons, qui per <lb/>
@@ -608,12 +644,15 @@
             fruticem in se habeat. Filii autem Israhel exeuntes de Ramesse <lb n="30"/>
             primum per medias arenas errando ambulauerunt; cum uero
 
-<note type="footnote"> 1 mari <hi rend="italic">C</hi> 3 idem C item <hi rend="italic">scripsi</hi> 7 qui-mare <hi rend="italic">om. Gamurrini</hi> <lb/>
-            12 logotetema <hi rend="italic">C</hi> 13 ligatus <hi rend="italic">C</hi> 14 ibi stant ipsius <hi rend="italic">Gamwrrini</hi> <lb/>
+<note type="footnote"> 1 mari <hi rend="italic">C</hi> 3 idem C item <hi rend="italic">scripsi</hi> 7 qui-mare <hi rend="italic">om. Gamurrini</hi>
+                  <lb/>
+            12 logotetema <hi rend="italic">C</hi> 13 ligatus <hi rend="italic">C</hi> 14 ibi stant ipsius <hi rend="italic">Gamwrrini</hi>
+                  <lb/>
             19 totus heremi hesint <hi rend="italic">C</hi> totum heremum hesit in campo arenoso <hi rend="italic">mutat<lb/>
-             Siant</hi> 22 quia <hi rend="italic">Gamurrini</hi> 29 excissum <hi rend="italic">C</hi> </note> <lb/>
-             
-<pb n="117"/>
+             Siant</hi> 22 quia <hi rend="italic">Gamurrini</hi> 29 excissum <hi rend="italic">C</hi>
+               </note>
+               <lb/>
+               <pb n="117"/>
             ad mare rubrum appropiauerunt, tunc mons, de dextro illis <lb/>
             qui apparebat, in proximo factus est; et iungentes se ipsi <lb/>
             monti perueniunt ad mare, latus autem montis illius excelsi <lb/>
@@ -628,7 +667,7 @@
             Pharao post eos. Traiectus autem, ubi transierunt sicco pede <lb/>
             mare rubrum, habet octo milia passus in lato. 
 </p>
-          <p>Mare autem rubrum non ob hoc habet nomen, quia rubra est <lb/>
+            <p>Mare autem rubrum non ob hoc habet nomen, quia rubra est <lb/>
             aqua aut turbulenta, sed adeo est limpidus et perlustris et frigidus <lb n="15"/>
             ac si mare Oceanus. Ibi elecesse nimii saporis et suauitatis <lb/>
             sunt. Omne autem genus piscium in eodem mare sunt tanti <lb/>
@@ -640,7 +679,7 @@
             uero in eodem littore plurimum est, ipse autem mare rubrum <lb/>
             pars Oceani est. 
 </p>
-          <p>Desertum uero Sur heremus est infinitae magnitudinis, quantum <lb n="25"/>
+            <p>Desertum uero Sur heremus est infinitae magnitudinis, quantum <lb n="25"/>
             potest unquam homo conspicere, et arena solitudinis illius <lb/>
             inaestimabilis, ubi triduo ambulauerunt sine aqua. A deserto <lb/>
             autem Sur usque ad Maran est mansio una per ripas maris. <lb/>
@@ -648,12 +687,14 @@
             et duo fontes, quos indulcauit sanctus Moyses. Inde autem <lb n="30"/>
             per triduum de sinistro heremus est infinitus usque in locum,
 
-<note type="footnote"> 6 inngebat] fortaase incumbebat ubi promontoria <hi rend="italic">perperam Gamurrini</hi> <lb/>
+<note type="footnote"> 6 inngebat] fortaase incumbebat ubi promontoria <hi rend="italic">perperam Gamurrini</hi>
+                  <lb/>
             12 cum eis <hi rend="italic">Gamurrini</hi> 13 abet <hi rend="italic">C</hi> 15 prelustris <hi rend="italic">C</hi> 16 miri <hi rend="italic">Gamurrini<lb/>
-             </hi> . 18 ytalici <hi rend="italic">C</hi> 20 fondili <hi rend="italic">C</hi> 22 pulcriores <hi rend="italic">C</hi> 26 unquam <hi rend="italic">om. <lb/>
-             Gamurrini</hi> 28 ripam <hi rend="italic">Gamurrini</hi> </note> <lb/>
-             
-<pb n="118"/>
+                  </hi> . 18 ytalici <hi rend="italic">C</hi> 20 fondili <hi rend="italic">C</hi> 22 pulcriores <hi rend="italic">C</hi> 26 unquam <hi rend="italic">om. <lb/>
+             Gamurrini</hi> 28 ripam <hi rend="italic">Gamurrini</hi>
+               </note>
+               <lb/>
+               <pb n="118"/>
             qui dicitur Arandara; Arandara autem est locus, qui appellatus <lb/>
             est Helim. Ibi fluuius currit, qui tamen tempore aliquo siccatur, <lb/>
             sed per ipsius alueum siue iuxta ripam ipsius inueniuntur <lb/>
@@ -663,7 +704,7 @@
             et tali aqua et tam habundante nisi istum. Inde ergo media <lb/>
             mansio iuxta mare est. 
 </p>
-          <p>Demum uero apparent duo montes excelsi ualde, a parte uero <lb/>
+            <p>Demum uero apparent duo montes excelsi ualde, a parte uero <lb/>
             sinistra, antequam ad montes uenias, locus est, ubi pluit Dominus<lb n="10"/>
             manna filiis Israhel; montes uero ipsi excelsi et erecti ualde <lb/>
             sunt. Ab alia uero parte montium uallis planissima est ac si <lb/>
@@ -680,9 +721,8 @@
             considerarent terram; ab utrisque uero partibus locus ille <lb/>
             munitus est montibus. Non fert autem locus ille agros aut <lb/>
             uineas nichilque aliud illic est nisi aqua et arbores palmarum. <lb n="25"/>
-            
-</p>
-          <p>Prope uero ad uicum Faram ad mille quingentos passus <lb/>
+            </p>
+            <p>Prope uero ad uicum Faram ad mille quingentos passus <lb/>
             coangustantur montes illi, ut uix triginta passibus lata ibi <lb/>
             sit uallis illa. Ibi appellatur locus ille Raphidin, ubi Amalech <lb/>
             occurrit filiis Israhel, et ubi murmurauit populus pro aqua, <lb/>
@@ -691,10 +731,12 @@
             est ualde et erectus, imminens super Faran; ubi autem orauit <lb/>
             Moyses, ecclesia nunc constructa est. Locus autem ipse,
 
-<note type="footnote"> 10 est <hi rend="italic">om. Gamwrrini</hi> 22 Pharon <hi rend="italic">Miant cum codice, ut uidetur</hi> <lb/>
-            28 Amalech <hi rend="italic">Riant</hi> Hamalech <hi rend="italic">Gamurrini</hi> </note> <lb/>
-             
-<pb n="119"/>
+<note type="footnote"> 10 est <hi rend="italic">om. Gamwrrini</hi> 22 Pharon <hi rend="italic">Miant cum codice, ut uidetur</hi>
+                  <lb/>
+            28 Amalech <hi rend="italic">Riant</hi> Hamalech <hi rend="italic">Gamurrini</hi>
+               </note>
+               <lb/>
+               <pb n="119"/>
             quemadmodum sedit et quemadmodum lapides sub cubitum habuit, <lb/>
             hodie paret. Ibi etiam Moyses deuicto Amalech altare Domino <lb/>
             aedificauit. In tantum autem locus iste [quo]usque ad quingentos <lb/>
@@ -707,7 +749,7 @@
             autem, ubi separata fuit Maria Moysi soror, usque hodie super <lb n="10"/>
             terram duos pedes eminet. 
 </p>
-          <p>Ab Aseroth autem usque ad montem sanctum Syna inter montes <lb/>
+            <p>Ab Aseroth autem usque ad montem sanctum Syna inter montes <lb/>
             ad dexteram et sinistram totum per uallem ipsam monumentis <lb/>
             plenum est. Prope uero montem sanctum in loco, qui appellatur <lb/>
             sepulcra concupiscentiae, totum sepulcris plenum est. Antequam <lb n="15"/>
@@ -729,11 +771,14 @@
             Moysi locutus est deus in rubo de igne. Ab uno autem latere <lb/>
             optimus est ascensus in montem et ab alio descensus; per
 
-<note type="footnote"> 2 parent <hi rend="italic">Siant</hi> Hamalech <hi rend="italic">Gamurrini</hi> 3 ipse usque <hi rend="italic">Gamurrini</hi> <lb/>
-            7 abitauerunt <hi rend="italic">C</hi> 8 ibi <hi rend="italic">om. Gamurrini</hi> 24 ad <hi rend="italic">om. Gamuqrini</hi> <lb/>
-            25 ipsam <hi rend="italic">Gamurrini</hi> </note> <lb/>
-             
-<pb n="120"/>
+<note type="footnote"> 2 parent <hi rend="italic">Siant</hi> Hamalech <hi rend="italic">Gamurrini</hi> 3 ipse usque <hi rend="italic">Gamurrini</hi>
+                  <lb/>
+            7 abitauerunt <hi rend="italic">C</hi> 8 ibi <hi rend="italic">om. Gamurrini</hi> 24 ad <hi rend="italic">om. Gamuqrini</hi>
+                  <lb/>
+            25 ipsam <hi rend="italic">Gamurrini</hi>
+               </note>
+               <lb/>
+               <pb n="120"/>
             medium autem uallis transuersatur et sic ad montem dei <lb/>
             peruenitur. Mons uero ipse in giro quidem unus esse uidetur, <lb/>
             intus autem plurimi sunt, sed omnes illi unus mons Syna <lb/>
@@ -762,7 +807,7 @@
             Syna Egyptus, Palestina, mare rubrum, mare parthenicum, quod <lb/>
             mittit Alexandriam, nec non et fines Saracenorum uidentur. 
 </p>
-          <p>In monte uero Choreb, qui eidem monti coniunctus est, <lb/>
+            <p>In monte uero Choreb, qui eidem monti coniunctus est, <lb/>
             est ecclesia et ante ecclesiam spelunca, in qua latuit sanctus <lb/>
             Helias sub Achab. Ostenditur ibi etiam altarium lapideum, <lb n="30"/>
             quem posuit ipse sanctus Helias ad offerendum deo. Non <lb/>
@@ -770,9 +815,10 @@
             septuaginta senioribus. In eo loco tectum non est, petra tamen
 
 <note type="footnote"> 5, qui mons-maiestas dei <hi rend="italic">om. Oamurrini</hi> 13 eum <hi rend="italic">om</hi>. Gamurrini <lb/>
-            20 uero <hi rend="italic">Gamurrini</hi> autem <hi rend="italic">Riant</hi> </note> <lb/>
-             
-<pb n="121"/>
+            20 uero <hi rend="italic">Gamurrini</hi> autem <hi rend="italic">Riant</hi>
+               </note>
+               <lb/>
+               <pb n="121"/>
             ingens per girum habens planitiem supra se, ubi illi steterunt; <lb/>
             in medio autem lapideum altarium est. In capite uero uallis, <lb/>
             quae monti subiacet, ibi ecclesia est in eo loco, ubi locutus est <lb/>
@@ -788,26 +834,23 @@
             uia enim illic penitus non est, sed qui ibidem ambulant, in <lb/>
             locis et locis signa ponunt, ad quae signa per diem ambulant, <lb/>
             nocte autem signa cameli attendunt. <lb n="15"/>
-            
-</p>
-          <p>A mare autem rubro usque ad Arabiae ciuitatem mansiones <lb/>
+            </p>
+            <p>A mare autem rubro usque ad Arabiae ciuitatem mansiones <lb/>
             quatuor sunt. Filii autem Israhel, quando egressi sunt de <lb/>
             Egypto, quantum ibant dextra, tantum redibant sinistra; quantum <lb/>
             denuo in ante ibant, tantum denuo retro reuertebantur, <lb/>
             et sic fecerunt ipsi .....
 
-<note type="footnote"> 1 ingens est <hi rend="italic">Gamurrini</hi> 6 habuerat <hi rend="italic">Gamurrini</hi> 11 <hi rend="italic">ambulare Riant</hi> <lb/>
+<note type="footnote"> 1 ingens est <hi rend="italic">Gamurrini</hi> 6 habuerat <hi rend="italic">Gamurrini</hi> 11 <hi rend="italic">ambulare Riant</hi>
+                  <lb/>
             14 ad quod signum <hi rend="italic">C</hi> 16 autem <hi rend="italic">om. Riant</hi> 19 in ante] sinistra <lb/>
-            <hi rend="italic">perperam Gamurrini</hi> 20 <hi rend="italic">Riant adnotat: C pauca addit, quae abraso<lb/>
-             codice legi non possunt</hi>. </note> 
-<pb n="122"/>
-             <lb n="20"/>
-            
-<pb n="123"/>
-            
-</p>
-        
-</div></div>
-</body>
-</text>
+                  <hi rend="italic">perperam Gamurrini</hi> 20 <hi rend="italic">Riant adnotat: C pauca addit, quae abraso<lb/>
+             codice legi non possunt</hi>. </note>
+               <pb n="122"/>
+               <lb n="20"/>
+               <pb n="123"/>
+            </p>
+         </div>
+      </body>
+   </text>
 </TEI>

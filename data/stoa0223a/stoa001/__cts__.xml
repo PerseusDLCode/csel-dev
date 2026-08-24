@@ -1,4 +1,5 @@
-<ti:work xml:lang="lat" xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:latinLit:stoa0223a" urn="urn:cts:latinLit:stoa0223a.stoa001">
+<?xml version='1.0' encoding='UTF-8'?>
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" xml:lang="lat" groupUrn="urn:cts:latinLit:stoa0223a" urn="urn:cts:latinLit:stoa0223a.stoa001">
   <ti:title xml:lang="lat">Eucharisticus</ti:title>
   <ti:edition workUrn="urn:cts:latinLit:stoa0223a.stoa001" urn="urn:cts:latinLit:stoa0223a.stoa001.opp-lat2">
     <ti:label xml:lang="lat">Eucharisticus</ti:label>
@@ -6,4 +7,4 @@
       ecclesiasticorum latinorum, Volume 16, Part 1). Petschenig, Michael, editor; Ellis, Robinson, editor; 
       Brandes, Wilhelm, editor; Schenkl, Karl, editor. Vienna, Leipzig, Prague: Tempsky, Freytag, 1888.</ti:description>
   </ti:edition>
-</ti:work>
+<ti:genre confidence="high">verse-didactic</ti:genre></ti:work>

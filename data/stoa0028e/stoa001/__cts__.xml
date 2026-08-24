@@ -1,4 +1,5 @@
-<ti:work xml:lang="lat" xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:latinLit:stoa0028e.stoa001" groupUrn="urn:cts:latinLit:stoa0028e">
+<?xml version='1.0' encoding='UTF-8'?>
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" xml:lang="lat" urn="urn:cts:latinLit:stoa0028e.stoa001" groupUrn="urn:cts:latinLit:stoa0028e">
   <ti:title xml:lang="lat">Itinerarium</ti:title>
   <ti:edition xml:lang="lat" urn="urn:cts:latinLit:stoa0028e.stoa001.opp-lat1" workUrn="urn:cts:latinLit:stoa0028e.stoa001">
     <ti:label xml:lang="lat">Itinerarium</ti:label>
@@ -11,4 +12,4 @@
       Volume 39). Geyer, Paul, editor. Prague; Vienna; Leipzig: F. Tempsky; G. Freytag, 1898.
   </ti:description>
 </ti:edition>
-</ti:work>
+<ti:genre confidence="high">prose-geography</ti:genre></ti:work>

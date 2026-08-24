@@ -1,98 +1,105 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader xml:lang="eng">
-    <fileDesc>
-      <titleStmt>
-        <title  xml:lang="lat">Gesta cum Emerito Donatistarum Episcopum</title>
-        <author>Augustine</author>
-        <editor>Michael Petschenig</editor>                        
-        <sponsor>University of Leipzig</sponsor>
-        <funder>European Social Fund Saxony</funder>
-        <principal>Gregory Crane</principal>
-        <respStmt>
-          <persName xml:id="Jouve">Jouve</persName>
-          <resp>OCR-ed, corrected and encoded the text</resp>
-        </respStmt>
-        <respStmt>
-          <persName>Greta Franzini</persName>
-          <resp>Project Manager (University of Leipzig)</resp>
-        </respStmt>
-        <respStmt>
-          <persName>Simona Stoyanova</persName>
-          <resp>Project Assistant (University of Leipzig)</resp>
-        </respStmt>
-        <respStmt>
-          <persName>Bruce Robertson</persName>
-          <resp>Technical Advisor (Mount Allison University)</resp>
-        </respStmt>
-        <respStmt>
-          <persName>Uvius Fonticola</persName>
-          <resp>Technical Advisor (Ludwig Maximilians University Munich)</resp>
-        </respStmt>
-      </titleStmt>
-      
-      <publicationStmt>
-        <authority>University of Leipzig</authority>
-        <idno type="filename">stoa0040.stoa066c.opp-lat1.xml</idno>
-        <availability>
-          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
-        </availability>
-        <date>2014</date>
-        <publisher>University of Leipzig</publisher>
-        <pubPlace>Germany</pubPlace>
-      </publicationStmt>
-      
-      <sourceDesc>
-        <listBibl>
-          <biblStruct>
-            <monogr>
-              <editor>
-                <persName>
-                  <name>Michael Petschenig</name>
-                </persName>
-              </editor> 
-              <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040">Augustine</author>  
-              <title xml:lang="lat">Sancti Aureli Augustini Opera</title>
-              <imprint>
-                <publisher>F. Tempsky</publisher>
-                <publisher>G. Freytag</publisher>
-                <pubPlace>Prague</pubPlace>
-                <pubPlace>Vienna</pubPlace>
-                <pubPlace>Leipzig</pubPlace>
-                <date>1910</date>
-              </imprint>
-              <biblScope unit="volume" xml:lang="lat">Sectio VII, Pars III</biblScope>
-            </monogr>
-            <series>
-              <title level="s" xml:lang="lat">Corpus scriptorum ecclesiasticorum Latinorum</title>
-              <biblScope unit="volume">53</biblScope>
-            </series>     
-            <ref target="https://archive.org/details/CSEL53?view=theater#page/n271/mode/2up">Internet Archive</ref>            
-          </biblStruct>
-        </listBibl>
-      </sourceDesc>
-      
-    </fileDesc>
-    <encodingDesc>
-      <p>The following text is encoded in accordance with EpiDoc standards and with the
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/PerseusDLCode/perseus-schemas/main/perseus_prose.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="eng">
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="lat">Gesta cum Emerito Donatistarum Episcopum</title>
+            <author>Augustine</author>
+            <editor>Michael Petschenig</editor>
+            <sponsor>University of Leipzig</sponsor>
+            <funder>European Social Fund Saxony</funder>
+            <principal>Gregory Crane</principal>
+            <respStmt>
+               <persName xml:id="Jouve">Jouve</persName>
+               <resp>OCR-ed, corrected and encoded the text</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Greta Franzini</persName>
+               <resp>Project Manager (University of Leipzig)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Simona Stoyanova</persName>
+               <resp>Project Assistant (University of Leipzig)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Bruce Robertson</persName>
+               <resp>Technical Advisor (Mount Allison University)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Uvius Fonticola</persName>
+               <resp>Technical Advisor (Ludwig Maximilians University Munich)</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>University of Leipzig</authority>
+            <idno type="filename">stoa0040.stoa066c.opp-lat1.xml</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
+            </availability>
+            <date>2014</date>
+            <publisher>University of Leipzig</publisher>
+            <pubPlace>Germany</pubPlace>
+            <idno type="CTS">urn:cts:latinLit:stoa0040.stoa066c.opp-lat1</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <name>Michael Petschenig</name>
+                        </persName>
+                     </editor>
+                     <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040">Augustine</author>
+                     <title xml:lang="lat">Sancti Aureli Augustini Opera</title>
+                     <imprint>
+                        <publisher>F. Tempsky</publisher>
+                        <publisher>G. Freytag</publisher>
+                        <pubPlace>Prague</pubPlace>
+                        <pubPlace>Vienna</pubPlace>
+                        <pubPlace>Leipzig</pubPlace>
+                        <date>1910</date>
+                     </imprint>
+                     <biblScope unit="volume" xml:lang="lat">Sectio VII, Pars III</biblScope>
+                  </monogr>
+                  <series>
+                     <title level="s" xml:lang="lat">Corpus scriptorum ecclesiasticorum Latinorum</title>
+                     <biblScope unit="volume">53</biblScope>
+                  </series>
+                  <ref target="https://archive.org/details/CSEL53?view=theater#page/n271/mode/2up">Internet Archive</ref>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>The following text is encoded in accordance with EpiDoc standards and with the
         CTS/CITE Architecture. 
 </p>
-      <refsDecl n="CTS">
-        <cRefPattern n="section" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1'])"/>
-      </refsDecl>
-    </encodingDesc>
-    
-    <profileDesc>
-      <langUsage>
-        <language ident="lat">Latin</language>
-      </langUsage>
-    </profileDesc>
-    
-</teiHeader>
-<text>
-<body>
-<div type="edition" xml:lang="lat" n="urn:cts:latinLit:stoa0040.stoa066c.opp-lat1">
-<div n="1" subtype="section" type="textpart">  
-         <p>Gloriosissimis imperatoribus Honorio duodecimo et Theodosio <lb/>
+         <refsDecl n="CTS">
+            <cRefPattern n="section"
+                         matchPattern="(.+)"
+                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1'])"/>
+         </refsDecl>
+         <refsDecl n="CTS">
+            <citeStructure match="/TEI/text/body" use="@xml:base">
+               <citeStructure unit="section" delim="." match="div[@type='section']" use="@n"/>
+            </citeStructure>
+         </refsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <catRef scheme="#perseus-genre" target="#prose-section"/>
+         </textClass>
+         <langUsage>
+            <language ident="lat">Latin</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body xml:base="urn:cts:latinLit:stoa0040.stoa066c.opp-lat1">
+         <div n="1" type="section">
+            <p>Gloriosissimis imperatoribus Honorio duodecimo et Theodosio <lb/>
             octauo consulibus duodecimo Kalendas Octobres Caesareae <lb/>
             in ecclesia maiore cum Deuterius episcopus metropolitanus <lb/>
             Caesariensis una cum Alypio Tagastensi, Augustino Hipponiensi, <lb/>
@@ -119,14 +126,15 @@
             in peruersitate haeretica quamuis intra ecclesiam catholicam
 
 <note type="footnote"> 1 anno 418 </note>
-
-<note type="footnote"> <hi rend="italic">De praescriptione codicis r cf. Praefatio</hi> De Gestis cum Emerito Donatistarum <lb/>
+               <note type="footnote">
+                  <hi rend="italic">De praescriptione codicis r cf. Praefatio</hi> De Gestis cum Emerito Donatistarum <lb/>
             episcopo, Liber unus <hi rend="italic">f</hi> 1 duodecimum <hi rend="italic">fv</hi> teodosio <hi rend="italic">r</hi> 2 octauumfv <lb/>
-            <hi rend="italic">Octobres scirpsi -bris rfv</hi> Caesariae/ <hi rend="italic">3 maiori rfo (at maiore F <lb/>
-            in Retract. capitulo)</hi> 4 Caesareensis <hi rend="italic">v</hi> Alipio <hi rend="italic">rf</hi> Thagastensi <hi rend="italic">v</hi> <lb/>
-            ipponiensi <hi rend="italic">T</hi> Hipponensi <hi rend="italic">fv</hi> 6 presbiteris P 7 diaconis <hi rend="italic">/</hi> 9 krtii l1 </note> <lb n="25"/>
-             
-<pb n="182"/>
+                  <hi rend="italic">Octobres scirpsi -bris rfv</hi> Caesariae/ <hi rend="italic">3 maiori rfo (at maiore F <lb/>
+            in Retract. capitulo)</hi> 4 Caesareensis <hi rend="italic">v</hi> Alipio <hi rend="italic">rf</hi> Thagastensi <hi rend="italic">v</hi>
+                  <lb/>
+            ipponiensi <hi rend="italic">T</hi> Hipponensi <hi rend="italic">fv</hi> 6 presbiteris P 7 diaconis <hi rend="italic">/</hi> 9 krtii l1 </note>
+               <lb n="25"/>
+               <pb n="182"/>
             diutius remorante allocutus sum dilectionem uestram, sicut <lb/>
             meminisse dignamini. multa dixi, quae audistis et quae sine <lb/>
             dubio quantum potestis etiam meministis, multa de pace, <lb/>
@@ -142,13 +150,10 @@
             sed nec de quoquam, quamdiu uiuit in hoc corpore, homine <lb/>
             desperandum putamus. neque enim sic dixi nudiustertius me <lb/>
             non desperasse, ut hodie audeam desperare. <lb n="15"/>
-            
-</p>
-          
-</div>
-
-<div n="2" subtype="section" type="textpart">
-<p>Sed ad hunc articulum causa perducta est, ut, quoniam <lb/>
+            </p>
+         </div>
+         <div n="2" type="section">
+            <p>Sed ad hunc articulum causa perducta est, ut, quoniam <lb/>
             uenit et quantum cognouimus sponte uenit, non sit huic ecclesiae <lb/>
             infructuosus eius aduentus. aut enim, quod magis <lb/>
             optamus et cupimus, etiam de illius salute uobiscum in catholica <lb/>
@@ -168,9 +173,10 @@
             ut, si habet aliquid quod pro ipsa parte adhuc
 
 <note type="footnote"> 9 Gal. 4, 19<lb/>
-             24 sed] et <hi rend="italic">coni. v</hi> a Donatistis <hi rend="italic">f</hi> 27 communicauerunt <hi rend="italic">fv</hi> </note> <lb/>
-             
-<pb n="183"/>
+             24 sed] et <hi rend="italic">coni. v</hi> a Donatistis <hi rend="italic">f</hi> 27 communicauerunt <hi rend="italic">fv</hi>
+               </note>
+               <lb/>
+               <pb n="183"/>
             dicat, post factam apud Carthaginem omnibus notam collationem <lb/>
             si habet aliquid quod adhuc dicat, dicat sine praeiudicio <lb/>
             partis Donati, quod tamen prodesse existimet nobis, in quorum <lb/>
@@ -201,20 +207,19 @@
             absentes, a quibus simplices turbabantur. nunc autem <lb/>
             praesens est: modo nobis dignetur dicere quare uenerit. 
 </p>
-          
-</div>
-
-<div n="3" subtype="section" type="textpart">
-<p>Frater Emerite, praesens es. collationi (no)biscum
+         </div>
+         <div n="3" type="section">
+            <p>Frater Emerite, praesens es. collationi (no)biscum
 
 <note type="footnote"> 25 Gal. 5, 10 </note>
-
-<note type="footnote"> 6 nnllas <hi rend="italic">scripsi, cf. lin. 11</hi> nullus <hi rend="italic">JTfo</hi> 7 aestimamus <hi rend="italic">v (non f)</hi> <lb/>
+               <note type="footnote"> 6 nnllas <hi rend="italic">scripsi, cf. lin. 11</hi> nullus <hi rend="italic">JTfo</hi> 7 aestimamus <hi rend="italic">v (non f)</hi>
+                  <lb/>
             17 uos] eos <hi rend="italic">jy</hi> ipsa parte <hi rend="italic">fv</hi> 21 probitate <hi rend="italic">J\'f</hi> ueritate <hi rend="italic">v</hi> 29 aduenerit <lb/>
-            <hi rend="italic">fv</hi> 30 collationi nobiscum <hi rend="italic">coni. v</hi> collationibus cum i7 collationibus <lb/>
-            <hi rend="italic">fv</hi> </note> <lb n="30"/>
-             
-<pb n="184"/>
+                  <hi rend="italic">fv</hi> 30 collationi nobiscum <hi rend="italic">coni. v</hi> collationibus cum i7 collationibus <lb/>
+                  <hi rend="italic">fv</hi>
+               </note>
+               <lb n="30"/>
+               <pb n="184"/>
             interfuisti. si uictus es, quare uenisti? si autem te uictum esse <lb/>
             non putas, loquere unde tibi uictor esse uidearis. tunc enim <lb/>
             uictus es, si ueritate uictus es. si autem uideris uictus potestate <lb/>
@@ -230,11 +235,9 @@
             non quaererem, si non uenisses. Emeritus episcopus partis Donati <lb/>
             dixit notario qui excipiebat: Fac. 
 </p>
-          
-</div>
-
-<div n="4" subtype="section" type="textpart">
-<p>Cumque reticeret, Augustinus episcopus ecclesiae catholicae<lb n="15"/>
+         </div>
+         <div n="4" type="section">
+            <p>Cumque reticeret, Augustinus episcopus ecclesiae catholicae<lb n="15"/>
             dixit: Si ergo sub ueritate tacuisti, non sine causa uenisti, <lb/>
             nisi quia istos decipere uoluisti. cumque diu reticeret, <lb/>
             Augustinus episcopus ecclesiae catholicae dixit: Uidetis, fratres, <lb/>
@@ -255,9 +258,9 @@
             ieiunantibus plus uacat audire, eadem gesta collationis per
 
 <note type="footnote"> 20 collationis <hi rend="italic">v</hi> communionis <hi rend="italic">rj</hi> 21 commemorauerit <hi rend="italic">/</hi> 29 Thagastem <lb/>
-            <hi rend="italic">v</hi> 30 hypponem J* </note> <lb/>
-             
-<pb n="185"/>
+                  <hi rend="italic">v</hi> 30 hypponem J* </note>
+               <lb/>
+               <pb n="185"/>
             annos singulos uniuersa a capite in finem recitentur ex ordine, <lb/>
             tamen, ut dicere coeperam, quia non omnia uobis modo legere <lb/>
             possumus, dignamini prius audire ante collationem quas litteras <lb/>
@@ -266,11 +269,9 @@
             eos susciperemus si uinceremus, ut uideretur non in contentione, <lb/>
             sed in humilitate esse uictoria. 
 </p>
-          
-</div>
-
-<div n="5" subtype="section" type="textpart">
-<p>Alypius episcopus ecclesiae catholicae epistulam recitauit: <lb/>
+         </div>
+         <div n="5" type="section">
+            <p>Alypius episcopus ecclesiae catholicae epistulam recitauit: <lb/>
             Honorabili ac dilectissimo filio, uiro clarissimo <lb/>
             et spectabili, tribuno et notario Marcellino Aurelius, <lb n="10"/>
             Siluanus et uniuersi episcopi catholici. Edicto <lb/>
@@ -293,15 +294,16 @@
             pro cognita ueritate debebimus. si autem
 
 <note type="footnote">9 August. epist. 128,1—3 (ed. Goldbacher), signaui <hi rend="italic">y-</hi> cf. Breuic. 15 </note>
-
-<note type="footnote"> 1 ex ordine recitentur <hi rend="italic">fo</hi> 2 tamen <hi rend="italic">post</hi> capite <hi rend="italic">exhibet F</hi> 8 Alipius <lb/>
-            <hi rend="italic">rj</hi> epistolam <hi rend="italic">Tfv</hi> 11 Dicto <hi rend="italic">/</hi> 14 ac muniendae] muniendaeque <lb/>
-            <hi rend="italic">y</hi> 16 litteras <hi rend="italic">om. f</hi> illa <hi rend="italic">Tf</hi> 18 hi] hoc <hi rend="italic">lf</hi> 20 impleuissent <hi rend="italic">fv</hi> <lb/>
+               <note type="footnote"> 1 ex ordine recitentur <hi rend="italic">fo</hi> 2 tamen <hi rend="italic">post</hi> capite <hi rend="italic">exhibet F</hi> 8 Alipius <lb/>
+                  <hi rend="italic">rj</hi> epistolam <hi rend="italic">Tfv</hi> 11 Dicto <hi rend="italic">/</hi> 14 ac muniendae] muniendaeque <lb/>
+                  <hi rend="italic">y</hi> 16 litteras <hi rend="italic">om. f</hi> illa <hi rend="italic">Tf</hi> 18 hi] hoc <hi rend="italic">lf</hi> 20 impleuissent <hi rend="italic">fv</hi>
+                  <lb/>
             implerent <hi rend="italic">y 21</hi> cetera-implenda <hi rend="italic">y</hi> 23 contagio <hi rend="italic">y</hi> 24 remansisse <lb/>
             parte Donati <hi rend="italic">fvy</hi> 26 episcopatus] episcopalis muneris <hi rend="italic">y</hi> 27 sola <lb/>
-            aeterna salute <hi rend="italic">vy</hi> </note> <lb/>
-             
-<pb n="186"/>
+            aeterna salute <hi rend="italic">vy</hi>
+               </note>
+               <lb/>
+               <pb n="186"/>
             nos potius ualuerimus ostendere ecclesiam Christi <lb/>
             omnium non solum Africanarum, sed etiam transmarinarum <lb/>
             prouinciarum, multarum gentium spatia <lb/>
@@ -333,13 +335,14 @@
             considente collega. hoc cum alternis basilicis
 
 <note type="footnote"> 5 cf. Col. 1, 6 </note>
-
-<note type="footnote"> 2 affricanaruin r sed] uerum <hi rend="italic">fvy</hi> 3 multarumque <hi rend="italic">vy</hi> 9 quae- <lb/>
-            Btionem demonstrauerimus esse finitam <hi rend="italic">y</hi> 10 ecclesia] ecclesiae causa <hi rend="italic">vy</hi> <lb/>
+               <note type="footnote"> 2 affricanaruin r sed] uerum <hi rend="italic">fvy</hi> 3 multarumque <hi rend="italic">vy</hi> 9 quae- <lb/>
+            Btionem demonstrauerimus esse finitam <hi rend="italic">y</hi> 10 ecclesia] ecclesiae causa <hi rend="italic">vy</hi>
+                  <lb/>
             11 autem <hi rend="italic">om. r</hi> 14 quidquid] quid <hi rend="italic">Tf</hi> 24 amplectimur <hi rend="italic">y</hi> 29 considentem <lb/>
-            collegam <hi rend="italic">If</hi> </note> <lb/>
-             
-<pb n="187"/>
+            collegam <hi rend="italic">If</hi>
+               </note>
+               <lb/>
+               <pb n="187"/>
             utrimque conceditur utroque alterum cum honore <lb/>
             mutuo praeueniente, quia, ubi praeceptio caritatis <lb/>
             dilatauerit corda, possessio pacis non fit angusta, <lb/>
@@ -357,11 +360,9 @@
             annuentibus unitati factae per loca necessaria <lb n="15"/>
             singuli constituantur episcopi. 
 </p>
-          
-</div>
-
-<div n="6" subtype="section" type="textpart">
-<p>Et cum legeret, Augustinus episcopus dixit: Dicam caritati <lb/>
+         </div>
+         <div n="6" type="section">
+            <p>Et cum legeret, Augustinus episcopus dixit: Dicam caritati <lb/>
             uestrae et commemorem rem dulcissimam et suauissimam, <lb/>
             quam domino adiuuante sumus experti. cum ante ipsam collationem <lb/>
             inter nos aliqui fratres de hac re colloqueremur, quia <lb n="20"/>
@@ -375,15 +376,18 @@
             quando autem uentum est ut hoc palam fieret, in concilio
 
 <note type="footnote"> 1 utrimque] utrumque <hi rend="italic">rf</hi> utroque-praeueniente] uterque ab alterutro <lb/>
-            honore mutuo praeuenitur <hi rend="italic">y</hi> 2 perceptio <hi rend="italic">y, cf. Caes. 5 sub finem</hi> <lb/>
-            6 ex] ab <hi rend="italic">y</hi> 7 discissionis <hi rend="italic">fvy</hi> 9 christiani populi <hi rend="italic">y</hi> 12 secedamus <hi rend="italic">y</hi> <lb/>
+            honore mutuo praeuenitur <hi rend="italic">y</hi> 2 perceptio <hi rend="italic">y, cf. Caes. 5 sub finem</hi>
+                  <lb/>
+            6 ex] ab <hi rend="italic">y</hi> 7 discissionis <hi rend="italic">fvy</hi> 9 christiani populi <hi rend="italic">y</hi> 12 secedamus <hi rend="italic">y</hi>
+                  <lb/>
             in singulis <hi rend="italic">y</hi> 14 episcopis (epif) <hi rend="italic">scripsi</hi> his <hi rend="italic">rf, cf. Breuic. I 5:</hi> utrisque <lb/>
             de medio recedentibus singuli constituerentur episcopi ab eis episcopis <lb/>
             ordinandi, qui in suis plebibus singuli inuenirentur ab—annuentibus] <lb/>
             ab his, qui singuli in ecclesiis singulis inuenientur <hi rend="italic">vy</hi> 15 unitate <lb/>
-            facta <hi rend="italic">v</hi> 27 magis <hi rend="italic">ante</hi> pro <hi rend="italic">exhibent fv</hi> </note> <lb/>
-             
-<pb n="188"/>
+            facta <hi rend="italic">v</hi> 27 magis <hi rend="italic">ante</hi> pro <hi rend="italic">exhibent fv</hi>
+               </note>
+               <lb/>
+               <pb n="188"/>
             uniuersorum tam frequenti paene trecentorum episcoporum <lb/>
             sic placuit omnibus, sic exarserunt omnes, ut parati essent <lb/>
             episcopatum pro Christi unitate deponere et non perdere, sed <lb/>
@@ -396,11 +400,9 @@
             facta est propter illum qui ait: qui se humiliat <lb n="10"/>
             exaltabitur. 
 </p>
-          
-</div>
-
-<div n="7" subtype="section" type="textpart">
-<p>Item legit: Quid enim dubitemus redemptori <lb/>
+         </div>
+         <div n="7" type="section">
+            <p>Item legit: Quid enim dubitemus redemptori <lb/>
             nostro sacrificium istius humilitatis offerre? an <lb/>
             uero ille de caelis in membra descendit humana, <lb/>
             ut membra eius essemus, et nos, ne ipsa eius membra<lb n="15"/>
@@ -422,11 +424,11 @@
             dignitas fructuosior nobis erit, si gregem
 
 <note type="footnote"> 10 Luc. 18, 14 12. 28 August. epist. 128, 3 </note>
-
-<note type="footnote"> 6 alter <hi rend="italic">/</hi> aliter <hi rend="italic">rv</hi> 14 humana membra descendit <hi rend="italic">fv</hi> membra humana <lb/>
-            descendit <hi rend="italic">y</hi> 18 obedientes simus <hi rend="italic">/</hi> 19 semper sumus <hi rend="italic">rf</hi> </note> <lb/>
-             
-<pb n="189"/>
+               <note type="footnote"> 6 alter <hi rend="italic">/</hi> aliter <hi rend="italic">rv</hi> 14 humana membra descendit <hi rend="italic">fv</hi> membra humana <lb/>
+            descendit <hi rend="italic">y</hi> 18 obedientes simus <hi rend="italic">/</hi> 19 semper sumus <hi rend="italic">rf</hi>
+               </note>
+               <lb/>
+               <pb n="189"/>
             Christi deposita magis collegerit quam retenta <lb/>
             disperserit. cumque recitaret, Augustinus episcopus dixit: <lb/>
             Fratres mei, si dominum cogitamus, locus iste altior specula <lb/>
@@ -459,12 +461,13 @@
             diminutione susciperent, quosdam uero in illius
 
 <note type="footnote"> 6 August. epist. 128, 3-4 20 cf. Matth. 5, 9 </note>
-
-<note type="footnote"> 1 magis <hi rend="italic">deposita y</hi> 10 et ut] ut et <hi rend="italic">y, puncto post</hi> omnibus <hi rend="italic">posito</hi> <lb/>
+               <note type="footnote"> 1 magis <hi rend="italic">deposita y</hi> 10 et ut] ut et <hi rend="italic">y, puncto post</hi> omnibus <hi rend="italic">posito</hi>
+                  <lb/>
             17 disputationem nostram <hi rend="italic">iv</hi> 19 beatos esse <hi rend="italic">pacificos y</hi> 27 dilectione <lb/>
-            <hi rend="italic">(cf. 12 init.) quaesierint y</hi> 29 honoris eorum deminutione <hi rend="italic">y</hi> </note> <lb n="30"/>
-             
-<pb n="190"/>
+                  <hi rend="italic">(cf. 12 init.) quaesierint y</hi> 29 honoris eorum deminutione <hi rend="italic">y</hi>
+               </note>
+               <lb n="30"/>
+               <pb n="190"/>
             discissionis societate impollutos esse censerent. <lb/>
             quorum inter se concordiae non inuidemus, sed <lb/>
             eos oportet aduertere, quam pie ramum a se fractum <lb/>
@@ -473,11 +476,9 @@
             colligere laborauit. et alia manu: optamus te, fili, <lb/>
             in domino bene ualere. 
 </p>
-          
-</div>
-
-<div n="8" subtype="section" type="textpart">
-<p>Quo recitato Augustinus episcopus dixit: Audite qui <lb/>
+         </div>
+         <div n="8" type="section">
+            <p>Quo recitato Augustinus episcopus dixit: Audite qui <lb/>
             nescitis, audite, obsecro uos. deo gratias, quia ipso praesente <lb/>
             loquor. causam istam Maximianistarum, quam uolo modo<lb n="10"/>
             uobis exponere, ubi omnium calumniarum suarum tamquam <lb/>
@@ -499,20 +500,19 @@
             an fratrem agnoscere non aliquando a se conuictum. <lb/>
             intendite, obsecro, audite narrationem. 
 </p>
-          
-</div>
-
-<div n="9" subtype="section" type="textpart">
-<p>Maximianus quidam diaconus fuit Carthaginiensis in <lb/>
+         </div>
+         <div n="9" type="section">
+            <p>Maximianus quidam diaconus fuit Carthaginiensis in <lb/>
             parte Donati. siue merito superbiae suae siue, ut ipsi putant, <lb n="30"/>
             merito iustitiae suae offendit episcopum suum, id est Primianum <lb/>
             Carthaginiensem, siue inique, si superbus meliorem, siue <lb/>
             iuste, si probus inprobiorem. excommunicatus est a Primiano.
 
 <note type="footnote"> 1 esse] fuisse y 3 tanto studio ramum a se fractum y 6 laborauerit <lb/>
-            <hi rend="italic">rrnl</hi> 29 Carthaginensis <hi rend="italic">et</hi> 32 Carthaginensem <hi rend="italic">Ffo</hi> </note> <lb/>
-             
-<pb n="191"/>
+                  <hi rend="italic">rrnl</hi> 29 Carthaginensis <hi rend="italic">et</hi> 32 Carthaginensem <hi rend="italic">Ffo</hi>
+               </note>
+               <lb/>
+               <pb n="191"/>
             perrexit ad episcopos uicinos, concitauit inuidiam Primiano, <lb/>
             accusauit eum apud illos. uentum est ad Carthaginem. uoluerunt <lb/>
             qui uenerunt multi episcopi Donatistae ad se uenire <lb/>
@@ -547,10 +547,11 @@
             populi qui fauebant restiterunt, ubi non potuerunt uicti sunt, <lb/>
             in locum eorum qui uicti sunt et expulsi alii ordinati sunt.
 
-<note type="footnote"> 17 uoluerunt v 19 eleuatus <hi rend="italic">fv</hi> 24 eis nihil <hi rend="italic">fv</hi> 25 bagalensi <hi rend="italic">r</hi> <lb/>
-            firmarunt <hi rend="italic">fv</hi> 28 bagalense r </note> <lb/>
-             
-<pb n="192"/>
+<note type="footnote"> 17 uoluerunt v 19 eleuatus <hi rend="italic">fv</hi> 24 eis nihil <hi rend="italic">fv</hi> 25 bagalensi <hi rend="italic">r</hi>
+                  <lb/>
+            firmarunt <hi rend="italic">fv</hi> 28 bagalense r </note>
+               <lb/>
+               <pb n="192"/>
             ex quibus duos nouimus, ut de ceteris taceamus, unum Felicianum <lb/>
             (Mustitanum), alterum Praetextatum Assuritanum, quos <lb/>
             post annos duos aut tres per Optatum Gildonianum post <lb/>
@@ -570,11 +571,9 @@
             apostoli plantauerunt et ad quas legimus missas apostolorum <lb/>
             epistulas, quas audimus in ecclesia recitari. 
 </p>
-          
-</div>
-
-<div n="10" subtype="section" type="textpart">
-<p>Sententia tenetur, et quantum audiuimus ab ipso fratre <lb/>
+         </div>
+         <div n="10" type="section">
+            <p>Sententia tenetur, et quantum audiuimus ab ipso fratre <lb/>
             nostro, quem deus faciat pacatum fratrem nostrum, ab isto<lb n="20"/>
             Emerito est dicta sententia ubi illi damnati sunt. legatur ipsa <lb/>
             sententia ubi illi damnati sunt, et legatur sententia ubi Caecilianum <lb/>
@@ -586,15 +585,17 @@
             tardo se calore uaporauerint, tamen conceptum
 
 <note type="footnote"> 25 Sententia concilii Bagaiensis </note>
-
-<note type="footnote"> 2 Mustitanum <hi rend="italic">suppleui</hi> praetestatum JH 4 persecutionibus <hi rend="italic">f</hi> <lb/>
-            8 praetestati <hi rend="italic">r</hi> 9 ordinauerunt <hi rend="italic">fv</hi> 16 amirna <hi rend="italic">r</hi> 18 epistolas <hi rend="italic">rfv</hi> <lb/>
+               <note type="footnote"> 2 Mustitanum <hi rend="italic">suppleui</hi> praetestatum JH 4 persecutionibus <hi rend="italic">f</hi>
+                  <lb/>
+            8 praetestati <hi rend="italic">r</hi> 9 ordinauerunt <hi rend="italic">fv</hi> 16 amirna <hi rend="italic">r</hi> 18 epistolas <hi rend="italic">rfv</hi>
+                  <lb/>
             21 <hi rend="italic">dictata fv, cf. Cresc. III19, 22</hi> dictator uel dictor illius sententiae <lb/>
-            25 <hi rend="italic">Aug. sententiam concilii Bagaitani ex memoria recitat; cf. infra</hi> <lb/>
+            25 <hi rend="italic">Aug. sententiam concilii Bagaitani ex memoria recitat; cf. infra</hi>
+                  <lb/>
             11 nomina omnium mihi non occurrunt 27 uda] unda <hi rend="italic">r</hi> 28 tardiose <lb/>
-            calor euaporauerit r </note> <lb/>
-             
-<pb n="193"/>
+            calor euaporauerit r </note>
+               <lb/>
+               <pb n="193"/>
             uirus euanescente umbraculo occultari non potuit. <lb/>
             nam etsi sero publicum tamen parricidium et facinus <lb/>
             suum feta scelerum uota pepererunt, quod <lb/>
@@ -627,26 +628,23 @@
 
 <note type="footnote"> 4 Ps. 7, 15 10. 18. 20 Sententia concilii Bagaiensis 17 cf. <lb/>
             Num. 16, 32 26 cf. pag. 195, 3 ;-</note>
-
-<note type="footnote"> 1 unbraculo r 2 facinus et parricidium <hi rend="italic">v et Aug. alias</hi> 8 indulgentia <lb/>
-            <hi rend="italic">scripsi</hi> indulgentiae <hi rend="italic">rfv, cf. Cresc. IIII 31, 318</hi> 10 kafiii <hi rend="italic">1;</hi> <lb/>
+               <note type="footnote"> 1 unbraculo r 2 facinus et parricidium <hi rend="italic">v et Aug. alias</hi> 8 indulgentia <lb/>
+                  <hi rend="italic">scripsi</hi> indulgentiae <hi rend="italic">rfv, cf. Cresc. IIII 31, 318</hi> 10 kafiii <hi rend="italic">1;</hi>
+                  <lb/>
             13 <hi rend="italic">et</hi> 18 Dathan <hi rend="italic">f</hi> 16 sint <hi rend="italic">Iv</hi>. 21 sorbuit <hi rend="italic">alias</hi> 22 iudicium] supplicium <lb/>
-            <hi rend="italic">alias</hi> poenam <hi rend="italic">om. r</hi> 23 sui] suam <hi rend="italic">alias</hi> 27 eisuflatur <hi rend="italic">F</hi> </note>
-
-<note type="footnote"> LIII. August. c. Don. III. </note>
-
-<note type="footnote"> 13 </note> <lb/>
-             
-<pb n="194"/>
+                  <hi rend="italic">alias</hi> poenam <hi rend="italic">om. r</hi> 23 sui] suam <hi rend="italic">alias</hi> 27 eisuflatur <hi rend="italic">F</hi>
+               </note>
+               <note type="footnote"> LIII. August. c. Don. III. </note>
+               <note type="footnote"> 13 </note>
+               <lb/>
+               <pb n="194"/>
             frater Emerite, amplexus es fratrem tuum Felicianum tui oris <lb/>
             fulmine condemnatum: agnosce fratrem tuum Deuterium tibi <lb/>
             etiam genere sociatum. 
 </p>
-          
-</div>
-
-<div n="11" subtype="section" type="textpart">
-<p>Quotienscumque, fratres mei, causam istam Maximianistarum, <lb/>
+         </div>
+         <div n="11" type="section">
+            <p>Quotienscumque, fratres mei, causam istam Maximianistarum, <lb/>
             quam sicut potui uobis exposui, eis cum in collatione<lb n="5"/>
             ageremus obiecimus, plus inde tacuit quam modo in omnibus <lb/>
             tacet. non se occultent tergiuersatoria non defensione sed fuga. <lb/>
@@ -675,13 +673,14 @@
             faeculentia sordidarunt, sed et clericos aliquando
 
 <note type="footnote"> 12. 28 Sententia concilii Bagaiensis 15 Ps. 13, 3 </note>
-
-<note type="footnote"> 2 fratrem tuum <hi rend="italic">om. r</hi> 9 illos suos <hi rend="italic">v</hi> enim cum <hi rend="italic">10</hi> 20 e proprii <lb/>
-            <hi rend="italic">alias</hi> 21 secare iuncturam] iunctura praecidi <hi rend="italic">alias</hi> 24 salubris <hi rend="italic">f</hi> <lb/>
+               <note type="footnote"> 2 fratrem tuum <hi rend="italic">om. r</hi> 9 illos suos <hi rend="italic">v</hi> enim cum <hi rend="italic">10</hi> 20 e proprii <lb/>
+                  <hi rend="italic">alias</hi> 21 secare iuncturam] iunctura praecidi <hi rend="italic">alias</hi> 24 salubris <hi rend="italic">f</hi>
+                  <lb/>
             25 inrepat <hi rend="italic">alias</hi> 26 esse] ecce <hi rend="italic">v</hi> 27 praetestatum <hi rend="italic">r</hi> 28 infert <lb/>
-            sic <hi rend="italic">fv</hi> 30 sordidarunt <hi rend="italic">Ff</hi> glntinarunt <hi rend="italic">v et Aug. alias</hi> </note> <lb n="30"/>
-             
-<pb n="195"/>
+            sic <hi rend="italic">fv</hi> 30 sordidarunt <hi rend="italic">Ff</hi> glntinarunt <hi rend="italic">v et Aug. alias</hi>
+               </note>
+               <lb n="30"/>
+               <pb n="195"/>
             ecclesiae Carthaginis, qui, dum facinori intersunt, <lb/>
             illicito incestui praebuerunt lenocinium, dei praesidentis <lb/>
             arbitrio uniuersalis concilii ore ueridico <lb/>
@@ -706,11 +705,9 @@
             aut si fateris innocentis te fuisse receptorem, fateris te <lb/>
             innocentis fuisse damnatorem. 
 </p>
-          
-</div>
-
-<div n="12" subtype="section" type="textpart">
-<p>Et tamen, fratres mei, non inuidemus concordiae eorum. <lb/>
+         </div>
+         <div n="12" type="section">
+            <p>Et tamen, fratres mei, non inuidemus concordiae eorum. <lb/>
             inter se suscitata odia diabolica finierunt, quomodo putant, <lb n="25"/>
             in pacem redierunt. sed hoc dico: si ramus fractus quaesiuit <lb/>
             paruum a se fractum, qua diligentia debet arbor ipsa quaerere <lb/>
@@ -718,16 +715,15 @@
             ideo inter eorum arma et cruentas furias circumcellionum
 
 <note type="footnote"> 16 cf. Gaud. I 39, 54 post init. </note>
-
-<note type="footnote"> 2 lenocinium praebuerunt <hi rend="italic">alias</hi> 10 dignentur <hi rend="italic">f</hi> 15 tertium <hi rend="italic">r</hi> <lb/>
+               <note type="footnote"> 2 lenocinium praebuerunt <hi rend="italic">alias</hi> 10 dignentur <hi rend="italic">f</hi> 15 tertium <hi rend="italic">r</hi>
+                  <lb/>
             18 inquinat ignotos <hi rend="italic">ex Gaud. l. c. inserui</hi> 19 nondum natos <hi rend="italic">ex Gaud. <lb/>
              I c. recepi</hi> non damnatos <hi rend="italic">rfv</hi> 20 inquinauit] inquinat <hi rend="italic">fo</hi> tu istum <lb/>
             nosti <hi rend="italic">fo, cf. Post gesta cap. 6 p. 106, 1</hi> 24 eorum] ipsorum <hi rend="italic">fv</hi> 27 paruum] <lb/>
             uirgultum <hi rend="italic">fv, cf. § 7 extr</hi>. </note>
-
-<note type="footnote"> 13* </note> <lb/>
-             
-<pb n="196"/>
+               <note type="footnote"> 13* </note>
+               <lb/>
+               <pb n="196"/>
             periclitati sumus et adhuc reliquias eorum qualicumque donata <lb/>
             a deo patientia toleramus, dum arbor quaerit ramum, dum <lb/>
             grex ex ouili Christi ouem perditam quaerit. si pastoralibus <lb/>
@@ -744,24 +740,20 @@
             domini manet in aeternum.
 
 <note type="footnote"> 5 cf. Luc. 15, 4-6 11 II Cor. 12, 9 12 Prou. 19, 21 </note>
-
-<note type="footnote"> 9 consistit <hi rend="italic">fv</hi> 14 aeternum. <hi rend="italic">(minio)</hi> Expliciunt gesta beati augustini <lb/>
-            epi ca emerito donatistarum epo r. </note> 
-<pb n="197"/>
-            
-</p>
-        
-</div>
-
-        <div subtype="section" type="textpart" n="retractationes">
-          <head>
-            <title type="main">AVGVSTINI RETRACTITIONUM LIB. II CAP. LXXVII (LI)</title>
-          </head>
-          <ab>
-            <title type="sub">(PAG. 187, 16 ED. KNOELL). GESTA CUM EMERITO DONATISTA, LIBER UNUS. </title>
-          </ab>
-  <div n="1" subtype="section" type="textpart">  
-          <p>Aliquanto post conlationem, quam cum hereticis Donatistis <lb/>
+               <note type="footnote"> 9 consistit <hi rend="italic">fv</hi> 14 aeternum. <hi rend="italic">(minio)</hi> Expliciunt gesta beati augustini <lb/>
+            epi ca emerito donatistarum epo r. </note>
+               <pb n="197"/>
+            </p>
+         </div>
+         <div n="retractationes" type="section">
+            <head>
+               <title type="main">AVGVSTINI RETRACTITIONUM LIB. II CAP. LXXVII (LI)</title>
+            </head>
+            <ab>
+               <title type="sub">(PAG. 187, 16 ED. KNOELL). GESTA CUM EMERITO DONATISTA, LIBER UNUS. </title>
+            </ab>
+            <div n="1" type="section">
+               <p>Aliquanto post conlationem, quam cum hereticis Donatistis <lb/>
             habuimus, orta est nobis necessitas pergendi in Mauritaniam <lb n="5"/>
             Caesariensem. ibi apud ipsam Caesaream Emeritum, <lb/>
             Donatistarum episcopum, uidimus, unum scilicet eorum septem, <lb/>
@@ -773,32 +765,26 @@
             habentur opusculis. ubi non inueniens, quid responderet, totum <lb/>
             sermonem meum, quem de solis Maximianistis in auribus eius <lb/>
             et omnium, qui aderant, explicaui, tamquam mutus audiuit, <lb n="15"/>
-            
-</p>
-          
-</div>
-
-<div n="2" subtype="section" type="textpart">
-<p>Hic liber uel haec gesta sic incipiunt: <hi rend="italic">Gloriosissimo <lb/>
+               </p>
+            </div>
+            <div n="2" type="section">
+               <p>Hic liber uel haec gesta sic incipiunt: <hi rend="italic">Gloriosissimo <lb/>
             Honorio Augusto XII et Constantio iterum VV. CC. consulibus <lb/>
             XI Kalendas Octobris Caesarea in ecclesia maiore</hi>.
 
-<note type="footnote"> <hi rend="italic">Lectiones cod. Gratianopolitani 152 sacc. XIII:</hi> </note>
-
-<note type="footnote"> 3 Incipit retractatio beati augustini epi in libro de gestis cum emerito <lb/>
+<note type="footnote">
+                     <hi rend="italic">Lectiones cod. Gratianopolitani 152 sacc. XIII:</hi>
+                  </note>
+                  <note type="footnote"> 3 Incipit retractatio beati augustini epi in libro de gestis cum emerito <lb/>
             donatistarum epo 6 cesariam 16 Gloriosissimo] Gloriosissimis imperatoribus <lb/>
             17 Augusto <hi rend="italic">om</hi>. Constantio-CC.] theodosio VIII. 18 XIJ <lb/>
-            XU. Kt cesaree </note> <lb/>
-            
-<pb n="198"/>
-             
-<pb n="199"/>
-            
-</p>
-
-</div>
-        
-</div></div>
-</body>
-</text>
+            XU. Kt cesaree </note>
+                  <lb/>
+                  <pb n="198"/>
+                  <pb n="199"/>
+               </p>
+            </div>
+         </div>
+      </body>
+   </text>
 </TEI>

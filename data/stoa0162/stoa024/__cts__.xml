@@ -1,4 +1,5 @@
-<ti:work xml:lang="lat" xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:latinLit:stoa0162" urn="urn:cts:latinLit:stoa0162.stoa024">
+<?xml version='1.0' encoding='UTF-8'?>
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" xml:lang="lat" groupUrn="urn:cts:latinLit:stoa0162" urn="urn:cts:latinLit:stoa0162.stoa024">
   <ti:title xml:lang="lat">In Hieremiam Prophetam Libri Sex</ti:title>
   <ti:edition workUrn="urn:cts:latinLit:stoa0162.stoa024" urn="urn:cts:latinLit:stoa0162.stoa024.opp-lat1">
     <ti:label xml:lang="lat">In Hieremiam Prophetam Libri Sex</ti:label>
@@ -6,4 +7,4 @@
       In Hieremiam Prophetam (Corpus Scriptorum Ecclesiasticorum Latinorum, Volume 59).  Vienna, Leipzig: Tempsky, Freytag,
     1913.</ti:description>
   </ti:edition>
-</ti:work>
+<ti:genre confidence="high">prose-philosophy</ti:genre></ti:work>

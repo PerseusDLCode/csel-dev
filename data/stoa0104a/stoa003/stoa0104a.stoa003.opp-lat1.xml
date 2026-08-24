@@ -1,100 +1,105 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader xml:lang="eng">
-    <fileDesc>
-      <titleStmt>
-        <title xml:lang="lat">De Bono Patientiae</title>
-        <author>Cyprian, Saint</author>
-        <editor>Wilhelm von Hartel</editor>        
-        <sponsor>University of Leipzig</sponsor>
-        <funder>European Social Fund Saxony</funder>
-        <principal>Gregory Crane</principal>
-        <respStmt>
-          <persName xml:id="Jouve">Jouve</persName>
-          <resp>OCR-ed, corrected and encoded the text</resp>
-        </respStmt>
-        <respStmt>
-          <persName>Greta Franzini</persName>
-          <resp>Project Manager (University of Leipzig)</resp>
-        </respStmt>
-        <respStmt>
-          <persName>Simona Stoyanova</persName>
-          <resp>Project Assistant (University of Leipzig)</resp>
-        </respStmt>
-        <respStmt>
-          <persName>Bruce Robertson</persName>
-          <resp>Technical Advisor (Mount Allison University)</resp>
-        </respStmt>
-        <respStmt>
-          <persName>Uvius Fonticola</persName>
-          <resp>Technical Advisor (Ludwig Maximilians University Munich)</resp>
-        </respStmt>
-      </titleStmt>
-      
-      <publicationStmt>
-        <authority>University of Leipzig</authority>
-        <idno type="filename">stoa0104a.stoa0003.opp-lat1.xml</idno>
-        <availability>
-          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
-        </availability>
-        <date>2014</date>
-        <publisher>University of Leipzig</publisher>
-        <pubPlace>Germany</pubPlace>
-      </publicationStmt>
-      
-      <sourceDesc>
-        <listBibl>
-          <biblStruct>
-            <monogr>
-              <editor>
-                <persName>
-                  <name>Wilhelm von Hartel</name>
-                </persName>
-              </editor> 
-              <author>Cyprian, Saint</author>  
-              <title xml:lang="lat">S. Thasci Caecili Cypriani Opera omnia</title>
-              <imprint>
-                <publisher>Gerold</publisher>
-                <pubPlace>Vienna</pubPlace>
-                <date>1868</date>
-              </imprint>
-              <biblScope unit="volume" xml:lang="lat">Pars I</biblScope>
-            </monogr>
-            <series>
-              <title xml:lang="lat">Corpus Scriptorum Ecclesiasticorum Latinorum </title>
-              <biblScope unit="volume">3.1</biblScope>              
-            </series>
-            <ref target="www.archive.org/stream/corpusscriptor203cypruoft#page/394/mode/2up">Internet Archive</ref>
-            
-          </biblStruct>
-        </listBibl>
-      </sourceDesc>
-      
-    </fileDesc>
-    <encodingDesc>
-      <p>The following text is encoded in accordance with EpiDoc standards and with the
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/PerseusDLCode/perseus-schemas/main/perseus_prose.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="eng">
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="lat">De Bono Patientiae</title>
+            <author>Cyprian, Saint</author>
+            <editor>Wilhelm von Hartel</editor>
+            <sponsor>University of Leipzig</sponsor>
+            <funder>European Social Fund Saxony</funder>
+            <principal>Gregory Crane</principal>
+            <respStmt>
+               <persName xml:id="Jouve">Jouve</persName>
+               <resp>OCR-ed, corrected and encoded the text</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Greta Franzini</persName>
+               <resp>Project Manager (University of Leipzig)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Simona Stoyanova</persName>
+               <resp>Project Assistant (University of Leipzig)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Bruce Robertson</persName>
+               <resp>Technical Advisor (Mount Allison University)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Uvius Fonticola</persName>
+               <resp>Technical Advisor (Ludwig Maximilians University Munich)</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>University of Leipzig</authority>
+            <idno type="filename">stoa0104a.stoa0003.opp-lat1.xml</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
+            </availability>
+            <date>2014</date>
+            <publisher>University of Leipzig</publisher>
+            <pubPlace>Germany</pubPlace>
+            <idno type="CTS">urn:cts:latinLit:stoa0104a.stoa003.opp-lat1</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <name>Wilhelm von Hartel</name>
+                        </persName>
+                     </editor>
+                     <author>Cyprian, Saint</author>
+                     <title xml:lang="lat">S. Thasci Caecili Cypriani Opera omnia</title>
+                     <imprint>
+                        <publisher>Gerold</publisher>
+                        <pubPlace>Vienna</pubPlace>
+                        <date>1868</date>
+                     </imprint>
+                     <biblScope unit="volume" xml:lang="lat">Pars I</biblScope>
+                  </monogr>
+                  <series>
+                     <title xml:lang="lat">Corpus Scriptorum Ecclesiasticorum Latinorum </title>
+                     <biblScope unit="volume">3.1</biblScope>
+                  </series>
+                  <ref target="www.archive.org/stream/corpusscriptor203cypruoft#page/394/mode/2up">Internet Archive</ref>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>The following text is encoded in accordance with EpiDoc standards and with the
         CTS/CITE Architecture. 
 </p>
-      <refsDecl n="CTS">
-        <cRefPattern n="section" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1'])"/>
-      </refsDecl>
-    </encodingDesc>
-    
-    <profileDesc>
-      <langUsage>
-        <language ident="lat">Latin</language>
-      </langUsage>
-    </profileDesc>
-    
-</teiHeader>
-<text>
-<body>
-<div type="edition" xml:lang="lat" n="urn:cts:latinLit:stoa0104a.stoa003.opp-lat1">
-<head>
+         <refsDecl n="CTS">
+            <cRefPattern n="section"
+                         matchPattern="(.+)"
+                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1'])"/>
+         </refsDecl>
+         <refsDecl n="CTS">
+            <citeStructure match="/TEI/text/body" use="@xml:base">
+               <citeStructure unit="section" delim="." match="div[@type='section']" use="@n"/>
+            </citeStructure>
+         </refsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <catRef scheme="#perseus-genre" target="#prose-section"/>
+         </textClass>
+         <langUsage>
+            <language ident="lat">Latin</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body xml:base="urn:cts:latinLit:stoa0104a.stoa003.opp-lat1">
+         <head>
             <title type="main">DE BONO PATIENTIAE. </title>
-          </head>
-         
-
-<div n="1" subtype="section" type="textpart"><p>De patientia locuturus, fratres dilectissimi, et utilitates eius  <lb/>
+         </head>
+         <div n="1" type="section">
+            <p>De patientia locuturus, fratres dilectissimi, et utilitates eius  <lb/>
             et commoda praedicaturus unde potius incipiam, quam quod <lb/>
             nunc quoque ad audientiam uestram patientiam uideo esse necessariam, <lb/>
             ut nec hoc ipsum quod auditis et discitis sine patientia <lb n="5"/>
@@ -106,9 +111,9 @@
             quam ut qui praeceptis dominicis obsequio timoris ac deuotionis <lb/>
             innitimur patientiam maxime tota obseruatione tueamur. 
 </p>
-          </div>
-
-<div n="2" subtype="section" type="textpart"><p rend="script">Hanc se sectari philosophi quoque profitentur, sed tam illic  <lb/>
+         </div>
+         <div n="2" type="section">
+            <p rend="script">Hanc se sectari philosophi quoque profitentur, sed tam illic  <lb/>
             patientia falsa est quam et falsa sapientia est. unde enim uel <lb/>
             sapiens esse uel patiens possit qui nec sapientiam nec patientiam <lb n="15"/>
             Dei nouit? quando ipse de his qui sibi sapere in mundo uidentur <lb/>
@@ -118,18 +123,16 @@
             gentibus missus contestetur et instruat dicens: uidete ne qui
 
 <note type="footnote"> 17 Es. 29,14. 20 Col. 2, 8 sq. </note>
-
-<note rend="script" type="footnote"> INCIPIT DE PATIA <hi rend="italic">W,</hi> INCIPIT DE PATIENTIA LGG VITA IN XPO <hi rend="italic">U\'; <lb/>
+               <note rend="script" type="footnote"> INCIPIT DE PATIA <hi rend="italic">W,</hi> INCIPIT DE PATIENTIA LGG VITA IN XPO <hi rend="italic">U\'; <lb/>
             cf. Cypr. epist. 73 c. 26:</hi> propter hoc etiam libellum nunc de bono patientiae <lb/>
             quantum ualuit nostra mediocritas...conscripsimue 4 audentiam <lb/>
-            <hi rend="italic">W</hi> ewe <hi rend="italic">om. V</hi> 5 hoc <hi rend="italic">om. W</hi> 7 inueni o <hi rend="italic">W</hi> 8 coelestis disciplinae <lb/>
+                  <hi rend="italic">W</hi> ewe <hi rend="italic">om. V</hi> 5 hoc <hi rend="italic">om. W</hi> 7 inueni o <hi rend="italic">W</hi> 8 coelestis disciplinae <lb/>
             17 10 **utilius <hi rend="italic">W</hi> 13 quoque] quique <hi rend="italic">V</hi> 14 est <hi rend="italic">(post</hi> sapientia) <lb/>
             om. <hi rend="italic">G</hi> 16 ipse <hi rend="italic">W,</hi> ipse dns <hi rend="italic">G, om. v</hi> his] iis <hi rend="italic">v</hi> 17 ipse moneat <lb/>
-            <hi rend="italic">v</hi> hominum sapientium <hi rend="italic">V</hi> 20 contestatur et instruit G1 <lb/>
-            quis <hi rend="italic">Gv</hi>- </note> <lb n="20"/>
-
-
-<pb n="398"/>
+                  <hi rend="italic">v</hi> hominum sapientium <hi rend="italic">V</hi> 20 contestatur et instruit G1 <lb/>
+            quis <hi rend="italic">Gv</hi>- </note>
+               <lb n="20"/>
+               <pb n="398"/>
             uos depraedetur per philosophiam et inanem fallaciam <lb/>
             secundum traditionem hominum, secundum <lb/>
             elementa mundi et non secundum Christum, quia <lb/>
@@ -148,9 +151,9 @@
             libertatis audacia et exerti ac seminudi pectoris inuerecunda <lb/>
             iactantia. 
 </p>
-          </div>
-
-<div n="3" subtype="section" type="textpart"><p> Nos autem, fratres dilectissimi, qui philosophi non uerbis sed <lb/>
+         </div>
+         <div n="3" type="section">
+            <p> Nos autem, fratres dilectissimi, qui philosophi non uerbis sed <lb/>
             factis sumus, nec uestitu sapientiam sed ueritate praeferimus, <lb/>
             qui uirtutum conscientiam magis quam iactantiam nouimus, qui<lb n="20"/>
             non loquimur magna sed uiuimus, quasi serui et cultores Dei <lb/>
@@ -162,25 +165,25 @@
             diuina commendat. si dominus nobis et pater Deus est,
 
 <note type="footnote"> 9 I Cor. 3, 18 sq. </note>
-
-<note type="footnote"> 4 inhabitat <hi rend="italic">W2v</hi> 5 quis <hi rend="italic">Gv</hi> se put. sapientem <hi rend="italic">Gf)</hi> 6 huic mundo <lb/>
-            <hi rend="italic">G</hi> 7 fiat] sit <hi rend="italic">Gv</hi> mundi huius v 8 reprehendes <hi rend="italic">G,</hi> reprehendam v; <lb/>
-            <hi rend="italic">cf. test. III 69 p.170</hi> 10 <hi rend="italic">faWGF,dominus</hi> v hominum sapientiumV <lb/>
+               <note type="footnote"> 4 inhabitat <hi rend="italic">W2v</hi> 5 quis <hi rend="italic">Gv</hi> se put. sapientem <hi rend="italic">Gf)</hi> 6 huic mundo <lb/>
+                  <hi rend="italic">G</hi> 7 fiat] sit <hi rend="italic">Gv</hi> mundi huius v 8 reprehendes <hi rend="italic">G,</hi> reprehendam v; <lb/>
+                  <hi rend="italic">cf. test. III 69 p.170</hi> 10 <hi rend="italic">faWGF,dominus</hi> v hominum sapientiumV <lb/>
             11 quare? si <hi rend="italic">W</hi> 12 patiens] sapiens <hi rend="italic">v</hi> est et humilis malim 13 esse <lb/>
-            uidemus <hi rend="italic">W</hi> moltum] tantum <hi rend="italic">V</hi> 15 non] ueram non v 19 facti <hi rend="italic">G*</hi> <lb/>
+            uidemus <hi rend="italic">W</hi> moltum] tantum <hi rend="italic">V</hi> 15 non] ueram non v 19 facti <hi rend="italic">G*</hi>
+                  <lb/>
             nos non habitu sapientiam sed mente praeferimus, non eloquimur magna <lb/>
             sed uiuimus <hi rend="italic">Minuctus Felix Oct. c. 38, 6</hi> 21 quasi <hi rend="italic">W,</hi> qua <hi rend="italic">V,</hi> ut <hi rend="italic">G <lb/>
             post</hi> dei <hi rend="italic">puncto distinxitErasmus</hi> 23 est enimJ <hi rend="italic">cf. August. contra duas <lb/>
-            epist. Pel. IV, 9, 25</hi> 26 ac bonum <hi rend="italic">W</hi> </note> <lb/>
-
-
-<pb n="399"/>
+            epist. Pel. IV, 9, 25</hi> 26 ac bonum <hi rend="italic">W</hi>
+               </note>
+               <lb/>
+               <pb n="399"/>
             sectemur patientiam domini pariter et patris, quia et seruos esse <lb/>
             oportet obsequentes et filios non decet esse degeneres. 
 </p>
-          </div>
-
-<div n="4" subtype="section" type="textpart"><p>Qualis uero in Deo et quanta patientia, quod in contumeliam  <lb/>
+         </div>
+         <div n="4" type="section">
+            <p>Qualis uero in Deo et quanta patientia, quod in contumeliam  <lb/>
             suae maiestatis et honoris instituta ab hominibus profana templa <lb/>
             et terrena figmenta et sacra sacrilega patientissime sustinens <lb n="5"/>
             super bonos et malos aequaliter facit diem nasci et lumen solis <lb/>
@@ -208,19 +211,23 @@
             opulentiam bonitatis eius et sustinentiam et
 
 <note type="footnote"> 20 Ezech. 18, 32. 22 Mal. 3, 7. 23 Ioel 2,13. 27 Rom. 2, 4 sq. </note>
-
-<note type="footnote"> 2 oportet esse <hi rend="italic">v</hi> 4 prophana <hi rend="italic">WG</hi> 10 reliosis <hi rend="italic">W</hi> 12 grandescere] <lb/>
-            candescere <hi rend="italic">Morellius</hi> mitescere] matnrescere <hi rend="italic">v</hi> 13 arbnta <hi rend="italic">Wl</hi> <lb/>
+               <note type="footnote"> 2 oportet esse <hi rend="italic">v</hi> 4 prophana <hi rend="italic">WG</hi> 10 reliosis <hi rend="italic">W</hi> 12 grandescere] <lb/>
+            candescere <hi rend="italic">Morellius</hi> mitescere] matnrescere <hi rend="italic">v</hi> 13 arbnta <hi rend="italic">Wl</hi>
+                  <lb/>
             19 contagio <hi rend="italic">Way,</hi> contagione <hi rend="italic">v</hi> 21 quantum ut] tantum <hi rend="italic">W</hi> et iterum.. <lb/>
-            dominus <hi rend="italic">om. WGV</hi> 24 et pius est <hi rend="italic">om. G</hi> patiens est <hi rend="italic">G</hi> <lb/>
-            25 malitias inrogatas <hi rend="italic">WV,</hi> maliciam inrogatam <hi rend="italic">Gv; cf. de lapsis p. 263</hi> <lb/>
-            26 quod item <hi rend="italic">v,</hi> quod et <hi rend="italic">malim</hi> paulus om. <hi rend="italic">G</hi> peccatorum <hi rend="italic">G I</hi> <lb/>
+            dominus <hi rend="italic">om. WGV</hi> 24 et pius est <hi rend="italic">om. G</hi> patiens est <hi rend="italic">G</hi>
+                  <lb/>
+            25 malitias inrogatas <hi rend="italic">WV,</hi> maliciam inrogatam <hi rend="italic">Gv; cf. de lapsis p. 263</hi>
+                  <lb/>
+            26 quod item <hi rend="italic">v,</hi> quod et <hi rend="italic">malim</hi> paulus om. <hi rend="italic">G</hi> peccatorum <hi rend="italic">G I</hi>
+                  <lb/>
             27 paenitentiam] patientiam <hi rend="italic">W</hi> nnmquid] inquit <hi rend="italic">v</hi> 28 sustinentiam <lb/>
-            et patientiam (eius <hi rend="italic">add. V) WGV,</hi> sustinentiae et longanimitatis <hi rend="italic">uel su-</hi> <lb/>
-            stentionis et longanimitatis <hi rend="italic">v; cf. test. III35</hi> </note> <lb/>
-
-
-<pb n="400"/>
+            et patientiam (eius <hi rend="italic">add. V) WGV,</hi> sustinentiae et longanimitatis <hi rend="italic">uel su-</hi>
+                  <lb/>
+            stentionis et longanimitatis <hi rend="italic">v; cf. test. III35</hi>
+               </note>
+               <lb/>
+               <pb n="400"/>
             patientiam contemnis ignorans quoniam patientia <lb/>
             et bonitas Dei ad paenitentiam te adducit? tu <lb/>
             autem secundum duritiam tuam et cor inpaenitens <lb/>
@@ -231,9 +238,9 @@
             consulatur. tunc repraesentatur poena impio et peccatori, <lb/>
             quando iam non potest paenitentia prodesse peccati. 
 </p>
-          </div>
-
-<div n="5" subtype="section" type="textpart"><p> Adque ut plenius intellegere possimus, fratres dilectissimi,<lb n="10"/>
+         </div>
+         <div n="5" type="section">
+            <p> Adque ut plenius intellegere possimus, fratres dilectissimi,<lb n="10"/>
             quia patientia Dei res est et quisque lenis patiens et mitis est <lb/>
             Dei patris imitator est, cum in euangelio suo Dominus praecepta <lb/>
             in salutem daret et diuina monita depromens ad perfectum <lb/>
@@ -253,27 +260,30 @@
             docuit caelesti natiuitate reparatos, si patientia Dei patris
 
 <note type="footnote"> - 14 Matth. 5, 43 sq. </note>
-
-<note type="footnote"> 1 condempnis <hi rend="italic">G</hi> ignoras <hi rend="italic">G</hi> 3 paenitens <hi rend="italic">W</hi> 4 diem <hi rend="italic">V</hi> 5 reddit <lb/>
-            <hi rend="italic">G</hi> 6 quia aerum est <hi rend="italic">om. a</hi> 7 difertnr <hi rend="italic">G</hi> 8 consolatur <hi rend="italic">W</hi> <lb/>
-            9 peccati <hi rend="italic">WY,</hi> peccanti <hi rend="italic">Gv</hi> 10 possimus <hi rend="italic">ex</hi> posse <hi rend="italic">W</hi> m. <hi rend="italic">2,</hi> possemns <hi rend="italic">G</hi> <lb/>
+               <note type="footnote"> 1 condempnis <hi rend="italic">G</hi> ignoras <hi rend="italic">G</hi> 3 paenitens <hi rend="italic">W</hi> 4 diem <hi rend="italic">V</hi> 5 reddit <lb/>
+                  <hi rend="italic">G</hi> 6 quia aerum est <hi rend="italic">om. a</hi> 7 difertnr <hi rend="italic">G</hi> 8 consolatur <hi rend="italic">W</hi>
+                  <lb/>
+            9 peccati <hi rend="italic">WY,</hi> peccanti <hi rend="italic">Gv</hi> 10 possimus <hi rend="italic">ex</hi> posse <hi rend="italic">W</hi> m. <hi rend="italic">2,</hi> possemns <hi rend="italic">G</hi>
+                  <lb/>
             11 res] lenis <hi rend="italic">editio Dauentriensis</hi> quisque <hi rend="italic">G m. 2 add</hi>. in <hi rend="italic">marg., <lb/>
-            qaisquis v «««lems G et patiens v, pacienter G 15 tibi WY,</hi> <lb/>
-            tuum <hi rend="italic">G; item 1.16</hi> odio habebis] odies <hi rend="italic">V; cf. de zelo et liuore c. 15</hi> <lb/>
+            qaisquis v «««lems G et patiens v, pacienter G 15 tibi WY,</hi>
+                  <lb/>
+            tuum <hi rend="italic">G; item 1.16</hi> odio habebis] odies <hi rend="italic">V; cf. de zelo et liuore c. 15</hi>
+                  <lb/>
             18 ***patris <hi rend="italic">0</hi> 21 habetis <hi rend="italic">W</hi> 22 sic et publicani <hi rend="italic">v,</hi> et sic p. <hi rend="italic">V</hi> 23 facietis <lb/>
-            <hi rend="italic">v</hi> et <hi rend="italic">om. G</hi> 24 eritis <hi rend="italic">Way,</hi> estote <hi rend="italic">v</hi> 25 quomodo <hi rend="italic">WGY,</hi> <lb/>
-            sicut v </note> <lb/>
-
-
-<pb n="401"/>
+                  <hi rend="italic">v</hi> et <hi rend="italic">om. G</hi> 24 eritis <hi rend="italic">Way,</hi> estote <hi rend="italic">v</hi> 25 quomodo <hi rend="italic">WGY,</hi>
+                  <lb/>
+            sicut v </note>
+               <lb/>
+               <pb n="401"/>
             maneat in nobis, si similitudo diuina quam peccato Adam perdiderat <lb/>
             manifestetur et luceat in actibus nostris. quae gloria est <lb/>
             similem Deo fieri, qualis et quanta felicitas habere in uirtutibus <lb/>
             quod diuinis laudibus possit aequari. 
 </p>
-          </div>
-
-<div n="6" subtype="section" type="textpart"><p>Nec hoc, fratres dilectissimi, Iesus Christus Dominus et Deus  <lb n="5"/>
+         </div>
+         <div n="6" type="section">
+            <p>Nec hoc, fratres dilectissimi, Iesus Christus Dominus et Deus  <lb n="5"/>
             noster tantum uerbis docuit, sed impleuit et factis. et qui ad <lb/>
             hoc descendisse se dixerat ut uoluntatem patris faceret inter <lb/>
             cetera mirabilia uirtutum quibus indicia diuinae maiestatis expressit <lb/>
@@ -297,25 +307,25 @@
             qui ludam potuit usque ad extremum longa patientia <lb/>
             sustinere, cibum cum inimico capere, hostem domesticum scire
 
-<note type="footnote"> 1 in nobis] si consummari... natiuitate <hi rend="italic">repetit G1, exp. G -</hi> si <hi rend="italic">om. G</hi> <lb/>
+<note type="footnote"> 1 in nobis] si consummari... natiuitate <hi rend="italic">repetit G1, exp. G -</hi> si <hi rend="italic">om. G</hi>
+                  <lb/>
             peccando <hi rend="italic">G</hi> 5 ne G I et deus <hi rend="italic">W s. I. m. 2</hi> deus et dominus <hi rend="italic">uel</hi> et dominus <lb/>
             deus <hi rend="italic">v</hi> 6 pleuit et quia <hi rend="italic">ab his incipit S</hi> qui] quia <hi rend="italic">v</hi> 7 discendisse <lb/>
             se S\' WI, descendi sese <hi rend="italic">G</hi> dei patris <hi rend="italic">S</hi> 8 admirabilia <hi rend="italic">W,</hi> ammirabilia <lb/>
-            <hi rend="italic">G,</hi> magnalia <hi rend="italic">V,</hi> magnalia et mirabilia <hi rend="italic">scripsit Krabinger</hi> <lb/>
+                  <hi rend="italic">G,</hi> magnalia <hi rend="italic">V,</hi> magnalia et mirabilia <hi rend="italic">scripsit Krabinger</hi>
+                  <lb/>
             uirtutum suarum <hi rend="italic">uel</hi> suarum uirtutum v 9 seruauit tenore <hi rend="italic">G</hi> 10 om- <lb/>
-            Des <hi rend="italic">v</hi> pacientiae <hi rend="italic">G</hi> 11 signantur v illa <hi rend="italic">om. S</hi> 13 portarct 81 <hi rend="italic">G</hi> <lb/>
+            Des <hi rend="italic">v</hi> pacientiae <hi rend="italic">G</hi> 11 signantur v illa <hi rend="italic">om. S</hi> 13 portarct 81 <hi rend="italic">G</hi>
+                  <lb/>
             14 seposita S2 et mortalem <hi rend="italic">Wv</hi> 15 perematur <hi rend="italic">W</hi> remissa 81 <lb/>
             16 designatur Wl 17 sagiantur S\' 18 famen <hi rend="italic">G</hi> sentit-satnrentur <lb/>
-            <hi rend="italic">WGv 19 diabulo SW 20 uerba om. G 22 dignatas est v</hi> 24 aequa <lb/>
+                  <hi rend="italic">WGv 19 diabulo SW 20 uerba om. G 22 dignatas est v</hi> 24 aequa <lb/>
             les ex quales <hi rend="italic">Sm. 2</hi> 25 oboedientes <hi rend="italic">WG,</hi> compares obaudientes <hi rend="italic">Baluziw<lb/>
-             </hi> tales <hi rend="italic">S</hi> 27 capere <hi rend="italic">S WG V,</hi> sumere 0 </note>
-
-<note type="footnote"> III. </note>
-
-<note type="footnote"> 20 </note> <lb/>
-
-
-<pb n="402"/>
+                  </hi> tales <hi rend="italic">S</hi> 27 capere <hi rend="italic">S WG V,</hi> sumere 0 </note>
+               <note type="footnote"> III. </note>
+               <note type="footnote"> 20 </note>
+               <lb/>
+               <pb n="402"/>
             nec palam ostendere, traditoris osculum non recusare. in Iudaeis <lb/>
             uero tolerandis aequanimitas quanta et quanta patientia incredulos <lb/>
             ad fidem suadendo flectere, obsequio ingratos fouere, contradicentibus <lb/>
@@ -324,9 +334,9 @@
             aduersus Deum semper rebelles usque ad crucis et passionis horam <lb/>
             uelle colligere. 
 </p>
-          </div>
-
-<div n="7" subtype="section" type="textpart"><p rend="script"> Sub ipsa autem passione et cruce, priusquam ad crudelitatem <lb/>
+         </div>
+         <div n="7" type="section">
+            <p rend="script"> Sub ipsa autem passione et cruce, priusquam ad crudelitatem <lb/>
             necis et effusionem sanguinis ueniretur, quae conuiciorum probra <lb/>
             patienter audita, quae contumeliarum tolerata ludibria, ut insultantium<lb n="10"/>
             sputamina exciperet qui sputo suo caeci oculos paulo <lb/>
@@ -347,22 +357,23 @@
             ac iugiter tolerantur omnia ut consummetur in Christo <lb/>
             plena et perfecta patientia.
 
-<note rend="script" type="footnote"> 2 aequaanimitas 81 quanta**** et <hi rend="italic">G</hi> 6 aduersum <hi rend="italic">v</hi> dom <hi rend="italic">S</hi> <lb/>
+<note rend="script" type="footnote"> 2 aequaanimitas 81 quanta**** et <hi rend="italic">G</hi> 6 aduersum <hi rend="italic">v</hi> dom <hi rend="italic">S</hi>
+                  <lb/>
             7 collegere <hi rend="italic">Sl</hi> 10 ut] aut <hi rend="italic">W</hi> 11 spumatamina G exciperet <lb/>
-            <hi rend="italic">SWGV,</hi> patienter exciperet <hi rend="italic">v</hi> 12 in cuius v <hi rend="italic">et Wcorr. in margine <lb/>
-            </hi> nunc eius <hi rend="italic">WGv</hi> 14 marturas <hi rend="italic">W,</hi> martyres <hi rend="italic">Gv</hi> coronaret <lb/>
-            <hi rend="italic">81</hi> 17 putaretur <hi rend="italic">81</hi> Balubri S, salutari <hi rend="italic">WV,</hi> salutare <hi rend="italic">Gv</hi> poculo <lb/>
-            <hi rend="italic">SWV,</hi> poculum <hi rend="italic">Gv</hi> 18 ipsa et ipsa s 19 facinerosos <hi rend="italic">W</hi> 21 et <lb/>
-            <hi rend="italic">W 8. 1. m. 2 crucem S, uictimam WGv; cf. p. 414, 11., test. II15 <lb/>
+                  <hi rend="italic">SWGV,</hi> patienter exciperet <hi rend="italic">v</hi> 12 in cuius v <hi rend="italic">et Wcorr. in margine <lb/>
+                  </hi> nunc eius <hi rend="italic">WGv</hi> 14 marturas <hi rend="italic">W,</hi> martyres <hi rend="italic">Gv</hi> coronaret <lb/>
+                  <hi rend="italic">81</hi> 17 putaretur <hi rend="italic">81</hi> Balubri S, salutari <hi rend="italic">WV,</hi> salutare <hi rend="italic">Gv</hi> poculo <lb/>
+                  <hi rend="italic">SWV,</hi> poculum <hi rend="italic">Gv</hi> 18 ipsa et ipsa s 19 facinerosos <hi rend="italic">W</hi> 21 et <lb/>
+                  <hi rend="italic">W 8. 1. m. 2 crucem S, uictimam WGv; cf. p. 414, 11., test. II15 <lb/>
             p. 80</hi> confundatur <hi rend="italic">S</hi> 22 nox] non <hi rend="italic">S</hi> 23 ne] et ne <hi rend="italic">S</hi> (et <hi rend="italic">s. I. <lb/>
-            m.2) 25 saltem Sv perseuerantur Gl 26 consumetur W, consum-</hi> <lb/>
+            m.2) 25 saltem Sv perseuerantur Gl 26 consumetur W, consum-</hi>
+                  <lb/>
             matur 82 </note>
-</p>
-<pb n="403"/>
-            
-          </div>
-
-<div n="8" subtype="section" type="textpart"><p>Et post ista adhuc interfectores suos, si conuersi ad eum uenerint,  <lb/>
+            </p>
+            <pb n="403"/>
+         </div>
+         <div n="8" type="section">
+            <p>Et post ista adhuc interfectores suos, si conuersi ad eum uenerint,  <lb/>
             suscipit et patientia salutari ad conseruandum benignus <lb/>
             ecclesiam suam nemini cludit. illos aduersarios, illos blasphemos, <lb/>
             illos nominis sui semper inimicos, si paenitentiam delicti agant, <lb/>
@@ -372,11 +383,10 @@
             qui fudit sanguinem Christi. talis est Christi ac tanta patientia: <lb/>
             quae nisi talis et tanta existeret, Paulum quoque apostolum <lb/>
             ecclesia non haberet. <lb n="10"/>
-            
-</p>
-          </div>
-
-<div n="9" subtype="section" type="textpart"><p>Quodsi et nos, fratres dilectissimi, in Christo sumus, si  <lb/>
+            </p>
+         </div>
+         <div n="9" type="section">
+            <p>Quodsi et nos, fratres dilectissimi, in Christo sumus, si  <lb/>
             ipsum induimus, si ipse est salutis nostrae uia, qui Christum <lb/>
             uestigiis salutaribus sequimur per Christi exempla gradiamur, <lb/>
             sicut Iohannes apostolus instruit dicens: qui dicit se in <lb/>
@@ -389,31 +399,33 @@
             non remaledixit, cum pateretur non minabatur, <lb/>
             tradebat autem se iudicanti iniuste. 
 </p>
-          </div>
-
-<div n="10" subtype="section" type="textpart"><p rend="script">Inuenimus denique et patriarchas et prophetas et iustos omnes  <lb/>
+         </div>
+         <div n="10" type="section">
+            <p rend="script">Inuenimus denique et patriarchas et prophetas et iustos omnes  <lb/>
             qui figuram Christi imagine praeeunte portabant nihil magis <lb/>
             custodisse in laude uirtutum suarum quam quod patientiam forti <lb n="25"/>
             et stabili aequanimitate tenuerunt. sic Abel originem martyrii <lb/>
             et . passionem iusti initians primus et dedicans aduersus fratrem
 
 <note type="footnote"> 14 I Io. 2, 6. 17 I Petro 2, 21 sq. </note>
-
-<note rend="script" type="footnote"> 1 ista omnia <hi rend="italic">v</hi> uenerint] fuerint <hi rend="italic">v</hi> .2 benignus <hi rend="italic">SWG V,</hi> benignus <lb/>
+               <note rend="script" type="footnote"> 1 ista omnia <hi rend="italic">v</hi> uenerint] fuerint <hi rend="italic">v</hi> .2 benignus <hi rend="italic">SWG V,</hi> benignus <lb/>
             et patiens <hi rend="italic">v</hi> 3 illos blasphemos <hi rend="italic">om. S</hi> 4 nominis] dominis <hi rend="italic">S</hi> 6 sed <lb/>
             et <hi rend="italic">Gv</hi> 8 qui om. <hi rend="italic">S</hi> est christus <hi rend="italic">W</hi> ac tanta] sca <hi rend="italic">G</hi> .9 tanta ac <lb/>
-            talis <hi rend="italic">WGv</hi> 10 *»ecclesia <hi rend="italic">G</hi> (et <hi rend="italic">eras.)</hi> 11 si <hi rend="italic">(ante ipsum) Ws. I. m. 2</hi> <lb/>
-            12 si ipsum induimus <hi rend="italic">post uia ponit S; fort. delendum</hi> 14 instruet <hi rend="italic">S1</hi> <lb/>
+            talis <hi rend="italic">WGv</hi> 10 *»ecclesia <hi rend="italic">G</hi> (et <hi rend="italic">eras.)</hi> 11 si <hi rend="italic">(ante ipsum) Ws. I. m. 2</hi>
+                  <lb/>
+            12 si ipsum induimus <hi rend="italic">post uia ponit S; fort. delendum</hi> 14 instruet <hi rend="italic">S1</hi>
+                  <lb/>
             18 nobis <hi rend="italic">WGV,</hi> nobis <hi rend="italic">S; cf. test. III39. de zelo et liuore c. 11</hi> uobis] <lb/>
             nobis 81 20 est <hi rend="italic">om. W</hi> 21 <hi rend="italic">reraaledixit 6\'W2 G V,</hi> remaledicebat <hi rend="italic">W\'v <lb/>
-            minabatnr SWGV, comminabatur v 22 tradebant S iniuste ex iuste</hi> <lb/>
-            ait <hi rend="italic">S m. 2,</hi> se iniuste <hi rend="italic">v</hi> 23 et <hi rend="italic">om. 8</hi> patriarcas <hi rend="italic">W G</hi> 27 <hi rend="italic">iustiiSJFGV,</hi> <lb/>
-            iusti hominis <hi rend="italic">v</hi> aduersus <hi rend="italic">W s. I. m. 2</hi> </note>
-
-<note type="footnote"> 20* </note> <lb/>
-
-
-<pb n="404"/>
+            minabatnr SWGV, comminabatur v 22 tradebant S iniuste ex iuste</hi>
+                  <lb/>
+            ait <hi rend="italic">S m. 2,</hi> se iniuste <hi rend="italic">v</hi> 23 et <hi rend="italic">om. 8</hi> patriarcas <hi rend="italic">W G</hi> 27 <hi rend="italic">iustiiSJFGV,</hi>
+                  <lb/>
+            iusti hominis <hi rend="italic">v</hi> aduersus <hi rend="italic">W s. I. m. 2</hi>
+               </note>
+               <note type="footnote"> 20* </note>
+               <lb/>
+               <pb n="404"/>
             parricidam non resistit nec reluctatur, sed humilis et mitis patienter <lb/>
             occiditur. sic Abraham Deo credens et radicem ac fundamentum <lb/>
             fidei primus instituens temptatus in filio non dubitat <lb/>
@@ -438,27 +450,30 @@
             accipi dolorum et passionum corona, nisi praecedat in dolore et <lb/>
             passione patientia. 
 </p>
-          </div>
-
-<div n="11" subtype="section" type="textpart"><p> Quam sit autem patientia utilis et necessaria, fratres dilectissimi, <lb/>
+         </div>
+         <div n="11" type="section">
+            <p> Quam sit autem patientia utilis et necessaria, fratres dilectissimi, <lb/>
             ut manifestius possit et plenius nosci, Dei sententia <lb n="25"/>
             cogitetur quam in origine statim mundi et generis humani <lb/>
             Adam praecepti inmemor et datae legis transgressor accepit. <lb/>
             tunc sciemus quam patientes esse in isto saeculo debeamus, qui <lb/>
             sic nascimur, ut pressuris istic et conflictationibus laboremus.
 
-<note type="footnote"> 1 fratricidam v; <hi rend="italic">cf. p. 307,28., de eelo et l</hi>. c. <hi rend="italic">5., Quintil. inst. VIII,</hi> <lb/>
+<note type="footnote"> 1 fratricidam v; <hi rend="italic">cf. p. 307,28., de eelo et l</hi>. c. <hi rend="italic">5., Quintil. inst. VIII,</hi>
+                  <lb/>
             6,35 5 isac <hi rend="italic">S</hi> 7 fratre suo <hi rend="italic">S</hi> maiora <hi rend="italic">G</hi> 8 Becutorem <hi rend="italic">W</hi> 9 redigit] <lb/>
             reducit <hi rend="italic">G</hi> 10 religatus <hi rend="italic">SG</hi> agnoscit <hi rend="italic">S</hi> 11 et <hi rend="italic">om. G</hi> frumenta <lb/>
-            <hi rend="italic">uenientibus WGv 12 a om. W Gv 13 isdem W</hi> 14 natiuitatis G1 <lb/>
-            15 patientia] patia <hi rend="italic">S</hi> 17 cupientem G et <hi rend="italic">om. S</hi> sibi <hi rend="italic">ex</hi> tibi <hi rend="italic">S</hi> <lb/>
+                  <hi rend="italic">uenientibus WGv 12 a om. W Gv 13 isdem W</hi> 14 natiuitatis G1 <lb/>
+            15 patientia] patia <hi rend="italic">S</hi> 17 cupientem G et <hi rend="italic">om. S</hi> sibi <hi rend="italic">ex</hi> tibi <hi rend="italic">S</hi>
+                  <lb/>
             19 interfecti <hi rend="italic">W 8.1. m. 2</hi> 20 tot] hoc <hi rend="italic">S</hi> martyris <hi rend="italic">S</hi> gloriosos W\' <lb/>
-            21 patiae W1 24 patientiam quam <hi rend="italic">S</hi> 25 dinosci <hi rend="italic">G</hi> 27 et <hi rend="italic">om. S</hi> <lb/>
+            21 patiae W1 24 patientiam quam <hi rend="italic">S</hi> 25 dinosci <hi rend="italic">G</hi> 27 et <hi rend="italic">om. S</hi>
+                  <lb/>
             leges <hi rend="italic">S</hi> 29 in pressuris <hi rend="italic">G</hi> istinc <hi rend="italic">W\',</hi> isthic <hi rend="italic">August. contra duas <lb/>
-            epist. Pel. IV, 8, 22</hi> </note> <lb/>
-
-
-<pb n="405"/>
+            epist. Pel. IV, 8, 22</hi>
+               </note>
+               <lb/>
+               <pb n="405"/>
             quia audisti, inquit, uocem mulieris tuae et manducasti <lb/>
             ex illa arbore, de qua sola praeceperam tibi <lb/>
             ne manducares, maledicta terra erit in omnibus operibus <lb/>
@@ -472,9 +487,9 @@
             gemitu simus necesse est omnibus diebus uitae nostrae, edamus <lb/>
             panem necesse est cum sudore et labore. 
 </p>
-          </div>
-
-<div n="12" subtype="section" type="textpart"><p>Ynde unusquisque cum nascitur et hospitio mundi huius excipitur,  <lb/>
+         </div>
+         <div n="12" type="section">
+            <p>Ynde unusquisque cum nascitur et hospitio mundi huius excipitur,  <lb/>
             initium sumit a lacrimis et quamuis adhuc omnium <lb/>
             nescius et ignarus nihil aliud nouit in illa ipsa prima natiuitate <lb n="15"/>
             quam flere. prouidentia naturali lamentatur uitae mortalis anxietates <lb/>
@@ -492,19 +507,18 @@
             genera fide et uirtute patientiae perferenda Domino ipso
 
 <note type="footnote"> 1 Gen. 3,17 sq. </note>
-
-<note type="footnote"> 2 de om. <hi rend="italic">S</hi> 3 manducaris <hi rend="italic">S</hi> omnibus <hi rend="italic">om. S</hi> 4 tristia <hi rend="italic">S</hi> 5 et <lb/>
+               <note type="footnote"> 2 de om. <hi rend="italic">S</hi> 3 manducaris <hi rend="italic">S</hi> omnibus <hi rend="italic">om. S</hi> 4 tristia <hi rend="italic">S</hi> 5 et <lb/>
             spinas <hi rend="italic">S</hi> 6 in] et in <hi rend="italic">W</hi> sudorem <hi rend="italic">S</hi> 7 terra 8 8 sumptus <hi rend="italic">G et <lb/>
             August l. c.,</hi> adsumptus <hi rend="italic">S,</hi> et sumptus <hi rend="italic">W; cf. test. III 58</hi> quoniam} <lb/>
             quia <hi rend="italic">v</hi> terram] terra <hi rend="italic">S</hi> 10 expuncta morte <hi rend="italic">v</hi> 11 sumus <hi rend="italic">W</hi> 12 labore <lb/>
             et sudore <hi rend="italic">W</hi> 13 unusque <hi rend="italic">WI,</hi> unusquisque nostrum <hi rend="italic">v</hi> 14 quamuis <lb/>
-            <hi rend="italic">ex</hi> quamquis <hi rend="italic">G m. 2</hi> 16 lamentetur <hi rend="italic">B</hi> mortalis] temporalia <hi rend="italic">V</hi> 17 procelles <lb/>
-            <hi rend="italic">G</hi> in <hi rend="italic">om. W</hi> 19 stic <hi rend="italic">S</hi> sudantibus et <hi rend="italic">om. G</hi> 20 suuenire <lb/>
+                  <hi rend="italic">ex</hi> quamquis <hi rend="italic">G m. 2</hi> 16 lamentetur <hi rend="italic">B</hi> mortalis] temporalia <hi rend="italic">V</hi> 17 procelles <lb/>
+                  <hi rend="italic">G</hi> in <hi rend="italic">om. W</hi> 19 stic <hi rend="italic">S</hi> sudantibus et <hi rend="italic">om. G</hi> 20 suuenire <lb/>
             Wl, sublinire <hi rend="italic">S; cf. de zelo et l. c. 9</hi> 21 sit <hi rend="italic">GV</hi> tunc <hi rend="italic">WG</hi> 24 persecutionom <lb/>
-            <hi rend="italic">G1</hi> 27 bestia et orbs cruces <hi rend="italic">G</hi> deneque <hi rend="italic">S</hi> </note> <lb/>
-
-
-<pb n="406"/>
+                  <hi rend="italic">G1</hi> 27 bestia et orbs cruces <hi rend="italic">G</hi> deneque <hi rend="italic">S</hi>
+               </note>
+               <lb/>
+               <pb n="406"/>
             instruente et dicente: haec locutus sum uobis, ut in me <lb/>
             pacem habeatis, in saeculo autem pressuram: sed <lb/>
             fidite, quoniam ego uici mundum. si autem qui diabolo <lb/>
@@ -512,9 +526,9 @@
             mundi crebrius ac uiolentius patimur, quanto magis patientiam<lb n="5"/>
             tenere debemus qua adiutrice et comite omnia infesta toleremus. <lb/>
             </p>
-          </div>
-
-<div n="13" subtype="section" type="textpart"><p> Domini et magistri nostri salutare praeceptum est: qui tolerauerit <lb/>
+         </div>
+         <div n="13" type="section">
+            <p> Domini et magistri nostri salutare praeceptum est: qui tolerauerit <lb/>
             usque ad finem hic saluus erit. et iterum: si <lb/>
             permanseritis in uerbo meo, uere discipuli mei <lb n="10"/>
             estis: et cognoscetis ueritatem, et ueritas liberabit <lb/>
@@ -531,24 +545,24 @@
             quod speramus et credimus Deo repraesentante capiamus.
 
 <note type="footnote"> 1 Io. 16, 33. 8 Matth. 10, 22. 9 Io. 8, 31 sq. 18 Rom. 8, 24 sq. </note>
-
-<note type="footnote"> 1 hoc <hi rend="italic">Wl</hi> 2 saeculo <hi rend="italic">S,</hi> mundo <hi rend="italic">WGv</hi> pressuram <hi rend="italic">SWV,</hi> pressuram <lb/>
+               <note type="footnote"> 1 hoc <hi rend="italic">Wl</hi> 2 saeculo <hi rend="italic">S,</hi> mundo <hi rend="italic">WGv</hi> pressuram <hi rend="italic">SWV,</hi> pressuram <lb/>
             habebitis <hi rend="italic">Gv; cf. test. III6 p. 119., adFortun. c. 11 p. 335</hi> 5 patimnr] <lb/>
             quatimur <hi rend="italic">S; malim, igitur</hi> per pressuras-quatimur patiam <hi rend="italic">Wl</hi> 6 ct <lb/>
-            comite <hi rend="italic">W s. I. m. 2</hi> infeste <hi rend="italic">G,</hi> festa W 8 salutare] saluatoris <hi rend="italic">G</hi> <lb/>
+            comite <hi rend="italic">W s. I. m. 2</hi> infeste <hi rend="italic">G,</hi> festa W 8 salutare] saluatoris <hi rend="italic">G</hi>
+                  <lb/>
             tolerauerit inquid <hi rend="italic">Gv</hi> 9 ad] in <hi rend="italic">G</hi> et om. <hi rend="italic">WI</hi> 10 manseritis <hi rend="italic">G,</hi> permanseritis <lb/>
             inquit <hi rend="italic">v</hi> discipuli <hi rend="italic">om. S</hi> 11 estis <hi rend="italic">SWay,</hi> eritis <hi rend="italic">v</hi> cognoscitis <lb/>
-            <hi rend="italic">G</hi> liberauit <hi rend="italic">W</hi> 12 et perseuerandum est <hi rend="italic">Wv</hi> 13 ueritatis <lb/>
+                  <hi rend="italic">G</hi> liberauit <hi rend="italic">W</hi> 12 et perseuerandum est <hi rend="italic">Wv</hi> 13 ueritatis <lb/>
             et <hi rend="italic">om</hi>. S 14 possemus S 15 peruenire <hi rend="italic">post</hi> possint <hi rend="italic">ponit v</hi> 16 possint <lb/>
             sui] posita sui <hi rend="italic">S,</hi> sui possint <hi rend="italic">v</hi> 17 secundum] sed <hi rend="italic">uel om. v</hi> ot <hi rend="italic">SWGV,<lb/>
              om. v</hi> 18 p. apostolos S, apostolus paulus <hi rend="italic">W</hi> 19 uident 81 21 ex- <lb/>
-            <hi rend="italic">pectationem SWGV, patientiam v</hi> sustenemus <hi rend="italic">S,</hi> speramus <hi rend="italic">WGV,</hi> exspectamus <lb/>
-            <hi rend="italic">v; cf. test. III45</hi> expectatio <hi rend="italic">SWV,</hi> expextatio**»* <hi rend="italic">G,</hi> propterea <lb/>
+                  <hi rend="italic">pectationem SWGV, patientiam v</hi> sustenemus <hi rend="italic">S,</hi> speramus <hi rend="italic">WGV,</hi> exspectamus <lb/>
+                  <hi rend="italic">v; cf. test. III45</hi> expectatio <hi rend="italic">SWV,</hi> expextatio**»* <hi rend="italic">G,</hi> propterea <lb/>
             exspectatio <hi rend="italic">v</hi> 22 esse iam <hi rend="italic">Krabinger ex 1 cod. recepit</hi> 23 credimus <lb/>
-            et speramus <hi rend="italic">v</hi> repraesentante <hi rend="italic">SWGV,</hi> praestante <hi rend="italic">v et Win margine</hi> </note> <lb/>
-
-
-<pb n="407"/>
+            et speramus <hi rend="italic">v</hi> repraesentante <hi rend="italic">SWGV,</hi> praestante <hi rend="italic">v et Win margine</hi>
+               </note>
+               <lb/>
+               <pb n="407"/>
             denique alio in loco idem apostolus iustos et operantes et de diuini <lb/>
             faenoris incremento caelestes sibi thesauros recondentes ut patientes <lb/>
             quoque sint instruit et docet dicens: ergo dum tempus <lb/>
@@ -564,11 +578,10 @@
             tuam. quae uox adhortatur patienter et fortiter perseuerare, <lb/>
             ut qui ad coronam laude iam proxima nititur durante patientia <lb/>
             coronetur. <lb n="15"/>
-            
-</p>
-          </div>
-
-<div n="14" subtype="section" type="textpart"><p>Patientia autem, fratres dilectissimi, non tantum bona custodit,  <lb/>
+            </p>
+         </div>
+         <div n="14" type="section">
+            <p>Patientia autem, fratres dilectissimi, non tantum bona custodit,  <lb/>
             \'sed et repellit aduersa. Spiritui sancto fauens et caelestibus <lb/>
             ac diuinis cohaerens contra facta carnis et corporis quibus anima <lb/>
             expugnatur et capitur uirtutum suarum propugnaculo reluctatur. <lb/>
@@ -578,28 +591,27 @@
             corpus et Dei templum polluitur nec iustitiae dicata innocentia <lb/>
             contagio fraudis inficitur nec post gestatam eucharistiam <lb/>
             manus gladio et cruore maculatur. <lb n="25"/>
-            
-</p>
-          </div>
-
-<div n="15" subtype="section" type="textpart"><p>Caritas fraternitatis uinculum est, fundamentum pacis, tenacitas  <lb/>
+            </p>
+         </div>
+         <div n="15" type="section">
+            <p>Caritas fraternitatis uinculum est, fundamentum pacis, tenacitas  <lb/>
             ac firmitas unitatis, quae et spe et fide maior est, quae et  
 
 
 
 <note type="footnote"> 3 Gal. 6,10. 9. 10 Ezech. 33,12. 12 Apoc. 3,11. </note>
-
-<note type="footnote"> 1 iustus 8 iustos et <hi rend="italic">om. G</hi> de <hi rend="italic">om. WGv</hi> diuine <hi rend="italic">G</hi> 2 sibi thensauros <lb/>
-            <hi rend="italic">S,</hi> thes. sibi <hi rend="italic">W Gv</hi> reponentes <hi rend="italic">V</hi> ut patientes <hi rend="italic">om</hi>. S 3 instruet <lb/>
-            <hi rend="italic">S</hi> docet] monet S; <hi rend="italic">cf. p. 409, 5</hi> 6 deficiemus <hi rend="italic">S</hi> 9 ceperant S, <lb/>
+               <note type="footnote"> 1 iustus 8 iustos et <hi rend="italic">om. G</hi> de <hi rend="italic">om. WGv</hi> diuine <hi rend="italic">G</hi> 2 sibi thensauros <lb/>
+                  <hi rend="italic">S,</hi> thes. sibi <hi rend="italic">W Gv</hi> reponentes <hi rend="italic">V</hi> ut patientes <hi rend="italic">om</hi>. S 3 instruet <lb/>
+                  <hi rend="italic">S</hi> docet] monet S; <hi rend="italic">cf. p. 409, 5</hi> 6 deficiemus <hi rend="italic">S</hi> 9 ceperant S, <lb/>
             acceperant <hi rend="italic">W1</hi> 11 <hi rend="italic">quacunque v</hi> errauerit <hi rend="italic">G,</hi> peccauerit <hi rend="italic">V</hi> 13 hortatur <lb/>
-            <hi rend="italic">G</hi> 20 inspicimus W 21 homicidum <hi rend="italic">W</hi> 22 sed <hi rend="italic">(pro</hi> sit) <lb/>
+                  <hi rend="italic">G</hi> 20 inspicimus W 21 homicidum <hi rend="italic">W</hi> 22 sed <hi rend="italic">(pro</hi> sit) <lb/>
             fortiw)) et stabili manente in corde <hi rend="italic">G</hi> et nec <hi rend="italic">W2c,</hi> et W1 scificato <lb/>
-            W1 24 contagio <hi rend="italic">BWGV,</hi> contagione <hi rend="italic">v</hi> gestatam <hi rend="italic">WGV,</hi> gustata <hi rend="italic">S</hi> <lb/>
-            26 est] et <hi rend="italic">G</hi> 27 et <hi rend="italic">(ante</hi> spe) <hi rend="italic">om. S</hi> </note> <lb/>
-
-
-<pb n="408"/>
+            W1 24 contagio <hi rend="italic">BWGV,</hi> contagione <hi rend="italic">v</hi> gestatam <hi rend="italic">WGV,</hi> gustata <hi rend="italic">S</hi>
+                  <lb/>
+            26 est] et <hi rend="italic">G</hi> 27 et <hi rend="italic">(ante</hi> spe) <hi rend="italic">om. S</hi>
+               </note>
+               <lb/>
+               <pb n="408"/>
             opera et martyria praecedit, quae nobiscum semper aeterna in <lb/>
             regnis caelestibus permanebit. tolle illi patientiam, et desolata <lb/>
             non durat, tolle sustinendi tolerandique substantiam, et nullis <lb/>
@@ -615,11 +627,10 @@
             probauit nec unitatem seruari posse nec pacem, nisi se inuicem <lb/>
             fratres mutua tolerantia foueant et concordiae uinculum patientia <lb/>
             intercedente custodiant. <lb n="15"/>
-            
-</p>
-          </div>
-
-<div n="16" subtype="section" type="textpart"><p> Quid deinde, ut non iuras neque maledicas, ut tua ablata non <lb/>
+            </p>
+         </div>
+         <div n="16" type="section">
+            <p> Quid deinde, ut non iuras neque maledicas, ut tua ablata non <lb/>
             repetas, ut accepta alapa et alteram maxillam uerberanti praebeas, <lb/>
             ut fratri in te peccanti non tantum septuagies septies sed <lb/>
             omnia omnino peccata dimittas, ut diligas inimicos tuos, ut pro <lb/>
@@ -632,20 +643,20 @@
             sed et patientissimae lenitatis imitator. quid dicam de ira,
 
 <note type="footnote"> 5 1 Cor. 13, 4. 5. 7. 10 Eph. 4, 2 sq. 24 Act. 7, 60. </note>
-
-<note type="footnote"> 1 opera] fides opera S semper aeterna <hi rend="italic">BWGV,</hi> s. aeterna apud deum <lb/>
-            <hi rend="italic">v, exp. Krabinger</hi> 4 non perseuerat <hi rend="italic">coni. Vahlen; an</hi> pernersa est? <lb/>
-            5 subiunxit W caritias <hi rend="italic">S</hi> 6 benigna est caritas <hi rend="italic">om. S</hi> 10 norit <hi rend="italic">WGv</hi> <lb/>
+               <note type="footnote"> 1 opera] fides opera S semper aeterna <hi rend="italic">BWGV,</hi> s. aeterna apud deum <lb/>
+                  <hi rend="italic">v, exp. Krabinger</hi> 4 non perseuerat <hi rend="italic">coni. Vahlen; an</hi> pernersa est? <lb/>
+            5 subiunxit W caritias <hi rend="italic">S</hi> 6 benigna est caritas <hi rend="italic">om. S</hi> 10 norit <hi rend="italic">WGv</hi>
+                  <lb/>
             et] item <hi rend="italic">V</hi> in loco <hi rend="italic">v</hi> sustinentis S 11 inquit om. <hi rend="italic">V</hi> dilectionem S <lb/>
             agentis <hi rend="italic">S</hi> 17 prebeas uerberanti <hi rend="italic">G</hi> 18 septnagies septies] LXX et VII <lb/>
-            <hi rend="italic">W,</hi> septies sed septuagies septies <hi rend="italic">v</hi> 19 et omnia v 20 aduersarios S <lb/>
+                  <hi rend="italic">W,</hi> septies sed septuagies septies <hi rend="italic">v</hi> 19 et omnia v 20 aduersarios S <lb/>
             perferferre <hi rend="italic">S,</hi> perficere <hi rend="italic">v</hi> 21 patientia W firmitate] teneas fiimitatem v <lb/>
             22 stefano <hi rend="italic">S</hi> a <hi rend="italic">ex</hi> ac a <hi rend="italic">G m. 2</hi> negaretur <hi rend="italic">S</hi> 25 martyres <hi rend="italic">Gv</hi> secutoros <lb/>
             S1 26 dominicae passionis pracdicator esset <hi rend="italic">v,</hi> predicator esse dominice <lb/>
-            meruit passionis <hi rend="italic">G</hi> 27 et <hi rend="italic">om</hi>. S patientissimae] sapientissime <hi rend="italic">W</hi> </note> <lb/>
-
-
-<pb n="409"/>
+            meruit passionis <hi rend="italic">G</hi> 27 et <hi rend="italic">om</hi>. S patientissimae] sapientissime <hi rend="italic">W</hi>
+               </note>
+               <lb/>
+               <pb n="409"/>
             de discordia, de simultate, quae in christiano esse non debent? <lb/>
             sit patientia in corde, et haec illic locum habere non possunt, aut <lb/>
             si adire temptauerint, cito exclusa discedunt, ut domicilium <lb/>
@@ -660,9 +671,9 @@
             pectus admittere cui nec malum pro malo reddere liceat nec <lb/>
             odisse. 
 </p>
-          </div>
-
-<div n="17" subtype="section" type="textpart"><p rend="script">Nec non ad uaria quoque carnis incommoda et crebros corporis  <lb/>
+         </div>
+         <div n="17" type="section">
+            <p rend="script">Nec non ad uaria quoque carnis incommoda et crebros corporis  <lb/>
             durosque cruciatus quibus humanum genus cottidie fatigatur <lb n="15"/>
             et quatitur patientia necessaria est. nam cum in illa prima <lb/>
             transgressione praecepti firmitas corporis cum immortalitate discesserit <lb/>
@@ -679,24 +690,22 @@
             in dolore sustine et in humilitate tua
 
 <note type="footnote"> 5 Eph. 4,30 sq. 27 Sir. 2, 4 sq. </note>
-
-<note rend="script" type="footnote"> 2 corde S, pectore <hi rend="italic">WGv</hi> et om. <hi rend="italic">S</hi> 4 dom S 5 apostolus paulus <lb/>
-            <hi rend="italic">V</hi> docet] monet 8 contristari <hi rend="italic">SW1</hi> 7 die <hi rend="italic">WG</hi> et <hi rend="italic">(ante</hi> ind.) <lb/>
-            <hi rend="italic">om. S</hi> 8 auferantur <hi rend="italic">G,</hi> auferentur <hi rend="italic">W; cf. test. 1115</hi> 9 contemptione <lb/>
-            <hi rend="italic">S</hi> 12 pro <hi rend="italic">om. G</hi> 17 inmortalitatem <hi rend="italic">S</hi> 18 firmitas] infirmitas <lb/>
-            <hi rend="italic">S</hi> 20 corporea] corporis <hi rend="italic">August. I. c. IV, 8,22</hi> luctare <hi rend="italic">Sl</hi> 21 uiribus <lb/>
+               <note rend="script" type="footnote"> 2 corde S, pectore <hi rend="italic">WGv</hi> et om. <hi rend="italic">S</hi> 4 dom S 5 apostolus paulus <lb/>
+                  <hi rend="italic">V</hi> docet] monet 8 contristari <hi rend="italic">SW1</hi> 7 die <hi rend="italic">WG</hi> et <hi rend="italic">(ante</hi> ind.) <lb/>
+                  <hi rend="italic">om. S</hi> 8 auferantur <hi rend="italic">G,</hi> auferentur <hi rend="italic">W; cf. test. 1115</hi> 9 contemptione <lb/>
+                  <hi rend="italic">S</hi> 12 pro <hi rend="italic">om. G</hi> 17 inmortalitatem <hi rend="italic">S</hi> 18 firmitas] infirmitas <lb/>
+                  <hi rend="italic">S</hi> 20 corporea] corporis <hi rend="italic">August. I. c. IV, 8,22</hi> luctare <hi rend="italic">Sl</hi> 21 uiribus <lb/>
             potest 17 susteneri S 22 explorandis] probandis <hi rend="italic">V</hi> 25 ammismone <lb/>
-            <hi rend="italic">W et alias</hi> magis inter <hi rend="italic">17</hi> iustos disc. et iniustos <hi rend="italic">W</hi> 26 quaeritnr <lb/>
-            <hi rend="italic">SG</hi> 27 blasfemat iniustos <hi rend="italic">SG</hi> iustos S\' </note> <lb/>
-
-
-<pb n="410"/>
+                  <hi rend="italic">W et alias</hi> magis inter <hi rend="italic">17</hi> iustos disc. et iniustos <hi rend="italic">W</hi> 26 quaeritnr <lb/>
+                  <hi rend="italic">SG</hi> 27 blasfemat iniustos <hi rend="italic">SG</hi> iustos S\' </note>
+               <lb/>
+               <pb n="410"/>
             patientiam habe, quoniam in igne probatur aurum et <lb/>
             argentum. 
 </p>
-          </div>
-
-<div n="18" subtype="section" type="textpart"><p> Sic Iob examinatus est et probatus et ad summum fastigium <lb/>
+         </div>
+         <div n="18" type="section">
+            <p> Sic Iob examinatus est et probatus et ad summum fastigium <lb/>
             laudis patientiae uirtute prouectus. quanta aduersus eum diaboli <lb/>
             iacula emissa, quanta admota tormenta. iactura rei familiaris<lb n="5"/>
             infligitur, numerosae subolis orbitas inrogatur: diues in <lb/>
@@ -713,9 +722,9 @@
             in quantum patienter caecitatem pertulit in tantum granditer <lb/>
             Deum patientiae laude promeruit. 
 </p>
-          </div>
-
-<div n="19" subtype="section" type="textpart"><p rend="script"> Adque ut magis, fratres dilectissimi, patientiae bonum luceat, <lb/>
+         </div>
+         <div n="19" type="section">
+            <p rend="script"> Adque ut magis, fratres dilectissimi, patientiae bonum luceat, <lb/>
             quid mali e contrario inpatientia inportet consideremus<lb n="20"/>
             nam ut patientia bonum Christi est, ita contra inpatientia malum <lb/>
             diaboli est, et sicut in quo habitat et manet Christus patiens <lb/>
@@ -725,19 +734,21 @@
             perit primus et perdidit. Adam contra caeleste praeceptum cibi <lb/>
             letalis inpatiens in mortem cecidit nec acceptam diuinitus
 
-<note rend="script" type="footnote"> 1 ignem <hi rend="italic">S</hi> 3 cxaminatust et <hi rend="italic">G</hi> 5 missa <hi rend="italic">W\'</hi> 6 sobolis <hi rend="italic">WG</hi> <lb/>
+<note rend="script" type="footnote"> 1 ignem <hi rend="italic">S</hi> 3 cxaminatust et <hi rend="italic">G</hi> 5 missa <hi rend="italic">W\'</hi> 6 sobolis <hi rend="italic">WG</hi>
+                  <lb/>
             inrogatur] inicitur <hi rend="italic">G</hi> 7 in <hi rend="italic">om. G</hi> 9 edax quoque uermium poena v <lb/>
             10 eipedireturS <hi rend="italic">11 etotn. G</hi> 12 decepereS possitTFG quod...origine <lb/>
-            <hi rend="italic">suspectum uidetur</hi> 13 mundi origine <hi rend="italic">v; cf. p. 404, 26</hi> et] ac v<lb/>
+                  <hi rend="italic">suspectum uidetur</hi> 13 mundi origine <hi rend="italic">v; cf. p. 404, 26</hi> et] ac v<lb/>
              14 pressuras <hi rend="italic">WGV,</hi> pressuras suas <hi rend="italic">Sv</hi> dmi <hi rend="italic">S</hi> 16 sua <hi rend="italic">W</hi> ammissione <lb/>
-            <hi rend="italic">WG1</hi> 18 do <hi rend="italic">W\'</hi> 20 et quid <hi rend="italic">G</hi> 21 nam <hi rend="italic">W</hi> 8. <hi rend="italic">l. m. 2</hi> ita <lb/>
-            <hi rend="italic">SWGV,</hi> sic e <hi rend="italic">uel</hi> sic v malum diaboli est S, diaboli malum <hi rend="italic">WGv</hi> <lb/>
+                  <hi rend="italic">WG1</hi> 18 do <hi rend="italic">W\'</hi> 20 et quid <hi rend="italic">G</hi> 21 nam <hi rend="italic">W</hi> 8. <hi rend="italic">l. m. 2</hi> ita <lb/>
+                  <hi rend="italic">SWGV,</hi> sic e <hi rend="italic">uel</hi> sic v malum diaboli est S, diaboli malum <hi rend="italic">WGv</hi>
+                  <lb/>
             24 possedit <hi rend="italic">W*GV,</hi> possidet <hi rend="italic">Wl,</hi> possidit <hi rend="italic">S</hi> ipsa denique <hi rend="italic">S,</hi> denique <lb/>
             ipsa <hi rend="italic">WGv</hi> 25 et <hi rend="italic">W s. I. m. 2</hi> 26 periit <hi rend="italic">(h</hi> primum <hi rend="italic">G</hi> perdidit <lb/>
-            <hi rend="italic">W 8. 1. m. 2</hi> caelestfi <hi rend="italic">S</hi> </note> <lb/>
-
-
-<pb n="411"/>
+                  <hi rend="italic">W 8. 1. m. 2</hi> caelestfi <hi rend="italic">S</hi>
+               </note>
+               <lb/>
+               <pb n="411"/>
             gratiam patientia custode seruauit, et ut fratrem Cain perimeret <lb/>
             sacrificii eius et muneris inpatiens fuit, et quod Esau de maioribus <lb/>
             ad minora descendit, primatus suos per inpatientiam lentis <lb/>
@@ -755,9 +766,9 @@
             omnia omnino quae patientia operibus suis aedificat ad <lb n="15"/>
             gloriam inpatientia destruit ad ruinam. 
 </p>
-          </div>
-
-<div n="20" subtype="section" type="textpart"><p rend="script">Quare, fratres dilectissimi, et bonis patientiae et inpatientiae  <lb/>
+         </div>
+         <div n="20" type="section">
+            <p rend="script">Quare, fratres dilectissimi, et bonis patientiae et inpatientiae  <lb/>
             malis diligenter expensis patientiam per quam in Christo manemus <lb/>
             et uenire cum Christo ad Deum possumus, plena obseruatione <lb/>
             teneamus: quae copiosa et multiplex non angusto fine concluditur <lb n="20"/>
@@ -769,20 +780,28 @@
             patientia est quae nos Deo et commendat et seruat: <lb/>
             ipsa est quae iram temperat, quae linguam frenat, quae mentem
 
-<note rend="script" type="footnote"> 1 patientia <hi rend="italic">W 8. l. m. 2</hi> custode custode <hi rend="italic">W1</hi> peremeret <hi rend="italic">SW</hi> <lb/>
+<note rend="script" type="footnote"> 1 patientia <hi rend="italic">W 8. l. m. 2</hi> custode custode <hi rend="italic">W1</hi> peremeret <hi rend="italic">SW</hi>
+                  <lb/>
             2 sacrificis <hi rend="italic">S</hi> 3 suus <hi rend="italic">Gx</hi> lentis] entis <hi rend="italic">S</hi> 4 iudeicus <hi rend="italic">S</hi> 6 dum] <lb/>
-            cum <hi rend="italic">S</hi> loquentis <hi rend="italic">Wv,</hi> conloquenti <hi rend="italic">ex</hi> loquenti <hi rend="italic">G m. 2</hi> 7 est <hi rend="italic">om. v</hi> <lb/>
-            8 caput <hi rend="italic">W s. d. m, 2</hi> . terrestrem <hi rend="italic">S</hi> 9 eodem <hi rend="italic">S</hi> docibilitatis <hi rend="italic">G*</hi> <lb/>
-            10 administrationis <hi rend="italic">S,</hi> ammonitionis <hi rend="italic">W,</hi> admonitionis <hi rend="italic">Gv</hi> quosque <hi rend="italic">W,</hi> <lb/>
+            cum <hi rend="italic">S</hi> loquentis <hi rend="italic">Wv,</hi> conloquenti <hi rend="italic">ex</hi> loquenti <hi rend="italic">G m. 2</hi> 7 est <hi rend="italic">om. v</hi>
+                  <lb/>
+            8 caput <hi rend="italic">W s. d. m, 2</hi> . terrestrem <hi rend="italic">S</hi> 9 eodem <hi rend="italic">S</hi> docibilitatis <hi rend="italic">G*</hi>
+                  <lb/>
+            10 administrationis <hi rend="italic">S,</hi> ammonitionis <hi rend="italic">W,</hi> admonitionis <hi rend="italic">Gv</hi> quosque <hi rend="italic">W,</hi>
+                  <lb/>
             quoque <hi rend="italic">SG</hi> 11 <hi rend="italic">alterum</hi> ad <hi rend="italic">om. WG</hi> domini <hi rend="italic">om. G</hi> 12 ad <hi rend="italic">W s. I. <lb/>
-             m. 2</hi> 13 et caritatem <hi rend="italic">om. W</hi> 14 et <hi rend="italic">(ante</hi> fur.) <hi rend="italic">om. W</hi> sit <hi rend="italic">Ws. I. m. 2</hi> <lb/>
-            15 omnia omnino] non omnia S 19 et] ut <hi rend="italic">v</hi> dom <hi rend="italic">S</hi> possimus <hi rend="italic">Sv</hi> <lb/>
-            21 uel <hi rend="italic">S,</hi> nec <hi rend="italic">WGv</hi> 23 ex«**undantibus <hi rend="italic">W; cf. ad Demetr. p. 353, 15</hi> <lb/>
-            24 nec prius <hi rend="italic">G</hi> profecere <hi rend="italic">S</hi> 25 consumandam <hi rend="italic">W; item p. 412, 9</hi> <lb/>
-            27 quae <hi rend="italic">(ante</hi> mentem) <hi rend="italic">om. v</hi> </note> <lb/>
-
-
-<pb n="412"/>
+             m. 2</hi> 13 et caritatem <hi rend="italic">om. W</hi> 14 et <hi rend="italic">(ante</hi> fur.) <hi rend="italic">om. W</hi> sit <hi rend="italic">Ws. I. m. 2</hi>
+                  <lb/>
+            15 omnia omnino] non omnia S 19 et] ut <hi rend="italic">v</hi> dom <hi rend="italic">S</hi> possimus <hi rend="italic">Sv</hi>
+                  <lb/>
+            21 uel <hi rend="italic">S,</hi> nec <hi rend="italic">WGv</hi> 23 ex«**undantibus <hi rend="italic">W; cf. ad Demetr. p. 353, 15</hi>
+                  <lb/>
+            24 nec prius <hi rend="italic">G</hi> profecere <hi rend="italic">S</hi> 25 consumandam <hi rend="italic">W; item p. 412, 9</hi>
+                  <lb/>
+            27 quae <hi rend="italic">(ante</hi> mentem) <hi rend="italic">om. v</hi>
+               </note>
+               <lb/>
+               <pb n="412"/>
             gubernat, pacem custodit, disciplinam regit, libidinis impetum <lb/>
             frangit, tumoris uiolentiam conprimit, incendium simultatis <lb/>
             extinguit, coercet potentiam diuitum, inopiam pauperum refouet, <lb/>
@@ -797,9 +816,9 @@
             possimus uiam Christi, dum per eius tolerantiam gradimur. ipsa <lb/>
             efficit ut perseueremus filii Dei, dum patientiam patris imitamur. 
 </p>
-          </div>
-
-<div n="21" subtype="section" type="textpart"><p> Et quoniam plurimos scio, fratres dilectissimi, uel pondere <lb/>
+         </div>
+         <div n="21" type="section">
+            <p> Et quoniam plurimos scio, fratres dilectissimi, uel pondere <lb/>
             iniuriarum angentium uel dolore de eis qui aduersum se grassantur<lb n="15"/>
             et saeuiunt uindicari uelociter cupere, nec illud in extrema <lb/>
             parte reticendum est, ut in istis fluctuantis mundi turbinibus et <lb/>
@@ -817,17 +836,17 @@
             in sordibus est sordescat adhuc, iustus autem
 
 <note type="footnote"> 21 Soph. 3, 8. 26 Apoc. 22,10 sq. </note>
-
-<note type="footnote"> 2 tomoris 8 4 uirgibus <hi rend="italic">S</hi> in nidois L caetitatem <hi rend="italic">om. W</hi> laboriosam] <lb/>
-            <hi rend="italic">desinit S</hi> 13 fili W* imitatur <hi rend="italic">G</hi> 14 et] sed v quoniam] <lb/>
+               <note type="footnote"> 2 tomoris 8 4 uirgibus <hi rend="italic">S</hi> in nidois L caetitatem <hi rend="italic">om. W</hi> laboriosam] <lb/>
+                  <hi rend="italic">desinit S</hi> 13 fili W* imitatur <hi rend="italic">G</hi> 14 et] sed v quoniam] <lb/>
             quam <hi rend="italic">G</hi> 15 cis <hi rend="italic">W,</hi> his <hi rend="italic">G</hi> crassantnr <hi rend="italic">G</hi> 16 nec...reticendum est] <lb/>
             nec in illum extremi iudicii diem malorum retributionem differre: nobiscum <lb/>
             hortor interim amplectimini patientiae bonum <hi rend="italic">v post Morellium</hi> 20 quernla <lb/>
-            et inuidiosa <hi rend="italic">v</hi> scriptum <hi rend="italic">om. W1</hi> 21 dns <hi rend="italic">W s. I</hi>. m. <hi rend="italic">2</hi> diem <hi rend="italic">W</hi> <lb/>
-            25 sustineri <hi rend="italic">W</hi> 28 et hi] ut et ii <hi rend="italic">u; cf. test. III23</hi> </note> <lb/>
-
-
-<pb n="413"/>
+            et inuidiosa <hi rend="italic">v</hi> scriptum <hi rend="italic">om. W1</hi> 21 dns <hi rend="italic">W s. I</hi>. m. <hi rend="italic">2</hi> diem <hi rend="italic">W</hi>
+                  <lb/>
+            25 sustineri <hi rend="italic">W</hi> 28 et hi] ut et ii <hi rend="italic">u; cf. test. III23</hi>
+               </note>
+               <lb/>
+               <pb n="413"/>
             adhuc iustiora faciat, similiter et sanctus sanctiora. <lb/>
             ecce uenio cito, et merces mea mecum estreddere <lb/>
             unicuique secundum facta sua. unde et clamantes <lb/>
@@ -843,11 +862,10 @@
             requiescerent breui adhuc tempore, donec impleatur <lb/>
             numerus conseruorum et fratrum eorum quique <lb/>
             postea occidentur exemplo ipsorum. <lb n="15"/>
-            
-</p>
-          </div>
-
-<div n="22" subtype="section" type="textpart"><p>Quando autem ueniat sanguinis iusti diuina uindicta declarat:  <lb/>
+            </p>
+         </div>
+         <div n="22" type="section">
+            <p>Quando autem ueniat sanguinis iusti diuina uindicta declarat:  <lb/>
             per Malachin prophetam Spiritus sanctus dicens: ecce dies <lb/>
             Domini uenit ardens uelut clibanus, eruntque omnes <lb/>
             alienigenae et omnes iniqui stipula, et succendet <lb/>
@@ -861,19 +879,18 @@
             eius in sacrificiis. et nuntiabunt caeli
 
 <note type="footnote"> 6 Apoc. 6, 9 sq. 17 MaL 4,1. 22 Ps. 49, 3 sq. </note>
-
-<note type="footnote"> 1 iustiora faciat] iustior fiat <hi rend="italic">V</hi> sanctas <hi rend="italic">WGV,</hi> qui sanctus est c <lb/>
+               <note type="footnote"> 1 iustiora faciat] iustior fiat <hi rend="italic">V</hi> sanctas <hi rend="italic">WGV,</hi> qui sanctus est c <lb/>
             sanctior <hi rend="italic">V</hi> 2 est <hi rend="italic">W s. l</hi>. m. <hi rend="italic">2</hi> 3 et] etiam <hi rend="italic">v</hi> 4 et <hi rend="italic">om. G</hi> 7 signum <lb/>
-            <hi rend="italic">WGV,</hi> sigillum <hi rend="italic">v; cf. test. -11116</hi> aram <hi rend="italic">Qx</hi> 9 uoco magna v <lb/>
+                  <hi rend="italic">WGV,</hi> sigillum <hi rend="italic">v; cf. test. -11116</hi> aram <hi rend="italic">Qx</hi> 9 uoco magna v <lb/>
             11 his] iis <hi rend="italic">v</hi> 12 datae sunt eis singulae stolae albae <hi rend="italic">v</hi> est <hi rend="italic">WGV,</hi> est <lb/>
             eis » 14 quique] qui v <hi rend="italic">17 malachin WG, malachian v</hi> prophetam <lb/>
-            <hi rend="italic">om, V</hi> dicens ex docens <hi rend="italic">W m. 2</hi> 19 et <hi rend="italic">(ante</hi> succ.) <hi rend="italic">om. W; cf. test. <lb/>
+                  <hi rend="italic">om, V</hi> dicens ex docens <hi rend="italic">W m. 2</hi> 19 et <hi rend="italic">(ante</hi> succ.) <hi rend="italic">om. W; cf. test. <lb/>
             II28</hi> 20 dies <hi rend="italic">om. W</hi> 21 iudicii <hi rend="italic">G</hi> 22 uenerandus <hi rend="italic">WGV,</hi> uerendus <lb/>
             r 24 uocauit <hi rend="italic">WG,</hi> uocabit <hi rend="italic">V,</hi> aduocabit <hi rend="italic">v; cf. test. II28</hi> 25 susum <lb/>
-            <hi rend="italic">WV,</hi> sursum <hi rend="italic">Gv</hi> terram deorsam v 27 <hi rend="italic">annuntiabunt v</hi> </note> <lb/>
-
-
-<pb n="414"/>
+                  <hi rend="italic">WV,</hi> sursum <hi rend="italic">Gv</hi> terram deorsam v 27 <hi rend="italic">annuntiabunt v</hi>
+               </note>
+               <lb/>
+               <pb n="414"/>
             iustitiam eius, quoniam Deus iudex est. et Esaias eadem <lb/>
             praenuntiat dicens: ecce enim Dominus sicut ignis ueniet, <lb/>
             et sicut procella currus eius retribuere in <lb/>
@@ -883,9 +900,9 @@
             excitabit certamen et clamabit super inimicos <lb/>
             suos cum fortitudine: tacui, numquid semper tacebo? <lb/>
             </p>
-          </div>
-
-<div n="23" subtype="section" type="textpart"><p> Quis autem est hic qui tachisse se prius dicit et non semper<lb n="10"/>
+         </div>
+         <div n="23" type="section">
+            <p> Quis autem est hic qui tachisse se prius dicit et non semper<lb n="10"/>
             tacebit ? utique ille qui sicut ouis ad uictimam ductus et sicut <lb/>
             agnus coram tondente sine uoce non aperuit os suum. utique ille <lb/>
             qui non clamauit neque in plateis uox eius audita est. utique ille <lb/>
@@ -899,28 +916,29 @@
             cum in humilitate prius fuerit occultus, ueniet in potestate <lb/>
             manifestus. 
 </p>
-          </div>
-
-<div n="24" subtype="section" type="textpart"><p> Hunc expectemus, fratres dilectissimi, iudicem et uindicem <lb/>
+         </div>
+         <div n="24" type="section">
+            <p> Hunc expectemus, fratres dilectissimi, iudicem et uindicem <lb/>
             nostrum ecclesiae suae populum et ab initio mundi iustorum <lb n="25"/>
             omnium numerum secum pariter uindicaturum. qui ad uindictam <lb/>
             suam nimium festinat et properat, consideret quia necdum uindicatus <lb/>
             est ipse qui uindicat. [pater Deus praecepit filium suam
 
 <note type="footnote"> 2 Es. 66, 15 sq. 5 Es. 42, 13 sq. </note>
-
-<note type="footnote"> 2 pronuntiat <hi rend="italic">W</hi> 6 prodiuit <hi rend="italic">G</hi> comrauniet <hi rend="italic">G</hi> 7 excitauit <hi rend="italic">G</hi> <lb/>
-            clamaoit <hi rend="italic">G</hi> 11 ductus est v; <hi rend="italic">cf. test. II15 p. 80</hi> 12 tondente se <hi rend="italic">Gv,</hi> <lb/>
+               <note type="footnote"> 2 pronuntiat <hi rend="italic">W</hi> 6 prodiuit <hi rend="italic">G</hi> comrauniet <hi rend="italic">G</hi> 7 excitauit <hi rend="italic">G</hi>
+                  <lb/>
+            clamaoit <hi rend="italic">G</hi> 11 ductus est v; <hi rend="italic">cf. test. II15 p. 80</hi> 12 tondente se <hi rend="italic">Gv,</hi>
+                  <lb/>
             tondentibus <hi rend="italic">V teste Rigaltio</hi> 13 ..est <hi rend="italic">W</hi> (ea <hi rend="italic">eras.)</hi> 15 maxillas suas <hi rend="italic">V;<lb/>
              cf. test. II 13 p. 78, 5</hi> 16 anertit v 17 admirante <hi rend="italic">Gv</hi> 19 prius tacnerit<lb/>
-             <hi rend="italic">V</hi> 22 cum] qui <hi rend="italic">W</hi> 25 et <hi rend="italic">om. W1</hi> Mundi initio <hi rend="italic">W</hi> <lb/>
+                  <hi rend="italic">V</hi> 22 cum] qui <hi rend="italic">W</hi> 25 et <hi rend="italic">om. W1</hi> Mundi initio <hi rend="italic">W</hi>
+                  <lb/>
             , 28 est <hi rend="italic">W</hi> 8. <hi rend="italic">1. m. 2</hi> nindicat] indicat <hi rend="italic">W pater...p. 415, 5</hi> et <hi rend="italic">om. <lb/>
             WG; diuerso ordine uerba ita collocat V:</hi> qui nindicat. in apocalypsi angelus-adora.<lb/>
              et apostolus paulus diuini praecepti memor-infernorum. <lb/>
-             pater deus iesum filium praecipit adorari. qualis iesu domini et quanta <hi rend="italic">etc</hi>. </note> <lb/>
-
-
-<pb n="415"/>
+             pater deus iesum filium praecipit adorari. qualis iesu domini et quanta <hi rend="italic">etc</hi>. </note>
+               <lb/>
+               <pb n="415"/>
             adorari et apostolus Paulus diuini praecepti memor ponit et dicit: <lb/>
             Deus exaltauit illum et donauit illi nomen quod <lb/>
             est super omne nomen, ut in nomine Iesu omnes <lb/>
@@ -940,17 +958,16 @@
             timentibus honoremur.
 
 <note type="footnote"> 2 PhiL 2, 9 sq. 6 Apoc. 22, 9. </note>
-
-<note type="footnote"> 2 quod est] ad hoc ut sit <hi rend="italic">V,</hi> ut sit <hi rend="italic">Cyprianus test. II13, III 39</hi> <lb/>
+               <note type="footnote"> 2 quod est] ad hoc ut sit <hi rend="italic">V,</hi> ut sit <hi rend="italic">Cyprianus test. II13, III 39</hi>
+                  <lb/>
             3 omnes <hi rend="italic">V I</hi> omne <hi rend="italic">v</hi> 4 curuent <hi rend="italic">V teste Bigaltio,</hi> flectant <hi rend="italic">V teste libro <lb/>
             Goetting.,</hi> flectatur <hi rend="italic">v</hi> 5 nolenti iohanni <hi rend="italic">G</hi> se adorare <hi rend="italic">V</hi> 8 iesus <lb/>
             dns <hi rend="italic">W,</hi> hic dns <hi rend="italic">G,</hi> iesu domini <hi rend="italic">V</hi> patientia eius <hi rend="italic">v</hi> 13 autem potius <lb/>
             O laboremus <hi rend="italic">V</hi> 14 adque <hi rend="italic">om. W</hi> 15 euenerit Gl DE BONO <lb/>
-            PATIKNTIAE EXPLICIT <hi rend="italic">W,</hi> CECILI CIPRIANI DE PATIENTTA EXPLICIT <hi rend="italic">G</hi> </note>
-</p>
-        
-</div>
-        </div>
-</body>
-</text>
+            PATIKNTIAE EXPLICIT <hi rend="italic">W,</hi> CECILI CIPRIANI DE PATIENTTA EXPLICIT <hi rend="italic">G</hi>
+               </note>
+            </p>
+         </div>
+      </body>
+   </text>
 </TEI>

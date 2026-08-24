@@ -1,101 +1,107 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title xml:lang="lat">Adversus Hermogenem</title>
-        <author>Tertullian</author>
-        <editor>Emil Kroymann</editor>
-        <sponsor>University of Leipzig</sponsor>
-        <funder>European Social Fund Saxony</funder>
-        <principal>Gregory Crane</principal>
-        <respStmt>
-          <persName xml:id="Jouve">Jouve</persName>
-          <resp>OCR-ed, corrected and encoded the text</resp>
-        </respStmt>
-        <respStmt>
-          <persName>Greta Franzini</persName>
-          <resp>Project Manager (University of Leipzig)</resp>
-        </respStmt>
-        <respStmt>
-          <persName>Simona Stoyanova</persName>
-          <resp>Project Assistant (University of Leipzig)</resp>
-        </respStmt>
-        <respStmt>
-          <persName>Bruce Robertson</persName>
-          <resp>Technical Advisor (Mount Allison University)</resp>
-        </respStmt>
-        <respStmt>
-          <persName>Uvius Fonticola</persName>
-          <resp>Technical Advisor</resp>
-        </respStmt>
-      </titleStmt>
-      
-      <publicationStmt>
-        <authority>University of Leipzig</authority>
-        <idno type="filename">stoa0275.stoa004.opp-lat2.xml</idno>
-        <availability>
-          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
-        </availability>
-        <date>2014</date>
-        <publisher>University of Leipzig</publisher>
-        <pubPlace>Germany</pubPlace>
-      </publicationStmt>
-      
-      <sourceDesc>
-        <listBibl>
-          <biblStruct>
-            <monogr>
-              <editor>
-                <persName>
-                  <name>Emil Kroymann</name>
-                </persName>
-              </editor> 
-              <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0275">Tertullian</author>  
-              <title xml:lang="lat">Quinti Septimi Florentis Tertulliani opera</title>
-              <imprint>
-                <publisher>F. Tempsky</publisher>
-                <publisher>G. Freytag</publisher>
-                <pubPlace>Vienna</pubPlace>
-                <pubPlace>Leipzig</pubPlace>
-                <date>1906</date>
-              </imprint>
-              <biblScope unit="volume">3</biblScope>
-            </monogr>
-            <series>
-              <title>Corpus Scriptorum Ecclesiasticorum Latinorum</title>
-              <biblScope unit="volume">47</biblScope>
-            </series>
-            <ref target="https://archive.org/details/corpusscriptoru17wiengoog/page/125/mode/2up">Internet Archive</ref>
-            
-          </biblStruct>
-        </listBibl>
-      </sourceDesc>
-      
-    </fileDesc>
-    <encodingDesc>
-      <p>The following text is encoded in accordance with EpiDoc standards and with the
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/PerseusDLCode/perseus-schemas/main/perseus_prose.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="lat">Adversus Hermogenem</title>
+            <author>Tertullian</author>
+            <editor>Emil Kroymann</editor>
+            <sponsor>University of Leipzig</sponsor>
+            <funder>European Social Fund Saxony</funder>
+            <principal>Gregory Crane</principal>
+            <respStmt>
+               <persName xml:id="Jouve">Jouve</persName>
+               <resp>OCR-ed, corrected and encoded the text</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Greta Franzini</persName>
+               <resp>Project Manager (University of Leipzig)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Simona Stoyanova</persName>
+               <resp>Project Assistant (University of Leipzig)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Bruce Robertson</persName>
+               <resp>Technical Advisor (Mount Allison University)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Uvius Fonticola</persName>
+               <resp>Technical Advisor</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>University of Leipzig</authority>
+            <idno type="filename">stoa0275.stoa004.opp-lat2.xml</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
+            </availability>
+            <date>2014</date>
+            <publisher>University of Leipzig</publisher>
+            <pubPlace>Germany</pubPlace>
+            <idno type="CTS">urn:cts:latinLit:stoa0275.stoa004.opp-lat2</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <name>Emil Kroymann</name>
+                        </persName>
+                     </editor>
+                     <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0275">Tertullian</author>
+                     <title xml:lang="lat">Quinti Septimi Florentis Tertulliani opera</title>
+                     <imprint>
+                        <publisher>F. Tempsky</publisher>
+                        <publisher>G. Freytag</publisher>
+                        <pubPlace>Vienna</pubPlace>
+                        <pubPlace>Leipzig</pubPlace>
+                        <date>1906</date>
+                     </imprint>
+                     <biblScope unit="volume">3</biblScope>
+                  </monogr>
+                  <series>
+                     <title>Corpus Scriptorum Ecclesiasticorum Latinorum</title>
+                     <biblScope unit="volume">47</biblScope>
+                  </series>
+                  <ref target="https://archive.org/details/corpusscriptoru17wiengoog/page/125/mode/2up">Internet Archive</ref>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>The following text is encoded in accordance with EpiDoc standards and with the
         CTS/CITE Architecture. 
 </p>
-      <refsDecl n="CTS">
-        <cRefPattern n="section" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1'])"/>
-      </refsDecl>
-    </encodingDesc>
-    
-    <profileDesc>
-      <langUsage>
-        <language ident="lat">Latin</language>
-      </langUsage>
-    </profileDesc>
-    
-</teiHeader>
-<text>
-<body>
-<div type="edition" xml:lang="lat" n="urn:cts:latinLit:stoa0275.stoa004.opp-lat2">
-<head>
+         <refsDecl n="CTS">
+            <cRefPattern n="section"
+                         matchPattern="(.+)"
+                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1'])"/>
+         </refsDecl>
+         <refsDecl n="CTS">
+            <citeStructure match="/TEI/text/body" use="@xml:base">
+               <citeStructure unit="section" delim="." match="div[@type='section']" use="@n"/>
+            </citeStructure>
+         </refsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <catRef scheme="#perseus-genre" target="#prose-section"/>
+         </textClass>
+         <langUsage>
+            <language ident="lat">Latin</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body xml:base="urn:cts:latinLit:stoa0275.stoa004.opp-lat2">
+         <head>
             <title type="main">III. ADVERSVS HERMOGENEM. </title>
-          </head>
-<div n="1" subtype="section" type="textpart">
-<p>Solemus haereticis compendii gratia de posteritate praescribere. <lb/>
+         </head>
+         <div n="1" type="section">
+            <p>Solemus haereticis compendii gratia de posteritate praescribere. <lb/>
             in quantum enim ueritatis regula prior, quae etiam <lb/>
             haeresis futuras renuntiauit, in tantum posteriores quaeque <lb n="5"/>
             doctrinae haeresis praeiudicabuntur, [qua est] quae futurae <lb/>
@@ -112,23 +118,27 @@
 
 <note type="footnote"> 4] cf. I Cor. 11, 19. 12—13] cf. Gen. 1, 28. cf. Exod. 20, 4. <lb/>
             15] cf. II Tim. 1, 15.. </note>
-
-<note type="footnote">INCIP ADVERSVS HERMOGENEM <hi rend="italic">PN,</hi> Q. Septimii Florentia Tertulliani <lb/>
+               <note type="footnote">INCIP ADVERSVS HERMOGENEM <hi rend="italic">PN,</hi> Q. Septimii Florentia Tertulliani <lb/>
             incipit lib aduersus Hermogenem <hi rend="italic">F</hi> 3 qllae-renllntiauit = <lb/>
             quae—praenuntiabantur: <hi rend="italic">auctor se ipse correxisse uidetur, sed incuria<lb/>
-             librarii prior uerborum compositio non deleta est (el. p. 141,14 et 148,16)</hi> <lb/>
-            5 haeresis futuras <hi rend="italic">PNF, futuras</hi> haereses <hi rend="italic">R uulgo</hi> renuntiauit <hi rend="italic">PNF,</hi> <lb/>
+             librarii prior uerborum compositio non deleta est (el. p. 141,14 et 148,16)</hi>
+                  <lb/>
+            5 haeresis futuras <hi rend="italic">PNF, futuras</hi> haereses <hi rend="italic">R uulgo</hi> renuntiauit <hi rend="italic">PNF,</hi>
+                  <lb/>
             praenuntiauit <hi rend="italic">R uulgo</hi> 6 qua est (= quae) <hi rend="italic">seclusi, ut per dittographiam <lb/>
-            ortum:</hi> quia sunt, quae <hi rend="italic">R uulgo,&lt;anti&gt;quae</hi> sunt (qua est <hi rend="italic">ex</hi> quae št) <hi rend="italic">Eng</hi> <lb/>
+            ortum:</hi> quia sunt, quae <hi rend="italic">R uulgo,&lt;anti&gt;quae</hi> sunt (qua est <hi rend="italic">ex</hi> quae št) <hi rend="italic">Eng</hi>
+                  <lb/>
             7 praenuntiabantur <hi rend="italic">JR,</hi> praenuntiabuntur <hi rend="italic">PNF</hi> 8 est <hi rend="italic">om. F lacunam <lb/>
             signaui:</hi> ut de tempore inquirere non oporteat <hi rend="italic">uel simile aliquid intercidisse <lb/>
-            puto</hi> tam nouella est! <hi rend="italic">Eng</hi> 9 et natura <hi rend="italic">PN,</hi> natara <hi rend="italic">F</hi> <lb/>
+            puto</hi> tam nouella est! <hi rend="italic">Eng</hi> 9 et natura <hi rend="italic">PN,</hi> natara <hi rend="italic">F</hi>
+                  <lb/>
             11 conscientiae <hi rend="italic">R3,</hi> constantiae <hi rend="italic">PNFB1</hi> 12 inlicite <hi rend="italic">Urs:</hi> licite <hi rend="italic">PNF <lb/>
             (= licenter? Eng)</hi> 13 libidine <hi rend="italic">F</hi> in artem <hi rend="italic">P,</hi> mortem <hi rend="italic">NF</hi> 14 et <lb/>
             carnis-nominum <hi rend="italic">om. F</hi> si quid et nominum <hi rend="italic">scripsi:</hi> siquidem et <lb/>
-            nubentium <hi rend="italic">PN</hi> 15 contagio <hi rend="italic">nominatiuum intellego</hi> </note> <lb/>
-             
-<pb n="127"/>
+            nubentium <hi rend="italic">PN</hi> 15 contagio <hi rend="italic">nominatiuum intellego</hi>
+               </note>
+               <lb/>
+               <pb n="127"/>
             mihi quaestio est. [Christum] deum non alium uidetur agnoscere: <lb/>
             alium tamen facit quem aliter agnoscit. immo totum, <lb/>
             quod est deus, aufert, nolens illum ex nihilo uniuersa fecisse. <lb/>
@@ -138,10 +148,9 @@
             facta nec initium habens omnino nec finem, ex qua deus omnia <lb/>
             postea fecerit. 
 </p>
-</div>
-
-<div n="2" subtype="section" type="textpart">
-<p>Hanc primam umbram, plane sine lumine, pessimis <lb/>
+         </div>
+         <div n="2" type="section">
+            <p>Hanc primam umbram, plane sine lumine, pessimis <lb/>
             pictor ille argumentationibus colorauit, praestruens aut deum <lb n="10"/>
             de semetipso fecisse cuncta aut de nihilo aut de aliquo, ut. <lb/>
             cum ostenderit neque ex semetipso fecisse potuisse neque ex <lb/>
@@ -161,17 +170,19 @@
             semper sit, non fieri sed esse illum in aeuum aeuorum.
 
 <note type="footnote"> 1 Christum <hi rend="italic">seclusi</hi> deum <hi rend="italic">scripsi:</hi> dominum <hi rend="italic">PNuulgo, om. F</hi> agnoscere <lb/>
-            <hi rend="italic">F,</hi> aliter agnoscere <hi rend="italic">Puulgo,</hi> aliter cognoscere <hi rend="italic">N</hi> 4 a <hi rend="italic">om. F</hi> ad <lb/>
+                  <hi rend="italic">F,</hi> aliter agnoscere <hi rend="italic">Puulgo,</hi> aliter cognoscere <hi rend="italic">N</hi> 4 a <hi rend="italic">om. F</hi> ad <lb/>
             philosophos conuersus <hi rend="italic">NF,</hi> conuersus ad philosophos <hi rend="italic">P uulgo</hi> 5 a <lb/>
             •Stoicis <hi rend="italic">seclusi</hi> 6 deo <hi rend="italic">scripsi:</hi> domino <hi rend="italic">PNF</hi> 7 ex qua <hi rend="italic">P,</hi> et quia <lb/>
-            JYF deus <hi rend="italic">scripsi:</hi> dominus <hi rend="italic">PNF</hi> 9 pessimis pictor ille <hi rend="italic">scripsi:</hi> <lb/>
+            JYF deus <hi rend="italic">scripsi:</hi> dominus <hi rend="italic">PNF</hi> 9 pessimis pictor ille <hi rend="italic">scripsi:</hi>
+                  <lb/>
             pessimas pictor illis <hi rend="italic">PNF</hi> 10 deum <hi rend="italic">scripsi:</hi> dominum <hi rend="italic">PNF</hi> 16 deus <lb/>
-            <hi rend="italic">scripsi:</hi> dominus <hi rend="italic">PNF</hi> 17 qua deum <hi rend="italic">scripsi:</hi> qua dominus <hi rend="italic">PNF</hi> 18 fecisset <lb/>
+                  <hi rend="italic">scripsi:</hi> dominus <hi rend="italic">PNF</hi> 17 qua deum <hi rend="italic">scripsi:</hi> qua dominus <hi rend="italic">PNF</hi> 18 fecisset <lb/>
             aliquid, ipsius <hi rend="italic">uulgo</hi> aliquid <hi rend="italic">seclusi</hi> 21 totum <hi rend="italic">seclusi</hi> 22 et <lb/>
             non esse <hi rend="italic">scripsi:</hi> et non totum <hi rend="italic">PNF</hi> totum <hi rend="italic">seclusi</hi> 23 totum <hi rend="italic">seelusi<lb/>
-             </hi> id <hi rend="italic">add. Iura</hi> </note><lb/>
-             
-<pb n="128"/>
+                  </hi> id <hi rend="italic">add. Iura</hi>
+               </note>
+               <lb/>
+               <pb n="128"/>
             igitur non de semetipso fecisse illum, qui non eius fuerit <lb/>
             condicionis, ut de semetipso facere potuisset. proinde ex <lb/>
             nihilo non potuisse eum facere sic contendit, bonum et optimum <lb/>
@@ -184,10 +195,9 @@
             faceret. quod ergo non arbitrio suo fecerit, intellegi oportere<lb n="10"/>
             ex uitio alicuius rei factum, ex materiae sine dubio. 
 </p>
-</div>
-
-<div n="3" subtype="section" type="textpart">
-<p>Adicit et aliud: deum semper deum (semper) etiam dominum <lb/>
+         </div>
+         <div n="3" type="section">
+            <p>Adicit et aliud: deum semper deum (semper) etiam dominum <lb/>
             fuisse, numquam non dominum. nullo porro modo potuisse <lb/>
             illum semper dominum haberi, sicut et semper deum, si non <lb/>
             fuisset aliquid retro semper, cuius semper dominus haberetur. <lb n="15"/>
@@ -201,21 +211,28 @@
             substantia semper fuit cum suo nomine, quod est deus; postea <lb/>
             domini, accedentis scilicet rei, mentio. nam ex quo esse
 
-<note type="footnote">1 fuerit <hi rend="italic">Lat:</hi> fieret <hi rend="italic">PNF Oehlerus</hi> 3 sic <hi rend="italic">R,</hi> si <hi rend="italic">PNF</hi> 4 deum <hi rend="italic">scripsi:</hi> <lb/>
-            donrinum <hi rend="italic">PNF</hi> 8 ex <hi rend="italic">om. N</hi> 9 nihil <hi rend="italic">seclusi (potueris et emendare:</hi> <lb/>
+<note type="footnote">1 fuerit <hi rend="italic">Lat:</hi> fieret <hi rend="italic">PNF Oehlerus</hi> 3 sic <hi rend="italic">R,</hi> si <hi rend="italic">PNF</hi> 4 deum <hi rend="italic">scripsi:</hi>
+                  <lb/>
+            donrinum <hi rend="italic">PNF</hi> 8 ex <hi rend="italic">om. N</hi> 9 nihil <hi rend="italic">seclusi (potueris et emendare:</hi>
+                  <lb/>
             quia [si] ex arbitrio .. nihil incongruens <hi rend="italic">Eng)</hi> 11 materiae <hi rend="italic">scripsi:</hi> materia <lb/>
-            <hi rend="italic">esse PNF</hi> 12 semper <hi rend="italic">addidit Iun</hi> 13 dominum <hi rend="italic">Iun: deum PNF</hi> <lb/>
+                  <hi rend="italic">esse PNF</hi> 12 semper <hi rend="italic">addidit Iun</hi> 13 dominum <hi rend="italic">Iun: deum PNF</hi>
+                  <lb/>
             16 cum <hi rend="italic">addidi (cl. 127, 5)</hi> 17 quatenus <hi rend="italic">scripsi:</hi> quantus <hi rend="italic">F</hi>. quam <lb/>
-            hactenus <hi rend="italic">PN uulgo</hi> 18 duxit, ut sciat F, duxi, ut sciant <hi rend="italic">PN uulgo</hi> <lb/>
+            hactenus <hi rend="italic">PN uulgo</hi> 18 duxit, ut sciat F, duxi, ut sciant <hi rend="italic">PN uulgo</hi>
+                  <lb/>
             19 tam <hi rend="italic">R, om. PNF</hi> intellegi quam <hi rend="italic">ENF,</hi> intellegiq <hi rend="italic">P</hi> 20 ipsum <lb/>
-            <hi rend="italic">scripsi:</hi> semetipsuni <hi rend="italic">PNF</hi> ipso <hi rend="italic">NF,</hi> semetipso <hi rend="italic">P uulgo</hi> domini <lb/>
-            <hi rend="italic">seripsi:</hi> dominum <hi rend="italic">PNF</hi> diuersa—deus <hi rend="italic">om. F</hi> 21 scilicet deus <hi rend="italic">scripsi:</hi> <lb/>
+                  <hi rend="italic">scripsi:</hi> semetipsuni <hi rend="italic">PNF</hi> ipso <hi rend="italic">NF,</hi> semetipso <hi rend="italic">P uulgo</hi> domini <lb/>
+                  <hi rend="italic">seripsi:</hi> dominum <hi rend="italic">PNF</hi> diuersa—deus <hi rend="italic">om. F</hi> 21 scilicet deus <hi rend="italic">scripsi:</hi>
+                  <lb/>
             sed deus <hi rend="italic">PNFItdeus R"J uulgo</hi> 22 deum uero non substantia et <lb/>
-            potestati <hi rend="italic">F</hi> 23 substantia <hi rend="italic">F,</hi> substantiam <hi rend="italic">PN uulgo fuit scripsi:</hi> <lb/>
+            potestati <hi rend="italic">F</hi> 23 substantia <hi rend="italic">F,</hi> substantiam <hi rend="italic">PN uulgo fuit scripsi:</hi>
+                  <lb/>
             fuisse <hi rend="italic">PNF</hi> 24 domini <hi rend="italic">scripsi:</hi> dominus <hi rend="italic">PNuulgo, om. F,</hi> postea <lb/>
-            (potestas&gt; domini <hi rend="italic">Eng</hi> </note> <lb/>
-             
-<pb n="129"/>
+            (potestas&gt; domini <hi rend="italic">Eng</hi>
+               </note>
+               <lb/>
+               <pb n="129"/>
             coeperunt, in quae potestas domini ageret, ex illo per accessionem <lb/>
             potestatis et factus et dictus est dominus, quia et pater deus <lb/>
             est et iudex deus est, non tamen ideo pater et iudex semper, <lb/>
@@ -243,24 +260,24 @@
             fuisse, quia constat dominum non semper fuisse. adiciam et
 
 <note type="footnote">13J Gen. 1, 1. 15] Gen. 1, 3. 19] Gen. 2, 15. </note>
-
-<note type="footnote"> 3 et pater <hi rend="italic">N</hi> 5 et <hi rend="italic">(loco priore) Gel:</hi> ei <hi rend="italic">PNF Oehlerus</hi> 6 qui patrem <hi rend="italic">NF,</hi> <lb/>
+               <note type="footnote"> 3 et pater <hi rend="italic">N</hi> 5 et <hi rend="italic">(loco priore) Gel:</hi> ei <hi rend="italic">PNF Oehlerus</hi> 6 qui patrem <hi rend="italic">NF,</hi>
+                  <lb/>
             quod patrem <hi rend="italic">P (corr. R)</hi> deum <hi rend="italic">scripsi:</hi> dominum <hi rend="italic">PNF</hi> 7 deus <hi rend="italic">addidi <lb/>
-            </hi> ante ea R, <hi rend="italic">antea PNF</hi> 8 deus <hi rend="italic">scripsi:</hi> dominus <hi rend="italic">PNF</hi> tantum futurus <lb/>
-            <hi rend="italic">uulgo</hi> 10 argutari <hi rend="italic">lun:</hi> argumentari <hi rend="italic">PNF</hi> gnariter <hi rend="italic">N</hi> 17 deum et <lb/>
-            <hi rend="italic">seripgt:</hi> dominus et <hi rend="italic">PNFR\\</hi> dominum <hi rend="italic">R3 uulgo,</hi> qui, proprie dominus, <lb/>
-            et <hi rend="italic">Ettg (cf. Gen. 1, 28)</hi> 18 dominum <hi rend="italic">PNF,</hi> deum <hi rend="italic">Eng</hi> et iam <hi rend="italic">Eng:</hi> <lb/>
+                  </hi> ante ea R, <hi rend="italic">antea PNF</hi> 8 deus <hi rend="italic">scripsi:</hi> dominus <hi rend="italic">PNF</hi> tantum futurus <lb/>
+                  <hi rend="italic">uulgo</hi> 10 argutari <hi rend="italic">lun:</hi> argumentari <hi rend="italic">PNF</hi> gnariter <hi rend="italic">N</hi> 17 deum et <lb/>
+                  <hi rend="italic">seripgt:</hi> dominus et <hi rend="italic">PNFR\\</hi> dominum <hi rend="italic">R3 uulgo,</hi> qui, proprie dominus, <lb/>
+            et <hi rend="italic">Ettg (cf. Gen. 1, 28)</hi> 18 dominum <hi rend="italic">PNF,</hi> deum <hi rend="italic">Eng</hi> et iam <hi rend="italic">Eng:</hi>
+                  <lb/>
             etiam <hi rend="italic">PNF</hi> cognominaturus <hi rend="italic">PNFRI,</hi> cognominatur <hi rend="italic">R3</hi> 19 domini <lb/>
-            <hi rend="italic">sc-ripsi:</hi> dominus <hi rend="italic">NF, om. P (add. R ex Hirsaugiensi)</hi> deus dominus <lb/>
-            <hi rend="italic">NP,</hi> dominus deus <hi rend="italic">P uulgo</hi> 20 adae <hi rend="italic">F,</hi> ac de <hi rend="italic">PN</hi> 21 exinde <hi rend="italic">F,</hi> <lb/>
+                  <hi rend="italic">sc-ripsi:</hi> dominus <hi rend="italic">NF, om. P (add. R ex Hirsaugiensi)</hi> deus dominus <lb/>
+                  <hi rend="italic">NP,</hi> dominus deus <hi rend="italic">P uulgo</hi> 20 adae <hi rend="italic">F,</hi> ac de <hi rend="italic">PN</hi> 21 exinde <hi rend="italic">F,</hi>
+                  <lb/>
             inde <hi rend="italic">PN</hi> 22 sibi &lt;semper) <hi rend="italic">Eng</hi> tunc deus cum et <hi rend="italic">seclusi, drfendit<lb/>
              Eng</hi> 25 et ego <hi rend="italic">&lt;aliud&gt; fort</hi>. </note>
-
-<note type="footnote"> XXXXVJI. Tert. III. </note>
-
-<note type="footnote"> 9 </note> <lb n="25"/>
-             
-<pb n="130"/>
+               <note type="footnote"> XXXXVJI. Tert. III. </note>
+               <note type="footnote"> 9 </note>
+               <lb n="25"/>
+               <pb n="130"/>
             ego propter non intellegentes, quorum Hermogenes extrema <lb/>
             linea est, et quidem ex penu etiam ipsius retorquebo aduersus <lb/>
             illum. cum enim neget materiam natam aut factam, sic quoque <lb/>
@@ -271,10 +288,9 @@
             faciendo ex materia, ex illo materia dominum deum passa <lb/>
             demonstrat hoc illum tamdiu non fuisse, quamdiu t fuit hoc. 
 </p>
-</div>
-
-<div n="4" subtype="section" type="textpart">
-<p>Hinc denique incipiam de materia retractare, quod eam<lb n="10"/>
+         </div>
+         <div n="4" type="section">
+            <p>Hinc denique incipiam de materia retractare, quod eam<lb n="10"/>
             deo comparet, proinde non natam, proinde non factam, proinde <lb/>
             [aeternam] sine initio, sine fine propositam. quis enim alius <lb/>
             dei census quam aeternitas? quis alius aeternitatis status <lb/>
@@ -287,15 +303,16 @@
             pater, ex quo omnia; quo magis apud nos solius dei
 
 <note type="footnote"> 18] I Cor. 8, 5. </note>
-
-<note type="footnote"> 2 ex penu etiam <hi rend="italic">Lat:</hi> ex penitentia <hi rend="italic">PNF</hi>. epinoeraata <hi rend="italic">Urs,</hi> experimenta <lb/>
-            <hi rend="italic">Oehlerus,</hi> experientiam <hi rend="italic">Eng</hi> ipsius <hi rend="italic">NF,</hi> illius <hi rend="italic">Puulgo</hi> 5 qua <hi rend="italic">P</hi> (i <hi rend="italic">add. <lb/>
+               <note type="footnote"> 2 ex penu etiam <hi rend="italic">Lat:</hi> ex penitentia <hi rend="italic">PNF</hi>. epinoeraata <hi rend="italic">Urs,</hi> experimenta <lb/>
+                  <hi rend="italic">Oehlerus,</hi> experientiam <hi rend="italic">Eng</hi> ipsius <hi rend="italic">NF,</hi> illius <hi rend="italic">Puulgo</hi> 5 qua <hi rend="italic">P</hi> (i <hi rend="italic">add. <lb/>
             R) F,</hi> quam <hi rend="italic">N,</hi> quia R <hi rend="italic">uulgo</hi> 6 auctorem <hi rend="italic">Urs:</hi> hanc rem <hi rend="italic">F,</hi> rem <hi rend="italic">PN,</hi> regem <lb/>
-            <hi rend="italic">Eng</hi> . nemini-ideoque <hi rend="italic">om. PN, quos sequitur Eng</hi> debens <hi rend="italic">v. d. Ylist:</hi> <lb/>
-            debet <hi rend="italic">F</hi> 9 quamdiu (non) fecit [hoc] <hi rend="italic">fort</hi>. quamdiu fuit hoc <hi rend="italic">P, quam din</hi> <lb/>
+                  <hi rend="italic">Eng</hi> . nemini-ideoque <hi rend="italic">om. PN, quos sequitur Eng</hi> debens <hi rend="italic">v. d. Ylist:</hi>
+                  <lb/>
+            debet <hi rend="italic">F</hi> 9 quamdiu (non) fecit [hoc] <hi rend="italic">fort</hi>. quamdiu fuit hoc <hi rend="italic">P, quam din</hi>
+                  <lb/>
             hoc fuit <hi rend="italic">N,</hi> quamdiu fuit hoc utique <hi rend="italic">F (sed del</hi>. utique <hi rend="italic">librarius ipse)</hi> 11 deo <lb/>
             comparet <hi rend="italic">scripsi:</hi> deus comparet <hi rend="italic">NF,</hi> deus sibi comparet <hi rend="italic">P uulgo</hi> 12 aeter- <lb/>
-            <hi rend="italic">nam secluei (cf.132,21)</hi> propositamPam: propositaPNF <hi rend="italic">16 sed seclusi: <lb/>
+                  <hi rend="italic">nam secluei (cf.132,21)</hi> propositamPam: propositaPNF <hi rend="italic">16 sed seclusi: <lb/>
             scilicet Oehkrus si et Urs: et si PNF iam om.P (add.R exHirsaugiensi) <lb/>
             18 grauius corrupta esse puto quae abhinc sequuntur his de causis:</hi> 1) <hi rend="italic">hiscxt <lb/>
             sententia ante uerba:</hi> nam etsi... <hi rend="italic">2) abundare uidentur uerba:</hi> et. ut dixi,alterius <lb/>
@@ -304,9 +321,10 @@
              medelis adhibitis sic uelim restitui:</hi> cui et adscribitur, quo magis... proprium <lb/>
             est. [et ut dixi... alterius easet] nam etsisunt....pater, exquoomnia. <lb/>
             quod si...ut unius sit. quid autem erit unicum et singulare, cui nihil <lb/>
-            adaequabitur, nisi quod principale <hi rend="italic">etc</hi>. 20 quo 223, qui eo <hi rend="italic">P-ZVPIR1</hi> </note> <lb n="20"/>
-             
-<pb n="131"/>
+            adaequabitur, nisi quod principale <hi rend="italic">etc</hi>. 20 quo 223, qui eo <hi rend="italic">P-ZVPIR1</hi>
+               </note>
+               <lb n="20"/>
+               <pb n="131"/>
             esse debeat quod dei proprium est; et ut dixi, iam non proprium <lb/>
             esset, quia alterius esset. quod si deus est, unicum <lb/>
             sit necesse est, ut unius sit. aut quid erit unicum et <lb/>
@@ -320,10 +338,9 @@
             fuerit; unicum autem esse non poterit cui aliquid adaequabitur; <lb/>
             adaequabitur autem deo materia, cum aeterna censetur.] -
 </p>
-</div>
-
-<div n="5" subtype="section" type="textpart">
-<p>Sed deus deus est, et materia materia est. quasi diuersitas <lb/>
+         </div>
+         <div n="5" type="section">
+            <p>Sed deus deus est, et materia materia est. quasi diuersitas <lb/>
             nominum comparationi resistat, si status idem uindicetur. <lb/>
             sit et natura diuersa, sit et forma non eadem, dummodo <lb n="15"/>
             ipsius status una sit ratio. innatus deus: an non innata et <lb/>
@@ -338,21 +355,21 @@
             et sic habente materia salua sit deo et auctoritas et
 
 <note type="footnote">5] cf. Rom. 9, 5. cf. Col. 1, 17. cf. I Cor. 8, 6. </note>
-
-<note type="footnote"> 3 sit om. <hi rend="italic">F</hi> 6 solus <hi rend="italic">seclusi</hi> est-habendo <hi rend="italic">om. P</hi> 7 habuerint <hi rend="italic">P,</hi> <lb/>
+               <note type="footnote"> 3 sit om. <hi rend="italic">F</hi> 6 solus <hi rend="italic">seclusi</hi> est-habendo <hi rend="italic">om. P</hi> 7 habuerint <hi rend="italic">P,</hi>
+                  <lb/>
             habuerunt <hi rend="italic">NF</hi> 8 dum <hi rend="italic">add. Iun</hi> 9 infert <hi rend="italic">PN,</hi> infere <hi rend="italic">F,</hi> inferene <lb/>
-            <hi rend="italic">Eng quae abhinc usque in finem capitis leguntur eorum, quae antecedunt,<lb/>
+                  <hi rend="italic">Eng quae abhinc usque in finem capitis leguntur eorum, quae antecedunt,<lb/>
              nullam habent rationem; addita uidentur, quia interciderat supra coniunetio <lb/>
-            </hi> dum 12 aeterna R, in aeterna <hi rend="italic">P,</hi> materna <hi rend="italic">N,</hi> materia <hi rend="italic">F</hi> 15 dummodo <lb/>
+                  </hi> dum 12 aeterna R, in aeterna <hi rend="italic">P,</hi> materna <hi rend="italic">N,</hi> materia <hi rend="italic">F</hi> 15 dummodo <lb/>
             22s, dum nomini <hi rend="italic">PNFR1</hi> 16 ratio sit <hi rend="italic">F</hi> innata et <hi rend="italic">scripti:</hi> et innata <lb/>
             et <hi rend="italic">NF",</hi> et innata <hi rend="italic">P</hi> 18 <hi rend="italic">uerba</hi> ambo etiam-consietit <hi rend="italic">neque ipsa sine offensione<lb/>
              sunt, ut quae non pertineant ad statum sed ad actum dei, neque concordant <lb/>
             eum eis quae paulo infra leguntur l. 25 sqq</hi>. 23 qui (= <hi rend="italic">quomodo)</hi> deo <lb/>
-            <hi rend="italic">Eng:</hi> quid eo <hi rend="italic">PNF,</hi> quid deo <hi rend="italic">R uulgo</hi> 25 auctoritatia <hi rend="italic">F</hi> substantiae <hi rend="italic">NF</hi> </note>
-
-<note type="footnote"> 9* </note> <lb n="25"/>
-             
-<pb n="132"/>
+                  <hi rend="italic">Eng:</hi> quid eo <hi rend="italic">PNF,</hi> quid deo <hi rend="italic">R uulgo</hi> 25 auctoritatia <hi rend="italic">F</hi> substantiae <hi rend="italic">NF</hi>
+               </note>
+               <note type="footnote"> 9* </note>
+               <lb n="25"/>
+               <pb n="132"/>
             substantia, qua solus et primus et auctor et dominus omnium censeatur. <lb/>
             ueritas autem sic unum deum exigit defendendo, ut solius <lb/>
             sit quicquid ipsius est. ita enim ipsius erit, si fuerit solius, <lb/>
@@ -368,12 +385,10 @@
             habere illam cum deo aliquid et deum illam non esse? quale <lb/>
             est autem, cum confitetur ille (illam) aliquid cum deo habere <lb/>
             et uult solius dei esse quod materiam non negat habere? s <lb n="15"/>
-            
-</p>
-</div>
-
-<div n="6" subtype="section" type="textpart">
-<p>Dicit saluum deo esse, ut et solus sit et primus et omnium <lb/>
+            </p>
+         </div>
+         <div n="6" type="section">
+            <p>Dicit saluum deo esse, ut et solus sit et primus et omnium <lb/>
             auctor et omnium dominus et nemini comparandus: per quae <lb/>
             haec est, materiae quoque adscribit. ille quidem deus contestabitur <lb/>
             deos et iurabit nonnumquam per semetipsum, quod alius <lb/>
@@ -386,19 +401,22 @@
 
 <note type="footnote"> 8] Ps. 81, 6. 18] cf. Exod. 20, S. 19J cf. Ea. 45, 20. 22] Ea. <lb/>
             41, 9; 44, 6; 48, 12. cf. Apoc. 1, 17. 24] Es. 44, 24. </note>
-
-<note type="footnote"> 1 et auctor <hi rend="italic">scripsi (cf. infra l. 16):</hi> auctor est <hi rend="italic">PF,</hi> auctorem <hi rend="italic">N,</hi> auctor <lb/>
+               <note type="footnote"> 1 et auctor <hi rend="italic">scripsi (cf. infra l. 16):</hi> auctor est <hi rend="italic">PF,</hi> auctorem <hi rend="italic">N,</hi> auctor <lb/>
             &lt;omnium) <hi rend="italic">Eng</hi> 2 defendendo <hi rend="italic">PN,</hi> defendo <hi rend="italic">F intellege:</hi> ueritas autem <lb/>
             unum deum defendendo sic exigit 4 quia <hi rend="italic">addidi</hi> 6 aliquid. immo <lb/>
-            <hi rend="italic">uulgo</hi> ei ab ipso <hi rend="italic">F</hi> 9 ex gratia <hi rend="italic">P,</hi> et gratia <hi rend="italic">NF</hi> 10 deo facit <lb/>
-            F materiae <hi rend="italic">N,</hi> materia <hi rend="italic">PF</hi> 13 illa non esse <hi rend="italic">F</hi> esse? quale <hi rend="italic">Eng:</hi> <lb/>
-            esse. quale <hi rend="italic">uulgo</hi> 14 ille &lt;illam) <hi rend="italic">Eng:</hi> ille <hi rend="italic">PNF,</hi> illam <hi rend="italic">van der Vliet</hi> <lb/>
-            17 per quae haec est <hi rend="italic">scripsi:</hi> per quae nec <hi rend="italic">est PNFE\\</hi> quae <hi rend="italic">moi Rzuulgo</hi> <lb/>
+                  <hi rend="italic">uulgo</hi> ei ab ipso <hi rend="italic">F</hi> 9 ex gratia <hi rend="italic">P,</hi> et gratia <hi rend="italic">NF</hi> 10 deo facit <lb/>
+            F materiae <hi rend="italic">N,</hi> materia <hi rend="italic">PF</hi> 13 illa non esse <hi rend="italic">F</hi> esse? quale <hi rend="italic">Eng:</hi>
+                  <lb/>
+            esse. quale <hi rend="italic">uulgo</hi> 14 ille &lt;illam) <hi rend="italic">Eng:</hi> ille <hi rend="italic">PNF,</hi> illam <hi rend="italic">van der Vliet</hi>
+                  <lb/>
+            17 per quae haec est <hi rend="italic">scripsi:</hi> per quae nec <hi rend="italic">est PNFE\\</hi> quae <hi rend="italic">moi Rzuulgo</hi>
+                  <lb/>
             18 ille <hi rend="italic">PNF,</hi> ego <hi rend="italic">Pam</hi> 19 deos <hi rend="italic">Eng:</hi> deus <hi rend="italic">PNF (contestari</hi> = detestarit ut <lb/>
-            <hi rend="italic">uiilelur) iurabit scripsi: iurauit PNF 22 sed scripsi: et PNF</hi> 23 eaini <lb/>
-            <hi rend="italic">scripsi:</hi> autem <hi rend="italic">PNF</hi> cuius <hi rend="italic">NF,</hi> cui <hi rend="italic">P</hi> 25 enim <hi rend="italic">PNF,</hi> etiam <hi rend="italic">Oehlems</hi> </note> <lb n="25"/>
-             
-<pb n="133"/>
+                  <hi rend="italic">uiilelur) iurabit scripsi: iurauit PNF 22 sed scripsi: et PNF</hi> 23 eaini <lb/>
+                  <hi rend="italic">scripsi:</hi> autem <hi rend="italic">PNF</hi> cuius <hi rend="italic">NF,</hi> cui <hi rend="italic">P</hi> 25 enim <hi rend="italic">PNF,</hi> etiam <hi rend="italic">Oehlems</hi>
+               </note>
+               <lb n="25"/>
+               <pb n="133"/>
             extendit, de qua et extendit. cum proponit saluo dei statu <lb/>
             fuisse materiam, uide ne reddatur a nobis proinde saluo statu <lb/>
             materiae fuisse deum. communis tamen status amborum. saluum <lb/>
@@ -417,10 +435,9 @@
             in qua (si) omnia dei propria recensentur, satis praeiudicant <lb/>
             de reliqua comparatione. 
 </p>
-</div>
-
-<div n="7" subtype="section" type="textpart">
-<p>Si minorem et inferiorem materiam deo et idcirco diuersam <lb/>
+         </div>
+         <div n="7" type="section">
+            <p>Si minorem et inferiorem materiam deo et idcirco diuersam <lb/>
             ab eo et idcirco incomparabilem illi contendit, ut maiori, <lb/>
             ut superiori, praescribo non capere ullam diminutionem et <lb n="20"/>
             humiliationem quod sit aeternum et innatum, quia hoc et <lb/>
@@ -430,19 +447,22 @@
             semel opposita fini, qua et initio, admittunt ea, quae deus non <lb n="25"/>
             capit, diminutionem dico interim et subiectionem, quia nata
 
-<note type="footnote"> 2 reddatur <hi rend="italic">Urs:</hi> irrideatur P, rideatur <hi rend="italic">N,</hi> rudeat et F 3 deum <hi rend="italic">Urs:</hi> <lb/>
+<note type="footnote"> 2 reddatur <hi rend="italic">Urs:</hi> irrideatur P, rideatur <hi rend="italic">N,</hi> rudeat et F 3 deum <hi rend="italic">Urs:</hi>
+                  <lb/>
             deus <hi rend="italic">PNF</hi> communis <hi rend="italic">NF,</hi> communi <hi rend="italic">Puulgo</hi> status <hi rend="italic">scripsi:</hi> statu <lb/>
-            <hi rend="italic">PNj</hi> statum <hi rend="italic">F</hi> 4 sola <hi rend="italic">addidi</hi> 5 illa. et <hi rend="italic">uulgo</hi> et ipsa—cum illa <lb/>
-            <hi rend="italic">om. P (add. R in mg. ex Hirsaugiensi) N</hi> 6 ipsa incomparabilis <hi rend="italic">NF,</hi> <lb/>
+                  <hi rend="italic">PNj</hi> statum <hi rend="italic">F</hi> 4 sola <hi rend="italic">addidi</hi> 5 illa. et <hi rend="italic">uulgo</hi> et ipsa—cum illa <lb/>
+                  <hi rend="italic">om. P (add. R in mg. ex Hirsaugiensi) N</hi> 6 ipsa incomparabilis <hi rend="italic">NF,</hi>
+                  <lb/>
             illa incomparabilia <hi rend="italic">Puulgo</hi> 7 quia et auctrix <hi rend="italic">F</hi> 8 et domina cum deo <lb/>
-            <hi rend="italic">ORI. N</hi> sic(ut) <hi rend="italic">Eng</hi> 9 <hi rend="italic">lacunam signaui:</hi> deum contenderes? <hi rend="italic">uel simile<lb/>
+                  <hi rend="italic">ORI. N</hi> sic(ut) <hi rend="italic">Eng</hi> 9 <hi rend="italic">lacunam signaui:</hi> deum contenderes? <hi rend="italic">uel simile<lb/>
              gwid intercidisse puto,</hi> concessit deo <hi rend="italic">mente supplendum putat Eng</hi> qui <lb/>
             non et <hi rend="italic">F</hi> 10 ut <hi rend="italic">P,</hi> et <hi rend="italic">NF</hi> 11 quae <hi rend="italic">add. R3, om. PNFR1</hi> 13 <hi rend="italic">desideratvr: <lb/>
-            </hi> et omnium dominum competant R3, competat <hi rend="italic">PNFR1</hi> 16 si <lb/>
-            <hi rend="italic">addidi</hi> 18 diuersum a deo <hi rend="italic">F</hi> 22 deum <hi rend="italic">R,</hi> deus <hi rend="italic">PNF</hi> 24 fiunt <lb/>
-            <hi rend="italic">scripsi:</hi> finiunt <hi rend="italic">PNF</hi> 25 qua <hi rend="italic">Oehlerus:</hi> quae <hi rend="italic">PNF,</hi> quia <hi rend="italic">Iun</hi> </note> <lb/>
-             
-<pb n="134"/>
+                  </hi> et omnium dominum competant R3, competat <hi rend="italic">PNFR1</hi> 16 si <lb/>
+                  <hi rend="italic">addidi</hi> 18 diuersum a deo <hi rend="italic">F</hi> 22 deum <hi rend="italic">R,</hi> deus <hi rend="italic">PNF</hi> 24 fiunt <lb/>
+                  <hi rend="italic">scripsi:</hi> finiunt <hi rend="italic">PNF</hi> 25 qua <hi rend="italic">Oehlerus:</hi> quae <hi rend="italic">PNF,</hi> quia <hi rend="italic">Iun</hi>
+               </note>
+               <lb/>
+               <pb n="134"/>
             et facta sunt, ita et deus ideo ea non capit, quia nec natus <lb/>
             omnino nec factus est. et materiae autem status talis est. <lb/>
             igitur ex duobus aeternis, ut innatis, ut infectis, deo atque <lb/>
@@ -466,10 +486,9 @@
             sum deus aut ille materia, quia ambo sumus quod alter est <lb/>
             . nostrum\'? 
 </p>
-</div>
-
-<div n="8" subtype="section" type="textpart">
-<p>. Putans itaque materiam deo non comparasse. quam <lb/>
+         </div>
+         <div n="8" type="section">
+            <p>. Putans itaque materiam deo non comparasse. quam <lb/>
             scilicet subiciat illi, atquin etiam praeponit illam deo et deum <lb/>
             potius subicit materiae, cum uult eum de materia cuncta<lb n="25"/>
             fecisse. si enim ex illa usus est ad opera mundi, iam et <lb/>
@@ -477,15 +496,17 @@
 
 <note type="footnote">2 et <hi rend="italic">om. F</hi> et }tJateriap.-talis est <hi rend="italic">om. N</hi> 3 et duobus innatis et <lb/>
             aeternis <hi rend="italic">N</hi> 4 materia <hi rend="italic">F,</hi> materiae <hi rend="italic">PN</hi> .5 nec subici <hi rend="italic">om. F,</hi> neque <lb/>
-            subici <hi rend="italic">N</hi> 10 opinionis <hi rend="italic">scripsi (cf. 1 p. 176, 16):</hi> opinionibus <hi rend="italic">PNF</hi> <lb/>
+            subici <hi rend="italic">N</hi> 10 opinionis <hi rend="italic">scripsi (cf. 1 p. 176, 16):</hi> opinionibus <hi rend="italic">PNF</hi>
+                  <lb/>
             13 aeterna <hi rend="italic">R,</hi> aeternae <hi rend="italic">PNF</hi> aderit P, aderint <hi rend="italic">F,</hi> aderunt <hi rend="italic">N</hi> tota <lb/>
-            <hi rend="italic">add. Eng</hi> 16 habentem <hi rend="italic">F,</hi> audentem <hi rend="italic">PMuulgo</hi> 18 ambo sine fiDe. <lb/>
-            <hi rend="italic">F</hi> 19 sine domino <hi rend="italic">scripsi:</hi> sine deo <hi rend="italic">PNF</hi> me <hi rend="italic">PN,</hi> ille <hi rend="italic">F</hi> deo <lb/>
-            <hi rend="italic">Iun: deus.PNF Oehlerus</hi> 23 <hi rend="italic">uerba:</hi> putans (putas <hi rend="italic">PNF)</hi> itaque-subiciat <lb/>
+                  <hi rend="italic">add. Eng</hi> 16 habentem <hi rend="italic">F,</hi> audentem <hi rend="italic">PMuulgo</hi> 18 ambo sine fiDe. <lb/>
+                  <hi rend="italic">F</hi> 19 sine domino <hi rend="italic">scripsi:</hi> sine deo <hi rend="italic">PNF</hi> me <hi rend="italic">PN,</hi> ille <hi rend="italic">F</hi> deo <lb/>
+                  <hi rend="italic">Iun: deus.PNF Oehlerus</hi> 23 <hi rend="italic">uerba:</hi> putans (putas <hi rend="italic">PNF)</hi> itaque-subiciat <lb/>
             illi, <hi rend="italic">quae in libris mss. in fine capitis antecedentis leguntur, hic <lb/>
-            inserui</hi> comparare se <hi rend="italic">Eng</hi> 25 cuncta om. <hi rend="italic">F</hi> </note> <lb/>
-             
-<pb n="135"/>
+            inserui</hi> comparare se <hi rend="italic">Eng</hi> 25 cuncta om. <hi rend="italic">F</hi>
+               </note>
+               <lb/>
+               <pb n="135"/>
             subministrauit, et deus subiectus materiae uidetur, cuius substantiae <lb/>
             eguit. nemo enim non eget eo, de cuius utitur; nemo non <lb/>
             subicitur ei, de cuius eget ut possit uti; sic et nemo de <lb/>
@@ -503,10 +524,9 @@
             patriarchae, philosophi. prophetas enim et apostolos usque <lb n="15"/>
             adhuc latuit, puto et Christum. 
 </p>
-</div>
-
-<div n="9" subtype="section" type="textpart">
-<p>Non potest dicere deum ut dominum materia usum ad <lb/>
+         </div>
+         <div n="9" type="section">
+            <p>Non potest dicere deum ut dominum materia usum ad <lb/>
             opera mundi; dominus enim non potuit esse substantiae coaequalis. <lb/>
             sed precario forsitan usus est, et adeo precario, non <lb/>
             dominio, ut, cum eam malam nosset, de mala tamen sustinuerit <lb n="20"/>
@@ -516,19 +536,23 @@
             eam in bonum conuertisset, ut dominus et bonus, ut ita de <lb/>
             bono, non de malo uteretur. sed quia bonus quidem, dominus
 
-<note type="footnote"> 3 de ctiius eget <hi rend="italic">scripsi:</hi> de cuius ut eget F cuius eget <hi rend="italic">PNuulgo</hi> <lb/>
+<note type="footnote"> 3 de ctiius eget <hi rend="italic">scripsi:</hi> de cuius ut eget F cuius eget <hi rend="italic">PNuulgo</hi>
+                  <lb/>
             •*&gt; superior <hi rend="italic">NFGB.s,</hi> non superior <hi rend="italic">PBl</hi> 7 eguisae &lt;l:Ie) <hi rend="italic">Lat:</hi> eguissc <lb/>
-            <hi rend="italic">PNFj</hi> egenti se <hi rend="italic">Urs</hi> diuite et locuplete et liberali <hi rend="italic">PN,</hi> diuitem <lb/>
+                  <hi rend="italic">PNFj</hi> egenti se <hi rend="italic">Urs</hi> diuite et locuplete et liberali <hi rend="italic">PN,</hi> diuitem <lb/>
             et locupletem et liberalem F 9 <hi rend="italic">lacunam statuit Ew. Bruhn</hi> (cum <lb/>
             ad hominem procreandum se ei obtulit) 10 hodie <hi rend="italic">PNF,</hi> hominem <lb/>
-            <hi rend="italic">Rng (nort probans lacunam supra indicatam)</hi> 15 prophetas-apostolos <lb/>
-            <hi rend="italic">lun:</hi> prophetis-apostolis <hi rend="italic">PNF</hi> 18 dominus <hi rend="italic">NR,</hi> deus <hi rend="italic">PF</hi> 19 adeo <lb/>
-            <hi rend="italic">EID. Bruhn:</hi> ideo <hi rend="italic">PNF</hi> 20 eam malam nosset <hi rend="italic">scripsi:</hi> eam malam non esset <lb/>
-            <hi rend="italic">F,</hi> ea mala non esset <hi rend="italic">PN</hi> 22 facere <hi rend="italic">uel</hi> operari <hi rend="italic">rescribendum puto</hi> <lb/>
-            quoniam <hi rend="italic">scripsi:</hi> quam <hi rend="italic">PNF</hi> si <hi rend="italic">R,</hi> sibi <hi rend="italic">PNF</hi> 23 ut dominus <hi rend="italic">scripsi:</hi> <lb/>
-            ut dens <hi rend="italic">PNF</hi> 24 bonum <hi rend="italic">R,</hi> bono <hi rend="italic">PNF</hi> \' 25 dominus <hi rend="italic">R,</hi> deum <hi rend="italic">PNF</hi> </note> <lb n="25"/>
-             
-<pb n="136"/>
+                  <hi rend="italic">Rng (nort probans lacunam supra indicatam)</hi> 15 prophetas-apostolos <lb/>
+                  <hi rend="italic">lun:</hi> prophetis-apostolis <hi rend="italic">PNF</hi> 18 dominus <hi rend="italic">NR,</hi> deus <hi rend="italic">PF</hi> 19 adeo <lb/>
+                  <hi rend="italic">EID. Bruhn:</hi> ideo <hi rend="italic">PNF</hi> 20 eam malam nosset <hi rend="italic">scripsi:</hi> eam malam non esset <lb/>
+                  <hi rend="italic">F,</hi> ea mala non esset <hi rend="italic">PN</hi> 22 facere <hi rend="italic">uel</hi> operari <hi rend="italic">rescribendum puto</hi>
+                  <lb/>
+            quoniam <hi rend="italic">scripsi:</hi> quam <hi rend="italic">PNF</hi> si <hi rend="italic">R,</hi> sibi <hi rend="italic">PNF</hi> 23 ut dominus <hi rend="italic">scripsi:</hi>
+                  <lb/>
+            ut dens <hi rend="italic">PNF</hi> 24 bonum <hi rend="italic">R,</hi> bono <hi rend="italic">PNF</hi> \' 25 dominus <hi rend="italic">R,</hi> deum <hi rend="italic">PNF</hi>
+               </note>
+               <lb n="25"/>
+               <pb n="136"/>
             autem non, ideo qualem habuit tali usus necessitatem suam <lb/>
             ostendit cedentem condicioni materiae, quam si dominus fuisset. <lb/>
             emendasset. sic enim Hermogeni respondendum est, cum ex <lb/>
@@ -548,10 +572,9 @@
             molitus est mundum, ut debitorem se alienae substantiae <lb/>
             ostenderet, et quidem non bonae. 
 </p>
-</div>
-
-<div n="10" subtype="section" type="textpart">
-<p>Ergo, inquit, ex nihilo faceret, ut mala quoque arbitrio <lb/>
+         </div>
+         <div n="10" type="section">
+            <p>Ergo, inquit, ex nihilo faceret, ut mala quoque arbitrio <lb/>
             eius imputarentur? magna, bona fide, caecitas haereticorum <lb n="20"/>
             pro huiusmodi argumentatione, cum ideo aut alium deum <lb/>
             bonum et optimum uolunt credi, quia mali auctorem existiment <lb/>
@@ -561,16 +584,19 @@
             uideri proinde possit quisquis ille est, qui malum, etsi non <lb/>
             ipse fecit. tamen a quocumque et undeunde passus est fieri.
 
-<note type="footnote"> 1 tali <hi rend="italic">R</hi>. talia <hi rend="italic">PNF</hi> 2 cedens <hi rend="italic">fort. (Etig)</hi> 4 dominio <hi rend="italic">P,</hi> domino <hi rend="italic">AT</hi> <lb/>
-            non <hi rend="italic">om. F</hi> 6 mali de ei si <hi rend="italic">F</hi> 8 est <hi rend="italic">scripsi:</hi> et <hi rend="italic">PNF,</hi> erit <hi rend="italic">Efag</hi> <lb/>
+<note type="footnote"> 1 tali <hi rend="italic">R</hi>. talia <hi rend="italic">PNF</hi> 2 cedens <hi rend="italic">fort. (Etig)</hi> 4 dominio <hi rend="italic">P,</hi> domino <hi rend="italic">AT</hi>
+                  <lb/>
+            non <hi rend="italic">om. F</hi> 6 mali de ei si <hi rend="italic">F</hi> 8 est <hi rend="italic">scripsi:</hi> et <hi rend="italic">PNF,</hi> erit <hi rend="italic">Efag</hi>
+                  <lb/>
             14 <hi rend="italic">uulgo a uerbix</hi> nonne etiam <hi rend="italic">incipit cap. X</hi> 15 aeque R3, quae <lb/>
-            <hi rend="italic">PNFR1</hi> si sibi <hi rend="italic">F</hi> 16 bona <hi rend="italic">F</hi> bono factae satis. itaque <hi rend="italic">PNFR\'</hi>. <lb/>
+                  <hi rend="italic">PNFR1</hi> si sibi <hi rend="italic">F</hi> 16 bona <hi rend="italic">F</hi> bono factae satis. itaque <hi rend="italic">PNFR\'</hi>. <lb/>
             bono? fatue satis: ita JR3, bono? fatue satis itaque Iun <hi rend="italic">Rig Oehltrus</hi>. <lb/>
             bono facere? satis itaque gloriae suae &lt;procurauit, ai ea) causa <hi rend="italic">fort</hi>. <lb/>
             18 et quidem P, quidem F, quidem est <hi rend="italic">N</hi> 20 caecitatis <hi rend="italic">F</hi> 23 aut <lb/>
-            <hi rend="italic">R,</hi> et <hi rend="italic">PNF</hi> 24 malum R3, alium <hi rend="italic">PNFB1</hi> 27 undeunde <hi rend="italic">P,</hi> unde <hi rend="italic">2FF</hi> </note> <lb/>
-             
-<pb n="137"/>
+                  <hi rend="italic">R,</hi> et <hi rend="italic">PNF</hi> 24 malum R3, alium <hi rend="italic">PNFB1</hi> 27 undeunde <hi rend="italic">P,</hi> unde <hi rend="italic">2FF</hi>
+               </note>
+               <lb/>
+               <pb n="137"/>
             audiat igitur et Hermogenes, dum alibi de mali ratione distinguemus, <lb/>
             interim quoque se nihil egisse hac sua iniectione. <lb/>
             ecce enim, etsi non auctor, sed adsentator mali inuenitur <lb/>
@@ -591,12 +617,10 @@
             si per necessitatem. aut famulus erit mali deus aut amicus, <lb/>
             cum materiae malo conuersatus, nedum etiam de malo eius <lb/>
             operatus. <lb n="20"/>
-            
-</p>
-</div>
-
-<div n="11" subtype="section" type="textpart">
-<p>Et tamen unde nobis persuadet Hermogenes malam <lb/>
+            </p>
+         </div>
+         <div n="11" type="section">
+            <p>Et tamen unde nobis persuadet Hermogenes malam <lb/>
             esse materiam? non enim poterit non malum dicere cui malum <lb/>
             adscribit. nam definiuimus diminutionem et subiectionem capere <lb/>
             non posse quod sit aeternum, ut alii coaeterno inferius deputetur. <lb/>
@@ -605,16 +629,17 @@
             aeternum est. sed cum alias summum bonum constet esse
 
 <note type="footnote"> 1 distinguemuB <hi rend="italic">scripsi:</hi> distinguimus <hi rend="italic">PNF</hi> 2 quoque se <hi rend="italic">scripsi:</hi> se <lb/>
-            quoque <hi rend="italic">PNF</hi> 4 aeone <hi rend="italic">scripsi:</hi> de bono <hi rend="italic">PNF</hi> 5 mali <hi rend="italic">P,</hi> malus <hi rend="italic">NF</hi> <lb/>
+            quoque <hi rend="italic">PNF</hi> 4 aeone <hi rend="italic">scripsi:</hi> de bono <hi rend="italic">PNF</hi> 5 mali <hi rend="italic">P,</hi> malus <hi rend="italic">NF</hi>
+                  <lb/>
             7 lacvnam <hi rend="italic">signaui:</hi> ei uoluit nec potuit <hi rend="italic">inttrcidisse puto</hi> 9 (auctor) eius <lb/>
-            <hi rend="italic">Urs: eim PNF, reus Oehlems</hi> statuerit F 10 non noluit «crtp«i: nolnit <lb/>
+                  <hi rend="italic">Urs: eim PNF, reus Oehlems</hi> statuerit F 10 non noluit «crtp«i: nolnit <lb/>
             non <hi rend="italic">PNF</hi> 11 quod quidem turpius: <hi rend="italic">scripsi:</hi> quo quidem tnrpius <hi rend="italic">F,</hi> quo <lb/>
             quid est turpius? <hi rend="italic">PNvulgo</hi> 12 adueraum <hi rend="italic">P,</hi> aduersus <hi rend="italic">NF</hi> 21 unde <lb/>
-            <hi rend="italic">B3,</hi> non de <hi rend="italic">PNFR1</hi> 23 definiuimua <hi rend="italic">Eng:</hi> definimus <hi rend="italic">PNF</hi> deminationem <lb/>
-            <hi rend="italic">F</hi> 24 quod sit <hi rend="italic">R3,</hi> quod si ita erit <hi rend="italic">PNFR1</hi> 26 ex hoc sabici <lb/>
-            <hi rend="italic">NF,</hi> sabici ex hoc <hi rend="italic">Puulgo</hi> 27 sed <hi rend="italic">om. F,</hi> sedenim <hi rend="italic">fort</hi>. </note> <lb/>
-             
-<pb n="138"/>
+                  <hi rend="italic">B3,</hi> non de <hi rend="italic">PNFR1</hi> 23 definiuimua <hi rend="italic">Eng:</hi> definimus <hi rend="italic">PNF</hi> deminationem <lb/>
+                  <hi rend="italic">F</hi> 24 quod sit <hi rend="italic">R3,</hi> quod si ita erit <hi rend="italic">PNFR1</hi> 26 ex hoc sabici <lb/>
+                  <hi rend="italic">NF,</hi> sabici ex hoc <hi rend="italic">Puulgo</hi> 27 sed <hi rend="italic">om. F,</hi> sedenim <hi rend="italic">fort</hi>. </note>
+               <lb/>
+               <pb n="138"/>
             quod sit aeternum, - ut deus, per quod solus est deus, [dum] <lb/>
             aeternus est, ita et bonus, dum deus, — quomodo materiae <lb/>
             inerit malum, quam ut aeternam summum bonum credi necesse <lb/>
@@ -637,27 +662,30 @@
             ** materia habens initium, habendo et finem mali. quae enim. <lb n="20"/>
             malo deputantur, secundum mali statum computantur (materiae.)
 </p>
-</div>
-
-<div n="12" subtype="section" type="textpart">
-<p>Age nunc malam ac pessimam credamus esse materiam, <lb/>
+         </div>
+         <div n="12" type="section">
+            <p>Age nunc malam ac pessimam credamus esse materiam, <lb/>
             utique natura, sicut deum bonum et optimum credimus,
 
 <note type="footnote">13] cf. Matth. 25, 41. 14] cf. Apoc. 20, 3. cf. Rom. 8, 19. 17] cf. <lb/>
             Es. 11, 6. 8. 18] cf. Ps. 109, 1. </note>
-
-<note type="footnote"> 1 <hi rend="italic">parenthesin indicaui, deleri haec uult Eng</hi> dum <hi rend="italic">seclusi</hi> 2 ita et <hi rend="italic">scripsi: <lb/>
-            </hi> et ita <hi rend="italic">PNF</hi> 5 deo <hi rend="italic">scripsi:</hi> deum <hi rend="italic">PNF</hi> 7 si <hi rend="italic">P</hi> (s. <hi rend="italic">«. a m. 1), om. NF</hi> <lb/>
-            8 tamen <hi rend="italic">PNFRtum R3 uulgo</hi> 9 ipaia. tum <hi rend="italic">uulgo</hi> tum <hi rend="italic">Urs:</hi> cum <hi rend="italic">PNF</hi> <lb/>
-            10 frustra hoc <hi rend="italic">NF,</hi> hoc fruetra <hi rend="italic">P uulgo</hi> 11 quibus contra malum <hi rend="italic">PNFRt,</hi> <lb/>
+               <note type="footnote"> 1 <hi rend="italic">parenthesin indicaui, deleri haec uult Eng</hi> dum <hi rend="italic">seclusi</hi> 2 ita et <hi rend="italic">scripsi: <lb/>
+                  </hi> et ita <hi rend="italic">PNF</hi> 5 deo <hi rend="italic">scripsi:</hi> deum <hi rend="italic">PNF</hi> 7 si <hi rend="italic">P</hi> (s. <hi rend="italic">«. a m. 1), om. NF</hi>
+                  <lb/>
+            8 tamen <hi rend="italic">PNFRtum R3 uulgo</hi> 9 ipaia. tum <hi rend="italic">uulgo</hi> tum <hi rend="italic">Urs:</hi> cum <hi rend="italic">PNF</hi>
+                  <lb/>
+            10 frustra hoc <hi rend="italic">NF,</hi> hoc fruetra <hi rend="italic">P uulgo</hi> 11 quibus contra malum <hi rend="italic">PNFRt,</hi>
+                  <lb/>
             quodsi contra &lt;erit&gt; mali <hi rend="italic">Oehlerus,</hi> quodsi tunc mali <hi rend="italic">Urs</hi> 12 <hi rend="italic">lacunam<lb/>
              signaui:</hi> praecipit obniti. attamen ab ipsa scriptura tunc praefinitus est <lb/>
             mali <hi rend="italic">uel similia supplenda censeo</hi> 15 uanitati subiectam <hi rend="italic">1P,</hi> uanitatis <lb/>
-            obiectam <hi rend="italic">PNFR1</hi> 17 et <hi rend="italic">R3,</hi> nec <hi rend="italic">PNF</hi> 19 et <hi rend="italic">addidi</hi> 20 <hi rend="italic">lactmam</hi> <lb/>
+            obiectam <hi rend="italic">PNFR1</hi> 17 et <hi rend="italic">R3,</hi> nec <hi rend="italic">PNF</hi> 19 et <hi rend="italic">addidi</hi> 20 <hi rend="italic">lactmam</hi>
+                  <lb/>
             signaui: igitur et <hi rend="italic">desideratur,</hi> &lt;et&gt; erit <hi rend="italic">Oehlerus</hi> 21 computantur <lb/>
-            <hi rend="italic">PN,</hi> deputantur <hi rend="italic">F,</hi> competunt <hi rend="italic">Oehletus</hi> materiae <hi rend="italic">addidi</hi> </note> <lb/>
-             
-<pb n="139"/>
+                  <hi rend="italic">PN,</hi> deputantur <hi rend="italic">F,</hi> competunt <hi rend="italic">Oehletus</hi> materiae <hi rend="italic">addidi</hi>
+               </note>
+               <lb/>
+               <pb n="139"/>
             proinde natura. porro naturam certam et fixam haberi oportebit, <lb/>
             tam in malo perseuerantem apud materiam quam et in bono <lb/>
             apud deum, inconuertibilem et indemutabilem scilicet, quia, <lb/>
@@ -686,27 +714,27 @@
 
 <note type="footnote"> 6] cf. Matth. 3, 9; Luc. 3, 8. cf. Matth. 3, 7-8; Luc. 3, 7. <lb/>
             7] cf. Eph. 2, 3. 22] Gen. 1, 21-22. </note>
-
-<note type="footnote"> 1 oportet <hi rend="italic">Oehlertts (nescio uflde)</hi> 3 deum iuconnertibilem et indemutabilem. <lb/>
+               <note type="footnote"> 1 oportet <hi rend="italic">Oehlertts (nescio uflde)</hi> 3 deum iuconnertibilem et indemutabilem. <lb/>
             scilicet <hi rend="italic">uulgo</hi> quia si <hi rend="italic">Rig:</hi> quasi <hi rend="italic">PNF</hi> 5 in malum 22a, <lb/>
-            non in malum <hi rend="italic">PNFR1</hi> dicet <hi rend="italic">R,</hi> dicit <hi rend="italic">P (corr. R) NF</hi> 7 facient <hi rend="italic">P,</hi> <lb/>
+            non in malum <hi rend="italic">PNFR1</hi> dicet <hi rend="italic">R,</hi> dicit <hi rend="italic">P (corr. R) NF</hi> 7 facient <hi rend="italic">P,</hi>
+                  <lb/>
             faciet <hi rend="italic">NF</hi> 10 ea <hi rend="italic">om. F</hi> 14 in correctibilis <hi rend="italic">F,</hi> incorruptibilis <hi rend="italic">PN<lb/>
              uulgo</hi> 17 aeternum, amissurum <hi rend="italic">vulgo</hi> fiat <hi rend="italic">scripsi:</hi> fit <hi rend="italic">PNF</hi> 18 sic <lb/>
-            non esse aeternum <hi rend="italic">scripsi:</hi> si non esset aeternum <hi rend="italic">PNF</hi> deum <hi rend="italic">scripsi:</hi> <lb/>
+            non esse aeternum <hi rend="italic">scripsi:</hi> si non esset aeternum <hi rend="italic">PNF</hi> deum <hi rend="italic">scripsi:</hi>
+                  <lb/>
             dominum <hi rend="italic">PNF</hi> ergo <hi rend="italic">NF,</hi> uero <hi rend="italic">P uulgo</hi> 19 hanc-definitionem <lb/>
-            <hi rend="italic">scripti:</hi> hac definitione <hi rend="italic">PNF</hi> 20 in illum <hi rend="italic">scripai:</hi> ullum <hi rend="italic">F,</hi> illum <lb/>
-            <hi rend="italic">PN</hi> materiam aeque <hi rend="italic">PN,</hi> materiae quo <hi rend="italic">F</hi> 22 a deo ii3, ab eo <hi rend="italic">NF, <lb/>
-            mil. PBt</hi> 23 qua—qua <hi rend="italic">N,</hi> quasi-quasi <hi rend="italic">P, quia-quia F</hi> certe non <hi rend="italic">lort</hi>. </note> <lb n="25"/>
-             
-<pb n="140"/>
+                  <hi rend="italic">scripti:</hi> hac definitione <hi rend="italic">PNF</hi> 20 in illum <hi rend="italic">scripai:</hi> ullum <hi rend="italic">F,</hi> illum <lb/>
+                  <hi rend="italic">PN</hi> materiam aeque <hi rend="italic">PN,</hi> materiae quo <hi rend="italic">F</hi> 22 a deo ii3, ab eo <hi rend="italic">NF, <lb/>
+            mil. PBt</hi> 23 qua—qua <hi rend="italic">N,</hi> quasi-quasi <hi rend="italic">P, quia-quia F</hi> certe non <hi rend="italic">lort</hi>. </note>
+               <lb n="25"/>
+               <pb n="140"/>
             sed aeternitas amitti non potest, quia nisi amitti non possit, <lb/>
             aeternitas non est. ergo nec demutationem potuit admisisse, <lb/>
             quia si aeternitas est, demutari nullo modo potest; 
 </p>
-</div>
-
-<div n="13" subtype="section" type="textpart">
-<p>et quaeretur, <lb/>
+         </div>
+         <div n="13" type="section">
+            <p>et quaeretur, <lb/>
             quando ex ea bona facta sint, quae ex demutatione nullo <lb/>
             modo facta sunt, unde in mala ac pessima boni atque optimi<lb n="5"/>
             semen. certe nec bona arbor fructus malos edit, quia nec <lb/>
@@ -724,10 +752,9 @@
             malorum, quia nihil de suo operatus ingenio. per quod probabitur <lb/>
             manifeste materiae deseruisse. 
 </p>
-</div>
-
-<div n="14" subtype="section" type="textpart">
-<p>Nam et si dicatur, licet ex occasione materiae, suo<lb n="20"/>
+         </div>
+         <div n="14" type="section">
+            <p>Nam et si dicatur, licet ex occasione materiae, suo<lb n="20"/>
             tamen arbitrio bona protulisse, quasi nactus bonum materiae, <lb/>
             quamquam et hoc turpe sit, certe cum ex eadem etiam mala <lb/>
             profert, uel haec utique non de suo arbitrio proferendo seruit <lb/>
@@ -737,16 +764,18 @@
             eum condidisse mala an ex uoluntate? siquidem ex
 
 <note type="footnote">12] cf. Es. 5, 20. </note>
-
-<note type="footnote"> <hi rend="italic">3 male hoc loco distinguuntur capita</hi> quaeretur <hi rend="italic">P,</hi> quaeritur <hi rend="italic">NF</hi> <lb/>
+               <note type="footnote">
+                  <hi rend="italic">3 male hoc loco distinguuntur capita</hi> quaeretur <hi rend="italic">P,</hi> quaeritur <hi rend="italic">NF</hi>
+                  <lb/>
             4 quando <hi rend="italic">scripsi:</hi> quomodo <hi rend="italic">PNF</hi> 8 nisi <hi rend="italic">add. R, om. PNF</hi> 10 et <lb/>
             tantum (= tantummodo), sed <hi rend="italic">scripsi (cf. 142, 12. 13.):</hi> sed et tantum <lb/>
-            <hi rend="italic">PNFR\',</hi> Bed iam tum 2?3 <hi rend="italic">uulgo</hi> malae et bonae <hi rend="italic">NF,</hi> bonae et <lb/>
+                  <hi rend="italic">PNFR\',</hi> Bed iam tum 2?3 <hi rend="italic">uulgo</hi> malae et bonae <hi rend="italic">NF,</hi> bonae et <lb/>
             malae <hi rend="italic">Puulgo</hi> 11 in &lt;eadem&gt; <hi rend="italic">scripsi:</hi> in &lt;ea&gt; <hi rend="italic">Iun:</hi> in <hi rend="italic">PNF</hi> potuerit <lb/>
             P, potuerint <hi rend="italic">NF</hi> 18 nihil &lt;erit&gt; <hi rend="italic">fort</hi>. 24 ex malo P, et malo <lb/>
-            <hi rend="italic">NF</hi> 25 et <hi rend="italic">addidi</hi> </note> <lb/>
-             
-<pb n="141"/>
+                  <hi rend="italic">NF</hi> 25 et <hi rend="italic">addidi</hi>
+               </note>
+               <lb/>
+               <pb n="141"/>
             necessitate condidit, si ex materia, ex uoluntate, si ex nihilo. iam <lb/>
             enim sine causa laboras, ne malorum auctor constituatur deus, <lb/>
             quia et si de materia fecit, ipsi deputabuntur qui fecit, quatenus <lb/>
@@ -764,10 +793,9 @@
             deo factum. si nec ex deo, iam ergo ex nihilo factum. hoc <lb n="15"/>
             enim superest secundum Hermogenis dispositionem. 
 </p>
-</div>
-
-<div n="15" subtype="section" type="textpart">
-<p>porro <lb/>
+         </div>
+         <div n="15" type="section">
+            <p>porro <lb/>
             si bonum neque ex materia factum est, quia non erat in illa, <lb/>
             ut in mala, neque ex deo, quia nihil potuit ex deo fieri, sicut <lb/>
             definit Hermogenes, inuenitur bonum iam ex nihilo factum, <lb/>
@@ -776,20 +804,23 @@
 
 <note type="footnote"> 2 deos <hi rend="italic">PN,</hi> illis <hi rend="italic">F</hi> 3 quatenus proinde <hi rend="italic">scripsi:</hi> proinde quatenus P, <lb/>
             proinde qaantus <hi rend="italic">NF uerborum ordinem inuerti:</hi> plane sic interest <lb/>
-            unde fecerit ac si de nihilo fecisset, nec interest unde fecerit <hi rend="italic">PNF</hi> <lb/>
+            unde fecerit ac si de nihilo fecisset, nec interest unde fecerit <hi rend="italic">PNF</hi>
+                  <lb/>
             6 eum <hi rend="italic">(all.) om. F</hi> 7 ex <hi rend="italic">(prius) om. N</hi> 8 deum <hi rend="italic">PN,</hi> dominus <hi rend="italic">F</hi> 10 sic <lb/>
             et, si condicemus <hi rend="italic">scripsi:</hi> si et sic concedimus P, sic et sic concedimus <lb/>
-            <hi rend="italic">NF</hi> 11 deum <hi rend="italic">scripsi:</hi> dominum <hi rend="italic">PNF</hi> 12 aliae aeque P, aliaeque <lb/>
-            <hi rend="italic">NF</hi> aborientur (= <hi rend="italic">non iam erunt) F,</hi> oborientur P, oboriuntur <lb/>
-            N <hi rend="italic">quae abhinc leguntur inde a uerbis</hi> primo, si bonum <hi rend="italic">usque ad</hi> <lb/>
+                  <hi rend="italic">NF</hi> 11 deum <hi rend="italic">scripsi:</hi> dominum <hi rend="italic">PNF</hi> 12 aliae aeque P, aliaeque <lb/>
+                  <hi rend="italic">NF</hi> aborientur (= <hi rend="italic">non iam erunt) F,</hi> oborientur P, oboriuntur <lb/>
+            N <hi rend="italic">quae abhinc leguntur inde a uerbis</hi> primo, si bonum <hi rend="italic">usque ad</hi>
+                  <lb/>
             neque ex deo <hi rend="italic">(l. 18) non bene se habent, quippe in quibus bis idem dictum <lb/>
             xit. duplici forma concepisse haec uidetur Tert.:</hi> a) primo si—dispositionem <lb/>
             (16), b) [porro] si bonum-neque ex deo. <hi rend="italic">uocabulum</hi> porro, <hi rend="italic">quod <lb/>
             in F deest, interpolatum mihi uidetur, postquam confluxerunt duae<lb/>
              recensiones</hi> 15 hoc PN, hine <hi rend="italic">F</hi> 16 porro <hi rend="italic">om. F male hoc loco<lb/>
-             diztinguuntur capita</hi> 17 in <hi rend="italic">om. N</hi> </note> <lb/>
-             
-<pb n="142"/>
+             diztinguuntur capita</hi> 17 in <hi rend="italic">om. N</hi>
+               </note>
+               <lb/>
+               <pb n="142"/>
             ei nihilo, si aliquid ex nihilo? nisi si insufficiens fuit diuina <lb/>
             uirtus omnibus producendis, quae aliquid protulerit ex nihilo. <lb/>
             aut si ex materia mala bonum processit, quia neque ex nihilo <lb/>
@@ -819,15 +850,17 @@
             qua alia ratio exegit illud induci, cur non et ex nihilo potuerit
 
 <note type="footnote"> 2 protulerat <hi rend="italic">fort</hi>. 4 sequitur <hi rend="italic">F</hi> 5, denegatam 223, denegant iam <lb/>
-            <hi rend="italic">PNFR1</hi> undeunde <hi rend="italic">Oehlerus:</hi> unde <hi rend="italic">PNF</hi> 6 inde <hi rend="italic">om. Oehlerus</hi> <lb/>
+                  <hi rend="italic">PNFR1</hi> undeunde <hi rend="italic">Oehlerus:</hi> unde <hi rend="italic">PNF</hi> 6 inde <hi rend="italic">om. Oehlerus</hi>
+                  <lb/>
             12 bona <hi rend="italic">om. P</hi> 13 protulit sed <hi rend="italic">Oehlerus:</hi> protulisset <hi rend="italic">PNF</hi> 14 ne <lb/>
             essent <hi rend="italic">Ii3F,</hi> necesse est <hi rend="italic">PNR1</hi> 15 <hi rend="italic">lacunam signaui:</hi> turpiter utrumque <lb/>
-            <hi rend="italic">uel simile aliquid desideratur</hi> 18 quasi <hi rend="italic">PN,</hi> qua <hi rend="italic">F</hi> 19 cur <lb/>
-            <hi rend="italic">Bcripsi:</hi> cum <hi rend="italic">PNF</hi> non congruentia <hi rend="italic">PN</hi> non gruentia <hi rend="italic">F</hi> 21 de <lb/>
+                  <hi rend="italic">uel simile aliquid desideratur</hi> 18 quasi <hi rend="italic">PN,</hi> qua <hi rend="italic">F</hi> 19 cur <lb/>
+                  <hi rend="italic">Bcripsi:</hi> cum <hi rend="italic">PNF</hi> non congruentia <hi rend="italic">PN</hi> non gruentia <hi rend="italic">F</hi> 21 de <lb/>
             bona <hi rend="italic">F</hi> 22 ne <hi rend="italic">PN,</hi> nec eo <hi rend="italic">F</hi> malo? plus <hi rend="italic">Eng:</hi> malo. plus <lb/>
-            <hi rend="italic">uulgo</hi> </note> <lb/>
-             
-<pb n="143"/>
+                  <hi rend="italic">uulgo</hi>
+               </note>
+               <lb/>
+               <pb n="143"/>
             induci, ipsa ratione excusatura dominum, ne mali auctor <lb/>
             existimaretur, quae nunc, cum de materia operatur mala, <lb/>
             excusat, si excusat? adeo ubique et undique illuc compellitur <lb/>
@@ -836,10 +869,9 @@
             a deo separent, pluribus et indignioribus destructionibus deum <lb/>
             obiciunt. 
 </p>
-</div>
-
-<div n="16" subtype="section" type="textpart">
-<p>Igitur in praestructione huius articuli, et alibi forsitan <lb/>
+         </div>
+         <div n="16" type="section">
+            <p>Igitur in praestructione huius articuli, et alibi forsitan <lb/>
             retractandi, equidem definio aut deo adscribendum et bonum <lb/>
             et malum, quae ex materia fecit, aut materiae ipsi, ex qua <lb n="10"/>
             fecit, aut utrumque utrique, quia ambo sibi obligantur, qui <lb/>
@@ -862,15 +894,17 @@
 
 <note type="footnote"> 1 ipsa = <hi rend="italic">eadem</hi> 2 cum de materia operatur i23, de materia operatur <lb/>
             com <hi rend="italic">JPNFB1</hi> mala, excusat, ai ezcasat <hi rend="italic">scripsi:</hi> mala excusat. si ezcusat <lb/>
-            <hi rend="italic">PNF</hi> 5 <hi rend="italic">tribuant NF,</hi> adtribuant <hi rend="italic">Puulgo</hi> 6 a <hi rend="italic">om. P (add. R</hi> in <hi rend="italic">mg.),<lb/>
+                  <hi rend="italic">PNF</hi> 5 <hi rend="italic">tribuant NF,</hi> adtribuant <hi rend="italic">Puulgo</hi> 6 a <hi rend="italic">om. P (add. R</hi> in <hi rend="italic">mg.),<lb/>
              del. N deum R3,</hi> deo <hi rend="italic">PNFE1</hi> 8 praestrictione <hi rend="italic">F</hi> 9 equidem K3, <lb/>
             quidem <hi rend="italic">PRl,</hi> qui quidem N, quid <hi rend="italic">F</hi> 11 quiajR3, qui <hi rend="italic">PNFR1</hi> 13 deum <lb/>
-            <hi rend="italic">R3,</hi> deus <hi rend="italic">PNFR1</hi> dei <hi rend="italic">UrB:</hi> deue <hi rend="italic">PNF</hi> 17 erit utriusque <hi rend="italic">F</hi> 20 dei <lb/>
-            <hi rend="italic">Urs:</hi> deo <hi rend="italic">PNF</hi> bonum <hi rend="italic">PN,</hi> unum <hi rend="italic">F</hi> 24 deum <hi rend="italic">R3,</hi> deus <hi rend="italic">PNFR1</hi> <lb/>
+                  <hi rend="italic">R3,</hi> deus <hi rend="italic">PNFR1</hi> dei <hi rend="italic">UrB:</hi> deue <hi rend="italic">PNF</hi> 17 erit utriusque <hi rend="italic">F</hi> 20 dei <lb/>
+                  <hi rend="italic">Urs:</hi> deo <hi rend="italic">PNF</hi> bonum <hi rend="italic">PN,</hi> unum <hi rend="italic">F</hi> 24 deum <hi rend="italic">R3,</hi> deus <hi rend="italic">PNFR1</hi>
+                  <lb/>
             26 socia <hi rend="italic">PN,</hi> soli <hi rend="italic">F</hi> 27 exclusa iam causa <hi rend="italic">scripsi:</hi> ezcusas iam causam <lb/>
-            <hi rend="italic">PNFR1 Oehlerus,</hi> ezcussas <hi rend="italic">lun,</hi> excludis <hi rend="italic">Rareliqui</hi> </note> <lb/>
-             
-<pb n="144"/>
+                  <hi rend="italic">PNFR1 Oehlerus,</hi> ezcussas <hi rend="italic">lun,</hi> excludis <hi rend="italic">Rareliqui</hi>
+               </note>
+               <lb/>
+               <pb n="144"/>
             introducendae. nihilominus enim et per materiam deus auctor <lb/>
             mali ostenditur, si ideo materia praesumpta est, ne deus mali <lb/>
             auctor uideretur. exclusa itaque materia, dum excluditur causa <lb/>
@@ -881,12 +915,10 @@
             si de materia produxisset. libertas, non necessitas, deo competit. <lb/>
             malo, uoluerit mala a semetipso condidisse quam non potuerit <lb/>
             non condidisse. <lb n="10"/>
-            
-</p>
-</div>
-
-<div n="17" subtype="section" type="textpart">
-<p>Unici dei status hanc regulam uindicat, non aliter <lb/>
+            </p>
+         </div>
+         <div n="17" type="section">
+            <p>Unici dei status hanc regulam uindicat, non aliter <lb/>
             unici, nisi quia solius. non aliter solius, nisi quia nihil cum <lb/>
             illo. sic et primus erit, quia omnia post illum: sic omnia <lb/>
             post illum, quia omnia ab illo: sic ab illo, quia ex nihilo, <lb/>
@@ -901,26 +933,26 @@
             et scientiae. pro qualitate enim rei operari habuit et secundum <lb/>
             ingenium materiae, non secundum suum arbitrium, adeo <lb/>
             ut et mala pro natura non sua sed substantiae fecerit. <lb n="25"/>
-            
-</p>
-</div>
-
-<div n="18" subtype="section" type="textpart">
-<p>Si necessaria est deo materia ad opera mundi, ut Hermogenes <lb/>
+            </p>
+         </div>
+         <div n="18" type="section">
+            <p>Si necessaria est deo materia ad opera mundi, ut Hermogenes <lb/>
             existimauit, habuit deus materiam longe digniorem et
 
 <note type="footnote">15] Eom. 11, 84. 35.; Es. 40, 13. 14. </note>
-
-<note type="footnote"> 4 deum RI, deus <hi rend="italic">PNFM1</hi> 6 ea Ra, et <hi rend="italic">PNFR1</hi> 17 consiliatos <hi rend="italic">F</hi> <lb/>
+               <note type="footnote"> 4 deum RI, deus <hi rend="italic">PNFM1</hi> 6 ea Ra, et <hi rend="italic">PNFR1</hi> 17 consiliatos <hi rend="italic">F</hi>
+                  <lb/>
             18 demonstrauit <hi rend="italic">R,</hi> demonstrabit <hi rend="italic">PNF</hi> 19 qua <hi rend="italic">F</hi> 20 aderat P, <lb/>
-            aderit <hi rend="italic">NF</hi> 21 aliqua <hi rend="italic">Iun:</hi> aliquo <hi rend="italic">PNF Oehlerus</hi> ut ab ea <hi rend="italic">F</hi> <lb/>
+            aderit <hi rend="italic">NF</hi> 21 aliqua <hi rend="italic">Iun:</hi> aliquo <hi rend="italic">PNF Oehlerus</hi> ut ab ea <hi rend="italic">F</hi>
+                  <lb/>
             22 dispoeitionem tractatus <hi rend="italic">fort. (cf. de resurr. carnis cap</hi>. 6: qui materiam <lb/>
             et eligendo dignam iudicasset et tractando fecisset) 26 ai necessaria <lb/>
             est deo materia ad opera mundi ut hermogenep existimauit <hi rend="italic">FR <lb/>
             (ex Hirsaugtenai),</hi> si necessariam esse deo materiam ad opera mundi <lb/>
-            hermogenes existimauit <hi rend="italic">PN</hi> </note> <lb/>
-             
-<pb n="145"/>
+            hermogenes existimauit <hi rend="italic">PN</hi>
+               </note>
+               <lb/>
+               <pb n="145"/>
             idoniorem, non apud philosophos aestimandam, sed apud prophetas <lb/>
             intellegendam, sophiam suam scilicet. haec denique <lb/>
             sola cognouit sensum domini. quis enim scit quae sunt <lb/>
@@ -951,20 +983,21 @@
 
 <note type="footnote"> 3] cf. I Cor. 2, 11. 5J cf. Es. 40, 14. 7] Prou. 8, 27. 28. 30. 31. <lb/>
             201 Prou. 8, 22. 23. 25. 23J ib. 24. </note>
-
-<note type="footnote"> 1 aestimanda <hi rend="italic">F</hi> 2 intellegenda <hi rend="italic">F</hi> 4 et <hi rend="italic">om. F</hi> 7 inquit caelum <hi rend="italic">N</hi> <lb/>
-            9 quomodo (= wç) <hi rend="italic">PNF,</hi> cam <hi rend="italic">R uulgo</hi> fontes <hi rend="italic">R3,</hi> montes <hi rend="italic">PNFR1</hi> <lb/>
+               <note type="footnote"> 1 aestimanda <hi rend="italic">F</hi> 2 intellegenda <hi rend="italic">F</hi> 4 et <hi rend="italic">om. F</hi> 7 inquit caelum <hi rend="italic">N</hi>
+                  <lb/>
+            9 quomodo (= wç) <hi rend="italic">PNF,</hi> cam <hi rend="italic">R uulgo</hi> fontes <hi rend="italic">R3,</hi> montes <hi rend="italic">PNFR1</hi>
+                  <lb/>
             10 com eo <hi rend="italic">N</hi> 15 commendetur <hi rend="italic">F</hi> uere <hi rend="italic">Iun:</hi> uero <hi rend="italic">PNF,</hi> (in) uero <hi rend="italic">lori</hi>. <lb/>
-            situ <hi rend="italic">IIfflpsi (cf. cap. 38 init.):</hi> sit <hi rend="italic">F,</hi> sibi <hi rend="italic">P (in mg</hi>. alias: non sic) <hi rend="italic">N,</hi> <lb/>
+            situ <hi rend="italic">IIfflpsi (cf. cap. 38 init.):</hi> sit <hi rend="italic">F,</hi> sibi <hi rend="italic">P (in mg</hi>. alias: non sic) <hi rend="italic">N,</hi>
+                  <lb/>
             fini <hi rend="italic">Oehlerus</hi> 18 deus <hi rend="italic">R3,</hi> deo <hi rend="italic">PNFR1</hi> alieni egens <hi rend="italic">R3,</hi> alienigenis <lb/>
-            <hi rend="italic">NF,</hi> alieni <hi rend="italic">P (in mg. R:</hi> alienigenis) 21 suarum <hi rend="italic">om. F</hi> 24 genita <lb/>
-            sum. agnoscat <hi rend="italic">R3,</hi> genita. cum agnoscat <hi rend="italic">PNFR1</hi> 27 quod <hi rend="italic">addidi</hi> </note>
-
-<note type="footnote"> XXXXYII. Tert. III. </note>
-
-<note type="footnote"> 10 </note> <lb/>
-             
-<pb n="146"/>
+                  <hi rend="italic">NF,</hi> alieni <hi rend="italic">P (in mg. R:</hi> alienigenis) 21 suarum <hi rend="italic">om. F</hi> 24 genita <lb/>
+            sum. agnoscat <hi rend="italic">R3,</hi> genita. cum agnoscat <hi rend="italic">PNFR1</hi> 27 quod <hi rend="italic">addidi</hi>
+               </note>
+               <note type="footnote"> XXXXYII. Tert. III. </note>
+               <note type="footnote"> 10 </note>
+               <lb/>
+               <pb n="146"/>
             sine initio non fuit, sophia scilicet eius, exinde nata et condita, <lb/>
             ex quo in sensu dei ad opera mundi disponenda coepit <lb/>
             agitari, multo magis non capit sine initio quicquam fuisse, <lb/>
@@ -984,10 +1017,9 @@
             ego et pater unum sumus — nisi quod sustinebit aequo <lb/>
             animo filius eam praeponi sibi, quae patri adaequatur. 
 </p>
-</div>
-
-<div n="19" subtype="section" type="textpart">
-<p>Sed et ad originale instrumentum Moysei prouocabo, <lb/>
+         </div>
+         <div n="19" type="section">
+            <p>Sed et ad originale instrumentum Moysei prouocabo, <lb/>
             unde et diuersa pars (prae)sumptiones suas ingratis fulcire <lb n="20"/>
             conatur, ns scilicet non inde instrui uideatur, unde oportet. <lb/>
             itaque occasiones sibi sumpsit quorundam uerborum, ut haereticis <lb/>
@@ -995,21 +1027,24 @@
             principium, in quo deus fecit caelum et terram, aliquid uolunt
 
 <note type="footnote"> 12] Ps. 44, 2. 16J cf. Ioh. 1,1. Ioh. 10. 30. </note>
-
-<note type="footnote"> 1 eius <hi rend="italic">NF,</hi> ipsius <hi rend="italic">Puulgo</hi> 5 sensus sopbiac <hi rend="italic">Iun:</hi> sensu sophiae, et <lb/>
-            <hi rend="italic">Oehlerua, sed nescio, an lateat in his uerbis interpretamentuin:</hi> leaus (= iÎis. <lb/>
+               <note type="footnote"> 1 eius <hi rend="italic">NF,</hi> ipsius <hi rend="italic">Puulgo</hi> 5 sensus sopbiac <hi rend="italic">Iun:</hi> sensu sophiae, et <lb/>
+                  <hi rend="italic">Oehlerua, sed nescio, an lateat in his uerbis interpretamentuin:</hi> leaus (= iÎis. <lb/>
             iens) <hi rend="italic">siue sensus (= Xoyo; £ Jng)</hi> sophia est <hi rend="italic">estowi. Ar 6 sine sophia deleri <lb/>
             uult Eng</hi> 8 quod innatum fortius <hi rend="italic">PNFR1,</hi> quod innatum (innato) fortius <lb/>
-            <hi rend="italic">R3,</hi> quod innatum &lt;nato) fortius <hi rend="italic">Gel reliqui</hi> 9 factum <hi rend="italic">seclusi,</hi> facto <lb/>
-            <hi rend="italic">Gel</hi> 11 quod <hi rend="italic">addidi</hi> 12 <hi rend="italic">lacunam signaui:</hi> materia, bonum autcm, <lb/>
+                  <hi rend="italic">R3,</hi> quod innatum &lt;nato) fortius <hi rend="italic">Gel reliqui</hi> 9 factum <hi rend="italic">seclusi,</hi> facto <lb/>
+                  <hi rend="italic">Gel</hi> 11 quod <hi rend="italic">addidi</hi> 12 <hi rend="italic">lacunam signaui:</hi> materia, bonum autcm, <lb/>
             quod natum est, id est <hi rend="italic">intercidisse puto,</hi> innatum est, natus autem sermo <lb/>
-            dei <hi rend="italic">R3uulgo,</hi> innatum est, &lt;bonum autem quod natum est,) id est <hi rend="italic">Eng</hi> <lb/>
-            13 cor meum <hi rend="italic">addidi</hi> 14 abduci (= utnct) <hi rend="italic">scripri (qfRom. 12, 2n:</hi> <lb/>
+            dei <hi rend="italic">R3uulgo,</hi> innatum est, &lt;bonum autem quod natum est,) id est <hi rend="italic">Eng</hi>
+                  <lb/>
+            13 cor meum <hi rend="italic">addidi</hi> 14 abduci (= utnct) <hi rend="italic">scripri (qfRom. 12, 2n:</hi>
+                  <lb/>
             adduci <hi rend="italic">PNF</hi> 19 Moysei <hi rend="italic">scripsi:</hi> mons ei <hi rend="italic">F,</hi> Moysi <hi rend="italic">P N</hi> 20 praesumptiones <lb/>
-            <hi rend="italic">scripsi:</hi> sumptionea <hi rend="italic">N,</hi> suspiciones <hi rend="italic">PFuulgo</hi> 21 uideatur <hi rend="italic">scripsi:</hi> <lb/>
-            uideretur <hi rend="italic">PNF</hi> 24 caelum <hi rend="italic">NF,</hi> et caelum <hi rend="italic">P</hi> aliqui <hi rend="italic">susp. Eng</hi> </note> <lb/>
-             
-<pb n="147"/>
+                  <hi rend="italic">scripsi:</hi> sumptionea <hi rend="italic">N,</hi> suspiciones <hi rend="italic">PFuulgo</hi> 21 uideatur <hi rend="italic">scripsi:</hi>
+                  <lb/>
+            uideretur <hi rend="italic">PNF</hi> 24 caelum <hi rend="italic">NF,</hi> et caelum <hi rend="italic">P</hi> aliqui <hi rend="italic">susp. Eng</hi>
+               </note>
+               <lb/>
+               <pb n="147"/>
             fuisse quasi substantiuum et corpulentum, quod in materiam <lb/>
             interpretari possit. nos autem unicuique uocabulo proprietatem <lb/>
             cum uindicamus, « principium initium esse et competisse ita <lb/>
@@ -1036,23 +1071,27 @@
             pertinebit, non ad originem substantiarum.] possum et
 
 <note type="footnote"> 9] Gen. 1, 1. </note>
-
-<note type="footnote"> 1 in <hi rend="italic">om. F</hi> 2 posait, nos <hi rend="italic">Eng (reprobans quam infra indicaui lacunam)</hi> <lb/>
-            3 cam <hi rend="italic">PNFR1,</hi> suam <hi rend="italic">RPuulgo lacunam signaui:</hi> dicimus <hi rend="italic">deaidero</hi> <lb/>
-            5 &lt;sic) sine initio esse, quin <hi rend="italic">Eng</hi> quod <hi rend="italic">scripsi</hi> quin <hi rend="italic">PN uulgo,</hi> qui <hi rend="italic">F</hi> <lb/>
+               <note type="footnote"> 1 in <hi rend="italic">om. F</hi> 2 posait, nos <hi rend="italic">Eng (reprobans quam infra indicaui lacunam)</hi>
+                  <lb/>
+            3 cam <hi rend="italic">PNFR1,</hi> suam <hi rend="italic">RPuulgo lacunam signaui:</hi> dicimus <hi rend="italic">deaidero</hi>
+                  <lb/>
+            5 &lt;sic) sine initio esse, quin <hi rend="italic">Eng</hi> quod <hi rend="italic">scripsi</hi> quin <hi rend="italic">PN uulgo,</hi> qui <hi rend="italic">F</hi>
+                  <lb/>
             6 <hi rend="italic">lacunam signaui:</hi> faciendo operum <hi rend="italic">uelim suppleri</hi> 9 qua <hi rend="italic">Iun:</hi> quae <lb/>
-            <hi rend="italic">PNF Oehlerus</hi> merito sic praefatur scriptura <hi rend="italic">Hs,</hi> meritoque aic perfectam <lb/>
-            scripturam <hi rend="italic">PNFBmeritoque</hi> sic praefatam scripturam <hi rend="italic">Iun</hi> <lb/>
+                  <hi rend="italic">PNF Oehlerus</hi> merito sic praefatur scriptura <hi rend="italic">Hs,</hi> meritoque aic perfectam <lb/>
+            scripturam <hi rend="italic">PNFBmeritoque</hi> sic praefatam scripturam <hi rend="italic">Iun</hi>
+                  <lb/>
             11 fine <hi rend="italic">scripsi:</hi> finem <hi rend="italic">PNF</hi> 12 aliqua <hi rend="italic">R,</hi> aqua <hi rend="italic">PNF</hi> 15 sit <hi rend="italic">F, <lb/>
-            om. P (add. R</hi> in <hi rend="italic">mg. ex Eirsaugiensi) N</hi> 16 cum ita <hi rend="italic">PN,</hi> ubi <hi rend="italic">F</hi> <lb/>
+            om. P (add. R</hi> in <hi rend="italic">mg. ex Eirsaugiensi) N</hi> 16 cum ita <hi rend="italic">PN,</hi> ubi <hi rend="italic">F</hi>
+                  <lb/>
             19 peluem <hi rend="italic">F</hi> 20 significabit JR3, signiflcauit <hi rend="italic">PNFR1</hi> 22 peluim N. <lb/>
             pelnem <hi rend="italic">P, om. F</hi> 23 ad ordinationem-substantiarum <hi rend="italic">breuius eadem<lb/>
              exprimunt quae antecedentia</hi> iam non-et cetera; <hi rend="italic">primam manum auctoris<lb/>
-             esse suspicor</hi> 24 possum <hi rend="italic">Iun;</hi> possunt <hi rend="italic">PNF</hi> </note>
-
-<note type="footnote"> 10* </note> <lb/>
-             
-<pb n="148"/>
+             esse suspicor</hi> 24 possum <hi rend="italic">Iun;</hi> possunt <hi rend="italic">PNF</hi>
+               </note>
+               <note type="footnote"> 10* </note>
+               <lb/>
+               <pb n="148"/>
             aliter principium interpretari, non ab re tamen; nam et in <lb/>
             Graeco principii uocabulum, quod est <sic>ap/ig</sic>, non tantum <lb/>
             ordinatiuum sed et potestatiuum capit principatum, unde et <lb/>
@@ -1061,10 +1100,9 @@
             potestate sumetur. in principatu enim et in potestate deus <lb/>
             fecit caelum et terram. 
 </p>
-</div>
-
-<div n="20" subtype="section" type="textpart">
-<p>Sed ut nihil aliud significet Graeca uox quam principium <lb/>
+         </div>
+         <div n="20" type="section">
+            <p>Sed ut nihil aliud significet Graeca uox quam principium <lb/>
             et principium nihil aliud capiat quam initium, habemus <lb/>
             etiam illam initium agnoscere quae dicit: dominus condidit <lb n="10"/>
             me (initium uiarum suarum) in opera sua. si enim per <lb/>
@@ -1087,15 +1125,18 @@
             operator eduntur, apparet ex nihilo eum operatum. proinde
 
 <note type="footnote"> 10J Prou. 8, 22. 20] cf. ib. </note>
-
-<note type="footnote"> 1 ab re <hi rend="italic">PN,</hi> ab ro F 2 IXPXiĮ <hi rend="italic">R</hi> archie <hi rend="italic">PNF</hi> 4 archontes <hi rend="italic">PNF,</hi> <lb/>
+               <note type="footnote"> 1 ab re <hi rend="italic">PN,</hi> ab ro F 2 IXPXiĮ <hi rend="italic">R</hi> archie <hi rend="italic">PNF</hi> 4 archontes <hi rend="italic">PNF,</hi>
+                  <lb/>
             «PXOVTES <hi rend="italic">R,</hi> apyov:a&lt;; <hi rend="italic">Rig</hi> 8 Graeca <hi rend="italic">om. F</hi> 11 initium uiarum snarura <lb/>
-            <hi rend="italic">add. Pam</hi> per sophiam <hi rend="italic">PN,</hi> sophia <hi rend="italic">F</hi> 19 cogitando-et si <hi rend="italic">seclusi, <lb/>
-            ut incuria librarii falso repetita</hi> 20 initium <hi rend="italic">om. F</hi> quia <hi rend="italic">om. F 80-</hi> <lb/>
-            phia <hi rend="italic">F</hi> 21 sit <hi rend="italic">NF,</hi> fit <hi rend="italic">P uulgo</hi> instituentis <hi rend="italic">scripsi:</hi> instituens <hi rend="italic">P J.YP</hi> <lb/>
-            dZ deum <hi rend="italic">scripsi:</hi> deus <hi rend="italic">PNF</hi> 24 testatur <hi rend="italic">PN,</hi> testa est <hi rend="italic">F</hi> </note> <lb/>
-             
-<pb n="149"/>
+                  <hi rend="italic">add. Pam</hi> per sophiam <hi rend="italic">PN,</hi> sophia <hi rend="italic">F</hi> 19 cogitando-et si <hi rend="italic">seclusi, <lb/>
+            ut incuria librarii falso repetita</hi> 20 initium <hi rend="italic">om. F</hi> quia <hi rend="italic">om. F 80-</hi>
+                  <lb/>
+            phia <hi rend="italic">F</hi> 21 sit <hi rend="italic">NF,</hi> fit <hi rend="italic">P uulgo</hi> instituentis <hi rend="italic">scripsi:</hi> instituens <hi rend="italic">P J.YP</hi>
+                  <lb/>
+            dZ deum <hi rend="italic">scripsi:</hi> deus <hi rend="italic">PNF</hi> 24 testatur <hi rend="italic">PN,</hi> testa est <hi rend="italic">F</hi>
+               </note>
+               <lb/>
+               <pb n="149"/>
             enim ederetur ex quo, si ex aliquo fuisset operatus. denique <lb/>
             euangelium ut supplementum instrumenti ueteris adhibebo, <lb/>
             in quo uel eo magis debuerat ostendi deus ex aliqua materia <lb/>
@@ -1110,10 +1151,9 @@
             non potuit scriptura profiteri, et non profitendo satis probauit <lb/>
             non fuisse, quia profiteretur, si fuisset. 
 </p>
-</div>
-
-<div n="21" subtype="section" type="textpart">
-<p>Ergo, inquis, si tu ideo praeiudicas ex nihilo facta <lb/>
+         </div>
+         <div n="21" type="section">
+            <p>Ergo, inquis, si tu ideo praeiudicas ex nihilo facta <lb/>
             omnia, quia non sit manifeste relatum de materia praecedenti <lb n="15"/>
             factum quid, uide ne diuersa pars ideo contendat ex materia <lb/>
             omnia facta, quia proinde non aperte significatum sit ex nihilo <lb/>
@@ -1131,12 +1171,13 @@
             primo uideri ex nihilo factum, quia non editur, ex quo sit
 
 <note type="footnote"> 5—6] Iob. 1, 1. 7] Ioh. 1, 3. </note>
-
-<note type="footnote"> 4 qua <hi rend="italic">F</hi> 19 ex aequo <hi rend="italic">R,</hi> ex quo P <hi rend="italic">(corr. R) NF</hi> 23 eo ipso <hi rend="italic">PN,</hi> <lb/>
+               <note type="footnote"> 4 qua <hi rend="italic">F</hi> 19 ex aequo <hi rend="italic">R,</hi> ex quo P <hi rend="italic">(corr. R) NF</hi> 23 eo ipso <hi rend="italic">PN,</hi>
+                  <lb/>
             ipsum <hi rend="italic">F</hi> 24 manifestatur <hi rend="italic">PN,</hi> manifestatum eat <hi rend="italic">F</hi> 26 sit-factum <lb/>
-            <hi rend="italic">om. NF</hi> 28 (non) ostenditur <hi rend="italic">Rig</hi> </note> <lb/>
-             
-<pb n="150"/>
+                  <hi rend="italic">om. NF</hi> 28 (non) ostenditur <hi rend="italic">Rig</hi>
+               </note>
+               <lb/>
+               <pb n="150"/>
             factum, dehinc etsi ea sit condicione, ut non possit (non factum) <lb/>
             uideri ex aliquo, proinde periclitabitur ex alio longe factum <lb/>
             uideri quam ex quo factum est, dum non proponitur, unde <lb/>
@@ -1146,10 +1187,9 @@
             quia illud in totum habebat intellegi, et si non significaretur, <lb/>
             at istud in dubio, nisi significaretur. 
 </p>
-</div>
-
-<div n="22" subtype="section" type="textpart">
-<p>Atque adeo spiritus sanctus hanc scripturae suae rationem <lb/>
+         </div>
+         <div n="22" type="section">
+            <p>Atque adeo spiritus sanctus hanc scripturae suae rationem <lb/>
             constituit, ut, cum quid ex aliquo fit, et quod fit et<lb n="10"/>
             unde fit referat. fruticet, inquit, terra herbam foeni, <lb/>
             seminantem semen secundum genus et secundum <lb/>
@@ -1168,19 +1208,22 @@
             genus ipsorum. si ergo ex iam factis rebus alias res
 
 <note type="footnote"> 11] Gen. 1, 11. 12. 18] Gen. 1, 20. 21. 23] Gen. 1, 24. </note>
-
-<note type="footnote"> 1 ut non possit &lt;non factum) uideri <hi rend="italic">scripsi:</hi> nt non possit &lt;non) <lb/>
+               <note type="footnote"> 1 ut non possit &lt;non factum) uideri <hi rend="italic">scripsi:</hi> nt non possit &lt;non) <lb/>
             uideri <hi rend="italic">Rig,</hi> ut omnino possit uideri <hi rend="italic">Oehlerus</hi> 4 fecit, potuit <hi rend="italic">scripsi</hi>. <lb/>
             fecisse potuit <hi rend="italic">F,</hi> fecisse non potuit <hi rend="italic">PN (probat</hi> non <hi rend="italic">Eng, qui post</hi> fecisse <lb/>
-            <hi rend="italic">(l. 5) signum interrogationis ponit)</hi> 5 adiecisse <hi rend="italic">F,</hi> adiecisset <hi rend="italic">PN</hi> 6 &lt;si <lb/>
-            sci)licet <hi rend="italic">Eng:</hi> licet <hi rend="italic">PNF,</hi> si et <hi rend="italic">Urs</hi> 7 in totum <hi rend="italic">Urs:</hi> in toto <hi rend="italic">PNF</hi> <lb/>
-            8 at-significaretur <hi rend="italic">om. F</hi> 10 aliquo <hi rend="italic">R,</hi> aliquo quo <hi rend="italic">PN,</hi> alio quo <hi rend="italic">F</hi> <lb/>
+                  <hi rend="italic">(l. 5) signum interrogationis ponit)</hi> 5 adiecisse <hi rend="italic">F,</hi> adiecisset <hi rend="italic">PN</hi> 6 &lt;si <lb/>
+            sci)licet <hi rend="italic">Eng:</hi> licet <hi rend="italic">PNF,</hi> si et <hi rend="italic">Urs</hi> 7 in totum <hi rend="italic">Urs:</hi> in toto <hi rend="italic">PNF</hi>
+                  <lb/>
+            8 at-significaretur <hi rend="italic">om. F</hi> 10 aliquo <hi rend="italic">R,</hi> aliquo quo <hi rend="italic">PN,</hi> alio quo <hi rend="italic">F</hi>
+                  <lb/>
             11 fruticet <hi rend="italic">Pam:</hi> fructificet <hi rend="italic">PNFOehlerus</hi> 14 <hi rend="italic">verba factum</hi> est sic-in <lb/>
             similitudinem <hi rend="italic">his in P comparent, sed ita, ut secundo loco pro</hi> in similitudinem <lb/>
-            <hi rend="italic">scriptum sit:</hi> secundum genua 20 deus <hi rend="italic">F,</hi> deos <hi rend="italic">Puulgo, om. N</hi> <lb/>
-            23 uiuam <hi rend="italic">NF,</hi> uiuentem <hi rend="italic">Puulgo</hi> </note> <lb n="25"/>
-             
-<pb n="151"/>
+                  <hi rend="italic">scriptum sit:</hi> secundum genua 20 deus <hi rend="italic">F,</hi> deos <hi rend="italic">Puulgo, om. N</hi>
+                  <lb/>
+            23 uiuam <hi rend="italic">NF,</hi> uiuentem <hi rend="italic">Puulgo</hi>
+               </note>
+               <lb n="25"/>
+               <pb n="151"/>
             deus proferens ostendit per prophetam et dicit, quid unde <lb/>
             protulerit, — quamquam possimus (unde)unde illas prolatas <lb/>
             aestimare, dumne ex nihilo; iam enim facta erant quaedam, <lb/>
@@ -1201,10 +1244,9 @@
             Hermogenis officina. si non est scriptum, timeat uae illud <lb/>
             adicientibus aut detrahentibus destinatum. 
 </p>
-</div>
-
-<div n="23" subtype="section" type="textpart">
-<p>Sed (et) ex sequentibus argumentatur, quia scriptum <lb n="20"/>
+         </div>
+         <div n="23" type="section">
+            <p>Sed (et) ex sequentibus argumentatur, quia scriptum <lb n="20"/>
             sit: terra autem erat inuisibilis et incomposita, nam <lb/>
             et terrae nomen redigit (in) materiam, quia terra sit, quae facta <lb/>
             est ex illa, et erat') in hoc dirigit, quasi quae semper retro <lb/>
@@ -1215,16 +1257,18 @@
             numquid tamen, quia erat ante omnia et talis, et ex ea factum
 
 <note type="footnote"> 12] Gen. 1, 1. 19] cf. Apoc. 22, 18-19. 21] Gen. 1, 2. </note>
-
-<note type="footnote"> 2 undeunde <hi rend="italic">Urs:</hi> unde <hi rend="italic">PNF</hi> 3 estimare <hi rend="italic">PF,</hi> existimare <hi rend="italic">N (et cod. Diuionensis <lb/>
-            teste Bigaltio)</hi> 4 instructioni <hi rend="italic">scripsi:</hi> instructionis <hi rend="italic">PNF</hi> 8 ne <hi rend="italic">F,</hi> <lb/>
+               <note type="footnote"> 2 undeunde <hi rend="italic">Urs:</hi> unde <hi rend="italic">PNF</hi> 3 estimare <hi rend="italic">PF,</hi> existimare <hi rend="italic">N (et cod. Diuionensis <lb/>
+            teste Bigaltio)</hi> 4 instructioni <hi rend="italic">scripsi:</hi> instructionis <hi rend="italic">PNF</hi> 8 ne <hi rend="italic">F,</hi>
+                  <lb/>
             ot <hi rend="italic">PN uulgo</hi> 12 <hi rend="italic">lacunam signaui:</hi> legens <hi rend="italic">intercidisse puto</hi> 13 terram. <lb/>
-            adoro <hi rend="italic">uulgo</hi> 15 factoris <hi rend="italic">Rig (secundum cod. Diuionensem, ut testatur):</hi> <lb/>
+            adoro <hi rend="italic">uulgo</hi> 15 factoris <hi rend="italic">Rig (secundum cod. Diuionensem, ut testatur):</hi>
+                  <lb/>
             rectoris <hi rend="italic">PNF</hi> 20 et <hi rend="italic">addidi</hi> 22 in <hi rend="italic">add. R3, om. PNFH1</hi> 27 putemus <lb/>
-            <hi rend="italic">N,</hi> putamus <hi rend="italic">PF</hi> 28 et talis, et ex ea factum aliquid <hi rend="italic">scripsi:</hi> et talis. id <lb/>
-            sed ex ea factum aliquid <hi rend="italic">F,</hi> et tale aliquid esse ei ea factum <hi rend="italic">PN tmlgo</hi> </note> <lb/>
-             
-<pb n="152"/>
+                  <hi rend="italic">N,</hi> putamus <hi rend="italic">PF</hi> 28 et talis, et ex ea factum aliquid <hi rend="italic">scripsi:</hi> et talis. id <lb/>
+            sed ex ea factum aliquid <hi rend="italic">F,</hi> et tale aliquid esse ei ea factum <hi rend="italic">PN tmlgo</hi>
+               </note>
+               <lb/>
+               <pb n="152"/>
             aliquid scriptura significat? atquin nihil tale significat. fuerit <lb/>
             licet materia, quantum sibi libet uel potius Hermogeni: potuit <lb/>
             et fuisse et tamen nihil deus ex illa fecisse, uel quia non <lb/>
@@ -1235,10 +1279,9 @@
             non ex materia facta est haeresis, sed materiam ipsam potius <lb/>
             haeresis fecit. 
 </p>
-</div>
-
-<div n="24" subtype="section" type="textpart">
-<p>Reuertor nunc ad singulos articulos, per quos putauit<lb n="10"/>
+         </div>
+         <div n="24" type="section">
+            <p>Reuertor nunc ad singulos articulos, per quos putauit<lb n="10"/>
             significatam esse materiam, et primo de nominibus expostulabo. <lb/>
             horum enim alterum legimus, quod est terrae, alterum non <lb/>
             inuenimus, quod est materiae. quaero ergo, cum materiae <lb/>
@@ -1256,23 +1299,24 @@
             nominatam, deberet eandem probare terram quoque cognominatam,<lb n="25"/>
             ut ita utrumque illi uocabulum uindicaret. 
 </p>
-</div>
-
-<div n="25" subtype="section" type="textpart">
-<p>Vult igitur duas proponi terras in ista scriptura. unam, <lb/>
+         </div>
+         <div n="25" type="section">
+            <p>Vult igitur duas proponi terras in ista scriptura. unam, <lb/>
             quam in principio deus fecit, aliam [materiam] ex qua fecit, <lb/>
             de qua dictum sit: terra autem erat inuisibilis et rudis.
 
 <note type="footnote"> 29J Gen. 1, 2. </note>
-
-<note type="footnote"> 2 libet <hi rend="italic">van der Vliet:</hi> licet <hi rend="italic">PNF</hi> 11 expoatulando F 14 eitet in <lb/>
+               <note type="footnote"> 2 libet <hi rend="italic">van der Vliet:</hi> licet <hi rend="italic">PNF</hi> 11 expoatulando F 14 eitet in <lb/>
             scriptura <hi rend="italic">PN,</hi> extet scripturae <hi rend="italic">F</hi> terrae <hi rend="italic">R,</hi> terrena <hi rend="italic">PNF</hi> 19 et addidi, <lb/>
-            proprium, [in] qua magis notum, est <hi rend="italic">Eng</hi> notum Rlo, natum <hi rend="italic">PNF</hi> <lb/>
-            20 <hi rend="italic">verba:</hi> nec utique omni materia quid <hi rend="italic">sibi uelint, non intellego</hi> <lb/>
-            21 materia <hi rend="italic">PNF,</hi> materiae <hi rend="italic">R vulgo</hi> 23 quando <hi rend="italic">Iun:</hi> quanto <hi rend="italic">PNF</hi> <lb/>
-            27 uult <hi rend="italic">PN,</hi> uide <hi rend="italic">F</hi> 28 materiam <hi rend="italic">sechm</hi>. </note> <lb/>
-             
-<pb n="153"/>
+            proprium, [in] qua magis notum, est <hi rend="italic">Eng</hi> notum Rlo, natum <hi rend="italic">PNF</hi>
+                  <lb/>
+            20 <hi rend="italic">verba:</hi> nec utique omni materia quid <hi rend="italic">sibi uelint, non intellego</hi>
+                  <lb/>
+            21 materia <hi rend="italic">PNF,</hi> materiae <hi rend="italic">R vulgo</hi> 23 quando <hi rend="italic">Iun:</hi> quanto <hi rend="italic">PNF</hi>
+                  <lb/>
+            27 uult <hi rend="italic">PN,</hi> uide <hi rend="italic">F</hi> 28 materiam <hi rend="italic">sechm</hi>. </note>
+               <lb/>
+               <pb n="153"/>
             utique si quaeram, ei duabus quae cui nomen terrae accommodare <lb/>
             debeat, dicetur hanc, quae facta sit, ex illa. ex qua <lb/>
             facta est, uocabulum deriuasse, quia ueri similius sit ab origine <lb/>
@@ -1303,26 +1347,25 @@
             omnia, si ex materia constant, et terrae et materiae uocari
 
 <note type="footnote"> 24] Gen. 1, 10. </note>
-
-<note type="footnote"> 1 terrae accomodare debeat, dicetur <hi rend="italic">R3G,</hi> terrae accomodari debeat id <lb/>
-            dicetur <hi rend="italic">N,</hi> terrae accomodari (-dare <hi rend="italic">F)</hi> id dicetur <hi rend="italic">PFRt</hi> 5 obruitur <hi rend="italic">F</hi> <lb/>
+               <note type="footnote"> 1 terrae accomodare debeat, dicetur <hi rend="italic">R3G,</hi> terrae accomodari debeat id <lb/>
+            dicetur <hi rend="italic">N,</hi> terrae accomodari (-dare <hi rend="italic">F)</hi> id dicetur <hi rend="italic">PFRt</hi> 5 obruitur <hi rend="italic">F</hi>
+                  <lb/>
             9 uideo <hi rend="italic">F,</hi> proinde <hi rend="italic">PN uulgo</hi> 12 nominatione <hi rend="italic">Rig</hi> 15 status sui <lb/>
-            <hi rend="italic">Lat</hi> haec terra <hi rend="italic">Eng:</hi> ex terra <hi rend="italic">PNFR1,</hi> terra <hi rend="italic">R3</hi> 20 quid <hi rend="italic">NFR3,</hi> quod <lb/>
-            <hi rend="italic">PBl</hi> 21 (eat et&gt; appellationis sicut et condicionis proprietas <hi rend="italic">fort</hi>. et <lb/>
-            in conditionis F 22 id est materiae <hi rend="italic">seclusi</hi> </note> <lb/>
-             
-<pb n="154"/>
+                  <hi rend="italic">Lat</hi> haec terra <hi rend="italic">Eng:</hi> ex terra <hi rend="italic">PNFR1,</hi> terra <hi rend="italic">R3</hi> 20 quid <hi rend="italic">NFR3,</hi> quod <lb/>
+                  <hi rend="italic">PBl</hi> 21 (eat et&gt; appellationis sicut et condicionis proprietas <hi rend="italic">fort</hi>. et <lb/>
+            in conditionis F 22 id est materiae <hi rend="italic">seclusi</hi>
+               </note>
+               <lb/>
+               <pb n="154"/>
             debuerunt. satis ista de terrae nomine, in quo materiam <lb/>
             intellegi uoluit. quod nomen unius elementi omnes sciunt, <lb/>
             natura primum, dehinc scriptura docente, nisi si et Sileno <lb/>
             illi apud Midam regem adseueranti de alio orbe credendum <lb/>
             est, auctore Theopompo. sed et deos multos idem refert. <lb n="5"/>
-            
-</p>
-</div>
-
-<div n="26" subtype="section" type="textpart">
-<p>Nobis autem unus deus et una est terra, quam in <lb/>
+            </p>
+         </div>
+         <div n="26" type="section">
+            <p>Nobis autem unus deus et una est terra, quam in <lb/>
             principio deus fecit. cuius ordinem incipiens scriptura decurrere <lb/>
             primo factam eam edicit, dehinc qualitatem ipsius edisserit; <lb/>
             sicut et caelum primo factum professa: in principio <lb/>
@@ -1347,16 +1390,16 @@
 
 <note type="footnote"> 9] Gen. 1, 1. 11] Gen. 1, 7. 8. 14] Gen. 1, 27. 15] Gen. 2, 7. <lb/>
             22] cf. Gen. 1, 2. 26] Gen. 1, 1. </note>
-
-<note type="footnote"> 1 quo <hi rend="italic">R,</hi> quod <hi rend="italic">PNF</hi> 5 multus <hi rend="italic">P (corr. B)</hi> 6 autem <hi rend="italic">om. N</hi> terra <lb/>
+               <note type="footnote"> 1 quo <hi rend="italic">R,</hi> quod <hi rend="italic">PNF</hi> 5 multus <hi rend="italic">P (corr. B)</hi> 6 autem <hi rend="italic">om. N</hi> terra <lb/>
             est F 10 superducit <hi rend="italic">PNFR1,</hi> superinducit <hi rend="italic">123 uulgo</hi> 14 <hi rend="italic">lacttnam <lb/>
             signaui:</hi> primo, quod eam fecit, enarrat <hi rend="italic">supplendum puto,</hi> de homine: <lb/>
             et fecit, &lt;inquit,) deus hominem <hi rend="italic">Eng</hi> 18 praefari primo <hi rend="italic">NF,</hi> primo <lb/>
-            praefari <hi rend="italic">Puulgo</hi> 22 enarrauit <hi rend="italic">scripsi:</hi> enarrat <hi rend="italic">PNF</hi> quam an <hi rend="italic">Rig:</hi> <lb/>
+            praefari <hi rend="italic">Puulgo</hi> 22 enarrauit <hi rend="italic">scripsi:</hi> enarrat <hi rend="italic">PNF</hi> quam an <hi rend="italic">Rig:</hi>
+                  <lb/>
             antequam an <hi rend="italic">PN,</hi> antequam <hi rend="italic">F,</hi> ante, quam an <hi rend="italic">Eng</hi> 23 deformanit <lb/>
-            <hi rend="italic">scripsi:</hi> deformati <hi rend="italic">PNF,</hi> deformat <hi rend="italic">Iun</hi>. </note> <lb/>
-             
-<pb n="155"/>
+                  <hi rend="italic">scripsi:</hi> deformati <hi rend="italic">PNF,</hi> deformat <hi rend="italic">Iun</hi>. </note>
+               <lb/>
+               <pb n="155"/>
             fecit, de qua scriptura cum maxime dixerat? nam et \'autem\' <lb/>
             ipsum uelut fibula coniunctiuae particulae ad conexum narrationi <lb/>
             adpositum est: \'terra autem.\' hoc enim uerbo reuertitur <lb/>
@@ -1364,10 +1407,9 @@
             hinc \'autem\', et soluta compago est, ut tunc possit de alia <lb n="5"/>
             terra dictum uideri: terra erat inuisibilis et rudis. 
 </p>
-</div>
-
-<div n="27" subtype="section" type="textpart">
-<p>Sed tu supercilia, capitis nutu digiti adcommodato, <lb/>
+         </div>
+         <div n="27" type="section">
+            <p>Sed tu supercilia, capitis nutu digiti adcommodato, <lb/>
             altius tollens et quasi retro iactans: \'erat\' inquis; quasi semper <lb/>
             fuerit, scilicet innata et infecta, et idcirco materia credenda. <lb/>
             at ego sine ullo lenocinio pronuntiationis simpliciter respondebo <lb n="10"/>
@@ -1384,28 +1426,31 @@
             rudem fuisse, quae facta est, an ei, ex qua facta est, ut <lb/>
             eiusdem sit \'erat\', cuius et quod erat. 
 </p>
-</div>
-
-<div n="28" subtype="section" type="textpart">
-<p>Atquin non tantum probabimus istum habitum huic <lb/>
+         </div>
+         <div n="28" type="section">
+            <p>Atquin non tantum probabimus istum habitum huic <lb/>
             terrae competisse, sed et illi alii non competisse. nam si
 
 <note type="footnote">6] Gen. 1, 2. </note>
-
-<note type="footnote"> 1 rnaxime-ipsum <hi rend="italic">om. F</hi> dixerat <hi rend="italic">scripsi:</hi> et dixerat <hi rend="italic">P (del. litteram</hi> <lb/>
+               <note type="footnote"> 1 rnaxime-ipsum <hi rend="italic">om. F</hi> dixerat <hi rend="italic">scripsi:</hi> et dixerat <hi rend="italic">P (del. litteram</hi>
+                  <lb/>
             t <lb/>
             122), edixerat <hi rend="italic">N (add</hi>. t <hi rend="italic">man. libr.),</hi> edixerat <hi rend="italic">R uulgo,</hi> edisserat <hi rend="italic">Eng</hi> nam <lb/>
-            et autem ipsum, coniunctiua particula, uelut <hi rend="italic">fibula fort</hi>. 2 narrationis <hi rend="italic">F</hi> <lb/>
+            et autem ipsum, coniunctiua particula, uelut <hi rend="italic">fibula fort</hi>. 2 narrationis <hi rend="italic">F</hi>
+                  <lb/>
             7 sed tu supercilia <hi rend="italic">Oehlerus:</hi> sed tu supercilio <hi rend="italic">PN,</hi> et supercilio <hi rend="italic">F</hi> super- <lb/>
-            <hi rend="italic">cilia capitis uufyo digiti (intellege: nutui) capitis PN, et capitisF</hi> nutu <lb/>
-            <hi rend="italic">F,</hi> et nutu <hi rend="italic">PN</hi> digiti <hi rend="italic">PN,</hi> et digiti sed tu <hi rend="italic">F</hi> 10 respondeo <hi rend="italic">F</hi> <lb/>
+                  <hi rend="italic">cilia capitis uufyo digiti (intellege: nutui) capitis PN, et capitisF</hi> nutu <lb/>
+                  <hi rend="italic">F,</hi> et nutu <hi rend="italic">PN</hi> digiti <hi rend="italic">PN,</hi> et digiti sed tu <hi rend="italic">F</hi> 10 respondeo <hi rend="italic">F</hi>
+                  <lb/>
             13 undeunde <hi rend="italic">Urs:</hi> unde <hi rend="italic">PNF</hi> siue <hi rend="italic">om. PR1</hi> 15 eidem <hi rend="italic">scripsi: <lb/>
             eiusdem PNF</hi> 16 <hi rend="italic">decnrrit F</hi> 17 <hi rend="italic">relationis Iun: relationi PNF</hi> haec <lb/>
-            <hi rend="italic">PNF,</hi> haeJS 19 quaeitionem. <hi rend="italic">magna E1,</hi> quaestionem magnam. <hi rend="italic">PNFRX</hi> <lb/>
+                  <hi rend="italic">PNF,</hi> haeJS 19 quaeitionem. <hi rend="italic">magna E1,</hi> quaestionem magnam. <hi rend="italic">PNFRX</hi>
+                  <lb/>
             21 ex qaa <hi rend="italic">PF,</hi> quae <hi rend="italic">N</hi> 22 quod erat <hi rend="italic">scil. inuisibilis ct rudis</hi> 24 sed <lb/>
-            -competisse <hi rend="italic">om. N</hi> et <hi rend="italic">om. F</hi> </note> <lb/>
-             
-<pb n="156"/>
+            -competisse <hi rend="italic">om. N</hi> et <hi rend="italic">om. F</hi>
+               </note>
+               <lb/>
+               <pb n="156"/>
             nuda materia deo subiacebat, nullo scilicet elemento obstruente, <lb/>
             siquidem nondum quicquam erat praeter ipsam et deum, <lb/>
             utique inuisibilis esse non poterat, quia etsi tenebras uolet <lb/>
@@ -1425,12 +1470,10 @@
             fuit, caruit et rudimento. initii enim accidens est rudimentum. <lb/>
             terra uero, quae facta est, meruit et rudis dici. statim enim <lb/>
             ut facta st, habuit imperfectae locum, ante perfectionem, <lb/>
-
-</p>
-</div>
-
-<div n="29" subtype="section" type="textpart">
-<p>siquidem omnia opera sua deus consummauit, incultis <lb n="20"/>
+            </p>
+         </div>
+         <div n="29" type="section">
+            <p>siquidem omnia opera sua deus consummauit, incultis <lb n="20"/>
             primo elementis depalans quodammodo mundum. dehinc exornatis <lb/>
             uelut dedicans. nam et lumen non statim splendore solis <lb/>
             impleuit, et tenebras non statim solatio lunae t.emperauit, et <lb/>
@@ -1442,14 +1485,16 @@
             est, futura etiam perfecta, interim erat inuisibilis et rudis,
 
 <note type="footnote">27] Es. 45, 18. </note>
-
-<note type="footnote"> 1 materia <hi rend="italic">R,</hi> sit materia <hi rend="italic">PNF,</hi> sic materia <hi rend="italic">Iun Oehlerus</hi> 6 quod <lb/>
+               <note type="footnote"> 1 materia <hi rend="italic">R,</hi> sit materia <hi rend="italic">PNF,</hi> sic materia <hi rend="italic">Iun Oehlerus</hi> 6 quod <lb/>
             sunt om. <hi rend="italic">F</hi> uidetur <hi rend="italic">lIra:</hi> uidentur <hi rend="italic">PNF</hi> 9 inquietam <hi rend="italic">PNF,</hi> inconditam <lb/>
-            <hi rend="italic">Pam</hi>. incultam <hi rend="italic">Iun</hi> 13 imperfectum (est&gt; <hi rend="italic">B,</hi> imperfectum <hi rend="italic">PNF</hi> <lb/>
-            20 <hi rend="italic">male hoc loco distinguuntur capita</hi> 22 lumen <hi rend="italic">PN,</hi> lnmine <hi rend="italic">F</hi> <lb/>
-            24 maria R3, materiam <hi rend="italic">PNFR1</hi> 29 perfecta <hi rend="italic">PN,</hi> perfectum <hi rend="italic">F</hi> </note> <lb/>
-             
-<pb n="157"/>
+                  <hi rend="italic">Pam</hi>. incultam <hi rend="italic">Iun</hi> 13 imperfectum (est&gt; <hi rend="italic">B,</hi> imperfectum <hi rend="italic">PNF</hi>
+                  <lb/>
+            20 <hi rend="italic">male hoc loco distinguuntur capita</hi> 22 lumen <hi rend="italic">PN,</hi> lnmine <hi rend="italic">F</hi>
+                  <lb/>
+            24 maria R3, materiam <hi rend="italic">PNFR1</hi> 29 perfecta <hi rend="italic">PN,</hi> perfectum <hi rend="italic">F</hi>
+               </note>
+               <lb/>
+               <pb n="157"/>
             rudis quidem hoc quoque ipso, quod inuisibilis, ut nec uisui <lb/>
             perfecta, simul et ut de reliquo nondum instructa, inuisibilis <lb/>
             uero, ut adhuc aquis tamquam munimento genitalis humoris <lb/>
@@ -1479,18 +1524,19 @@
 
 <note type="footnote"> 5] Ps. 23, 1-2. 10] Gen: 1, 9. 14] Gen. 1, 10. 16] Gen. 1, 11. <lb/>
             20] Gen. 1, 24.. </note>
-
-<note type="footnote"> 1 ut nec uisui <hi rend="italic">R,</hi> ut ne cui eui <hi rend="italic">PNF</hi> 2 simul et ut <hi rend="italic">R,</hi> simuletur <lb/>
+               <note type="footnote"> 1 ut nec uisui <hi rend="italic">R,</hi> ut ne cui eui <hi rend="italic">PNF</hi> 2 simul et ut <hi rend="italic">R,</hi> simuletur <lb/>
             et ut <hi rend="italic">PN,</hi> aimalet et ut <hi rend="italic">F</hi> 3 monimento <hi rend="italic">PNF</hi> humoris <hi rend="italic">PN,</hi> ut <lb/>
             moris <hi rend="italic">F</hi> 4 <hi rend="italic">obducta PN,</hi> abducta F 6 illo <hi rend="italic">scripsi: illa PNF</hi> 7 eumeum <lb/>
-            <hi rend="italic">(M. orMw terrae) PNF,</hi> eam-eam <hi rend="italic">R uulgo</hi> 8 cauationem sinuum <lb/>
-            <hi rend="italic">Rig</hi> 10 deo <hi rend="italic">PN,</hi> domino <hi rend="italic">F</hi> 12 uideatQr-sustinebat <hi rend="italic">om. P (add. <lb/>
-            R</hi> in <hi rend="italic">mg. ex Hirsaugiensi)</hi> fiat <hi rend="italic">R,</hi> sit <hi rend="italic">N,</hi> fit <hi rend="italic">F</hi> 14 iam <hi rend="italic">scripri:</hi> <lb/>
+                  <hi rend="italic">(M. orMw terrae) PNF,</hi> eam-eam <hi rend="italic">R uulgo</hi> 8 cauationem sinuum <lb/>
+                  <hi rend="italic">Rig</hi> 10 deo <hi rend="italic">PN,</hi> domino <hi rend="italic">F</hi> 12 uideatQr-sustinebat <hi rend="italic">om. P (add. <lb/>
+            R</hi> in <hi rend="italic">mg. ex Hirsaugiensi)</hi> fiat <hi rend="italic">R,</hi> sit <hi rend="italic">N,</hi> fit <hi rend="italic">F</hi> 14 iam <hi rend="italic">scripri:</hi>
+                  <lb/>
             tamen <hi rend="italic">PNF</hi> 16 fruticet <hi rend="italic">Pam:</hi> fructicet <hi rend="italic">F,</hi> fructificet <hi rend="italic">PN</hi> 22 impleuit <lb/>
             F, implebit <hi rend="italic">PN</hi> 24 alias <hi rend="italic">scripsi:</hi> alia <hi rend="italic">PNF</hi> 25 et <hi rend="italic">addidi</hi> erit <lb/>
-            <hi rend="italic">PF,</hi> erat <hi rend="italic">N</hi> 26 itaque <hi rend="italic">PN,</hi> ita <hi rend="italic">F</hi> </note> <lb/>
-             
-<pb n="158"/>
+                  <hi rend="italic">PF,</hi> erat <hi rend="italic">N</hi> 26 itaque <hi rend="italic">PN,</hi> ita <hi rend="italic">F</hi>
+               </note>
+               <lb/>
+               <pb n="158"/>
             facta est. uolo et perfectam eam recognoscere, ut ex illa etiam <lb/>
             foeni herbam et ex illa decerpam lignum fructuosum et ex <lb/>
             illa animalia usui meo famulem. sed materia quidem nusquam, <lb/>
@@ -1508,10 +1554,9 @@
             inuisibilis et rudis ad eam pertinet, quam deus cum<lb n="15"/>
             caelo parauit. 
 </p>
-</div>
-
-<div n="30" subtype="section" type="textpart">
-<p>Sic et sequentia coniecturam Hermogenis instruere uidebuntur: <lb/>
+         </div>
+         <div n="30" type="section">
+            <p>Sic et sequentia coniecturam Hermogenis instruere uidebuntur: <lb/>
             et tenebrae super abyssum et spiritus dei <lb/>
             super aquas ferebatur, quasi et haec confusae substantiae <lb/>
             massalis illius molis argumenta portendant. atquin singillatim <lb n="20"/>
@@ -1524,17 +1569,19 @@
             distinctionem. uanissimum denique, ut materia, quae informis
 
 <note type="footnote"> 6] Ee. 45, 18. 9] Gen. 1, 9. 14] Gen. 1, 2. 18] ib. </note>
-
-<note type="footnote"> 1 illa <hi rend="italic">om. F</hi> 2 fructum <hi rend="italic">F</hi> 8 famnlem <hi rend="italic">F,</hi> famulentur <hi rend="italic">PNuulgo</hi> 4uero, <lb/>
+               <note type="footnote"> 1 illa <hi rend="italic">om. F</hi> 2 fructum <hi rend="italic">F</hi> 8 famnlem <hi rend="italic">F,</hi> famulentur <hi rend="italic">PNuulgo</hi> 4uero, <lb/>
             id est haec <hi rend="italic">scripsi (ae</hi>. non <hi rend="italic">alia illa, id est materia):</hi> uero haec, id est <hi rend="italic">PNF <lb/>
-            hanc (altero loco) PN, hacF 6 caelum etterram N 7 fecitPam: facitPNF</hi> <lb/>
+            hanc (altero loco) PN, hacF 6 caelum etterram N 7 fecitPam: facitPNF</hi>
+                  <lb/>
             11 habitabilem <hi rend="italic">Lat:</hi> habilem <hi rend="italic">PNF reliqui</hi> 16 <hi rend="italic">parauit scripsi:</hi> separauit <lb/>
-            <hi rend="italic">PNF</hi> 19 haec <hi rend="italic">F,</hi> hae <hi rend="italic">PN uulgo</hi> 20 portendat <hi rend="italic">F</hi> 21 spiritum <hi rend="italic">S</hi>. <lb/>
+                  <hi rend="italic">PNF</hi> 19 haec <hi rend="italic">F,</hi> hae <hi rend="italic">PN uulgo</hi> 20 portendat <hi rend="italic">F</hi> 21 spiritum <hi rend="italic">S</hi>. <lb/>
             spiritus <hi rend="italic">PNF</hi> 22 aestimari <hi rend="italic">PN,</hi> aestimare F diaisa <hi rend="italic">PN,</hi> diuersa F <lb/>
-            24 tenebris <hi rend="italic">scripsi:</hi> tenebras <hi rend="italic">PNF</hi> 25 spiritui <hi rend="italic">scripsi:</hi> spiritus <hi rend="italic">PNF,</hi> <lb/>
-            epiritum <hi rend="italic">Pam</hi> 26 <hi rend="italic">positionem fort</hi>. 27 uaniasimum <hi rend="italic">B3,</hi> uanitimum <hi rend="italic">PNFR1</hi> </note> <lb/>
-             
-<pb n="159"/>
+            24 tenebris <hi rend="italic">scripsi:</hi> tenebras <hi rend="italic">PNF</hi> 25 spiritui <hi rend="italic">scripsi:</hi> spiritus <hi rend="italic">PNF,</hi>
+                  <lb/>
+            epiritum <hi rend="italic">Pam</hi> 26 <hi rend="italic">positionem fort</hi>. 27 uaniasimum <hi rend="italic">B3,</hi> uanitimum <hi rend="italic">PNFR1</hi>
+               </note>
+               <lb/>
+               <pb n="159"/>
             inducitur, de tot -formarum uocabulis informis adseueretur. <lb/>
             non edito, quid sit illud corpus confusionis, [quod] unicum <lb/>
             utique credendum est, si informe est. uniforme etenim. quod <lb/>
@@ -1545,12 +1592,10 @@
             esset, tenebras dico et abyssum et spiritum et aquas, aut non <lb/>
             habebat: si [enim] habebat, quomodo inducitur non habens <lb/>
             formas? si non habebat, (unde) agnoscitur? <lb n="10"/>
-            
-</p>
-</div>
-
-<div n="31" subtype="section" type="textpart">
-<p>Sed et illud utique captabitur, de caelo solo et de <lb/>
+            </p>
+         </div>
+         <div n="31" type="section">
+            <p>Sed et illud utique captabitur, de caelo solo et de <lb/>
             terra ista scripturam significasse, quod ea in principio deus <lb/>
             fecerit, de speciebus autem supra dictis nihil tale, et ideo <lb/>
             eas, quae factae non significentur, ad infectam materiam pertinere. <lb/>
@@ -1568,16 +1613,20 @@
 
 <note type="footnote">1 adJeueretur, non <hi rend="italic">uulgo</hi> 2 quod <hi rend="italic">seclusi</hi> 4 informe. et <hi rend="italic">acripsi:</hi> informe <lb/>
             est <hi rend="italic">PNF</hi> confusum est. unam <hi rend="italic">van der Vliet (cuitts interpretaHonem <lb/>
-            (stud. eccl. p. 80) probare non possum)</hi> 5 speciem <hi rend="italic">seclwti</hi> <lb/>
+            (stud. eccl. p. 80) probare non possum)</hi> 5 speciem <hi rend="italic">seclwti</hi>
+                  <lb/>
             6 nihil <hi rend="italic">addidi</hi> habet <hi rend="italic">PN,</hi> habeat <hi rend="italic">F (fort. recte, cf. 142,16)</hi> 7 intellegenda <lb/>
             esset <hi rend="italic">Urs:</hi> intellegendae esse <hi rend="italic">PN,</hi> intelligendae se <hi rend="italic">F</hi> 9 enim <lb/>
             Becluri: antem <hi rend="italic">lun</hi> Incitur habens formain <hi rend="italic">F</hi> 10 unde <hi rend="italic">add. van der<lb/>
-             Vliet:</hi> (quomodo) <hi rend="italic">Urs</hi> 12 quod ea in <hi rend="italic">scripsi:</hi> quod eam in <hi rend="italic">PN,</hi> quo ea <hi rend="italic">F</hi> <lb/>
-            16 diasereret si sumrnaa <hi rend="italic">NGR3,</hi> dissereret summas <hi rend="italic">PBI,</hi> diasensi summas <hi rend="italic">F</hi> <lb/>
+             Vliet:</hi> (quomodo) <hi rend="italic">Urs</hi> 12 quod ea in <hi rend="italic">scripsi:</hi> quod eam in <hi rend="italic">PN,</hi> quo ea <hi rend="italic">F</hi>
+                  <lb/>
+            16 diasereret si sumrnaa <hi rend="italic">NGR3,</hi> dissereret summas <hi rend="italic">PBI,</hi> diasensi summas <hi rend="italic">F</hi>
+                  <lb/>
             19 fuerant <hi rend="italic">NF,</hi> fuerint <hi rend="italic">P uulgo</hi> 20 et <hi rend="italic">seclusi: (el. 160, 21)</hi> suberaDt<lb/>
-             <hi rend="italic">scripsi:</hi> suberat <hi rend="italic">PN,</hi> superat <hi rend="italic">F</hi> 24 quae R*, quale <hi rend="italic">PNFR1</hi> </note> <lb n="25"/>
-             
-<pb n="160"/>
+                  <hi rend="italic">scripsi:</hi> suberat <hi rend="italic">PN,</hi> superat <hi rend="italic">F</hi> 24 quae R*, quale <hi rend="italic">PNFR1</hi>
+               </note>
+               <lb n="25"/>
+               <pb n="160"/>
             ea utique infra caelum. et sicut terra abysso et tenebris, ita <lb/>
             et caelum spiritui et aquis incubabat et complectebatur. et <lb/>
             ita nouum non est, ut id solum, quod continet, nominetur. <lb/>
@@ -1603,26 +1652,24 @@
             corporibus et membra sunt nominata. nullum elementum non <lb/>
             membrum est eius elementi, quo continetur. omnia autem <lb/>
             elementa caelo aut terra continentur. <lb n="25"/>
-            
-</p>
-</div>
-
-<div n="32" subtype="section" type="textpart">
-<p>Haec responderim pro scriptura praesenti, quatenus hic
+            </p>
+         </div>
+         <div n="32" type="section">
+            <p>Haec responderim pro scriptura praesenti, quatenus hic
 
 <note type="footnote">12] Gen. 2, 7. </note>
-
-<note type="footnote"> 2 spiritui <hi rend="italic">Bs,</hi> spiritus <hi rend="italic">PNFR1</hi> incubabat <hi rend="italic">PF,</hi> incumbebat <hi rend="italic">N</hi> comte <lb/>
-            <lb/>
+               <note type="footnote"> 2 spiritui <hi rend="italic">Bs,</hi> spiritus <hi rend="italic">PNFR1</hi> incubabat <hi rend="italic">PF,</hi> incumbebat <hi rend="italic">N</hi> comte <lb/>
+                  <lb/>
             plectebatur <hi rend="italic">Oehlerus:</hi> complebatur <hi rend="italic">N,</hi> complectebantur P, complectabUltur <lb/>
-            <hi rend="italic">F</hi> 4 quasi summale <hi rend="italic">N</hi> 7 oboliscue <hi rend="italic">NF,</hi> obeliscus <hi rend="italic">P</hi> et <hi rend="italic">om. F</hi> <lb/>
+                  <hi rend="italic">F</hi> 4 quasi summale <hi rend="italic">N</hi> 7 oboliscue <hi rend="italic">NF,</hi> obeliscus <hi rend="italic">P</hi> et <hi rend="italic">om. F</hi>
+                  <lb/>
             8 ab ea &lt;factae) <hi rend="italic">fort</hi>. 10 quia <hi rend="italic">Rig:</hi> qua <hi rend="italic">PNF</hi> inesse <hi rend="italic">NB3,</hi> inestвep.z,WB\\ <lb/>
             11 inerant <hi rend="italic">NR,</hi> inerat <hi rend="italic">PF</hi> 16 a deo <hi rend="italic">NR,</hi> deo <hi rend="italic">PF</hi> cutem <hi rend="italic">NGlP</hi>. cui <lb/>
             tam <hi rend="italic">PFB1</hi> 18 significauit <hi rend="italic">PN,</hi> significat <hi rend="italic">F</hi> 20 in <hi rend="italic">8. v. P (a m. 1)</hi> censentur <lb/>
-            <hi rend="italic">R3,</hi> censetur <hi rend="italic">PNFB1</hi> 22 et aquae Ra, ea quae <hi rend="italic">PNFB1</hi> infacta <lb/>
-            <hi rend="italic">om. P (add. R in mg. ex Htrsaugietvri)</hi> enim <hi rend="italic">R3,</hi> in Nlf1\'Bl </note> <lb/>
-             
-<pb n="161"/>
+                  <hi rend="italic">R3,</hi> censetur <hi rend="italic">PNFB1</hi> 22 et aquae Ra, ea quae <hi rend="italic">PNFB1</hi> infacta <lb/>
+                  <hi rend="italic">om. P (add. R in mg. ex Htrsaugietvri)</hi> enim <hi rend="italic">R3,</hi> in Nlf1\'Bl </note>
+               <lb/>
+               <pb n="161"/>
             solorum corporum factitationem commendare uidetur caeli <lb/>
             et terrae. sciit esse, qui ultro in corporibus et membra <lb/>
             cognoscerent, et ideo compendio usa est prouidit tamen et <lb/>
@@ -1650,23 +1697,24 @@
             tantummodo nominantur sine factitationis mentione,
 
 <note type="footnote"> 7] Proa. 8, 24. 12] Es. 45, 7. 20] Ei. 57, 16. 22] Prone 8, 28. </note>
-
-<note type="footnote"> 1 commendare <hi rend="italic">R3,</hi> commendari <hi rend="italic">PNF</hi> 2 sciit <hi rend="italic">rNGR3,</hi> scit <hi rend="italic">FRl,</hi> <lb/>
+               <note type="footnote"> 1 commendare <hi rend="italic">R3,</hi> commendari <hi rend="italic">PNF</hi> 2 sciit <hi rend="italic">rNGR3,</hi> scit <hi rend="italic">FRl,</hi>
+                  <lb/>
             :,viat <hi rend="italic">Oehlerus</hi> &lt;fllturos) esse <hi rend="italic">van der Vliet</hi> 5 sigmficatorium R3, signiicatorum <lb/>
-            <hi rend="italic">PNFR1</hi> 7 habes <hi rend="italic">R3,</hi> habere <hi rend="italic">PNFR1</hi> 11 subiciatur <hi rend="italic">seclusi<lb/>
+                  <hi rend="italic">PNFR1</hi> 7 habes <hi rend="italic">R3,</hi> habere <hi rend="italic">PNFR1</hi> 11 subiciatur <hi rend="italic">seclusi<lb/>
              ■&lt; f. 160, 19):</hi> subiecta <hi rend="italic">R3uulgo,</hi> subiciatur &lt;necesse) esset <hi rend="italic">Eng</hi> dominus <lb/>
-            <hi rend="italic">R3</hi>. ad minus <hi rend="italic">PNFR1</hi> 14 et adnuntiat-suum <hi rend="italic">fort. delendum</hi> suam <lb/>
-            <hi rend="italic">om, P (add. R ex Hirsaugienai)</hi> 16 liberator <hi rend="italic">F</hi> 17 <hi rend="italic">lacunam signaui:</hi> <lb/>
-            ..nim credibile <hi rend="italic">intercidisae puto,</hi> non iure quidam <hi rend="italic">Eng</hi> quidem <hi rend="italic">F</hi> <lb/>
+                  <hi rend="italic">R3</hi>. ad minus <hi rend="italic">PNFR1</hi> 14 et adnuntiat-suum <hi rend="italic">fort. delendum</hi> suam <lb/>
+                  <hi rend="italic">om, P (add. R ex Hirsaugienai)</hi> 16 liberator <hi rend="italic">F</hi> 17 <hi rend="italic">lacunam signaui:</hi>
+                  <lb/>
+            ..nim credibile <hi rend="italic">intercidisae puto,</hi> non iure quidam <hi rend="italic">Eng</hi> quidem <hi rend="italic">F</hi>
+                  <lb/>
             1S significari <hi rend="italic">PNFR1,</hi> significans <hi rend="italic">R3 uulgo</hi> 22 quomodo (= we;) <hi rend="italic">PNt <lb/>
             •cf 145,</hi> 9), quom <hi rend="italic">R,</hi> cum <hi rend="italic">reliqui</hi> 24 uero <hi rend="italic">scripsi:</hi> ergo <hi rend="italic">PNF</hi> probarnus <lb/>
-            <hi rend="italic">R,</hi> prodamus <hi rend="italic">PNF</hi> 25 nominantur <hi rend="italic">P,</hi> nominatur <hi rend="italic">NF</hi> </note>
-
-<note type="footnote"> XXXXVII. Xert. III. </note>
-
-<note type="footnote"> 11 </note> <lb n="25"/>
-             
-<pb n="162"/>
+                  <hi rend="italic">R,</hi> prodamus <hi rend="italic">PNF</hi> 25 nominantur <hi rend="italic">P,</hi> nominatur <hi rend="italic">NF</hi>
+               </note>
+               <note type="footnote"> XXXXVII. Xert. III. </note>
+               <note type="footnote"> 11 </note>
+               <lb n="25"/>
+               <pb n="162"/>
             respondebitur fortasse ex diuerso plane factas eas. sed ex materia. <lb/>
             ut stilus, quidem Moysei: et tenebrae super aby.ssum et <lb/>
             spiritus dei super aquas ferebatur materiam (ipsam)sonet. <lb/>
@@ -1687,31 +1735,31 @@
             factae — aut si species istas et non materiam significauit <lb/>
             Moyses, ubi materia demonstrata sit quaero. 
 </p>
-</div>
-
-<div n="33" subtype="section" type="textpart">
-<p>Sed dum illam Hermogenes inter colores suos inuenit,<lb n="20"/>
+         </div>
+         <div n="33" type="section">
+            <p>Sed dum illam Hermogenes inter colores suos inuenit,<lb n="20"/>
             — inter scripturas enim dei inuenire non potuerit — satis <lb/>
             est, quod omnia et facta a deo constat et ex materia facta <lb/>
             non constat. quae etiam si fuisset, ipsam quoque a deo factam <lb/>
             credidissemus, quia nihil innatum praeter deum praescribentes
 
 <note type="footnote">2} Gen. 1, 2. 14] ib. </note>
-
-<note type="footnote"> 2 moysei <hi rend="italic">N,</hi> monsei <hi rend="italic">PF,</hi> Moysi <hi rend="italic">R uulgo</hi> 3 ipsam <hi rend="italic">add. Eng</hi> 7 <hi rend="italic">signum <lb/>
+               <note type="footnote"> 2 moysei <hi rend="italic">N,</hi> monsei <hi rend="italic">PF,</hi> Moysi <hi rend="italic">R uulgo</hi> 3 ipsam <hi rend="italic">add. Eng</hi> 7 <hi rend="italic">signum <lb/>
             interrogationis posui</hi> at <hi rend="italic">scripsi:</hi> et <hi rend="italic">PNF</hi> 8 si <hi rend="italic">add. J23, otn. PNFRa lacunam <lb/>
-            signaui:</hi> (exclusum igitur, si non habebat,) <hi rend="italic">intercidisse puto</hi> <lb/>
-            9 eis <hi rend="italic">scripsi:</hi> ea <hi rend="italic">PNF</hi> 10 diuersas <hi rend="italic">R,</hi> diuersitas <hi rend="italic">PNF</hi> 11 quo <hi rend="italic">scripsi:</hi> <lb/>
+            signaui:</hi> (exclusum igitur, si non habebat,) <hi rend="italic">intercidisse puto</hi>
+                  <lb/>
+            9 eis <hi rend="italic">scripsi:</hi> ea <hi rend="italic">PNF</hi> 10 diuersas <hi rend="italic">R,</hi> diuersitas <hi rend="italic">PNF</hi> 11 quo <hi rend="italic">scripsi:</hi>
+                  <lb/>
             quod <hi rend="italic">PNF</hi> et operatio <hi rend="italic">NF,</hi> operatio <hi rend="italic">Puulgo</hi> 12 si quae erant <hi rend="italic">Rz</hi>. <lb/>
             si qua ferant <hi rend="italic">PF,</hi> si qua erant <hi rend="italic">N</hi> generosior esset <hi rend="italic">Rig:</hi> generoaiora <lb/>
             esset <hi rend="italic">PNP,</hi> generatio sola esset <hi rend="italic">Oehlerus</hi> 13 facta quam <hi rend="italic">seclusi</hi> (quam <lb/>
-            <hi rend="italic">deleuit iam Rig)</hi> 14 scribens <hi rend="italic">N</hi>. scribit <hi rend="italic">PPR1,</hi> (cum) scribit <hi rend="italic">R3 uuigo <lb/>
+                  <hi rend="italic">deleuit iam Rig)</hi> 14 scribens <hi rend="italic">N</hi>. scribit <hi rend="italic">PPR1,</hi> (cum) scribit <hi rend="italic">R3 uuigo <lb/>
             15 parenthesin indicaui</hi> at <hi rend="italic">PNPRI,</hi> aut <hi rend="italic">Rauulgo</hi> 16 hae <hi rend="italic">R,</hi> lias <lb/>
-            <hi rend="italic">P (corr. R) NF</hi> 20 illam <hi rend="italic">NR,</hi> illa P <hi rend="italic">(corr. R) F</hi> inuenerit <hi rend="italic">fort</hi>. <lb/>
+                  <hi rend="italic">P (corr. R) NF</hi> 20 illam <hi rend="italic">NR,</hi> illa P <hi rend="italic">(corr. R) F</hi> inuenerit <hi rend="italic">fort</hi>. <lb/>
             21 potuit <hi rend="italic">Rig,</hi> potuerat <hi rend="italic">R3 Gel</hi> 23 constat, quae <hi rend="italic">uulgo</hi> quae A?, qua <lb/>
-            <hi rend="italic">PF</hi> facta <hi rend="italic">P (corr. R)</hi> \' </note> <lb/>
-             
-<pb n="163"/>
+                  <hi rend="italic">PF</hi> facta <hi rend="italic">P (corr. R)</hi> \' </note>
+               <lb/>
+               <pb n="163"/>
             obtineremus. in hunc usque articulum locus est retractatui, <lb/>
             donec ad scripturas prouocata deficiat exhibitio materiae. <lb/>
             expedita summa est: nihil inuenio factum nisi ex nihilo, quia <lb/>
@@ -1721,10 +1769,9 @@
             natatiles et uolatiles animae. huiusmodi origines [rerum ex his <lb/>
             prolatarum] potero materias appellare, sed factas a deo et ipsas. 
 </p>
-</div>
-
-<div n="34" subtype="section" type="textpart">
-<p>Ceterum omne ex nihilo constitisse illa postremo diuina <lb/>
+         </div>
+         <div n="34" type="section">
+            <p>Ceterum omne ex nihilo constitisse illa postremo diuina <lb/>
             dispositio suadebit, quae omnia in nihilum redactura est. <lb n="10"/>
             siquidem et caelum conuoluetur ut liber, immo nusquam <lb/>
             fiet cum ipsa terra, cum qua primordio factum est: caelum <lb/>
@@ -1740,26 +1787,30 @@
 
 <note type="footnote"> ll]Es.34,4. 12] Matth. 24, 35. 13] Apoc. 21,1. 14] Apoc. 20,11. <lb/>
             1-V Ps. 101, 26. 27. 16] Ps. 101, 27. 19] Apoc. 6,13. 21] Pa. 96, r). </note>
-
-<note type="footnote"> 1 <hi rend="italic">offendo in uerbis:</hi> in <hi rend="italic">hunc-materiae, quippe quae intolerabilem in modum <lb/>
+               <note type="footnote"> 1 <hi rend="italic">offendo in uerbis:</hi> in <hi rend="italic">hunc-materiae, quippe quae intolerabilem in modum <lb/>
             turbent nexum sententiarum. cohaerere ea arctissime cum eis, quae <lb/>
             in initio capitis proferuntur, in aperto est. neque tamen quicquam pwaestab.s<lb/>
-             trampositione. nescio igitur, an et hic duplex agnoscenda sit recetlsio:</hi> <lb/>
+             trampositione. nescio igitur, an et hic duplex agnoscenda sit recetlsio:</hi>
+                  <lb/>
             sed dum illam-potuerit -- in hunc-materiae. articulum F, artilum P <lb/>
-            <hi rend="italic">(add. R syll</hi>. cu) N <hi rend="italic">retractatui NR,</hi> retractaui P <hi rend="italic">(in mg</hi>. fort.: retractatui) <hi rend="italic">F <lb/>
+                  <hi rend="italic">(add. R syll</hi>. cu) N <hi rend="italic">retractatui NR,</hi> retractaui P <hi rend="italic">(in mg</hi>. fort.: retractatui) <hi rend="italic">F <lb/>
             3 nisi Oeihlerus: nihil PNF 5 ut ei R, et ex P (corr. R) NF</hi> 7 origines i?\\ <lb/>
-            originis <hi rend="italic">PNFR1</hi> rerum ex his prolatarum <hi rend="italic">seclusi</hi> 10 in nihilum <hi rend="italic">R3,</hi> <lb/>
+            originis <hi rend="italic">PNFR1</hi> rerum ex his prolatarum <hi rend="italic">seclusi</hi> 10 in nihilum <hi rend="italic">R3,</hi>
+                  <lb/>
             ex nihilo <hi rend="italic">PNFRX,</hi> ex nihilo (edita in nihilum) <hi rend="italic">Eng</hi> 15 finit et locum <lb/>
-            <hi rend="italic">scripsi:</hi> tt finito cum <hi rend="italic">PNRX,</hi> et finitio cum F, et finit locum <hi rend="italic">R3 uulgo</hi> <lb/>
+                  <hi rend="italic">scripsi:</hi> tt finito cum <hi rend="italic">PNRX,</hi> et finitio cum F, et finit locum <hi rend="italic">R3 uulgo</hi>
+                  <lb/>
             16 tuarum R3, suarum <hi rend="italic">PNFR1</hi> sed et <hi rend="italic">scripsi:</hi> nam et <hi rend="italic">PNF</hi> 17 et mutari <lb/>
-            <hi rend="italic">scripsi:</hi> sed et mutari <hi rend="italic">PNF,</hi> sed mutari <hi rend="italic">Pam</hi> (sed <hi rend="italic">ut genuinam lectionem<lb/>
-             corruptelae</hi> nam <hi rend="italic">olim adscriptum fu:sBe puto; caret enim sensu illud nam)</hi> <lb/>
-            18 quem <hi rend="italic">R3,</hi> quae <hi rend="italic">PNFR1</hi> 20 acerba <hi rend="italic">R3,</hi> acerua <hi rend="italic">PNFR1</hi> 21 montes <hi rend="italic">R,</hi> <lb/>
-            niojsea <hi rend="italic">PNF</hi> liquescent <hi rend="italic">FR,</hi> liquescens P <hi rend="italic">(corr. R),</hi> liquescet <hi rend="italic">N</hi> </note>
-
-<note type="footnote"> 11 </note> <lb/>
-             
-<pb n="164"/>
+                  <hi rend="italic">scripsi:</hi> sed et mutari <hi rend="italic">PNF,</hi> sed mutari <hi rend="italic">Pam</hi> (sed <hi rend="italic">ut genuinam lectionem<lb/>
+             corruptelae</hi> nam <hi rend="italic">olim adscriptum fu:sBe puto; caret enim sensu illud nam)</hi>
+                  <lb/>
+            18 quem <hi rend="italic">R3,</hi> quae <hi rend="italic">PNFR1</hi> 20 acerba <hi rend="italic">R3,</hi> acerua <hi rend="italic">PNFR1</hi> 21 montes <hi rend="italic">R,</hi>
+                  <lb/>
+            niojsea <hi rend="italic">PNF</hi> liquescent <hi rend="italic">FR,</hi> liquescens P <hi rend="italic">(corr. R),</hi> liquescet <hi rend="italic">N</hi>
+               </note>
+               <note type="footnote"> 11 </note>
+               <lb/>
+               <pb n="164"/>
             domini, cum surrexerit scilicet confringere terram. <lb/>
             sed et paludes, inquit, arefaciam, et quaerent aquam <lb/>
             nec inuenient; etiam mare hactenus. quae omnia et si <lb/>
@@ -1778,10 +1829,9 @@
             uniuersitatem ex nihilo, uelut emortuam, quae scilicet non <lb/>
             erat, in hoc, ut esset, suscitasse. 
 </p>
-</div>
-
-<div n="35" subtype="section" type="textpart">
-<p>De cetero uero statu materiae etsi non est retractandum, <lb/>
+         </div>
+         <div n="35" type="section">
+            <p>De cetero uero statu materiae etsi non est retractandum, <lb/>
             — prius enim erat, ut eam esse constaret - tamen <lb/>
             acsi constiterit, persequendus est ordo, quo magis eam non<lb n="20"/>
             esse constet, cuius nec reliquus status consistat, simul ut <lb/>
@@ -1791,19 +1841,22 @@
             ista ratio recta, quae nihil recti renuntiat, id est nihil certi?
 
 <note type="footnote"> 1] Es. 2, 19. 2J Es. 42, 15; 41, 17. 3] Apoc. 21,1. cf. Ps. 65, 6. </note>
-
-<note type="footnote"> 2 arefaciam <hi rend="italic">NR,</hi> arefaciant <hi rend="italic">P F</hi> quaererent <hi rend="italic">P (del</hi>. re R) 4 aliter <lb/>
-            <hi rend="italic">PNF,</hi> alter <hi rend="italic">Lat</hi> spiritaliter <hi rend="italic">secl. Eng</hi> 7 a similitudine <hi rend="italic">P</hi> (corr. <hi rend="italic">R)</hi> <lb/>
+               <note type="footnote"> 2 arefaciam <hi rend="italic">NR,</hi> arefaciant <hi rend="italic">P F</hi> quaererent <hi rend="italic">P (del</hi>. re R) 4 aliter <lb/>
+                  <hi rend="italic">PNF,</hi> alter <hi rend="italic">Lat</hi> spiritaliter <hi rend="italic">secl. Eng</hi> 7 a similitudine <hi rend="italic">P</hi> (corr. <hi rend="italic">R)</hi>
+                  <lb/>
             8 similitudini <hi rend="italic">scripsi: aimilitudine PNF,</hi> (de)tali similitudine <hi rend="italic">Eng</hi> 9 definiens <lb/>
-            <hi rend="italic">scripsi:</hi> definientem <hi rend="italic">PNF</hi> 10 ut <hi rend="italic">addidi</hi> nihilum <hi rend="italic">B1 (cf, 208,17),</hi> <lb/>
+                  <hi rend="italic">scripsi:</hi> definientem <hi rend="italic">PNF</hi> 10 ut <hi rend="italic">addidi</hi> nihilum <hi rend="italic">B1 (cf, 208,17),</hi>
+                  <lb/>
             nihilo <hi rend="italic">PNFR1</hi> 13 interibili <hi rend="italic">NR,</hi> interibilia <hi rend="italic">PF</hi> aeternum. quod et carlli <lb/>
             nostrae pollicetur, cuius <hi rend="italic">uulgo</hi> 14 uirtutid et potestatis suae <hi rend="italic">Urs:</hi> uirtutes <lb/>
-            et potestatis suas <hi rend="italic">PNF</hi> 15 illum etiam <hi rend="italic">scrtpsi:</hi> etiam illum <hi rend="italic">PNF</hi> <lb/>
+            et potestatis suas <hi rend="italic">PNF</hi> 15 illum etiam <hi rend="italic">scrtpsi:</hi> etiam illum <hi rend="italic">PNF</hi>
+                  <lb/>
             17 erat <hi rend="italic">R3,</hi> erit <hi rend="italic">PNFR1</hi> 18 statu <hi rend="italic">R, status PNF</hi> 21 reliquus status <lb/>
-            <hi rend="italic">R3,</hi> reliquo statu <hi rend="italic">PNFR1</hi> 22 agnoscat <hi rend="italic">R,</hi> agnoscant <hi rend="italic">PNF</hi> 25 id est <lb/>
-            <hi rend="italic">R3,</hi> et est <hi rend="italic">PNFR1</hi> </note> <lb n="25"/>
-             
-<pb n="165"/>
+                  <hi rend="italic">R3,</hi> reliquo statu <hi rend="italic">PNFR1</hi> 22 agnoscat <hi rend="italic">R,</hi> agnoscant <hi rend="italic">PNF</hi> 25 id est <lb/>
+                  <hi rend="italic">R3,</hi> et est <hi rend="italic">PNFR1</hi>
+               </note>
+               <lb n="25"/>
+               <pb n="165"/>
             nisi fallor enim, omnis res aut corporalis sit necesse est aut <lb/>
             incorporalis, ut concedam interim esse aliquid incorporale, de <lb/>
             substantiis dumtaxat, cum ipsa substantia corpus sit rei cuiusque. <lb/>
@@ -1814,10 +1867,9 @@
             quid intellegitur? (an) tantum hoc ratio renuntiauit, nec <lb/>
             corporalem materiam nec incorporalem? 
 </p>
-</div>
-
-<div n="36" subtype="section" type="textpart">
-<p>Sed ecce contrarium subicit, aut alia fortasse ratio ei <lb n="10"/>
+         </div>
+         <div n="36" type="section">
+            <p>Sed ecce contrarium subicit, aut alia fortasse ratio ei <lb n="10"/>
             occurrit, ex parte corporalem renuntians materiam et ex parte <lb/>
             incorporalem. iam ergo ne neutrum sit, utrumque materia <lb/>
             censenda est? erit enim corporalis et incorporalis, aduersus <lb/>
@@ -1833,18 +1885,21 @@
 
 <note rend="script" type="footnote"> 1 corporalis sit necesse est aut incorporalis <hi rend="italic">siripsi:</hi> corporalis sit <lb/>
             necesse est aut corporalis F (aut corporalis <hi rend="italic">del. m. 1),</hi> coiporalis sit <lb/>
-            . necesse est <hi rend="italic">PNH1,</hi> corporalis aut incorporalis sit necesse est <hi rend="italic">R3 uulno</hi> <lb/>
+            . necesse est <hi rend="italic">PNH1,</hi> corporalis aut incorporalis sit necesse est <hi rend="italic">R3 uulno</hi>
+                  <lb/>
             4 et <hi rend="italic">om. F</hi> 6 quae <hi rend="italic">R3,</hi> quod <hi rend="italic">PNFR1</hi> 8 an <hi rend="italic">addidi</hi> ratio &lt;illa) <lb/>
-            <hi rend="italic">fort</hi>. 10 in contrarium <hi rend="italic">F</hi> 12 ne neutrum <hi rend="italic">R3,</hi> nene <hi rend="italic">utrum. P,</hi> nouue <lb/>
+                  <hi rend="italic">fort</hi>. 10 in contrarium <hi rend="italic">F</hi> 12 ne neutrum <hi rend="italic">R3,</hi> nene <hi rend="italic">utrum. P,</hi> nouue <lb/>
             utrum <hi rend="italic">FRI,</hi> noie (= nomine) utrum <hi rend="italic">N</hi> 14 rectae rationis <hi rend="italic">R3,</hi> reparationis <lb/>
-            <hi rend="italic">PBI,</hi> reciprocationis <hi rend="italic">FR3 (ex Hirsaugiensi)</hi>. recipe rois <hi rend="italic">N</hi> reddentis <lb/>
-            <hi rend="italic">R3,</hi> reddentes <hi rend="italic">PNFR1</hi> 15 nec R3, haec <hi rend="italic">PNFR1</hi> 16 materiam <lb/>
-            <hi rend="italic">F</hi> corpora edantur <hi rend="italic">R,</hi> corpore dantur <hi rend="italic">PNF</hi> 18 esset <hi rend="italic">R</hi>. <lb/>
+                  <hi rend="italic">PBI,</hi> reciprocationis <hi rend="italic">FR3 (ex Hirsaugiensi)</hi>. recipe rois <hi rend="italic">N</hi> reddentis <lb/>
+                  <hi rend="italic">R3,</hi> reddentes <hi rend="italic">PNFR1</hi> 15 nec R3, haec <hi rend="italic">PNFR1</hi> 16 materiam <lb/>
+                  <hi rend="italic">F</hi> corpora edantur <hi rend="italic">R,</hi> corpore dantur <hi rend="italic">PNF</hi> 18 esset <hi rend="italic">R</hi>. <lb/>
             e-ise <hi rend="italic">PNF</hi> 20 quando <hi rend="italic">P (corr. R)</hi> ratio nisi R3, rationis si <lb/>
-            <hi rend="italic">PNFBl</hi> si tam <hi rend="italic">R3,</hi> sit <hi rend="italic">PNFR1</hi> 21 ducis IR3, duci <hi rend="italic">PNFR1</hi> ratiocinaris <lb/>
-            <hi rend="italic">Iun:</hi> rationi satis <hi rend="italic">PNFR\', ratio</hi> ista <hi rend="italic">R3</hi> te bardior <hi rend="italic">PF,</hi> <lb/>
-            tardior <hi rend="italic">N</hi> 22 quis <hi rend="italic">R3,</hi> qui <hi rend="italic">PNFR1</hi> </note> 
-<pb n="166"/>
+                  <hi rend="italic">PNFBl</hi> si tam <hi rend="italic">R3,</hi> sit <hi rend="italic">PNFR1</hi> 21 ducis IR3, duci <hi rend="italic">PNFR1</hi> ratiocinaris <lb/>
+                  <hi rend="italic">Iun:</hi> rationi satis <hi rend="italic">PNFR\', ratio</hi> ista <hi rend="italic">R3</hi> te bardior <hi rend="italic">PF,</hi>
+                  <lb/>
+            tardior <hi rend="italic">N</hi> 22 quis <hi rend="italic">R3,</hi> qui <hi rend="italic">PNFR1</hi>
+               </note>
+               <pb n="166"/>
 
             substantiae deputare, cum substantiua res non sit, quia nec corporalis, <lb/>
             sed accidens, si forte, substantiae et corpori, ut actus <lb/>
@@ -1864,10 +1919,9 @@
             secunda pars formae uideretur? sic itaque nec motus. sed <lb/>
             de motu et alibi licebit. 
 </p>
-</div>
-
-<div n="37" subtype="section" type="textpart">
-<p>Nunc enim uideo te ad illam rursus rationem reuerti, <lb/>
+         </div>
+         <div n="37" type="section">
+            <p>Nunc enim uideo te ad illam rursus rationem reuerti, <lb/>
             quae tibi nihil certi renuntiare consueuit. nam sicut nec <lb/>
             corporalem nec incorporalem infers materiam, ita nec bonam <lb n="20"/>
             nec malam adlegas et proinde superargumentans: \'si enim\', <lb/>
@@ -1877,18 +1931,22 @@
             adplicuisset illi deus, tali natura; in uacuum enim laborasset\'.
 
 <note type="footnote"> 1 deputare R3, deputaret <hi rend="italic">PNFR1</hi> corporalis. sed <hi rend="italic">uulgo</hi> S et casus <lb/>
-            <hi rend="italic">scripsi:</hi> ut casus <hi rend="italic">PNF</hi> siue <hi rend="italic">PNF,</hi> si uel <hi rend="italic">Leopoldus</hi> ab alio sine <lb/>
-            <hi rend="italic">addidi</hi> 4 quid <hi rend="italic">R,</hi> quod <hi rend="italic">PNF</hi> actus <hi rend="italic">R,</hi> factus <hi rend="italic">PNF</hi> 6 denique <lb/>
-            <hi rend="italic">= namlich, ut saepissime</hi> aut a P, aut ut a <hi rend="italic">NF</hi> 7 inanimalia <lb/>
-            in animata F 8 corporale et incorporale <hi rend="italic">P</hi> 9 <hi rend="italic">lacunam signaui:</hi> <lb/>
-            uindicamus <hi rend="italic">puto supplendum</hi> 10 incorporalia <hi rend="italic">Rs, incorpora PlfFR1</hi> <lb/>
+                  <hi rend="italic">scripsi:</hi> ut casus <hi rend="italic">PNF</hi> siue <hi rend="italic">PNF,</hi> si uel <hi rend="italic">Leopoldus</hi> ab alio sine <lb/>
+                  <hi rend="italic">addidi</hi> 4 quid <hi rend="italic">R,</hi> quod <hi rend="italic">PNF</hi> actus <hi rend="italic">R,</hi> factus <hi rend="italic">PNF</hi> 6 denique <lb/>
+                  <hi rend="italic">= namlich, ut saepissime</hi> aut a P, aut ut a <hi rend="italic">NF</hi> 7 inanimalia <lb/>
+            in animata F 8 corporale et incorporale <hi rend="italic">P</hi> 9 <hi rend="italic">lacunam signaui:</hi>
+                  <lb/>
+            uindicamus <hi rend="italic">puto supplendum</hi> 10 incorporalia <hi rend="italic">Rs, incorpora PlfFR1</hi>
+                  <lb/>
             11 libidines, eorum <hi rend="italic">uulgo 16 forma = massa materiae cf. 170, 10</hi> sed <lb/>
-            de <hi rend="italic">R,</hi> sed <hi rend="italic">P,</hi> sede <hi rend="italic">NF</hi> 18 ratione P 19 consueuit <hi rend="italic">NR,</hi> consuebit <hi rend="italic">PF</hi> <lb/>
+            de <hi rend="italic">R,</hi> sed <hi rend="italic">P,</hi> sede <hi rend="italic">NF</hi> 18 ratione P 19 consueuit <hi rend="italic">NR,</hi> consuebit <hi rend="italic">PF</hi>
+                  <lb/>
             20 infers <hi rend="italic">R3,</hi> infert <hi rend="italic">PNFR1</hi> 21 adlegas et <hi rend="italic">Urs:</hi> adlegasset <hi rend="italic">PNF</hi> superargumentaris <lb/>
-            <hi rend="italic">Ellg:</hi> superargumentasset <hi rend="italic">PN,</hi> super argumenta sed <hi rend="italic">F,</hi> <lb/>
-            superargumentans <hi rend="italic">Rig Oehlerus</hi> 22 inquis <hi rend="italic">RNF,</hi> iniquius P </note> <lb n="25"/>
-             
-<pb n="167"/>
+                  <hi rend="italic">Ellg:</hi> superargumentasset <hi rend="italic">PN,</hi> super argumenta sed <hi rend="italic">F,</hi>
+                  <lb/>
+            superargumentans <hi rend="italic">Rig Oehlerus</hi> 22 inquis <hi rend="italic">RNF,</hi> iniquius P </note>
+               <lb n="25"/>
+               <pb n="167"/>
             uerba haec tua sunt, quorum te et alibi meminisse oportuerat, <lb/>
             ne quid his contrarium inferres. sed quoniam de mali et boni <lb/>
             ambiguitate super materiam in praeteritis aliquid retractauimus, <lb/>
@@ -1914,27 +1972,29 @@
             natura malam alibi te confessum negabis.
 
 <note type="footnote"> 19] cf. Mattb. 3, 9. </note>
-
-<note type="footnote"> 2 inferres <hi rend="italic">B3,</hi> infert <hi rend="italic">PNFR1</hi> 3 super materiam = <hi rend="italic">plus quam materia <lb/>
+               <note type="footnote"> 2 inferres <hi rend="italic">B3,</hi> infert <hi rend="italic">PNFR1</hi> 3 super materiam = <hi rend="italic">plus quam materia <lb/>
             postulabat</hi>? 6 bonam aut malam <hi rend="italic">Urs:</hi> bona aut mala <hi rend="italic">P NF</hi> 7 rescindis <lb/>
-            <hi rend="italic">R3,</hi> reacindes <hi rend="italic">PNFR1</hi> 9 dicis si esset <hi rend="italic">R,</hi> discissiaset <hi rend="italic">PNF</hi> a <lb/>
-            deo malam portendis R3, habeo (ab eo <hi rend="italic">N)</hi> mala portentia <hi rend="italic">PNFM1</hi> <lb/>
+                  <hi rend="italic">R3,</hi> reacindes <hi rend="italic">PNFR1</hi> 9 dicis si esset <hi rend="italic">R,</hi> discissiaset <hi rend="italic">PNF</hi> a <lb/>
+            deo malam portendis R3, habeo (ab eo <hi rend="italic">N)</hi> mala portentia <hi rend="italic">PNFM1</hi>
+                  <lb/>
             10 adponis <hi rend="italic">R3,</hi> adpones <hi rend="italic">PNFM1</hi> esset <hi rend="italic">R,</hi> essent <hi rend="italic">PNF</hi> admitteret <lb/>
-            <hi rend="italic">R3,</hi> admitterem <hi rend="italic">PNF</hi> 11 sabostendis <hi rend="italic">R3,</hi> subostendes <hi rend="italic">PR1,</hi> subostendens <lb/>
-            <hi rend="italic">NF</hi> 12 quam JR3, ei quam <hi rend="italic">PNFR1</hi> 13 ut autem <hi rend="italic">R3,</hi> si autem <lb/>
-            <hi rend="italic">PNFR1</hi> et argumentationem <hi rend="italic">NF,</hi> argumentationem <hi rend="italic">Puulgo</hi> 14 op- <lb/>
-            <hi rend="italic">pono R3,</hi> illud <hi rend="italic">oppono PNFR1</hi> 16 bonum non desiderat quod <hi rend="italic">scripsi:</hi> <lb/>
-            quod bonum non desiderat <hi rend="italic">PNF</hi> 21 deum <hi rend="italic">Lat:</hi> dominum <hi rend="italic">PNF Oehlerus</hi> <lb/>
+                  <hi rend="italic">R3,</hi> admitterem <hi rend="italic">PNF</hi> 11 sabostendis <hi rend="italic">R3,</hi> subostendes <hi rend="italic">PR1,</hi> subostendens <lb/>
+                  <hi rend="italic">NF</hi> 12 quam JR3, ei quam <hi rend="italic">PNFR1</hi> 13 ut autem <hi rend="italic">R3,</hi> si autem <lb/>
+                  <hi rend="italic">PNFR1</hi> et argumentationem <hi rend="italic">NF,</hi> argumentationem <hi rend="italic">Puulgo</hi> 14 op- <lb/>
+                  <hi rend="italic">pono R3,</hi> illud <hi rend="italic">oppono PNFR1</hi> 16 bonum non desiderat quod <hi rend="italic">scripsi:</hi>
+                  <lb/>
+            quod bonum non desiderat <hi rend="italic">PNF</hi> 21 deum <hi rend="italic">Lat:</hi> dominum <hi rend="italic">PNF Oehlerus</hi>
+                  <lb/>
             22 in <hi rend="italic">add. R3, om. PNFR1</hi> potuisset <hi rend="italic">PNFR1,</hi> &lt;non) potuisset J23 <lb/>
-            <hi rend="italic">uulgo</hi> 23 malam, &lt;malam)-negabis? <hi rend="italic">van der Vliet</hi> negabis <hi rend="italic">R3,</hi> <lb/>
-            negauit <hi rend="italic">PNFR1</hi> </note> 
-<pb n="168"/>
-            
-</p>
-</div>
-
-<div n="38" subtype="section" type="textpart">
-<p>De situ materiae id tracto, quod et de modo peruersitatem <lb/>
+                  <hi rend="italic">uulgo</hi> 23 malam, &lt;malam)-negabis? <hi rend="italic">van der Vliet</hi> negabis <hi rend="italic">R3,</hi>
+                  <lb/>
+            negauit <hi rend="italic">PNFR1</hi>
+               </note>
+               <pb n="168"/>
+            </p>
+         </div>
+         <div n="38" type="section">
+            <p>De situ materiae id tracto, quod et de modo peruersitatem <lb/>
             tuam traducat. subiacentem facis deo materiam <lb/>
             et utique locum. illi, qui sit infra deum. in loco ergo <lb/>
             materia. si in loco, ergo intra locum: si intra locum, ergo <lb/>
@@ -1957,26 +2017,28 @@
             agnoscam. debuerat enim deus ut exemplarium antiquitatis ad <lb/>
             gloriam operis palam fecisse.
 
-<note type="footnote"> 1 et de (= <hi rend="italic">simul et de). NF,</hi> ut de P 2 facis 2?3, facit <hi rend="italic">PNFS1</hi> <lb/>
+<note type="footnote"> 1 et de (= <hi rend="italic">simul et de). NF,</hi> ut de P 2 facis 2?3, facit <hi rend="italic">PNFS1</hi>
+                  <lb/>
             3 <hi rend="italic">lacunam signaui:</hi> adsignas <hi rend="italic">(cf. 171, 20) uel simile uerbum intercidisae<lb/>
              uidetur</hi> 6 quam tu, quantum proprie pictor <hi rend="italic">Eng:</hi> quam.. quantum <lb/>
             proprie pictor P <hi rend="italic">(inter</hi> quam <hi rend="italic">et</hi> quantum <hi rend="italic">spatium duarum litteraruin<lb/>
              uacuum relictum),</hi> quam quantum proprie pictor <hi rend="italic">NF uulgo</hi> agnnscis <lb/>
-            <hi rend="italic">R3,</hi> agnoscit <hi rend="italic">PNFR1</hi> H extremam eum lineam <hi rend="italic">van der Tliet:</hi> <lb/>
+                  <hi rend="italic">R3,</hi> agnoscit <hi rend="italic">PNFR1</hi> H extremam eum lineam <hi rend="italic">van der Tliet:</hi>
+                  <lb/>
             extrema cum linea <hi rend="italic">PNF</hi> 10 aut <hi rend="italic">P (corr. R)</hi> 11 qui discipulorum <lb/>
-            <hi rend="italic">R,</hi> quid bis ei polorum <hi rend="italic">PNF</hi> 12 infinitam <hi rend="italic">R,</hi> infinit <hi rend="italic">PNF</hi> 13 infhiitam <lb/>
+                  <hi rend="italic">R,</hi> quid bis ei polorum <hi rend="italic">PNF</hi> 12 infinitam <hi rend="italic">R,</hi> infinit <hi rend="italic">PNF</hi> 13 infhiitam <lb/>
             ut corpuraliter <hi rend="italic">om. P (add. R in mg. ex Hirsaugiensi)</hi> 1 <lb/>
-            16 obduceris <hi rend="italic">hoc loco = refelleris</hi> cum R3, tum <hi rend="italic">PNFB1</hi> 17 ei <hi rend="italic">R\\</hi> <lb/>
+            16 obduceris <hi rend="italic">hoc loco = refelleris</hi> cum R3, tum <hi rend="italic">PNFB1</hi> 17 ei <hi rend="italic">R\\</hi>
+                  <lb/>
             et <hi rend="italic">PNFR1</hi> extremam <hi rend="italic">R2,</hi> extremum <hi rend="italic">PNFR1</hi> 18 includis <hi rend="italic">JR3,</hi> includes <lb/>
-            <hi rend="italic">PNFR1</hi> 19 aut <hi rend="italic">R iloco priore),</hi> ut <hi rend="italic">PNF</hi> itaque R3, itaque ut <lb/>
-            <hi rend="italic">PNFRt,</hi> utique <hi rend="italic">fort</hi>. 20 ut qualis <hi rend="italic">R:ł,</hi> qualis <hi rend="italic">PNFR1</hi> </note> 
-<pb n="169"/>
-            
-</p>
-</div>
-
-<div n="39" subtype="section" type="textpart">
-<p>Sit nunc definitiua, sicut rectius tibi uidetur, per <lb/>
+                  <hi rend="italic">PNFR1</hi> 19 aut <hi rend="italic">R iloco priore),</hi> ut <hi rend="italic">PNF</hi> itaque R3, itaque ut <lb/>
+                  <hi rend="italic">PNFRt,</hi> utique <hi rend="italic">fort</hi>. 20 ut qualis <hi rend="italic">R:ł,</hi> qualis <hi rend="italic">PNFR1</hi>
+               </note>
+               <pb n="169"/>
+            </p>
+         </div>
+         <div n="39" type="section">
+            <p>Sit nunc definitiua, sicut rectius tibi uidetur, per <lb/>
             demutationes suas et translationes, sit et comprehensibilis, <lb/>
             'ut quae fabricatur,\' inquis, ca deo,\' et dispartibilis, quia et <lb/>
             conuertibilis et demutabilis, - (demutationes enim eius,\' <lb/>
@@ -1996,10 +2058,9 @@
             utique ex pristinis, quando quae hodie uidentur aliter habeant <lb/>
             quam pristina fuerunt?. 
 </p>
-</div>
-
-<div n="40" subtype="section" type="textpart">
-<p>Dicis in melius reformatam materiam, utique (de) deterioribus, <lb n="20"/>
+         </div>
+         <div n="40" type="section">
+            <p>Dicis in melius reformatam materiam, utique (de) deterioribus, <lb n="20"/>
             et uis meliora deteriorum exemplarium ferre? confusa <lb/>
             res erat, nunc uero composita est, et uis ex compositis incomposita <lb/>
             praeberi? nulla res speculum est rei alterius, id est <lb/>
@@ -2010,13 +2071,15 @@
 <note type="footnote"> 2 sit et comprehenaibilis 123, sic et comprehensibiles <hi rend="italic">PNFR1</hi> 3 et <lb/>
             dispartibilis quia et coouertibilis et demutabilis <hi rend="italic">scripsi:</hi> quia et conuertibilis <lb/>
             et demutabilis et dispartibilis <hi rend="italic">PNF</hi> 7 illam J23, illum <lb/>
-            <hi rend="italic">2*NFRl</hi> 11 pati ij3, pater <hi rend="italic">PNFIi1</hi> dispertitionem <hi rend="italic">PN,</hi> dispersionem <lb/>
-            <hi rend="italic">F</hi> 12 cum <hi rend="italic">R3N,</hi> eum <hi rend="italic">PFR1</hi> illo <hi rend="italic">R3,</hi> illi <hi rend="italic">PN,</hi> illic <hi rend="italic">F</hi> 13 et <lb/>
-            <hi rend="italic">(primum) om. F</hi> aeque <hi rend="italic">R3,</hi> atque <hi rend="italic">PNFB1</hi> 18 utique <hi rend="italic">PN,</hi> ut <hi rend="italic">F</hi> <lb/>
+                  <hi rend="italic">2*NFRl</hi> 11 pati ij3, pater <hi rend="italic">PNFIi1</hi> dispertitionem <hi rend="italic">PN,</hi> dispersionem <lb/>
+                  <hi rend="italic">F</hi> 12 cum <hi rend="italic">R3N,</hi> eum <hi rend="italic">PFR1</hi> illo <hi rend="italic">R3,</hi> illi <hi rend="italic">PN,</hi> illic <hi rend="italic">F</hi> 13 et <lb/>
+                  <hi rend="italic">(primum) om. F</hi> aeque <hi rend="italic">R3,</hi> atque <hi rend="italic">PNFB1</hi> 18 utique <hi rend="italic">PN,</hi> ut <hi rend="italic">F</hi>
+                  <lb/>
             20 de <hi rend="italic">add. Pam</hi> 23 rei alterius <hi rend="italic">NFPam:</hi> alterius <hi rend="italic">P</hi> 25 dispositae <lb/>
-            iam et comptae <hi rend="italic">Lat:</hi> disposita iam et contempta <hi rend="italic">PNF</hi> </note> <lb/>
-             
-<pb n="170"/>
+            iam et comptae <hi rend="italic">Lat:</hi> disposita iam et contempta <hi rend="italic">PNF</hi>
+               </note>
+               <lb/>
+               <pb n="170"/>
             respondere. quid hodie informe in mundo, quid retro speciatum in <lb/>
             materia, ut speculum sit mundus materiae? cum ornamenti <lb/>
             nomine sit penes Graecos mundus, quomodo inornatae materiae <lb/>
@@ -2027,12 +2090,10 @@
             expolitis et distinctis et compositis recognosci, quae nec <lb/>
             partes materiae appellari conuenit, cum a forma eius. ex <lb/>
             mutatione diuisa, recesserunt. <lb n="10"/>
-            
-</p>
-</div>
-
-<div n="41" subtype="section" type="textpart">
-<p>Renertor ad motum, ut ubique te lubricum ostendam: <lb/>
+            </p>
+         </div>
+         <div n="41" type="section">
+            <p>Renertor ad motum, ut ubique te lubricum ostendam: <lb/>
             inconditus et confusus et turbulentus fuit materiae <lb/>
             motus.\' sic enim et ollae undique ebullientis similitudinem <lb/>
             opponis. et quomodo alibi alius a te adfirmatur? cum enim <lb/>
@@ -2046,20 +2107,27 @@
             aequilibrato impetu ferebatur. haec inquies non est, haec
 
 <note type="footnote"> 1 retro <hi rend="italic">NR3,</hi> retrum <hi rend="italic">F,</hi> tetrum <hi rend="italic">PJB1</hi> 2 ut <hi rend="italic">R3,</hi> aut <hi rend="italic">PNF</hi> ornamenti <lb/>
-            <hi rend="italic">R,</hi> ornamentis <hi rend="italic">PNF</hi> 3 inornatae <hi rend="italic">R3,</hi> inornata <hi rend="italic">PNFRI</hi> 4 praefert <lb/>
-            <hi rend="italic">PNFR1 OehlerltS,</hi> refert <hi rend="italic">R3 reliqui</hi> partibus <hi rend="italic">R3,</hi> passibus <hi rend="italic">PNFR1</hi> <lb/>
+                  <hi rend="italic">R,</hi> ornamentis <hi rend="italic">PNF</hi> 3 inornatae <hi rend="italic">R3,</hi> inornata <hi rend="italic">PNFRI</hi> 4 praefert <lb/>
+                  <hi rend="italic">PNFR1 OehlerltS,</hi> refert <hi rend="italic">R3 reliqui</hi> partibus <hi rend="italic">R3,</hi> passibus <hi rend="italic">PNFR1</hi>
+                  <lb/>
             5 toto R3, totum <hi rend="italic">PNFRI</hi> 6 fabricatum <hi rend="italic">Gel Rig</hi> 7 confusum et <lb/>
-            incompositam <hi rend="italic">R3GN:</hi> confugi et incomputum <hi rend="italic">PF</hi> non impoti-st <hi rend="italic">F</hi> <lb/>
-            11 et ubique <hi rend="italic">N</hi> lubricam <hi rend="italic">P (corr. R)</hi> 12 confusus <hi rend="italic">van der Vliet:</hi> <lb/>
+            incompositam <hi rend="italic">R3GN:</hi> confugi et incomputum <hi rend="italic">PF</hi> non impoti-st <hi rend="italic">F</hi>
+                  <lb/>
+            11 et ubique <hi rend="italic">N</hi> lubricam <hi rend="italic">P (corr. R)</hi> 12 confusus <hi rend="italic">van der Vliet:</hi>
+                  <lb/>
             inconfusus <hi rend="italic">PNF</hi> 13 sic enim edis, ollae <hi rend="italic">fort</hi>. 14 opponis <hi rend="italic">R,</hi> oppones <lb/>
-            <hi rend="italic">PNP,</hi> opponens <hi rend="italic">fort</hi>. cum enim-inducere <hi rend="italic">om. N</hi> 17 neque ad <lb/>
-            malum neque ad bonum <hi rend="italic">N</hi> uertit <hi rend="italic">PNFR\',</hi> uergit <hi rend="italic">JR3</hi> 18 motus <hi rend="italic">addidi</hi> <lb/>
-            19 caccabacius <hi rend="italic">PF,</hi> caccabatus <hi rend="italic">N</hi> 21 mediam <hi rend="italic">scripsi:</hi> mediar <hi rend="italic">PRt,</hi> <lb/>
-            inediar <hi rend="italic">NF,</hi> mediae <hi rend="italic">R3 uulgo</hi> aginam tenens aequilibrato <hi rend="italic">scripsi:</hi> <lb/>
+                  <hi rend="italic">PNP,</hi> opponens <hi rend="italic">fort</hi>. cum enim-inducere <hi rend="italic">om. N</hi> 17 neque ad <lb/>
+            malum neque ad bonum <hi rend="italic">N</hi> uertit <hi rend="italic">PNFR\',</hi> uergit <hi rend="italic">JR3</hi> 18 motus <hi rend="italic">addidi</hi>
+                  <lb/>
+            19 caccabacius <hi rend="italic">PF,</hi> caccabatus <hi rend="italic">N</hi> 21 mediam <hi rend="italic">scripsi:</hi> mediar <hi rend="italic">PRt,</hi>
+                  <lb/>
+            inediar <hi rend="italic">NF,</hi> mediae <hi rend="italic">R3 uulgo</hi> aginam tenens aequilibrato <hi rend="italic">scripsi:</hi>
+                  <lb/>
             aginate nerui librato <hi rend="italic">PNR1,</hi> gnaten erui librato <hi rend="italic">F,</hi> aginae aequilibrato <lb/>
-            <hi rend="italic">Ry uulgo</hi> </note> <lb/>
-             
-<pb n="171"/>
+                  <hi rend="italic">Ry uulgo</hi>
+               </note>
+               <lb/>
+               <pb n="171"/>
             turbulentia et passiuitas non est, sed moderatio et modestia <lb/>
             et iustitia motationis neutram (in) partem inclinantis. plane si <lb/>
             huc et illuc aut in alterum magis proclinaret, tunc inconcinnitatis <lb/>
@@ -2083,27 +2151,27 @@
             cum materiae motum ab utraque regione suspendis.
 
 <note type="footnote"> 1 tnrbulentia <hi rend="italic">B3,</hi> torbulenta <hi rend="italic">PNFR1</hi> 2 motationis. R3, mutatiQiiiB <lb/>
-            <hi rend="italic">PNFR1</hi> &lt;in) partem R3, partem <hi rend="italic">PNFR</hi> 3 aut <hi rend="italic">om. F</hi> alterum <lb/>
-            <hi rend="italic">R3,</hi> tale rerum <hi rend="italic">PN,</hi> talerum <hi rend="italic">F</hi> proclinaret <hi rend="italic">R3,</hi> proclibarunt <hi rend="italic">PNF,</hi> <lb/>
+                  <hi rend="italic">PNFR1</hi> &lt;in) partem R3, partem <hi rend="italic">PNFR</hi> 3 aut <hi rend="italic">om. F</hi> alterum <lb/>
+                  <hi rend="italic">R3,</hi> tale rerum <hi rend="italic">PN,</hi> talerum <hi rend="italic">F</hi> proclinaret <hi rend="italic">R3,</hi> proclibarunt <hi rend="italic">PNF,</hi>
+                  <lb/>
             proclinarunt JK1 tunc inconcinnitatia <hi rend="italic">PN,</hi> concinnitatis <hi rend="italic">F</hi> 4 turbulentiae <lb/>
-            <hi rend="italic">R,</hi> turbulentias <hi rend="italic">PNF</hi> 7 materiam <hi rend="italic">R,</hi> materia <hi rend="italic">PNF</hi> appareat <lb/>
-            <hi rend="italic">R3,</hi> adparet <hi rend="italic">PNFR1</hi> 8 uertebat <hi rend="italic">PNFR1,</hi> uergebat <hi rend="italic">R3 uulgo</hi> inter <lb/>
-            <hi rend="italic">xcripsi:</hi> intra <hi rend="italic">PNF</hi> 9 censebatur <hi rend="italic">Eng:</hi> censebat <hi rend="italic">PNFR1,</hi> pendebat <lb/>
-            <hi rend="italic">R3 uulgo</hi> 16 habent <hi rend="italic">scripsi:</hi> haberent <hi rend="italic">PNF</hi> 17 accidunt <hi rend="italic">Rig:</hi> accedunt <lb/>
-            <hi rend="italic">PNF Oehlerus</hi> &lt;ad) bonum <hi rend="italic">R3,</hi> bonum <hi rend="italic">PNFR1</hi> 18 deuergent <lb/>
-            <hi rend="italic">PNFR1,</hi> deuergens <hi rend="italic">Oehlerus,</hi> deuergente <hi rend="italic">R* reliqui</hi> ut aut <hi rend="italic">PNFR1,</hi> <lb/>
+                  <hi rend="italic">R,</hi> turbulentias <hi rend="italic">PNF</hi> 7 materiam <hi rend="italic">R,</hi> materia <hi rend="italic">PNF</hi> appareat <lb/>
+                  <hi rend="italic">R3,</hi> adparet <hi rend="italic">PNFR1</hi> 8 uertebat <hi rend="italic">PNFR1,</hi> uergebat <hi rend="italic">R3 uulgo</hi> inter <lb/>
+                  <hi rend="italic">xcripsi:</hi> intra <hi rend="italic">PNF</hi> 9 censebatur <hi rend="italic">Eng:</hi> censebat <hi rend="italic">PNFR1,</hi> pendebat <lb/>
+                  <hi rend="italic">R3 uulgo</hi> 16 habent <hi rend="italic">scripsi:</hi> haberent <hi rend="italic">PNF</hi> 17 accidunt <hi rend="italic">Rig:</hi> accedunt <lb/>
+                  <hi rend="italic">PNF Oehlerus</hi> &lt;ad) bonum <hi rend="italic">R3,</hi> bonum <hi rend="italic">PNFR1</hi> 18 deuergent <lb/>
+                  <hi rend="italic">PNFR1,</hi> deuergens <hi rend="italic">Oehlerus,</hi> deuergente <hi rend="italic">R* reliqui</hi> ut aut <hi rend="italic">PNFR1,</hi>
+                  <lb/>
             utat <hi rend="italic">R3 uulgo (quod ego non intellego). fortasse sic erunt restituenda <lb/>
             haec uerba:</hi> &lt;ad) bonum autem et malum non deuergenB materia, ad <lb/>
             corporalia, ut ad localia, non deuergebat = dans autem locum—corpo* <lb/>
             ralia <hi rend="italic">sint. nescio igitur, an includenda sint ut prior auctoris mantia</hi>. <lb/>
-            19 erras ai <hi rend="italic">GR3,</hi> errasse <hi rend="italic">PNFR1</hi> non <hi rend="italic">addidi</hi>-</note> 
-<pb n="172"/>
-            
-</p>
-</div>
-
-<div n="42" subtype="section" type="textpart">
-<p>Dispersisti omnia, ne de proximo quam contraria sibi <lb/>
+            19 erras ai <hi rend="italic">GR3,</hi> errasse <hi rend="italic">PNFR1</hi> non <hi rend="italic">addidi</hi>-</note>
+               <pb n="172"/>
+            </p>
+         </div>
+         <div n="42" type="section">
+            <p>Dispersisti omnia, ne de proximo quam contraria sibi <lb/>
             sint relucerent. at ego colligam singula et conferam. inconditum <lb/>
             adseueras motum materiae eamque adicis sectari informitatem; <lb/>
             dehinc alibi, desiderare componi a deo. desiderat formationem <lb/>
@@ -2123,29 +2191,32 @@
             materia incondite mouetur. tamen diuinum proinde (utrumque), <lb/>
             motu proinde libero et aeterno. atquin plus materiae das. <lb/>
             cui licuit sic moueri, quomodo deo non licuit. <lb n="20"/>
-            
-</p>
-</div>
-
-<div n="43" subtype="section" type="textpart">
-<p>De motu et illud notauerim. nam secundum ollae <lb/>
+            </p>
+         </div>
+         <div n="43" type="section">
+            <p>De motu et illud notauerim. nam secundum ollae <lb/>
             similitudinem: \'sic erat,\' inquis, \'materiae motus antequam <lb/>
             disponeretur: concretus, inquietus, inadprehensibilis prae <lb/>
             nimietate certaminis.\' dehinc subicis: (stetit autem in dei
 
 <note type="footnote">6 aequare <hi rend="italic">F,</hi> aequari <hi rend="italic">PNuulgo</hi> 7 illam Ji3, illa <hi rend="italic">PNFlil</hi> communionem <lb/>
-            <hi rend="italic">R3,</hi> commune <hi rend="italic">PNFR1</hi> 8 commune R3, communionem <hi rend="italic">PXFli1</hi> <lb/>
-            9 aliquod <hi rend="italic">F</hi> 12 commune, etiam <hi rend="italic">scripsi:</hi> commune: etiam <hi rend="italic">PFR1,</hi> <lb/>
-            commune, et iam <hi rend="italic">NB3uulgo,</hi> commune? etiam <hi rend="italic">Etig offendo in uerbis:</hi> <lb/>
+                  <hi rend="italic">R3,</hi> commune <hi rend="italic">PNFR1</hi> 8 commune R3, communionem <hi rend="italic">PXFli1</hi>
+                  <lb/>
+            9 aliquod <hi rend="italic">F</hi> 12 commune, etiam <hi rend="italic">scripsi:</hi> commune: etiam <hi rend="italic">PFR1,</hi>
+                  <lb/>
+            commune, et iam <hi rend="italic">NB3uulgo,</hi> commune? etiam <hi rend="italic">Etig offendo in uerbis:</hi>
+                  <lb/>
             etiam in hoc; <hi rend="italic">nihil enim adhuc attulit auctor, ex quo subiecisse deum<lb/>
              necessitati intellegatur Hermogenes</hi> 13 subicis deum <hi rend="italic">R3,</hi> Bubici dei <lb/>
-            <hi rend="italic">PNFR1</hi> 14 formaret <hi rend="italic">R3,</hi> formare <hi rend="italic">PNFR1</hi> 15 moneantur <hi rend="italic">scripsi:</hi> <lb/>
+                  <hi rend="italic">PNFR1</hi> 14 formaret <hi rend="italic">R3,</hi> formare <hi rend="italic">PNFR1</hi> 15 moneantur <hi rend="italic">scripsi:</hi>
+                  <lb/>
             mouentur <hi rend="italic">PNF</hi> moneantur <hi rend="italic">PNE\'Rt,</hi> mouentur <hi rend="italic">R3 uulgo</hi> 16 quam <lb/>
             deo <hi rend="italic">RF,</hi> quando <hi rend="italic">PN</hi> cousortium <hi rend="italic">om. F</hi> 18 materia <hi rend="italic">R,</hi> materiae <lb/>
-            <hi rend="italic">PN,</hi> ex materiae <hi rend="italic">F</hi> mouetur <hi rend="italic">scripsi:</hi> mouentur <hi rend="italic">PNF</hi> utrumque <hi rend="italic">add. <lb/>
-            Eng</hi> 22 erat <hi rend="italic">R3,</hi> erit <hi rend="italic">PNFR1</hi> </note> <lb/>
-             
-<pb n="173"/>
+                  <hi rend="italic">PN,</hi> ex materiae <hi rend="italic">F</hi> mouetur <hi rend="italic">scripsi:</hi> mouentur <hi rend="italic">PNF</hi> utrumque <hi rend="italic">add. <lb/>
+            Eng</hi> 22 erat <hi rend="italic">R3,</hi> erit <hi rend="italic">PNFR1</hi>
+               </note>
+               <lb/>
+               <pb n="173"/>
             compositionem et adprehensibilem habuit inconditum motum <lb/>
             pro tarditate inconditi motus.\' supra certamen motui adscribis <lb/>
             hic tarditatem. iam de natura materiae quotiens cadas accipe. <lb/>
@@ -2160,10 +2231,9 @@
             .(:1) mali natura cessauit. ergo et mala fuit natura ante <lb/>
             compositionem et desinere potuit a natura post reformationem. 
 </p>
-</div>
-
-<div n="44" subtype="section" type="textpart">
-<p>Sed et qualiter operatum facias deum, sequitur ut <lb/>
+         </div>
+         <div n="44" type="section">
+            <p>Sed et qualiter operatum facias deum, sequitur ut <lb/>
             ostendam. plane a philosophis recedis; sed tamen et a prophetis. <lb n="15"/>
             Stoici enim uolunt deum sic per materiam decucurrisse, <lb/>
             quomodo mel per fauos. at tu \'non,\' inquis, (pertransiens <lb/>
@@ -2175,21 +2245,26 @@
             uulnerauit illam, quod acor animum, etsi adpropinquauit,
 
 <note type="footnote">17] cf. Diog. Laert. VII, 147. </note>
-
-<note type="footnote"> 1 adprehensibilem <hi rend="italic">scripsi:</hi> inadprehensibilem <hi rend="italic">PNF</hi> 2 pro <hi rend="italic">scripsir</hi> <lb/>
+               <note type="footnote"> 1 adprehensibilem <hi rend="italic">scripsi:</hi> inadprehensibilem <hi rend="italic">PNF</hi> 2 pro <hi rend="italic">scripsir</hi>
+                  <lb/>
             t,rae <hi rend="italic">PNF</hi> motui <hi rend="italic">R3,</hi> motus <hi rend="italic">PNFR1</hi> adscribis <hi rend="italic">NR,</hi> adscribi <lb/>
-            <hi rend="italic">PF</hi> 3 hic <hi rend="italic">NR,</hi> sic <hi rend="italic">PF</hi> iam <hi rend="italic">scripsi:</hi> nam <hi rend="italic">PNF</hi> accipe <hi rend="italic">FR3,</hi> <lb/>
-            accipis <hi rend="italic">PN</hi> 4 dicis <hi rend="italic">R3,</hi> iudices <hi rend="italic">PNFR1</hi> 5 deus i23, dei <hi rend="italic">PNFR1</hi> <lb/>
+                  <hi rend="italic">PF</hi> 3 hic <hi rend="italic">NR,</hi> sic <hi rend="italic">PF</hi> iam <hi rend="italic">scripsi:</hi> nam <hi rend="italic">PNF</hi> accipe <hi rend="italic">FR3,</hi>
+                  <lb/>
+            accipis <hi rend="italic">PN</hi> 4 dicis <hi rend="italic">R3,</hi> iudices <hi rend="italic">PNFR1</hi> 5 deus i23, dei <hi rend="italic">PNFR1</hi>
+                  <lb/>
             s postea <hi rend="italic">om. P (add. 8. u. R ex Hirsaugiensi) N</hi> 9 infers <hi rend="italic">R3,</hi> inferens <lb/>
-            <hi rend="italic">PNFRi Oehlervs</hi> 10 utique-reformata est <hi rend="italic">om. NF</hi> 11 a natura, &lt;a) <lb/>
+                  <hi rend="italic">PNFRi Oehlervs</hi> 10 utique-reformata est <hi rend="italic">om. NF</hi> 11 a natura, &lt;a) <lb/>
             mali natura eCtisauit. ergo et <hi rend="italic">scripsi:</hi> a natura mali, natura cessanit ergo, <lb/>
             et <hi rend="italic">PN uulgo</hi> cessanit-natara <hi rend="italic">om. F</hi> 14 utique de mala reformata. <lb/>
-            5ed <hi rend="italic">et F icf. supra l. 10 in naiis)</hi> 15 recedis. sed <hi rend="italic">R3,</hi> recessisse <hi rend="italic">PNFR1</hi> <lb/>
-            16 decurrisse <hi rend="italic">F</hi> 19 ei-adpropioquans om. <hi rend="italic">N</hi> quid <hi rend="italic">PF Iun Oehlerus:</hi> <lb/>
+            5ed <hi rend="italic">et F icf. supra l. 10 in naiis)</hi> 15 recedis. sed <hi rend="italic">R3,</hi> recessisse <hi rend="italic">PNFR1</hi>
+                  <lb/>
+            16 decurrisse <hi rend="italic">F</hi> 19 ei-adpropioquans om. <hi rend="italic">N</hi> quid <hi rend="italic">PF Iun Oehlerus:</hi>
+                  <lb/>
             \'łui <hi rend="italic">R3 reliqui</hi> acor <hi rend="italic">scripsi (sicut et infra l. 21 et 23);</hi> decor <lb/>
-            <hi rend="italic">PNF</hi> apparens-solummodo <hi rend="italic">om. P (add. R in mg. ex Hirsavgie\'luri)</hi> </note> <lb/>
-             
-<pb n="174"/>
+                  <hi rend="italic">PNF</hi> apparens-solummodo <hi rend="italic">om. P (add. R in mg. ex Hirsavgie\'luri)</hi>
+               </note>
+               <lb/>
+               <pb n="174"/>
             sed non cohaesit illi, quod magnes ferro. puta nunc exempla <lb/>
             tua competere: certe si apparendo et adpropinquando materiae <lb/>
             fecit ex illa deus mundum, utique ex quo apparuit fecit <lb/>
@@ -2204,10 +2279,9 @@
             peregrinatus est ad illam de longinquo, cum primum ei uoluit <lb/>
             apparere et adpropinquare. 
 </p>
-</div>
-
-<div n="45" subtype="section" type="textpart">
-<p>At enim prophetae et apostoli non ita tradunt mundum <lb/>
+         </div>
+         <div n="45" type="section">
+            <p>At enim prophetae et apostoli non ita tradunt mundum <lb/>
             a deo factum, apparente solummodo et adpropinquante materiae, <lb n="15"/>
             quia nec materiam ullam nominauerunt, sed primo sophiam <lb/>
             conditam, initium uiarum in opera ipsius, dehinc et sermonem <lb/>
@@ -2220,19 +2294,20 @@
 
 <note type="footnote"> 9] cf. Dan. 3, 59-80. 16] cf. Prou. 8, 22. 17] cf. Ioh. 1. 3. <lb/>
             19] Ps. 32, 6. 22] Pa. 101, 26. 23] Es. 40, 12. </note>
-
-<note type="footnote"> 1 cohaesit <hi rend="italic">NFR,</hi> conchio essit P <hi rend="italic">(corr. R)</hi> 2 tua 223, ut <hi rend="italic">PNFR1</hi> <lb/>
+               <note type="footnote"> 1 cohaesit <hi rend="italic">NFR,</hi> conchio essit P <hi rend="italic">(corr. R)</hi> 2 tua 223, ut <hi rend="italic">PNFR1</hi>
+                  <lb/>
             4 et <hi rend="italic">om. F</hi> 7 quem JS3, quam <hi rend="italic">PNFR1</hi> 8 et inanimalia <hi rend="italic">N</hi> 9 et mcorporalia <lb/>
-            <hi rend="italic">PN,</hi> incorporalia <hi rend="italic">F</hi> 11 <hi rend="italic">appareret-adpropinquaret R,</hi> apparere-appropinquarc <lb/>
-            <hi rend="italic">PNF</hi> 12 pergrugatus P (corr. <hi rend="italic">R)</hi> longingeo <hi rend="italic">P <lb/>
+                  <hi rend="italic">PN,</hi> incorporalia <hi rend="italic">F</hi> 11 <hi rend="italic">appareret-adpropinquaret R,</hi> apparere-appropinquarc <lb/>
+                  <hi rend="italic">PNF</hi> 12 pergrugatus P (corr. <hi rend="italic">R)</hi> longingeo <hi rend="italic">P <lb/>
             (corr. R)</hi> 15 materia P <hi rend="italic">(corr. R)</hi> 16 sophiam conditam <hi rend="italic">FR,</hi> sophia <lb/>
-            condita P, sophia conditam <hi rend="italic">N</hi> 17 initium <hi rend="italic">Pam:</hi> initiarum <hi rend="italic">PNJ.\',</hi> <lb/>
+            condita P, sophia conditam <hi rend="italic">N</hi> 17 initium <hi rend="italic">Pam:</hi> initiarum <hi rend="italic">PNJ.\',</hi>
+                  <lb/>
             initia <hi rend="italic">R Gel Oehlerus</hi> 19 confirmati <hi rend="italic">PN,</hi> cum sumati <hi rend="italic">F (id est:</hi> consummati) <lb/>
             20 haec <hi rend="italic">Eng,</hi> hic <hi rend="italic">PNF</hi> dei <hi rend="italic">S\'s,</hi> deus <hi rend="italic">PNFR1</hi> 21 dextra <hi rend="italic">P:łt</hi>. <lb/>
             deltera F 23 mensus eat mensus <hi rend="italic">est F,</hi> mensus <hi rend="italic">est PNuulgo lacunam <lb/>
-            signavi;</hi> inquit, manu <hi rend="italic">intercidisse uidetur</hi>. </note> <lb/>
-             
-<pb n="175"/>
+            signavi;</hi> inquit, manu <hi rend="italic">intercidisse uidetur</hi>. </note>
+               <lb/>
+               <pb n="175"/>
             noli ita deo adulari, ut uelis illum solo uisu et solo accessu <lb/>
             tot ac tantas substantias protulisse et non propriis uiribus <lb/>
             instituisse. sic enim et Hieremias commendat: deus, faciens <lb/>
@@ -2258,22 +2333,25 @@
 
 <note type="footnote"> 3] Hier. 28, 15. (51, 15). 19J cf. Rom. 1, 20. 20] cf. Rora. 11, 19. <lb/>
             21] Rom. 11, 33. </note>
-
-<note type="footnote"> 1 noli <hi rend="italic">R3,</hi> non <hi rend="italic">PNFR1</hi> 5 haec <hi rend="italic">PKFR1,</hi> hae <hi rend="italic">R3</hi> 6 hoc <hi rend="italic">om. F</hi> eius <lb/>
-            <hi rend="italic">F, cm. P (add. R in mg. ex Hirsaugienni) N</hi> 8 apparens solummodo R3, <lb/>
-            appresFo dummodo <hi rend="italic">PNFR1</hi> 9 fecerat <hi rend="italic">scripsi:</hi> feceret <hi rend="italic">F,</hi> faceret <hi rend="italic">PN,</hi> <lb/>
+               <note type="footnote"> 1 noli <hi rend="italic">R3,</hi> non <hi rend="italic">PNFR1</hi> 5 haec <hi rend="italic">PKFR1,</hi> hae <hi rend="italic">R3</hi> 6 hoc <hi rend="italic">om. F</hi> eius <lb/>
+                  <hi rend="italic">F, cm. P (add. R in mg. ex Hirsaugienni) N</hi> 8 apparens solummodo R3, <lb/>
+            appresFo dummodo <hi rend="italic">PNFR1</hi> 9 fecerat <hi rend="italic">scripsi:</hi> feceret <hi rend="italic">F,</hi> faceret <hi rend="italic">PN,</hi>
+                  <lb/>
             facere <hi rend="italic">R vulgo</hi> 12 dei—conaistunt <hi rend="italic">K3,</hi> deus-constituit <hi rend="italic">PNFR1</hi> 13 parantis <lb/>
-            <hi rend="italic">R,</hi> parentis <hi rend="italic">PNF</hi> 14 sensu extendentis <hi rend="italic">R,</hi> sensum extenditis <lb/>
-            <hi rend="italic">JPNF</hi> apparentis-adpropinquantis <hi rend="italic">R,</hi> apparentes-adpropinquantes <lb/>
-            <hi rend="italic">PNF</hi> 15 adhibentis <hi rend="italic">R,</hi> adhibentes <hi rend="italic">F,</hi> hibentis <hi rend="italic">PN</hi> 17 erant <hi rend="italic">R:I,</hi> <lb/>
+                  <hi rend="italic">R,</hi> parentis <hi rend="italic">PNF</hi> 14 sensu extendentis <hi rend="italic">R,</hi> sensum extenditis <lb/>
+                  <hi rend="italic">JPNF</hi> apparentis-adpropinquantis <hi rend="italic">R,</hi> apparentes-adpropinquantes <lb/>
+                  <hi rend="italic">PNF</hi> 15 adhibentis <hi rend="italic">R,</hi> adhibentes <hi rend="italic">F,</hi> hibentis <hi rend="italic">PN</hi> 17 erant <hi rend="italic">R:I,</hi>
+                  <lb/>
             erant <hi rend="italic">PNFR1</hi> 18 praefectus <hi rend="italic">scripsi:</hi> profectus <hi rend="italic">PNF,</hi> perfectus <hi rend="italic">Lat <lb/>
-            Oehlerus verba</hi> non materiae-ipsius <hi rend="italic">in libris mss. paulo infra post</hi> <lb/>
+            Oehlerus verba</hi> non materiae-ipsius <hi rend="italic">in libris mss. paulo infra post</hi>
+                  <lb/>
             conspiciuntur <hi rend="italic">tradita httc transposui</hi> 20 &lt;de&gt; factis <hi rend="italic">Lat (sed c/</hi>. <lb/>
             KOETjjiaatv) conspiciuntur non <hi rend="italic">R3 (cf. supra l. 18),</hi> conspici unum ne <lb/>
-            <hi rend="italic">PATfi1 21 o addidi 22 ininuentibilia Pavi: inuentibilia PNF</hi> ininuestigabilea <lb/>
-            <hi rend="italic">Pam:</hi> inuestigabiles <hi rend="italic">PNF</hi> </note> <lb/>
-             
-<pb n="176"/>
+                  <hi rend="italic">PATfi1 21 o addidi 22 ininuentibilia Pavi: inuentibilia PNF</hi> ininuestigabilea <lb/>
+                  <hi rend="italic">Pam:</hi> inuestigabiles <hi rend="italic">PNF</hi>
+               </note>
+               <lb/>
+               <pb n="176"/>
             (in)inuestigabiles uiae eius! quid haec magis sapiunt quam: <lb/>
             ut ex nihilo omnia facta sunt! quo nec inueniri nec inuestigari <lb/>
             nisi soli deo possunt, alioquin inuestigabilia, si ex materia. <lb/>
@@ -2286,26 +2364,25 @@
             artis suae dum ostendit, ipse (se) pinxit.
 
 <note type="footnote"> 1 quid <hi rend="italic">NR,</hi> quod <hi rend="italic">PF</hi> quam: ut <hi rend="italic">Eng:</hi> quam ut <hi rend="italic">uulgo</hi> 2 sunt <lb/>
-            <hi rend="italic">PNP;</hi> sint <hi rend="italic">R uulgo</hi> quo <hi rend="italic">acripsi:</hi> quae <hi rend="italic">PNF</hi> 3 soli F, solo PN <lb/>
+                  <hi rend="italic">PNP;</hi> sint <hi rend="italic">R uulgo</hi> quo <hi rend="italic">acripsi:</hi> quae <hi rend="italic">PNF</hi> 3 soli F, solo PN <lb/>
             possunt <hi rend="italic">scripsi:</hi> possent <hi rend="italic">PNF</hi> 4 sunt-inuenta <hi rend="italic">seclusi:</hi> sunt, inuestigata <lb/>
-            et non inaenta <hi rend="italic">Eng</hi> non <hi rend="italic">del. R</hi> constitit <hi rend="italic">N,</hi> constituit <hi rend="italic">PF</hi> <lb/>
-            6 ducitur <hi rend="italic">F</hi> probatur R3, probaretur <hi rend="italic">PNFR1</hi> 7 <hi rend="italic">lacunam signaui:</hi> <lb/>
+            et non inaenta <hi rend="italic">Eng</hi> non <hi rend="italic">del. R</hi> constitit <hi rend="italic">N,</hi> constituit <hi rend="italic">PF</hi>
+                  <lb/>
+            6 ducitur <hi rend="italic">F</hi> probatur R3, probaretur <hi rend="italic">PNFR1</hi> 7 <hi rend="italic">lacunam signaui:</hi>
+                  <lb/>
             in uacuum ergo laborauerunt materiarii isti <hi rend="italic">uel simile aliquid intercidisse<lb/>
              puto</hi> nisi quod <hi rend="italic">FR (ex Hirsaugienst),</hi> nisi <hi rend="italic">PN</hi> 8 describendo R:I, <lb/>
-            describendi <hi rend="italic">PNFBX</hi> 9 documentum <hi rend="italic">R,</hi> documentia <hi rend="italic">PNF</hi> 10 dum <hi rend="italic">1P,</hi> <lb/>
+            describendi <hi rend="italic">PNFBX</hi> 9 documentum <hi rend="italic">R,</hi> documentia <hi rend="italic">PNF</hi> 10 dum <hi rend="italic">1P,</hi>
+                  <lb/>
             de <hi rend="italic">PNFR1</hi> se <hi rend="italic">add. R3, om. PNFR1</hi> ADVERSVS HERMOGENEM <lb/>
             EXPLICIT <hi rend="italic">P,</hi> Explicit aduersus hermogenem <hi rend="italic">NF; in F haec inuenitur<lb/>
              subscriptio:</hi> Iste liber finitus est per fratrem thomam de lypham ordinis <lb/>
             minorum In pfortzen feria quarta quattuor temporum ab incarnatione domini <lb/>
-            MCCCO0 XXVI.\' </note> <lb n="10"/>
-            
-<pb n="177"/>
-            
-</p>
-        
-</div>
-
-</div>
-</body>
-</text>
+            MCCCO0 XXVI.\' </note>
+               <lb n="10"/>
+               <pb n="177"/>
+            </p>
+         </div>
+      </body>
+   </text>
 </TEI>

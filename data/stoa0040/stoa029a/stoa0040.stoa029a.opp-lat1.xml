@@ -1,98 +1,106 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader xml:lang="eng">
-    <fileDesc>
-      <titleStmt>
-        <title xml:lang="lat">Contra Partem Donati Post Gesta</title>
-        <author>Augustine</author>
-        <editor>Michael Petschenig</editor>        
-        <sponsor>University of Leipzig</sponsor>
-        <funder>European Social Fund Saxony</funder>
-        <principal>Gregory Crane</principal>
-        <respStmt>
-          <persName xml:id="Jouve">Jouve</persName>
-          <resp>OCR-ed, corrected and encoded the text</resp>
-        </respStmt>
-        <respStmt>
-          <persName>Greta Franzini</persName>
-          <resp>Project Manager (University of Leipzig)</resp>
-        </respStmt>
-        <respStmt>
-          <persName>Simona Stoyanova</persName>
-          <resp>Project Assistant (University of Leipzig)</resp>
-        </respStmt>
-        <respStmt>
-          <persName>Bruce Robertson</persName>
-          <resp>Technical Advisor (Mount Allison University)</resp>
-        </respStmt>
-        <respStmt>
-          <persName>Uvius Fonticola</persName>
-          <resp>Technical Advisor (Ludwig Maximilians University Munich)</resp>
-        </respStmt>
-      </titleStmt>
-      
-      <publicationStmt>
-        <authority>University of Leipzig</authority>
-        <idno type="filename">stoa0040.stoa029a.opp-lat1.xml</idno>
-        <availability>
-          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
-        </availability>
-        <date>2014</date>
-        <publisher>University of Leipzig</publisher>
-        <pubPlace>Germany</pubPlace>
-      </publicationStmt>
-      
-      <sourceDesc>
-        <listBibl>
-          <biblStruct>
-            <monogr>
-              <editor>
-                <persName>
-                  <name>Michael Petschenig</name>
-                </persName>
-              </editor> 
-              <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040">Augustine</author>  
-              <title xml:lang="lat">Sancti Aureli Augustini Opera</title>
-              <imprint>
-                <publisher>F. Tempsky</publisher>
-                <publisher>G. Freytag</publisher>
-                <pubPlace>Prague</pubPlace>
-                <pubPlace>Vienna</pubPlace>
-                <pubPlace>Leipzig</pubPlace>
-                <date>1910</date>
-              </imprint>
-              <biblScope unit="volume" xml:lang="lat">Sectio VII, Pars III</biblScope>
-            </monogr>
-            <series>
-              <title level="s" xml:lang="lat">Corpus scriptorum ecclesiasticorum Latinorum</title>
-              <biblScope unit="volume">53</biblScope>
-            </series>            
-            <ref target="https://archive.org/details/CSEL53/page/n155/mode/2up">Internet Archive</ref>            
-          </biblStruct>
-        </listBibl>
-      </sourceDesc>
-      
-    </fileDesc>
-    <encodingDesc>
-      <p>The following text is encoded in accordance with EpiDoc standards and with the
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/PerseusDLCode/perseus-schemas/main/perseus_prose.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="eng">
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="lat">Contra Partem Donati Post Gesta</title>
+            <author>Augustine</author>
+            <editor>Michael Petschenig</editor>
+            <sponsor>University of Leipzig</sponsor>
+            <funder>European Social Fund Saxony</funder>
+            <principal>Gregory Crane</principal>
+            <respStmt>
+               <persName xml:id="Jouve">Jouve</persName>
+               <resp>OCR-ed, corrected and encoded the text</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Greta Franzini</persName>
+               <resp>Project Manager (University of Leipzig)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Simona Stoyanova</persName>
+               <resp>Project Assistant (University of Leipzig)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Bruce Robertson</persName>
+               <resp>Technical Advisor (Mount Allison University)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Uvius Fonticola</persName>
+               <resp>Technical Advisor (Ludwig Maximilians University Munich)</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>University of Leipzig</authority>
+            <idno type="filename">stoa0040.stoa029a.opp-lat1.xml</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
+            </availability>
+            <date>2014</date>
+            <publisher>University of Leipzig</publisher>
+            <pubPlace>Germany</pubPlace>
+            <idno type="CTS">urn:cts:latinLit:stoa0040.stoa029a.opp-lat1</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <name>Michael Petschenig</name>
+                        </persName>
+                     </editor>
+                     <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040">Augustine</author>
+                     <title xml:lang="lat">Sancti Aureli Augustini Opera</title>
+                     <imprint>
+                        <publisher>F. Tempsky</publisher>
+                        <publisher>G. Freytag</publisher>
+                        <pubPlace>Prague</pubPlace>
+                        <pubPlace>Vienna</pubPlace>
+                        <pubPlace>Leipzig</pubPlace>
+                        <date>1910</date>
+                     </imprint>
+                     <biblScope unit="volume" xml:lang="lat">Sectio VII, Pars III</biblScope>
+                  </monogr>
+                  <series>
+                     <title level="s" xml:lang="lat">Corpus scriptorum ecclesiasticorum Latinorum</title>
+                     <biblScope unit="volume">53</biblScope>
+                  </series>
+                  <ref target="https://archive.org/details/CSEL53/page/n155/mode/2up">Internet Archive</ref>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>The following text is encoded in accordance with EpiDoc standards and with the
         CTS/CITE Architecture. 
 </p>
-      <refsDecl n="CTS">
-        <cRefPattern n="section" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1'])"/>
-      </refsDecl>
-    </encodingDesc>
-    
-    <profileDesc>
-      <langUsage>
-        <language ident="lat">Latin</language>
-      </langUsage>
-    </profileDesc>
-    
-</teiHeader>
-<text>
-<body>
-<div type="edition" xml:lang="lat" n="urn:cts:latinLit:stoa0040.stoa029a.opp-lat1">
-<div n="1" subtype="section" type="textpart">  
-          <p><milestone n="1" unit="altchapter"/>Quid adhuc, Donatistae, seducimini ab episcopis uestris, <lb/>
+         <refsDecl n="CTS">
+            <cRefPattern n="section"
+                         matchPattern="(.+)"
+                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1'])"/>
+         </refsDecl>
+         <refsDecl n="CTS">
+            <citeStructure match="/TEI/text/body" use="@xml:base">
+               <citeStructure unit="section" delim="." match="div[@type='section']" use="@n"/>
+            </citeStructure>
+         </refsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <catRef scheme="#perseus-genre" target="#prose-section"/>
+         </textClass>
+         <langUsage>
+            <language ident="lat">Latin</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body xml:base="urn:cts:latinLit:stoa0040.stoa029a.opp-lat1">
+         <div n="1" type="section">
+            <p>
+               <milestone n="1" unit="altchapter"/>Quid adhuc, Donatistae, seducimini ab episcopis uestris, <lb/>
             quorum fallaces tenebrae clara luce discussae sunt, quorum <lb/>
             error apparuit, quorum pertinacia superata est? quid adhuc <lb/>
             uobis iactant uana mendacia? quid adhuc creditis hominibus <lb/>
@@ -118,18 +126,18 @@
             indignum est, quando iusserit imperator. quid ergo irascuntur
 
 <note type="footnote"> 14 cf. Breuic. III 4, 4 </note>
-
-<note type="footnote"> <hi rend="italic">De codicum praescriptionibus cf. Praefatio</hi> 1 donatiste <hi rend="italic">post</hi> adhuc <lb/>
-            <hi rend="italic">s. I. Am2, om. AmlBC</hi> 2 quorumj »**orum <hi rend="italic">A</hi> clara (c 8. <hi rend="italic">Z.) A</hi> <lb/>
+               <note type="footnote">
+                  <hi rend="italic">De codicum praescriptionibus cf. Praefatio</hi> 1 donatiste <hi rend="italic">post</hi> adhuc <lb/>
+                  <hi rend="italic">s. I. Am2, om. AmlBC</hi> 2 quorumj »**orum <hi rend="italic">A</hi> clara (c 8. <hi rend="italic">Z.) A</hi>
+                  <lb/>
             3 apparuit error <hi rend="italic">v</hi> pernatia <hi rend="italic">Bml</hi> adhuc (u s. <hi rend="italic">I.) A</hi> 8 respondeant <lb/>
             uobis <hi rend="italic">b</hi> 10 nobiscum] nobis <hi rend="italic">B</hi> 11 conueramus <hi rend="italic">Bm]</hi> 16 noluerunt <lb/>
-            <hi rend="italic">Cml</hi> uidebantur <hi rend="italic">Bml</hi> </note>
-
-<note type="footnote"> LIlI. August. c. Don. III. </note>
-
-<note type="footnote"> 7 </note> <lb/>
-             
-<pb n="98"/>
+                  <hi rend="italic">Cml</hi> uidebantur <hi rend="italic">Bml</hi>
+               </note>
+               <note type="footnote"> LIlI. August. c. Don. III. </note>
+               <note type="footnote"> 7 </note>
+               <lb/>
+               <pb n="98"/>
             nescio quibus traditoribus ad causam nostram non pertinentibus? <lb/>
             codices enim dominicos persecutoribus dare utique indignum <lb/>
             est; quod cum fecit traditor, non habet crimen, quia <lb/>
@@ -155,25 +163,27 @@
              sunt. isti autem falsi testes inuenti sunt, qui traditionis crimina <lb/>
             et aliena aliis obiecerunt et nec ipsa probare potuerunt. 
 </p>
-          
-</div>
-
-<div n="2" subtype="section" type="textpart">
-<p><milestone n="2" unit="altchapter"/> Quid adhuc adtenditis humana mendacia et diuina <lb n="25"/>
+         </div>
+         <div n="2" type="section">
+            <p>
+               <milestone n="2" unit="altchapter"/> Quid adhuc adtenditis humana mendacia et diuina <lb n="25"/>
             testimonia non adtenditis? quid adhuc uictis hominibus creditis <lb/>
             et ueritati, quae numquam est uicta, non creditis? ueritas <lb/>
             enim dei, sicut in ipsa etiam conlatione probauimus, <lb/>
             perhibuit testimonium ecclesiae suae per multa documenta <lb/>
             scripturarum sanctarum, per propheticas et euangelicas litteras;
 
-<note type="footnote"> 3 facit <hi rend="italic">BCb</hi> 8 scribtum (t 8. <hi rend="italic">I.) A</hi> 11 in unum conuenimus <hi rend="italic">c</hi> <lb/>
+<note type="footnote"> 3 facit <hi rend="italic">BCb</hi> 8 scribtum (t 8. <hi rend="italic">I.) A</hi> 11 in unum conuenimus <hi rend="italic">c</hi>
+                  <lb/>
             13 dicunt <hi rend="italic">inljindignum A</hi> 18 progeniem non esse <hi rend="italic">bml</hi> non progeniem <lb/>
             esse <hi rend="italic">b tr</hi>. 21 nos (s 8. <hi rend="italic">I.) A</hi> 24 aliena] alia <hi rend="italic">b</hi> 25 adhuc] <hi rend="italic">add</hi>. <lb/>
-            uictis <hi rend="italic">Bml</hi> 27 uicta est <hi rend="italic">b</hi> non] nam <hi rend="italic">C</hi> 29 suum aecclesiae sue <hi rend="italic">B</hi> <lb/>
+            uictis <hi rend="italic">Bml</hi> 27 uicta est <hi rend="italic">b</hi> non] nam <hi rend="italic">C</hi> 29 suum aecclesiae sue <hi rend="italic">B</hi>
+                  <lb/>
             30 scribturarum <hi rend="italic">A (et sic semper</hi> scribtus, scribsi, suscribsimus) sanctarum <lb/>
-            scripturarum <hi rend="italic">b</hi> </note> <lb n="30"/>
-             
-<pb n="99"/>
+            scripturarum <hi rend="italic">b</hi>
+               </note>
+               <lb n="30"/>
+               <pb n="99"/>
             et locus designatus est, unde Christi ecclesia fuerat inceptura, <lb/>
             et fines terrae, quo usque fuerat peruentura. per omnes gentes <lb/>
             futuram ecclesiam suam dominus dicit incipientem ab Hierusalem. <lb/>
@@ -192,11 +202,10 @@
             Carthagini habuimus, quod nec causae causa nec personae <lb/>
             persona praeiudicet. 
 </p>
-          
-</div>
-
-<div n="3" subtype="section" type="textpart">
-<p><milestone n="3" unit="altchapter"/> Tunc autem hoc dixerunt, quando eis diximus: \'concilium, <lb/>
+         </div>
+         <div n="3" type="section">
+            <p>
+               <milestone n="3" unit="altchapter"/> Tunc autem hoc dixerunt, quando eis diximus: \'concilium, <lb/>
             quod contra Caecilianum profertis, sic non obest absenti <lb/>
             Caeciliano, quemadmodum concilium, quod in causa <lb n="20"/>
             Maximiani factum est, ubi damnatus est Primianus, non obest <lb/>
@@ -209,18 +218,18 @@
 
 <note type="footnote"> 2 cf. Luc. 24, 47 5 cf. Act. 2 16 cf. Breuic. III 16, 28. ep. <lb/>
             173, 7 18 cf. Breuic. 1. c. </note>
-
-<note type="footnote"> 1 incoeptura <hi rend="italic">ABC</hi> 2 finis <hi rend="italic">C</hi> 3 ierusalem <hi rend="italic">BCbc, item saepius</hi> <lb/>
+               <note type="footnote"> 1 incoeptura <hi rend="italic">ABC</hi> 2 finis <hi rend="italic">C</hi> 3 ierusalem <hi rend="italic">BCbc, item saepius</hi>
+                  <lb/>
             6 lectio <hi rend="italic">BC</hi> diuina lectio recitatur <hi rend="italic">Bm2b</hi> 7 peruitia (uitia <hi rend="italic">del. et <lb/>
             in mg. m2</hi> uicina loca) <hi rend="italic">B</hi> per uicia <hi rend="italic">C</hi> 12 ciuitatum <hi rend="italic">BCbcv</hi> 14 qua] <lb/>
             quae <hi rend="italic">BCbcv</hi> 16 cartbagine <hi rend="italic">BC</hi> cartagine <hi rend="italic">b</hi> 21 maximiani (a <hi rend="italic">alt. <lb/>
              s. I.) A</hi> factum est ubi 8 <hi rend="italic">l. Am2</hi> 22 absente <hi rend="italic">b</hi> ubi] ibi v <lb/>
             et quod excurrit <hi rend="italic">om. b</hi> quot <hi rend="italic">codd</hi>. 23 episcopos qui absentem <lb/>
-            damnauerunt <hi rend="italic">v</hi> 24 episopi centum <hi rend="italic">b</hi> 26 obest] best <hi rend="italic">C</hi> </note>
-
-<note type="footnote"> 7* </note> <lb/>
-             
-<pb n="100"/>
+            damnauerunt <hi rend="italic">v</hi> 24 episopi centum <hi rend="italic">b</hi> 26 obest] best <hi rend="italic">C</hi>
+               </note>
+               <note type="footnote"> 7* </note>
+               <lb/>
+               <pb n="100"/>
             continuo non inuenientes quod responderent et horribiles angustias <lb/>
             passi dixerunt nec causam causae nec personam praeiudicare <lb/>
             personae; quod aduersus omnes humanas calumnias <lb/>
@@ -236,13 +245,11 @@
             non deputetur episcopus et contaminet omnes christianas <lb/>
             gentes usque ad terminos terrae, et causae causa et personae <lb/>
             persona praeiudicat. <lb n="15"/>
-            
-</p>
-          
-</div>
-
-<div n="4" subtype="section" type="textpart">
-<p><milestone n="4" unit="altchapter"/> Si uoce ipsius unitatis clament ecclesiae Ponti, <lb/>
+            </p>
+         </div>
+         <div n="4" type="section">
+            <p>
+               <milestone n="4" unit="altchapter"/> Si uoce ipsius unitatis clament ecclesiae Ponti, <lb/>
             Bithyniae, Asiae, Cappadociae ceterarumque orientalium regionum, <lb/>
             ad quas beatus Petrus apostolus scribit: (o pars Donati, <lb/>
             non nouimus quid dicatis. quare nobis non communicatis? si <lb/>
@@ -255,17 +262,19 @@
             ut nobis praeiudicet Caecilianus?\' clament etiam similiter
 
 <note type="footnote"> 18 cf. I Petr. 1, 1 </note>
-
-<note type="footnote"> 1 inuenientis <hi rend="italic">Bml</hi> quod] quae c orribiles <hi rend="italic">Bml</hi> 5 quod <lb/>
+               <note type="footnote"> 1 inuenientis <hi rend="italic">Bml</hi> quod] quae c orribiles <hi rend="italic">Bml</hi> 5 quod <lb/>
             om. <hi rend="italic">Bb</hi> 6 tristitia graui perferat (««F <hi rend="italic">tr. mD Ã</hi> tristitia perferat<lb/>
              irraoi r 7 lacrimis <hi rend="italic">BCb</hi> 8 uoce <hi rend="italic">Bm2b</hi> 16 SiJ Sed cr; firvaxoXooaov <lb/>
             est <hi rend="italic">cf. jRs</hi>. m. <hi rend="italic">:M!ł et Partn. I 7, 12 init</hi> clamant <hi rend="italic">BC</hi> clamat <hi rend="italic">b</hi> 17 bythmiae <lb/>
             -4 bitliiniie <hi rend="italic">BCb</hi>? asye c cappadotiae <hi rend="italic">BC</hi> 18 apostolns <lb/>
-            petrus <hi rend="italic">b</hi> scripsit <hi rend="italic">Bb</hi> 19 nobiscuiu <hi rend="italic">b</hi> 20 probatum non est <hi rend="italic">c</hi> <lb/>
-            22 praeiudicaiu bml nos] nos ltnl 24 an adasque adeo <hi rend="italic">BC</hi> <lb/>
-            !f praeiudicat <hi rend="italic">Bml</hi> </note> <lb/>
-             
-<pb n="101"/>
+            petrus <hi rend="italic">b</hi> scripsit <hi rend="italic">Bb</hi> 19 nobiscuiu <hi rend="italic">b</hi> 20 probatum non est <hi rend="italic">c</hi>
+                  <lb/>
+            22 praeiudicaiu bml nos] nos ltnl 24 an adasque adeo <hi rend="italic">BC</hi>
+                  <lb/>
+            !f praeiudicat <hi rend="italic">Bml</hi>
+               </note>
+               <lb/>
+               <pb n="101"/>
             septem orientales ecclesiae, ad quas scribit apostolus Iohannes. <lb/>
             Ephesi, Zmyrnae, Thyatirae, Sardis, Philadelphiae, Laudociae, <lb/>
             Pergami, et dicant: (quid uobis fecimus, fratres, qui potius <lb/>
@@ -295,22 +304,20 @@
             nos apostolus salutauit dicens: gratia uobis et pax a deo
 
 <note type="footnote"> 1 cf. Apoc. 1, 11 15 cf. Apoc. 3, 4 27 Rom. 1, 7 cet. </note>
-
-<note type="footnote"> 1 orientales septem ecclesiae <hi rend="italic">(tr. ml) A</hi> ecclesiae orientales septem <hi rend="italic">BCbv</hi> <lb/>
-            quas] qua <hi rend="italic">A</hi> quam <hi rend="italic">BmlC</hi> 2 zmirnae <hi rend="italic">A</hi> (y <hi rend="italic">s</hi>. i), c smirnae <hi rend="italic">BCb</hi> <lb/>
+               <note type="footnote"> 1 orientales septem ecclesiae <hi rend="italic">(tr. ml) A</hi> ecclesiae orientales septem <hi rend="italic">BCbv</hi>
+                  <lb/>
+            quas] qua <hi rend="italic">A</hi> quam <hi rend="italic">BmlC</hi> 2 zmirnae <hi rend="italic">A</hi> (y <hi rend="italic">s</hi>. i), c smirnae <hi rend="italic">BCb</hi>
+                  <lb/>
             tiatyrae <hi rend="italic">A</hi> tiatirae <hi rend="italic">BC</hi> tyatirae c philadelfiae <hi rend="italic">B</hi> phyladelfiae <hi rend="italic">b</hi> lauditiae <lb/>
-            <hi rend="italic">BC</hi> laodiciae <hi rend="italic">b(v)</hi> laoditie c 3 fecimu <hi rend="italic">B</hi> 11 partis (s s. i) <hi rend="italic">B</hi> <lb/>
-            12 persona personae <hi rend="italic">b</hi> 13 haereditati <hi rend="italic">A</hi> 14 plantati <hi rend="italic">A corr. (ex</hi> <lb/>
+                  <hi rend="italic">BC</hi> laodiciae <hi rend="italic">b(v)</hi> laoditie c 3 fecimu <hi rend="italic">B</hi> 11 partis (s s. i) <hi rend="italic">B</hi>
+                  <lb/>
+            12 persona personae <hi rend="italic">b</hi> 13 haereditati <hi rend="italic">A</hi> 14 plantati <hi rend="italic">A corr. (ex</hi>
+                  <lb/>
             pancati?) ad unam nostrum] adhuc b 23 philipensium <hi rend="italic">c</hi> colosensium <lb/>
-            <hi rend="italic">Bmlb</hi> 24 et <hi rend="italic">om. b</hi> 25 qui] quid <hi rend="italic">Bm2b</hi> 26 epistolis <hi rend="italic">Am2BCbc,<lb/>
-             item infra</hi> </note>
-
-
-
-
-
-             
-<pb n="102"/>
+                  <hi rend="italic">Bmlb</hi> 24 et <hi rend="italic">om. b</hi> 25 qui] quid <hi rend="italic">Bm2b</hi> 26 epistolis <hi rend="italic">Am2BCbc,<lb/>
+             item infra</hi>
+               </note>
+               <pb n="102"/>
             patre et domino Iesu Christo. quare pacem in nostris <lb/>
             epistulis legendo didicistis et eam nobiscum tenere noluistis? <lb/>
             tam in longinquis terris trans mare positis Afrum nobis obicitis <lb/>
@@ -321,13 +328,10 @@
             personae Primiani Carthaginiensis praeiudicet persona Mustitani <lb/>
             Feliciani, et ad nos Africana praeiudicia tam longe mittantur <lb/>
             aut nobis praeiudicet causa Caeciliani?\'<lb n="10"/>
-            
-</p>
-          
-</div>
-
-<div n="5" subtype="section" type="textpart">
-<p>Dicat etiam catholica ecclesia in ipsa Africa constituta et <lb/>
+            </p>
+         </div>
+         <div n="5" type="section">
+            <p>Dicat etiam catholica ecclesia in ipsa Africa constituta et <lb/>
             per pacem atque unitatem Christi illis omnibus communione <lb/>
             copulata, dicat etiam ipsa: nec mihi Caeciliani causa praeiudicat, <lb/>
             contra quem absentem septuaginta episcoporum est prolata <lb/>
@@ -349,21 +353,22 @@
 
 <note type="footnote">3 in tam <hi rend="italic">v, cf. 19, 25</hi> tam in proximo 4 certe si <hi rend="italic">Bm2b</hi> 5 personae <lb/>
             persona <hi rend="italic">cv</hi> 6 pecularis <hi rend="italic">c</hi> 7 non praeiudicet causa <hi rend="italic">b</hi> 8 carthaginiessis <lb/>
-            <hi rend="italic">Bml</hi> praeiudicat <hi rend="italic">Bb musta ni A, et sic BCb</hi> 9 tan <hi rend="italic">Bml</hi> <lb/>
-            10 aut] ut <hi rend="italic">bv</hi> praeiudicat <hi rend="italic">Btnl</hi> 17 colligae <hi rend="italic">Am2</hi> 22 affrica <hi rend="italic">Bc</hi> <lb/>
+                  <hi rend="italic">Bml</hi> praeiudicat <hi rend="italic">Bb musta ni A, et sic BCb</hi> 9 tan <hi rend="italic">Bml</hi>
+                  <lb/>
+            10 aut] ut <hi rend="italic">bv</hi> praeiudicat <hi rend="italic">Btnl</hi> 17 colligae <hi rend="italic">Am2</hi> 22 affrica <hi rend="italic">Bc</hi>
+                  <lb/>
             27 damnatus est Primianus <hi rend="italic">v</hi> 28 Felicianum <hi rend="italic">om. ABCb</hi> dam(-p-B) <lb/>
-            nati <hi rend="italic">ABCb</hi> 29 Primiano] primianri <hi rend="italic">Bml</hi> sociati <hi rend="italic">Am1</hi> </note> <lb/>
-             
-<pb n="103"/>
+            nati <hi rend="italic">ABCb</hi> 29 Primiano] primianri <hi rend="italic">Bml</hi> sociati <hi rend="italic">Am1</hi>
+               </note>
+               <lb/>
+               <pb n="103"/>
             quod nec causa causae praeiudicat nec persona personae, ut <lb/>
             tibi non praeiudicet hodie tecum uiuentis communio Feliciani, <lb/>
             mihi quomodo praeiudicat olim defuncti memoria Caeciliani?\'
 </p>
-          
-</div>
-
-<div n="6" subtype="section" type="textpart">
-<p>Quid ad ista respondent, qui uobis adhuc iactant inania <lb/>
+         </div>
+         <div n="6" type="section">
+            <p>Quid ad ista respondent, qui uobis adhuc iactant inania <lb/>
             et suae saluti, si non se correxerint, nocitura mendacia? quid <lb n="5"/>
             adhuc dicunt nos iudicem corrupisse, ut pro nobis sententia <lb/>
             proferretur? numquid et tanti apud uos meriti episcopum <lb/>
@@ -391,14 +396,18 @@
 
 <note type="footnote">7 Primianum significat, non Ernerituffi, ut Maurini putabant 25 cf. <lb/>
             Matth. 13, 49 </note>
-
-<note type="footnote"> 2 uiuenti <hi rend="italic">ABCb</hi> 4 aduc <hi rend="italic">Bm]</hi> 6 <hi rend="italic">iudi||dicem A</hi> 7 proferetur <hi rend="italic">BmlC</hi> <lb/>
-            11 et] atque c et personam <hi rend="italic">om. b</hi> 12 roborauit s. <hi rend="italic">I. A</hi> roborabit <hi rend="italic">Bml</hi> <lb/>
-            hoc] <hi rend="italic">add</hi>. enim <hi rend="italic">Bml</hi> 17 causae et <hi rend="italic">addidi</hi> 20 <hi rend="italic">oui//////u////</hi> (m s. <hi rend="italic">alt. ras.) A</hi> <lb/>
-            21 peccora <hi rend="italic">Bm]</hi> 24 eadem intra <hi rend="italic">BC, sed tr. ml</hi> 25 littore <hi rend="italic">BCcv</hi> <lb/>
-            separanda <hi rend="italic">codd</hi>. 28 boni malis <hi rend="italic">BmlCc</hi> bonis mali <hi rend="italic">Bm2b</hi> </note> <lb/>
-             
-<pb n="104"/>
+               <note type="footnote"> 2 uiuenti <hi rend="italic">ABCb</hi> 4 aduc <hi rend="italic">Bm]</hi> 6 <hi rend="italic">iudi||dicem A</hi> 7 proferetur <hi rend="italic">BmlC</hi>
+                  <lb/>
+            11 et] atque c et personam <hi rend="italic">om. b</hi> 12 roborauit s. <hi rend="italic">I. A</hi> roborabit <hi rend="italic">Bml</hi>
+                  <lb/>
+            hoc] <hi rend="italic">add</hi>. enim <hi rend="italic">Bml</hi> 17 causae et <hi rend="italic">addidi</hi> 20 <hi rend="italic">oui//////u////</hi> (m s. <hi rend="italic">alt. ras.) A</hi>
+                  <lb/>
+            21 peccora <hi rend="italic">Bm]</hi> 24 eadem intra <hi rend="italic">BC, sed tr. ml</hi> 25 littore <hi rend="italic">BCcv</hi>
+                  <lb/>
+            separanda <hi rend="italic">codd</hi>. 28 boni malis <hi rend="italic">BmlCc</hi> bonis mali <hi rend="italic">Bm2b</hi>
+               </note>
+               <lb/>
+               <pb n="104"/>
             possint, cum uel ignorantur uel pro pace et tranquillitate <lb/>
             ecclesiae tolerantur, si eos prodi aut accusari non oportuerit <lb/>
             aut aliis bonis non potuerint demonstrari, ita sane, ut nec <lb/>
@@ -414,11 +423,10 @@
             caritatem, ne forte aut indisciplinata patientia foueat iniquitatem <lb/>
             aut inpatiens disciplina dissipet unitatem. 
 </p>
-          
-</div>
-
-<div n="7" subtype="section" type="textpart">
-<p><milestone n="5" unit="altchapter"/> Ista cum fiunt a bonis, non inquinantur a malis, <lb n="15"/>
+         </div>
+         <div n="7" type="section">
+            <p>
+               <milestone n="5" unit="altchapter"/> Ista cum fiunt a bonis, non inquinantur a malis, <lb n="15"/>
             quia nec eorum peccatis consentiendo communicant et ab eis <lb/>
             etsi non corporaliter segregatione, tamen spiritali uitae dissimilitudine <lb/>
             et morum diuersitate discedunt, eo modo oboedientes <lb/>
@@ -435,14 +443,16 @@
 
 <note type="footnote"> 7 II Thess. 3, 14-15 19 Esai. 52, 11 22 Esai. 65, 5 25 cf. <lb/>
             Breuic. III 9, 18 28 Ps. 25, 5 \' </note>
-
-<note type="footnote"> 1 uel cum <hi rend="italic">b</hi> 2 oportuerit] potuerit <hi rend="italic">Cml</hi> 3 d non (d <hi rend="italic">del.) A</hi> <lb/>
+               <note type="footnote"> 1 uel cum <hi rend="italic">b</hi> 2 oportuerit] potuerit <hi rend="italic">Cml</hi> 3 d non (d <hi rend="italic">del.) A</hi>
+                  <lb/>
             8 obaudiuit <hi rend="italic">BCmlb</hi> 17 corporali <hi rend="italic">cv</hi> spiritiali <hi rend="italic">C</hi> similitudine c <lb/>
-            20 spitaliter <hi rend="italic">C (saepius)</hi> 22 quid <hi rend="italic">BmlC</hi> 23 hi <hi rend="italic">c</hi> hic-meae <hi rend="italic">om. b</hi> <lb/>
+            20 spitaliter <hi rend="italic">C (saepius)</hi> 22 quid <hi rend="italic">BmlC</hi> 23 hi <hi rend="italic">c</hi> hic-meae <hi rend="italic">om. b</hi>
+                  <lb/>
             25 confessu <hi rend="italic">Bm]</hi> 26 sibi scriptum <hi rend="italic">b</hi> 28 intelligentia <hi rend="italic">BmlC</hi> iutellegentias <lb/>
-            <hi rend="italic">Bm2</hi> </note> <lb/>
-             
-<pb n="105"/>
+                  <hi rend="italic">Bm2</hi>
+               </note>
+               <lb/>
+               <pb n="105"/>
             non sedebo, et tamen fecerunt, quod in eodem ipso loco <lb/>
             psalmi pariter prohibetur. nam ibi dicit propheta: et cum <lb/>
             iniqua gerentibus non introibo. si ergo, quia nos iniquos <lb/>
@@ -452,18 +462,17 @@
             non intellegendo et carnaliter sapiendo etiam ipsam unitatem <lb/>
             dissipauerunt? 
 </p>
-          
-</div>
-
-<div n="8" subtype="section" type="textpart">
-<p>Non itaque polluunt mali bonos in eodem agro, in eadem <lb/>
+         </div>
+         <div n="8" type="section">
+            <p>Non itaque polluunt mali bonos in eodem agro, in eadem <lb/>
             area, in eisdem pascuis, in eisdem retibus constituti, quia <lb n="10"/>
             non eis communicant boni, sed altari et sacramentis dei. communicant <lb/>
             autem malis qui consentiunt factis malorum; scriptum <lb/>
             est enim: non solum qui faciunt ea, uerum etiam <lb/>
             qui consentiunt facientibus. 
 </p>
-          <p><milestone n="6" unit="altchapter"/>Cum uero mali pacis conseruandae necessitate tolerantur, <lb n="15"/>
+            <p>
+               <milestone n="6" unit="altchapter"/>Cum uero mali pacis conseruandae necessitate tolerantur, <lb n="15"/>
             non iniquitatis communicandae societate appetuntur, ut cum <lb/>
             zizaniis triticum suauem pluuiam pariter bibat, seruet tamen <lb/>
             ubertatem suam nec conuertatur in zizaniorum sterilitatem, <lb/>
@@ -481,13 +490,15 @@
 
 <note type="footnote"> 2 Ps. 25, 4 13 Rora. 1, 32 22 II Cor. 6, 14 24 ibid. 26 II <lb/>
             Cor. 6, 15 28 ibid. </note>
-
-<note type="footnote"> 3 iniquianos <hi rend="italic">Bml</hi> 6 et <hi rend="italic">om. v</hi> 7 etiam <hi rend="italic">om. v</hi> 9 110nlloon <hi rend="italic">A</hi> <lb/>
-            12 factis <hi rend="italic">ex</hi> fatientibus <hi rend="italic">C</hi> 13 uerum) sed c 16 cum] con <hi rend="italic">Cml</hi> <lb/>
+               <note type="footnote"> 3 iniquianos <hi rend="italic">Bml</hi> 6 et <hi rend="italic">om. v</hi> 7 etiam <hi rend="italic">om. v</hi> 9 110nlloon <hi rend="italic">A</hi>
+                  <lb/>
+            12 factis <hi rend="italic">ex</hi> fatientibus <hi rend="italic">C</hi> 13 uerum) sed c 16 cum] con <hi rend="italic">Cml</hi>
+                  <lb/>
             19 crescat usque ad messem <hi rend="italic">b</hi> 20 tricum <hi rend="italic">Bml</hi> 23 cum malis habent <lb/>
-            boni c 26 belial <hi rend="italic">BCbcv</hi> 28 infidele <hi rend="italic">BmlCm2</hi> </note> <lb/>
-             
-<pb n="106"/>
+            boni c 26 belial <hi rend="italic">BCbcv</hi> 28 infidele <hi rend="italic">BmlCm2</hi>
+               </note>
+               <lb/>
+               <pb n="106"/>
             sacramenta percipiunt, illi sociantur, illi dissociantur, isti <lb/>
             consonant, illi dissonant, isti habent partem cum misericordia, <lb/>
             illi cum iudicio, quoniam misericordiam (et iudicium) cantat <lb/>
@@ -497,11 +508,9 @@
             societas, quae consonantia, quae pars Petro cum Iuda, quoniam <lb/>
             nec causa causae praeiudicat nec persona personae? 
 </p>
-          
-</div>
-
-<div n="9" subtype="section" type="textpart">
-<p>Siue ergo exeant, de quibus scriptum est: ex nobis <lb/>
+         </div>
+         <div n="9" type="section">
+            <p>Siue ergo exeant, de quibus scriptum est: ex nobis <lb/>
             exierunt, sed non erant ex nobis, siue intus esse uideantur,<lb n="10"/>
             de quibus beatus Cyprianus apertissime loquitur dicens: <lb/>
             nam etsi uidentur in ecclesia esse zizania, non <lb/>
@@ -526,21 +535,22 @@
 <note type="footnote"> 3 cf. Ps. 100, 1 4 cf. I Cor. 11, 29 9 1 Ioh. 2, 19 12 Cypr. <lb/>
             ep. 54, 3 17 cf. Breuic. III 9, 15 18 Matth. 13, 38 23 I Ioh. <lb/>
             2, 15 28 II Cor. 5, 19 </note>
-
-<note type="footnote"> 1 <hi rend="italic">pr</hi>. illi] isti <hi rend="italic">v</hi> illi dissociantur <hi rend="italic">om. BCb</hi> 3 et.iudicium <hi rend="italic">om. <lb/>
-             codd., cf. 20, 27 extr</hi>. 15 uestri* <hi rend="italic">B</hi> 17 figurata <hi rend="italic">ACb</hi> futura <hi rend="italic">Bcv</hi> <lb/>
+               <note type="footnote"> 1 <hi rend="italic">pr</hi>. illi] isti <hi rend="italic">v</hi> illi dissociantur <hi rend="italic">om. BCb</hi> 3 et.iudicium <hi rend="italic">om. <lb/>
+             codd., cf. 20, 27 extr</hi>. 15 uestri* <hi rend="italic">B</hi> 17 figurata <hi rend="italic">ACb</hi> futura <hi rend="italic">Bcv</hi>
+                  <lb/>
             21 praenuntiabatur c unde illi] illi uero <hi rend="italic">b</hi> illi* <hi rend="italic">A</hi> 29 <hi rend="italic">post</hi> ecclesiam <lb/>
-            <hi rend="italic">in v cap. 7 incipit</hi> </note> <lb/>
-             
-<pb n="107"/>
+                  <hi rend="italic">in v cap. 7 incipit</hi>
+               </note>
+               <lb/>
+               <pb n="107"/>
             exeant mali siue intus uel ignorentur uel uideantur, hoc agit <lb/>
             misericordia et iustitia dei, ut sibi ad mala non consentientibus <lb/>
             bonis mali non obsint, sed utrique propriam sarcinam <lb/>
             portent, et nec filius accipiat peccata patris, nisi eum fuerit <lb/>
             in malis imitatus, sed anima quae peccauerit ipsa moriatur. <lb n="5"/>
-            
-</p>
-          <p><milestone n="7" unit="altchapter"/>Cum ergo quisque malis consentit ad malum. iam <lb/>
+            </p>
+            <p>
+               <milestone n="7" unit="altchapter"/>Cum ergo quisque malis consentit ad malum. iam <lb/>
             unam causam cum eis habet et totius societatis malorum <lb/>
             fit una persona, ac per hoc, cum simul pereunt simulque <lb/>
             damnantur, causa sua et persona sua cuique praeiudicat, non <lb/>
@@ -550,13 +560,10 @@
             personas, eundem cibum sanctum aliis manducantibus <lb/>
             digne aliis indigne, nec causa causae praeiudicat nec persona <lb/>
             personae. <lb n="15"/>
-            
-</p>
-          
-</div>
-
-<div n="10" subtype="section" type="textpart">
-<p>Ac per hoc, quaecumque testimonia diuinarum scripturarum <lb/>
+            </p>
+         </div>
+         <div n="10" type="section">
+            <p>Ac per hoc, quaecumque testimonia diuinarum scripturarum <lb/>
             episcopi uestri commemorare potuerunt, quibus ab <lb/>
             omni malorum hominum permixtione pura praenuntiabatur <lb/>
             ecclesia, non qualis nunc est illis testimoniis praenuntiabatur, <lb/>
@@ -570,24 +577,26 @@
             etiam uolebant inter se ipsa diuina documenta pugnare. nec
 
 <note type="footnote"> 3 cf. Gal. 6, 5 5 cf. Ezech. 18, 4 </note>
-
-<note type="footnote"> 1 ignore«tur <hi rend="italic">A</hi> ignorantur uel uidentur <hi rend="italic">Bml</hi> 3 ntalij mala <hi rend="italic">Cml</hi> <lb/>
+               <note type="footnote"> 1 ignore«tur <hi rend="italic">A</hi> ignorantur uel uidentur <hi rend="italic">Bml</hi> 3 ntalij mala <hi rend="italic">Cml</hi>
+                  <lb/>
             4 et] ut <hi rend="italic">v</hi> peccatum <hi rend="italic">ex</hi> peccati <hi rend="italic">Bm2, et b</hi> 5 morietur <hi rend="italic">Bb</hi> 7 habet <lb/>
-            cum eis <hi rend="italic">v</hi> 8 cum hoc <hi rend="italic">Cml</hi> simul cum <hi rend="italic">Bb</hi> 11 sacramenta dei <hi rend="italic">BC</hi> <lb/>
+            cum eis <hi rend="italic">v</hi> 8 cum hoc <hi rend="italic">Cml</hi> simul cum <hi rend="italic">Bb</hi> 11 sacramenta dei <hi rend="italic">BC</hi>
+                  <lb/>
             14 praeiudicat <hi rend="italic">post</hi> personae <hi rend="italic">tr. c</hi> 16 diuina <hi rend="italic">Bml</hi> scripturarum diuinarum <lb/>
-            <hi rend="italic">b</hi> 22 merita <hi rend="italic">codd</hi>. non <hi rend="italic">addidi, cf. supra lin. 4 et Breuic, <lb/>
-            III 9, 17</hi> uel malitiam <hi rend="italic">b</hi> 23 quod <hi rend="italic">deleui</hi> 25 pro <hi rend="italic">bis Cml</hi> <lb/>
-            27 nolebant <hi rend="italic">BmlC</hi> ipsa. se <hi rend="italic">Cml</hi> </note> <lb/>
-             
-<pb n="108"/>
+                  <hi rend="italic">b</hi> 22 merita <hi rend="italic">codd</hi>. non <hi rend="italic">addidi, cf. supra lin. 4 et Breuic, <lb/>
+            III 9, 17</hi> uel malitiam <hi rend="italic">b</hi> 23 quod <hi rend="italic">deleui</hi> 25 pro <hi rend="italic">bis Cml</hi>
+                  <lb/>
+            27 nolebant <hi rend="italic">BmlC</hi> ipsa. se <hi rend="italic">Cml</hi>
+               </note>
+               <lb/>
+               <pb n="108"/>
             mirum si pacem scripturae dei non intellegebant, qui pacem <lb/>
             cum eius ecclesia non habebant. 
 </p>
-          
-</div>
-
-<div n="11" subtype="section" type="textpart">
-<p><milestone n="8" unit="altchapter"/> Nos autem utraque accipientes testimonia demonstrabamus <lb/>
+         </div>
+         <div n="11" type="section">
+            <p>
+               <milestone n="8" unit="altchapter"/> Nos autem utraque accipientes testimonia demonstrabamus <lb/>
             utrorumque concordiam. nam et illud accipiebamus, <lb/>
             quod in suis litteris commemorauerunt, ecclesiae dictum esse:<lb n="5"/>
             nec adiciet ultra per te transire incircumcisus et <lb/>
@@ -618,12 +627,13 @@
 <note type="footnote"> 6 Esai. 52, 1. cf. Breuic. III 9, 16 7 Matth. 13, 30 12 Cypr. <lb/>
             ep. 54, 3 17 II Cor. 5, 19 19 Ioh. 3, 17 26 cf. Matth. 13, 47—50 <lb/>
             28 cf. Breuic. III 8, 10 </note>
-
-<note type="footnote"> 11 immundo <hi rend="italic">cml</hi> 12 qui] senserunt qui <hi rend="italic">b</hi> 14 <hi rend="italic">pr</hi>. aut <hi rend="italic">oni. c</hi> <lb/>
-            nostra <hi rend="italic">om. c</hi> ud <hi rend="italic">JBml</hi> 18 uerba ipsius c 25 sepa*»rentur <hi rend="italic">A</hi> <lb/>
-            26 uicti) uiti <hi rend="italic">Bml</hi> 27 fine c </note> <lb/>
-             
-<pb n="109"/>
+               <note type="footnote"> 11 immundo <hi rend="italic">cml</hi> 12 qui] senserunt qui <hi rend="italic">b</hi> 14 <hi rend="italic">pr</hi>. aut <hi rend="italic">oni. c</hi>
+                  <lb/>
+            nostra <hi rend="italic">om. c</hi> ud <hi rend="italic">JBml</hi> 18 uerba ipsius c 25 sepa*»rentur <hi rend="italic">A</hi>
+                  <lb/>
+            26 uicti) uiti <hi rend="italic">Bml</hi> 27 fine c </note>
+               <lb/>
+               <pb n="109"/>
             adhuc in mari sunt, a piscatoribus [intra retia] non uidentur. <lb/>
             quomodo ergo testimonium propheticum, quod in sua responsione <lb/>
             posuerunt, quo ecclesiae dictum est: non adiciet ultra <lb/>
@@ -636,11 +646,10 @@
             ueritatis. quae suos non in carne, sed in corde torquet inimicos, <lb n="10"/>
             ut eam confiteantur inuiti! 
 </p>
-          
-</div>
-
-<div n="12" subtype="section" type="textpart">
-<p><milestone n="9" unit="altchapter"/> Ecce manifestatum est quod dicebatur a nobis, <lb/>
+         </div>
+         <div n="12" type="section">
+            <p>
+               <milestone n="9" unit="altchapter"/> Ecce manifestatum est quod dicebatur a nobis, <lb/>
             distinguenda esse tempora ecclesiae: non eam nunc esse talem, <lb/>
             qualis post resurrectionem futura est; nunc malos habere permixtos, <lb/>
             tunc omnino non habituram; ad illam eius puritatem. <lb n="15"/>
@@ -661,20 +670,18 @@
 
 <note type="footnote"> 3. 22 Esai. 52, 1 13 cf. Breuic. III 10, 20 25 cf. Breuic. III <lb/>
             10, 19 </note>
-
-<note type="footnote"> 1 a piscatoribus s. <hi rend="italic">I. Am2</hi> intra retia <hi rend="italic">del. Bm2, om. b, cf. p. 111, 6</hi> <lb/>
+               <note type="footnote"> 1 a piscatoribus s. <hi rend="italic">I. Am2</hi> intra retia <hi rend="italic">del. Bm2, om. b, cf. p. 111, 6</hi>
+                  <lb/>
             2 propheticum testimonium <hi rend="italic">b</hi> 3 quod <hi rend="italic">bv</hi> 8 saeculo s. <hi rend="italic">l. A</hi> 13 tempore <lb/>
-            <hi rend="italic">Cml</hi> 17 permixtionem <hi rend="italic">BmlCml</hi> 18 poenitus <hi rend="italic">B</hi> 22 prophetam <lb/>
-            <hi rend="italic">Bml</hi> 25 no**bis (no <hi rend="italic">eras.) B</hi> 28 adtendere] permittere <hi rend="italic">B, sed del. <lb/>
-            et in mg. adscript</hi>. attendere </note> 
-<pb n="110"/>
-            
-</p>
-          
-</div>
-
-<div n="13" subtype="section" type="textpart">
-<p><milestone n="10" unit="altchapter"/> Hoc ipsum etiam, quod sibi acutum inuenisse uidebantur, <lb/>
+                  <hi rend="italic">Cml</hi> 17 permixtionem <hi rend="italic">BmlCml</hi> 18 poenitus <hi rend="italic">B</hi> 22 prophetam <lb/>
+                  <hi rend="italic">Bml</hi> 25 no**bis (no <hi rend="italic">eras.) B</hi> 28 adtendere] permittere <hi rend="italic">B, sed del. <lb/>
+            et in mg. adscript</hi>. attendere </note>
+               <pb n="110"/>
+            </p>
+         </div>
+         <div n="13" type="section">
+            <p>
+               <milestone n="10" unit="altchapter"/> Hoc ipsum etiam, quod sibi acutum inuenisse uidebantur, <lb/>
             contra se potius proferebant. si enim dominus propterea <lb/>
             retibus bonos et malos pisces pariter congregantibus ecclesiam <lb/>
             conparauit, quia malos in ecclesia non manifestos, sed <lb/>
@@ -696,11 +703,9 @@
             similitudine conparanda sunt, sicut plenitudini tritici inanitas<lb n="20"/>
             paleae non potest conparari.-
 </p>
-          
-</div>
-
-<div n="14" subtype="section" type="textpart">
-<p>Temptauerunt sane episcopi uestri negare scriptum in <lb/>
+         </div>
+         <div n="14" type="section">
+            <p>Temptauerunt sane episcopi uestri negare scriptum in <lb/>
             euangelio, quod areae sit ecclesia conparata, sed mox euangelicorum <lb/>
             uerborum commemoratione conuicti ad id se conuerterunt, <lb/>
             ut etiam ibi dicerent occultos malos significatos, non<lb n="25"/>
@@ -709,15 +714,18 @@
 
 <note type="footnote"> 14 Hier. 23, 28. cf. Breuic. III 8, 10 22 cf. Breuic. III 9, 15 <lb/>
             26 Matth. 3, 12 </note>
-
-<note type="footnote"> 3 pariter] paceter <hi rend="italic">Cml</hi> 5 intelligit <hi rend="italic">Bml</hi> 6 coeperint <hi rend="italic">Aml</hi> 8 praenuntiaren <lb/>
-            tiarentur <hi rend="italic">Arnl</hi> 9 fumentis <hi rend="italic">Cml</hi> 10 in ea occulta sint <hi rend="italic">b</hi> <lb/>
-            11 hic (a 8. i) <hi rend="italic">B</hi> 12 qua <hi rend="italic">Bml</hi> 13 literis <hi rend="italic">B</hi> 14 heremiam <hi rend="italic">B</hi> <lb/>
-            hieremiam <hi rend="italic">C</hi> ieremiam <hi rend="italic">bc(v)</hi> paleae c 15 non quia-possunt <hi rend="italic">mg. Bm2</hi> <lb/>
+               <note type="footnote"> 3 pariter] paceter <hi rend="italic">Cml</hi> 5 intelligit <hi rend="italic">Bml</hi> 6 coeperint <hi rend="italic">Aml</hi> 8 praenuntiaren <lb/>
+            tiarentur <hi rend="italic">Arnl</hi> 9 fumentis <hi rend="italic">Cml</hi> 10 in ea occulta sint <hi rend="italic">b</hi>
+                  <lb/>
+            11 hic (a 8. i) <hi rend="italic">B</hi> 12 qua <hi rend="italic">Bml</hi> 13 literis <hi rend="italic">B</hi> 14 heremiam <hi rend="italic">B</hi>
+                  <lb/>
+            hieremiam <hi rend="italic">C</hi> ieremiam <hi rend="italic">bc(v)</hi> paleae c 15 non quia-possunt <hi rend="italic">mg. Bm2</hi>
+                  <lb/>
             18 cum hoc ageret non dicebat c 21 comparari non potest <hi rend="italic">b</hi> 22 temtauerunt <lb/>
-            <hi rend="italic">C</hi> 23 conparata <hi rend="italic">om. b</hi> </note> <lb/>
-             
-<pb n="111"/>
+                  <hi rend="italic">C</hi> 23 conparata <hi rend="italic">om. b</hi>
+               </note>
+               <lb/>
+               <pb n="111"/>
             frumenta recondet in horreo, paleas autem conburet <lb/>
             igni inextinguibili. uos itaque iudicate, aperite oculos, <lb/>
             aures intendite ueritati. si propterea, sicut ipsi dixerunt, dominus <lb/>
@@ -749,20 +757,22 @@
             suscripserunt, nec causae causa nec personae poterit praeiudicare <lb/>
             persona.
 
-<note type="footnote"> 1 horreum <hi rend="italic">BCb et Uulg., cf. Cresc. II 22, 27</hi> 5 uidente <hi rend="italic">Cml</hi> <lb/>
+<note type="footnote"> 1 horreum <hi rend="italic">BCb et Uulg., cf. Cresc. II 22, 27</hi> 5 uidente <hi rend="italic">Cml</hi>
+                  <lb/>
             7 areae <hi rend="italic">Gml</hi> 11 conatur <hi rend="italic">Bml</hi> 17 <hi rend="italic">iruarea A</hi> aream <hi rend="italic">b</hi> 19 propterea <lb/>
-            <hi rend="italic">scripai</hi> propter <hi rend="italic">codd. v</hi> occultos malos <hi rend="italic">bv</hi> occulto <hi rend="italic">A</hi> uoluit <hi rend="italic">A</hi> <lb/>
-            21 enim (nim <hi rend="italic">in ras.) A</hi> sic] sicut <hi rend="italic">Bm2</hi> 23 ante <hi rend="italic">ex</hi> an <hi rend="italic">Am2</hi> <lb/>
-            28 sicut 8. <hi rend="italic">l. B</hi> ipse <hi rend="italic">Bml</hi> illi <hi rend="italic">c</hi> </note> <lb n="30"/>
-            
-<pb n="112"/>
-            
-</p>
-          
-</div>
-
-<div n="15" subtype="section" type="textpart">
-<p><milestone n="11" unit="altchapter"/> Haec uerba se negarent forte dixisse, nisi sua possent <lb/>
+                  <hi rend="italic">scripai</hi> propter <hi rend="italic">codd. v</hi> occultos malos <hi rend="italic">bv</hi> occulto <hi rend="italic">A</hi> uoluit <hi rend="italic">A</hi>
+                  <lb/>
+            21 enim (nim <hi rend="italic">in ras.) A</hi> sic] sicut <hi rend="italic">Bm2</hi> 23 ante <hi rend="italic">ex</hi> an <hi rend="italic">Am2</hi>
+                  <lb/>
+            28 sicut 8. <hi rend="italic">l. B</hi> ipse <hi rend="italic">Bml</hi> illi <hi rend="italic">c</hi>
+               </note>
+               <lb n="30"/>
+               <pb n="112"/>
+            </p>
+         </div>
+         <div n="15" type="section">
+            <p>
+               <milestone n="11" unit="altchapter"/> Haec uerba se negarent forte dixisse, nisi sua possent <lb/>
             suscriptione conuinci. ecce quam diligenter actum est <lb/>
             pro salute uestra, ut uerbis nostris suscriberemus, quod fieri <lb/>
             omnino nolebant et ut facerent tandem aliquando pudore conpulsi <lb/>
@@ -782,11 +792,10 @@
             legerentur timere. maluerunt enim prosecutiones suas quibuscumque <lb/>
             nebulis postea defendere quam eas tam cito damnare. 
 </p>
-          
-</div>
-
-<div n="16" subtype="section" type="textpart">
-<p><milestone n="12" unit="altchapter"/> Sed uidete, rogamus uos, quemadmodum ipsa sua<lb n="20"/>
+         </div>
+         <div n="16" type="section">
+            <p>
+               <milestone n="12" unit="altchapter"/> Sed uidete, rogamus uos, quemadmodum ipsa sua<lb n="20"/>
             defensione se peius implicent et agant causam nostram et <lb/>
             omnino perimant suam. nam post conlationem, posteaquam <lb/>
             uicti appellare uoluerunt, obiecta sunt eis haec uerba, et ea <lb/>
@@ -798,14 +807,18 @@
             quod nocte contra eos est prolata sententia? quasi non
 
 <note type="footnote"> .3 cf. Breuic. II 3. </note>
-
-<note type="footnote"> 1 se <hi rend="italic">om. A</hi> negarent forte se c 5 eitant <hi rend="italic">BCbc</hi> 8 possint <hi rend="italic">v</hi> <lb/>
-            9 dixefunt c caluminari <hi rend="italic">C</hi> 11 illas <hi rend="italic">b</hi> iudicare <hi rend="italic">Bml</hi> 18 et et <hi rend="italic">cml</hi> <lb/>
-            15 et ideo-consenserunt <hi rend="italic">om. em]</hi> 16 sentiant <hi rend="italic">BmlC</hi> aparere <hi rend="italic">BmlC</hi> <lb/>
-            17 uindicare <hi rend="italic">ABmlCc</hi> se s. <hi rend="italic">l. Bm2</hi> 19 eis <hi rend="italic">Bml</hi> 26 non <hi rend="italic">om. BmlC</hi> <lb/>
-            27 ea <hi rend="italic">om. BCb</hi> non <hi rend="italic">om. BmlC</hi> 28 quod <hi rend="italic">ex</hi> quid <hi rend="italic">Aml</hi> con quaeri <hi rend="italic">A</hi> </note> <lb/>
-             
-<pb n="113"/>
+               <note type="footnote"> 1 se <hi rend="italic">om. A</hi> negarent forte se c 5 eitant <hi rend="italic">BCbc</hi> 8 possint <hi rend="italic">v</hi>
+                  <lb/>
+            9 dixefunt c caluminari <hi rend="italic">C</hi> 11 illas <hi rend="italic">b</hi> iudicare <hi rend="italic">Bml</hi> 18 et et <hi rend="italic">cml</hi>
+                  <lb/>
+            15 et ideo-consenserunt <hi rend="italic">om. em]</hi> 16 sentiant <hi rend="italic">BmlC</hi> aparere <hi rend="italic">BmlC</hi>
+                  <lb/>
+            17 uindicare <hi rend="italic">ABmlCc</hi> se s. <hi rend="italic">l. Bm2</hi> 19 eis <hi rend="italic">Bml</hi> 26 non <hi rend="italic">om. BmlC</hi>
+                  <lb/>
+            27 ea <hi rend="italic">om. BCb</hi> non <hi rend="italic">om. BmlC</hi> 28 quod <hi rend="italic">ex</hi> quid <hi rend="italic">Aml</hi> con quaeri <hi rend="italic">A</hi>
+               </note>
+               <lb/>
+               <pb n="113"/>
             saepe iudices audiendi necessitas tenet, ut usque ad multam <lb/>
             partem noctis sedere cogantur, aut ideo non est uerum quod <lb/>
             dicitur, quia per noctem dicitur. nec audiunt scripturam clamantem: <lb/>
@@ -826,11 +839,10 @@
             nihil se hominibus ostendisse nisi quantum timuerint ne ageretur, <lb/>
             ubi eorum peruersitas et catholica ueritas monstraretur. 
 </p>
-          
-</div>
-
-<div n="17" subtype="section" type="textpart">
-<p><milestone n="13" unit="altchapter"/> Adhuc dies erat, quando uolentes destruere iudicium <lb n="20"/>
+         </div>
+         <div n="17" type="section">
+            <p>
+               <milestone n="13" unit="altchapter"/> Adhuc dies erat, quando uolentes destruere iudicium <lb n="20"/>
             Romani episcopi Miltiadis, quo purgatus et absolutus <lb/>
             est Caecilianus, etiam ipsum Miltiadem traditorem fuisse dixerunt. <lb/>
             cuius criminationis cum ab eis esset exacta probatio, <lb/>
@@ -840,20 +852,21 @@
 
 <note type="footnote"> 4 Ps. 41, 9 5 Ps. 91, 3 10 cf. Act. 20. 7 16 cf. Breuic. I <lb/>
             8. III 5, 6 22 cf. Breuic. III 17, 34 sq. </note>
-
-<note type="footnote"> 1 teneat <hi rend="italic">cv</hi> utque <hi rend="italic">Bml</hi> 3 audiuit <hi rend="italic">Bml</hi> 5 annuntiandum <hi rend="italic">BUbe <lb/>
-            et Uulg</hi>. 7 quot <hi rend="italic">Bml</hi> ad] a <hi rend="italic">BmIC</hi> 8 nocturniis <hi rend="italic">uel</hi> nocturmis <hi rend="italic">B</hi> <lb/>
+               <note type="footnote"> 1 teneat <hi rend="italic">cv</hi> utque <hi rend="italic">Bml</hi> 3 audiuit <hi rend="italic">Bml</hi> 5 annuntiandum <hi rend="italic">BUbe <lb/>
+            et Uulg</hi>. 7 quot <hi rend="italic">Bml</hi> ad] a <hi rend="italic">BmIC</hi> 8 nocturniis <hi rend="italic">uel</hi> nocturmis <hi rend="italic">B</hi>
+                  <lb/>
             12 impediri <hi rend="italic">BmlC</hi> 14 contra <hi rend="italic">om. BmIC</hi> aduersum <hi rend="italic">BC</hi> 15 dies <lb/>
             erat (erant <hi rend="italic">Bml)</hi> utique <hi rend="italic">BC, sed tr. ml</hi> 17 intelligientes <hi rend="italic">Cml</hi> 18 se <lb/>
-            <hi rend="italic">s. I. A</hi> homines <hi rend="italic">b</hi> 21 Melcbiadis <hi rend="italic">cv (passim)</hi> 23 exacto <hi rend="italic">Bml</hi> <lb/>
-            24 quo <hi rend="italic">BCb</hi> 25 non defuit <hi rend="italic">BCb</hi> 26 miltiade meminisse <hi rend="italic">BrnIC</hi> <lb/>
-            maxentii <hi rend="italic">BCbc(v)</hi> </note>
-
-<note type="footnote"> LIII. August. c. Don. III. </note>
-
-<note type="footnote"> s </note> <lb/>
-             
-<pb n="114"/>
+                  <hi rend="italic">s. I. A</hi> homines <hi rend="italic">b</hi> 21 Melcbiadis <hi rend="italic">cv (passim)</hi> 23 exacto <hi rend="italic">Bml</hi>
+                  <lb/>
+            24 quo <hi rend="italic">BCb</hi> 25 non defuit <hi rend="italic">BCb</hi> 26 miltiade meminisse <hi rend="italic">BrnIC</hi>
+                  <lb/>
+            maxentii <hi rend="italic">BCbc(v)</hi>
+               </note>
+               <note type="footnote"> LIII. August. c. Don. III. </note>
+               <note type="footnote"> s </note>
+               <lb/>
+               <pb n="114"/>
             imperatoris et praefecti praetorio ad praefectum urbi, ut reciperent <lb/>
             loca, quae fuerant a christianis tempore persecutionis <lb/>
             ablata. ubi cum Miltiadis crimen nullum penitus adpareret, <lb/>
@@ -881,19 +894,21 @@
             nunc autem Stratoni etiam Cassiani nomen addere dicuntur,
 
 <note type="footnote"> 18 cf. Breuic. III 18, 36 25 cf. ibid. </note>
-
-<note type="footnote"> 1 praefecto <hi rend="italic">C</hi> et praefecto preto torio <hi rend="italic">expuncta in B, om. b</hi> pretorii c <lb/>
+               <note type="footnote"> 1 praefecto <hi rend="italic">C</hi> et praefecto preto torio <hi rend="italic">expuncta in B, om. b</hi> pretorii c <lb/>
             ad praefecto <hi rend="italic">Bml</hi> urbis <hi rend="italic">BCbcv</hi> 3 cum <hi rend="italic">om. BCb</hi> adpa«*reret <lb/>
-            (ra <hi rend="italic">eras.) A</hi> 4 traditionibus <hi rend="italic">Bml</hi> stratorem <hi rend="italic">C</hi> 5 quod] qui <hi rend="italic">Bm2b</hi> <lb/>
-            6 miltiadis <hi rend="italic">Bm]</hi> jeadem <hi rend="italic">Bml</hi> eucdem <hi rend="italic">(sic) C</hi> 7 condentes <hi rend="italic">BmlC</hi> <lb/>
+            (ra <hi rend="italic">eras.) A</hi> 4 traditionibus <hi rend="italic">Bml</hi> stratorem <hi rend="italic">C</hi> 5 quod] qui <hi rend="italic">Bm2b</hi>
+                  <lb/>
+            6 miltiadis <hi rend="italic">Bm]</hi> jeadem <hi rend="italic">Bml</hi> eucdem <hi rend="italic">(sic) C</hi> 7 condentes <hi rend="italic">BmlC</hi>
+                  <lb/>
             condennantes <hi rend="italic">Bm2b</hi> 8 diaconom <hi rend="italic">Cml</hi> 13 aliis <hi rend="italic">BC</hi> 16 duos\' A <lb/>
             18 in iudicio] inuidio <hi rend="italic">Btnl</hi> inuidia <hi rend="italic">Bm2b</hi> in iudio <hi rend="italic">C</hi> 19 quoniam illum <lb/>
-            <hi rend="italic">scripsi</hi> quem multum <hi rend="italic">Ac</hi> q.n multG <hi rend="italic">B</hi> q.nn multu <hi rend="italic">C</hi> quodque non multum <lb/>
-            <hi rend="italic">Bm2b</hi> quem multi <hi rend="italic">v, cf. p. 118, 19 et Breuic. III 18, 36:</hi> maior <lb/>
+                  <hi rend="italic">scripsi</hi> quem multum <hi rend="italic">Ac</hi> q.n multG <hi rend="italic">B</hi> q.nn multu <hi rend="italic">C</hi> quodque non multum <lb/>
+                  <hi rend="italic">Bm2b</hi> quem multi <hi rend="italic">v, cf. p. 118, 19 et Breuic. III 18, 36:</hi> maior <lb/>
             auctor ipsorum Donatus Carthaginiensis 20 distingendum <hi rend="italic">Cml</hi> non <lb/>
-            <hi rend="italic">addidi, cf. Breuic. III 17, 31 extr</hi>. 25 nomine c dicantur <hi rend="italic">Aml</hi> </note> <lb n="25"/>
-             
-<pb n="115"/>
+                  <hi rend="italic">addidi, cf. Breuic. III 17, 31 extr</hi>. 25 nomine c dicantur <hi rend="italic">Aml</hi>
+               </note>
+               <lb n="25"/>
+               <pb n="115"/>
             quod in conlatione tacuerunt, quasi Straton solus cognominalem <lb/>
             habere potuisset et Cassianus non potuit. nec adtendere <lb/>
             potuerunt interna sua nocte impediti non solum duos Iohannes, <lb/>
@@ -917,11 +932,10 @@
             isti autem dignitatem consonare mentiti sunt, quia utrosque <lb/>
             fuisse diaconos nullo modo legere potuerunt. 
 </p>
-          
-</div>
-
-<div n="18" subtype="section" type="textpart">
-<p><milestone n="14" unit="altchapter"/> Adhuc dies erat, quando Cirtense concilium — <lb/>
+         </div>
+         <div n="18" type="section">
+            <p>
+               <milestone n="14" unit="altchapter"/> Adhuc dies erat, quando Cirtense concilium — <lb/>
             si tamen concilium dicendum est, in quo uix undecim uel <lb/>
             duodecim episcopi fuerunt —, unde recitauimus traditores <lb n="25"/>
             fuisse quosdam, qui cum Secundo Tigisitano contra Caecilianum <lb/>
@@ -931,15 +945,16 @@
             tempus fuisse persecutionis, protulerunt martyrum gesta, ut
 
 <note type="footnote"> 6 cf. Matth. 10, 3 23 cf. Breuic. III 15, 27. 17, 32-33 </note>
-
-<note type="footnote"> 2 potuisse <hi rend="italic">Am2</hi> potusset <hi rend="italic">Bml</hi> potuit] potuerit <hi rend="italic">v</hi> 4 symones <hi rend="italic">bc</hi> <lb/>
+               <note type="footnote"> 2 potuisse <hi rend="italic">Am2</hi> potusset <hi rend="italic">Bml</hi> potuit] potuerit <hi rend="italic">v</hi> 4 symones <hi rend="italic">bc</hi>
+                  <lb/>
             6 alphei <hi rend="italic">codd</hi>. 9 de <hi rend="italic">s. l. C</hi> 12 cassianus <hi rend="italic">Bml</hi> 13 patiturj <hi rend="italic">add. <lb/>
-             Am2 in mg :</hi> nota 15 herodos <hi rend="italic">Cml</hi> 19 erant <hi rend="italic">Bml</hi> 23 aduc <hi rend="italic">Bml</hi> <lb/>
-            cirthense <hi rend="italic">ABCb</hi> 26 tigisitanno <hi rend="italic">BCb</hi> </note>
-
-<note type="footnote"> 8* </note> <lb n="30"/>
-             
-<pb n="116"/>
+             Am2 in mg :</hi> nota 15 herodos <hi rend="italic">Cml</hi> 19 erant <hi rend="italic">Bml</hi> 23 aduc <hi rend="italic">Bml</hi>
+                  <lb/>
+            cirthense <hi rend="italic">ABCb</hi> 26 tigisitanno <hi rend="italic">BCb</hi>
+               </note>
+               <note type="footnote"> 8* </note>
+               <lb n="30"/>
+               <pb n="116"/>
             diebus et consulibus consideratis quod tempus fuerit appareret. <lb/>
             quae martyrum gesta contra se ipsos protulisse conuicti sunt; <lb/>
             in eis quippe gestis manifestatum est illo tempore persecutionis <lb/>
@@ -963,11 +978,10 @@
             proferendo, quis non uideat, qui non similem noctem habet <lb/>
             in corde, qualem illi habebant qui haec non uidebant? 
 </p>
-          
-</div>
-
-<div n="19" subtype="section" type="textpart">
-<p><milestone n="15" unit="altchapter"/> Qui etiam hinc gestis ipsis Cirtensibus calumniabantur, <lb/>
+         </div>
+         <div n="19" type="section">
+            <p>
+               <milestone n="15" unit="altchapter"/> Qui etiam hinc gestis ipsis Cirtensibus calumniabantur, <lb/>
             quia ibi dies et consules legebantur, et exigebant a <lb/>
             nobis, ut aliqua ecclesiastica concilia proferremus, ubi dies<lb n="25"/>
             recitarentur et consules. ipsi enim Carthaginiense concilium <lb/>
@@ -976,14 +990,14 @@
             dies, in illo autem ipsorum Carthaginiensi nec dies. nos autem
 
 <note type="footnote"> 26 cf. Breuic. III 14, 26-17, 32 </note>
-
-<note type="footnote"> 4 christianis <hi rend="italic">Bml</hi> 11 his] is <hi rend="italic">Bml</hi> iis <hi rend="italic">Bm2</hi> hiis <hi rend="italic">b</hi> 12 ammoniti c <lb/>
+               <note type="footnote"> 4 christianis <hi rend="italic">Bml</hi> 11 his] is <hi rend="italic">Bml</hi> iis <hi rend="italic">Bm2</hi> hiis <hi rend="italic">b</hi> 12 ammoniti c <lb/>
             14 illi <hi rend="italic">om. BCb</hi> feri <hi rend="italic">BC</hi> 18 et <hi rend="italic">om. BC</hi> ce(cae-B)lebrarentur <lb/>
-            <hi rend="italic">BCb</hi> celebrantur A celebrabantur <hi rend="italic">cv</hi> 20 adiu..uerint <hi rend="italic">B</hi> 21 nisi qui <lb/>
-            <hi rend="italic">Bm2b</hi> 22 illi <hi rend="italic">om. b</hi> hoc <hi rend="italic">v</hi> 23 cirthensibus <hi rend="italic">ABCm2b</hi> cirthencibus <lb/>
-            <hi rend="italic">Cml</hi> 24 exiebant <hi rend="italic">BmJ</hi> 26 concili*»um <hi rend="italic">A</hi> </note> <lb/>
-             
-<pb n="117"/>
+                  <hi rend="italic">BCb</hi> celebrantur A celebrabantur <hi rend="italic">cv</hi> 20 adiu..uerint <hi rend="italic">B</hi> 21 nisi qui <lb/>
+                  <hi rend="italic">Bm2b</hi> 22 illi <hi rend="italic">om. b</hi> hoc <hi rend="italic">v</hi> 23 cirthensibus <hi rend="italic">ABCm2b</hi> cirthencibus <lb/>
+                  <hi rend="italic">Cml</hi> 24 exiebant <hi rend="italic">BmJ</hi> 26 concili*»um <hi rend="italic">A</hi>
+               </note>
+               <lb/>
+               <pb n="117"/>
             quod in manibus erat Romanum concilium Miltiadis, sicut <lb/>
             illud Cirtense, et diem habere demonstrabamus et consules. <lb/>
             neque enim tunc ad horam antiqua archiua ecclesiastica discutienda <lb/>
@@ -1012,18 +1026,23 @@
             qui etiam illic inuidiosissime proclamauerant, quod imperatoris
 
 <note type="footnote"> 22 cf. Breuic. III 19, 37 sqq. </note>
-
-<note type="footnote"> 1 e..rat (ra <hi rend="italic">eras.) C</hi> 2 cirthense <hi rend="italic">ABCb</hi> monstrabamus <hi rend="italic">BCb</hi> <lb/>
-            3 oram <hi rend="italic">Bml</hi> arciua <hi rend="italic">Ac</hi> archiuan <hi rend="italic">Cml</hi> 6 mouere**.*** (ritis <hi rend="italic">eras.) C</hi> <lb/>
-            7 in-inueniretur <hi rend="italic">om. BCb</hi> 8 auertere <hi rend="italic">om. codd</hi>. euertere <hi rend="italic">mg. Bm2, et b</hi> <lb/>
-            9 exiebant <hi rend="italic">Bml</hi> 10 nesse <hi rend="italic">Cml</hi> quasi] quia <hi rend="italic">BCb</hi> 11 possint <hi rend="italic">ex</hi> <lb/>
+               <note type="footnote"> 1 e..rat (ra <hi rend="italic">eras.) C</hi> 2 cirthense <hi rend="italic">ABCb</hi> monstrabamus <hi rend="italic">BCb</hi>
+                  <lb/>
+            3 oram <hi rend="italic">Bml</hi> arciua <hi rend="italic">Ac</hi> archiuan <hi rend="italic">Cml</hi> 6 mouere**.*** (ritis <hi rend="italic">eras.) C</hi>
+                  <lb/>
+            7 in-inueniretur <hi rend="italic">om. BCb</hi> 8 auertere <hi rend="italic">om. codd</hi>. euertere <hi rend="italic">mg. Bm2, et b</hi>
+                  <lb/>
+            9 exiebant <hi rend="italic">Bml</hi> 10 nesse <hi rend="italic">Cml</hi> quasi] quia <hi rend="italic">BCb</hi> 11 possint <hi rend="italic">ex</hi>
+                  <lb/>
             possent <hi rend="italic">Aml</hi> possent v 12 iudicis <hi rend="italic">Bml</hi> 13 damnauerunt uel absoluerunt <lb/>
-            <hi rend="italic">Bml</hi> 14 respondemus <hi rend="italic">Am2</hi> 15 praeFnotatis <hi rend="italic">Aml</hi> temporibus <lb/>
-            commendasse <hi rend="italic">b</hi> 18 de] di <hi rend="italic">Cml</hi> 20 ista sit <hi rend="italic">Cml ueritas ABCb</hi> <lb/>
+                  <hi rend="italic">Bml</hi> 14 respondemus <hi rend="italic">Am2</hi> 15 praeFnotatis <hi rend="italic">Aml</hi> temporibus <lb/>
+            commendasse <hi rend="italic">b</hi> 18 de] di <hi rend="italic">Cml</hi> 20 ista sit <hi rend="italic">Cml ueritas ABCb</hi>
+                  <lb/>
             etiam alii <hi rend="italic">BCb</hi> etiam s. <hi rend="italic">1. Aml</hi> 25 horum <hi rend="italic">Bm2</hi> 26 qui <hi rend="italic">scripsi quia <lb/>
-            codd. v, ef. p. 116, 23</hi> </note> <lb/>
-             
-<pb n="118"/>
+            codd. v, ef. p. 116, 23</hi>
+               </note>
+               <lb/>
+               <pb n="118"/>
             litteras sine die et consule recitauimus, et tamen etiam ipsi <lb/>
             alias eiusdem imperatoris litteras in causa Felicis ordinatoris <lb/>
             Caeciliani, quas mirabili caecitate contra se ipsos protulerunt, <lb/>
@@ -1034,13 +1053,11 @@
             corde gestabant, qui nocturnam sententiam cognitioni iudicis <lb/>
             obiecerunt et ipsi per diem interioribus tenebris inuoluti mirabili <lb/>
             caecitate contra se ipsos tanta dixerunt. <lb n="10"/>
-            
-</p>
-          
-</div>
-
-<div n="20" subtype="section" type="textpart">
-<p><milestone n="16" unit="altchapter"/> Leguntur actis apud Carthaginis magistratum ex- „ <lb/>
+            </p>
+         </div>
+         <div n="20" type="section">
+            <p>
+               <milestone n="16" unit="altchapter"/> Leguntur actis apud Carthaginis magistratum ex- „ <lb/>
             pressa uerba Primiani, ubi dicit, quod parentes eorum nostri <lb/>
             maiores uariis exiliis uexauerunt, et in conlatione probare <lb/>
             conantur accusantibus maioribus suis ab imperatore Caecilianum <lb/>
@@ -1063,13 +1080,15 @@
 
 <note type="footnote"> 2 cf. Breuic. III 23, 41 15 <hi rend="italic">in litteris mis]</hi> cf. Breuic. III 8, 10 <lb/>
             init. 23 cf. Gesta secundae cognitionis cap. 10 </note>
-
-<note type="footnote"> 4 inde eis <hi rend="italic">Cml</hi> aliquit <hi rend="italic">Bml</hi> 7 taenebrosa <hi rend="italic">A</hi> 11 in actis <hi rend="italic">Bm2b</hi> <lb/>
+               <note type="footnote"> 4 inde eis <hi rend="italic">Cml</hi> aliquit <hi rend="italic">Bml</hi> 7 taenebrosa <hi rend="italic">A</hi> 11 in actis <hi rend="italic">Bm2b</hi>
+                  <lb/>
             16 suam esse v ecclesia C 21 per suos <hi rend="italic">deleui, cf. 20, 32 sub fin</hi>. <lb/>
-            23 <hi rend="italic">alt</hi>. illum <hi rend="italic">om. Cml</hi> inquandonatum <hi rend="italic">Bml</hi> 24 martjrialis cv <hi rend="italic">(passim)</hi> <lb/>
-            26 asseruit <hi rend="italic">Bm2</hi> assuerit <hi rend="italic">b</hi> 28 asseruit et constituit <hi rend="italic">bml</hi> 29 uiro <hi rend="italic">ex</hi> uero <hi rend="italic">B</hi> </note> <lb n="30"/>
-             
-<pb n="119"/>
+            23 <hi rend="italic">alt</hi>. illum <hi rend="italic">om. Cml</hi> inquandonatum <hi rend="italic">Bml</hi> 24 martjrialis cv <hi rend="italic">(passim)</hi>
+                  <lb/>
+            26 asseruit <hi rend="italic">Bm2</hi> assuerit <hi rend="italic">b</hi> 28 asseruit et constituit <hi rend="italic">bml</hi> 29 uiro <hi rend="italic">ex</hi> uero <hi rend="italic">B</hi>
+               </note>
+               <lb n="30"/>
+               <pb n="119"/>
             damnatus est. quod quidem nos falsum esse conuicimus. qui <lb/>
             eiusdem imperatoris litteras, quibus se inter partes audisse et <lb/>
             iudicasse testatur, ubi Caeciliano absoluto atque purgato illorum <lb/>
@@ -1090,13 +1109,11 @@
             regula ipsorum communionem Donati esse ecclesiam ueritatis <lb/>
             quae persecutionem patitur, non quae facit? ecce patitur Caecilianus, <lb/>
             Donatus facit: quis eorum est uir gloriae martyralis? <lb n="20"/>
-            
-</p>
-          
-</div>
-
-<div n="21" subtype="section" type="textpart">
-<p><milestone n="17" unit="altchapter"/> Adtendite, aduertite, nolite in errorem perniciosum <lb/>
+            </p>
+         </div>
+         <div n="21" type="section">
+            <p>
+               <milestone n="17" unit="altchapter"/> Adtendite, aduertite, nolite in errorem perniciosum <lb/>
             adhuc usque seduci. ueritatem, quae uobis occultabatur, deus <lb/>
             aperire dignatus est, falsitatem. quae uobis offundebatur, deus <lb/>
             confutare dignatus est; tanto eius beneficio quare adhuc estis <lb/>
@@ -1107,14 +1124,15 @@
             superatis, unde adhuc nebulas faciant imperitis, hinc se quasi
 
 <note type="footnote"> 2 cf. Breaic. III 19, 37 </note>
-
-<note type="footnote"> 1 esse falsum <hi rend="italic">BC</hi> concucimus <hi rend="italic">Bml</hi> conuincimus <hi rend="italic">Bm2</hi> 4 est <hi rend="italic">Olll. <lb/>
-            B (an</hi> e <hi rend="italic">uel</hi> # <hi rend="italic">eras.t), et b</hi> arciuo <hi rend="italic">Ac</hi> pubplico <hi rend="italic">C</hi> 6 non potuerunt <hi rend="italic">cml</hi> <lb/>
+               <note type="footnote"> 1 esse falsum <hi rend="italic">BC</hi> concucimus <hi rend="italic">Bml</hi> conuincimus <hi rend="italic">Bm2</hi> 4 est <hi rend="italic">Olll. <lb/>
+            B (an</hi> e <hi rend="italic">uel</hi> # <hi rend="italic">eras.t), et b</hi> arciuo <hi rend="italic">Ac</hi> pubplico <hi rend="italic">C</hi> 6 non potuerunt <hi rend="italic">cml</hi>
+                  <lb/>
             7 aput <hi rend="italic">C</hi> 14 imperatores <hi rend="italic">BmlCml</hi> 17 damnabitur <hi rend="italic">BmlC</hi> 21 pernitioni <lb/>
             aduBquse <hi rend="italic">Bml</hi> pernicionem aliqua <hi rend="italic">ut uid. Bm2</hi> pernitiosum adusque <lb/>
-            <hi rend="italic">C</hi> pernicie aliqua <hi rend="italic">b</hi> 23 nobis <hi rend="italic">BCb</hi> </note> <lb/>
-             
-<pb n="120"/>
+                  <hi rend="italic">C</hi> pernicie aliqua <hi rend="italic">b</hi> 23 nobis <hi rend="italic">BCb</hi>
+               </note>
+               <lb/>
+               <pb n="120"/>
             ostendentes esse ecclesiam ueritatis, quia persecutionem patitur, <lb/>
             non facit. non uos ergo adhuc fallant; hoc eis facimus., <lb/>
             quod maiores suos et ipsum quem praedicant uelut martyralis <lb/>
@@ -1142,23 +1160,24 @@
             non est iustitiae documentum, quia eam non soli boni pro <lb n="25"/>
             pietate, sed (et) mali pro iniquitate patiuntur. 
 </p>
-          
-</div>
-
-<div n="22" subtype="section" type="textpart">
-<p>Restat ergo uobis errore depulso ecclesiam Christi
+         </div>
+         <div n="22" type="section">
+            <p>Restat ergo uobis errore depulso ecclesiam Christi
 
 <note type="footnote"> 15 ef. epist. 139, 2 </note>
-
-<note type="footnote"> 1 esse in ecclesiam <hi rend="italic">(sed</hi> in <hi rend="italic">del. mf) AC</hi> esse in ecclesia c quia <lb/>
-            <hi rend="italic">scripsi</hi> quae <hi rend="italic">codd. v</hi> 2 non quae facit <hi rend="italic">Bm2bc, cf. 31, 53 post med</hi>. <lb/>
-            3 uelud <hi rend="italic">Bml</hi> 4 caecilianum <hi rend="italic">Bml</hi> 5 ut conuictus Caecilianus <hi rend="italic">bm2v</hi> <lb/>
-            7 <hi rend="italic">pr</hi>. facit <hi rend="italic">Bml</hi> ille <hi rend="italic">ABmlCc</hi> 10 ei <hi rend="italic">A</hi> 12 mittissima <hi rend="italic">BmlC</hi> <lb/>
+               <note type="footnote"> 1 esse in ecclesiam <hi rend="italic">(sed</hi> in <hi rend="italic">del. mf) AC</hi> esse in ecclesia c quia <lb/>
+                  <hi rend="italic">scripsi</hi> quae <hi rend="italic">codd. v</hi> 2 non quae facit <hi rend="italic">Bm2bc, cf. 31, 53 post med</hi>. <lb/>
+            3 uelud <hi rend="italic">Bml</hi> 4 caecilianum <hi rend="italic">Bml</hi> 5 ut conuictus Caecilianus <hi rend="italic">bm2v</hi>
+                  <lb/>
+            7 <hi rend="italic">pr</hi>. facit <hi rend="italic">Bml</hi> ille <hi rend="italic">ABmlCc</hi> 10 ei <hi rend="italic">A</hi> 12 mittissima <hi rend="italic">BmlC</hi>
+                  <lb/>
             13 permotos <hi rend="italic">Am2</hi> 14 pertinatia <hi rend="italic">Bml</hi> 15 mollire <hi rend="italic">Bb</hi> 16 ostendit <lb/>
-            <hi rend="italic">Bml</hi> 18 eam <hi rend="italic">om. c</hi> ueram esse c 23 et <hi rend="italic">om. c</hi> 26 et <hi rend="italic">addidi</hi> <lb/>
-            27 Restat-121. 2 patitur <hi rend="italic">om. BmlCml</hi> </note> <lb/>
-             
-<pb n="121"/>
+                  <hi rend="italic">Bml</hi> 18 eam <hi rend="italic">om. c</hi> ueram esse c 23 et <hi rend="italic">om. c</hi> 26 et <hi rend="italic">addidi</hi>
+                  <lb/>
+            27 Restat-121. 2 patitur <hi rend="italic">om. BmlCml</hi>
+               </note>
+               <lb/>
+               <pb n="121"/>
             uidere ac tenere catholicam, non ut inde eam eligatis. quia <lb/>
             persecutionem patitur. cum enim dixisset dominus: beati <lb/>
             qui persecutionem patiuntur, ne inde se iactent haeretici, <lb/>
@@ -1183,26 +1202,25 @@
             pro parte autem Donati uix aliquid tale patiuntur, quale Caecilianum <lb/>
             Donato instante passum esse dixerunt. 
 </p>
-          
-</div>
-
-<div n="23" subtype="section" type="textpart">
-<p>Aut ergo persecutio non omnis iniusta est aut non est <lb/>
+         </div>
+         <div n="23" type="section">
+            <p>Aut ergo persecutio non omnis iniusta est aut non est <lb/>
             persecutio dicenda cum iusta est. quapropter aut persecutionem <lb n="25"/>
             pars Donati patitur iustam aut persecutionem non patitur, <lb/>
             quia patitur iuste. non autem iuste passus est Caecilianus, <lb/>
             quia innocens probatus et absolutus est. quod quidem
 
 <note type="footnote"> 2 Matth. 5, 10 </note>
-
-<note type="footnote"> 1 inde eam <hi rend="italic">scripsi</hi> in <hi rend="italic">ea ABCev</hi> eam <hi rend="italic">b, cf. p. 119, 27:</hi> inde nos lacerant, <lb/>
-            quia nos facimus persecutionem 3 ne inde] ninde <hi rend="italic">Bml</hi> non inde <hi rend="italic">C</hi> <lb/>
+               <note type="footnote"> 1 inde eam <hi rend="italic">scripsi</hi> in <hi rend="italic">ea ABCev</hi> eam <hi rend="italic">b, cf. p. 119, 27:</hi> inde nos lacerant, <lb/>
+            quia nos facimus persecutionem 3 ne inde] ninde <hi rend="italic">Bml</hi> non inde <hi rend="italic">C</hi>
+                  <lb/>
             iactant <hi rend="italic">Bml</hi> 6 incensae sae (sae <hi rend="italic">del. m1) A</hi> 8 aut (u <hi rend="italic">s. I.) A</hi> ut <lb/>
-            <hi rend="italic">BmlC</hi> et <hi rend="italic">Bm2bc</hi> 12 tamen] tantum <hi rend="italic">BCb</hi> 16 potestatem <hi rend="italic">A</hi> 17 se <lb/>
-            <hi rend="italic">om. BCmlb</hi> 21 commitunt <hi rend="italic">BC</hi> 23 donatum <hi rend="italic">Cml</hi> donato instante <lb/>
-            cecilianum <hi rend="italic">bml</hi> 24 non omnis iusta est <hi rend="italic">Bml</hi> non nisi iusta est <hi rend="italic">Bm2b</hi> </note> <lb/>
-             
-<pb n="122"/>
+                  <hi rend="italic">BmlC</hi> et <hi rend="italic">Bm2bc</hi> 12 tamen] tantum <hi rend="italic">BCb</hi> 16 potestatem <hi rend="italic">A</hi> 17 se <lb/>
+                  <hi rend="italic">om. BCmlb</hi> 21 commitunt <hi rend="italic">BC</hi> 23 donatum <hi rend="italic">Cml</hi> donato instante <lb/>
+            cecilianum <hi rend="italic">bml</hi> 24 non omnis iusta est <hi rend="italic">Bml</hi> non nisi iusta est <hi rend="italic">Bm2b</hi>
+               </note>
+               <lb/>
+               <pb n="122"/>
             illi negauerunt et potius ab imperatore damnatum esse dixerunt, <lb/>
             et ideo maiores suos maximeque Donatum a se tanta <lb/>
             praedicatione laudatum Caeciliano persecutionem fecisse confessi <lb/>
@@ -1218,13 +1236,11 @@
             est, Caeciliano prius tribueretur; si haec non homini iudici <lb/>
             permittenda, sed deo potius dimittenda sunt, Caecilianus apud <lb/>
             imperatorem prius non accusaretur. <lb n="15"/>
-            
-</p>
-          
-</div>
-
-<div n="24" subtype="section" type="textpart">
-<p><milestone n="18" unit="altchapter"/> Expergiscimini aliquando; non uos tartareus <lb/>
+            </p>
+         </div>
+         <div n="24" type="section">
+            <p>
+               <milestone n="18" unit="altchapter"/> Expergiscimini aliquando; non uos tartareus <lb/>
             obliget somnus, non in profundum sacrilegi erroris adhuc <lb/>
             impia consuetudo demergat; iam consonate paci, cohaerete <lb/>
             unitati, adquiescite caritati, cedite ueritati; ecclesiam catholicam <lb/>
@@ -1236,18 +1252,20 @@
             ecclesia, clamat etiam membrum eius in Africa:
 
 <note type="footnote"> 7 cf. Breuic. III 22, 40 </note>
-
-<note type="footnote"> 3 caecilianos <hi rend="italic">BmlC</hi> conf*ssi (e s. <hi rend="italic">ras.) B</hi> 7 et tamen liberum <lb/>
-            etamen <hi rend="italic">Cml</hi> ab <hi rend="italic">om. BCbml</hi> 8 imperatorem <hi rend="italic">B</hi> contessem <hi rend="italic">Bml</hi> <lb/>
-            it <hi rend="italic">B, del. m2, om. b</hi> 11 accusantibus <hi rend="italic">scripsi</hi> accusationibus <hi rend="italic">codd. v</hi> <lb/>
+               <note type="footnote"> 3 caecilianos <hi rend="italic">BmlC</hi> conf*ssi (e s. <hi rend="italic">ras.) B</hi> 7 et tamen liberum <lb/>
+            etamen <hi rend="italic">Cml</hi> ab <hi rend="italic">om. BCbml</hi> 8 imperatorem <hi rend="italic">B</hi> contessem <hi rend="italic">Bml</hi>
+                  <lb/>
+            it <hi rend="italic">B, del. m2, om. b</hi> 11 accusantibus <hi rend="italic">scripsi</hi> accusationibus <hi rend="italic">codd. v</hi>
+                  <lb/>
             accusatoribus <hi rend="italic">coni. v</hi> damnatum <hi rend="italic">mg. B,</hi> concessessum <hi rend="italic">in textu, sed<lb/>
-             . del</hi>. ista <hi rend="italic">Bml</hi> 13 tribueretur prius <hi rend="italic">em]</hi> 14 dimittendo <hi rend="italic">Bm]</hi> <lb/>
+             . del</hi>. ista <hi rend="italic">Bml</hi> 13 tribueretur prius <hi rend="italic">em]</hi> 14 dimittendo <hi rend="italic">Bm]</hi>
+                  <lb/>
             caecilianis <hi rend="italic">Bml</hi> prius apud imperatorem prius <hi rend="italic">ABmlCml</hi> prius apud <lb/>
             imperatorem <hi rend="italic">Bm2bv</hi> 16 expergescimini <hi rend="italic">C</hi> 18 coherete <hi rend="italic">codd</hi>. 19 unitati <lb/>
-            <hi rend="italic">ex</hi> *#uitati* <hi rend="italic">B</hi> credite <hi rend="italic">BCb, cf. Ep. c. Don. 19, 51 extr</hi>. ueritati <lb/>
-            <hi rend="italic">om. B</hi> 20 ierusalem <hi rend="italic">BCbc</hi> 25 eius] illius v </note><lb n="25"/>
-             
-<pb n="123"/>
+                  <hi rend="italic">ex</hi> *#uitati* <hi rend="italic">B</hi> credite <hi rend="italic">BCb, cf. Ep. c. Don. 19, 51 extr</hi>. ueritati <lb/>
+                  <hi rend="italic">om. B</hi> 20 ierusalem <hi rend="italic">BCbc</hi> 25 eius] illius v </note>
+               <lb n="25"/>
+               <pb n="123"/>
             \'testimonium dei noui, negotium Caeciliani non noui; credo innocentem <lb/>
             a uestris maioribus insectatum quem lego totiens <lb/>
             abs<foreign xml:lang="grc">ό</foreign>lutum, sed qualiscumque sit causa eius, causae meae <lb/>
@@ -1258,11 +1276,10 @@
             diuinam ueritatem in una ecclesia teneamus et humanas lites <lb/>
             aliquando finiamus\'. 
 </p>
-          
-</div>
-
-<div n="25" subtype="section" type="textpart">
-<p><milestone n="19" unit="altchapter"/> Numquid enim uerba ista, ubi dixerunt nec <lb n="10"/>
+         </div>
+         <div n="25" type="section">
+            <p>
+               <milestone n="19" unit="altchapter"/> Numquid enim uerba ista, ubi dixerunt nec <lb n="10"/>
             causam causae nec personam praeiudicare personae, ullo modo <lb/>
             post ipsam conlationem defendere potuerunt ac non potius se <lb/>
             multo perplexius implicarunt? sic namque in quibusdam scriptis <lb/>
@@ -1283,15 +1300,18 @@
             et a se damnatum in causa Primiani. quid est quod funem
 
 <note type="footnote"> 7 Luc. 24, 47 14 sqq.] cf. Breuic. III 16, 28 </note>
-
-<note type="footnote"> 1 innocentum <hi rend="italic">BC</hi> 4 qualis cumque (que s. <hi rend="italic">l. in ras. m2) A</hi> 6 causae <lb/>
-            <hi rend="italic">ABCc</hi> c praeiudicat <hi rend="italic">bv, cf. p.102, 19</hi> 12 ac] aut <hi rend="italic">b</hi> potius se] potuisse <hi rend="italic">b</hi> <lb/>
-            16 ad locum] alloquimur <hi rend="italic">v</hi> praeiudicare <hi rend="italic">Cml</hi> his] hiis <hi rend="italic">b</hi> iis <hi rend="italic">v</hi> <lb/>
-            17 hi] hii <hi rend="italic">bc</hi> ii <hi rend="italic">v</hi> caecili <hi rend="italic">A</hi> 18 praedecessore <hi rend="italic">cv</hi> 19 possunt <hi rend="italic">BCb</hi> <lb/>
+               <note type="footnote"> 1 innocentum <hi rend="italic">BC</hi> 4 qualis cumque (que s. <hi rend="italic">l. in ras. m2) A</hi> 6 causae <lb/>
+                  <hi rend="italic">ABCc</hi> c praeiudicat <hi rend="italic">bv, cf. p.102, 19</hi> 12 ac] aut <hi rend="italic">b</hi> potius se] potuisse <hi rend="italic">b</hi>
+                  <lb/>
+            16 ad locum] alloquimur <hi rend="italic">v</hi> praeiudicare <hi rend="italic">Cml</hi> his] hiis <hi rend="italic">b</hi> iis <hi rend="italic">v</hi>
+                  <lb/>
+            17 hi] hii <hi rend="italic">bc</hi> ii <hi rend="italic">v</hi> caecili <hi rend="italic">A</hi> 18 praedecessore <hi rend="italic">cv</hi> 19 possunt <hi rend="italic">BCb</hi>
+                  <lb/>
             22 tam densum] tandem sum <hi rend="italic">BmlC</hi> 23 lutum <hi rend="italic">om. ABCcv</hi> 24 uellere <lb/>
-            <hi rend="italic">Bml</hi> capud <hi rend="italic">Brnl</hi> 25 enoluantur <hi rend="italic">Cml</hi> </note> <lb/>
-             
-<pb n="124"/>
+                  <hi rend="italic">Bml</hi> capud <hi rend="italic">Brnl</hi> 25 enoluantur <hi rend="italic">Cml</hi>
+               </note>
+               <lb/>
+               <pb n="124"/>
             tam longum a Caeciliano usque ad haec tempora catholicae <lb/>
             ecclesiae implicare contendunt et catenam suam tam in proximo <lb/>
             non attendunt? praeclara quippe illa Bagaitana sententia <lb/>
@@ -1320,29 +1340,30 @@
             dicere: \'propter eos quos damnastis non deserimus pacem Christi,
 
 <note type="footnote"> 4 Sententia concilii Bagaiensis </note>
-
-<note type="footnote"> 3 baga.itana <hi rend="italic">B</hi> 4 inquid <hi rend="italic">Bml</hi> 7 praeiudicant (N <hi rend="italic">del. ml) A</hi> <lb/>
+               <note type="footnote"> 3 baga.itana <hi rend="italic">B</hi> 4 inquid <hi rend="italic">Bml</hi> 7 praeiudicant (N <hi rend="italic">del. ml) A</hi>
+                  <lb/>
             S causae-causa <hi rend="italic">ex</hi> causa-causae <hi rend="italic">coir. AmJ</hi> 10 a quo] cum quo <hi rend="italic">coni. <lb/>
             v; at cum Feliciaum a Maximiano rursus se separaret et Donatistis <lb/>
             recollciliaretur, fieri non potuit, quin alter ab altero damnaretur: cf. <lb/>
              Cresc. IIII 64, 79:</hi> qui (Felicianus) contra Maximianum aliquid forsitan <lb/>
-            scripserit praeiudicant <hi rend="italic">cv</hi> 11 primoano <hi rend="italic">Cml</hi> 16 christianus <hi rend="italic">Bml</hi> <lb/>
-            18 primianua non <hi rend="italic">b</hi> 19 et ignotus et <hi rend="italic">Bm2b</hi> 20 modo cernitur <hi rend="italic">c</hi> <lb/>
-            :24 causae praeiudicat causa <hi rend="italic">bml</hi> 26 deseruimus <hi rend="italic">b</hi> </note> <lb/>
-             
-<pb n="125"/>
+            scripserit praeiudicant <hi rend="italic">cv</hi> 11 primoano <hi rend="italic">Cml</hi> 16 christianus <hi rend="italic">Bml</hi>
+                  <lb/>
+            18 primianua non <hi rend="italic">b</hi> 19 et ignotus et <hi rend="italic">Bm2b</hi> 20 modo cernitur <hi rend="italic">c</hi>
+                  <lb/>
+            :24 causae praeiudicat causa <hi rend="italic">bml</hi> 26 deseruimus <hi rend="italic">b</hi>
+               </note>
+               <lb/>
+               <pb n="125"/>
             Quia nec causa causae praeiudicat nec persona personae). o <lb/>
             ferream frontem, o furoris tenebras, nocturnam sententiam <lb/>
             iudici obicientes et in sui cordis nocte palpantes offendentes <lb/>
             cadentes, contra nos rabide litigantes et pro nobis tanta dicentes! <lb/>
-            <lb n="5"/>
-            
-</p>
-          
-</div>
-
-<div n="26" subtype="section" type="textpart">
-<p><milestone n="20" unit="altchapter"/> Insuper adhuc etiam modo commemorare audent <lb/>
+               <lb n="5"/>
+            </p>
+         </div>
+         <div n="26" type="section">
+            <p>
+               <milestone n="20" unit="altchapter"/> Insuper adhuc etiam modo commemorare audent <lb/>
             prophetica et apostolica testimonia, quibus nos uniuersaliter <lb/>
             in illa conlatione respondimus, ostendentes ipsos prophetas <lb/>
             sanctos cum iniquis in uno templo, sub eisdem sacerdotibus, <lb/>
@@ -1361,28 +1382,26 @@
             multo euidentius quod uolumus demonstramus, quia non <lb/>
             corporalis, sed spiritalis contactus, qui fit per consensionem, <lb/>
             ipse polluit homines, quorum causam unam facit ipsa consensio. <lb/>
-            <lb n="25"/>
-            
-</p>
-          
-</div>
-
-<div n="27" subtype="section" type="textpart">
-<p>Nam quando impios dominus etiam uisibili poena perdere <lb/>
+               <lb n="25"/>
+            </p>
+         </div>
+         <div n="27" type="section">
+            <p>Nam quando impios dominus etiam uisibili poena perdere <lb/>
             uoluit, ipse ab eis iustos admonitione separauit, sicut <lb/>
             Noe cum domo sua ab eis, quos diluuio fuerat perditurus, sicut <lb/>
             Loth ab eis, quos igne fuerat consumpturus, sicut populum
 
 <note type="footnote"> 8 cf. Breuic. III 9, 17 15 cf. II Tim. 2, 20 cf. ibid. 21 28 cf. <lb/>
             Gen. 6-8 29 cf. Gen. 19 </note>
-
-<note type="footnote"> 1 offerream <hi rend="italic">C</hi> 8 respondemus <hi rend="italic">Am2c</hi> 13 discercernere <hi rend="italic">Cml</hi> 14 magna <lb/>
+               <note type="footnote"> 1 offerream <hi rend="italic">C</hi> 8 respondemus <hi rend="italic">Am2c</hi> 13 discercernere <hi rend="italic">Cml</hi> 14 magna <lb/>
             domo <hi rend="italic">bml</hi> 15 <hi rend="italic">alt</hi>. aliam <hi rend="italic">C</hi> 16 in <hi rend="italic">in ras. B</hi> 18 ipse <hi rend="italic">c</hi> 20 aggeo <hi rend="italic">codd. <lb/>
-             (paasim. per</hi> e) propheto <hi rend="italic">B</hi> 21 *»**modo <hi rend="italic">A</hi> commemorarent <hi rend="italic">ABC</hi> <lb/>
+             (paasim. per</hi> e) propheto <hi rend="italic">B</hi> 21 *»**modo <hi rend="italic">A</hi> commemorarent <hi rend="italic">ABC</hi>
+                  <lb/>
             commemorauerunt c ista <hi rend="italic">Bml</hi> 23 contacitus <hi rend="italic">Bml</hi> 24 consentio <lb/>
-            <hi rend="italic">Bml</hi> 27 ammonitione c 29 loth (h s. <hi rend="italic">I.) A</hi> consumturus <hi rend="italic">ABC</hi> </note> <lb/>
-             
-<pb n="126"/>
+                  <hi rend="italic">Bml</hi> 27 ammonitione c 29 loth (h s. <hi rend="italic">I.) A</hi> consumturus <hi rend="italic">ABC</hi>
+               </note>
+               <lb/>
+               <pb n="126"/>
             suum a synagoga Abiron, quam mox fuerat extincturus. ideo <lb/>
             et illum, qui non habebat uestem nuptialem, non illi qui inuitauerant, <lb/>
             sed ipse dominus cuius erat conuiuium ligari iussit <lb/>
@@ -1414,19 +1433,17 @@
 
 <note type="footnote"> 1 cf. Num. 16 12 Matth. 22. 13-14 22. 24 cf. Phil. 2, 21 <lb/>
             25 cf. I Cor. 11, 29 27 Ps. 100, 1; cf. pag. 106, 3 </note>
-
-<note type="footnote"> 1 sinagoga <hi rend="italic">BmlC</hi> abyron c extinaturus <hi rend="italic">Bml</hi> exterminaturus <hi rend="italic">Bm2</hi> <lb/>
+               <note type="footnote"> 1 sinagoga <hi rend="italic">BmlC</hi> abyron c extinaturus <hi rend="italic">Bml</hi> exterminaturus <hi rend="italic">Bm2</hi>
+                  <lb/>
             5 quomodo a] quomoda <hi rend="italic">BmlC</hi> piscis <hi rend="italic">addidi</hi> 6 putarentur <hi rend="italic">b</hi> uelud <lb/>
-            <hi rend="italic">BmlC</hi> 7 suprepisset <hi rend="italic">ex</hi> suppresisset <hi rend="italic">c</hi> 13 dentium] tium <hi rend="italic">C</hi> 16 proiectus <lb/>
-            fuisset c 19 maioribus <hi rend="italic">BmlCml</hi> 24 ac] a <hi rend="italic">B</hi> </note> 
-<pb n="127"/>
-            
-</p>
-          
-</div>
-
-<div n="28" subtype="section" type="textpart">
-<p>Nec ideo tamen dormit ecclesiastica disciplina, ut corripiat <lb/>
+                  <hi rend="italic">BmlC</hi> 7 suprepisset <hi rend="italic">ex</hi> suppresisset <hi rend="italic">c</hi> 13 dentium] tium <hi rend="italic">C</hi> 16 proiectus <lb/>
+            fuisset c 19 maioribus <hi rend="italic">BmlCml</hi> 24 ac] a <hi rend="italic">B</hi>
+               </note>
+               <pb n="127"/>
+            </p>
+         </div>
+         <div n="28" type="section">
+            <p>Nec ideo tamen dormit ecclesiastica disciplina, ut corripiat <lb/>
             inquietos. neque enim a populo dei separamus, quos <lb/>
             uel degradando uel excommunicando ad humiliorem paenitendi <lb/>
             locum redigimus. et ubi hoc facere pacis et tranquillitatis <lb/>
@@ -1450,27 +1467,26 @@
             ne, cum uellent temere zizania separare, simul et triticum <lb/>
             eradicarent. 
 </p>
-          
-</div>
-
-<div n="29" subtype="section" type="textpart">
-<p>Quod ergo iussus est quidam propheta nec panem manducare <lb/>
+         </div>
+         <div n="29" type="section">
+            <p>Quod ergo iussus est quidam propheta nec panem manducare <lb/>
             nec aquam bibere in Samaria, quo missus fuerat, ut
 
 <note type="footnote"> 8. 22 cf. Matth. 13, 29 10 cf. Cypr. De lapsis c. 6 13 Cypr. <lb/>
             ep. 54, c. 3 24 cf. III Reg. 13 </note>
-
-<note type="footnote"> 1 ut non <hi rend="italic">Bm2b</hi> 3 poenitendi <hi rend="italic">B</hi> 5 ecclesiae ideo <hi rend="italic">bml</hi> 6 disciplinam <lb/>
-            <hi rend="italic">Bb, om. ACmlc</hi> re <hi rend="italic">Aml,</hi> relfutamus <hi rend="italic">Am2</hi> disciplinam refutamus <lb/>
+               <note type="footnote"> 1 ut non <hi rend="italic">Bm2b</hi> 3 poenitendi <hi rend="italic">B</hi> 5 ecclesiae ideo <hi rend="italic">bml</hi> 6 disciplinam <lb/>
+                  <hi rend="italic">Bb, om. ACmlc</hi> re <hi rend="italic">Aml,</hi> relfutamus <hi rend="italic">Am2</hi> disciplinam refutamus <lb/>
             s. <hi rend="italic">l. Cm2</hi> ideo ecclesiam negligimus <hi rend="italic">v</hi> quae] quod <hi rend="italic">v</hi> 7 quoj <lb/>
             quod <hi rend="italic">Cmlcml</hi> praeceptis <hi rend="italic">BmlC</hi> dominici praecepti <hi rend="italic">c</hi> 8 ne cum] nec <lb/>
-            <hi rend="italic">BCb ne simul BCb 9 beato BmlC 10 cy(ci-Cjpriano BmlCml</hi> suas <lb/>
-            <hi rend="italic">BmlCtnl</hi> feneratores <hi rend="italic">BCbcv</hi> 11 contemplationem <hi rend="italic">C</hi> 13 uerbis c <lb/>
+                  <hi rend="italic">BCb ne simul BCb 9 beato BmlC 10 cy(ci-Cjpriano BmlCml</hi> suas <lb/>
+                  <hi rend="italic">BmlCtnl</hi> feneratores <hi rend="italic">BCbcv</hi> 11 contemplationem <hi rend="italic">C</hi> 13 uerbis c <lb/>
             15 caritatis <hi rend="italic">BC</hi> in ecclesia zizania c 17 uestri <hi rend="italic">Bm2</hi> 20 et inDocentes <lb/>
-            <hi rend="italic">v</hi> (dtoovSsto»? <hi rend="italic">ut 22, 37</hi> beati pacifici, <hi rend="italic">Ep. c. Don. 16, 40 et alibi</hi> <lb/>
-            boni fideles) 22 nec <hi rend="italic">C</hi> zizaniam <hi rend="italic">C</hi> 24 iusus <hi rend="italic">Bml</hi> </note> <lb n="25"/>
-             
-<pb n="128"/>
+                  <hi rend="italic">v</hi> (dtoovSsto»? <hi rend="italic">ut 22, 37</hi> beati pacifici, <hi rend="italic">Ep. c. Don. 16, 40 et alibi</hi>
+                  <lb/>
+            boni fideles) 22 nec <hi rend="italic">C</hi> zizaniam <hi rend="italic">C</hi> 24 iusus <hi rend="italic">Bml</hi>
+               </note>
+               <lb n="25"/>
+               <pb n="128"/>
             corriperet eos, qui uaccas constituerant adorandas more idolorum <lb/>
             Aegyptiorum, hoc omnino facere debuit quod praeceperat <lb/>
             dominus, cui tunc eo\' modo illos corripere placuit, ut nihil <lb/>
@@ -1491,13 +1507,10 @@
             ad offerendum domino sacrificium sine excusatione perrexit &gt; <lb/>
             nec peccatorum eius contagione pollutus est, sed omnino <lb/>
             mundus meritorum suorum conseruatione permansit. <lb n="20"/>
-            
-</p>
-          
-</div>
-
-<div n="30" subtype="section" type="textpart">
-<p>Sed istam nobis quaestionem, quamuis euidenter et in <lb/>
+            </p>
+         </div>
+         <div n="30" type="section">
+            <p>Sed istam nobis quaestionem, quamuis euidenter et in <lb/>
             conlatione et modo soluta sit, euidentius tamen soluat Aggaeus, <lb/>
             cuius testimonium prae ceteris legerunt, ut solum adhuc pro <lb/>
             omnibus iactent. arguit dominus per Aggaeum prophetam <lb/>
@@ -1505,18 +1518,22 @@
             domum domini neglegerent et suas domos excolerent, et dicit
 
 <note type="footnote">11 cf. III Reg. 19 15 cf. ibid. 19, 18 17 cf. I Reg. 15 </note>
-
-<note type="footnote"> 1 uacas <hi rend="italic">B</hi> construerent <hi rend="italic">Bb</hi> constituerent <hi rend="italic">C</hi> 2 aegiptiorum <hi rend="italic">BC</hi> <lb/>
+               <note type="footnote"> 1 uacas <hi rend="italic">B</hi> construerent <hi rend="italic">Bb</hi> constituerent <hi rend="italic">C</hi> 2 aegiptiorum <hi rend="italic">BC</hi>
+                  <lb/>
             praeperat <hi rend="italic">C</hi> 4 tanget <hi rend="italic">BmlC</hi> quam <hi rend="italic">Bml</hi> 5 eos <hi rend="italic">deleui</hi> corripimus <lb/>
-            <hi rend="italic">in ras. B</hi> 6 cibi] ibi <hi rend="italic">cv</hi> 7 contagimus <hi rend="italic">Om]</hi> 10 etiamsi] si <lb/>
-            <hi rend="italic">Bm2</hi> 11 helyas et helyseus c 12 deuiantes <hi rend="italic">scripsi</hi> deuitandae <hi rend="italic">A</hi> <lb/>
+                  <hi rend="italic">in ras. B</hi> 6 cibi] ibi <hi rend="italic">cv</hi> 7 contagimus <hi rend="italic">Om]</hi> 10 etiamsi] si <lb/>
+                  <hi rend="italic">Bm2</hi> 11 helyas et helyseus c 12 deuiantes <hi rend="italic">scripsi</hi> deuitandae <hi rend="italic">A</hi>
+                  <lb/>
             deuitandi <hi rend="italic">BCb</hi> deuitandorum <hi rend="italic">cv</hi> 15 helyas <hi rend="italic">c</hi> 16 genu <hi rend="italic">ABCv, cf. <lb/>
-            Ep. c. Don. 13, 33. Cresc. IIII 45, 54</hi> Baal <hi rend="italic">bcv</hi> sanctos <hi rend="italic">Cbcv</hi> <lb/>
+            Ep. c. Don. 13, 33. Cresc. IIII 45, 54</hi> Baal <hi rend="italic">bcv</hi> sanctos <hi rend="italic">Cbcv</hi>
+                  <lb/>
             17 samuhel (h <hi rend="italic">s. l.) A</hi> samuel <hi rend="italic">bv</hi> grauter <hi rend="italic">Bml</hi> 22 et*»modo (in <lb/>
-            <hi rend="italic">eras.) B</hi> 23 elegerunt <hi rend="italic">bv</hi> pro] prae <hi rend="italic">BrnSb</hi> 24 iacent <hi rend="italic">BmlC</hi> <lb/>
-            25 babilonia <hi rend="italic">BCbc</hi> 26 neglerent A neglegerunt <hi rend="italic">BmlC</hi> </note> <lb/>
-             
-<pb n="129"/>
+                  <hi rend="italic">eras.) B</hi> 23 elegerunt <hi rend="italic">bv</hi> pro] prae <hi rend="italic">BrnSb</hi> 24 iacent <hi rend="italic">BmlC</hi>
+                  <lb/>
+            25 babilonia <hi rend="italic">BCbc</hi> 26 neglerent A neglegerunt <hi rend="italic">BmlC</hi>
+               </note>
+               <lb/>
+               <pb n="129"/>
             propterea se plaga sterilitatis eorum percussisse regionem. <lb/>
             tunc Zorobabel filius Salathiel et Iesus filius Iosedec sacerdos <lb/>
             magnus et omnis ille populus diuinitus inspiratus operari <lb/>
@@ -1546,19 +1563,21 @@
             omnipotens, et spiritus meus praeest in medio
 
 <note type="footnote"> . 5 Agg. 1, 14. 2, 1 14 Agg. 1, 13 16 Agg. 2, 1-7 </note>
-
-<note rend="script" type="footnote"><hi rend="italic">2 ihesus Ac itus B Iosedech cv 3 ille om. c 6 ihesu Ac</hi> <lb/>
+               <note rend="script" type="footnote">
+                  <hi rend="italic">2 ihesus Ac itus B Iosedech cv 3 ille om. c 6 ihesu Ac</hi>
+                  <lb/>
             itu <hi rend="italic">B</hi> fili <hi rend="italic">A</hi> Iosedech <hi rend="italic">cv</hi> 9 uicesima <hi rend="italic">BCbcv</hi> 11 et dies <hi rend="italic">codd</hi>. et <lb/>
-            dies et mensis et annus <hi rend="italic">v</hi> 12 domini <hi rend="italic">c</hi> 14 uobiscum sum <hi rend="italic">Bm2</hi> <lb/>
+            dies et mensis et annus <hi rend="italic">v</hi> 12 domini <hi rend="italic">c</hi> 14 uobiscum sum <hi rend="italic">Bm2</hi>
+                  <lb/>
             17 uicesima <hi rend="italic">BCbcv</hi> 19 ihrn <hi rend="italic">A</hi> ihu <hi rend="italic">Bvil</hi> ihum <hi rend="italic">Bm,2b</hi> ihesum c Iosedech <lb/>
-            <hi rend="italic">bcv</hi> 20 magnam <hi rend="italic">Bml</hi> 23 conspectur <hi rend="italic">Urn]</hi> 24 nostro <hi rend="italic">Bb</hi> <lb/>
-            25 ihs A ihu <hi rend="italic">Bb</hi> iesu <hi rend="italic">C(v)</hi> ihesu c filii <hi rend="italic">ABmlCcml</hi> Iosedech <hi rend="italic">cv</hi> </note>
-
-<note type="footnote"> UII. August. c. Don. III. </note>
-
-<note type="footnote"> 9 </note> <lb/>
-             
-<pb n="130"/>
+                  <hi rend="italic">bcv</hi> 20 magnam <hi rend="italic">Bml</hi> 23 conspectur <hi rend="italic">Urn]</hi> 24 nostro <hi rend="italic">Bb</hi>
+                  <lb/>
+            25 ihs A ihu <hi rend="italic">Bb</hi> iesu <hi rend="italic">C(v)</hi> ihesu c filii <hi rend="italic">ABmlCcml</hi> Iosedech <hi rend="italic">cv</hi>
+               </note>
+               <note type="footnote"> UII. August. c. Don. III. </note>
+               <note type="footnote"> 9 </note>
+               <lb/>
+               <pb n="130"/>
             uestrum. bono animo estote, quoniam haec dicit <lb/>
             omnipotens: adhuc semel, commouebo caelum et <lb/>
             terram, mare et aridam, et concutiam omnes gentes, <lb/>
@@ -1584,27 +1603,29 @@
             dixerit istum esse populum, ad quem si quis accesserit <lb/>
             inquinabitur? 
 </p>
-          
-</div>
-
-<div n="31" subtype="section" type="textpart">
-<p>Nunc ergo adtendite, quid post illam prophetiam, quae<lb n="25"/>
+         </div>
+         <div n="31" type="section">
+            <p>Nunc ergo adtendite, quid post illam prophetiam, quae<lb n="25"/>
             huic populo de Christi temporibus annuntiata est, consequenter <lb/>
             scriptura contexat: quarta et uicensima noni mensis
 
 <note type="footnote"> 18 Agg. 2, 4-5 27 Agg. 2, 10-14 </note>
-
-<note rend="script" type="footnote"> 1 bonum <hi rend="italic">Bml</hi> omnipotens haec dicit <hi rend="italic">BmlCml</hi> h. o. d. <hi rend="italic">Bm2Cm2b</hi> <lb/>
+               <note rend="script" type="footnote"> 1 bonum <hi rend="italic">Bml</hi> omnipotens haec dicit <hi rend="italic">BmlCml</hi> h. o. d. <hi rend="italic">Bm2Cm2b</hi>
+                  <lb/>
             haec dicit dominus omnipotens <hi rend="italic">v</hi> 2 semel et <hi rend="italic">v</hi> 6 addidit <hi rend="italic">bv</hi> etiam <lb/>
-            <hi rend="italic">om. Bml</hi> 7 biesu <hi rend="italic">Cml</hi> 9 nun <hi rend="italic">Cml</hi> 10 spiritraliter <hi rend="italic">Cml</hi> 11 ille populus <lb/>
-            <hi rend="italic">scripsi</hi> illum populum <hi rend="italic">codd. v</hi> 13 <hi rend="italic">pr</hi>. et s. <hi rend="italic">l. b</hi> ihs <hi rend="italic">A</hi> ihus <hi rend="italic">B</hi> ihus <hi rend="italic">C</hi> <lb/>
+                  <hi rend="italic">om. Bml</hi> 7 biesu <hi rend="italic">Cml</hi> 9 nun <hi rend="italic">Cml</hi> 10 spiritraliter <hi rend="italic">Cml</hi> 11 ille populus <lb/>
+                  <hi rend="italic">scripsi</hi> illum populum <hi rend="italic">codd. v</hi> 13 <hi rend="italic">pr</hi>. et s. <hi rend="italic">l. b</hi> ihs <hi rend="italic">A</hi> ihus <hi rend="italic">B</hi> ihus <hi rend="italic">C</hi>
+                  <lb/>
             ihesusc <hi rend="italic">14 iosedech Ac(v) exortatus BC commentatusc</hi> 15promptum <lb/>
-            A proptu <hi rend="italic">Bml</hi> hiis <hi rend="italic">b</hi> 17 accecserit <hi rend="italic">B</hi> 19 ihsa. iñs <hi rend="italic">B</hi> iesu <hi rend="italic">bv</hi> iheau <hi rend="italic">c</hi> <lb/>
+            A proptu <hi rend="italic">Bml</hi> hiis <hi rend="italic">b</hi> 17 accecserit <hi rend="italic">B</hi> 19 ihsa. iñs <hi rend="italic">B</hi> iesu <hi rend="italic">bv</hi> iheau <hi rend="italic">c</hi>
+                  <lb/>
             AproptuBm1 hiis b 17 accecserit B 19 ihsAiħsBiesubviheeuc <lb/>
-            fili <hi rend="italic">bcv, cf. p. 129, 25</hi> 20 iosedech <hi rend="italic">Ac(v)</hi> 22 clementissimus <hi rend="italic">BmlCml</hi> <lb/>
-            23 populum immundum <hi rend="italic">b</hi> 25 illum <hi rend="italic">BmlCml</hi> 27 uicesima <hi rend="italic">Bm2Cm2bcv</hi> </note> <lb/>
-             
-<pb n="131"/>
+            fili <hi rend="italic">bcv, cf. p. 129, 25</hi> 20 iosedech <hi rend="italic">Ac(v)</hi> 22 clementissimus <hi rend="italic">BmlCml</hi>
+                  <lb/>
+            23 populum immundum <hi rend="italic">b</hi> 25 illum <hi rend="italic">BmlCml</hi> 27 uicesima <hi rend="italic">Bm2Cm2bcv</hi>
+               </note>
+               <lb/>
+               <pb n="131"/>
             anno secundo sub Dario rege factum est uerbum <lb/>
             domini ad Aggaeum prophetam dicens: haec dicit <lb/>
             omnipotens: interroga sacerdotes legem dicens: <lb/>
@@ -1636,17 +1657,17 @@
             unum templum intrantes, sicut erant etiam sub uno Moyse
 
 <note type="footnote"> 18 Agg. 2, 4-5 </note>
-
-<note type="footnote"> 2 dicit <hi rend="italic">ABCc</hi> dicit dominus <hi rend="italic">bv</hi> 9 anima <hi rend="italic">BCbv, cf. Fulg. 16</hi> 14 in <lb/>
-            illo <hi rend="italic">BCb</hi> 16 in portis <hi rend="italic">om. codd., cf. p. 133, 18</hi> 17 populus iste <hi rend="italic">b</hi> <lb/>
+               <note type="footnote"> 2 dicit <hi rend="italic">ABCc</hi> dicit dominus <hi rend="italic">bv</hi> 9 anima <hi rend="italic">BCbv, cf. Fulg. 16</hi> 14 in <lb/>
+            illo <hi rend="italic">BCb</hi> 16 in portis <hi rend="italic">om. codd., cf. p. 133, 18</hi> 17 populus iste <hi rend="italic">b</hi>
+                  <lb/>
             quiquis <hi rend="italic">BC</hi> accecserit <hi rend="italic">Bml</hi> 21 exortabatur <hi rend="italic">BC</hi> 22 et ostendantur <lb/>
             et <hi rend="italic">cml</hi> 23 quo*«.*iste <hi rend="italic">B</hi> ingrediebantur <hi rend="italic">ABmlCc</hi> 24 in quo iste] <lb/>
             quod iste <hi rend="italic">c alt</hi>. in <hi rend="italic">om. c</hi> 26 separati <hi rend="italic">Bb</hi> 27 si] sic <hi rend="italic">Bm2</hi> insanit <lb/>
-            <hi rend="italic">in ras. longiore Bm2</hi> 29 mose <hi rend="italic">Aml</hi> </note>
-
-<note type="footnote"> 9* </note> <lb/>
-             
-<pb n="132"/>
+                  <hi rend="italic">in ras. longiore Bm2</hi> 29 mose <hi rend="italic">Aml</hi>
+               </note>
+               <note type="footnote"> 9* </note>
+               <lb/>
+               <pb n="132"/>
             quidam deum offendentes, quidam deo placentes, de quibus <lb/>
             dicit apostolus: non in omnibus illis beneplacitum <lb/>
             est deo. neque enim ait: \'in omnibus illis non est beneplacitum <lb/>
@@ -1677,22 +1698,22 @@
             inquinabitur. uitium notauit quo accedi prohibuit, non
 
 <note type="footnote"> 2. 4 I Cor. 10, 5 27 Agg. 2, 14 </note>
-
-<note type="footnote"> 2 apostolus dicit <hi rend="italic">BCbv</hi> 9 ad <hi rend="italic">s. l. A</hi> 10 orum <hi rend="italic">Cml</hi> 12 moses . <lb/>
-            <hi rend="italic">Aml</hi> 14 Samuel <hi rend="italic">bv</hi> 16 et ipsum] inter ipsum c dauit <hi rend="italic">BmlCml</hi> <lb/>
+               <note type="footnote"> 2 apostolus dicit <hi rend="italic">BCbv</hi> 9 ad <hi rend="italic">s. l. A</hi> 10 orum <hi rend="italic">Cml</hi> 12 moses . <lb/>
+                  <hi rend="italic">Aml</hi> 14 Samuel <hi rend="italic">bv</hi> 16 et ipsum] inter ipsum c dauit <hi rend="italic">BmlCml</hi>
+                  <lb/>
             17 <hi rend="italic">utrumque</hi> uiuebat <hi rend="italic">AmlBmlCc</hi> distincti <hi rend="italic">Bml, post hoc uoc. 3-4 <lb/>
-            litt. eras</hi>. 18 uiuebat <hi rend="italic">BmlC</hi> 20 sacerdote magno c 24 que <hi rend="italic">om. b</hi> <lb/>
-            25 assint <hi rend="italic">b</hi> 26 uariae <hi rend="italic">Cv</hi> non <hi rend="italic">addidi</hi> </note> <lb/>
-             
-<pb n="133"/>
+            litt. eras</hi>. 18 uiuebat <hi rend="italic">BmlC</hi> 20 sacerdote magno c 24 que <hi rend="italic">om. b</hi>
+                  <lb/>
+            25 assint <hi rend="italic">b</hi> 26 uariae <hi rend="italic">Cv</hi> non <hi rend="italic">addidi</hi>
+               </note>
+               <lb/>
+               <pb n="133"/>
             homines ab hominibus corporali disiunctione seclusit. acceditur <lb/>
             autem ad uitium corruptionis uitio consensionis. 
 </p>
-          
-</div>
-
-<div n="32" subtype="section" type="textpart">
-<p>Ac ne quisquam diceret illum populum, cui primo <lb/>
+         </div>
+         <div n="32" type="section">
+            <p>Ac ne quisquam diceret illum populum, cui primo <lb/>
             dictum est: praeualesce, quoniam spiritus meus praeest <lb/>
             in medio uestrum, paucis interpositis diebus in deterius <lb n="5"/>
             commutatum, ut audire mereretur: sic populus iste <lb/>
@@ -1712,7 +1733,7 @@
             prius, quam poneretur lapis super lapidem in templo <lb n="20"/>
             domini, qui eratis cum mittebatis in capsella hordei <lb/>
             uiginti sata, et fiebant decem sata, et in tra batis in torcular exhaurire quinquaginta amphoras, <lb/>
-            <lb/>
+               <lb/>
             et fiebant uiginti. percussi uos infecunditate, et <lb/>
             uenti corruptione et grandine omnia opera uestra, <lb n="25"/>
             et non estis conuersi ad me, dicit dominus. constituite <lb/>
@@ -1721,14 +1742,15 @@
             fundatum est templum domini ponite in cordibus
 
 <note type="footnote"> 4 Agg. 2, 4-5 6. 14. 17 Agg. 2, 14 18 Agg. 2, V;-19 </note>
-
-<note type="footnote"> 5 deteribus <hi rend="italic">Cml</hi> 8 conpuntantur <hi rend="italic">B</hi> 11 paruum <hi rend="italic">Bml</hi> 13 uicesima <lb/>
-            <hi rend="italic">BCmSbcv</hi> 17 hodio <hi rend="italic">Bml</hi> 18 arguentis <hi rend="italic">Cml</hi> . 21 qui eratis <lb/>
-            <hi rend="italic">del. Bm2, om. b</hi> com <hi rend="italic">C</hi> cura mittebatis <hi rend="italic">ex</hi> commitebatis <hi rend="italic">Bm2</hi> <lb/>
+               <note type="footnote"> 5 deteribus <hi rend="italic">Cml</hi> 8 conpuntantur <hi rend="italic">B</hi> 11 paruum <hi rend="italic">Bml</hi> 13 uicesima <lb/>
+                  <hi rend="italic">BCmSbcv</hi> 17 hodio <hi rend="italic">Bml</hi> 18 arguentis <hi rend="italic">Cml</hi> . 21 qui eratis <lb/>
+                  <hi rend="italic">del. Bm2, om. b</hi> com <hi rend="italic">C</hi> cura mittebatis <hi rend="italic">ex</hi> commitebatis <hi rend="italic">Bm2</hi>
+                  <lb/>
             uiginti sata hordei <hi rend="italic">v, et A, sed tr. 1111</hi> 24 in fecunditate c 28 uicesima <lb/>
-            <hi rend="italic">BCm2bcv</hi> qua] quo <hi rend="italic">Bm2</hi> </note> <lb/>
-             
-<pb n="134"/>
+                  <hi rend="italic">BCm2bcv</hi> qua] quo <hi rend="italic">Bm2</hi>
+               </note>
+               <lb/>
+               <pb n="134"/>
             uestris, si adhuc cognoscetur in area, aut si uitis <lb/>
             aut malum aut ficus et malum granatum et ligna <lb/>
             oleae quae non fecerunt fructum. a die hoc benedicam. <lb/>
@@ -1748,11 +1770,10 @@
             discrepantibus nec causae causa nec personae potest praeiudicare <lb/>
             persona. 
 </p>
-          
-</div>
-
-<div n="33" subtype="section" type="textpart">
-<p><milestone n="21" unit="altchapter"/> Illud etiam quod ex apostoli epistula scriptis suis <lb/>
+         </div>
+         <div n="33" type="section">
+            <p>
+               <milestone n="21" unit="altchapter"/> Illud etiam quod ex apostoli epistula scriptis suis <lb/>
             etiam modo commemorant, ubi ait: nolite iugum ducere<lb n="20"/>
             cum -infidelibus; quae enim participatio luci ad <lb/>
             tenebras? et cetera, quae supra commemorauimus et quomodo <lb/>
@@ -1765,14 +1786,16 @@
             et sic adloqui laudabiles, quasi omnes ibi laudentur. ecce
 
 <note type="footnote"> 20 II Cor. 6, 14 22 cap. 6 </note>
-
-<note type="footnote"> 2 <hi rend="italic">pr</hi>. et] aut <hi rend="italic">v</hi> 3 oleaequae <hi rend="italic">AC</hi> oleaeque <hi rend="italic">v</hi> 7 accenere <hi rend="italic">Cml</hi> <lb/>
+               <note type="footnote"> 2 <hi rend="italic">pr</hi>. et] aut <hi rend="italic">v</hi> 3 oleaequae <hi rend="italic">AC</hi> oleaeque <hi rend="italic">v</hi> 7 accenere <hi rend="italic">Cml</hi>
+                  <lb/>
             8 abscesu <hi rend="italic">C</hi> accessu <hi rend="italic">b</hi> 10 conaulatur <hi rend="italic">Cml</hi> 14 et <hi rend="italic">om. c</hi> 17 discrepanti <lb/>
-            <hi rend="italic">BCb</hi> et discrepantibus <hi rend="italic">v</hi> nec causae-potest <hi rend="italic">om. SCb</hi> 21 infedelibus <lb/>
-            <hi rend="italic">Aml</hi> 22 ceteras <hi rend="italic">Cml</hi> 25 corionthiorum <hi rend="italic">Bml</hi> 26 mori <hi rend="italic">Bml</hi> <lb/>
-            et non—pertinerc <hi rend="italic">in mg. bm2</hi> </note> <lb/>
-             
-<pb n="135"/>
+                  <hi rend="italic">BCb</hi> et discrepantibus <hi rend="italic">v</hi> nec causae-potest <hi rend="italic">om. SCb</hi> 21 infedelibus <lb/>
+                  <hi rend="italic">Aml</hi> 22 ceteras <hi rend="italic">Cml</hi> 25 corionthiorum <hi rend="italic">Bml</hi> 26 mori <hi rend="italic">Bml</hi>
+                  <lb/>
+            et non—pertinerc <hi rend="italic">in mg. bm2</hi>
+               </note>
+               <lb/>
+               <pb n="135"/>
             et ad Corinthios sic apostolus loquitur: Paulus uocatus <lb/>
             apostolus Christi Iesu per uoluntatem dei et <lb/>
             Sosthenes frater ecclesiae dei quae est Corinthi, <lb/>
@@ -1804,23 +1827,21 @@
 
 <note type="footnote"> 1 I Cor. 1, 1-7 16 I Cor. 1, 10 19 I Cor. 1, 13 22. 23 I <lb/>
             Cor. 1, 12 27 I Cor. 11, 29 </note>
-
-<note type="footnote"> 1 uocatur <hi rend="italic">BmlOmI</hi> 3 sostenes <hi rend="italic">codd</hi>. 8 pro nobis <hi rend="italic">Cml</hi> 10 estisj <lb/>
+               <note type="footnote"> 1 uocatur <hi rend="italic">BmlOmI</hi> 3 sostenes <hi rend="italic">codd</hi>. 8 pro nobis <hi rend="italic">Cml</hi> 10 estisj <lb/>
             es <hi rend="italic">A</hi> 11 sientia <hi rend="italic">C (saepius)</hi> 12 ita ut nihil uobis s. <hi rend="italic">l. A</hi> 13 nulla <lb/>
             (n 8. u) <hi rend="italic">C</hi> 15 uelud <hi rend="italic">Bml, item lin. 18</hi> 17 id <hi rend="italic">om. Bml</hi> 18 scismata <lb/>
-            <hi rend="italic">BCm2bc</hi> russus <hi rend="italic">BmlCml</hi> 22 duxisisse <hi rend="italic">C</hi> 23 appollo <hi rend="italic">c</hi> 26 hiis <hi rend="italic">b</hi> <lb/>
-            corinthis <hi rend="italic">BmlC</hi> </note> 
-             
-<pb n="136"/>
+                  <hi rend="italic">BCm2bc</hi> russus <hi rend="italic">BmlCml</hi> 22 duxisisse <hi rend="italic">C</hi> 23 appollo <hi rend="italic">c</hi> 26 hiis <hi rend="italic">b</hi>
+                  <lb/>
+            corinthis <hi rend="italic">BmlC</hi>
+               </note>
+               <pb n="136"/>
             uaniloquos cogitabat, ut ei non sufficeret dicere: iudicium <lb/>
             manducat et bibit, nisi adderet \'sibi\\ ne hoc etiam ad <lb/>
             illos pertineret qui pariter quidem, sed non iudicium manducabant? <lb/>
             </p>
-          
-</div>
-
-<div n="34" subtype="section" type="textpart">
-<p>In ipsis etiam Corinthiis ibi erant, qui non credebant<lb n="5"/>
+         </div>
+         <div n="34" type="section">
+            <p>In ipsis etiam Corinthiis ibi erant, qui non credebant<lb n="5"/>
             resurrectionem mortuorum, quae singularis fides est christianorum, <lb/>
             quod eis ita dicit apostolus: si autem Christus <lb/>
             praedicatur quod resurrexit a mortuis, quomodo <lb/>
@@ -1847,21 +1868,20 @@
 
 <note type="footnote"> 1 I Cor. 11, 29 7 I Cor. 15, 12 13 I Cor. 15, 11 15 I Cor. <lb/>
             1,4-7 </note>
-
-<note type="footnote"> 1 iudicium- <hi rend="italic">(fort</hi>. sibi <hi rend="italic">eras.) A</hi> 2 ne <hi rend="italic">ex</hi> nec <hi rend="italic">Ana1</hi> 5 corinthis <lb/>
-            <hi rend="italic">BmlC</hi> ubi <hi rend="italic">BC, del. Bm2, om. Ú</hi> 11 inquid <hi rend="italic">Bml</hi> 12 iam <hi rend="italic">s. I. b</hi> <lb/>
+               <note type="footnote"> 1 iudicium- <hi rend="italic">(fort</hi>. sibi <hi rend="italic">eras.) A</hi> 2 ne <hi rend="italic">ex</hi> nec <hi rend="italic">Ana1</hi> 5 corinthis <lb/>
+                  <hi rend="italic">BmlC</hi> ubi <hi rend="italic">BC, del. Bm2, om. Ú</hi> 11 inquid <hi rend="italic">Bml</hi> 12 iam <hi rend="italic">s. I. b</hi>
+                  <lb/>
             christi resurrectione c 15 epistolae sic claudat principio <hi rend="italic">BmlCml</hi> epistola <lb/>
             sic laudat in principio <hi rend="italic">Bm2b; recte tr. Cm2, sed</hi> claudat <hi rend="italic">non corr</hi>. <lb/>
-            17 est <hi rend="italic">om. c</hi> 20 <hi rend="italic">et</hi> 24 nulla <hi rend="italic">Cm2</hi> 22 eis] illis <hi rend="italic">b</hi> illisj eis <hi rend="italic">b</hi> <lb/>
-            23 aduc <hi rend="italic">Bm1</hi> 25 resurrecturus <hi rend="italic">BmlCml</hi> 27 fideles <hi rend="italic">addidi</hi> </note> 
-<pb n="137"/>
-            
-</p>
-          
-</div>
-
-<div n="35" subtype="section" type="textpart">
-<p>Denique ipse apostolus, ne huic infidelitati consentirent, <lb/>
+            17 est <hi rend="italic">om. c</hi> 20 <hi rend="italic">et</hi> 24 nulla <hi rend="italic">Cm2</hi> 22 eis] illis <hi rend="italic">b</hi> illisj eis <hi rend="italic">b</hi>
+                  <lb/>
+            23 aduc <hi rend="italic">Bm1</hi> 25 resurrecturus <hi rend="italic">BmlCml</hi> 27 fideles <hi rend="italic">addidi</hi>
+               </note>
+               <pb n="137"/>
+            </p>
+         </div>
+         <div n="35" type="section">
+            <p>Denique ipse apostolus, ne huic infidelitati consentirent, <lb/>
             quorum iam fides tenebat resurrectionem mortuorum, non eis <lb/>
             praecepit corporalem separationem; multi quippe erant, non <lb/>
             sicut ille unus qui uxorem patris sui habuit, quem liberiore <lb/>
@@ -1885,26 +1905,27 @@
             intra eadem retia natent pisces utrique, nec causa causae <lb/>
             praeiudicat nec persona personae. 
 </p>
-          
-</div>
-
-<div n="36" subtype="section" type="textpart">
-<p>Quod cum ita sit, quae tam cruda stultitia, quis tam <lb/>
+         </div>
+         <div n="36" type="section">
+            <p>Quod cum ita sit, quae tam cruda stultitia, quis tam <lb/>
             ferreus cordis somnus non excutiatur possitque aliquando sentire <lb n="25"/>
             Caeciliani causam catholico orbi terrarum, cui non communicat <lb/>
             pars Donati, praeiudicare non posse, si non praeiudicat <lb/>
             parti Donati causa Maximiani uel potius causa Feliciani et
 
 <note type="footnote">4 cf. I Cor. 5, 1-5 11 I Cor. 15. 33 </note>
-
-<note type="footnote"> 1 infidelitate <hi rend="italic">Cml</hi> consentiret <hi rend="italic">codd</hi>. 3 quippe] enim <hi rend="italic">BCb</hi> <lb/>
-            4 patrisui <hi rend="italic">B</hi> habuit sui <hi rend="italic">Cml</hi> 7 ples <hi rend="italic">Brnl</hi> plebis a plebi <hi rend="italic">Cml</hi> <lb/>
-            separatur <hi rend="italic">Bvil</hi> scismatis <hi rend="italic">BCm2bc</hi> 9 hiis <hi rend="italic">b</hi> 11 mores <hi rend="italic">om. A</hi> <lb/>
+               <note type="footnote"> 1 infidelitate <hi rend="italic">Cml</hi> consentiret <hi rend="italic">codd</hi>. 3 quippe] enim <hi rend="italic">BCb</hi>
+                  <lb/>
+            4 patrisui <hi rend="italic">B</hi> habuit sui <hi rend="italic">Cml</hi> 7 ples <hi rend="italic">Brnl</hi> plebis a plebi <hi rend="italic">Cml</hi>
+                  <lb/>
+            separatur <hi rend="italic">Bvil</hi> scismatis <hi rend="italic">BCm2bc</hi> 9 hiis <hi rend="italic">b</hi> 11 mores <hi rend="italic">om. A</hi>
+                  <lb/>
             18 illis istis <hi rend="italic">Bml</hi> illos isti <hi rend="italic">Bm:2b</hi> inquinabunt <hi rend="italic">BmlC</hi> illis isti c <lb/>
             19 infidelitatem <hi rend="italic">om. BCb</hi> 22 eadem intra <hi rend="italic">Bmlb</hi> 27 possie (i <hi rend="italic">del. <lb/>
-            ml) A</hi> praeiudicat] praeiudicare <hi rend="italic">BmlC</hi> praeiudicaret <hi rend="italic">BmSb</hi> </note> <lb/>
-             
-<pb n="138"/>
+            ml) A</hi> praeiudicat] praeiudicare <hi rend="italic">BmlC</hi> praeiudicaret <hi rend="italic">BmSb</hi>
+               </note>
+               <lb/>
+               <pb n="138"/>
             Primiani modo coniunctorum, paulo ante inuicem damnatorum? <lb/>
             sufficit certe, ut secundum ipsos loquamur, quod pisces mali <lb/>
             sub fluctibus latitantes ignaros non polluunt piscatores, quamuis <lb/>
@@ -1915,13 +1936,11 @@
             sicut a piscatoribus intra aquam positi non uidentur. sed, ut <lb/>
             dixi, sufficit causae nostrae, quod mali non polluunt, quorum <lb/>
             mala facta nesciuntur. <lb n="10"/>
-            
-</p>
-          
-</div>
-
-<div n="37" subtype="section" type="textpart">
-<p><milestone n="22" unit="altchapter"/> Fuerunt quidam tempore Caeciliani beati pacifici, <lb/>
+            </p>
+         </div>
+         <div n="37" type="section">
+            <p>
+               <milestone n="22" unit="altchapter"/> Fuerunt quidam tempore Caeciliani beati pacifici, <lb/>
             qui eum, etiamsi innocens non esset, scientes pro catholica <lb/>
             unitate tolerarent (et), cum eum uiderent tot ignotis gentibus, <lb/>
             per quas ipsa unitas dilatatur, sacramentorum participandorum <lb/>
@@ -1941,16 +1960,19 @@
 
 <note type="footnote"> 4 cf. Matth. 13, 47 sqq. 19 Cypr. ep. 54. 3 26 Apoc. <lb/>
             2, 2-3 </note>
-
-<note type="footnote"> 2 certe] ergo <hi rend="italic">b, s. scr. m2</hi> uel certe 3 lantitantes <hi rend="italic">BCm2</hi> lantitantem <lb/>
-            <hi rend="italic">Crnl</hi> 9 dixit <hi rend="italic">Cml</hi> polluunt <hi rend="italic">(pr</hi>. u <hi rend="italic">s. 1. ml) A</hi> 11 ficipaci <hi rend="italic">Cml</hi> <lb/>
-            13 et <hi rend="italic">addidi</hi> gentisbus <hi rend="italic">Cml</hi> 14 dilatatatur <hi rend="italic">Cml</hi> 15 coherere <hi rend="italic">ACc</hi> <lb/>
-            16 <hi rend="italic">alt</hi>. ipsi] ipse <hi rend="italic">b</hi> se contra se <hi rend="italic">ABCb</hi> contra se c 17 cipriani <hi rend="italic">BC</hi> <lb/>
+               <note type="footnote"> 2 certe] ergo <hi rend="italic">b, s. scr. m2</hi> uel certe 3 lantitantes <hi rend="italic">BCm2</hi> lantitantem <lb/>
+                  <hi rend="italic">Crnl</hi> 9 dixit <hi rend="italic">Cml</hi> polluunt <hi rend="italic">(pr</hi>. u <hi rend="italic">s. 1. ml) A</hi> 11 ficipaci <hi rend="italic">Cml</hi>
+                  <lb/>
+            13 et <hi rend="italic">addidi</hi> gentisbus <hi rend="italic">Cml</hi> 14 dilatatatur <hi rend="italic">Cml</hi> 15 coherere <hi rend="italic">ACc</hi>
+                  <lb/>
+            16 <hi rend="italic">alt</hi>. ipsi] ipse <hi rend="italic">b</hi> se contra se <hi rend="italic">ABCb</hi> contra se c 17 cipriani <hi rend="italic">BC</hi>
+                  <lb/>
             18 ac dicerent c 19 etsi] si <hi rend="italic">Bml</hi> ecclesiae <hi rend="italic">C</hi> 22 de] ab <hi rend="italic">Bm2b) <lb/>
             om. Bml</hi> istarum <hi rend="italic">C</hi> 24 quem <hi rend="italic">Bm2bcv</hi> cum <hi rend="italic">ABmlC</hi> 25 apocalipsi <lb/>
-            <hi rend="italic">BCc</hi> 27 malum <hi rend="italic">BCb</hi> </note> <lb/>
-             
-<pb n="139"/>
+                  <hi rend="italic">BCc</hi> 27 malum <hi rend="italic">BCb</hi>
+               </note>
+               <lb/>
+               <pb n="139"/>
             tę.mptasti eos qui se dicunt apostolos esse et non <lb/>
             sunt, et inuenisti eos mendaces; et patientiam <lb/>
             habes, et sustinuisti eos propter nomen meum, et <lb/>
@@ -1976,11 +1998,9 @@
             crimina, quae a centum episcopis sibi obiecta nec postea saltem <lb/>
             ostenditur diluisse. 
 </p>
-          
-</div>
-
-<div n="38" subtype="section" type="textpart">
-<p>Sed uidelicet nec causa causae praeiudicat nec persona <lb n="25"/>
+         </div>
+         <div n="38" type="section">
+            <p>Sed uidelicet nec causa causae praeiudicat nec persona <lb n="25"/>
             personae, ne pars Donati minuatur, praeiudicat autem, ut <lb/>
             Christi hereditas diuidatur. an uero Caeciliani causa non praeiudicat <lb/>
             unitati catholicae, quam tenemus et cuius societate <lb/>
@@ -1988,14 +2008,17 @@
             et praeiudicat ei causa Nouelli Tizicensis, Faustini
 
 <note type="footnote"> 30 cf. Breuic. III 14, 26 pag. 75, 26 </note>
-
-<note type="footnote"> 5 ungentum <hi rend="italic">A</hi> 7 fragrabat <hi rend="italic">Bm2bv</hi> fraglabat <hi rend="italic">Ac</hi> flagtabat <hi rend="italic">BmlC</hi> <lb/>
+               <note type="footnote"> 5 ungentum <hi rend="italic">A</hi> 7 fragrabat <hi rend="italic">Bm2bv</hi> fraglabat <hi rend="italic">Ac</hi> flagtabat <hi rend="italic">BmlC</hi>
+                  <lb/>
             8 nossent malum <hi rend="italic">b</hi> 9 possent <hi rend="italic">Aml</hi> 14 christianorum <hi rend="italic">BC</hi> 15 quid <lb/>
-            <hi rend="italic">Bm2bc</hi> 16 causae <hi rend="italic">Btnl</hi> 18 aut cre aut credant (aut cre <hi rend="italic">del. ml) A</hi> <lb/>
-            isti* c episcopus <hi rend="italic">BmlCml</hi> 23 accentum <hi rend="italic">BmlC</hi> sibi] <hi rend="italic">vdd</hi>. sunt <hi rend="italic">b</hi> <lb/>
-            saltim (i <hi rend="italic">ex</hi> e <hi rend="italic">ml) A, BmlC</hi> 30 Tyzicensis <hi rend="italic">v</hi> </note> <lb n="30"/>
-             
-<pb n="140"/>
+                  <hi rend="italic">Bm2bc</hi> 16 causae <hi rend="italic">Btnl</hi> 18 aut cre aut credant (aut cre <hi rend="italic">del. ml) A</hi>
+                  <lb/>
+            isti* c episcopus <hi rend="italic">BmlCml</hi> 23 accentum <hi rend="italic">BmlC</hi> sibi] <hi rend="italic">vdd</hi>. sunt <hi rend="italic">b</hi>
+                  <lb/>
+            saltim (i <hi rend="italic">ex</hi> e <hi rend="italic">ml) A, BmlC</hi> 30 Tyzicensis <hi rend="italic">v</hi>
+               </note>
+               <lb n="30"/>
+               <pb n="140"/>
             Tuburbitani, quos nec accusandos postea sicut Caecilianum Felicemque <lb/>
             putauerunt, quorum nomina, immo uero ipsarum in quibus <lb/>
             fuerunt ciuitatum nomina nec uniuersae Africae nota sunt aut <lb/>
@@ -2009,11 +2032,10 @@
             omnium fontem in concilii illius inimica conspiratione <lb/>
             dixerunt? 
 </p>
-          
-</div>
-
-<div n="39" subtype="section" type="textpart">
-<p><milestone n="23" unit="altchapter"/> Sed qualescumque isti fuerunt, ad nos quid pertinet? <lb/>
+         </div>
+         <div n="39" type="section">
+            <p>
+               <milestone n="23" unit="altchapter"/> Sed qualescumque isti fuerunt, ad nos quid pertinet? <lb/>
             neque enim uere non nobis concedunt, ut istorum nescio <lb/>
             quorum causa atque persona non praeiudicet causae atque<lb n="15"/>
             personae ecclesiae catholicae, si nec causa causae praeiudicat <lb/>
@@ -2032,14 +2054,16 @@
             hominibus, etiam illis qui nostras disputationes intellegere non
 
 <note type="footnote"> 10 cf. Breuic. III 14, 26 23 cf. Breuic. III 4, 4 </note>
-
-<note type="footnote"> 1 accusando <hi rend="italic">ACml</hi> 2 ipsorum <hi rend="italic">Bml</hi> 4 uniuersae <hi rend="italic">v</hi> 5 latentum <hi rend="italic">Bml</hi> <lb/>
+               <note type="footnote"> 1 accusando <hi rend="italic">ACml</hi> 2 ipsorum <hi rend="italic">Bml</hi> 4 uniuersae <hi rend="italic">v</hi> 5 latentum <hi rend="italic">Bml</hi>
+                  <lb/>
             10 maloram est <hi rend="italic">Bml</hi> 11 illius est <hi rend="italic">Bml</hi> 13 quid ad nos pertinet <lb/>
-            <hi rend="italic">(sed tr. ml) A</hi> quid pertinet ad nos <hi rend="italic">BCbv, cf. Petil. I 17, 19</hi> 14 non <lb/>
-            <hi rend="italic">del. Bm2, om. b</hi> 15 praeiudicat <hi rend="italic">AmlBmlCbml</hi> 16 causa] causae <hi rend="italic">Cml</hi> <lb/>
-            21 proo <hi rend="italic">Cml</hi> 24 et <hi rend="italic">om. B</hi> 29 non] nos <hi rend="italic">Bml</hi> </note> <lb/>
-             
-<pb n="141"/>
+                  <hi rend="italic">(sed tr. ml) A</hi> quid pertinet ad nos <hi rend="italic">BCbv, cf. Petil. I 17, 19</hi> 14 non <lb/>
+                  <hi rend="italic">del. Bm2, om. b</hi> 15 praeiudicat <hi rend="italic">AmlBmlCbml</hi> 16 causa] causae <hi rend="italic">Cml</hi>
+                  <lb/>
+            21 proo <hi rend="italic">Cml</hi> 24 et <hi rend="italic">om. B</hi> 29 non] nos <hi rend="italic">Bml</hi>
+               </note>
+               <lb/>
+               <pb n="141"/>
             possent, satis aperte monstrarent quam malam causam haberent, <lb/>
             quam proferre et agere sic timebant apud eum iudicem, <lb/>
             cuius erga se benignitatem atque iustitiam tanto praeconio <lb/>
@@ -2054,11 +2078,9 @@
             sibi placere dixissent, ad easdem forenses praescriptiones perplexis <lb/>
             et odiosis contentionibus remearent? 
 </p>
-          
-</div>
-
-<div n="40" subtype="section" type="textpart">
-<p>Quanti emere debuimus, ut suscriptionum nostrarum, <lb/>
+         </div>
+         <div n="40" type="section">
+            <p>Quanti emere debuimus, ut suscriptionum nostrarum, <lb/>
             quae in eodem mandato demonstrabantur, numerositate commoti <lb n="15"/>
             exigerent totius concilii nostri praesentiam, ex quo concilio <lb/>
             non nisi decem et octo secundum edictum cognitoris <lb/>
@@ -2074,17 +2096,21 @@
             post magnas angustias perturbationis atque inconstantis et
 
 <note type="footnote"> 3 cf. pag. 46, 8 22 cf. Breuic. I 14 </note>
-
-<note type="footnote"> 1 aperte (te <hi rend="italic">in ras. m2) B</hi> 4 adhuc <hi rend="italic">bis Aml</hi> 6 testimoniis potius <lb/>
-            <hi rend="italic">bml</hi> 8 cum] con <hi rend="italic">BmiO</hi> optuleramus <hi rend="italic">BmlC</hi> 9 eos <hi rend="italic">Cml</hi> 10 causam <lb/>
-            <hi rend="italic">add. mg. v</hi> 11 russus <hi rend="italic">Bml</hi> 14 scriptionum <hi rend="italic">Bml</hi> 15 nemorositate <lb/>
-            <hi rend="italic">BmlC</hi> numorositate <hi rend="italic">(sic) Bm2</hi> 19 subpositi (ositi <hi rend="italic">in ras. m2) A</hi> <lb/>
-            subtisi <hi rend="italic">(del. m2) B</hi> sObptisi C substituti <hi rend="italic">c, om. bv, cf. Breuic. I 11</hi> <lb/>
-            subscriberent <hi rend="italic">Cna1</hi> 20 recenserentur <hi rend="italic">Cml</hi> ipse <hi rend="italic">Bm2b</hi> in ea <hi rend="italic">om. Bb</hi> <lb/>
-            21 deprehenderetur <hi rend="italic">Bb</hi> 24 quemdam <hi rend="italic">A</hi> initinere <hi rend="italic">(alt</hi>. i <hi rend="italic">s. 1. m2) B</hi> <lb/>
-            25 essent <hi rend="italic">BmlCml</hi> </note> <lb/>
-             
-<pb n="142"/>
+               <note type="footnote"> 1 aperte (te <hi rend="italic">in ras. m2) B</hi> 4 adhuc <hi rend="italic">bis Aml</hi> 6 testimoniis potius <lb/>
+                  <hi rend="italic">bml</hi> 8 cum] con <hi rend="italic">BmiO</hi> optuleramus <hi rend="italic">BmlC</hi> 9 eos <hi rend="italic">Cml</hi> 10 causam <lb/>
+                  <hi rend="italic">add. mg. v</hi> 11 russus <hi rend="italic">Bml</hi> 14 scriptionum <hi rend="italic">Bml</hi> 15 nemorositate <lb/>
+                  <hi rend="italic">BmlC</hi> numorositate <hi rend="italic">(sic) Bm2</hi> 19 subpositi (ositi <hi rend="italic">in ras. m2) A</hi>
+                  <lb/>
+            subtisi <hi rend="italic">(del. m2) B</hi> sObptisi C substituti <hi rend="italic">c, om. bv, cf. Breuic. I 11</hi>
+                  <lb/>
+            subscriberent <hi rend="italic">Cna1</hi> 20 recenserentur <hi rend="italic">Cml</hi> ipse <hi rend="italic">Bm2b</hi> in ea <hi rend="italic">om. Bb</hi>
+                  <lb/>
+            21 deprehenderetur <hi rend="italic">Bb</hi> 24 quemdam <hi rend="italic">A</hi> initinere <hi rend="italic">(alt</hi>. i <hi rend="italic">s. 1. m2) B</hi>
+                  <lb/>
+            25 essent <hi rend="italic">BmlCml</hi>
+               </note>
+               <lb/>
+               <pb n="142"/>
             uariae responsionis suae non uenientem, sed posteaquam suscripsit, <lb/>
             ad propria remeantem in itinere defecisse adseuerarent. <lb/>
             deinde sub diuina testificatione interrogati, utrum eum constaret <lb/>
@@ -2093,11 +2119,10 @@
             quam nobis obiecerant, in suo mandato apparuisse et <lb/>
             conuictam claruisse firmarent. 
 </p>
-          
-</div>
-
-<div n="41" subtype="section" type="textpart">
-<p><milestone n="24" unit="altchapter"/> Quanti emere debuimus, ut, cum uellent de <lb/>
+         </div>
+         <div n="41" type="section">
+            <p>
+               <milestone n="24" unit="altchapter"/> Quanti emere debuimus, ut, cum uellent de <lb/>
             . numerositate gloriari, etiam in hoc mendacia sua proderent? <lb/>
             nam cum aliquanto amplior nostrorum numerus adfuisset<lb n="10"/>
             dictumque a nobis esset alios centum ferme episcopos catholicos <lb/>
@@ -2119,16 +2144,18 @@
             cum et pro ipsis quibusdam alii suscripserunt, ut non dicamus
 
 <note type="footnote">10 <hi rend="italic">nam</hi> et cet.] cf. Breuic. I 14 </note>
-
-<note type="footnote"> 5 apposuit <hi rend="italic">v</hi> (opposuit = aubstituit, <hi rend="italic">cf. index)</hi> 6 mandato] mendacio <lb/>
+               <note type="footnote"> 5 apposuit <hi rend="italic">v</hi> (opposuit = aubstituit, <hi rend="italic">cf. index)</hi> 6 mandato] mendacio <lb/>
             c 8 cum] con <hi rend="italic">BmlC</hi> 10 numerus amplior nostrorum <hi rend="italic">b</hi> affuisset <lb/>
-            bc 11 esset a nobis alios ferme centum c 12 ualitudine <hi rend="italic">BCbc</hi> <lb/>
-            15 affricam <hi rend="italic">BCc</hi> 16 notaria <hi rend="italic">Cm2c</hi> 17 adeo] ad eos <hi rend="italic">Bml</hi> se <hi rend="italic">om. Bb</hi> <lb/>
+            bc 11 esset a nobis alios ferme centum c 12 ualitudine <hi rend="italic">BCbc</hi>
+                  <lb/>
+            15 affricam <hi rend="italic">BCc</hi> 16 notaria <hi rend="italic">Cm2c</hi> 17 adeo] ad eos <hi rend="italic">Bml</hi> se <hi rend="italic">om. Bb</hi>
+                  <lb/>
             uenissent <hi rend="italic">BmlC</hi> 21 supplicatione <hi rend="italic">b</hi> 22 tres <hi rend="italic">ABCc, cf. Breuic. I. c. <lb/>
-             et Gesta collationis 1 213</hi> hiis <hi rend="italic">b</hi> iis <hi rend="italic">v</hi> 25 plures quam <hi rend="italic">Bm2b</hi> <lb/>
-            quadringentos <hi rend="italic">BCb</hi> solos <hi rend="italic">om. b</hi> 26 ualitudo (i <hi rend="italic">ex</hi> e <hi rend="italic">AmI) codd</hi>. </note> <lb/>
-             
-<pb n="143"/>
+             et Gesta collationis 1 213</hi> hiis <hi rend="italic">b</hi> iis <hi rend="italic">v</hi> 25 plures quam <hi rend="italic">Bm2b</hi>
+                  <lb/>
+            quadringentos <hi rend="italic">BCb</hi> solos <hi rend="italic">om. b</hi> 26 ualitudo (i <hi rend="italic">ex</hi> e <hi rend="italic">AmI) codd</hi>. </note>
+               <lb/>
+               <pb n="143"/>
             hoc pro omnibus aegrotantibus esse factum? an forte sic eos <lb/>
             inuaserat pestilentia, ut eorum tertiam partem repente prosterneret? <lb/>
             sic autem a primate suo per tractoriam fuerant <lb/>
@@ -2139,11 +2166,9 @@
             plus prosit ad aliquid facilius inueniendum, quanto maior » <lb/>
             fuerit quaerentium multitudo caecorum. 
 </p>
-          
-</div>
-
-<div n="42" subtype="section" type="textpart">
-<p>Quanti emere debuimus, ut in diem perendinum utrisque <lb n="10"/>
+         </div>
+         <div n="42" type="section">
+            <p>Quanti emere debuimus, ut in diem perendinum utrisque <lb n="10"/>
             nostrum consentientibus cognitione dilata pridie per notoriam <lb/>
             peterent, ut sibi nostrum mandatum ab officio ederetur, <lb/>
             quo instructi adesse possent, causantes quod conscribendis <lb/>
@@ -2163,16 +2188,17 @@
             die rursus de ipsis exceptoribus, quia non occurrerant, uelle
 
 <note type="footnote"> 10 cf. Breuic. I 15. II </note>
-
-<note type="footnote"> 1 an] ante <hi rend="italic">BmlC</hi> 3 primatu <hi rend="italic">codd</hi>. tratoriam <hi rend="italic">BmlC</hi> 5 decepis.se <lb/>
+               <note type="footnote"> 1 an] ante <hi rend="italic">BmlC</hi> 3 primatu <hi rend="italic">codd</hi>. tratoriam <hi rend="italic">BmlC</hi> 5 decepis.se <lb/>
             (i <hi rend="italic">eras.) B</hi> decepissent <hi rend="italic">Om] decerpsisjjecom. v</hi> 11 cognitionem <lb/>
-            <hi rend="italic">em]</hi> notariam <hi rend="italic">Cm2c</hi> 13 instructi (rnêti <hi rend="italic">in ras. m2) B</hi> scribendis <lb/>
-            <hi rend="italic">BCb</hi> 14 angusta <hi rend="italic">Cml</hi> 16 iustam <hi rend="italic">scripsi</hi> iniustam (IN <hi rend="italic">s. 1. Aml)<lb/>
-             ACm2bcv</hi> inustam <hi rend="italic">BCml</hi> et <hi rend="italic">addidi</hi> 18 cum conuincerentur <hi rend="italic">c</hi> <lb/>
+                  <hi rend="italic">em]</hi> notariam <hi rend="italic">Cm2c</hi> 13 instructi (rnêti <hi rend="italic">in ras. m2) B</hi> scribendis <lb/>
+                  <hi rend="italic">BCb</hi> 14 angusta <hi rend="italic">Cml</hi> 16 iustam <hi rend="italic">scripsi</hi> iniustam (IN <hi rend="italic">s. 1. Aml)<lb/>
+             ACm2bcv</hi> inustam <hi rend="italic">BCml</hi> et <hi rend="italic">addidi</hi> 18 cum conuincerentur <hi rend="italic">c</hi>
+                  <lb/>
             19 iustus <hi rend="italic">Bml</hi> 24 notaria <hi rend="italic">c</hi> 26 gestorum] caeterorum <hi rend="italic">c</hi> cumscriptoone <lb/>
-            <hi rend="italic">(pr</hi>. o <hi rend="italic">mutata in</hi> i) <hi rend="italic">C</hi> ipsum <hi rend="italic">Cml</hi> </note> <lb/>
-             
-<pb n="144"/>
+                  <hi rend="italic">(pr</hi>. o <hi rend="italic">mutata in</hi> i) <hi rend="italic">C</hi> ipsum <hi rend="italic">Cml</hi>
+               </note>
+               <lb/>
+               <pb n="144"/>
             causari quid eos ad hoc conpulit nisi uehemens perturbatio, <lb/>
             cum uiderent sic a nobis esse actam causam in conscriptione <lb/>
             mandati, ut responsionem inuenire non possent? nam illud <lb/>
@@ -2180,11 +2206,10 @@
             sex dierum, ut nemo posset eos dicere angustia temporis<lb n="5"/>
             impeditos non potuisse nostro respondere mandato? 
 </p>
-          
-</div>
-
-<div n="43" subtype="section" type="textpart">
-<p><milestone n="25" unit="altchapter"/> Ipso uero tertio nostrae conlationis die quanti <lb/>
+         </div>
+         <div n="43" type="section">
+            <p>
+               <milestone n="25" unit="altchapter"/> Ipso uero tertio nostrae conlationis die quanti <lb/>
             emendum fuit, quod inanissimis et superuacuis morarum interpositionibus <lb/>
             se omni modo peruenire ad causam nolle monstrabant <lb/>
             et, quam malam causam haberent, ipso suo timore<lb n="10"/>
@@ -2208,15 +2233,18 @@
             formulis conscripsisse confessi sunt et similiter se de
 
 <note type="footnote"> 12 cf. Breuic. III 5, 6 extr. </note>
-
-<note type="footnote"> 7 nostrae tertio conlationis <hi rend="italic">(tr. ml) A</hi> consolationis (collationis <hi rend="italic">b)</hi> <lb/>
+               <note type="footnote"> 7 nostrae tertio conlationis <hi rend="italic">(tr. ml) A</hi> consolationis (collationis <hi rend="italic">b)</hi>
+                  <lb/>
             nostrae tertio <hi rend="italic">BCb</hi> 8 quod <hi rend="italic">Bm2bv</hi> ut <hi rend="italic">ABmlCc, cf. § 45 init. 28, 48 <lb/>
-            init</hi>. inanisimus <hi rend="italic">BmJ</hi> inanissimus <hi rend="italic">Cml</hi> 13 inquiunt <hi rend="italic">ex</hi> inquit <hi rend="italic">Aml</hi> <lb/>
-            15 equuleo <hi rend="italic">v</hi> 16 affrica <hi rend="italic">Bmlbc</hi> 19 eligantur <hi rend="italic">BmlC</hi> 25 annos <hi rend="italic">BCmlbc</hi> <lb/>
+            init</hi>. inanisimus <hi rend="italic">BmJ</hi> inanissimus <hi rend="italic">Cml</hi> 13 inquiunt <hi rend="italic">ex</hi> inquit <hi rend="italic">Aml</hi>
+                  <lb/>
+            15 equuleo <hi rend="italic">v</hi> 16 affrica <hi rend="italic">Bmlbc</hi> 19 eligantur <hi rend="italic">BmlC</hi> 25 annos <hi rend="italic">BCmlbc</hi>
+                  <lb/>
             etiam et <hi rend="italic">c</hi> temporum <hi rend="italic">Bm2b</hi> 26 consueuerunt <hi rend="italic">v</hi> 28 de scribturis <lb/>
-            <hi rend="italic">repetit A post</hi> responsuros, <hi rend="italic">sed del. ml</hi> </note> <lb/>
-             
-<pb n="145"/>
+                  <hi rend="italic">repetit A post</hi> responsuros, <hi rend="italic">sed del. ml</hi>
+               </note>
+               <lb/>
+               <pb n="145"/>
             scripturis responsuros esse promiserunt. et quoniam mirifica <lb/>
             opitulatione deus uoluit, ut, cum quaerunt personam petitoris <lb/>
             ne ueniretur ad causam, ipsa inquisitio petitoris subito in <lb/>
@@ -2230,11 +2258,9 @@
             pectore excuteret, [et] non dico si eos donis largissimis ditaremus, <lb/>
             sed si eos poenis crudelissimis torqueremus? 
 </p>
-          
-</div>
-
-<div n="44" subtype="section" type="textpart">
-<p>Cum enim personam petitorum forensi tritura inquirerent <lb/>
+         </div>
+         <div n="44" type="section">
+            <p>Cum enim personam petitorum forensi tritura inquirerent <lb/>
             et uolentes ostendere nos esse petitores, ut personas <lb/>
             nostras permitterentur iure discutere et moras annosissimas <lb n="15"/>
             inuenire, legerent libellum nostrum aliquando proconsuli datum, <lb/>
@@ -2254,18 +2280,17 @@
 
 <note type="footnote"> 2 cf. Breuic. III 6, 7 extr. 16 cf. Breuic. III 5, 6 <hi rend="italic">22 propter<lb/>
              hoc]</hi> cf. § 47 extr. </note>
-
-<note type="footnote"> 4 medicum <hi rend="italic">Bml</hi> 8 nolebant] debuerit <hi rend="italic">b</hi> 9 quia-uolebant <hi rend="italic">om. BCb</hi> <lb/>
+               <note type="footnote"> 4 medicum <hi rend="italic">Bml</hi> 8 nolebant] debuerit <hi rend="italic">b</hi> 9 quia-uolebant <hi rend="italic">om. BCb</hi>
+                  <lb/>
             11 et <hi rend="italic">deleui</hi> 13 inquirerent <hi rend="italic">scripsi</hi> conquirerent <hi rend="italic">codd. v, cf. lin. 3. <lb/>
             p. 58, 3. 146, 25</hi> 16 legerent <hi rend="italic">scripsi</hi> legerunt <hi rend="italic">codd. v</hi> 18 imparatore <lb/>
-            <hi rend="italic">A</hi> inperatore <hi rend="italic">Bml</hi> impetrauimus <hi rend="italic">A</hi> et] ut <hi rend="italic">bv</hi> 23 separati <lb/>
-            sunt <hi rend="italic">b</hi> 24 cognitior <hi rend="italic">BtnlCml</hi> 28 nos <hi rend="italic">om. c</hi> oblata occasione <hi rend="italic">bml</hi> </note>
-
-<note type="footnote"> LIII. August. c. Don. III. </note>
-
-<note type="footnote"> 10 </note> <lb/>
-             
-<pb n="146"/>
+                  <hi rend="italic">A</hi> inperatore <hi rend="italic">Bml</hi> impetrauimus <hi rend="italic">A</hi> et] ut <hi rend="italic">bv</hi> 23 separati <lb/>
+            sunt <hi rend="italic">b</hi> 24 cognitior <hi rend="italic">BtnlCml</hi> 28 nos <hi rend="italic">om. c</hi> oblata occasione <hi rend="italic">bml</hi>
+               </note>
+               <note type="footnote"> LIII. August. c. Don. III. </note>
+               <note type="footnote"> 10 </note>
+               <lb/>
+               <pb n="146"/>
             constaret, illud iuberet potius recitari, ubi ipsi apud imperatorem <lb/>
             Constantinum per Anullinum proconsulem accusarunt <lb/>
             Caecilianum, cuius crimina nostrae communioni obiciunt, quae <lb/>
@@ -2279,11 +2304,9 @@
             imperatorem accusatus et tot iudiciis non solum episcopalibus, <lb/>
             sed etiam imperialibus absolutus? 
 </p>
-          
-</div>
-
-<div n="45" subtype="section" type="textpart">
-<p>Quando uel quanto pretio emere possemus, quod ipso <lb/>
+         </div>
+         <div n="45" type="section">
+            <p>Quando uel quanto pretio emere possemus, quod ipso <lb/>
             timore turbati redire ausi sunt etiam ad illius temporis praescriptionem, <lb/>
             ubi dixerant lapsam esse iam causam et quattuor <lb n="15"/>
             mensibus euolutis agi iam omnino non posse? quid est <lb/>
@@ -2304,19 +2327,17 @@
             iam transisse clamatur.
 
 <note type="footnote"> 6 cf. pag. 144, 12 15 cf. Breuic. I 8. III 5, 6 </note>
-
-<note type="footnote"> 2 Anulinum <hi rend="italic">v</hi> 4 purgari <hi rend="italic">b</hi> 9 exhorcistam <hi rend="italic">A</hi> timeret exorciatam b <lb/>
+               <note type="footnote"> 2 Anulinum <hi rend="italic">v</hi> 4 purgari <hi rend="italic">b</hi> 9 exhorcistam <hi rend="italic">A</hi> timeret exorciatam b <lb/>
             10 praedecessoribus c 15 labsam <hi rend="italic">ABtnlC</hi> 17 iudex <hi rend="italic">BCbcv</hi> 19 timuerunt <lb/>
-            <hi rend="italic">b</hi> iniudicium (iu <hi rend="italic">del. Aml) ABCc</hi> iudicium <hi rend="italic">bv</hi> 26 tendiculi <lb/>
-            ni <hi rend="italic">Bml</hi> 27 tergiuersatoriae <hi rend="italic">BCc</hi> 30 casae <hi rend="italic">Bml</hi> </note> 
-<pb n="147"/>
-            
-</p>
-          
-</div>
-
-<div n="46" subtype="section" type="textpart">
-<p><milestone n="26" unit="altchapter"/> Quid adhuc expectatis, quid pro nobis pronuntiauerit <lb/>
+                  <hi rend="italic">b</hi> iniudicium (iu <hi rend="italic">del. Aml) ABCc</hi> iudicium <hi rend="italic">bv</hi> 26 tendiculi <lb/>
+            ni <hi rend="italic">Bml</hi> 27 tergiuersatoriae <hi rend="italic">BCc</hi> 30 casae <hi rend="italic">Bml</hi>
+               </note>
+               <pb n="147"/>
+            </p>
+         </div>
+         <div n="46" type="section">
+            <p>
+               <milestone n="26" unit="altchapter"/> Quid adhuc expectatis, quid pro nobis pronuntiauerit <lb/>
             cognitor, cum uideatis, quid contra se ipsos episcoporum <lb/>
             uestrorum pronuntiauerit timor? dederat certe ipse <lb/>
             cognitor potestatem, ut alium cum illo quem uellent iudicem <lb/>
@@ -2336,13 +2357,11 @@
             timor quam cognitoris labor! ille quaerebat quid ex <lb/>
             eorum chartulis legeretur, iste indicauit quid in eorum cordibus <lb/>
             ageretur. <lb n="20"/>
-            
-</p>
-          
-</div>
-
-<div n="47" subtype="section" type="textpart">
-<p><milestone n="27" unit="altchapter"/> Quoniam autem ad hoc uenerant territi eis, <lb/>
+            </p>
+         </div>
+         <div n="47" type="section">
+            <p>
+               <milestone n="27" unit="altchapter"/> Quoniam autem ad hoc uenerant territi eis, <lb/>
             quae prolata fuerant recitanda, ut dicerent iam lapsam esse <lb/>
             causam temporibus et agi non posse, proposuerunt nobis quod <lb/>
             iam fuerat ante transactum, ut, si de scripturis sanctis ageremus, <lb/>
@@ -2352,17 +2371,20 @@
             quod ante promiserant, se mandato nostro, ubi nos ecclesiae
 
 <note type="footnote"> 23 cf. Breuic. III 5, 6\' </note>
-
-<note type="footnote"> <hi rend="italic">5 l\'ecusarunt c 8 alterum cum illo b iudicet Bml 16 dicerent v</hi> <lb/>
-            17 causa iam non <hi rend="italic">(tr. ml) A, et cv</hi> non iam causa (casa <hi rend="italic">Bml) BCb</hi> <lb/>
+               <note type="footnote">
+                  <hi rend="italic">5 l\'ecusarunt c 8 alterum cum illo b iudicet Bml 16 dicerent v</hi>
+                  <lb/>
+            17 causa iam non <hi rend="italic">(tr. ml) A, et cv</hi> non iam causa (casa <hi rend="italic">Bml) BCb</hi>
+                  <lb/>
             agerentur <hi rend="italic">BCb</hi> 18 quaerebant <hi rend="italic">Cml</hi> 19 carthulis <hi rend="italic">ABmlCml</hi> cartulis <lb/>
-            <hi rend="italic">Bm2Cm2bc</hi> iudicauit <hi rend="italic">B</hi> 21 quoniam <hi rend="italic">scripsi</hi> quomodo <hi rend="italic">codd. v</hi> <lb/>
-            22 <hi rend="italic">et</hi> 26 labsam <hi rend="italic">ABmlC</hi> 24 si s. <hi rend="italic">t. b</hi> 25 recitandae <hi rend="italic">(sic) Am2</hi> <lb/>
+                  <hi rend="italic">Bm2Cm2bc</hi> iudicauit <hi rend="italic">B</hi> 21 quoniam <hi rend="italic">scripsi</hi> quomodo <hi rend="italic">codd. v</hi>
+                  <lb/>
+            22 <hi rend="italic">et</hi> 26 labsam <hi rend="italic">ABmlC</hi> 24 si s. <hi rend="italic">t. b</hi> 25 recitandae <hi rend="italic">(sic) Am2</hi>
+                  <lb/>
             eligeremus <hi rend="italic">Amlc</hi> legeremus <hi rend="italic">Am2BCbv, cf. Breuic. III 5, 6 post med</hi>. </note>
-
-<note type="footnote"> 10* </note> <lb/>
-             
-<pb n="148"/>
+               <note type="footnote"> 10* </note>
+               <lb/>
+               <pb n="148"/>
             causam scripturarum testimoniis egisse confessi sunt, similiter <lb/>
             [sej scripturarum testimoniis responsuros, qui petitorum discutiendas <lb/>
             esse personas non more disputantium, sed more litigantium <lb/>
@@ -2381,11 +2403,10 @@
             si autem obicerent crimina Caeciliani. nec a se nisi talibus <lb/>
             documentis posse asseri nec a nobis aliter posse defendi. 
 </p>
-          
-</div>
-
-<div n="48" subtype="section" type="textpart">
-<p><milestone n="28" unit="altchapter"/> Iam uero illud inter hos eorum contentiosissimos <lb/>
+         </div>
+         <div n="48" type="section">
+            <p>
+               <milestone n="28" unit="altchapter"/> Iam uero illud inter hos eorum contentiosissimos <lb/>
             strepitus quanti emendum fuit, quod, cum diceremus hoc nos <lb/>
             proponere, ut crimina, quae solent obicere nostrae communioni<lb n="20"/>
             quae per omnes gentes dilatatur, probarent si possent, ut hinc. <lb/>
@@ -2400,12 +2421,11 @@
             sunt, cui communio nostra coniuncta est, unde ipsorum
 
 <note type="footnote"> 19 cf. Breuic. III 3, 3 </note>
-
-<note type="footnote"> 2 se <hi rend="italic">deleui</hi> 4 respondemus <hi rend="italic">Bm2</hi> 6 causa <hi rend="italic">BmlCc</hi> 10 documenta <lb/>
-            <hi rend="italic">Cml</hi> purgatoros <hi rend="italic">Bml</hi> - 15 ***aliquo (quo <hi rend="italic">eras.,</hi> ali <hi rend="italic">m2) A</hi> quo <lb/>
-            <hi rend="italic">BCbc</hi> quoquo <hi rend="italic">v</hi> 17 posse aliter <hi rend="italic">v</hi> 20 communioni nostrae c </note> <lb n="30"/>
-             
-<pb n="149"/>
+               <note type="footnote"> 2 se <hi rend="italic">deleui</hi> 4 respondemus <hi rend="italic">Bm2</hi> 6 causa <hi rend="italic">BmlCc</hi> 10 documenta <lb/>
+                  <hi rend="italic">Cml</hi> purgatoros <hi rend="italic">Bml</hi> - 15 ***aliquo (quo <hi rend="italic">eras.,</hi> ali <hi rend="italic">m2) A</hi> quo <lb/>
+                  <hi rend="italic">BCbc</hi> quoquo <hi rend="italic">v</hi> 17 posse aliter <hi rend="italic">v</hi> 20 communioni nostrae c </note>
+               <lb n="30"/>
+               <pb n="149"/>
             communio separata est. si enim modo eam expectare debere <lb/>
             dixerunt, ut qui nostrum uicerint ipsi ei copulentur et cum <lb/>
             illa teneant catholicum nomen, iam utique maiores nostri <lb/>
@@ -2439,19 +2459,20 @@
             communione copulare et, sicut iam confessi sunt, <lb/>
             ab his criminibus inpolluta persistere, multo magis uicimus,
 
-<note type="footnote"> 1 eam modo c 6 iam s. <hi rend="italic">I. b</hi> 15 est copulatum <hi rend="italic">Bml</hi> copulat <hi rend="italic">Bm2b</hi> <lb/>
+<note type="footnote"> 1 eam modo c 6 iam s. <hi rend="italic">I. b</hi> 15 est copulatum <hi rend="italic">Bml</hi> copulat <hi rend="italic">Bm2b</hi>
+                  <lb/>
             hiis <hi rend="italic">b</hi> 23 nullos <hi rend="italic">C</hi> nexus <hi rend="italic">BmlC</hi> 25 demonstretur <hi rend="italic">Bm2b <lb/>
-            32 hiis b</hi> </note> <lb/>
-             
-<pb n="150"/>
+            32 hiis b</hi>
+               </note>
+               <lb/>
+               <pb n="150"/>
             hinc ostendentes proprium onus quemque portare et nec causam <lb/>
             causae nec personam praeiudicare personae. 
 </p>
-          
-</div>
-
-<div n="49" subtype="section" type="textpart">
-<p><milestone n="29" unit="altchapter"/> Iam uero ut mandato nostro, ubi uniuersam <lb/>
+         </div>
+         <div n="49" type="section">
+            <p>
+               <milestone n="29" unit="altchapter"/> Iam uero ut mandato nostro, ubi uniuersam <lb/>
             causam complexi fueramus, nec repentinis uerbis, sed conscriptis <lb/>
             litteris respondendum putarent, quanti emendum fuit? <lb n="5"/>
             sic enim constitit eos respondere non potuisse his omnibus, <lb/>
@@ -2478,29 +2499,29 @@
             enim homines tam tardo ingenio sunt, ut eos arbitrentur
 
 <note type="footnote"> * 1 cf. Gal. 6, 5 4 cf. Breuic. III 8, 10, </note>
-
-<note type="footnote"> 1 neeausam <hi rend="italic">B</hi> 4 fuerimus <hi rend="italic">codd</hi>. repentinis <hi rend="italic">bcv</hi> rentinis <hi rend="italic">A</hi> retinis <hi rend="italic">BC</hi> <lb/>
-            retentis <hi rend="italic">mg. B</hi> 6 potuisset <hi rend="italic">BmlC</hi> hiis <hi rend="italic">b</hi> 7 posita sunt nec <hi rend="italic">b</hi> <lb/>
-            litteris suis c 9 potuisset <hi rend="italic">Bml</hi> 11 notariam c ipsis <hi rend="italic">Bm2</hi> <lb/>
+               <note type="footnote"> 1 neeausam <hi rend="italic">B</hi> 4 fuerimus <hi rend="italic">codd</hi>. repentinis <hi rend="italic">bcv</hi> rentinis <hi rend="italic">A</hi> retinis <hi rend="italic">BC</hi>
+                  <lb/>
+            retentis <hi rend="italic">mg. B</hi> 6 potuisset <hi rend="italic">BmlC</hi> hiis <hi rend="italic">b</hi> 7 posita sunt nec <hi rend="italic">b</hi>
+                  <lb/>
+            litteris suis c 9 potuisset <hi rend="italic">Bml</hi> 11 notariam c ipsis <hi rend="italic">Bm2</hi>
+                  <lb/>
             13 dilecti <hi rend="italic">Am2BmlC</hi> delecti essent septem <hi rend="italic">b</hi> quia <hi rend="italic">Bml</hi> 17 nollimus <lb/>
-            <hi rend="italic">Am2</hi> nolimus <hi rend="italic">BCm2b</hi> nolumus <hi rend="italic">Cml</hi> 19 delicti <hi rend="italic">BmlC</hi> 21 allegarent <lb/>
-            <hi rend="italic">c, om. v; cf. Cresc. IIII 56,</hi> 66 quae gesta cum apud acta <lb/>
+                  <hi rend="italic">Am2</hi> nolimus <hi rend="italic">BCm2b</hi> nolumus <hi rend="italic">Cml</hi> 19 delicti <hi rend="italic">BmlC</hi> 21 allegarent <lb/>
+                  <hi rend="italic">c, om. v; cf. Cresc. IIII 56,</hi> 66 quae gesta cum apud acta <lb/>
             Zenophili consularis recitarentur eisque insererentur 25 apparet <lb/>
-            <hi rend="italic">AC</hi> ipsis <hi rend="italic">om. c</hi> 27 arbiterentur <hi rend="italic">Cml</hi> </note> <lb/>
-             
-<pb n="151"/>
+                  <hi rend="italic">AC</hi> ipsis <hi rend="italic">om. c</hi> 27 arbiterentur <hi rend="italic">Cml</hi>
+               </note>
+               <lb/>
+               <pb n="151"/>
             aliquid dixisse, in quibus locis mandati nostri tacere noluerunt, <lb/>
             neminem puto esse tam stolidum, qui etiam in his locis aliquid <lb/>
             eos respondisse existimet, in quibus omnino tacuerunt. <lb/>
             non enim parua uel quasi contemnenda sunt, cum in his potius <lb/>
             omnis causa consistat. <lb n="5"/>
-            
-</p>
-          
-</div>
-
-<div n="50" subtype="section" type="textpart">
-<p>Nam testimonia scripturarum, quibus adseruimus ecclesiam <lb/>
+            </p>
+         </div>
+         <div n="50" type="section">
+            <p>Nam testimonia scripturarum, quibus adseruimus ecclesiam <lb/>
             cui communicamus ab Hierusalem coeptam toto terrarum <lb/>
             orbe diffundi, tamquam omnino dicta non fuerint, praeterierunt <lb/>
             magna mole diuinae auctoritatis oppressi. item quod in nostro <lb/>
@@ -2524,26 +2545,25 @@
             nescio quorum crimina non probata, etiamsi uera essent, nullo
 
 <note type="footnote"> 7 cf. Luc. 24, 47 10 cf. Cypr. epist. 54, 3\' </note>
-
-<note type="footnote"> 1 dixisis.e <hi rend="italic">B</hi> dixisisse <hi rend="italic">(tert</hi>. s <hi rend="italic">s. 1.) C</hi> 2 hiis <hi rend="italic">b</hi> 3 exsistimet <hi rend="italic">ut <lb/>
-            uid. Aml</hi> exestimet <hi rend="italic">Am2Cml</hi> 4 praua <hi rend="italic">Bml</hi> non sunt <hi rend="italic">cml</hi> hiia <hi rend="italic">b</hi> <lb/>
+               <note type="footnote"> 1 dixisis.e <hi rend="italic">B</hi> dixisisse <hi rend="italic">(tert</hi>. s <hi rend="italic">s. 1.) C</hi> 2 hiis <hi rend="italic">b</hi> 3 exsistimet <hi rend="italic">ut <lb/>
+            uid. Aml</hi> exestimet <hi rend="italic">Am2Cml</hi> 4 praua <hi rend="italic">Bml</hi> non sunt <hi rend="italic">cml</hi> hiia <hi rend="italic">b</hi>
+                  <lb/>
             7 orbe terrarum <hi rend="italic">b</hi> 8 diffudit <hi rend="italic">BmlC</hi> fuerunt <hi rend="italic">Bml</hi> 10 tolerando <lb/>
-            <hi rend="italic">ABC</hi> 12 ammonuit c 13 credo <hi rend="italic">v</hi> crn <hi rend="italic">A</hi> ceterum <hi rend="italic">Am2BCbc</hi> 15 auctoritate <lb/>
-            <hi rend="italic">BmlC</hi> 17 quamquam <hi rend="italic">scripsi</hi> quam <hi rend="italic">codd. v</hi> cipriano <hi rend="italic">Bml</hi> <lb/>
+                  <hi rend="italic">ABC</hi> 12 ammonuit c 13 credo <hi rend="italic">v</hi> crn <hi rend="italic">A</hi> ceterum <hi rend="italic">Am2BCbc</hi> 15 auctoritate <lb/>
+                  <hi rend="italic">BmlC</hi> 17 quamquam <hi rend="italic">scripsi</hi> quam <hi rend="italic">codd. v</hi> cipriano <hi rend="italic">Bml</hi>
+                  <lb/>
             20 reliquid <hi rend="italic">BmlC</hi> 21 docenda <hi rend="italic">Bml</hi> 25 uniuersitate <hi rend="italic">scripsi</hi> diuersi- <lb/>
-            {-sa-Bml)tate <hi rend="italic">codd. v, cf. index s. u</hi>. uniuersitas </note> <lb/>
-             
-<pb n="152"/>
+            {-sa-Bml)tate <hi rend="italic">codd. v, cf. index s. u</hi>. uniuersitas </note>
+               <lb/>
+               <pb n="152"/>
             modo se ab unitate toto orbe diffusa separare debuerunt. hoc <lb/>
             illi quantum intellegitur praeuidentes ab illo testimonio Cypriani, <lb/>
             quod in nostro mandato commemoratum est, toto silentio <lb/>
             transierunt. 
 </p>
-          
-</div>
-
-<div n="51" subtype="section" type="textpart">
-<p>Illud etiam, quod in causa Maximianistarum ipsi quoque<lb n="5"/>
+         </div>
+         <div n="51" type="section">
+            <p>Illud etiam, quod in causa Maximianistarum ipsi quoque<lb n="5"/>
             suo iudicio declararunt, nec propter malos unitatem deserendam, <lb/>
             qui Maximiani socios a Maximiano dixerunt non fuisse <lb/>
             pollutos et eos inde quos damnauerunt in honore integro susceperunt <lb/>
@@ -2563,11 +2583,10 @@
             eorum praeter responsionem quam continuo reddidimus, qua <lb/>
             omnia uanitatis eorum machinamenta subuersa sunt. 
 </p>
-          
-</div>
-
-<div n="52" subtype="section" type="textpart">
-<p><milestone n="30" unit="altchapter"/> Iam illud, si montes aureos daremus, quando <lb/>
+         </div>
+         <div n="52" type="section">
+            <p>
+               <milestone n="30" unit="altchapter"/> Iam illud, si montes aureos daremus, quando <lb/>
             emere possemus, quod obiecta sibi Maximiani causa, ut intellegerent <lb n="25"/>
             eo modo non obfuisse Caeciliano concilium, quo in <lb/>
             eum absentem septuaginta episcopi quod uoluerunt pronuntiauerunt, <lb/>
@@ -2576,12 +2595,15 @@
             perturbati et in horrendas contrusi angustias
 
 <note type="footnote"> 5 inaximianistrarum <hi rend="italic">B</hi> 6 nec c ne <hi rend="italic">ABCb</hi> non <hi rend="italic">v</hi> 12 ergo <hi rend="italic">del. Bm2, <lb/>
-            om. b</hi> 14 refrenandum <hi rend="italic">Bm2b,</hi> refragandum <hi rend="italic">mg. Bm2</hi> 16 ex omni <hi rend="italic">BCb</hi> <lb/>
-            17 attingerunt <hi rend="italic">Bml</hi> 18 haec omnia contra <hi rend="italic">bml</hi> nullam <hi rend="italic">Bml</hi> <lb/>
+            om. b</hi> 14 refrenandum <hi rend="italic">Bm2b,</hi> refragandum <hi rend="italic">mg. Bm2</hi> 16 ex omni <hi rend="italic">BCb</hi>
+                  <lb/>
+            17 attingerunt <hi rend="italic">Bml</hi> 18 haec omnia contra <hi rend="italic">bml</hi> nullam <hi rend="italic">Bml</hi>
+                  <lb/>
             19 saltim <hi rend="italic">Am2BmlC</hi> 25 possumus <hi rend="italic">v</hi> 26 concilio <hi rend="italic">Bml</hi> 29 uehementisse <lb/>
-            <hi rend="italic">b</hi> </note> <lb n="30"/>
-             
-<pb n="153"/>
+                  <hi rend="italic">b</hi>
+               </note>
+               <lb n="30"/>
+               <pb n="153"/>
             responderunt nec causam causae nec personam praeiudicare personae, <lb/>
             his paucissimis uerbis totam nostram causam, de qua cum <lb/>
             eis superius confligebamus, omnino inuictam esse firmantes? <lb/>
@@ -2595,11 +2617,10 @@
             summa necessitate dixerunt, quia, cum a nobis diu <lb/>
             diceretur, ueritati cedere noluerunt. 
 </p>
-          
-</div>
-
-<div n="53" subtype="section" type="textpart">
-<p><milestone n="31" unit="altchapter"/> Illud etiam quibus thesauris, quibus opibus, <lb/>
+         </div>
+         <div n="53" type="section">
+            <p>
+               <milestone n="31" unit="altchapter"/> Illud etiam quibus thesauris, quibus opibus, <lb/>
             quibus pretiosorum lapidum aggeribus emendum fuit, quod <lb/>
             maiores suos apud imperatorem Constantinum persecutos <lb n="15"/>
             Caecilianum non confiteri tantum, uerum etiam profiteri atque <lb/>
@@ -2618,13 +2639,14 @@
             grauiter persecutos, tenemus etiam Caecilianum
 
 <note type="footnote"> 24 cf. cap. 16, 20 extr. </note>
-
-<note type="footnote"> 2 hiis <hi rend="italic">b</hi> 6 malos a bonis <hi rend="italic">codd</hi>. 9 laboramus <hi rend="italic">BCb</hi> 10 personam <lb/>
+               <note type="footnote"> 2 hiis <hi rend="italic">b</hi> 6 malos a bonis <hi rend="italic">codd</hi>. 9 laboramus <hi rend="italic">BCb</hi> 10 personam <lb/>
             personae praeiudicare <hi rend="italic">BCb</hi> 11 sumna <hi rend="italic">C</hi> qui <hi rend="italic">coni. v</hi> 19 consueuerunt <lb/>
-            <hi rend="italic">v</hi> 21 carthaginensis <hi rend="italic">Bb</hi> 22 sacra <hi rend="italic">codd</hi>. soli <hi rend="italic">Aml</hi> <lb/>
-            26 persecutiones <hi rend="italic">Bbv</hi> 29 prosequentibus <hi rend="italic">Bm2b</hi> </note> <lb/>
-             
-<pb n="154"/>
+                  <hi rend="italic">v</hi> 21 carthaginensis <hi rend="italic">Bb</hi> 22 sacra <hi rend="italic">codd</hi>. soli <hi rend="italic">Aml</hi>
+                  <lb/>
+            26 persecutiones <hi rend="italic">Bbv</hi> 29 prosequentibus <hi rend="italic">Bm2b</hi>
+               </note>
+               <lb/>
+               <pb n="154"/>
             persequentibus eis ab imperatore damnatum. non ergo iam clament <lb/>
             segregationem suam ideo esse ecclesiam ueritatis, quia persecutionem <lb/>
             non facit sed patitur, aut fateantur non eam fuisse ecclesiam <lb/>
@@ -2644,11 +2666,9 @@
             mentiti sunt, remanserit persecutio, quam maiores suos fecisse <lb/>
             confessi sunt. 
 </p>
-          
-</div>
-
-<div n="54" subtype="section" type="textpart">
-<p>Parum fuit, ut Caecilianum ab imperatore damnatum <lb/>
+         </div>
+         <div n="54" type="section">
+            <p>Parum fuit, ut Caecilianum ab imperatore damnatum <lb/>
             et mentiendo gloriari auderent et asserendo probare non possent.<lb n="20"/>
             insuper etiam probauerunt et nostra in eam rem documenta <lb/>
             fortius adiuuerunt, Caeciliani absolutionem mansisse <lb/>
@@ -2661,14 +2681,14 @@
             gestorum potuisset adiungi et omnino latuisset, nisi et
 
 <note type="footnote"> 25 cf. Breuic. III 20, 38 </note>
-
-<note type="footnote"> 1 eis <hi rend="italic">8. 1. Bml, et b, om. ACc</hi> eis persequentibus v 2 se congregationem <lb/>
-            <hi rend="italic">BCb</hi> 11 patiantur <hi rend="italic">BCb</hi> 13 imperatorem <hi rend="italic">cml</hi> 15 nil v <lb/>
+               <note type="footnote"> 1 eis <hi rend="italic">8. 1. Bml, et b, om. ACc</hi> eis persequentibus v 2 se congregationem <lb/>
+                  <hi rend="italic">BCb</hi> 11 patiantur <hi rend="italic">BCb</hi> 13 imperatorem <hi rend="italic">cml</hi> 15 nil v <lb/>
             20 <hi rend="italic">alt</hi>. et] ea et <hi rend="italic">BmlCm2</hi> ea <hi rend="italic">Cml</hi> 24 miliuitanae <hi rend="italic">BCm2b</hi> 25 obtatum <lb/>
-            <hi rend="italic">BC</hi> petiuerunt <hi rend="italic">scripsi</hi> putauerunt <hi rend="italic">codd. v, cf. p. 87, 4</hi> 27 qu.allelectio <lb/>
-            (i <hi rend="italic">eras.) A</hi> quae electio <hi rend="italic">ex</hi> qua electio <hi rend="italic">Cm2, et c</hi> </note> <lb/>
-             
-<pb n="155"/>
+                  <hi rend="italic">BC</hi> petiuerunt <hi rend="italic">scripsi</hi> putauerunt <hi rend="italic">codd. v, cf. p. 87, 4</hi> 27 qu.allelectio <lb/>
+            (i <hi rend="italic">eras.) A</hi> quae electio <hi rend="italic">ex</hi> qua electio <hi rend="italic">Cm2, et c</hi>
+               </note>
+               <lb/>
+               <pb n="155"/>
             ipsum latere non sinerent dicentes: \'audiant qui riserunt.\' hoc <lb/>
             sane scriptum est et suscriptum. quod enim pro se legi uoluerunt, <lb/>
             ambiguum fuit. unde cum rectissime cognitor iussisset <lb/>
@@ -2699,16 +2719,20 @@
 
 <note type="footnote"> 19 cf. Breuic. III 21, 39 23 cf. Dan. 6, 24 26 cf. Breuic. III <lb/>
             22, 40 </note>
-
-<note type="footnote"> 6 legendo didicerant <hi rend="italic">mg.B mg.b</hi> 7 brixe <hi rend="italic">Cml</hi> brixiae <hi rend="italic">cet. (v)</hi> dixisset <lb/>
-            <hi rend="italic">BCb</hi> 8 uoluisset <hi rend="italic">B</hi> 11 quia <hi rend="italic">Bb</hi> apertissime <hi rend="italic">om. Bb</hi> <lb/>
+               <note type="footnote"> 6 legendo didicerant <hi rend="italic">mg.B mg.b</hi> 7 brixe <hi rend="italic">Cml</hi> brixiae <hi rend="italic">cet. (v)</hi> dixisset <lb/>
+                  <hi rend="italic">BCb</hi> 8 uoluisset <hi rend="italic">B</hi> 11 quia <hi rend="italic">Bb</hi> apertissime <hi rend="italic">om. Bb</hi>
+                  <lb/>
             scribserat <hi rend="italic">AC</hi> 12 intericectis <hi rend="italic">Cml</hi> consumatis <hi rend="italic">BC</hi> 18 legeremus <lb/>
-            <hi rend="italic">Bml</hi> 19 libello <hi rend="italic">Cml</hi> 21 demonstrabant <hi rend="italic">Bm2b</hi> demonstrarent <hi rend="italic">cv</hi> <lb/>
-            22 imperatorem am <hi rend="italic">Cvil</hi> 23 danielis <hi rend="italic">BCb(v)</hi> 24 ammonuissemus <hi rend="italic">c</hi> <lb/>
-            26 proferentes (profe <hi rend="italic">in ras. m2) A, et cv</hi> parentes <hi rend="italic">BmlC</hi> pariter <hi rend="italic">Bm2b</hi> <lb/>
-            27 ueninum <hi rend="italic">Cml</hi> detestatur <hi rend="italic">Av</hi> </note> <lb/>
-             
-<pb n="156"/>
+                  <hi rend="italic">Bml</hi> 19 libello <hi rend="italic">Cml</hi> 21 demonstrabant <hi rend="italic">Bm2b</hi> demonstrarent <hi rend="italic">cv</hi>
+                  <lb/>
+            22 imperatorem am <hi rend="italic">Cvil</hi> 23 danielis <hi rend="italic">BCb(v)</hi> 24 ammonuissemus <hi rend="italic">c</hi>
+                  <lb/>
+            26 proferentes (profe <hi rend="italic">in ras. m2) A, et cv</hi> parentes <hi rend="italic">BmlC</hi> pariter <hi rend="italic">Bm2b</hi>
+                  <lb/>
+            27 ueninum <hi rend="italic">Cml</hi> detestatur <hi rend="italic">Av</hi>
+               </note>
+               <lb/>
+               <pb n="156"/>
             iudicio, qui iam in eos coeperat uindicare, dimittens ignominiosissima <lb/>
             indulgentia de exilio relaxauit. ita manifestissime constitit <lb/>
             non solum nullam Caeciliani damnationem fuisse postea <lb/>
@@ -2721,11 +2745,10 @@
             daremus, si uenale proponeretur, ut pro nobis etiam ab ipsis<lb n="10"/>
             aduersariis legerentur? 
 </p>
-          
-</div>
-
-<div n="55" subtype="section" type="textpart">
-<p><milestone n="32" unit="altchapter"/> Quid uidetur addi iam posse, ut nos cumulatius <lb/>
+         </div>
+         <div n="55" type="section">
+            <p>
+               <milestone n="32" unit="altchapter"/> Quid uidetur addi iam posse, ut nos cumulatius <lb/>
             adiuuarent? et tamen addiderunt. commemorauerunt enim <lb/>
             causam Felicis Aptugensis, a quo Caecilianus fuerat ordinatus, <lb/>
             cui Felici traditionis crimen intenderant. absoluto autem Caeciliano <lb n="15"/>
@@ -2744,16 +2767,18 @@
             nihil tamen dubitans de purgatione, immo eam
 
 <note type="footnote"> 14 cf. Breuic. III 23, 41 sqq. Optat. I 27 </note>
-
-<note type="footnote"> 5 poena <hi rend="italic">scripsi</hi> poenam <hi rend="italic">codd. v alt</hi>. et <hi rend="italic">om. cv</hi> detestabilem <hi rend="italic">Bm2b</hi> <lb/>
-            indulgentiam <hi rend="italic">Bb</hi> 9 describenda <hi rend="italic">scripsi</hi> scribenda <hi rend="italic">codd. v</hi> 12 qui <hi rend="italic">C</hi> <lb/>
+               <note type="footnote"> 5 poena <hi rend="italic">scripsi</hi> poenam <hi rend="italic">codd. v alt</hi>. et <hi rend="italic">om. cv</hi> detestabilem <hi rend="italic">Bm2b</hi>
+                  <lb/>
+            indulgentiam <hi rend="italic">Bb</hi> 9 describenda <hi rend="italic">scripsi</hi> scribenda <hi rend="italic">codd. v</hi> 12 qui <hi rend="italic">C</hi>
+                  <lb/>
             14 Aptugnensis <hi rend="italic">v</hi> 15 intenderat <hi rend="italic">ACc</hi> 16 instauretur <hi rend="italic">BmJCml</hi> instauraretur <lb/>
-            <hi rend="italic">Bm2b</hi> 18 iam] ut <hi rend="italic">BmlC, del. Bm2, om. b</hi> 20 quidem <lb/>
-            <hi rend="italic">BCb</hi> 21 eodem <hi rend="italic">scripsi</hi> eidem <hi rend="italic">codd. v</hi> 25 retulit <hi rend="italic">BCbcv</hi> proconsul <lb/>
-            <hi rend="italic">Bbcv</hi> 26 cominitatum <hi rend="italic">Bm]</hi> 27 confutare <hi rend="italic">Binl</hi> </note> <lb/>
+                  <hi rend="italic">Bm2b</hi> 18 iam] ut <hi rend="italic">BmlC, del. Bm2, om. b</hi> 20 quidem <lb/>
+                  <hi rend="italic">BCb</hi> 21 eodem <hi rend="italic">scripsi</hi> eidem <hi rend="italic">codd. v</hi> 25 retulit <hi rend="italic">BCbcv</hi> proconsul <lb/>
+                  <hi rend="italic">Bbcv</hi> 26 cominitatum <hi rend="italic">Bm]</hi> 27 confutare <hi rend="italic">Binl</hi>
+               </note>
+               <lb/>
             * <lb/>
-             
-<pb n="157"/>
+               <pb n="157"/>
             uerborum quoque suorum manifestatione confirmans, sicut rescriptum <lb/>
             eius ostendit. haec nos omnia documenta causae Felicis in <lb/>
             manibus habebamus et disposueramus tradere recitanda. in <lb/>
@@ -2785,21 +2810,20 @@
 
 <note type="footnote"> 15 Rescriptum Constantini ad Probianum; cf. Breuic. III 23, 41. <lb/>
             Cresc. III 70, 81 27 cf. Num. 23 </note>
-
-<note type="footnote"> 1 quoque <hi rend="italic">om. c</hi> 2 causa <hi rend="italic">codd</hi>. 6 nos b recitaturus <hi rend="italic">BmlC</hi> recita- <lb/>
-            <hi rend="italic">tari b 10 fecerunt Bbv fecerant 8. l. Am2, om. Cc 15 scripsisse v</hi> <lb/>
+               <note type="footnote"> 1 quoque <hi rend="italic">om. c</hi> 2 causa <hi rend="italic">codd</hi>. 6 nos b recitaturus <hi rend="italic">BmlC</hi> recita- <lb/>
+                  <hi rend="italic">tari b 10 fecerunt Bbv fecerant 8. l. Am2, om. Cc 15 scripsisse v</hi>
+                  <lb/>
             16 elianus <hi rend="italic">ACc</hi> alienus <hi rend="italic">Bb</hi> proconsul <hi rend="italic">Bm2bcv</hi> audientiam <hi rend="italic">om. codd</hi>. <lb/>
             19 hiis <hi rend="italic">b</hi> 20 diurnis <hi rend="italic">scripsi</hi> diuturnis <hi rend="italic">codd. v</hi> 21 apparere] apponere <lb/>
-            <hi rend="italic">BmlC</hi> apponi <hi rend="italic">Bm2b</hi> 22 possit <hi rend="italic">v</hi> 23 conparare <hi rend="italic">Augustinus 11. cc. <lb/>
-            aduerBos A 25 faceret Bb</hi> </note> 
-<pb n="158"/>
-            
-</p>
-          
-</div>
-
-<div n="56" subtype="section" type="textpart">
-<p><milestone n="33" unit="altchapter"/> Sicut autem ordo consulum ostendit, quem <lb/>
+                  <hi rend="italic">BmlC</hi> apponi <hi rend="italic">Bm2b</hi> 22 possit <hi rend="italic">v</hi> 23 conparare <hi rend="italic">Augustinus 11. cc. <lb/>
+            aduerBos A 25 faceret Bb</hi>
+               </note>
+               <pb n="158"/>
+            </p>
+         </div>
+         <div n="56" type="section">
+            <p>
+               <milestone n="33" unit="altchapter"/> Sicut autem ordo consulum ostendit, quem <lb/>
             tunc considerare temporis angustia non sinebat — neque <lb/>
             enim praesto erant libelli, qui consulares uocantur, aut quisquam <lb/>
             eos rem tam inanem crederet obiecturos, ut respondere <lb/>
@@ -2827,31 +2851,33 @@
 
 <note type="footnote"> 16 anno 313 18 anno 314 20 anno 316; cf. Cresc. III 71, 82 <lb/>
             24 anno 321 </note>
-
-<note type="footnote"> 2 temporibus <hi rend="italic">BC</hi> 7 declauerit c 12 longam <hi rend="italic">Bm1</hi> 13 si <hi rend="italic">C</hi> 14 congnoscente <lb/>
-            <hi rend="italic">B</hi> aliquot (ali <hi rend="italic">s. l. ml) B</hi> quot <hi rend="italic">ACc</hi> quatuor <hi rend="italic">v</hi> annos <lb/>
+               <note type="footnote"> 2 temporibus <hi rend="italic">BC</hi> 7 declauerit c 12 longam <hi rend="italic">Bm1</hi> 13 si <hi rend="italic">C</hi> 14 congnoscente <lb/>
+                  <hi rend="italic">B</hi> aliquot (ali <hi rend="italic">s. l. ml) B</hi> quot <hi rend="italic">ACc</hi> quatuor <hi rend="italic">v</hi> annos <lb/>
             aliquot <hi rend="italic">b; cf. p. 91,9</hi> 16 militiades <hi rend="italic">Bml</hi> milciades <hi rend="italic">b</hi> iterum] <hi rend="italic">immo</hi> ter <lb/>
-            17 sexto <hi rend="italic">bv</hi> octobris <hi rend="italic">Bm2b</hi> elianus <hi rend="italic">codd</hi>. proconsul <hi rend="italic">Am2Bm2bcv</hi> <lb/>
-            18 aniano quintodecimo Klas <hi rend="italic">(om</hi>. consulibus) <hi rend="italic">b</hi> quinto decimo calendas <hi rend="italic">v</hi> <lb/>
-            martii c 20 eum alium <hi rend="italic">Bbc</hi> uincarium <hi rend="italic">Bm1</hi> 21 Ruffino <hi rend="italic">v</hi> quarto <hi rend="italic">bv</hi> <lb/>
-            nouembris <hi rend="italic">Bbc</hi> nouembrs <hi rend="italic">C</hi> 22 ualerianum <hi rend="italic">BCb (immo</hi> Uerinum, <hi rend="italic">nisi</hi> <lb/>
-            Ualerius <hi rend="italic">alterum nomen est; cf. 31, 54. Breuic. III 22, 40. 24, 42)</hi> <lb/>
+            17 sexto <hi rend="italic">bv</hi> octobris <hi rend="italic">Bm2b</hi> elianus <hi rend="italic">codd</hi>. proconsul <hi rend="italic">Am2Bm2bcv</hi>
+                  <lb/>
+            18 aniano quintodecimo Klas <hi rend="italic">(om</hi>. consulibus) <hi rend="italic">b</hi> quinto decimo calendas <hi rend="italic">v</hi>
+                  <lb/>
+            martii c 20 eum alium <hi rend="italic">Bbc</hi> uincarium <hi rend="italic">Bm1</hi> 21 Ruffino <hi rend="italic">v</hi> quarto <hi rend="italic">bv</hi>
+                  <lb/>
+            nouembris <hi rend="italic">Bbc</hi> nouembrs <hi rend="italic">C</hi> 22 ualerianum <hi rend="italic">BCb (immo</hi> Uerinum, <hi rend="italic">nisi</hi>
+                  <lb/>
+            Ualerius <hi rend="italic">alterum nomen est; cf. 31, 54. Breuic. III 22, 40. 24, 42)</hi>
+                  <lb/>
             23 soluti <hi rend="italic">ABmlC</hi> furori <hi rend="italic">ABmlC</hi> 24 dederit <hi rend="italic">ABmlC</hi> dederat c <lb/>
-            25 tertio <hi rend="italic">bv</hi> maii c annum quartum b </note> <lb n="25"/>
-             
-<pb n="159"/>
+            25 tertio <hi rend="italic">bv</hi> maii c annum quartum b </note>
+               <lb n="25"/>
+               <pb n="159"/>
             ferme sextum. unde sine ullis ambagibus liquidissime constat <lb/>
             siue misso ad comitatum Ingentio siue non misso nihil postea <lb/>
             contra Caecilianum fuisse iudicatum, immo eum iudiciis quoque <lb/>
             imperialibus uictorem aduersariorum et persecutorum suorum <lb/>
             postea declaratum.; <lb n="5"/>
-            
-</p>
-          
-</div>
-
-<div n="57" subtype="section" type="textpart">
-<p><milestone n="34" unit="altchapter"/> Eat nunc pars Donati totiens inprobata, totiens <lb/>
+            </p>
+         </div>
+         <div n="57" type="section">
+            <p>
+               <milestone n="34" unit="altchapter"/> Eat nunc pars Donati totiens inprobata, totiens <lb/>
             calumniosa, totiens mendax, totiens confutata, totiens modis <lb/>
             omnibus superata atque confusa: adhuc iactet iudicem a nobis <lb/>
             fuisse corruptum. quasi uox alia uictis esse consueuit! prorsus <lb/>
@@ -2878,12 +2904,14 @@
             tamen solum causam tam pessimam utcumque adiuuare
 
 <note type="footnote"> 2 commitatum <hi rend="italic">BmlC</hi> 4 imperalibus <hi rend="italic">Bml</hi> uictorum <hi rend="italic">c</hi> 6 eat] <lb/>
-            tt <hi rend="italic">B</hi> et <hi rend="italic">Cmlb</hi> 8 seperata <hi rend="italic">Cml</hi> 9 consuenerit <hi rend="italic">cv</hi> 11 illos male <hi rend="italic">c</hi> <lb/>
+            tt <hi rend="italic">B</hi> et <hi rend="italic">Cmlb</hi> 8 seperata <hi rend="italic">Cml</hi> 9 consuenerit <hi rend="italic">cv</hi> 11 illos male <hi rend="italic">c</hi>
+                  <lb/>
             illo <hi rend="italic">C</hi> 17 pro nobis tanta <hi rend="italic">b</hi> 21 <hi rend="italic">pr</hi>. et <hi rend="italic">v</hi> ut <hi rend="italic">ABmlCc</hi> aut <lb/>
-            <hi rend="italic">Bm2b</hi> delictorem <hi rend="italic">Am2</hi> 23 nimia patientia <hi rend="italic">deleui</hi> 30 pessimum <lb/>
-            <hi rend="italic">Bml</hi> </note> <lb n="30"/>
-             
-<pb n="160"/>
+                  <hi rend="italic">Bm2b</hi> delictorem <hi rend="italic">Am2</hi> 23 nimia patientia <hi rend="italic">deleui</hi> 30 pessimum <lb/>
+                  <hi rend="italic">Bml</hi>
+               </note>
+               <lb n="30"/>
+               <pb n="160"/>
             potuerunt, quam potius deserere debuerunt. denique si in illos qui <lb/>
             egerunt intendant ceteri accusationem eosque potius asserant <lb/>
             a nobis fuisse corruptos, ut tot prosecutionibus uel a se prolatis <lb/>
@@ -2902,11 +2930,10 @@
             pro causa nostra promerent atque propalarent, ueritas eos <lb/>
             torsit, non caritas inuitauit. 
 </p>
-          
-</div>
-
-<div n="58" subtype="section" type="textpart">
-<p><milestone n="35" unit="altchapter"/> Quapropter, fratres, si tamen non irascimini <lb/>
+         </div>
+         <div n="58" type="section">
+            <p>
+               <milestone n="35" unit="altchapter"/> Quapropter, fratres, si tamen non irascimini <lb/>
             quia fratres uocamus — illi enim, cum hoc a nobis audirent, <lb/>
             iniuriam sibi fieri apud acta dixerunt nec mandato nostro<lb n="20"/>
             ammoniti, ubi hoc ex propheta testimonium positum est, <lb/>
@@ -2919,14 +2946,16 @@
             inmerito dicimur fratres. iam pacem amate, consuetudinem
 
 <note type="footnote"> 22 Esai. 66, 5; cf. Caes. 2 </note>
-
-<note type="footnote"> 2 asserunt <hi rend="italic">Cml</hi> 7 et per illos et. per nos <hi rend="italic">(tr. ml) B</hi> 8 funiremus <lb/>
-            <hi rend="italic">Cml</hi> 9 affuisse <hi rend="italic">bc</hi> 10 laberetur <hi rend="italic">mg. B, et b</hi> 11 fieretj si erit <hi rend="italic">eml</hi> <lb/>
-            12 contra se pro nobis <hi rend="italic">b</hi> 21 admoniti <hi rend="italic">Bm2b</hi> 22 dominum <hi rend="italic">b</hi> <lb/>
+               <note type="footnote"> 2 asserunt <hi rend="italic">Cml</hi> 7 et per illos et. per nos <hi rend="italic">(tr. ml) B</hi> 8 funiremus <lb/>
+                  <hi rend="italic">Cml</hi> 9 affuisse <hi rend="italic">bc</hi> 10 laberetur <hi rend="italic">mg. B, et b</hi> 11 fieretj si erit <hi rend="italic">eml</hi>
+                  <lb/>
+            12 contra se pro nobis <hi rend="italic">b</hi> 21 admoniti <hi rend="italic">Bm2b</hi> 22 dominum <hi rend="italic">b</hi>
+                  <lb/>
             nostra <hi rend="italic">Bml</hi> 23 his <hi rend="italic">v, om. codd</hi>. 25 iocunditate <hi rend="italic">Am2BCbc</hi> 26 iocun. <lb/>
-            ditate <hi rend="italic">BCbc</hi> 28 dicimus <hi rend="italic">C</hi> </note> <lb/>
-             
-<pb n="161"/>
+            ditate <hi rend="italic">BCbc</hi> 28 dicimus <hi rend="italic">C</hi>
+               </note>
+               <lb/>
+               <pb n="161"/>
             litigiosam et calumniosam iam saltem conuictam confusamque <lb/>
             relinquite nec ipsos odieritis, quando ad nos correcti transeunt, <lb/>
             sed quando in errore nefario permanentes uos adhuc usque <lb/>
@@ -2958,18 +2987,21 @@
             nomina hominum diuidi? qui nos creauit unus est deus, qui
 
 <note type="footnote"> 1 calumniosam et litigiosam <hi rend="italic">(tr. ml) A,v</hi> et litigiosam calumniosam <lb/>
-            (calumniam <hi rend="italic">Bm2b) BCb</hi> 2 oderitis <hi rend="italic">Bm2bcv; cf. Roensch, It. 2 p. 282</hi> <lb/>
-            8 castra <hi rend="italic">(alt</hi>. a <hi rend="italic">s. ras.) B</hi> 10 et] atque c 11 quaerellas <hi rend="italic">ACml</hi> <lb/>
-            quaerelas <hi rend="italic">Cm2</hi> querelas <hi rend="italic">cet. v</hi> 12 nox] nos <hi rend="italic">ABmlC</hi> 14 fuissent <hi rend="italic">Bm2b</hi> <lb/>
-            15 dilengentia <hi rend="italic">C</hi> 18 clausum <hi rend="italic">(scil</hi>. locum) <hi rend="italic">ABmlCcml</hi> clausos <hi rend="italic">cet. v</hi> <lb/>
+            (calumniam <hi rend="italic">Bm2b) BCb</hi> 2 oderitis <hi rend="italic">Bm2bcv; cf. Roensch, It. 2 p. 282</hi>
+                  <lb/>
+            8 castra <hi rend="italic">(alt</hi>. a <hi rend="italic">s. ras.) B</hi> 10 et] atque c 11 quaerellas <hi rend="italic">ACml</hi>
+                  <lb/>
+            quaerelas <hi rend="italic">Cm2</hi> querelas <hi rend="italic">cet. v</hi> 12 nox] nos <hi rend="italic">ABmlC</hi> 14 fuissent <hi rend="italic">Bm2b</hi>
+                  <lb/>
+            15 dilengentia <hi rend="italic">C</hi> 18 clausum <hi rend="italic">(scil</hi>. locum) <hi rend="italic">ABmlCcml</hi> clausos <hi rend="italic">cet. v</hi>
+                  <lb/>
             22 non 8. <hi rend="italic">I. b</hi> 28 opus <hi rend="italic">addidi; cf. Cresc. III 35,</hi> 39 <hi rend="italic">extr.:</hi> non mihi <lb/>
-            opus est inde separari 29 hominum nomina <hi rend="italic">v</hi> </note>
-
-<note type="footnote"> LIII. Angust. c. Don. III. </note>
-
-<note type="footnote"> 11 </note> <lb/>
-             
-<pb n="162"/>
+            opus est inde separari 29 hominum nomina <hi rend="italic">v</hi>
+               </note>
+               <note type="footnote"> LIII. Angust. c. Don. III. </note>
+               <note type="footnote"> 11 </note>
+               <lb/>
+               <pb n="162"/>
             nos redemit unus est Christus, qui nos consociare debet unus <lb/>
             est spiritus. iam nomen domini honoretur et appareat uobis <lb/>
             in iucunditate, ut agnoscatis fratres uestros in ipsius unitate. <lb/>
@@ -2979,28 +3011,26 @@
             qui hoc praecepit Christus.
 
 <note type="footnote"> 7 cf. Eph. 2, 14 </note>
-
-<note rend="script" type="footnote"> 2 uobis appareat b 3 iocunditate <hi rend="italic">BCbc</hi> 4 separabit <hi rend="italic">BC</hi> 5 error <lb/>
-            est] errores <hi rend="italic">BmlCml</hi> errore <hi rend="italic">Cm2</hi> uestros <hi rend="italic">BmlCml</hi> uincantur <hi rend="italic">Bml</hi> <lb/>
+               <note rend="script" type="footnote"> 2 uobis appareat b 3 iocunditate <hi rend="italic">BCbc</hi> 4 separabit <hi rend="italic">BC</hi> 5 error <lb/>
+            est] errores <hi rend="italic">BmlCml</hi> errore <hi rend="italic">Cm2</hi> uestros <hi rend="italic">BmlCml</hi> uincantur <hi rend="italic">Bml</hi>
+                  <lb/>
             7 praecipit <hi rend="italic">bv</hi> EXPL. LIB. BEATI AUG. (ANGVST. <hi rend="italic">C)</hi> CONTRA <lb/>
             PARTEM DONATI POST <hi rend="italic">(POS B)</hi> GESTA <hi rend="italic">ABCDO</hi> GRATIAS SEMPER <lb/>
-            <hi rend="italic">A</hi> DO GRAS AMEN <hi rend="italic">BC</hi> EXPL LIB. BI. A. EPI CT PARTE DO- <lb/>
-            NATI P\' GESTA <hi rend="italic">b in c nihil subscriptum</hi> </note>
-</p>
-
-</div>
-      
-<pb n="163"/>
-        
-        <div subtype="section" type="textpart" n="retractationes">
-          <head>
-            <title type="main">AVGVSTINI RETRACTATIONVM. LIB. II CIP. LXVI (XL)</title>
-          </head>
-          <ab>
-            <title type="sub">(PAO. 178, 5 ED. KNOELL). POST CONLATIONEM CONTRA DONATISTAS LIBER UNUS. </title>
-          </ab>
-  <div n="1" subtype="section" type="textpart">  
-          <p>Librum etiam scripsi grandem satis, quantum existimo, <lb n="5"/>
+                  <hi rend="italic">A</hi> DO GRAS AMEN <hi rend="italic">BC</hi> EXPL LIB. BI. A. EPI CT PARTE DO- <lb/>
+            NATI P\' GESTA <hi rend="italic">b in c nihil subscriptum</hi>
+               </note>
+            </p>
+         </div>
+         <pb n="163"/>
+         <div n="retractationes" type="section">
+            <head>
+               <title type="main">AVGVSTINI RETRACTATIONVM. LIB. II CIP. LXVI (XL)</title>
+            </head>
+            <ab>
+               <title type="sub">(PAO. 178, 5 ED. KNOELL). POST CONLATIONEM CONTRA DONATISTAS LIBER UNUS. </title>
+            </ab>
+            <div n="1" type="section">
+               <p>Librum etiam scripsi grandem satis, quantum existimo, <lb n="5"/>
             diligenter ad ipsos Donatistas post conlationem, quam cum <lb/>
             episcopis eorum habuimus, ne ab eis seducerentur ulterius. <lb/>
             ubi respondi etiam quibusdam uanitatibus eorum, quae ad nos <lb/>
@@ -3013,24 +3043,17 @@
             Ualentinus, Innocentius, Maximinus, Optatus, Augustinus, <lb n="15"/>
             Donatus et ceteri episcopi e concilio Zertensi ad Donatistas</hi>. 
 </p>
-          
-</div>
-
-<div n="2" subtype="section" type="textpart">
-<p>Hic liber sic incipit: <hi rend="italic">Quid adhuc, Donatistae, seducimini</hi>?
+            </div>
+            <div n="2" type="section">
+               <p>Hic liber sic incipit: <hi rend="italic">Quid adhuc, Donatistae, seducimini</hi>?
 
 <note type="footnote">14 epist. 141 </note>
-
-<note type="footnote">11* </note> 
-<pb n="164"/>
-             
-<pb n="165"/>
-            
-</p>
- 
-</div>
-       
-</div></div>
-</body>
-</text>
+                  <note type="footnote">11* </note>
+                  <pb n="164"/>
+                  <pb n="165"/>
+               </p>
+            </div>
+         </div>
+      </body>
+   </text>
 </TEI>

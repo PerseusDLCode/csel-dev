@@ -1,98 +1,105 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader xml:lang="eng">
-    <fileDesc>
-      <titleStmt>
-        <title xml:lang="lat">De Opere et Eleemosynis</title>
-        <author>Cyprian, Saint</author>
-        <editor>Wilhelm von Hartel</editor>        
-        <sponsor>University of Leipzig</sponsor>
-        <funder>European Social Fund Saxony</funder>
-        <principal>Gregory Crane</principal>
-        <respStmt>
-          <persName xml:id="Jouve">Jouve</persName>
-          <resp>OCR-ed, corrected and encoded the text</resp>
-        </respStmt>
-        <respStmt>
-          <persName>Greta Franzini</persName>
-          <resp>Project Manager (University of Leipzig)</resp>
-        </respStmt>
-        <respStmt>
-          <persName>Simona Stoyanova</persName>
-          <resp>Project Assistant (University of Leipzig)</resp>
-        </respStmt>
-        <respStmt>
-          <persName>Bruce Robertson</persName>
-          <resp>Technical Advisor (Mount Allison University)</resp>
-        </respStmt>
-        <respStmt>
-          <persName>Uvius Fonticola</persName>
-          <resp>Technical Advisor (Ludwig Maximilians University Munich)</resp>
-        </respStmt>
-      </titleStmt>
-      
-      <publicationStmt>
-        <authority>University of Leipzig</authority>
-        <idno type="filename">stoa0104a.stoa009.opp-lat1..xml</idno>
-        <availability>
-          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
-        </availability>
-        <date>2014</date>
-        <publisher>University of Leipzig</publisher>
-        <pubPlace>Germany</pubPlace>
-      </publicationStmt>
-      
-      <sourceDesc>
-        <listBibl>
-          <biblStruct>
-            <monogr>
-              <editor>
-                <persName>
-                  <name>Wilhelm von Hartel</name>
-                </persName>
-              </editor> 
-              <author>Cyprian, Saint</author>  
-              <title xml:lang="lat">S. Thasci Caecili Cypriani Opera omnia</title>
-              <imprint>
-                <publisher>Gerold</publisher>
-                <pubPlace>Vienna</pubPlace>
-                <date>1868</date>
-              </imprint>
-              <biblScope unit="volume" xml:lang="lat">Pars I</biblScope>
-            </monogr>
-            <series>
-              <title xml:lang="lat">Corpus Scriptorum Ecclesiasticorum Latinorum</title>
-              <biblScope unit="volume">3.1</biblScope>              
-            </series>
-            <ref target="http://www.archive.org/stream/corpusscriptor203cypruoft#page/370/mode/2up">Internet Archive</ref>
-            
-          </biblStruct>
-        </listBibl>
-      </sourceDesc>
-      
-    </fileDesc>
-    <encodingDesc>
-      <p>The following text is encoded in accordance with EpiDoc standards and with the
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/PerseusDLCode/perseus-schemas/main/perseus_prose.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="eng">
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="lat">De Opere et Eleemosynis</title>
+            <author>Cyprian, Saint</author>
+            <editor>Wilhelm von Hartel</editor>
+            <sponsor>University of Leipzig</sponsor>
+            <funder>European Social Fund Saxony</funder>
+            <principal>Gregory Crane</principal>
+            <respStmt>
+               <persName xml:id="Jouve">Jouve</persName>
+               <resp>OCR-ed, corrected and encoded the text</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Greta Franzini</persName>
+               <resp>Project Manager (University of Leipzig)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Simona Stoyanova</persName>
+               <resp>Project Assistant (University of Leipzig)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Bruce Robertson</persName>
+               <resp>Technical Advisor (Mount Allison University)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Uvius Fonticola</persName>
+               <resp>Technical Advisor (Ludwig Maximilians University Munich)</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>University of Leipzig</authority>
+            <idno type="filename">stoa0104a.stoa009.opp-lat1..xml</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
+            </availability>
+            <date>2014</date>
+            <publisher>University of Leipzig</publisher>
+            <pubPlace>Germany</pubPlace>
+            <idno type="CTS">urn:cts:latinLit:stoa0104a.stoa009.opp-lat1</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <name>Wilhelm von Hartel</name>
+                        </persName>
+                     </editor>
+                     <author>Cyprian, Saint</author>
+                     <title xml:lang="lat">S. Thasci Caecili Cypriani Opera omnia</title>
+                     <imprint>
+                        <publisher>Gerold</publisher>
+                        <pubPlace>Vienna</pubPlace>
+                        <date>1868</date>
+                     </imprint>
+                     <biblScope unit="volume" xml:lang="lat">Pars I</biblScope>
+                  </monogr>
+                  <series>
+                     <title xml:lang="lat">Corpus Scriptorum Ecclesiasticorum Latinorum</title>
+                     <biblScope unit="volume">3.1</biblScope>
+                  </series>
+                  <ref target="http://www.archive.org/stream/corpusscriptor203cypruoft#page/370/mode/2up">Internet Archive</ref>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>The following text is encoded in accordance with EpiDoc standards and with the
         CTS/CITE Architecture. 
 </p>
-      <refsDecl n="CTS">
-        <cRefPattern n="section" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1'])"/>
-      </refsDecl>
-    </encodingDesc>
-    
-    <profileDesc>
-      <langUsage>
-        <language ident="lat">Latin</language>
-      </langUsage>
-    </profileDesc>
-    
-</teiHeader>
-<text>
-<body>
-<div type="edition" xml:lang="lat" n="urn:cts:latinLit:stoa0104a.stoa009.opp-lat1">
-<head>
+         <refsDecl n="CTS">
+            <cRefPattern n="section"
+                         matchPattern="(.+)"
+                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1'])"/>
+         </refsDecl>
+         <refsDecl n="CTS">
+            <citeStructure match="/TEI/text/body" use="@xml:base">
+               <citeStructure unit="section" delim="." match="div[@type='section']" use="@n"/>
+            </citeStructure>
+         </refsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <catRef scheme="#perseus-genre" target="#prose-section"/>
+         </textClass>
+         <langUsage>
+            <language ident="lat">Latin</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body xml:base="urn:cts:latinLit:stoa0104a.stoa009.opp-lat1">
+         <head>
             <title type="main">DE OPERE ET ELEEMOSVNIS. </title>
-          </head>
-          <div n="1" subtype="section" type="textpart"><p>Multa et magna sunt, fratres carissimi, beneficia diuina &gt; <lb/>
+         </head>
+         <div n="1" type="section">
+            <p>Multa et magna sunt, fratres carissimi, beneficia diuina &gt; <lb/>
             quibus in salutem nostram Dei patris et Christi larga et copiosa <lb/>
             clementia et operata sit et semper operetur, quod conseruandis <lb/>
             ac uiuificandis nobis pater filium misit ut reparare nos posset <lb n="5"/>
@@ -114,23 +121,26 @@
 
 <note type="footnote"> INCIPIT DE OPERE ET ELEMOSYNIS (ELYMOSUriS <hi rend="italic">W) SW,</hi> INCIPIT EIVS- <lb/>
             DEM DE OPERE ET ELLMOSINIS <hi rend="italic">G</hi> 2 carissimi] dilectissimi <hi rend="italic">GV</hi> 4 sernandis <lb/>
-            <hi rend="italic">G</hi> 5 filium suum pater <hi rend="italic">G</hi> suum misit v 6 esse et] esse <hi rend="italic">G,</hi> <lb/>
+                  <hi rend="italic">G</hi> 5 filium suum pater <hi rend="italic">G</hi> suum misit v 6 esse et] esse <hi rend="italic">G,</hi>
+                  <lb/>
             dici se et <hi rend="italic">V,</hi> esset <hi rend="italic">Oxon.,</hi> est et <hi rend="italic">Marius Mercator p. 180 ed. Balue</hi>. <lb/>
             filium <hi rend="italic">V</hi> uocari <hi rend="italic">F, om. SWGV,</hi> dici <hi rend="italic">Oxon.,</hi> fieri <hi rend="italic">Balueius, esse Mar. <lb/>
             3ferc</hi>. 8 curaret <hi rend="italic">SFWGV et Mar. Merc.,</hi> sanaret <hi rend="italic">v</hi> 11 prouidentiae <lb/>
-            <hi rend="italic">S</hi> 12 ut] et <hi rend="italic">F</hi> hominis F 13 reseruato <hi rend="italic">F</hi> consolatur <hi rend="italic">F</hi> <lb/>
+                  <hi rend="italic">S</hi> 12 ut] et <hi rend="italic">F</hi> hominis F 13 reseruato <hi rend="italic">F</hi> consolatur <hi rend="italic">F</hi>
+                  <lb/>
             15 antiqua <hi rend="italic">FWG et Augustinus contra duas epist. Pelag. IV, 8, 21.,</hi> antiquae <lb/>
-            <hi rend="italic">S,</hi> antiqui <hi rend="italic">v</hi> 16 peccandiS\' 17 proscriptionc <hi rend="italic">G</hi> 18 nec] ne <hi rend="italic">G</hi> <lb/>
-            20 tuendae] tenende <hi rend="italic">G</hi> </note> <lb n="20"/>
-
-
-<pb n="374"/>
+                  <hi rend="italic">S,</hi> antiqui <hi rend="italic">v</hi> 16 peccandiS\' 17 proscriptionc <hi rend="italic">G</hi> 18 nec] ne <hi rend="italic">G</hi>
+                  <lb/>
+            20 tuendae] tenende <hi rend="italic">G</hi>
+               </note>
+               <lb n="20"/>
+               <pb n="374"/>
             aperiret, ut sordes postmodum quascumque contrahimus eleemosynis <lb/>
             abluamus. 
 </p>
-          </div>
-
-<div n="2" subtype="section" type="textpart"><p> Loquitur in scripturis Spiritus sanctus et dicit: eleemosynis <lb/>
+         </div>
+         <div n="2" type="section">
+            <p> Loquitur in scripturis Spiritus sanctus et dicit: eleemosynis <lb/>
             et fide delicta purgantur. non utique illa delicta quae <lb/>
             fuerant ante contracta: nam illa Christi sanguine et sanctificatione<lb n="5"/>
             purgantur. item denuo dicit: sicut aqua ignem extinguet, <lb/>
@@ -155,26 +165,29 @@
             posse purgari.
 
 <note type="footnote"> 3 Prou. 16, 6 (=15, 27). 6 Sir. 3, 30. 14 Luc. 11, 40 sq. </note>
-
-<note type="footnote"> 1 protrahimus <hi rend="italic">F</hi> elemosynis <hi rend="italic">SW fere semper,</hi> aelymosinis <hi rend="italic">G saepius <lb/>
-            </hi> 3 scripturis diuinis <hi rend="italic">v</hi> 4 delecta S 6 purgata sunt <hi rend="italic">G</hi> ignem <lb/>
-            extinguet S, eitinguit <hi rend="italic">ignem FWGv, cf. test. IU Ip. 110</hi> 7 sic et <hi rend="italic">FG</hi> <lb/>
+               <note type="footnote"> 1 protrahimus <hi rend="italic">F</hi> elemosynis <hi rend="italic">SW fere semper,</hi> aelymosinis <hi rend="italic">G saepius <lb/>
+                  </hi> 3 scripturis diuinis <hi rend="italic">v</hi> 4 delecta S 6 purgata sunt <hi rend="italic">G</hi> ignem <lb/>
+            extinguet S, eitinguit <hi rend="italic">ignem FWGv, cf. test. IU Ip. 110</hi> 7 sic et <hi rend="italic">FG</hi>
+                  <lb/>
             extinguit <hi rend="italic">FWGv</hi> 8 aquae.. <hi rend="italic">G</hi> (aq. <hi rend="italic">eras.)</hi> 9 ita et <hi rend="italic">Baluzius</hi> operationibus] <lb/>
             operibus <hi rend="italic">G</hi> 11 asidua <hi rend="italic">G</hi> 12 imitatae S dei] deum <hi rend="italic">coni. <lb/>
-            Bouth</hi> largitur <hi rend="italic">Gv</hi> 13 in euangelio dominus <hi rend="italic">v</hi> ederent] erent <hi rend="italic">S</hi> <lb/>
-            14 lauissent <hi rend="italic">GV</hi> respondens dixit <hi rend="italic">G</hi> 15 intus est <hi rend="italic">Fv</hi> est <hi rend="italic">(post</hi> <lb/>
+            Bouth</hi> largitur <hi rend="italic">Gv</hi> 13 in euangelio dominus <hi rend="italic">v</hi> ederent] erent <hi rend="italic">S</hi>
+                  <lb/>
+            14 lauissent <hi rend="italic">GV</hi> respondens dixit <hi rend="italic">G</hi> 15 intus est <hi rend="italic">Fv</hi> est <hi rend="italic">(post</hi>
+                  <lb/>
             foris) <hi rend="italic">om. G</hi> 17 scilicet om. <hi rend="italic">G</hi> 18 detrahendas] diluendas v 21 purgati <lb/>
             et mundi <hi rend="italic">G</hi> 22 possumus 8 addit <hi rend="italic">G</hi> elemosynis 81 23 monet) <lb/>
             docet et monet <hi rend="italic">v,</hi> docet <hi rend="italic">(sed post</hi> misericordiam) <hi rend="italic">G</hi> misericordias esse <lb/>
-            faciendas S 24 magno pretio <hi rend="italic">Fv</hi> redimit <hi rend="italic">S,</hi> redemit praecio <hi rend="italic">G</hi> <lb/>
-            baptismi gratiam <hi rend="italic">v</hi> </note><lb n="25"/>
-            
-</p>
-<pb n="375"/>
-            
-          </div>
-
-<div n="3" subtype="section" type="textpart"><p>Agnoscamus itaque, fratres dilectissimi, diuinae indulgentiae  <lb/>
+            faciendas S 24 magno pretio <hi rend="italic">Fv</hi> redimit <hi rend="italic">S,</hi> redemit praecio <hi rend="italic">G</hi>
+                  <lb/>
+            baptismi gratiam <hi rend="italic">v</hi>
+               </note>
+               <lb n="25"/>
+            </p>
+            <pb n="375"/>
+         </div>
+         <div n="3" type="section">
+            <p>Agnoscamus itaque, fratres dilectissimi, diuinae indulgentiae  <lb/>
             salubre munus [et emundandis purgandisque peccatis nostis, qui <lb/>
             sine aliquo conscientiae uulnere esse non possumus medellis spiritalibus <lb/>
             uulnera nostra curemus. nec quisquam sic sibi de puro <lb/>
@@ -189,11 +202,10 @@
             est, quam necessaria, quam benigna est diuina clementia, quae! <lb/>
             cum sciat non deesse sanatis quaedam postmodum uulnera, <lb/>
             dedit curandis denuo sanandisque uulneribus remedia salutaria. <lb n="15"/>
-            
-</p>
-          </div>
-
-<div n="4" subtype="section" type="textpart"><p>Numquam denique, fratres dilectissimi, admonitio diuina  <lb/>
+            </p>
+         </div>
+         <div n="4" type="section">
+            <p>Numquam denique, fratres dilectissimi, admonitio diuina  <lb/>
             cessauit et tacuit quominus in scripturis sanctis tam ueteribus <lb/>
             quam nouis semper et ubique ad misericordiae opera Dei populus <lb/>
             prouocaretur et canente adque exhortante Spiritu sancto quisque <lb/>
@@ -202,25 +214,30 @@
             et noli parcere. sicut tuba exalta uocem
 
 <note type="footnote"> 7 Prou. 20, 9. 9 1 Io. 1, 8.. 21 Es. 58, 1. </note>
-
-<note type="footnote"> 1 dilectissimi <hi rend="italic">SG et Augustin. I. c. IV, 10, 27.,</hi> carissimi <hi rend="italic">FWv</hi> <lb/>
+               <note type="footnote"> 1 dilectissimi <hi rend="italic">SG et Augustin. I. c. IV, 10, 27.,</hi> carissimi <hi rend="italic">FWv</hi>
+                  <lb/>
             2 munus salubre v et] ut v <hi rend="italic">Augustini, om. G,</hi> et <hi rend="italic">quia S;</hi> munus emundandis-nostris <lb/>
             et qui <hi rend="italic">coni. Vahlen</hi> emundanis <hi rend="italic">S</hi> 4 <hi rend="italic">nec] neW et<lb/>
              August. contra lulian. Pel. II25</hi> sic om. <hi rend="italic">W</hi> 5 atque de <hi rend="italic">August. I. c. <lb/>
-             contra d. epist. Pel</hi>. pectore] corde 17 8 mundum se] mundus <hi rend="italic">FW</hi> <lb/>
-            9 iohannes in epistola sua dicit si <hi rend="italic">G</hi> quoniam <hi rend="italic">F</hi> 10 decepimus <hi rend="italic">W</hi> <lb/>
+             contra d. epist. Pel</hi>. pectore] corde 17 8 mundum se] mundus <hi rend="italic">FW</hi>
+                  <lb/>
+            9 iohannes in epistola sua dicit si <hi rend="italic">G</hi> quoniam <hi rend="italic">F</hi> 10 decepimus <hi rend="italic">W</hi>
+                  <lb/>
             11 non est <hi rend="italic">SFWGV et August.,</hi> non est. si autem confessi fuerimus peccata <lb/>
-            nostra, fidelis et iustus est dominus, qui nobis peccata dimittat <hi rend="italic">v</hi> <lb/>
+            nostra, fidelis et iustus est dominus, qui nobis peccata dimittat <hi rend="italic">v</hi>
+                  <lb/>
             12 quisquis <hi rend="italic">v</hi> se] <hi rend="italic">ex</hi> te <hi rend="italic">W m. 2, om. v post</hi> quisque ae <hi rend="italic">deest totum<lb/>
              folium in F</hi> se esse dixerit v, esse dixerit .4ugrurt. <hi rend="italic">I. c. contra Iul. P</hi>. <lb/>
-            stultus est aut superbus <hi rend="italic">G</hi> 13 quam necessaria... quae <hi rend="italic">om. v Augustini</hi> <lb/>
+            stultus est aut superbus <hi rend="italic">G</hi> 13 quam necessaria... quae <hi rend="italic">om. v Augustini</hi>
+                  <lb/>
             Z. <hi rend="italic">c. contra</hi> duas <hi rend="italic">epist. Pel</hi>. 15 denuo curandis <hi rend="italic">G</hi> 17 et] numquam v <lb/>
             tam n. q. nonis <hi rend="italic">om. W; cf. p.188, 6</hi> 18 et] nt <hi rend="italic">G</hi> 19 exhortante] prouocante <lb/>
-            <hi rend="italic">G</hi> quisquis v <hi rend="italic">20 iubeatur G, iubetur v 21 praecepit G1</hi> <lb/>
-            dens eseiae dicens <hi rend="italic">S</hi> 22 tnrba <hi rend="italic">G1</hi> </note> <lb/>
-
-
-<pb n="376"/>
+                  <hi rend="italic">G</hi> quisquis v <hi rend="italic">20 iubeatur G, iubetur v 21 praecepit G1</hi>
+                  <lb/>
+            dens eseiae dicens <hi rend="italic">S</hi> 22 tnrba <hi rend="italic">G1</hi>
+               </note>
+               <lb/>
+               <pb n="376"/>
             tuam, adnuntia plebi meae peccata ipsorum et <lb/>
             domui Iacob facinora eorum. et cum peccata eis sua exprobrari <lb/>
             praecepisset cumque eorum facinora pleno indignationis <lb/>
@@ -236,11 +253,10 @@
             claritas Dei circumdabit te. tunc exclamabis, et <lb/>
             Deus exaudiet te. dum adhuc loqueris, dicet: ecce <lb/>
             adsum. <lb n="15"/>
-            
-</p>
-          </div>
-
-<div n="5" subtype="section" type="textpart"><p> Remedia propitiando Deo ipsius Dei uerbis data sunt, quid deberent <lb/>
+            </p>
+         </div>
+         <div n="5" type="section">
+            <p> Remedia propitiando Deo ipsius Dei uerbis data sunt, quid deberent <lb/>
             facere peccantes magisteria diuina docuerunt, operationibus <lb/>
             iustis Deo satisfieri, misericordiae meritis peccata purgari. <lb/>
             et aput Salomonem legimus: conclude eleemosynam in <lb/>
@@ -254,19 +270,18 @@
             qui intellegit super egenum et pauperem. in
 
 <note type="footnote"> 8 Es. 58, 7 sq. 19 Sir. 29, 12. 21 Prou. 21, 13. 26 Ps. 40, 2. </note>
-
-<note type="footnote"> 1 adnuntia <hi rend="italic">WVG,</hi> et adnuntia <hi rend="italic">Sv; cf. test. 1111 p. 108</hi> peccata] <lb/>
+               <note type="footnote"> 1 adnuntia <hi rend="italic">WVG,</hi> et adnuntia <hi rend="italic">Sv; cf. test. 1111 p. 108</hi> peccata] <lb/>
             delicta G 3 praecipisaet &lt;5 <hi rend="italic">indignationes G</hi> 4 impetum 1V I <lb/>
             6 cinere et cilicio uolutarentur <hi rend="italic">V</hi> leniri <hi rend="italic">S</hi> 10 uesti <hi rend="italic">SWGV,</hi> uesti <lb/>
             eum <hi rend="italic">v</hi> domesticum <hi rend="italic">S</hi> dispicies <hi rend="italic">S (cf. 108, 21),</hi> despicias t\' <lb/>
             12 oriuntur <hi rend="italic">W</hi> praebibit <hi rend="italic">W1</hi> 14 dum] cum <hi rend="italic">G</hi> dicit <hi rend="italic">V</hi> 16 propitiante <lb/>
-            <hi rend="italic">G*,</hi> propiando <hi rend="italic">S</hi> 19 in cor in corde G I 20 exorabunt W <lb/>
+                  <hi rend="italic">G*,</hi> propiando <hi rend="italic">S</hi> 19 in cor in corde G I 20 exorabunt W <lb/>
             ab omni malo] in die malo <hi rend="italic">V</hi> 21 obdurat <hi rend="italic">W</hi> inbecillem <hi rend="italic">G</hi> 23 promereri <lb/>
-            <hi rend="italic">v</hi> miscricordiam dei <hi rend="italic">v,</hi> diii <hi rend="italic">S (cf. 382,10)</hi> 26 et probat <hi rend="italic">otn. G</hi> <lb/>
-            27 egentem <hi rend="italic">WG V</hi> , </note> <lb/>
-
-
-<pb n="377"/>
+                  <hi rend="italic">v</hi> miscricordiam dei <hi rend="italic">v,</hi> diii <hi rend="italic">S (cf. 382,10)</hi> 26 et probat <hi rend="italic">otn. G</hi>
+                  <lb/>
+            27 egentem <hi rend="italic">WG V</hi> , </note>
+               <lb/>
+               <pb n="377"/>
             die malo liberabit eum Dominus. quorum praeceptorum <lb/>
             memor Daniel cum rex Nabuchodonosor aduerso somnio territus <lb/>
             aestuaret, auertendis malis a diuina ope inpetranda remedium <lb/>
@@ -286,9 +301,9 @@
             petitiones nostras efficaces fieri, eleemosynis uitam de periculis <lb/>
             redimi, eleemosynis a morte animas liberari. 
 </p>
-          </div>
-
-<div n="6" subtype="section" type="textpart"><p>Nec sic, fratres dilectissimi, ista proferimus, ut non quod  <lb/>
+         </div>
+         <div n="6" type="section">
+            <p>Nec sic, fratres dilectissimi, ista proferimus, ut non quod  <lb/>
             Raphael angelus dixit ueritatis testimonio conprobemus. in Actis <lb n="20"/>
             apostolorum facti fides posita est, et quod eleemosynis non tantum <lb/>
             a secunda sed a prima morte animae liberentur, gestae et <lb/>
@@ -296,23 +311,28 @@
             iustis et eleemosynis praestandis plurimum dedita cum infirmata
 
 <note type="footnote"> 4 Dan. 4, 24. 11 Tob. 12, 8 sq. </note>
-
-<note type="footnote"> 1 malo <hi rend="italic">SWV,</hi> mala <hi rend="italic">Gv</hi> liberauit <hi rend="italic">WlGl</hi> illum deus <hi rend="italic">SWGV,</hi> eum <lb/>
-            dominus <hi rend="italic">v, cf. test. III1 p. 110</hi> 2 nabocodonosor <hi rend="italic">W</hi> territus <hi rend="italic">om. G</hi> <lb/>
-            3 aestuaret et <hi rend="italic">S</hi> anertendis <hi rend="italic">SWGV,</hi> pro au. <hi rend="italic">v</hi> a] ac <hi rend="italic">SFG,</hi> ad <hi rend="italic">Wv,</hi> <lb/>
-            de <hi rend="italic">V</hi> diuina ope inpetranda <hi rend="italic">SFWGV,</hi> diuinam opom impetrandam <hi rend="italic">v</hi> <lb/>
+               <note type="footnote"> 1 malo <hi rend="italic">SWV,</hi> mala <hi rend="italic">Gv</hi> liberauit <hi rend="italic">WlGl</hi> illum deus <hi rend="italic">SWGV,</hi> eum <lb/>
+            dominus <hi rend="italic">v, cf. test. III1 p. 110</hi> 2 nabocodonosor <hi rend="italic">W</hi> territus <hi rend="italic">om. G</hi>
+                  <lb/>
+            3 aestuaret et <hi rend="italic">S</hi> anertendis <hi rend="italic">SWGV,</hi> pro au. <hi rend="italic">v</hi> a] ac <hi rend="italic">SFG,</hi> ad <hi rend="italic">Wv,</hi>
+                  <lb/>
+            de <hi rend="italic">V</hi> diuina ope inpetranda <hi rend="italic">SFWGV,</hi> diuinam opom impetrandam <hi rend="italic">v</hi>
+                  <lb/>
             5 et <hi rend="italic">(ante</hi> peccata) <hi rend="italic">om. G</hi> 7 patiens] parcens <hi rend="italic">v</hi> 9 sua <hi rend="italic">om. G</hi> redimisset <lb/>
-            <hi rend="italic">SG</hi> 12 quoniam <hi rend="italic">G</hi> quia eleemosyna <hi rend="italic">om. W</hi> et elemosyna <hi rend="italic">S</hi> <lb/>
-            et <hi rend="italic">om. G</hi> 13 a peccatis <hi rend="italic">V</hi> 15 ni F, nisi <hi rend="italic">WGv,</hi> si <hi rend="italic">S</hi> satisfactorum <hi rend="italic">G</hi> <lb/>
+                  <hi rend="italic">SG</hi> 12 quoniam <hi rend="italic">G</hi> quia eleemosyna <hi rend="italic">om. W</hi> et elemosyna <hi rend="italic">S</hi>
+                  <lb/>
+            et <hi rend="italic">om. G</hi> 13 a peccatis <hi rend="italic">V</hi> 15 ni F, nisi <hi rend="italic">WGv,</hi> si <hi rend="italic">S</hi> satisfactorum <hi rend="italic">G</hi>
+                  <lb/>
             16 satientur <hi rend="italic">SFWGV,</hi> farciantur <hi rend="italic">v ex coniectura Grauii,</hi> fulciantur <lb/>
-            <hi rend="italic">coni. Goulartius,</hi> socientur <hi rend="italic">exhibent aliquot codices</hi> 17 petitiones... <lb/>
-            eleemosynis <hi rend="italic">om. G</hi> 18 eleemosynis <hi rend="italic">om. G</hi> animas a morte <hi rend="italic">Gv</hi> <lb/>
+                  <hi rend="italic">coni. Goulartius,</hi> socientur <hi rend="italic">exhibent aliquot codices</hi> 17 petitiones... <lb/>
+            eleemosynis <hi rend="italic">om. G</hi> 18 eleemosynis <hi rend="italic">om. G</hi> animas a morte <hi rend="italic">Gv</hi>
+                  <lb/>
             19 dilectissimi <hi rend="italic">SG, carissimi FWv</hi> 20 actis <hi rend="italic">SWG,</hi> actibus <hi rend="italic">Ft</hi>. <lb/>
             22 sed et <hi rend="italic">FG</hi> 23 impleta <hi rend="italic">S</hi> conpertum] testatum <hi rend="italic">G</hi> dabita S, tabita <lb/>
-            <hi rend="italic">G</hi> operationibus] orationibus <hi rend="italic">G</hi> 24 plurimis <hi rend="italic">G</hi> </note> <lb/>
-
-
-<pb n="378"/>
+                  <hi rend="italic">G</hi> operationibus] orationibus <hi rend="italic">G</hi> 24 plurimis <hi rend="italic">G</hi>
+               </note>
+               <lb/>
+               <pb n="378"/>
             esset et mortua, ad cadauer exanimae Petrus accitus est. qui <lb/>
             cum inpigre pro apostolica humanitate uenisset, circumsteterunt <lb/>
             eum uiduae flentes et rogantes, pallia et tunicas et omnia illa <lb/>
@@ -332,9 +352,9 @@
             laborantibus uiduis largita fuerat subsidia uiuendi meruit ad <lb/>
             uitam uiduarum petitione reuocari. 
 </p>
-          </div>
-
-<div n="7" subtype="section" type="textpart"><p rend="script"> Itaque in euangelio Dominus doctor uitae nostrae et magister <lb/>
+         </div>
+         <div n="7" type="section">
+            <p rend="script"> Itaque in euangelio Dominus doctor uitae nostrae et magister <lb/>
             salutis aeternae uiuificans credentium populum et uiuificatis consulens<lb n="20"/>
             in aeternum inter sua mandata diuina et praecepta caelestia <lb/>
             nihil crebrius mandat et praecipit quam ut insistamus eleemosynis <lb/>
@@ -345,20 +365,22 @@
             exterminat et ubi fures effodiunt et
 
 <note type="footnote"> 10 Act. 9, 40. 24 Luc. 12, 33. 25 Matth. 6, 19 sq. </note>
-
-<note rend="script" type="footnote"> 1 esset <hi rend="italic">ex</hi> est <hi rend="italic">G m. 2</hi> exanimae <hi rend="italic">SWl,</hi> ezanime <hi rend="italic">FW2 Gv</hi> acci***tus <lb/>
-            <hi rend="italic">G, accersitus F</hi> 3 palea <hi rend="italic">W</hi> 5 suis om. <hi rend="italic">F</hi> ipsis <hi rend="italic">F</hi> 8 genuis <hi rend="italic">G</hi> <lb/>
-            nixis <hi rend="italic">V</hi> et <hi rend="italic">om. v</hi> 9 protuliaset <hi rend="italic">G</hi> 10 tabulam <hi rend="italic">S</hi> dabitha <hi rend="italic">W</hi> <lb/>
+               <note rend="script" type="footnote"> 1 esset <hi rend="italic">ex</hi> est <hi rend="italic">G m. 2</hi> exanimae <hi rend="italic">SWl,</hi> ezanime <hi rend="italic">FW2 Gv</hi> acci***tus <lb/>
+                  <hi rend="italic">G, accersitus F</hi> 3 palea <hi rend="italic">W</hi> 5 suis om. <hi rend="italic">F</hi> ipsis <hi rend="italic">F</hi> 8 genuis <hi rend="italic">G</hi>
+                  <lb/>
+            nixis <hi rend="italic">V</hi> et <hi rend="italic">om. v</hi> 9 protuliaset <hi rend="italic">G</hi> 10 tabulam <hi rend="italic">S</hi> dabitha <hi rend="italic">W</hi>
+                  <lb/>
             11 nomine dmi <hi rend="italic">S iesu om. G</hi> 12 <hi rend="italic">perferret F, ferret SW Gv</hi> enangelio <lb/>
             suo <hi rend="italic">G</hi> 14 hac <hi rend="italic">S</hi> 16 operae iustae <hi rend="italic">F</hi> 17 fuerant <hi rend="italic">F</hi> ad] in <lb/>
             hanc <hi rend="italic">F</hi> 20 credentium populum et uiuificatis] et <hi rend="italic">S fort. rectius</hi> 21 et <lb/>
             dinina <hi rend="italic">G</hi> 22 praecepit W sistamus <hi rend="italic">B</hi> 24 thensanros <hi rend="italic">SW*,</hi> theeauros <lb/>
-            Wl, <hi rend="italic">ita l. seqq. uterque nisi quod Wl</hi> thesaur. 25 datae <hi rend="italic">S</hi> <lb/>
+            Wl, <hi rend="italic">ita l. seqq. uterque nisi quod Wl</hi> thesaur. 25 datae <hi rend="italic">S</hi>
+                  <lb/>
             aelimosinas <hi rend="italic">G</hi> 26 super terram] in terra <hi rend="italic">G</hi> tenea S 27 exterminant <lb/>
-            <hi rend="italic">Yv</hi> et <hi rend="italic">(ante</hi> ubi) <hi rend="italic">add. W1</hi> </note> <lb/>
-
-
-<pb n="379"/>
+                  <hi rend="italic">Yv</hi> et <hi rend="italic">(ante</hi> ubi) <hi rend="italic">add. W1</hi>
+               </note>
+               <lb/>
+               <pb n="379"/>
             furantur. thesaurizate autem uobis thesauros in caelo, <lb/>
             ubi neque tinea neque comestura exterminat et ubi <lb/>
             fures non effodiunt. ubi enim fuerit thesaurus <lb/>
@@ -374,11 +396,10 @@
             quaerenti bonas margaritas. ubi autem inuenit <lb/>
             pretiosam margaritam, abiit et uendidit omnia <lb/>
             quae habuit et emit illam. <lb n="15"/>
-            
-</p>
-          </div>
-
-<div n="8" subtype="section" type="textpart"><p>Eos denique et Abrahae filios dicit quos in iuuandis alendisque  <lb/>
+            </p>
+         </div>
+         <div n="8" type="section">
+            <p>Eos denique et Abrahae filios dicit quos in iuuandis alendisque  <lb/>
             pauperibus operarios cernit. nam cum Zachaeus dixisset: ecce <lb/>
             dimidium ex substantia mea do egenis et si cui <lb/>
             quid fraudaui quadruplum reddo, respondit Iesus: quia <lb/>
@@ -391,21 +412,24 @@
             scit uera esse quae praedicta sunt uerbis Dei nec scripturam
 
 <note type="footnote"> 5 Matth. 19, 21. 11 Matth. 13, 45 sq. 17 Luc. 19, 8 sq. </note>
-
-<note type="footnote"> 1 <hi rend="italic">thesaurizate...I</hi>. 3 effodiunt <hi rend="italic">om. G</hi> autem <hi rend="italic">om. W; cf. test. III1 <lb/>
-            p. 111</hi> 2 tineae <hi rend="italic">S</hi> 3 effodiunt nec furantur <hi rend="italic">v</hi> 4 illic] istic <hi rend="italic">V,</hi> ibi <hi rend="italic">v</hi> <lb/>
+               <note type="footnote"> 1 <hi rend="italic">thesaurizate...I</hi>. 3 effodiunt <hi rend="italic">om. G</hi> autem <hi rend="italic">om. W; cf. test. III1 <lb/>
+            p. 111</hi> 2 tineae <hi rend="italic">S</hi> 3 effodiunt nec furantur <hi rend="italic">v</hi> 4 illic] istic <hi rend="italic">V,</hi> ibi <hi rend="italic">v</hi>
+                  <lb/>
             5 uellet <hi rend="italic">post</hi> lege <hi rend="italic">ponit G</hi> 6 pauperibus <hi rend="italic">F,</hi> egenie <hi rend="italic">SWGv; cf. test. <lb/>
             III lp. 111</hi> 9 suis <hi rend="italic">om. G</hi> 10 cruorem <hi rend="italic">S</hi> 11 de] da <hi rend="italic">G</hi> 12 negotiatori <lb/>
-            <hi rend="italic">v</hi> 16 habrahe <hi rend="italic">WG saepius</hi> in <hi rend="italic">om. S</hi> ***iuuandiB <hi rend="italic">W</hi> <lb/>
+                  <hi rend="italic">v</hi> 16 habrahe <hi rend="italic">WG saepius</hi> in <hi rend="italic">om. S</hi> ***iuuandiB <hi rend="italic">W</hi>
+                  <lb/>
             17 zaccheus S, zacheus <hi rend="italic">W G</hi> 18 cui <hi rend="italic">om. G</hi> 19 respondens <hi rend="italic">G</hi> iesus] <lb/>
-            iesus et dixit <hi rend="italic">v</hi> 20 huic domui <hi rend="italic">v</hi> 21 abraam <hi rend="italic">S,</hi> habraham <hi rend="italic">G</hi> <lb/>
+            iesus et dixit <hi rend="italic">v</hi> 20 huic domui <hi rend="italic">v</hi> 21 abraam <hi rend="italic">S,</hi> habraham <hi rend="italic">G</hi>
+                  <lb/>
             deputatum <hi rend="italic">WGfJ</hi> 22 ei] illi <hi rend="italic">S</hi> dni <hi rend="italic">W</hi> 24 qui a. d. t. sernat] quia <lb/>
-            <hi rend="italic">S fort. rectiiM; cf. p. 378, 20</hi> miseratione <hi rend="italic">G</hi> 25 enim <hi rend="italic">W in ras</hi>. <lb/>
-            in deo <hi rend="italic">S,</hi> ideo <hi rend="italic">FGv,</hi> ideo <hi rend="italic">W in ras. corr</hi>. 26 pracdicta] praecepta <hi rend="italic">G</hi> <lb/>
-            sanctam <hi rend="italic">om. S</hi> </note> <lb/>
-
-
-<pb n="380"/>
+                  <hi rend="italic">S fort. rectiiM; cf. p. 378, 20</hi> miseratione <hi rend="italic">G</hi> 25 enim <hi rend="italic">W in ras</hi>. <lb/>
+            in deo <hi rend="italic">S,</hi> ideo <hi rend="italic">FGv,</hi> ideo <hi rend="italic">W in ras. corr</hi>. 26 pracdicta] praecepta <hi rend="italic">G</hi>
+                  <lb/>
+            sanctam <hi rend="italic">om. S</hi>
+               </note>
+               <lb/>
+               <pb n="380"/>
             [sanctam] posse mentiri, arbores infructuosas id est steriles homines <lb/>
             excidi et in ignem mitti, misericordes ad regnum uocari. qui et <lb/>
             alio in loco operarios et fructuosos fideles appellat, infructuosis <lb/>
@@ -414,9 +438,9 @@
             uobis? et si in alieno fideles non fuistis, uestrum <lb/>
             quis dabit uobis? 
 </p>
-          </div>
-
-<div n="9" subtype="section" type="textpart"><p rend="script"> Sed uereris et metuis ne si operari plurimum coeperis patrimonio <lb/>
+         </div>
+         <div n="9" type="section">
+            <p rend="script"> Sed uereris et metuis ne si operari plurimum coeperis patrimonio <lb/>
             tuo larga operatione finito ad penuriam forte redigaris, <lb/>
             esto in hac parte intrepidus, esto securus. finiri non potest unde <lb n="10"/>
             in usus Christi impenditur, unde opus caeleste celebratur. nec <lb/>
@@ -437,21 +461,24 @@
             Domino: quoniam dum gratiarum actio ad Deum pro
 
 <note type="footnote"> 4 Luc. 16,11 sq. 14 Prou. 28, 27. 19 II Cor. 9, 10 sq. </note>
-
-<note rend="script" type="footnote"> <hi rend="italic">1 arbores es Sl stereles S 2 misericordes SFWG V, mis. autein r</hi> <lb/>
+               <note rend="script" type="footnote">
+                  <hi rend="italic">1 arbores es Sl stereles S 2 misericordes SFWG V, mis. autein r</hi>
+                  <lb/>
             3 fidelis <hi rend="italic">S item h 5 et 6</hi> 4 et sterilibus <hi rend="italic">cnn. W</hi> in <hi rend="italic">om. SG</hi> mammona <lb/>
             v, mammonae <hi rend="italic">G</hi> 5 est uestrum <hi rend="italic">F,</hi> uestrum est <hi rend="italic">G (sed</hi> est s. <hi rend="italic">I. <lb/>
-            m. 2)</hi> credit <hi rend="italic">S,</hi> dabit <hi rend="italic">G</hi> 6 uestrum <hi rend="italic">SWGV,</hi> quod ucstrum est <hi rend="italic">p,</hi> <lb/>
+            m. 2)</hi> credit <hi rend="italic">S,</hi> dabit <hi rend="italic">G</hi> 6 uestrum <hi rend="italic">SWGV,</hi> quod ucstrum est <hi rend="italic">p,</hi>
+                  <lb/>
             quod est uestrum <hi rend="italic">v</hi> 8 sed] si v 9 finiatur <hi rend="italic">F</hi> 11 usum <hi rend="italic">G</hi> 12 de <lb/>
             meo <hi rend="italic">ex</hi> debeo <hi rend="italic">S m. 2</hi> sanctarum] singularum <hi rend="italic">W</hi> et] et de <hi rend="italic">W</hi> 14 et <lb/>
-            dicit om. <hi rend="italic">G</hi> 16 magnam <hi rend="italic">S</hi> ostendit <hi rend="italic">G</hi> 20 ad edendum <hi rend="italic">add. Wm. 2</hi> <lb/>
+            dicit om. <hi rend="italic">G</hi> 16 magnam <hi rend="italic">S</hi> ostendit <hi rend="italic">G</hi> 20 ad edendum <hi rend="italic">add. Wm. 2</hi>
+                  <lb/>
             21 uestram <hi rend="italic">ex</hi> eius <hi rend="italic">S</hi> 22 locupletamini <hi rend="italic">S (corr. m. 2 a in</hi> i) 24 suppleuit <lb/>
-            <hi rend="italic">G,</hi> implebit <hi rend="italic">W</hi> eam Sl 25 <hi rend="italic">et om. W</hi> abundauit <hi rend="italic">G</hi> multas <lb/>
+                  <hi rend="italic">G,</hi> implebit <hi rend="italic">W</hi> eam Sl 25 <hi rend="italic">et om. W</hi> abundauit <hi rend="italic">G</hi> multas <lb/>
             g. actiones <hi rend="italic">G</hi> in om. Fl 26 dmo <hi rend="italic">SGV,</hi> dni <hi rend="italic">F\',</hi> cbA <hi rend="italic">W.F2v; cf. test. III<lb/>
-             1 p.113</hi> cum <hi rend="italic">G</hi> per aelemosinas nras (adq. oper. <hi rend="italic">om.) G</hi> </note><lb/>
-
-
-<pb n="381"/>
+             1 p.113</hi> cum <hi rend="italic">G</hi> per aelemosinas nras (adq. oper. <hi rend="italic">om.) G</hi>
+               </note>
+               <lb/>
+               <pb n="381"/>
             eleemosynis adque operationibus nostris pauperum oratione dirigitur, <lb/>
             census operantis Dei retributione cumulatur. et Dominus in <lb/>
             euangelio iam tum eiusmodi hominum corda considerans et perfidis <lb/>
@@ -466,9 +493,9 @@
             regnum dicit admitti qui fuerint in ecclesia eius <lb/>
             operati. 
 </p>
-          </div>
-
-<div n="10" subtype="section" type="textpart"><p>Metuis ne patrimonium tuum forte deficiat, si operari ex eo  <lb/>
+         </div>
+         <div n="10" type="section">
+            <p>Metuis ne patrimonium tuum forte deficiat, si operari ex eo  <lb/>
             largiter coeperis, et nescis miser quia dum times ne res familiaris <lb n="15"/>
             deficiat uita ipsa et salus deficiat, et dum ne quid de rebus tuis <lb/>
             minuatur adtendis, non respicis quod ipse minuaris amator magis <lb/>
@@ -482,30 +509,32 @@
             quae mergunt hominem in perditionem et in
 
 <note type="footnote"> 5 Matth. 6, 31 sq. 20 I Tim. 6, 7 sq. </note>
-
-<note type="footnote"> 1 oratione] operatione <hi rend="italic">S</hi> dirigetur <hi rend="italic">S</hi> 3 tunc <hi rend="italic">WGv</hi> 6 <hi rend="italic">bebimus S</hi> <lb/>
+               <note type="footnote"> 1 oratione] operatione <hi rend="italic">S</hi> dirigetur <hi rend="italic">S</hi> 3 tunc <hi rend="italic">WGv</hi> 6 <hi rend="italic">bebimus S</hi>
+                  <lb/>
             7 enim] autem <hi rend="italic">FWv</hi> nester caelestis <hi rend="italic">S</hi> omnium horum <hi rend="italic">v</hi> 8 indegetis <lb/>
-            <hi rend="italic">S,</hi> indietis <hi rend="italic">G I</hi> primum <hi rend="italic">Gv</hi> et iustitiam <hi rend="italic">om. G</hi> dei et iustitiam <lb/>
+                  <hi rend="italic">S,</hi> indietis <hi rend="italic">G I</hi> primum <hi rend="italic">Gv</hi> et iustitiam <hi rend="italic">om. G</hi> dei et iustitiam <lb/>
             eius <hi rend="italic">v</hi> 9 ista <hi rend="italic">om. S; cf. ad totum l. test. III11 p. 122</hi> 10 dicit <lb/>
-            omnia apponi <hi rend="italic">G</hi> dei et iusticiam <hi rend="italic">G</hi> 11 enim <hi rend="italic">om. S; cf. p. 384, 19</hi> <lb/>
+            omnia apponi <hi rend="italic">G</hi> dei et iusticiam <hi rend="italic">G</hi> 11 enim <hi rend="italic">om. S; cf. p. 384, 19</hi>
+                  <lb/>
             14 <hi rend="italic">metuens S; cf. p. 382, 4et9</hi> 15 <hi rend="italic">familiares S</hi> 16 salusdeficitWGv\' <lb/>
             nequit <hi rend="italic">F</hi> 17 ipse <hi rend="italic">W</hi> s. <hi rend="italic">I. m. 2</hi> 18 ct] ut <hi rend="italic">Fv</hi> Dum times (et <hi rend="italic">om.) <lb/>
             V</hi> pro te] propter <hi rend="italic">S</hi> patrimonium <hi rend="italic">SFWGV,</hi> patr. tuum <hi rend="italic">v</hi> 19 ipse] <lb/>
             id agis ut ipse <hi rend="italic">V;</hi> operam das ut ipse <hi rend="italic">fort</hi>. patrimonio <hi rend="italic">FWV,</hi> patr. tuo <lb/>
-            <hi rend="italic">SOv</hi> et om. <hi rend="italic">G</hi> apostolus paulus <hi rend="italic">F</hi> 20 dicet <hi rend="italic">S</hi> nihil <hi rend="italic">etc.; cf. p.165, <lb/>
-            15. 245,14</hi> 21 auferre quid <hi rend="italic">v</hi> 22 simus <hi rend="italic">W 8. l. m. 2,</hi> sumus <hi rend="italic">SGl</hi> <lb/>
+                  <hi rend="italic">SOv</hi> et om. <hi rend="italic">G</hi> apostolus paulus <hi rend="italic">F</hi> 20 dicet <hi rend="italic">S</hi> nihil <hi rend="italic">etc.; cf. p.165, <lb/>
+            15. 245,14</hi> 21 auferre quid <hi rend="italic">v</hi> 22 simus <hi rend="italic">W 8. l. m. 2,</hi> sumus <hi rend="italic">SGl</hi>
+                  <lb/>
             24 et] et in <hi rend="italic">Fv</hi> muscipula <hi rend="italic">S,</hi> muscipulas <hi rend="italic">W,</hi> muscipulam <hi rend="italic">FGv</hi> multa <lb/>
-            <hi rend="italic">nocentia S</hi> 25 homines S et in] et <hi rend="italic">SGIV</hi> </note> <lb n="25"/>
-
-
-<pb n="382"/>
+                  <hi rend="italic">nocentia S</hi> 25 homines S et in] et <hi rend="italic">SGIV</hi>
+               </note>
+               <lb n="25"/>
+               <pb n="382"/>
             interitum. radix enim omnium malorum est cupiditas <lb/>
             quam quidam adpetentes naufragauerunt a fide et <lb/>
             inseruerunt se doloribus multis. 
 </p>
-          </div>
-
-<div n="11" subtype="section" type="textpart"><p> Metuis ne patrimonium tuum forte deficiat, si operari ex eo <lb/>
+         </div>
+         <div n="11" type="section">
+            <p> Metuis ne patrimonium tuum forte deficiat, si operari ex eo <lb/>
             largiter coeperis? quando enim factum est ut iusto possent<lb n="5"/>
             deesse subsidia ? cum scriptum sit: non occidet fame Dominus <lb/>
             animam iustam. Helias in solitudine conus ministrantibus <lb/>
@@ -522,9 +551,9 @@
             Dei seruo, tu operibus bonis dedito, tu domino suo caro aliquid <lb/>
             existimas defuturum? 
 </p>
-          </div>
-
-<div n="12" subtype="section" type="textpart"><p rend="script"> Nisi si putas quia qui Christum pascit a Christo ipse non pascitur<lb n="20"/>
+         </div>
+         <div n="12" type="section">
+            <p rend="script"> Nisi si putas quia qui Christum pascit a Christo ipse non pascitur<lb n="20"/>
             aut eis terrena deerunt quibus caelestia et diuina tribuuntur. <lb/>
             unde haec incredula cogitatio, unde impia et sacrilega ista <lb/>
             meditatio? quid facit in domo fidei perfidum pectus? quid qui <lb/>
@@ -534,20 +563,21 @@
             lucris prouida operatione faceremus qui nos postmodum in
 
 <note type="footnote"> 6 Prou. 10, 3. 12 Matth. 6, 26. </note>
-
-<note rend="script" type="footnote"> 3 insonmt <hi rend="italic">F</hi> 4 metuens <hi rend="italic">S</hi> cx <hi rend="italic">om. S</hi> 5 possent <hi rend="italic">W (sed</hi> ent <lb/>
-            <hi rend="italic">corr.),</hi> possint <hi rend="italic">G</hi> 6 snbsidia uitae v, substantia <hi rend="italic">V</hi> dns fame <hi rend="italic">G</hi> <lb/>
+               <note rend="script" type="footnote"> 3 insonmt <hi rend="italic">F</hi> 4 metuens <hi rend="italic">S</hi> cx <hi rend="italic">om. S</hi> 5 possent <hi rend="italic">W (sed</hi> ent <lb/>
+                  <hi rend="italic">corr.),</hi> possint <hi rend="italic">G</hi> 6 snbsidia uitae v, substantia <hi rend="italic">V</hi> dns fame <hi rend="italic">G</hi>
+                  <lb/>
             7 fugae solitudine <hi rend="italic">V</hi> 8 daniel <hi rend="italic">S,</hi> danihel <hi rend="italic">W G</hi> lacu <hi rend="italic">FGVv</hi> ad <hi rend="italic">om. <lb/>
              BG V</hi> praeda <hi rend="italic">V, om. G</hi> ad <hi rend="italic">et</hi> praedam <hi rend="italic">inclusi; cf. de dom. orat. <lb/>
             p. 283,1</hi> 9 metnes <hi rend="italic">S</hi> 10 operanti tibi t\' drii <hi rend="italic">G,</hi> do <hi rend="italic">F</hi> 11 exprobationem <lb/>
-            <hi rend="italic">SG1</hi> quibus] quorum <hi rend="italic">G</hi> dubia] dura <hi rend="italic">S</hi> 12 conteetetnr et <lb/>
-            <hi rend="italic">om. G</hi> dicit <hi rend="italic">G</hi> 15 plures <hi rend="italic">BWI G1; cf. test. II111 p. 123</hi> illis <lb/>
-            estis <hi rend="italic">W</hi> 18 tu...caro om. <hi rend="italic">G</hi> dom <hi rend="italic">ex</hi> dno <hi rend="italic">W m. 2</hi> 20 ipse om. <hi rend="italic">G</hi> <lb/>
+                  <hi rend="italic">SG1</hi> quibus] quorum <hi rend="italic">G</hi> dubia] dura <hi rend="italic">S</hi> 12 conteetetnr et <lb/>
+                  <hi rend="italic">om. G</hi> dicit <hi rend="italic">G</hi> 15 plures <hi rend="italic">BWI G1; cf. test. II111 p. 123</hi> illis <lb/>
+            estis <hi rend="italic">W</hi> 18 tu...caro om. <hi rend="italic">G</hi> dom <hi rend="italic">ex</hi> dno <hi rend="italic">W m. 2</hi> 20 ipse om. <hi rend="italic">G</hi>
+                  <lb/>
             22 ista] <hi rend="italic">illa F</hi> 26 et om. <hi rend="italic">G</hi> 27 pronide <hi rend="italic">G,</hi> propria S oratione <lb/>
-            <hi rend="italic">W,</hi> ratione <hi rend="italic">S</hi> qui. <hi rend="italic">G</hi> </note> <lb/>
-
-
-<pb n="383"/>
+                  <hi rend="italic">W,</hi> ratione <hi rend="italic">S</hi> qui. <hi rend="italic">G</hi>
+               </note>
+               <lb/>
+               <pb n="383"/>
             tabernacula aeterna susciperent fideliter ac salubriter praemoneret, <lb/>
             addidit post haec scriptura dicens: audiebant autem haec <lb/>
             omnia Pharisaei qui erant cupidissimi et inridebant. <lb/>
@@ -557,9 +587,9 @@
             quod contemnant in tractatibus seruum, quando a talibus ipsum <lb/>
             Dominum uideamus esse contemptum. 
 </p>
-          </div>
-
-<div n="13" subtype="section" type="textpart"><p>Quid tibi cum istis ineptis et stultis cogitationibus plaudis,  <lb/>
+         </div>
+         <div n="13" type="section">
+            <p>Quid tibi cum istis ineptis et stultis cogitationibus plaudis,  <lb/>
             quasi metu et sollicitudine futurorum ab operibus retarderis? <lb n="10"/>
             quid umbras et praestigias quasdam uanae excusationis obtendis? <lb/>
             confitere immo quae uera sunt et quia scientes non potes fallere, <lb/>
@@ -580,23 +610,23 @@
             faciat regnorum caelestium coheredem.
 
 <note type="footnote">2 Luc. 16, 14. 21 Luc. 12, 20. </note>
-
-<note type="footnote"> 1 succiperet <hi rend="italic">S,</hi> susciper*int <hi rend="italic">G1</hi> 2 addit <hi rend="italic">G</hi> dicensj diuina <hi rend="italic">G</hi> <lb/>
+               <note type="footnote"> 1 succiperet <hi rend="italic">S,</hi> susciper*int <hi rend="italic">G1</hi> 2 addit <hi rend="italic">G</hi> dicensj diuina <hi rend="italic">G</hi>
+                  <lb/>
             autem <hi rend="italic">om. W</hi> 3 inridebant <hi rend="italic">SFWGV,</hi> irridebant eum <hi rend="italic">v</hi> 4 quosdam. <lb/>
             in ecclesia Gv 7 contempnat G\' tractibus F 8 dIñ <hi rend="italic">SG</hi> 9 cum Ft <lb/>
             in <hi rend="italic">W G, om. S; cf. p. 190, 19</hi> plaudes <hi rend="italic">F</hi> 11 uanas <hi rend="italic">S</hi> 12 potest <lb/>
-            <hi rend="italic">SG</hi> 13 obsiderunt <hi rend="italic">G</hi> 14 sterelitatis <hi rend="italic">WG</hi> 15 auaritia <hi rend="italic">W</hi> 18 te] <lb/>
+                  <hi rend="italic">SG</hi> 13 obsiderunt <hi rend="italic">G</hi> 14 sterelitatis <hi rend="italic">WG</hi> 15 auaritia <hi rend="italic">W</hi> 18 te] <lb/>
             a te <hi rend="italic">G</hi> 19 grauius onerat <hi rend="italic">v</hi> quid.. diuiti <hi rend="italic">om. S</hi> 20 copia stulta <lb/>
             se <hi rend="italic">V</hi> exaltatione <hi rend="italic">G</hi> 21 tua a te <hi rend="italic">v</hi> 22 cui <hi rend="italic">V</hi> tuis <hi rend="italic">om. S</hi> 23 incnmbas <lb/>
-            <hi rend="italic">F</hi> patrimonii <hi rend="italic">SFWGV,</hi> patr. tui <hi rend="italic">v</hi> 24 redditus <hi rend="italic">GI</hi> 25 diuide...tuos <lb/>
-            <hi rend="italic">om. S</hi> deo <hi rend="italic">FWV,</hi> dno <hi rend="italic">G,</hi> domino deo <hi rend="italic">v</hi> 26 ei poss. terr. <lb/>
-            prouentu <hi rend="italic">v</hi> participem christum <hi rend="italic">G</hi> </note>
-<pb n="384"/>
-             
-</p>
-          </div>
-
-<div n="14" subtype="section" type="textpart"><p> Erras et falleris quisque te in saecnlo diuitem credis. audi in <lb/>
+                  <hi rend="italic">F</hi> patrimonii <hi rend="italic">SFWGV,</hi> patr. tui <hi rend="italic">v</hi> 24 redditus <hi rend="italic">GI</hi> 25 diuide...tuos <lb/>
+                  <hi rend="italic">om. S</hi> deo <hi rend="italic">FWV,</hi> dno <hi rend="italic">G,</hi> domino deo <hi rend="italic">v</hi> 26 ei poss. terr. <lb/>
+            prouentu <hi rend="italic">v</hi> participem christum <hi rend="italic">G</hi>
+               </note>
+               <pb n="384"/>
+            </p>
+         </div>
+         <div n="14" type="section">
+            <p> Erras et falleris quisque te in saecnlo diuitem credis. audi in <lb/>
             Apocalypsi Domini tui uocem eiusmodi homines iustis obiurgationibus <lb/>
             increpantem. dicis, inquit, diues sum et ditatus <lb/>
             sum et nullius rei egeo: et nescis quoniam tu es <lb/>
@@ -613,9 +643,9 @@
             tuos non stibio diaboli sed collyrio Christi, ut peruenire ad uidendum<lb n="15"/>
             Deum possis, dum Deum et moribus et operibus promereris. <lb/>
             </p>
-          </div>
-
-<div n="15" subtype="section" type="textpart"><p> Ceterum quae talis es nec operari in ecclesia potes: egentem <lb/>
+         </div>
+         <div n="15" type="section">
+            <p> Ceterum quae talis es nec operari in ecclesia potes: egentem <lb/>
             [enim] et pauperem non uident oculi superfusi nigrore, tenebris <lb/>
             et nocte contecti. locuples et diues dominicum celebrare te credis<lb n="20"/>
             quae corban omnino non respicis, quae in dominicum sine <lb/>
@@ -625,22 +655,23 @@
             in gazophylacium duo quae sola sibi erant minuta
 
 <note type="footnote"> 3 Apoc. 3,17 sq. </note>
-
-<note type="footnote"> 1 falleres <hi rend="italic">S</hi> quisquis v 3 sum <hi rend="italic">om. GV</hi> 5 miser ct miserabilis <lb/>
+               <note type="footnote"> 1 falleres <hi rend="italic">S</hi> quisquis v 3 sum <hi rend="italic">om. GV</hi> 5 miser ct miserabilis <lb/>
             v 6 a <hi rend="italic">me W s. l. m. 2</hi> de igne <hi rend="italic">W, om. G</hi> 7 uestem a. ut <lb/>
             uestiaris] uestiaris ueste alba Gut] et <hi rend="italic">S et]</hi> ut <hi rend="italic">F</hi> 8 ungue 01, <lb/>
             xmge <hi rend="italic">WO1</hi> 10 christo] me <hi rend="italic">F</hi> decogtis S 14 matrona] <hi rend="italic">add. v</hi>. in <lb/>
             ecclesia christi innnge <hi rend="italic">FWv</hi> 16 dum deum et] et dominum <hi rend="italic">ex</hi> dum et <lb/>
-            <hi rend="italic">F m. 2</hi> operibus et moribus <hi rend="italic">FWV, operibus G,</hi> operibus bonis et m. v <lb/>
-            bonis ornaris <hi rend="italic">ex</hi> promereris <hi rend="italic">F m. 2</hi> 18 talis non F* ecclesiam <hi rend="italic">S</hi> <lb/>
-            potest O 19 enim <hi rend="italic">om. S; cf. p. 381,10</hi> oculi tui <hi rend="italic">Sv</hi> perfusi <hi rend="italic">G,</hi> <lb/>
+                  <hi rend="italic">F m. 2</hi> operibus et moribus <hi rend="italic">FWV, operibus G,</hi> operibus bonis et m. v <lb/>
+            bonis ornaris <hi rend="italic">ex</hi> promereris <hi rend="italic">F m. 2</hi> 18 talis non F* ecclesiam <hi rend="italic">S</hi>
+                  <lb/>
+            potest O 19 enim <hi rend="italic">om. S; cf. p. 381,10</hi> oculi tui <hi rend="italic">Sv</hi> perfusi <hi rend="italic">G,</hi>
+                  <lb/>
             superfusioni <hi rend="italic">F</hi> nigroris <hi rend="italic">WGv,</hi> crnoris <hi rend="italic">F</hi> 20 diues] es <hi rend="italic">add. G,</hi> es et <lb/>
-            <hi rend="italic">add</hi>. v credes <hi rend="italic">S</hi> 21 corbam S respices S dominico <hi rend="italic">F</hi> 22 sine <lb/>
+                  <hi rend="italic">add</hi>. v credes <hi rend="italic">S</hi> 21 corbam S respices S dominico <hi rend="italic">F</hi> 22 sine <lb/>
             sacrificium S 23 in euangelio] <hi rend="italic">euangelicam G 24 operari S</hi> 25 caizophy- <lb/>
-            <hi rend="italic">lacio S</hi> erant <hi rend="italic">S, fuerant FWGv area minuta F (corruptum pro aeram.)</hi> </note> <lb n="25"/>
-
-
-<pb n="385"/>
+                  <hi rend="italic">lacio S</hi> erant <hi rend="italic">S, fuerant FWGv area minuta F (corruptum pro aeram.)</hi>
+               </note>
+               <lb n="25"/>
+               <pb n="385"/>
             mittentem, quam cum animaduerteret Dominus et uideret, non de <lb/>
             patrimonio sed de animo opus eius examinans et considerans, <lb/>
             non quantum sed ex quanto dedisset, respondit et dixit: amen <lb/>
@@ -660,9 +691,9 @@
             ac magis possit esse manifestum quia qui miseretur pauperis <lb/>
             Deo faenerat. 
 </p>
-          </div>
-
-<div n="16" subtype="section" type="textpart"><p rend="script">Sed nec illa res, fratres carissimi, a bonis operibus et iustis  <lb/>
+         </div>
+         <div n="16" type="section">
+            <p rend="script">Sed nec illa res, fratres carissimi, a bonis operibus et iustis  <lb/>
             refrenet et reuocet christianum quod excusari se posse aliquis <lb n="20"/>
             existimet beneficio filiorum , quando in inpensis spiritalibus <lb/>
             Christum cogitare qui accipere se professus est debeamus nec <lb/>
@@ -672,25 +703,24 @@
             filium aut filiam super me non est me dignus. item
 
 <note type="footnote"> 3 Luc. 21, 3 sq. 24 Matth. 10,37. </note>
-
-<note rend="script" type="footnote"> 2 exanminans 81 4 plus omnibus <hi rend="italic">FGv</hi> 5 omnes... autem de <lb/>
-            <hi rend="italic">om. S</hi> ex eo] de eo <hi rend="italic">W,</hi> deo <hi rend="italic">G</hi> 7 omne Gl quodcumq. <hi rend="italic">SGl</hi> 9 in- <lb/>
-            <hi rend="italic">felicitatia SFW GV, infidelitatis v</hi> 10 inops <hi rend="italic">nidua FW G, inobs S,</hi> inops <lb/>
+               <note rend="script" type="footnote"> 2 exanminans 81 4 plus omnibus <hi rend="italic">FGv</hi> 5 omnes... autem de <lb/>
+                  <hi rend="italic">om. S</hi> ex eo] de eo <hi rend="italic">W,</hi> deo <hi rend="italic">G</hi> 7 omne Gl quodcumq. <hi rend="italic">SGl</hi> 9 in- <lb/>
+                  <hi rend="italic">felicitatia SFW GV, infidelitatis v</hi> 10 inops <hi rend="italic">nidua FW G, inobs S,</hi> inops <lb/>
             rebus dines <hi rend="italic">scripsit Baluftus,</hi> inops nidualarga <hi rend="italic">Manutius,</hi> inops non inops <lb/>
-            <hi rend="italic">fort</hi>. in uniuersa <hi rend="italic">W</hi> 11 illa. <hi rend="italic">W a in ras</hi>. 12 stcrili diuiti <hi rend="italic">G2</hi> <lb/>
-            13 hoc ipso 11 14 eum <hi rend="italic">om. G</hi> quisquis v haec cum quisq. <hi rend="italic">G</hi> 15 do <hi rend="italic">S</hi> <lb/>
+                  <hi rend="italic">fort</hi>. in uniuersa <hi rend="italic">W</hi> 11 illa. <hi rend="italic">W a in ras</hi>. 12 stcrili diuiti <hi rend="italic">G2</hi>
+                  <lb/>
+            13 hoc ipso 11 14 eum <hi rend="italic">om. G</hi> quisquis v haec cum quisq. <hi rend="italic">G</hi> 15 do <hi rend="italic">S</hi>
+                  <lb/>
             illuc <hi rend="italic">ex</hi> illut <hi rend="italic">W</hi> dei dona v dona dei appellat et in <hi rend="italic">om. Fl,</hi> dei <lb/>
-            munus appellat et in <hi rend="italic">aàà. F*</hi> 17 posset <hi rend="italic">SG</hi> pauperi <hi rend="italic">G</hi> 18 difi. <hi rend="italic">W,</hi> <lb/>
+            munus appellat et in <hi rend="italic">aàà. F*</hi> 17 posset <hi rend="italic">SG</hi> pauperi <hi rend="italic">G</hi> 18 difi. <hi rend="italic">W,</hi>
+                  <lb/>
             dao F 19 res om. <hi rend="italic">W</hi> 20 excusare <hi rend="italic">SG</hi> 21 in <hi rend="italic">om. S</hi> 23 dmo S <lb/>
             24 monente] dicente S 25 et qui...dignus <hi rend="italic">om. G</hi> 26 super me <hi rend="italic">S <lb/>
             m. 2 in ras</hi>. </note>
-
-<note type="footnote"> ill. </note>
-
-<note type="footnote"> 2.) </note> <lb/>
-
-
-<pb n="386"/>
+               <note type="footnote"> ill. </note>
+               <note type="footnote"> 2.) </note>
+               <lb/>
+               <pb n="386"/>
             in Deuteronomio ad corroborationem fidei et dilectionem Dei <lb/>
             paria conscripta sunt. qui dicunt, inquit, patri et matri: <lb/>
             non noui te, et filios suos non agnouerunt, hi <lb/>
@@ -705,9 +735,9 @@
             datur minimis Christo datur, non est quod quis terrena caelestibus <lb/>
             praeferat nec diuinis humana praeponat. 
 </p>
-          </div>
-
-<div n="17" subtype="section" type="textpart"><p rend="script"> Sic uidua illa in tertio Regnorum libro cum in siccitate et <lb/>
+         </div>
+         <div n="17" type="section">
+            <p rend="script"> Sic uidua illa in tertio Regnorum libro cum in siccitate et <lb/>
             fame consumptis omnibus de modico farre et oleo quod superfuerat<lb n="15"/>
             fecisset cinericium panem quo absumpto moritura cum <lb/>
             liberis esset, superuenit Helias et petit sibi prius ad edendum <lb/>
@@ -723,20 +753,21 @@
             respondit et dixit: haec dicit Dominus: fidelia
 
 <note type="footnote"> 2 Deut. 33, 9. 8 I Io. <hi rend="italic">3, 17</hi>. 27 1 Reg. 17, 14. </note>
-
-<note rend="script" type="footnote"> 2 dicunt <hi rend="italic">ex</hi> diligunt <hi rend="italic">S</hi> et m.j aut matri <hi rend="italic">v, om. S</hi> 3 nouerunt <hi rend="italic">G</hi> <lb/>
+               <note rend="script" type="footnote"> 2 dicunt <hi rend="italic">ex</hi> diligunt <hi rend="italic">S</hi> et m.j aut matri <hi rend="italic">v, om. S</hi> 3 nouerunt <hi rend="italic">G</hi>
+                  <lb/>
             hii <hi rend="italic">FG,</hi> hic <hi rend="italic">S</hi> 4 <hi rend="italic">custodiunt F,</hi> costodic II <hi rend="italic">reliqua desunt in S</hi> 5 seruerunt <lb/>
-            <hi rend="italic">F</hi> dilimus <hi rend="italic">W</hi> 6 prefere <hi rend="italic">G</hi> 7 ponit et dicit <hi rend="italic">G</hi> 8 pauperes <lb/>
-            <hi rend="italic">Gv</hi> habuerint—uiderint F 9 desiderantem aliquid <hi rend="italic">V</hi> 10 clauserit u. <lb/>
+                  <hi rend="italic">F</hi> dilimus <hi rend="italic">W</hi> 6 prefere <hi rend="italic">G</hi> 7 ponit et dicit <hi rend="italic">G</hi> 8 pauperes <lb/>
+                  <hi rend="italic">Gv</hi> habuerint—uiderint F 9 desiderantem aliquid <hi rend="italic">V</hi> 10 clauserit u. <lb/>
             sua ab eo <hi rend="italic">v</hi> dei <hi rend="italic">om. F</hi> 11 illum <hi rend="italic">F</hi> quomodo poterit cantas dei manere <lb/>
             in illo <hi rend="italic">V</hi> 16 cinericium <hi rend="italic">FWGV,</hi> subcinericium <hi rend="italic">v</hi> adsumpto (to <lb/>
-            <hi rend="italic">ex</hi> ta) <hi rend="italic">G</hi> 17 liberis] filiis <hi rend="italic">F</hi> petiit <hi rend="italic">v</hi> 18 tunc <hi rend="italic">add. W1</hi> suis <hi rend="italic">om. <lb/>
+                  <hi rend="italic">ex</hi> ta) <hi rend="italic">G</hi> 17 liberis] filiis <hi rend="italic">F</hi> petiit <hi rend="italic">v</hi> 18 tunc <hi rend="italic">add. W1</hi> suis <hi rend="italic">om. <lb/>
              G</hi> 19 aut...20 placeat <hi rend="italic">om. G</hi> 20 fit] sit <hi rend="italic">F</hi> 21 quo <hi rend="italic">F</hi> 23 et] <lb/>
-            ac <hi rend="italic">G</hi> 24 ut] et <hi rend="italic">W</hi> salutari] spali <hi rend="italic">G</hi> condempnitur <hi rend="italic">G</hi> 26 redat <hi rend="italic">G</hi> <lb/>
-            27 dicit <hi rend="italic">W</hi> dns <hi rend="italic">G s. l. m. 2</hi> fidelia] ydria <hi rend="italic">G</hi> farinac <hi rend="italic">F</hi> </note> <lb/>
-
-
-<pb n="387"/>
+            ac <hi rend="italic">G</hi> 24 ut] et <hi rend="italic">W</hi> salutari] spali <hi rend="italic">G</hi> condempnitur <hi rend="italic">G</hi> 26 redat <hi rend="italic">G</hi>
+                  <lb/>
+            27 dicit <hi rend="italic">W</hi> dns <hi rend="italic">G s. l. m. 2</hi> fidelia] ydria <hi rend="italic">G</hi> farinac <hi rend="italic">F</hi>
+               </note>
+               <lb/>
+               <pb n="387"/>
             farris non deficiet et capsaces olei non minuet usque <lb/>
             in diem quo dabit Dominus imbrem super terram. <lb/>
             secundum diuinae pollicitationis fidem multiplicata sunt uiduae <lb/>
@@ -750,9 +781,9 @@
             filios Christo anteponens diuitias suas seruat nec patrimonium <lb/>
             copiosum cum indigentium paupertate communicat. 
 </p>
-          </div>
-
-<div n="18" subtype="section" type="textpart"><p>Sed enim multi sunt in domo liberi et retardat te numerositas  <lb/>
+         </div>
+         <div n="18" type="section">
+            <p>Sed enim multi sunt in domo liberi et retardat te numerositas  <lb/>
             filiorum quominus largiter bonis operibus insistas. adqui hoc ipso <lb/>
             operari amplius debes, quo multorum pignorum pater es. plures <lb n="15"/>
             sunt pro quibus Dominum depreceris, multorum delicta redimenda <lb/>
@@ -771,26 +802,25 @@
             et pro peccatis eorum uitulum unum. si ergo
 
 <note type="footnote"> 26 lob 1, 2. 3. 5. </note>
-
-<note type="footnote"> 1 deiciet <hi rend="italic">G1</hi> et capsaces olei <hi rend="italic">WG,</hi> nec in uas oleum <hi rend="italic">F</hi> minuetur. <lb/>
-            <hi rend="italic">Gs</hi> 5 farriis <hi rend="italic">G</hi> 6 eheliae <hi rend="italic">G*</hi> 11 ante praeponens <hi rend="italic">F</hi> 14 adqui <lb/>
-            <hi rend="italic">WF\',</hi> atquin F1, atque <hi rend="italic">G post</hi> ipso <hi rend="italic">erasum</hi> largiter in <hi rend="italic">W</hi> 15 amplius] <lb/>
+               <note type="footnote"> 1 deiciet <hi rend="italic">G1</hi> et capsaces olei <hi rend="italic">WG,</hi> nec in uas oleum <hi rend="italic">F</hi> minuetur. <lb/>
+                  <hi rend="italic">Gs</hi> 5 farriis <hi rend="italic">G</hi> 6 eheliae <hi rend="italic">G*</hi> 11 ante praeponens <hi rend="italic">F</hi> 14 adqui <lb/>
+                  <hi rend="italic">WF\',</hi> atquin F1, atque <hi rend="italic">G post</hi> ipso <hi rend="italic">erasum</hi> largiter in <hi rend="italic">W</hi> 15 amplius] <lb/>
             plurimum <hi rend="italic">V</hi> quo] quod <hi rend="italic">malim</hi> pignerum <hi rend="italic">G</hi> 18 saecularia <lb/>
-            W\' sustentandisq. <hi rend="italic">G</hi> 19 hoc] eo <hi rend="italic">G</hi> est <hi rend="italic">om. G</hi> 21 et <hi rend="italic">om. G</hi> <lb/>
-            sic et v 25 possunt <hi rend="italic">G,</hi> possint <hi rend="italic">F</hi> tergi <hi rend="italic">F et August. I. c. IV, 10, 27.,</hi> <lb/>
+            W\' sustentandisq. <hi rend="italic">G</hi> 19 hoc] eo <hi rend="italic">G</hi> est <hi rend="italic">om. G</hi> 21 et <hi rend="italic">om. G</hi>
+                  <lb/>
+            sic et v 25 possunt <hi rend="italic">G,</hi> possint <hi rend="italic">F</hi> tergi <hi rend="italic">F et August. I. c. IV, 10, 27.,</hi>
+                  <lb/>
             tergeri <hi rend="italic">WGv</hi> 26 scriptura diuina v </note>
-
-<note type="footnote"> 2t)* </note> <lb/>
-
-
-<pb n="388"/>
+               <note type="footnote"> 2t)* </note>
+               <lb/>
+               <pb n="388"/>
             . uere filios tuos diligis, si eis exhibes plenam et paternam dulcedinem <lb/>
             caritatis, operari magis debes ut filios tuos Deo iusta operatione <lb/>
             commendes. 
 </p>
-          </div>
-
-<div n="19" subtype="section" type="textpart"><p> Nec eum liberis tuis cogites patrem qui et temporarius et infirmus <lb/>
+         </div>
+         <div n="19" type="section">
+            <p> Nec eum liberis tuis cogites patrem qui et temporarius et infirmus <lb/>
             est, sed illum pares qui aeternus et firmus filiorum spiritalium<lb n="5"/>
             pater est. illi adsigna facultates tuas quas heredibus <lb/>
             seruas: ille sit liberis tuis tutor, ille curator, ille contra omnes <lb/>
@@ -812,27 +842,28 @@
             tuis Dei patris auxilium et quod doces filios patrimonium plus <lb/>
             amare quam Christum. 
 </p>
-          </div>
-
-<div n="20" subtype="section" type="textpart"><p> Esto potius liberis tuis pater talis qualis Tobias extitit. da <lb n="25"/>
+         </div>
+         <div n="20" type="section">
+            <p> Esto potius liberis tuis pater talis qualis Tobias extitit. da <lb n="25"/>
             utilia et salutaria praecepta pignoribus qualia ille filio dedit, <lb/>
             manda filiis tuis quod et ille mandauit dicens: et nunc, fili, <lb/>
             mando uobis, seruite Deo in ueritate et facite
 
 <note type="footnote"> 13 Ps. 36, 25 sq. 16 Prou. 20, 7. 27 Tob. 14, 10 sq. </note>
-
-<note type="footnote"> 1 plenam] ueram <hi rend="italic">G</hi> 2 debes magis <hi rend="italic">G</hi> 4 eum] te <hi rend="italic">Gv</hi> 5 es <hi rend="italic">G</hi> <lb/>
+               <note type="footnote"> 1 plenam] ueram <hi rend="italic">G</hi> 2 debes magis <hi rend="italic">G</hi> 4 eum] te <hi rend="italic">Gv</hi> 5 es <hi rend="italic">G</hi>
+                  <lb/>
             pares <hi rend="italic">om. G,</hi> patrem pares <hi rend="italic">Oxo-n</hi>. 9 credito <hi rend="italic">G</hi> (o <hi rend="italic">in ras</hi>.) <hi rend="italic">; add. ex 1 cod. <lb/>
-            Krabinger:</hi> nec fur rapit; <hi rend="italic">cf. Gron. obs. p. 324</hi> eripit] eruit <hi rend="italic">idem</hi> <lb/>
+            Krabinger:</hi> nec fur rapit; <hi rend="italic">cf. Gron. obs. p. 324</hi> eripit] eruit <hi rend="italic">idem</hi>
+                  <lb/>
             10 in..ponitur <hi rend="italic">om. G</hi> 13 iunior v non] numquam <hi rend="italic">F</hi> 14 quaerentem <lb/>
-            <hi rend="italic">F,</hi> egens v 15 faenerat] commodat <hi rend="italic">Fv</hi> 16 erit] est <hi rend="italic">Wv; cf. test. IIII <lb/>
+                  <hi rend="italic">F,</hi> egens v 15 faenerat] commodat <hi rend="italic">Fv</hi> 16 erit] est <hi rend="italic">Wv; cf. test. IIII <lb/>
             p. 110</hi> 17 beatos post se v 20 quid <hi rend="italic">F,</hi> qui WGv 21 mauis <hi rend="italic">W,</hi> magis <lb/>
-            <hi rend="italic">FGv</hi> christo, bis <hi rend="italic">sic distinguit v</hi> 22 praeparas] properas <hi rend="italic">Krabinger<lb/>
+                  <hi rend="italic">FGv</hi> christo, bis <hi rend="italic">sic distinguit v</hi> 22 praeparas] properas <hi rend="italic">Krabinger<lb/>
              ex 1 cod. recepit</hi> 27 mandauit <hi rend="italic">FWGV,</hi> filio mandauit v 28 uobis serui <lb/>
-            <hi rend="italic">teFWGV,</hi> tibi serui v et <hi rend="italic">om. W</hi> fac <hi rend="italic">v</hi> </note> <lb/>
-
-
-<pb n="389"/>
+                  <hi rend="italic">teFWGV,</hi> tibi serui v et <hi rend="italic">om. W</hi> fac <hi rend="italic">v</hi>
+               </note>
+               <lb/>
+               <pb n="389"/>
             coram illo quod illi placet, et filiis uestris mandate <lb/>
             ut faciant iustitiam et eleemosynas et sint memores <lb/>
             Dei et benedicant nomen eius omni tempore. et <lb/>
@@ -852,9 +883,9 @@
             tenebras. munus bonum est eleemosyna omnibus <lb/>
             qui faciunt eam coram summo Deo. 
 </p>
-          </div>
-
-<div n="21" subtype="section" type="textpart"><p>Quale munus est, fratres carissimi, cuius editio Deo spectante  <lb/>
+         </div>
+         <div n="21" type="section">
+            <p>Quale munus est, fratres carissimi, cuius editio Deo spectante  <lb/>
             celebratur. si in gentilium munere grande et gloriosum uidetur <lb n="20"/>
             proconsules uel imperatores habere praesentes, et apparatus ac <lb/>
             sumptus aput munerarios maior est ut possint placere maioribus, <lb/>
@@ -867,20 +898,20 @@
             regni caelestis accipitur.
 
 <note type="footnote"> 4 Tob. 4, 5 sq. </note>
-
-<note type="footnote"> 1 illi] ei <hi rend="italic">V</hi> placeat <hi rend="italic">F</hi> et <hi rend="italic">om. F</hi> uestris mandate <hi rend="italic">FWGV,</hi> tuis <lb/>
+               <note type="footnote"> 1 illi] ei <hi rend="italic">V</hi> placeat <hi rend="italic">F</hi> et <hi rend="italic">om. F</hi> uestris mandate <hi rend="italic">FWGV,</hi> tuis <lb/>
             manda v 2 ut] et <hi rend="italic">F</hi> 4 fili <hi rend="italic">FWGY,</hi> fili dilectissime v fili...1.6<lb/>
              toae <hi rend="italic">add. m Gm. rec. in margine</hi> 7 ex ueritate] ueritatem <hi rend="italic">G</hi> . 10 fiat <lb/>
-            <hi rend="italic">WG; cf. test. IIII p. 109</hi> facies <hi rend="italic">ex</hi> a facie <hi rend="italic">W m. 2</hi> 13 ex hoc ipso <lb/>
+                  <hi rend="italic">WG; cf. test. IIII p. 109</hi> facies <hi rend="italic">ex</hi> a facie <hi rend="italic">W m. 2</hi> 13 ex hoc ipso <lb/>
             ex hoc ipso communia <hi rend="italic">G</hi> 14 praemium enim v 15 die <hi rend="italic">G</hi> 17 tene- <lb/>
-            <hi rend="italic">bras FWGV,</hi> gehennam v <hi rend="italic">19 spectanti G</hi> 23 inluHtria <hi rend="italic">W</hi> <lb/>
-            24 sumptu <hi rend="italic">W</hi> </note>
-</p>
-<pb n="390"/>
-            
-          </div>
-
-<div n="22" subtype="section" type="textpart"><p> Adque ut pigros et steriles et cupiditate nummaria nihil circa <lb/>
+                  <hi rend="italic">bras FWGV,</hi> gehennam v <hi rend="italic">19 spectanti G</hi> 23 inluHtria <hi rend="italic">W</hi>
+                  <lb/>
+            24 sumptu <hi rend="italic">W</hi>
+               </note>
+            </p>
+            <pb n="390"/>
+         </div>
+         <div n="22" type="section">
+            <p> Adque ut pigros et steriles et cupiditate nummaria nihil circa <lb/>
             fructum salutis operantes magis pudeat, ut plus conscientiam <lb/>
             sordidam dedecoris ac turpitudinis suae rubor caedat, ponat <lb/>
             unusquisque ante oculos suos diabolum cum semis suis id est <lb/>
@@ -911,19 +942,21 @@
 <note type="footnote"> 1 numeraria <hi rend="italic">G</hi> 2 operantes <hi rend="italic">W tes corr</hi>. 3 robur <hi rend="italic">F</hi> 4 ante oculos <lb/>
             suos <hi rend="italic">W 8. I. m. 2</hi> suis semis <hi rend="italic">WG et August. contra duas epiat. Pel. <lb/>
              IV, 8,21</hi> 5 plebe <hi rend="italic">aliquot codd. August</hi>. 6 ipsum <hi rend="italic">W</hi> 9 redimi Gl <lb/>
-            sed <hi rend="italic">om. G</hi> 11 mihi <hi rend="italic">W 8.1. m. 2</hi> 13 comparatione <hi rend="italic">(h,</hi> obligatione <hi rend="italic">W</hi> <lb/>
-            14 acceserit <hi rend="italic">G</hi> 16 lapidentur GI demonstra] <hi rend="italic">add. Manutius (exV?):</hi> <lb/>
+            sed <hi rend="italic">om. G</hi> 11 mihi <hi rend="italic">W 8.1. m. 2</hi> 13 comparatione <hi rend="italic">(h,</hi> obligatione <hi rend="italic">W</hi>
+                  <lb/>
+            14 acceserit <hi rend="italic">G</hi> 16 lapidentur GI demonstra] <hi rend="italic">add. Manutius (exV?):</hi>
+                  <lb/>
             praeceptis tuis monitos et pro terrenis caelestia recepturos 17 illos <lb/>
-            <hi rend="italic">G 8. 1. m. 2</hi> affluentes <hi rend="italic">Wv</hi> an** <hi rend="italic">G</hi> 18 te] ut <hi rend="italic">G</hi> oppignoratis <lb/>
+                  <hi rend="italic">G 8. 1. m. 2</hi> affluentes <hi rend="italic">Wv</hi> an** <hi rend="italic">G</hi> 18 te] ut <hi rend="italic">G</hi> oppignoratis <lb/>
             v 19 thensauros W2 20 tranlatis G 22 sustentetur G* <lb/>
             23 frustrantium] prostrantium <hi rend="italic">F</hi> 25 perdentibus <hi rend="italic">Fx WGV,</hi> pereuntibus <lb/>
-            <hi rend="italic">F2v</hi> </note>
-</p>
-<pb n="391"/>
-            
-          </div>
-
-<div n="23" subtype="section" type="textpart"><p>Quid ad haec respondemus, fratres carissimi? sacrilegas sterilitates  <lb/>
+                  <hi rend="italic">F2v</hi>
+               </note>
+            </p>
+            <pb n="391"/>
+         </div>
+         <div n="23" type="section">
+            <p>Quid ad haec respondemus, fratres carissimi? sacrilegas sterilitates  <lb/>
             et quadam tenebrarum nocte coopertas diuitum mentes <lb/>
             qua ratione defendimus, qua excusatione purgamus? qui diaboli <lb/>
             semis minores sumus, ut Christo pro pretio passionis et sanguinis <lb/>
@@ -950,23 +983,24 @@
             quando te uidimus hospitem et abduximus,
 
 <note type="footnote"> 11 Matth. 25, 31 sq. </note>
-
-<note type="footnote"> 1 fratres dilectissimi <hi rend="italic">V</hi> sacrilegas sterilitates <hi rend="italic">FWV,</hi> sacrilegas <lb/>
-            sterelitate <hi rend="italic">G,</hi> sacrilega sterilitate v 2 quasdam <hi rend="italic">W</hi> 3 qui] qua <hi rend="italic">F</hi> <lb/>
+               <note type="footnote"> 1 fratres dilectissimi <hi rend="italic">V</hi> sacrilegas sterilitates <hi rend="italic">FWV,</hi> sacrilegas <lb/>
+            sterelitate <hi rend="italic">G,</hi> sacrilega sterilitate v 2 quasdam <hi rend="italic">W</hi> 3 qui] qua <hi rend="italic">F</hi>
+                  <lb/>
             5 modicum <hi rend="italic">F</hi> 6 eius] suos v 7 pollicetur <hi rend="italic">G</hi> et <hi rend="italic">om. WG</hi> comminatur <lb/>
-            <hi rend="italic">WO</hi> sentiam 6?1 8 et <hi rend="italic">ante v</hi> 9 potest esse <hi rend="italic">G</hi> excusatio... <lb/>
+                  <hi rend="italic">WO</hi> sentiam 6?1 8 et <hi rend="italic">ante v</hi> 9 potest esse <hi rend="italic">G</hi> excusatio... <lb/>
             quae om. <hi rend="italic">G</hi> 11 dixit <hi rend="italic">G</hi> cum uenerit] <hi rend="italic">cf. tm. II30 p. 99, III 1<lb/>
              p. n1</hi> claritate <hi rend="italic">FWGV,</hi> maiestate <hi rend="italic">v; item l.13</hi> 14 eas <hi rend="italic">V</hi> quemammodum <lb/>
-            <hi rend="italic">W</hi> 15 edia <hi rend="italic">G</hi> a] ad <hi rend="italic">FWOv</hi> 16 dexteram suam <hi rend="italic">FGv</hi> <lb/>
+                  <hi rend="italic">W</hi> 15 edia <hi rend="italic">G</hi> a] ad <hi rend="italic">FWOv</hi> 16 dexteram suam <hi rend="italic">FGv</hi>
+                  <lb/>
             ad <hi rend="italic">sxnistram Fv,</hi> ad sinistris G <hi rend="italic">dicit F</hi> 17 iis v ad dexteram <lb/>
-            <hi rend="italic">FGfJ</hi> suam <hi rend="italic">FG,</hi> eius <hi rend="italic">v</hi> sunt <hi rend="italic">FWGV, erunt v; post</hi> sunt <hi rend="italic">falso repetit <lb/>
+                  <hi rend="italic">FGfJ</hi> suam <hi rend="italic">FG,</hi> eius <hi rend="italic">v</hi> sunt <hi rend="italic">FWGV, erunt v; post</hi> sunt <hi rend="italic">falso repetit <lb/>
             G:</hi> haedos autem ad sinistris tunc dicet rex eis 18 accipite <hi rend="italic">W <lb/>
             regnum ponit post</hi> paratum est <hi rend="italic">G</hi> est <hi rend="italic">om. W</hi> 19 esurii <hi rend="italic">F</hi> 20 adduxistis <lb/>
-            <hi rend="italic">v; item l. 25</hi> 21 me om. <hi rend="italic">WG</hi> texistis] uestistis <hi rend="italic">G</hi> me <hi rend="italic">om. <lb/>
-            WG</hi> infirmus <hi rend="italic">v</hi> 22 fui <hi rend="italic">om. G</hi> </note> <lb n="25"/>
-
-
-<pb n="392"/>
+                  <hi rend="italic">v; item l. 25</hi> 21 me om. <hi rend="italic">WG</hi> texistis] uestistis <hi rend="italic">G</hi> me <hi rend="italic">om. <lb/>
+            WG</hi> infirmus <hi rend="italic">v</hi> 22 fui <hi rend="italic">om. G</hi>
+               </note>
+               <lb n="25"/>
+               <pb n="392"/>
             nudum et uestiuimus ?  quando autem te uidimus <lb/>
             infirmari aut in carcere et uenimus ad te? tunc respondens <lb/>
             rex dicet eis: amen dico nobis, quamdiu <lb/>
@@ -992,27 +1026,28 @@
             Christi contemplatione moueatur et qui non cogitat in labore adque <lb/>
             in egestate conseruum uel Dominum cogitet in ipso illo <lb/>
             quem despicit constitutum. <lb n="25"/>
-            
-</p>
-          </div>
-
-<div n="24" subtype="section" type="textpart"><p> Etidcirco, fratres carissimi, quibus metus in Deum pronus <lb/>
+            </p>
+         </div>
+         <div n="24" type="section">
+            <p> Etidcirco, fratres carissimi, quibus metus in Deum pronus <lb/>
             est et spreto calcatoque iam mundo ad superna et diuina animus <lb/>
             erectus est, fide plena, mente deuota, operatione continua promerendo <lb/>
             Domino obsequium praebeamus. demus Christo
 
 <note type="footnote"> 2 inflrmari <hi rend="italic">FW GV,</hi> infirmum <hi rend="italic">v</hi> aut <hi rend="italic">F,</hi> et <hi rend="italic">WG,</hi> et msitauimus te <lb/>
             aut <hi rend="italic">V</hi> carcerem <hi rend="italic">F</hi> 3 dicit <hi rend="italic">F G</hi> 5 dicit <hi rend="italic">F,</hi> dicet et <hi rend="italic">v</hi> ad sinistram <lb/>
-            <hi rend="italic">FGv</hi> suntFGV, <hi rend="italic">om. W,</hi> eius erant v 9 adduristis <hi rend="italic">v,</hi> suscepistis <hi rend="italic">F</hi> <lb/>
+                  <hi rend="italic">FGv</hi> suntFGV, <hi rend="italic">om. W,</hi> eius erant v 9 adduristis <hi rend="italic">v,</hi> suscepistis <hi rend="italic">F</hi>
+                  <lb/>
             10 uestistis] cooperuistis <hi rend="italic">F</hi> infirmus et non uisitastis me in carcerem <lb/>
-            <hi rend="italic">F 11 uenistis adF, uisitastis WGv</hi> 17 ambibuntTT1 ignem aeternum <lb/>
-            <hi rend="italic">F,</hi> ambustionem aeternam <hi rend="italic">W Gv</hi> 19 maie <hi rend="italic">G1 ac]</hi> et <hi rend="italic">W</hi> <lb/>
+                  <hi rend="italic">F 11 uenistis adF, uisitastis WGv</hi> 17 ambibuntTT1 ignem aeternum <lb/>
+                  <hi rend="italic">F,</hi> ambustionem aeternam <hi rend="italic">W Gv</hi> 19 maie <hi rend="italic">G1 ac]</hi> et <hi rend="italic">W</hi>
+                  <lb/>
             20 praestare W\' quidquid <hi rend="italic">Fv</hi> 21 praestetur <hi rend="italic">v</hi> 22 fratris] pauperis <lb/>
-            <hi rend="italic">V</hi> 24 illo ipso <hi rend="italic">G</hi> 26 promtus ex pronius <hi rend="italic">F m. 2</hi> 28 est ex et <lb/>
-            <hi rend="italic">W m. 2</hi> 29 demus <hi rend="italic">ex</hi> debemua <hi rend="italic">W m. 2</hi> </note> <lb/>
-
-
-<pb n="393"/>
+                  <hi rend="italic">V</hi> 24 illo ipso <hi rend="italic">G</hi> 26 promtus ex pronius <hi rend="italic">F m. 2</hi> 28 est ex et <lb/>
+                  <hi rend="italic">W m. 2</hi> 29 demus <hi rend="italic">ex</hi> debemua <hi rend="italic">W m. 2</hi>
+               </note>
+               <lb/>
+               <pb n="393"/>
             uestimenta terrena indumenta caelestia recepturi. demus cibum et <lb/>
             potum saecularem cum Abraham et Isaac et Iacob ad conuiuium <lb/>
             caeleste uenturi. ne parum metamus plurimum seminemus. securitati <lb/>
@@ -1022,9 +1057,9 @@
             ad domesticos fidei. bonum autem facientes non <lb/>
             deficiamus, tempore enim suo metemus. 
 </p>
-          </div>
-
-<div n="25" subtype="section" type="textpart"><p>Cogitemus, fratres dilectissimi, quid sub apostolis fecerit credentium  <lb/>
+         </div>
+         <div n="25" type="section">
+            <p>Cogitemus, fratres dilectissimi, quid sub apostolis fecerit credentium  <lb/>
             populus, quando inter ipsa primordia maioribus uirtutibus <lb n="10"/>
             mens uigebat, quando credentium fides nouo adhuc fidei <lb/>
             calore feruebat. domicilia tunc et praedia uenundabant et dispensandam <lb/>
@@ -1048,22 +1083,22 @@
             in terris reditus ac fructus suos cum fraternitate partitur,
 
 <note type="footnote"> 5 GaL 6,10. 9. 18 Act. 4, 32. </note>
-
-<note type="footnote"> 2 et <hi rend="italic">(ante</hi> isaac) om. <hi rend="italic">WG</hi> 5 monente <hi rend="italic">G</hi> 8 metemus] <hi rend="italic">add</hi>. F1: non <lb/>
-            fatigati 14 atque distracto fnndos <hi rend="italic">W 8. I. m. 2</hi> 15 fructus fructus <hi rend="italic">G</hi> <lb/>
+               <note type="footnote"> 2 et <hi rend="italic">(ante</hi> isaac) om. <hi rend="italic">WG</hi> 5 monente <hi rend="italic">G</hi> 8 metemus] <hi rend="italic">add</hi>. F1: non <lb/>
+            fatigati 14 atque distracto fnndos <hi rend="italic">W 8. I. m. 2</hi> 15 fructus fructus <hi rend="italic">G</hi>
+                  <lb/>
             21 nindicabant <hi rend="italic">V</hi> fuerint <hi rend="italic">G1</hi> 22 filios v 23 imitare <hi rend="italic">G1</hi> 25 eius <lb/>
-            <hi rend="italic">et] ac G 27 lnminat FWV, inluminat Gv rigat] irrorat V 28 priwi</hi> <lb/>
+                  <hi rend="italic">et] ac G 27 lnminat FWV, inluminat Gv rigat] irrorat V 28 priwi</hi>
+                  <lb/>
             et om. <hi rend="italic">G</hi> 29 est <hi rend="italic">om. G</hi> quo] eo <hi rend="italic">G</hi> aequitatis <hi rend="italic">Wv</hi> 30 in terris <hi rend="italic">W <lb/>
-            s. I. m. 2,</hi> in terris est G* </note> <lb n="30"/>
-
-
-<pb n="394"/>
+            s. I. m. 2,</hi> in terris est G* </note>
+               <lb n="30"/>
+               <pb n="394"/>
             dum largitionibus gratuitis communis ac iustus est. Dei patris <lb/>
             imitator est. 
 </p>
-          </div>
-
-<div n="26" subtype="section" type="textpart"><p rend="script"> Quae illa erit, fratres carissimi, operantium gloria, quam <lb/>
+         </div>
+         <div n="26" type="section">
+            <p rend="script"> Quae illa erit, fratres carissimi, operantium gloria, quam <lb/>
             grandis et summa laetitia, cum populum suum Dominus coeperit <lb/>
             recensere et meritis adque operibus nostris praemia promissa<lb n="5"/>
             contribuens pro terrenis caelestia, pro temporalibus sempiterna, <lb/>
@@ -1092,19 +1127,18 @@
             pro passione geminabit.
 
 <note rend="script" type="footnote"> 7 nos patri <hi rend="italic">W 8. I. m. 2</hi> 9 que <hi rend="italic">Ws. I. m. 2</hi> sni <hi rend="italic">om</hi>. Tf 11 ereant <lb/>
-            <hi rend="italic">G</hi> 14 res est <hi rend="italic">scripsit Routh</hi> fratres dilectissimi <hi rend="italic">W</hi> operatio] <lb/>
-            oratio <hi rend="italic">F</hi> 16 monumentum <hi rend="italic">G1</hi> res <hi rend="italic">ex</hi> re <hi rend="italic">G m. 2</hi> 17 facientes <hi rend="italic">W</hi> <lb/>
+                  <hi rend="italic">G</hi> 14 res est <hi rend="italic">scripsit Routh</hi> fratres dilectissimi <hi rend="italic">W</hi> operatio] <lb/>
+            oratio <hi rend="italic">F</hi> 16 monumentum <hi rend="italic">G1</hi> res <hi rend="italic">ex</hi> re <hi rend="italic">G m. 2</hi> 17 facientes <hi rend="italic">W</hi>
+                  <lb/>
             20 perferet <hi rend="italic">G,</hi> perferri <hi rend="italic">F,</hi> praefert coni. <hi rend="italic">MoreJlius</hi> christi <hi rend="italic">W</hi> 23 expectante<lb/>
-             <hi rend="italic">G I</hi> 25 celerins <hi rend="italic">F</hi> 26 reditionis <hi rend="italic">V,</hi> redditiones <hi rend="italic">G</hi> inneniat<lb/>
-             <hi rend="italic">F</hi> numquam F 27 dñiii <hi rend="italic">W</hi> 29 geminanit <hi rend="italic">G,</hi> geminabit W <lb/>
+                  <hi rend="italic">G I</hi> 25 celerins <hi rend="italic">F</hi> 26 reditionis <hi rend="italic">V,</hi> redditiones <hi rend="italic">G</hi> inneniat<lb/>
+                  <hi rend="italic">F</hi> numquam F 27 dñiii <hi rend="italic">W</hi> 29 geminanit <hi rend="italic">G,</hi> geminabit W <lb/>
             8. I. m. 2 CAECILI CTPRIAKT DE OPERE ET KLEMOSYXIS KXPLICIT F. <lb/>
             DE OPERE ET ELKMOBHTI6 KIPLICTT <hi rend="italic">W</hi>. EXPLICIT DE OPERE ET AELEMO- <lb/>
             SIKE <hi rend="italic">G (litterae</hi> KT A <hi rend="italic">eratae)</hi>. </note>
-</p>
-<pb n="395"/>
-            
-        
-</div></div>
-</body>
-</text>
+            </p>
+            <pb n="395"/>
+         </div>
+      </body>
+   </text>
 </TEI>

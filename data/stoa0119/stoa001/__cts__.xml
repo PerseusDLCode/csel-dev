@@ -1,8 +1,9 @@
-<ti:work xml:lang="lat" xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:latinLit:stoa0119" urn="urn:cts:latinLit:stoa0119.stoa001">
+<?xml version='1.0' encoding='UTF-8'?>
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" xml:lang="lat" groupUrn="urn:cts:latinLit:stoa0119" urn="urn:cts:latinLit:stoa0119.stoa001">
   <ti:title xml:lang="lat">Vita Sancti Severini</ti:title>
   <ti:edition workUrn="urn:cts:latinLit:stoa0119.stoa001" urn="urn:cts:latinLit:stoa0119.stoa001.opp-lat2">
     <ti:label xml:lang="lat">Vita Sancti Severini</ti:label>
     <ti:description xml:lang="mul">Eugippius. Eugippi Opera (Corpus Scriptorum Ecclesiasticorum Latinorum, Volume 9, Part 2)  Knöll, Pius, editor.
     Vienna: Gerold, 1886.</ti:description>
   </ti:edition>
-</ti:work>
+<ti:genre confidence="high">prose-biography</ti:genre></ti:work>

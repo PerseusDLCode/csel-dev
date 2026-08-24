@@ -1,97 +1,103 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader xml:lang="eng">
-    <fileDesc>
-      <titleStmt>
-        <title xml:lang="lat">Benedictio Cerei II</title>
-        <author xml:lang="lat">Magnus Felix Ennodius</author>
-        <editor>Wilhelm Hartel</editor>        
-        <sponsor>University of Leipzig</sponsor>
-        <funder>European Social Fund Saxony</funder>
-        <principal>Gregory Crane</principal>
-        <respStmt>
-          <persName xml:id="Jouve">Jouve</persName>
-          <resp>OCR-ed, corrected and encoded the text</resp>
-        </respStmt>
-        <respStmt>
-          <persName>Greta Franzini</persName>
-          <resp>Project Manager (University of Leipzig)</resp>
-        </respStmt>
-        <respStmt>
-          <persName>Simona Stoyanova</persName>
-          <resp>Project Assistant (University of Leipzig)</resp>
-        </respStmt>
-        <respStmt>
-          <persName>Bruce Robertson</persName>
-          <resp>Technical Advisor (Mount Allison University)</resp>
-        </respStmt>
-        <respStmt>
-          <persName>Uvius Fonticola</persName>
-          <resp>Technical Advisor (Ludwig Maximilians University Munich)</resp>
-        </respStmt>
-      </titleStmt>
-      
-      <publicationStmt>
-        <authority>University of Leipzig</authority>
-        <idno type="filename">stoa0114a.stoa002.opp-lat1.xml</idno>
-        <availability>
-          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
-        </availability>
-        <date>2014</date>
-        <publisher>University of Leipzig</publisher>
-        <pubPlace>Germany</pubPlace>
-      </publicationStmt>
-      
-      <sourceDesc>
-        <listBibl>
-          <biblStruct>
-            <monogr>
-              <editor>
-                <persName>
-                  <name>Wilhelm Hartel</name>
-                </persName>
-              </editor> 
-              <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0114a">Ennodius</author>  
-              <title xml:lang="lat">Magni Felicis Ennodii Opera Omnia</title>
-              <imprint>
-                <publisher>Gerold</publisher>
-                <pubPlace>Vienna</pubPlace>
-                <date>1882</date>
-              </imprint>
-            </monogr>
-            <series>
-              <title xml:lang="lat">Corpus Scriptorum Ecclesiasticorum Latinorum</title>
-              <biblScope unit="volume">6</biblScope>
-            </series>
-            <ref target="https://archive.org/details/corpusscriptorum06ennouoft/page/418/mode/2up">Internet Archive</ref>
-            
-          </biblStruct>
-        </listBibl>
-      </sourceDesc>
-      
-    </fileDesc>
-    <encodingDesc>
-      <p>The following text is encoded in accordance with EpiDoc standards and with the
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="eng">
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="lat">Benedictio Cerei II</title>
+            <author xml:lang="lat">Magnus Felix Ennodius</author>
+            <editor>Wilhelm Hartel</editor>
+            <sponsor>University of Leipzig</sponsor>
+            <funder>European Social Fund Saxony</funder>
+            <principal>Gregory Crane</principal>
+            <respStmt>
+               <persName xml:id="Jouve">Jouve</persName>
+               <resp>OCR-ed, corrected and encoded the text</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Greta Franzini</persName>
+               <resp>Project Manager (University of Leipzig)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Simona Stoyanova</persName>
+               <resp>Project Assistant (University of Leipzig)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Bruce Robertson</persName>
+               <resp>Technical Advisor (Mount Allison University)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Uvius Fonticola</persName>
+               <resp>Technical Advisor (Ludwig Maximilians University Munich)</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>University of Leipzig</authority>
+            <idno type="filename">stoa0114a.stoa002.opp-lat1.xml</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
+            </availability>
+            <date>2014</date>
+            <publisher>University of Leipzig</publisher>
+            <pubPlace>Germany</pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <name>Wilhelm Hartel</name>
+                        </persName>
+                     </editor>
+                     <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0114a">Ennodius</author>
+                     <title xml:lang="lat">Magni Felicis Ennodii Opera Omnia</title>
+                     <imprint>
+                        <publisher>Gerold</publisher>
+                        <pubPlace>Vienna</pubPlace>
+                        <date>1882</date>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title xml:lang="lat">Corpus Scriptorum Ecclesiasticorum Latinorum</title>
+                     <biblScope unit="volume">6</biblScope>
+                  </series>
+                  <ref target="https://archive.org/details/corpusscriptorum06ennouoft/page/418/mode/2up">Internet Archive</ref>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>The following text is encoded in accordance with EpiDoc standards and with the
         CTS/CITE Architecture. 
 </p>
-      <refsDecl n="CTS">
-        <cRefPattern n="paragraph" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:p[@n='$1'])"/>
-      </refsDecl>
-    </encodingDesc>
-    
-    <profileDesc>
-      <langUsage>
-        <language ident="lat">Latin</language>
-      </langUsage>
-    </profileDesc>
-    
-</teiHeader>
-<text>
-<body>
-<div type="edition" xml:lang="lat" n="urn:cts:latinLit:stoa0114a.stoa002.opp-lat1">
-<ab>
-            <title type="sub">X. BENEDICTIO CEREI. </title>
-          </ab>
-          <p n="1" rend="script">Dignum et iustum est. uere dignum et iustum est, at principe <lb/>
+         <refsDecl n="CTS">
+            <cRefPattern n="paragraph"
+                         matchPattern="(.+)"
+                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:p[@n='$1'])"/>
+         </refsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <catRef scheme="#perseus-genre"
+                    target="#prose-standard"
+                    cert="low"
+                    resp="#corpus-tools"/>
+         </textClass>
+         <langUsage>
+            <language ident="lat">Latin</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"
+              xml:lang="lat"
+              n="urn:cts:latinLit:stoa0114a.stoa002.opp-lat1">
+            <ab>
+               <title type="sub">X. BENEDICTIO CEREI. </title>
+            </ab>
+            <p n="1" rend="script">Dignum et iustum est. uere dignum et iustum est, at principe <lb/>
             loco fores beatae noctis adhibito praesenti ministerio digna <lb/>
             quasi claue reserentur, ut nobilis nuntius uitae testetur aduentum, <lb/>
             ut praeconis merito secutura ponderentur, sacris fidem <lb/>
@@ -109,22 +115,23 @@
             pietate non discrepat, quando et artem nos supplicandi docuit
 
 <note rend="script" type="footnote"> 1 cIeri (eri <hi rend="italic">in ras. corr.) T</hi> eius om. <hi rend="italic">Pb</hi> 2 incolomitate <lb/>
-            <hi rend="italic">B</hi> aduersi <hi rend="italic">Bl</hi> «empeatate <hi rend="italic">L,</hi> taempestate <hi rend="italic">B</hi> <lb/>
+                  <hi rend="italic">B</hi> aduersi <hi rend="italic">Bl</hi> «empeatate <hi rend="italic">L,</hi> taempestate <hi rend="italic">B</hi>
+                  <lb/>
             X. <hi rend="italic">Hoc opusculum om. b et Schottus, primus edidit</hi> Sirm. Incip <lb/>
-            <hi rend="italic">(om. T)</hi> benedictio cerei <hi rend="italic">BLTV</hi> 6 ut ex et <hi rend="italic">V m. 1</hi> 7 presenti <lb/>
-            <hi rend="italic">LTV</hi> dignam quisi <hi rend="italic">B</hi> 8 reserentur (entur in ras.) <hi rend="italic">B</hi> 10 misteriis <lb/>
-            <hi rend="italic">LTV</hi> adcommodit <hi rend="italic">B,</hi> accomodet <hi rend="italic">T</hi> 11 maniftetit <hi rend="italic">B* ut<lb/>
+                  <hi rend="italic">(om. T)</hi> benedictio cerei <hi rend="italic">BLTV</hi> 6 ut ex et <hi rend="italic">V m. 1</hi> 7 presenti <lb/>
+                  <hi rend="italic">LTV</hi> dignam quisi <hi rend="italic">B</hi> 8 reserentur (entur in ras.) <hi rend="italic">B</hi> 10 misteriis <lb/>
+                  <hi rend="italic">LTV</hi> adcommodit <hi rend="italic">B,</hi> accomodet <hi rend="italic">T</hi> 11 maniftetit <hi rend="italic">B* ut<lb/>
              uidetur</hi> 12 lymfarum <hi rend="italic">BLV</hi> prumtu <hi rend="italic">L,</hi> pramto <hi rend="italic">B</hi> 13 na- <lb/>
             U <lb/>
-            tunc esse (esse <hi rend="italic">in mg. add. m. 2) T</hi> 14 com <hi rend="italic">B</hi> luminae <hi rend="italic">B\'</hi> <lb/>
+            tunc esse (esse <hi rend="italic">in mg. add. m. 2) T</hi> 14 com <hi rend="italic">B</hi> luminae <hi rend="italic">B\'</hi>
+                  <lb/>
             16 quoe secreti Ll <hi rend="italic">ut</hi> uidetur producet <hi rend="italic">B</hi> 17 lingne <hi rend="italic">B</hi> peeoalem <lb/>
-            <hi rend="italic">B,</hi> specialem <hi rend="italic">LTV et Sirm</hi>. 18 mancipitur <hi rend="italic">B,</hi> mancipietnr <lb/>
-            <hi rend="italic">L</hi> 19 prestantius <hi rend="italic">LV</hi> 21 arte <hi rend="italic">B p</hi>suplicandi (e <hi rend="italic">ex</hi> p <lb/>
-            <hi rend="italic">corr.) L</hi>. </note>
-
-<note type="footnote">27* </note><lb/>
-             
-<pb n="420"/>
+                  <hi rend="italic">B,</hi> specialem <hi rend="italic">LTV et Sirm</hi>. 18 mancipitur <hi rend="italic">B,</hi> mancipietnr <lb/>
+                  <hi rend="italic">L</hi> 19 prestantius <hi rend="italic">LV</hi> 21 arte <hi rend="italic">B p</hi>suplicandi (e <hi rend="italic">ex</hi> p <lb/>
+                  <hi rend="italic">corr.) L</hi>. </note>
+               <note type="footnote">27* </note>
+               <lb/>
+               <pb n="420"/>
             et suis muneribus uult placari. ipse enim hominem sibi templi <lb/>
             uice daedala prouisione formauit: ipse penetralia cordis nostri <lb/>
             sancto eruderata pandit introitu, nisi per propositum libertatis <lb/>
@@ -153,16 +160,19 @@
             nostram materiam humus praebuit, nisi unda succurreret:
 
 <note rend="script" type="footnote"> 2 dedala <hi rend="italic">JBLTV</hi> penetrabilia <hi rend="italic">L\' V1,</hi> peneralia 1 4 fedo <lb/>
-            <hi rend="italic">T</hi> 8. <hi rend="italic">I</hi>. m. <hi rend="italic">2</hi> contagia <hi rend="italic">Tl</hi> liquit <hi rend="italic">B</hi> 5 arehania <hi rend="italic">LTV</hi> <lb/>
+                  <hi rend="italic">T</hi> 8. <hi rend="italic">I</hi>. m. <hi rend="italic">2</hi> contagia <hi rend="italic">Tl</hi> liquit <hi rend="italic">B</hi> 5 arehania <hi rend="italic">LTV</hi>
+                  <lb/>
             factores <hi rend="italic">B</hi> 7 ostendet <hi rend="italic">B</hi> homo <hi rend="italic">Tl</hi> 8 uicturam (ci m <lb/>
-            <hi rend="italic">ras.) V,</hi> iuncturã <hi rend="italic">Tl</hi> 10 sui <hi rend="italic">LTV et</hi> Sirm. ana] corpora <lb/>
-            <hi rend="italic">fort</hi>. nistigiiB <hi rend="italic">B</hi> 11 inopiam <hi rend="italic">T</hi> dotem <hi rend="italic">LTV</hi> prestantem <lb/>
-            <hi rend="italic">BLTV</hi> 12 potabatnr <hi rend="italic">B\'</hi> 13 snbnlem <hi rend="italic">B\',</hi> sobolem B* <lb/>
-            <hi rend="italic">LTV</hi> 15 suorum <hi rend="italic">T</hi> 16 stimatione <hi rend="italic">L</hi> 17 eaim <hi rend="italic">T s. l. m. 2</hi> <lb/>
+                  <hi rend="italic">ras.) V,</hi> iuncturã <hi rend="italic">Tl</hi> 10 sui <hi rend="italic">LTV et</hi> Sirm. ana] corpora <lb/>
+                  <hi rend="italic">fort</hi>. nistigiiB <hi rend="italic">B</hi> 11 inopiam <hi rend="italic">T</hi> dotem <hi rend="italic">LTV</hi> prestantem <lb/>
+                  <hi rend="italic">BLTV</hi> 12 potabatnr <hi rend="italic">B\'</hi> 13 snbnlem <hi rend="italic">B\',</hi> sobolem B* <lb/>
+                  <hi rend="italic">LTV</hi> 15 suorum <hi rend="italic">T</hi> 16 stimatione <hi rend="italic">L</hi> 17 eaim <hi rend="italic">T s. l. m. 2</hi>
+                  <lb/>
             19 meliora sectari <hi rend="italic">T</hi> 20 \'feliciter <hi rend="italic">T</hi> 21 acciperat <hi rend="italic">B</hi> 22 parum<lb/>
-             (um w ra.) <hi rend="italic">V</hi> 25 nil <hi rend="italic">T</hi> 26 prebnit <hi rend="italic">BLTV</hi> </note><lb/>
-             
-<pb n="421"/>
+             (um w ra.) <hi rend="italic">V</hi> 25 nil <hi rend="italic">T</hi> 26 prebnit <hi rend="italic">BLTV</hi>
+               </note>
+               <lb/>
+               <pb n="421"/>
             unicum nobis sacramenti huius solacium contulisti, quod aquae <lb/>
             diluunt peccata telluris. ergo iam typus recedat et qui imaginibus <lb/>
             adnuntiauerunt sequentia conticescant. in ueritate tenemus <lb/>
@@ -189,19 +199,22 @@
             fluenta pudicitia. tu ad tribuendam benedictionem euocatus
 
 <note rend="script" type="footnote"> 1 quo <hi rend="italic">fort</hi>. 2 delunnt <hi rend="italic">BL,</hi> di///luunt in deluont deinde in diluunt <lb/>
-            <hi rend="italic">V corr</hi>. tellariB (teU in <hi rend="italic">rat.) T</hi> tipus <hi rend="italic">LTV</hi> 3 deseqaentia <hi rend="italic">T</hi> <lb/>
+                  <hi rend="italic">V corr</hi>. tellariB (teU in <hi rend="italic">rat.) T</hi> tipus <hi rend="italic">LTV</hi> 3 deseqaentia <hi rend="italic">T</hi>
+                  <lb/>
             conticiscant <hi rend="italic">B</hi> 4 permiserat T\' 5 quod <hi rend="italic">T</hi> redemptoris <lb/>
-            <hi rend="italic">LV1</hi> 6 queratur <hi rend="italic">B</hi> 7 saeerdotee <hi rend="italic">B</hi> quod <hi rend="italic">B</hi> 8 hamanum <lb/>
-            <hi rend="italic">T1</hi> 9 decedit <hi rend="italic">B</hi> fon\' <hi rend="italic">L</hi> suspiciende <hi rend="italic">LTV,</hi> au-<lb/>
+                  <hi rend="italic">LV1</hi> 6 queratur <hi rend="italic">B</hi> 7 saeerdotee <hi rend="italic">B</hi> quod <hi rend="italic">B</hi> 8 hamanum <lb/>
+                  <hi rend="italic">T1</hi> 9 decedit <hi rend="italic">B</hi> fon\' <hi rend="italic">L</hi> suspiciende <hi rend="italic">LTV,</hi> au-<lb/>
              Bpitiende <hi rend="italic">B</hi> offltio <hi rend="italic">B</hi> 10 elimenti\' <hi rend="italic">B</hi> faciem <hi rend="italic">L1,</hi> facẽre <lb/>
-            <hi rend="italic">T</hi> 11 inpare <hi rend="italic">B</hi> 12 complacebat <hi rend="italic">V</hi> qua quod a fort. <lb/>
+                  <hi rend="italic">T</hi> 11 inpare <hi rend="italic">B</hi> 12 complacebat <hi rend="italic">V</hi> qua quod a fort. <lb/>
              *deo <hi rend="italic">T</hi> actoribuB <hi rend="italic">T</hi> 18 un. <hi rend="italic">T1</hi> foetibna <hi rend="italic">LV</hi> 15 dampna <lb/>
-            <hi rend="italic">LTV</hi> 18 profeta (e <hi rend="italic">ex</hi> i corr.) <hi rend="italic">B</hi> 19 incendii <hi rend="italic">B,</hi> incendi <hi rend="italic">L <lb/>
-            TV</hi> robo <hi rend="italic">B,</hi> rubro <hi rend="italic">T</hi> 20 frotii <hi rend="italic">B\'</hi> 21 laberentar <hi rend="italic">B</hi> <lb/>
+                  <hi rend="italic">LTV</hi> 18 profeta (e <hi rend="italic">ex</hi> i corr.) <hi rend="italic">B</hi> 19 incendii <hi rend="italic">B,</hi> incendi <hi rend="italic">L <lb/>
+            TV</hi> robo <hi rend="italic">B,</hi> rubro <hi rend="italic">T</hi> 20 frotii <hi rend="italic">B\'</hi> 21 laberentar <hi rend="italic">B</hi>
+                  <lb/>
             linna Ll non <hi rend="italic">T 9</hi>. I. m. » ẽ∗ <hi rend="italic">L</hi> 24 pndititia <hi rend="italic">B</hi> tu]<lb/>
-             tua| <hi rend="italic">B</hi> tribnendum <hi rend="italic">B</hi> </note>
-<pb n="422"/>
-             <lb/>
+             tua| <hi rend="italic">B</hi> tribnendum <hi rend="italic">B</hi>
+               </note>
+               <pb n="422"/>
+               <lb/>
             ministerio humani sermonis inlabere. tu resurrectionis tuae <lb/>
             tempore, quo uernat anni reuiuiscentis infantia, sumptam ex<lb/>
              hoc contra procellas uel omnes incursus fac dimicare particulam,<lb/>
@@ -209,12 +222,13 @@
             incolumitate concessa ubertatem terrarum cum actuum innocentia<lb n="5"/>
             et prosperitate concedas.
 
-<note rend="script" type="footnote"><hi rend="italic">1 tue tpr T in ras</hi>. 2 uirnat B1 <hi rend="italic">3 omnes T2, omnia BL <lb/>
+<note rend="script" type="footnote">
+                  <hi rend="italic">1 tue tpr T in ras</hi>. 2 uirnat B1 <hi rend="italic">3 omnes T2, omnia BL <lb/>
             T1V,</hi> amnis <hi rend="italic">fort</hi>. 4 tocios <hi rend="italic">V</hi> 5 mcolomitate <hi rend="italic">B</hi> 6 concedas]<lb/>
-             finit add. <hi rend="italic">BLTV</hi> </note>
-</p>
-        
-</div>
-</body>
-</text>
+             finit add. <hi rend="italic">BLTV</hi>
+               </note>
+            </p>
+         </div>
+      </body>
+   </text>
 </TEI>

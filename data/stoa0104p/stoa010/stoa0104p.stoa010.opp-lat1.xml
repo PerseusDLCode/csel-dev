@@ -1,103 +1,108 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader xml:lang="eng">
-    <fileDesc>
-      <titleStmt>
-        <title xml:lang="lat">De Rebaptismate</title>
-        <author>Pseudo-Cyprian</author>
-        <editor>Wilhelm von Hartel</editor>
-        <sponsor>University of Leipzig</sponsor>
-        <funder>European Social Fund Saxony</funder>
-        <principal>Gregory Crane</principal>
-        <respStmt>
-          <persName xml:id="Jouve">Jouve</persName>
-          <resp>OCR-ed, corrected and encoded the text</resp>
-        </respStmt>
-        <respStmt>
-          <persName>Greta Franzini</persName>
-          <resp>Project Manager (University of Leipzig)</resp>
-        </respStmt>
-        <respStmt>
-          <persName>Simona Stoyanova</persName>
-          <resp>Project Assistant (University of Leipzig)</resp>
-        </respStmt>
-        <respStmt>
-          <persName>Bruce Robertson</persName>
-          <resp>Technical Advisor (Mount Allison University)</resp>
-        </respStmt>
-        <respStmt>
-          <persName>Uvius Fonticola</persName>
-          <resp>Technical Advisor (Ludwig Maximilians University Munich)</resp>
-        </respStmt>
-      </titleStmt>
-      
-      <publicationStmt>
-        <authority>University of Leipzig</authority>
-        <idno type="filename">stoa0104p.stoa010.opp-lat1.xml</idno>
-        <availability>
-          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
-        </availability>
-        <date>2014</date>
-        <publisher>University of Leipzig</publisher>
-        <pubPlace>Germany</pubPlace>
-      </publicationStmt>
-      
-      <sourceDesc>
-        <listBibl>
-          <biblStruct>
-            <monogr>
-              <editor>
-                <persName>
-                  <name>Wilhelm von Hartel</name>
-                </persName>
-              </editor> 
-              <author>Pseudo-Cyprian</author>  
-              <title xml:lang="lat">S. Thasci Caecili Cypriani Opera omnia</title>
-              <imprint>
-                <publisher>Gerold</publisher>
-                <pubPlace>Vienna</pubPlace>
-                <date>1871</date>
-              </imprint>
-              <biblScope unit="volume" xml:lang="lat">Pars III</biblScope>
-            </monogr>
-            <series>
-              <title xml:lang="lat">Corpus Scriptorum Ecclesiasticorum Latinorum</title>
-              <biblScope unit="volume">3.3</biblScope>
-            </series>              
-            <ref target="https://archive.org/stream/corpusscriptorum03cypruoft#page/n77/mode/2up">Internet Archive</ref>
-            
-          </biblStruct>
-        </listBibl>
-      </sourceDesc>
-      
-    </fileDesc>
-    <encodingDesc>
-      <p>The following text is encoded in accordance with EpiDoc standards and with the
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/PerseusDLCode/perseus-schemas/main/perseus_prose.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="eng">
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="lat">De Rebaptismate</title>
+            <author>Pseudo-Cyprian</author>
+            <editor>Wilhelm von Hartel</editor>
+            <sponsor>University of Leipzig</sponsor>
+            <funder>European Social Fund Saxony</funder>
+            <principal>Gregory Crane</principal>
+            <respStmt>
+               <persName xml:id="Jouve">Jouve</persName>
+               <resp>OCR-ed, corrected and encoded the text</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Greta Franzini</persName>
+               <resp>Project Manager (University of Leipzig)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Simona Stoyanova</persName>
+               <resp>Project Assistant (University of Leipzig)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Bruce Robertson</persName>
+               <resp>Technical Advisor (Mount Allison University)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Uvius Fonticola</persName>
+               <resp>Technical Advisor (Ludwig Maximilians University Munich)</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>University of Leipzig</authority>
+            <idno type="filename">stoa0104p.stoa010.opp-lat1.xml</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
+            </availability>
+            <date>2014</date>
+            <publisher>University of Leipzig</publisher>
+            <pubPlace>Germany</pubPlace>
+            <idno type="CTS">urn:cts:latinLit:stoa0104p.stoa010.opp-lat1</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <name>Wilhelm von Hartel</name>
+                        </persName>
+                     </editor>
+                     <author>Pseudo-Cyprian</author>
+                     <title xml:lang="lat">S. Thasci Caecili Cypriani Opera omnia</title>
+                     <imprint>
+                        <publisher>Gerold</publisher>
+                        <pubPlace>Vienna</pubPlace>
+                        <date>1871</date>
+                     </imprint>
+                     <biblScope unit="volume" xml:lang="lat">Pars III</biblScope>
+                  </monogr>
+                  <series>
+                     <title xml:lang="lat">Corpus Scriptorum Ecclesiasticorum Latinorum</title>
+                     <biblScope unit="volume">3.3</biblScope>
+                  </series>
+                  <ref target="https://archive.org/stream/corpusscriptorum03cypruoft#page/n77/mode/2up">Internet Archive</ref>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>The following text is encoded in accordance with EpiDoc standards and with the
         CTS/CITE Architecture. 
 </p>
-      <refsDecl n="CTS">
-        <cRefPattern n="section" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1'])"/>
-      </refsDecl>
-    </encodingDesc>
-    
-    <profileDesc>
-      <langUsage>
-        <language ident="lat">Latin</language>
-      </langUsage>
-    </profileDesc>
-    
-</teiHeader>
-<text>
-<body>
-<div type="edition" xml:lang="lat" n="urn:cts:latinLit:stoa0104p.stoa010.opp-lat1">
-<head>
+         <refsDecl n="CTS">
+            <cRefPattern n="section"
+                         matchPattern="(.+)"
+                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1'])"/>
+         </refsDecl>
+         <refsDecl n="CTS">
+            <citeStructure match="/TEI/text/body" use="@xml:base">
+               <citeStructure unit="section" delim="." match="div[@type='section']" use="@n"/>
+            </citeStructure>
+         </refsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <catRef scheme="#perseus-genre" target="#prose-section"/>
+         </textClass>
+         <langUsage>
+            <language ident="lat">Latin</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body xml:base="urn:cts:latinLit:stoa0104p.stoa010.opp-lat1">
+         <head>
             <title type="main">V. DE REBAPTISMATE. </title>
-          </head>
-          <p>(NOD debere denuo baptizari qui semel in nomine Domini Iesu Christi <lb/>
+         </head>
+         <p>(NOD debere denuo baptizari qui semel in nomine Domini Iesu Christi <lb/>
             sint tincti.)
 </p>
-          
-
-<div n="1" subtype="section" type="textpart"><p>Animaduerto quaesitum apud fratres quid potius obseruari  <lb/>
+         <div n="1" type="section">
+            <p>Animaduerto quaesitum apud fratres quid potius obseruari  <lb/>
             oporteret in personam eorum, qui in haeresi quidem sed in nomine Dei <lb/>
             15 nostri Iesu Christi [sint) tincti, postmodum inde digressi et suppliciter <lb/>
             ad ecclesiam Dei aduolantes, totis praecordiis paenitentiam agerent <lb/>
@@ -110,15 +115,16 @@
             an uero etiam iteratum baptisma his necessarium esset
 
 <note type="footnote"> 2 Sir. 2, 10-12. </note>
-
-<note type="footnote"> 10 <hi rend="italic">Hunc tractatum primus edidit Nicolaus RigaUius ex apographo</hi> <lb/>
+               <note type="footnote"> 10 <hi rend="italic">Hunc tractatum primus edidit Nicolaus RigaUius ex apographo</hi>
+                  <lb/>
             Sirmondi <hi rend="italic">ex uetustissimo codice monasterii S. Remigii RemensØ deseripto: <lb/>
             post Sirmondi curam Baiuzius iterum contulit codicem quem<lb/>
              frustra inter libros Bemenses quaesiui</hi>. — 14 oportet <hi rend="italic">cod. et v</hi> 15 sint <lb/>
             inclusi 19 qui <hi rend="italic">Rig</hi>. 20 domini nostri <hi rend="italic">Baluzius,</hi> domini non <lb/>
-            cod., dominicum <hi rend="italic">Sirmondus</hi> </note> <lb/>
-             
-<pb n="70"/>
+            cod., dominicum <hi rend="italic">Sirmondus</hi>
+               </note>
+               <lb/>
+               <pb n="70"/>
             tamquam nihil habituris, si hoc quoque adepti ex integro non fuissent, <lb/>
             perinde ac si numquam baptizati in nomine Iesu Christi forent. <lb/>
             ideoque nonnulla super hac noua quaestione scripta aut rescripta esse <lb/>
@@ -156,9 +162,9 @@
             ante nos fuerunt, tum etiam a nobis recte obseruatum esse et
 
 <note type="footnote"> 9 <hi rend="italic">prius</hi> et <hi rend="italic">om. Big</hi>. 15 praeter <hi rend="italic">om. cod. </hi>? 30 ipsa] sua <hi rend="italic">Big</hi>. <lb/>
-            34 aliis <hi rend="italic">cod.,</hi> ab iis <hi rend="italic">Balulius,</hi> ab illis <hi rend="italic">fort</hi>. </note> <lb n="35"/>
-             
-<pb n="71"/>
+            34 aliis <hi rend="italic">cod.,</hi> ab iis <hi rend="italic">Balulius,</hi> ab illis <hi rend="italic">fort</hi>. </note>
+               <lb n="35"/>
+               <pb n="71"/>
             seruari manifeste ac fortiter ostendatur, ita ut etsi paribus argumentis <lb/>
             ex utraque parte congrederemur, tamen quia non poterat id <lb/>
             quod innouabatur sine dissensione fratrum et damno ecclesiastico <lb/>
@@ -178,9 +184,9 @@
             nostra examinabimus, ut agendi in ecclesia formam et consuetudinem <lb/>
             saluberrimam atque pacificam uniuersis fratribus insinuemus. 
 </p>
-          </div>
-
-<div n="2" subtype="section" type="textpart"><p>Igitur adgredientibus tractatum salutaris et noui hoc est spiritalis  <lb/>
+         </div>
+         <div n="2" type="section">
+            <p>Igitur adgredientibus tractatum salutaris et noui hoc est spiritalis  <lb/>
             et euangelici baptismatis in primis occurrit notissima omnibus praedicatio <lb n="20"/>
             celebrata atque coepta ab Ioanne baptista, qui aliquantum desciscens <lb/>
             a lege id est Moysi antiquissimo baptismate et uiam nouae et <lb/>
@@ -194,12 +200,11 @@
             hanc eandem uocem Ioannis post suam resurrectionem in actis
 
 <note type="footnote"> 26 Matth. 3, 11. Marc. 1, 7. Luc. 3, 16. lo. 1, 27. </note>
-
-<note type="footnote"> 7 debeat <hi rend="italic">Big</hi>. 15 poterit; <hi rend="italic">cf. Front. p. 48, 21 (Nab.)</hi> 17 agendi <lb/>
-            <hi rend="italic">teripsi,</hi> accendi <hi rend="italic">cod.,</hi> tacendi <hi rend="italic">coni. BigaltiuB,</hi> accedenti <hi rend="italic">coni. Oxon.,</hi> attendi <lb/>
-            <hi rend="italic">coni. Baiueius</hi> 22 moyse <hi rend="italic">cod. et v,</hi> moysis <hi rend="italic">Bal.; cf. epist</hi>. 791, 6 </note> <lb n="30"/>
-             
-<pb n="72"/>
+               <note type="footnote"> 7 debeat <hi rend="italic">Big</hi>. 15 poterit; <hi rend="italic">cf. Front. p. 48, 21 (Nab.)</hi> 17 agendi <lb/>
+                  <hi rend="italic">teripsi,</hi> accendi <hi rend="italic">cod.,</hi> tacendi <hi rend="italic">coni. BigaltiuB,</hi> accedenti <hi rend="italic">coni. Oxon.,</hi> attendi <lb/>
+                  <hi rend="italic">coni. Baiueius</hi> 22 moyse <hi rend="italic">cod. et v,</hi> moysis <hi rend="italic">Bal.; cf. epist</hi>. 791, 6 </note>
+               <lb n="30"/>
+               <pb n="72"/>
             apostolorum confirmans praecepit eis ab Hierosolymis non <lb/>
             discedere, sed exspectare illam promissionem patris <lb/>
             quam audistis a me, quia Ioannes quidem baptizau it it <lb/>
@@ -230,19 +235,18 @@
             etiam in baptismate spiritus in sanguine proprio uniuscuiusque, sicut <lb/>
             declarant nobis sanctae scripturae , quarum per singula quaeque <lb/>
             eorum quae enarrabimus adferemus perspicuas probationes. <lb n="30"/>
-            
-</p>
-          </div>
-
-<div n="3" subtype="section" type="textpart"><p> Ad quae forte tu, qui nouum quid inducis, continuo impatienter <lb/>
+            </p>
+         </div>
+         <div n="3" type="section">
+            <p> Ad quae forte tu, qui nouum quid inducis, continuo impatienter <lb/>
             respondeas ut soles dixisse in euangelio Dominum: nisi quis <lb/>
             denuo natus fuerit ex aqua et spiritu, non potest <lb/>
             introire in regnum caelorum. ex quo manifeste apparet illi
 
 <note type="footnote"> 1 Act. 1, 4. 5. 6 Act. 11, 15-17. 18 Act. 15, 7, 8. <lb/>
-            32 Io. 3, 3. 5. </note> <lb/>
-             
-<pb n="73"/>
+            32 Io. 3, 3. 5. </note>
+               <lb/>
+               <pb n="73"/>
             baptisma solum prodesse cui possit etiam spiritus sanctus inesse: super <lb/>
             ipsum enim Dominum cum baptizaretur spiritum sanctum descendisse <lb/>
             factumque eius atque dictum pariter congruere nec alia ulla ratione <lb/>
@@ -263,11 +267,10 @@
             erant in nomine Domini Iesu: Dominus quoque noster post resurrectionem, <lb/>
             cum insufflasset et dixisset apostolis suis accipite spiritum <lb/>
             sanctum, ita demum largitus eis spiritum sanctum. <lb n="20"/>
-            
-</p>
-          </div>
-
-<div n="4" subtype="section" type="textpart"><p>Cum ita inuenitur, quid tibi, frater, uidetur? si quis non ab episcopo  <lb/>
+            </p>
+         </div>
+         <div n="4" type="section">
+            <p>Cum ita inuenitur, quid tibi, frater, uidetur? si quis non ab episcopo  <lb/>
             baptizatus, ita ut si in continenti etiam manus ei imponatur, <lb/>
             priusquam tamen accipiat spiritum sanctum fuerit defunctus, utrum <lb/>
             censeas salutem percepisse eum necne: quoniam quidem et ipsi apostoli <lb/>
@@ -280,14 +283,14 @@
             imponerent et spiritum sanctum per manus impositionem in eos
 
 <note type="footnote"> 19 Io. 20, 22. </note>
-
-<note type="footnote"> 7 gerendis <hi rend="italic">Big</hi>. 9 non <hi rend="italic">om. Big</hi>. 14 sic et <hi rend="italic">fort</hi>. 17 descenderat <lb/>
-            <hi rend="italic">Bigaltius,</hi> deciderat <hi rend="italic">Baluzius</hi>. 19 spiritum sanctum com <lb/>
+               <note type="footnote"> 7 gerendis <hi rend="italic">Big</hi>. 9 non <hi rend="italic">om. Big</hi>. 14 sic et <hi rend="italic">fort</hi>. 17 descenderat <lb/>
+                  <hi rend="italic">Bigaltius,</hi> deciderat <hi rend="italic">Baluzius</hi>. 19 spiritum sanctum com <lb/>
             ita inaenitur <hi rend="italic">non distinguit Baiuzius</hi> 23 acciperet <hi rend="italic">Big</hi>. 25 qui <lb/>
-            etiam <hi rend="italic">inclusi</hi> 26 sint baptizati <hi rend="italic">Baluzius</hi> erat] <hi rend="italic">cf. cap. 14</hi> <lb/>
-            29 sunt <hi rend="italic">om. Big</hi>. </note> <lb/>
-             
-<pb n="74"/>
+            etiam <hi rend="italic">inclusi</hi> 26 sint baptizati <hi rend="italic">Baluzius</hi> erat] <hi rend="italic">cf. cap. 14</hi>
+                  <lb/>
+            29 sunt <hi rend="italic">om. Big</hi>. </note>
+               <lb/>
+               <pb n="74"/>
             conferrent, quoniam uel illo interuallo temporis aliquis eorum non <lb/>
             adeptus spiritum sanctum morte potuit intercipi et defraudatus gratia <lb/>
             spiritus sancti defungi. quod hodierna quoque die non potest dubitari <lb/>
@@ -316,20 +319,21 @@
             sanctum consuesse praestari aut etiam non episcopum dicas spiritum <lb/>
             sanctum solitum esse largiri. 
 </p>
-          </div>
-
-<div n="5" subtype="section" type="textpart"><p> Quod si ita est et potest aliquid horum eueniens salutem homini <lb/>
+         </div>
+         <div n="5" type="section">
+            <p> Quod si ita est et potest aliquid horum eueniens salutem homini <lb/>
             credenti non praeripere, tu quoque ipse annuis quoniam modo dimidiatum <lb/>
             et non ut contendis consummatum mysterium fidei, <hi rend="italic">si</hi> qua <lb n="30"/>
             necessitas interuenit, salutem adimere non posse credenti et
 
 <note type="footnote"> 1 quoniam uel <hi rend="italic">scripsi,</hi> uel quoniam <hi rend="italic">cod.,</hi> quoniam <hi rend="italic">Big</hi>. aliqui <hi rend="italic">Rig</hi>. <lb/>
             11 quamquam <hi rend="italic">coni. nescio quis,</hi> quoniam <hi rend="italic">cod. et</hi> b 21 nec] ne <lb/>
-            <hi rend="italic">Big</hi>. 27 solum <hi rend="italic">Rig,</hi> 29 quoniam modo] quonam modo <hi rend="italic">coni,<lb/>
+                  <hi rend="italic">Big</hi>. 27 solum <hi rend="italic">Rig,</hi> 29 quoniam modo] quonam modo <hi rend="italic">coni,<lb/>
              Gallandius;</hi> non modo dimidiatum ut contendis sed consummatur <hi rend="italic">conu <lb/>
-            nescio quis, sed nihil mutandum; cf. Cypr. epist. p</hi>. 536,12 30 si <hi rend="italic">addidi</hi> </note> <lb/>
-             
-<pb n="75"/>
+            nescio quis, sed nihil mutandum; cf. Cypr. epist. p</hi>. 536,12 30 si <hi rend="italic">addidi</hi>
+               </note>
+               <lb/>
+               <pb n="75"/>
             paenitenti homini. aut si dicis huiusmodi hominem saluum non posse fieri, <lb/>
             omnibus episcopis salutem adimimus, quos ita periculis quam certissimis <lb/>
             adstringis, ut omnibus hominibus qui sub cura eorum agunt <lb/>
@@ -362,18 +366,19 @@
             praestiterit, ut inuocationem quoque nominis Iesu Christi acciperent, <lb n="30"/>
             ne quid eis deesse uideretur ad integritatem ministerii et fidei. 
 </p>
-          </div>
-
-<div n="6" subtype="section" type="textpart"><p>Quod etiam e contrario latere tractatus huius sunt consecuti ipsi  <lb/>
+         </div>
+         <div n="6" type="section">
+            <p>Quod etiam e contrario latere tractatus huius sunt consecuti ipsi  <lb/>
             illi discipuli Domini nostri, super quos iam pridem baptizatos postremo
 
 <note type="footnote"> 10 Act. 1, 44 -48. 21 Act. 15, 9. </note>
-
-<note type="footnote"> 5 clerici <hi rend="italic">fort</hi>. 7 uidebantur <hi rend="italic">Rig</hi>. 20 idem om. <hi rend="italic">ffig</hi>. 25 et hi] <lb/>
-            haec <hi rend="italic">Rig</hi>. 27 et sic panllo ante emundatis <hi rend="italic">Baluzius,</hi> et inundatis <hi rend="italic">Rig.,</hi> <lb/>
-            et emundatis <hi rend="italic">Oxon</hi>. 31 mysterii fidei <hi rend="italic">fort.; cf. pag. 81, 20</hi> </note> <lb/>
-             
-<pb n="76"/>
+               <note type="footnote"> 5 clerici <hi rend="italic">fort</hi>. 7 uidebantur <hi rend="italic">Rig</hi>. 20 idem om. <hi rend="italic">ffig</hi>. 25 et hi] <lb/>
+            haec <hi rend="italic">Rig</hi>. 27 et sic panllo ante emundatis <hi rend="italic">Baluzius,</hi> et inundatis <hi rend="italic">Rig.,</hi>
+                  <lb/>
+            et emundatis <hi rend="italic">Oxon</hi>. 31 mysterii fidei <hi rend="italic">fort.; cf. pag. 81, 20</hi>
+               </note>
+               <lb/>
+               <pb n="76"/>
             die pentecostes superuenit spiritus sanctus, uoluntate Dei quidem non <lb/>
             . sua sponte caelo lapsus, sed ad hoc ipsum munus effusum sedet super <lb/>
             unumquemque eorum, cum iusti iam pridem, ut diximus, baptismate <lb/>
@@ -407,13 +412,12 @@
             constituta non posset ad salutem praestandam sufficere, ne hac
 
 <note type="footnote">16 Act. 4, 12. 19 Phil. 2, 9-11. </note>
-
-<note type="footnote"> 2 effusu3 <hi rend="italic">coni. nescio quis</hi> 3 iusti] isti <hi rend="italic">coni. Big</hi>. 5 domino <lb/>
-            <hi rend="italic">Rig</hi>. 8 tum ipsum] eum etiam <hi rend="italic">Baiuziua,</hi> ter ipsum coni. Iti- <lb/>
-            <hi rend="italic">galtius</hi> 9 quoque <hi rend="italic">Big</hi>. 10 sincerata <hi rend="italic">Rig</hi>. 12 praeceperant.. <lb/>
-            baptizarentur <hi rend="italic">om. Rig</hi>. 16 narrat <hi rend="italic">Rig</hi>. 30 si <hi rend="italic">om. Big</hi>. </note> <lb/>
-             
-<pb n="77"/>
+               <note type="footnote"> 2 effusu3 <hi rend="italic">coni. nescio quis</hi> 3 iusti] isti <hi rend="italic">coni. Big</hi>. 5 domino <lb/>
+                  <hi rend="italic">Rig</hi>. 8 tum ipsum] eum etiam <hi rend="italic">Baiuziua,</hi> ter ipsum coni. Iti- <lb/>
+                  <hi rend="italic">galtius</hi> 9 quoque <hi rend="italic">Big</hi>. 10 sincerata <hi rend="italic">Rig</hi>. 12 praeceperant.. <lb/>
+            baptizarentur <hi rend="italic">om. Rig</hi>. 16 narrat <hi rend="italic">Rig</hi>. 30 si <hi rend="italic">om. Big</hi>. </note>
+               <lb/>
+               <pb n="77"/>
             ratione etiam ethnicos et haereticos abutentes nomen Iesu credamus ad <lb/>
             salutem sine uera re atque integra posse peruenire. quam tamen <lb/>
             inuocationem nominis Iesu correctione erroris et agnitione fidei ueritatis <lb/>
@@ -449,18 +453,18 @@
             in totum quis non sit baptizatus in nomine Domini nostri Iesu Christi,
 
 <note type="footnote"> 15 cf. Matth. 16, 16. 27 Marc. 14, 27. </note>
-
-<note type="footnote"> 32 aliquando <hi rend="italic">Baluzius,</hi> aliquo (t. <hi rend="italic">e</hi>. aliquatenus) <hi rend="italic">coni. Rigaltius,</hi> <lb/>
-            aliquod <hi rend="italic">cod</hi>. ? </note> <lb/>
-             
-<pb n="78"/>
+               <note type="footnote"> 32 aliquando <hi rend="italic">Baluzius,</hi> aliquo (t. <hi rend="italic">e</hi>. aliquatenus) <hi rend="italic">coni. Rigaltius,</hi>
+                  <lb/>
+            aliquod <hi rend="italic">cod</hi>. ? </note>
+               <lb/>
+               <pb n="78"/>
             an uero in aliquo claudicet cum baptizatur baptismate aquae, quod <lb/>
             minus est, dummodo postea constet in ueritate sincera fides in baptismate <lb/>
             spiritus, quod non dubie maius est. 
 </p>
-          </div>
-
-<div n="7" subtype="section" type="textpart"><p> Nec aestimes huic tractatui contrarium esse quod dixit Dominus: <lb/>
+         </div>
+         <div n="7" type="section">
+            <p> Nec aestimes huic tractatui contrarium esse quod dixit Dominus: <lb/>
             ite, docete gentes, tinguite eos in nomine patris et <lb n="5"/>
             filii et* spiritus sancti. quia cum hoc uerum et rectum et <lb/>
             omnibus modis in ecclesia obseruandum sit et obseruari quoque solitum <lb/>
@@ -486,20 +490,19 @@
             quibus supra ostendimus, non possunt ab ullo hominum tam dure tamque <lb/>
             crudeliter prohiberi. 
 </p>
-          </div>
-
-<div n="8" subtype="section" type="textpart"><p> Sed ad haec, ut soles, contradices, opponendo nobis tunc cum baptizarentur <lb/>
+         </div>
+         <div n="8" type="section">
+            <p> Sed ad haec, ut soles, contradices, opponendo nobis tunc cum baptizarentur <lb/>
             integre ac recte discipulos ac non ut hos haereticos esse <lb n="30"/>
             baptizatos. quod ex persona ipsorum et eius qui baptizauit illos sumas <lb/>
             necesse est. et ideo nos ad propositionem hanc tuam non ut accusatores <lb/>
             discipulorum Domini respondemus, sed sicuti compellimur, quia
 
 <note type="footnote"> 5 Matth. 28, 19. 13 Matth. 7, 22. 23. </note>
-
-<note type="footnote"> 1 baptismate ea quae <hi rend="italic">cod</hi>. 3 non dubie <hi rend="italic">om. Big</hi>. 19 idcirco <lb/>
-            quae <hi rend="italic">Big</hi>. 21 quod] quia <hi rend="italic">Rig</hi>. 25 illa <hi rend="italic">Big</hi>. </note> <lb/>
-             
-<pb n="79"/>
+               <note type="footnote"> 1 baptismate ea quae <hi rend="italic">cod</hi>. 3 non dubie <hi rend="italic">om. Big</hi>. 19 idcirco <lb/>
+            quae <hi rend="italic">Big</hi>. 21 quod] quia <hi rend="italic">Rig</hi>. 25 illa <hi rend="italic">Big</hi>. </note>
+               <lb/>
+               <pb n="79"/>
             necesse est ubi et quando et quemadmodum unicuique nostrum salus <lb/>
             sit praestita rationibus inuestigemus. namque natum esse Dominum <lb/>
             nostrum et Christum esse eum multis rationibus a discipulis eius non <lb/>
@@ -525,11 +528,10 @@
             pro sua pietate passim suscitaret, quod uentis et mari ut quiescerent <lb/>
             imperaret, quod super mare pedibus ambularet, quod uirtutes omnes <lb/>
             omnino perficeret. <lb n="25"/>
-            
-</p>
-          </div>
-
-<div n="9" subtype="section" type="textpart"><p>Quibus rebus et huiuscemodi compluribus factis ad claritatem eius  <lb/>
+            </p>
+         </div>
+         <div n="9" type="section">
+            <p>Quibus rebus et huiuscemodi compluribus factis ad claritatem eius  <lb/>
             pertinentibus consequens esse uidebatur ut quemadmodum Iudaei de <lb/>
             Christo sentiunt, quod tamen de Iesu Christo Domino nostro non <lb/>
             credunt, ut etiam ipsi existimarent, ut talis et tantus nulla obita <lb/>
@@ -540,9 +542,9 @@
 
 <note type="footnote"> 7 quo <hi rend="italic">scripsi,</hi> quod <hi rend="italic">cod. et b</hi> 28 sentiant <hi rend="italic">Big</hi>. 81 corriperetur] <lb/>
             corrumperetur <hi rend="italic">conI. Baluzius</hi> 32 fuerant <hi rend="italic">Big</hi>. 33 auperfugere <lb/>
-            COlli. <hi rend="italic">Big</hi>. </note> <lb/>
-             
-<pb n="80"/>
+            COlli. <hi rend="italic">Big</hi>. </note>
+               <lb/>
+               <pb n="80"/>
             quod nulla alia ratione uitam aeternam his praestaturus esset, nisi <lb/>
             primum ipse uitam hanc temporalem cum illa aeterna in se ipso <lb/>
             continuasset. denique cum conuersarentur in Galilaea dixit eis Iesus: <lb/>
@@ -578,11 +580,10 @@
 
 <note type="footnote"> 4 Matth. 9, 30. 9 Io. 12, 34. 22 Matth. 16, 16 sq. <lb/>
             27 Matth. 26, 70 sq. </note>
-
-<note type="footnote"> 6 quia ... animis <hi rend="italic">om. Rig</hi>. 19 oportet illum <hi rend="italic">Rig</hi>. 28 ita <lb/>
-            <hi rend="italic">om. Big</hi>. 28 idem om. <hi rend="italic">Rig</hi>. </note> <lb/>
-             
-<pb n="81"/>
+               <note type="footnote"> 6 quia ... animis <hi rend="italic">om. Rig</hi>. 19 oportet illum <hi rend="italic">Rig</hi>. 28 ita <lb/>
+                  <hi rend="italic">om. Big</hi>. 28 idem om. <hi rend="italic">Rig</hi>. </note>
+               <lb/>
+               <pb n="81"/>
             resurrectionem Domini unus e discipulis eius Cleopas cum esset <lb/>
             maestus secundum errorem omnium condiscipulorum suorum, ipsi <lb/>
             Domino tamquam alicui ignoto referens quod contigerat, sic locutus <lb/>
@@ -603,9 +604,9 @@
             quod multo grauius est, sicut in euangelio cata Ioannem scriptum est, <lb/>
             etiam alios baptizabant. 
 </p>
-          </div>
-
-<div n="10" subtype="section" type="textpart"><p>Praeterea quid dicturus es de his qui plerumque ab episcopis  <lb n="20"/>
+         </div>
+         <div n="10" type="section">
+            <p>Praeterea quid dicturus es de his qui plerumque ab episcopis  <lb n="20"/>
             pessimae conuersationis baptizantur: qui tamen tandem cum Deus <lb/>
             uoluerit, in sceleribus suis conuicti, etiam ipso aut prorsus etiam <lb/>
             communicatione priuantur? aut quid statues de eis qui ab episcopis <lb/>
@@ -620,15 +621,12 @@
             maxime eis res desit aut obstet quo minus inuiolabile illud diuinum
 
 <note type="footnote"> 18 cf. lo. 3, 22. </note>
-
-<note type="footnote"> 6 eum <hi rend="italic">om. Big</hi>. 14 innuerant <hi rend="italic">Big.,</hi> crediderant <hi rend="italic">Bal.,</hi> timuerant <hi rend="italic">cod</hi>. <lb/>
+               <note type="footnote"> 6 eum <hi rend="italic">om. Big</hi>. 14 innuerant <hi rend="italic">Big.,</hi> crediderant <hi rend="italic">Bal.,</hi> timuerant <hi rend="italic">cod</hi>. <lb/>
             22 ipso aut <hi rend="italic">cod.,</hi> ipso monere <hi rend="italic">Oxon.,</hi> epatu (i. <hi rend="italic">e</hi>. episcopatu) aut <hi rend="italic">fort</hi>. </note>
-
-<note type="footnote"> m A </note>
-
-<note type="footnote"> 6 </note> <lb/>
-             
-<pb n="82"/>
+               <note type="footnote"> m A </note>
+               <note type="footnote"> 6 </note>
+               <lb/>
+               <pb n="82"/>
             mysterium fidei intemeratum possint accipere. sed enim, uirorum <lb/>
             optime, reddamus et permittamus uirtutibus caelestibus uires suas, <lb/>
             et dignationi diuinae maiestatis concedamus operationes proprias, <lb/>
@@ -659,20 +657,19 @@
             ecclesiam reuertitur nolit denuo baptizari, futurum est ut defraudemus <lb/>
             baptismate spiritali eum quem putamus defraudandum non <lb/>
             esse baptismate aquae. <lb n="30"/>
-            
-</p>
-          </div>
-
-<div n="11" subtype="section" type="textpart"><p> Quid autem statues in personam eius uerbum audientis qui forte <lb/>
+            </p>
+         </div>
+         <div n="11" type="section">
+            <p> Quid autem statues in personam eius uerbum audientis qui forte <lb/>
             adprehensus in nomine Christi statim confessus ac priusquam baptizari <lb/>
             aqua permitteretur ei fuerit punitus, utrum perisse eum pronuntiabis <lb/>
             quia non est aqua baptizatus, an uero aliquid extrinsecus
 
 <note type="footnote"> 1 uinorum <hi rend="italic">cod., em. Baluzius</hi> 4 et] ut <hi rend="italic">Big</hi>. libentes <hi rend="italic">Big</hi>. <lb/>
             10 a <hi rend="italic">inchtsi</hi> 18 debet <hi rend="italic">fort</hi>. 22 secutum] seruatum <hi rend="italic">Big</hi>. 26 aut <lb/>
-            si <hi rend="italic">cod</hi>. 27 studiosi. Si <hi rend="italic">Big</hi>. 28 noluit <hi rend="italic">Big</hi>. </note> <lb/>
-             
-<pb n="83"/>
+            si <hi rend="italic">cod</hi>. 27 studiosi. Si <hi rend="italic">Big</hi>. 28 noluit <hi rend="italic">Big</hi>. </note>
+               <lb/>
+               <pb n="83"/>
             patrocinari ei ad salutem existimabis, licet non sit aqua baptizatus ? <lb/>
             quod perisse eum existimabis, obuiam tibi ueniet sententia Domini <lb/>
             dicentis: quicumque me confessus fuerit coram hominibus, <lb/>
@@ -698,11 +695,10 @@
             ipso et per ipsum Dominum possit consummari, et idcirco neque <lb/>
             Christum sine ipsius nomine quis possit confiteri neque nomen Christi <lb/>
             sine ipso Christo ad confessionem cuiquam possit patrocinari. <lb n="25"/>
-            
-</p>
-          </div>
-
-<div n="12" subtype="section" type="textpart"><p>Quapropter totus discernendas est tractatus hic, ut possit manifestior  <lb/>
+            </p>
+         </div>
+         <div n="12" type="section">
+            <p>Quapropter totus discernendas est tractatus hic, ut possit manifestior  <lb/>
             fieri. namque inuocatio nominis Iesu ideo tantum patrocinari <lb/>
             potest, si rite suppleta postea fuerit, quia et prophetae et apostoli ita <lb/>
             praedicanerunt. ait enim Iacobus in actis apostolorum: uiri fratres, <lb/>
@@ -712,14 +708,14 @@
             scriptum est: post haec reuertar et reaedificabo
 
 <note type="footnote"> 3 Matth. 10, 32. 29 Act. 15, 13-17. </note>
-
-<note type="footnote"> 2 quod] quando <hi rend="italic">fort</hi>. 6 dominum <hi rend="italic">scripsi,</hi> domino <hi rend="italic">cod. et v</hi> <lb/>
-            13 nisi <hi rend="italic">addidi</hi> 19 domino <hi rend="italic">Rig</hi>. 21 quae mutila <hi rend="italic">coni. BcUuzius,</hi> <lb/>
+               <note type="footnote"> 2 quod] quando <hi rend="italic">fort</hi>. 6 dominum <hi rend="italic">scripsi,</hi> domino <hi rend="italic">cod. et v</hi>
+                  <lb/>
+            13 nisi <hi rend="italic">addidi</hi> 19 domino <hi rend="italic">Rig</hi>. 21 quae mutila <hi rend="italic">coni. BcUuzius,</hi>
+                  <lb/>
             quam multa <hi rend="italic">cosi. Big.,</hi> quae multa <hi rend="italic">cod. et v</hi> 32 buic] si <hi rend="italic">Rig</hi>. </note>
-
-<note type="footnote"> 6 * </note> <lb/>
-             
-<pb n="84"/>
+               <note type="footnote"> 6 * </note>
+               <lb/>
+               <pb n="84"/>
             tabernaculum illud Dauid quod cecidit et quae demolita <lb/>
             sunt eius reaedificabo, et denuo erigam illud, uti <lb/>
             exquirant residui hominum Deum et omnes gentes <lb/>
@@ -756,12 +752,11 @@
             aliquo honoratus aut confessionis dignitate praeditus. hi enim omnes
 
 <note type="footnote"> 21 Matth. 24, 4. 5. 11. 24 Matth. 24, 23. 24. </note>
-
-<note type="footnote"> 11 iesu] id est iesu <hi rend="italic">Big</hi>. 16 et in] etenim <hi rend="italic">fort</hi>. 18 quoniam] <lb/>
+               <note type="footnote"> 11 iesu] id est iesu <hi rend="italic">Big</hi>. 16 et in] etenim <hi rend="italic">fort</hi>. 18 quoniam] <lb/>
             quam <hi rend="italic">Rig</hi>. 20 illi qui ob pseudochristos forte <hi rend="italic">coni. Oxon</hi>. 32 qui <lb/>
-            <hi rend="italic">inclusi</hi>. </note> <lb/>
-             
-<pb n="85"/>
+                  <hi rend="italic">inclusi</hi>. </note>
+               <lb/>
+               <pb n="85"/>
             negando uerum Christum introducendo aut sequendo alium, cum sit <lb/>
             nullus omnino alius, nihil spei aut salutis sibi relinquunt, non aliter <lb/>
             quam illi qui coram hominibus negauerunt Christum, quos negari <lb/>
@@ -780,9 +775,9 @@
             Christum coram hominibus necesse habuerit, sicut iterum neganti <lb/>
             Christum nulla propria uetus dignitas potest ad salutem patrocinari. 
 </p>
-          </div>
-
-<div n="13" subtype="section" type="textpart"><p>Quodcnmque enim in homine ultimum in hac specie deprehensum  <lb/>
+         </div>
+         <div n="13" type="section">
+            <p>Quodcnmque enim in homine ultimum in hac specie deprehensum  <lb/>
             fuerit, in illo quisque nostrum iudicari necesse habebit, abolitis et obliteratis <lb/>
             omnibus quae prius gessit. et ideo cum in martyrio tanta sit <lb n="20"/>
             mutatio rerum in momento temporis, ut in re perquam ueloci possint <lb/>
@@ -800,11 +795,11 @@
             non habet dilectionem eius Dei et Christi, qui per legem et prophetas
 
 <note type="footnote"> 7 Matth. 10, 33. 30 I. Cor. 13, 3. </note>
-
-<note type="footnote"> 5 ausi] aut si <hi rend="italic">cod</hi>. 14 ac postea <hi rend="italic">Big</hi>. 15 quam <hi rend="italic">om. cod. </hi>? <lb/>
-            18 quocamque <hi rend="italic">coni. Gallandius</hi> 19 quisque <hi rend="italic">scripsi,</hi> quis <hi rend="italic">cod. et b</hi> </note> <lb/>
-             
-<pb n="86"/>
+               <note type="footnote"> 5 ausi] aut si <hi rend="italic">cod</hi>. 14 ac postea <hi rend="italic">Big</hi>. 15 quam <hi rend="italic">om. cod. </hi>? <lb/>
+            18 quocamque <hi rend="italic">coni. Gallandius</hi> 19 quisque <hi rend="italic">scripsi,</hi> quis <hi rend="italic">cod. et b</hi>
+               </note>
+               <lb/>
+               <pb n="86"/>
             et in euangelio in hoc modo praedicatur: diliges Dominum Deum <lb/>
             tuum in toto corde tuo et in tota anima tua et in tota <lb/>
             cogitatione tua, et, diliges proximum tibi tamquam <lb/>
@@ -827,9 +822,9 @@
             secundum euangelium per Christum Iesum, eo quod in ipsum non<lb n="20"/>
             crediderint, licet ipsius nomine abluti sint. 
 </p>
-          </div>
-
-<div n="14" subtype="section" type="textpart"><p> Et usque adeo omne illud haereticorum baptisma intercedente <lb/>
+         </div>
+         <div n="14" type="section">
+            <p> Et usque adeo omne illud haereticorum baptisma intercedente <lb/>
             aliquo interuallo temporis corrigi potest , si quia superuixerit et <lb/>
             fidem correxerit, ut Deus noster in euangelio secundum Lucam ad <lb/>
             discipulos suos locutus est dicens: habeo autem aliud baptisma<lb n="25"/>
@@ -842,12 +837,11 @@
 
 <note type="footnote"> 1 Dent. 6, 5. Matth. 22, 37 -40. 5 I. Io. 4, 7. 8. 7 Io. 3, 16. <lb/>
             25 Luc. 12, 50. 27 Marc. 10, 38. </note>
-
-<note type="footnote"> 12 quando ipsum <hi rend="italic">scripsi,</hi> quam ut ipsa <hi rend="italic">cod.,</hi> quoniam re ipsa coni. <lb/>
-            <hi rend="italic">JBaluzius;</hi> quam ut ipsum appareat et constet <hi rend="italic">coni. Bigaltius</hi> 17 ut <lb/>
-            <hi rend="italic">addidi</hi> 24 deum nostrum <hi rend="italic">cod. et b</hi> 31 dignationem] dilectionem <hi rend="italic">Rig</hi>. </note> <lb/>
-             
-<pb n="87"/>
+               <note type="footnote"> 12 quando ipsum <hi rend="italic">scripsi,</hi> quam ut ipsa <hi rend="italic">cod.,</hi> quoniam re ipsa coni. <lb/>
+                  <hi rend="italic">JBaluzius;</hi> quam ut ipsum appareat et constet <hi rend="italic">coni. Bigaltius</hi> 17 ut <lb/>
+                  <hi rend="italic">addidi</hi> 24 deum nostrum <hi rend="italic">cod. et b</hi> 31 dignationem] dilectionem <hi rend="italic">Rig</hi>. </note>
+               <lb/>
+               <pb n="87"/>
             baptizari, aeque tamen unum baptisma salutis et honoris pariter et aequaliter <lb/>
             consequi. quod enim dictum est a Domino: habeo aliud baptisma <lb/>
             baptizari, hoc in loco non ut secundum baptisma ac si <lb/>
@@ -880,19 +874,18 @@
             atque eiusdem species, cum unum esse debeat baptisma uniuscuiusque <lb n="30"/>
             species, sicut plenius sumus locuti. 
 </p>
-          </div>
-
-<div n="15" subtype="section" type="textpart"><p>Et quoniam uidemnr omne baptisma spiritale trifariam diuisisse,  <lb/>
+         </div>
+         <div n="15" type="section">
+            <p>Et quoniam uidemnr omne baptisma spiritale trifariam diuisisse,  <lb/>
             ueniamus etiam ad probationem narrationis propositae, ne uideamur <lb/>
             proprio sensu et temere hoc fecisse. ait enim Ioannes de Domino <lb/>
             nostro in epistola sua nos docens: hic est qui uenit per aquam
 
 <note type="footnote"> 17 Io. 7, 38. 24 Io. 7, 39. 35 I Io. 5, 6. 8. , </note>
-
-<note type="footnote"> 3 si om. <hi rend="italic">Big</hi>. 6 initiari] ministrari <hi rend="italic">Big</hi>. 7 non <hi rend="italic">scripsi,</hi> hoc <lb/>
-            <hi rend="italic">eod. et v</hi> 21 utroue <hi rend="italic">fort</hi>. </note> <lb n="35"/>
-             
-<pb n="88"/>
+               <note type="footnote"> 3 si om. <hi rend="italic">Big</hi>. 6 initiari] ministrari <hi rend="italic">Big</hi>. 7 non <hi rend="italic">scripsi,</hi> hoc <lb/>
+                  <hi rend="italic">eod. et v</hi> 21 utroue <hi rend="italic">fort</hi>. </note>
+               <lb n="35"/>
+               <pb n="88"/>
             et sanguinem Iesus Christus, non in aqua tantum, sed <lb/>
             in aqua et sanguine. et spiritus est qui testimonium <lb/>
             perhibet, quia spiritus est ueritas: quia tres testimonium <lb/>
@@ -928,11 +921,10 @@
             unde ueniat aut quo uadat. ita ut idem spiritus etiam super
 
 <note type="footnote"> 11 Act. 2, 17. 18. 21 Num. 11, 17. 32 Io. 3, 8. </note>
-
-<note type="footnote"> 5 in unum <hi rend="italic">Rig</hi>. 6 <hi rend="italic">prius</hi> spiritum <hi rend="italic">om. cod</hi>. 28 ab alio] ablato <lb/>
-            <hi rend="italic">fort</hi>. </note> <lb/>
-             
-<pb n="89"/>
+               <note type="footnote"> 5 in unum <hi rend="italic">Rig</hi>. 6 <hi rend="italic">prius</hi> spiritum <hi rend="italic">om. cod</hi>. 28 ab alio] ablato <lb/>
+                  <hi rend="italic">fort</hi>. </note>
+               <lb/>
+               <pb n="89"/>
             indignos quoque sui nonnumquam inueniatur esse, non utique otiose <lb/>
             nec sine ratione, sed necessariae alicuius operationis gratia: sicuti <lb/>
             super Saul fuit, super quem factus est spiritus Dei et prophetauit, <lb/>
@@ -953,9 +945,9 @@
             exposuimus, sanctissima inuocatione, custodita praeterea tanti <lb/>
             temporis tot uirorum ueneranda nobis consuetudine et auctoritate. 
 </p>
-          </div>
-
-<div n="16" subtype="section" type="textpart"><p>Quoniam autem prima pars disputationis huius uidetur explicata,  <lb n="20"/>
+         </div>
+         <div n="16" type="section">
+            <p>Quoniam autem prima pars disputationis huius uidetur explicata,  <lb n="20"/>
             etiam sequentem eius propter haereticos debemus attingere, quia <lb/>
             perquam necessarium est eum tractatum qui semel in manus incidit <lb/>
             non praeterire, ne forte eos qui sunt simpliciores ex fratribus aliquis <lb/>
@@ -973,11 +965,11 @@
             et agunt isti haec omnia dum fallere cupiunt eos qui sunt
 
 <note type="footnote"> 3 I Reg. 19, 23. 31 Act. 8, 20. 21. </note>
-
-<note type="footnote"> 4 quamquam] quoniam <hi rend="italic">fort</hi>. 5 a domino) adm. <hi rend="italic">cod</hi>. 10 illos <lb/>
-            om. <hi rend="italic">Rig</hi>. 16 obseruare <hi rend="italic">Big</hi>. 27 uersutissimi <hi rend="italic">Baiueius</hi> </note> <lb n="35"/>
-             
-<pb n="90"/>
+               <note type="footnote"> 4 quamquam] quoniam <hi rend="italic">fort</hi>. 5 a domino) adm. <hi rend="italic">cod</hi>. 10 illos <lb/>
+            om. <hi rend="italic">Rig</hi>. 16 obseruare <hi rend="italic">Big</hi>. 27 uersutissimi <hi rend="italic">Baiueius</hi>
+               </note>
+               <lb n="35"/>
+               <pb n="90"/>
             simplicioores aut curiosiores, et temptant nonnulli illorum tractare se solos <lb/>
             integrum atque perfectum, non sicuti nos mutilatum et decurtatum, <lb/>
             baptisma tradere, quod taliter dicuntur adsignare ut quam mox in <lb/>
@@ -993,9 +985,9 @@
             uelit dicere, hac ratione constat eum uetere sacramento exauctoratum <lb/>
             esse. 
 </p>
-          </div>
-
-<div n="17" subtype="section" type="textpart"><p> Item si huiusmodi homo rursus ad te redeat, utique haesitabis <lb n="15"/>
+         </div>
+         <div n="17" type="section">
+            <p> Item si huiusmodi homo rursus ad te redeat, utique haesitabis <lb n="15"/>
             utrum habeat baptisma necne: et tamen oportebit te huic quoque paenitentiam <lb/>
             agenti quibuscumque modis potueris subuenire. est autem <lb/>
             adulterini huius immo internecini baptismatis si qui alius auctor, tum <lb/>
@@ -1017,10 +1009,11 @@
             discipulos ut in illo baptizarentur, uisae sunt insidentes super
 
 <note type="footnote"> 1 illorum] iterum <hi rend="italic">Rig</hi>. 3 dicantur <hi rend="italic">JRig</hi>. 20 Paulli <hi rend="italic">cod.,</hi> Petri <lb/>
-            <hi rend="italic">Bigaltius; cf. Clem. Alex. Strom. VI. p</hi>. 639, <hi rend="italic">Lactant. lnst. IV c. 21</hi> <lb/>
-            26 cogitationem et <hi rend="italic">om. Big</hi>. 34 ut] et <hi rend="italic">Big</hi>. </note> <lb/>
-             
-<pb n="91"/>
+                  <hi rend="italic">Bigaltius; cf. Clem. Alex. Strom. VI. p</hi>. 639, <hi rend="italic">Lactant. lnst. IV c. 21</hi>
+                  <lb/>
+            26 cogitationem et <hi rend="italic">om. Big</hi>. 34 ut] et <hi rend="italic">Big</hi>. </note>
+               <lb/>
+               <pb n="91"/>
             singulos linguae quasi ignis, ut constaret eos spiritu sancto et in igne <lb/>
             baptizatos, hoc est eo spiritu qui esset siue ignis siue quasi ignis, <lb/>
             qualis ignis fuit qui in rubo ardebat et rubum non comburebat qualisque <lb/>
@@ -1031,9 +1024,9 @@
             in die iudicii conflagrabit totum orbem terrae absque eis qui baptizati <lb/>
             sunt in spiritu sancto et igni. 
 </p>
-          </div>
-
-<div n="18" subtype="section" type="textpart"><p>Et hominibus quidem spiritus perseuerat hodie inuisibilis, sicut  <lb n="10"/>
+         </div>
+         <div n="18" type="section">
+            <p>Et hominibus quidem spiritus perseuerat hodie inuisibilis, sicut  <lb n="10"/>
             Dominus dicit: spiritus ubi uult spirat, et nescis unde <lb/>
             ueniant uel quo uadat. sed in principio mysterii fidei et spiritalis <lb/>
             baptismatis hic idem spiritus manifeste uisus est et super discipulos <lb/>
@@ -1058,16 +1051,15 @@
 
 <note type="footnote"> 5 Ps. 103, 4. 11 Io. 3, 8. 20 Matth. 9, 2. 25 Luc. <lb/>
             7, 48 sq. </note>
-
-<note type="footnote"> 5 fecit <hi rend="italic">Big</hi>. 19 aliud] illud <hi rend="italic">Big</hi>. 23 etiam <hi rend="italic">om. Big</hi>. <lb/>
+               <note type="footnote"> 5 fecit <hi rend="italic">Big</hi>. 19 aliud] illud <hi rend="italic">Big</hi>. 23 etiam <hi rend="italic">om. Big</hi>. <lb/>
             30 lauacri <hi rend="italic">Bdg</hi>. 31 ad salutis praemia puto <hi rend="italic">non distinguit<lb/>
-             Bahuius</hi> </note> 
-<pb n="92"/>
-            
-</p>
-          </div>
-
-<div n="19" subtype="section" type="textpart"><p> Puto nos plene exsecutos praedicationem baptistae Ioannis, unde <lb/>
+             Bahuius</hi>
+               </note>
+               <pb n="92"/>
+            </p>
+         </div>
+         <div n="19" type="section">
+            <p> Puto nos plene exsecutos praedicationem baptistae Ioannis, unde <lb/>
             sermonem sumus exorsi, qui dixit ad ludaeos: ego quidem nos <lb/>
             baptizo aqua in poenitentiam. qui autem post me uenit <lb/>
             fortior me est, cuius ego non sum dignus soluere corrigiam <lb/>
@@ -1084,9 +1076,7 @@
             sola deberet apud homines timorem Dei habentes et humiles praecipuum<lb n="15"/>
             locum obtinere. 
 </p>
-        
-</div>
-        </div>
-</body>
-</text>
+         </div>
+      </body>
+   </text>
 </TEI>
