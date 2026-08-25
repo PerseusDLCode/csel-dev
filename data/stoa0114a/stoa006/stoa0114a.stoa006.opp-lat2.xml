@@ -76,6 +76,11 @@
                          matchPattern="(.+)"
                          replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:p[@n='$1'])"/>
          </refsDecl>
+         <refsDecl xml:id="CTS">
+            <citeStructure match="/TEI/text/body" use="@xml:base">
+               <citeStructure unit="edition" delim=":" match="div[@type='edition']" use="@n" n="chunk"/>
+            </citeStructure>
+         </refsDecl>
       </encodingDesc>
       <profileDesc>
          <textClass>
@@ -89,8 +94,8 @@
          </langUsage>
       </profileDesc>
    </teiHeader>
-   <text>
-      <body>
+   <text xml:lang="lat">
+      <body xml:base="urn:cts:latinLit:stoa0114a.stoa006.opp-lat2">
          <div type="edition"
               xml:lang="lat"
               n="urn:cts:latinLit:stoa0114a.stoa006.opp-lat2">

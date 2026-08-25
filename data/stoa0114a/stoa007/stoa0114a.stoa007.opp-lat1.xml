@@ -77,9 +77,8 @@
                          matchPattern="(.+)"
                          replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:p[@n='$1'])"/>
          </refsDecl>
-         <refsDecl n="CTS">
-            <citeStructure match="/TEI/text/body" use="@xml:base">
-               <citeStructure unit="line" delim="." match="l" use="@n"/>
+         <refsDecl xml:id="CTS">
+            <citeStructure match="/TEI/text/body" use="@xml:base" n="chunk">
             </citeStructure>
          </refsDecl>
       </encodingDesc>
@@ -92,7 +91,7 @@
          </langUsage>
       </profileDesc>
    </teiHeader>
-   <text>
+   <text xml:lang="lat">
       <body xml:base="urn:cts:latinLit:stoa0114a.stoa007.opp-lat1">
          <ab>
             <title type="sub">VI. ENNODIVS AMBROSIO ET BEATO. </title>
