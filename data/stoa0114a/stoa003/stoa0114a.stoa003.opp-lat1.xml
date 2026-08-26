@@ -86,7 +86,7 @@
          <refsDecl n="CTS">
             <citeStructure match="/TEI/text/body" use="@xml:base">
                <citeStructure unit="book" delim=":" match="div[@type='book']" use="@n">
-                  <citeStructure unit="poem" delim="." match="poem" use="@n" n="chunk"/>
+                  <citeStructure unit="poem" delim="." match="div[@type='poem']" use="@n" n="chunk"/>
                </citeStructure>
             </citeStructure>
          </refsDecl>
