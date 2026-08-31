@@ -83,10 +83,10 @@
                          matchPattern="(.+)"
                          replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1'])"/>
          </refsDecl>
-         <refsDecl n="CTS">
+         <refsDecl xml:id="CTS">
             <citeStructure match="/TEI/text/body" use="@xml:base">
                <citeStructure unit="chapter" delim=":" match="div[@type='chapter']" use="@n">
-                  <citeStructure unit="section" delim="." match="div[@type='section']" use="@n"/>
+                  <citeStructure unit="section" delim="." match="div[@type='section']" use="@n" n="chunk"/>
                </citeStructure>
             </citeStructure>
          </refsDecl>
@@ -100,7 +100,7 @@
          </langUsage>
       </profileDesc>
    </teiHeader>
-   <text>
+   <text xml:lang="lat">
       <body xml:base="urn:cts:latinLit:stoa0111.stoa001.opp-lat3">
          <ab>
             <title type="sub">(MVLTA DESVNT)</title>

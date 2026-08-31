@@ -83,7 +83,9 @@
          </refsDecl>
          <refsDecl n="CTS">
             <citeStructure match="/TEI/text/body" use="@xml:base">
-               <citeStructure unit="section" delim="." match="div[@type='section']" use="@n"/>
+               <citeStructure unit="letter" delim="." match="div[@type='letter']" use="@n">
+                  <citeStructure unit="section" delim="." match="div[@type='section']" use="@n" n="chunk"/>
+               </citeStructure>
             </citeStructure>
          </refsDecl>
       </encodingDesc>
@@ -99,7 +101,7 @@
          <change when="2021-11-23" who="Alison Babeu">Merged two files; incorporated stoa0045a.stoa002.opp.lat-1 into this file.</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:lang="lat">
       <body xml:base="urn:cts:latinLit:stoa0045a.stoa001.opp-lat1">
          <div n="1" type="letter">
             <ab>

@@ -91,7 +91,7 @@
             <citeStructure match="/TEI/text/body" use="@xml:base">
                <citeStructure unit="book" delim=":" match="div[@type='book']" use="@n">
                   <citeStructure unit="chapter" delim="." match="div[@type='chapter']" use="@n">
-                     <citeStructure unit="section" delim="." match="div[@type='section']" use="@n"/>
+                     <citeStructure unit="section" delim="." match="div[@type='section']" use="@n" n="chunk"/>
                   </citeStructure>
                </citeStructure>
             </citeStructure>
@@ -111,7 +111,7 @@
          <change who="Alison Babeu" when="2022-04-12">Merged two files to create the volume for this one work</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:lang="lat">
       <body xml:base="urn:cts:latinLit:stoa0022a.stoa001.opp-lat1">
          <div n="main" type="book">
             <head>

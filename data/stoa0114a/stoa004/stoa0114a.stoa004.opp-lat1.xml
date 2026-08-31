@@ -77,9 +77,9 @@
                          matchPattern="(.+)"
                          replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1'])"/>
          </refsDecl>
-         <refsDecl n="CTS">
+         <refsDecl xml:id="CTS">
             <citeStructure match="/TEI/text/body" use="@xml:base">
-               <citeStructure unit="line" delim="." match="l" use="@n"/>
+               <citeStructure unit="dictio" delim="." match="dictio" use="@n" n="chunk"/>
             </citeStructure>
          </refsDecl>
       </encodingDesc>
@@ -92,7 +92,7 @@
          </langUsage>
       </profileDesc>
    </teiHeader>
-   <text>
+   <text xml:lang="lat">
       <body xml:base="urn:cts:latinLit:stoa0114a.stoa004.opp-lat1">
          <head>
             <title type="main">DICTIONES. </title>

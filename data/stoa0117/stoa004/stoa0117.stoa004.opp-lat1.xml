@@ -82,9 +82,9 @@
                          matchPattern="(.+)"
                          replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1'])"/>
          </refsDecl>
-         <refsDecl n="CTS">
+         <refsDecl xml:id="CTS" n="CTS">
             <citeStructure match="/TEI/text/body" use="@xml:base">
-               <citeStructure unit="section" delim="." match="div[@type='section']" use="@n"/>
+               <citeStructure unit="section" delim="." match="div[@type='section']" use="@n" n="chunk"/>
             </citeStructure>
          </refsDecl>
       </encodingDesc>
@@ -97,7 +97,7 @@
          </langUsage>
       </profileDesc>
    </teiHeader>
-   <text>
+   <text xml:lang="lat">
       <body xml:base="urn:cts:latinLit:stoa0117.stoa004.opp-lat1">
          <head>
             <title type="main">PASSIO AGAUNENSIUM MARTVRUM. </title>

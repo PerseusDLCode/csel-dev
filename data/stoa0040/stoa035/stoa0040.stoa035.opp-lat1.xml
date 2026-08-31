@@ -83,7 +83,7 @@
          </refsDecl>
          <refsDecl n="CTS">
             <citeStructure match="/TEI/text/body" use="@xml:base">
-               <citeStructure unit="section" delim="." match="div[@type='section']" use="@n"/>
+               <citeStructure unit="section" delim="." match="div[@type='section']" use="@n" n="chunk"/>
             </citeStructure>
          </refsDecl>
       </encodingDesc>
@@ -96,7 +96,7 @@
          </langUsage>
       </profileDesc>
    </teiHeader>
-   <text>
+   <text xml:lang="lat">
       <body xml:base="urn:cts:latinLit:stoa0040.stoa035.opp-lat1">
          <ab>
             <title type="sub">V. DE BONO CONIVGALI. </title>

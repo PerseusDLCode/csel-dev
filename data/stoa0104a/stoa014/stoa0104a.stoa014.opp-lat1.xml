@@ -84,7 +84,7 @@
          <refsDecl n="CTS">
             <citeStructure match="/TEI/text/body" use="@xml:base">
                <citeStructure unit="book" delim=":" match="div[@type='book']" use="@n">
-                  <citeStructure unit="section" delim="." match="div[@type='section']" use="@n"/>
+                  <citeStructure unit="section" delim="." match="div[@type='section']" use="@n" n="chunk"/>
                </citeStructure>
             </citeStructure>
          </refsDecl>
@@ -98,7 +98,7 @@
          </langUsage>
       </profileDesc>
    </teiHeader>
-   <text>
+   <text xml:lang="lat">
       <body xml:base="urn:cts:latinLit:stoa0104a.stoa014.opp-lat1">
          <head>
             <title type="main">THASCI CAECILI CVPRIANI AD QVIRINVM (TESTIMONIORVM LIBRI TRES). </title>

@@ -82,7 +82,7 @@
          </refsDecl>
          <refsDecl n="CTS">
             <citeStructure match="/TEI/text/body" use="@xml:base">
-               <citeStructure unit="chapter" delim="." match="div[@type='chapter']" use="@n"/>
+               <citeStructure unit="chapter" delim="." match="div[@type='chapter']" use="@n" n="chunk"/>
             </citeStructure>
          </refsDecl>
       </encodingDesc>
@@ -95,7 +95,7 @@
          </langUsage>
       </profileDesc>
    </teiHeader>
-   <text>
+   <text xml:lang="lat">
       <body xml:base="urn:cts:latinLit:stoa0054.stoa001a.opp-lat1">
          <div n="1" type="chapter">
             <ab>

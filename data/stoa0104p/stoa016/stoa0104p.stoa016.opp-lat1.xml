@@ -78,7 +78,8 @@
                <citeStructure unit="epistle"
                               delim=":"
                               match=".//div[@type='textpart'][@subtype='epistle' or @subtype='letter']"
-                              use="@n"/>
+                              use="@n"
+                              n="chunk"/>
             </citeStructure>
          </refsDecl>
       </encodingDesc>
@@ -91,7 +92,7 @@
          </langUsage>
       </profileDesc>
    </teiHeader>
-   <text>
+   <text xml:lang="lat">
       <body xml:base="urn:cts:latinLit:stoa0104p.stoa016.opp-lat1">
          <head>
             <title type="main">XVI. EPISTVLAE. </title>
